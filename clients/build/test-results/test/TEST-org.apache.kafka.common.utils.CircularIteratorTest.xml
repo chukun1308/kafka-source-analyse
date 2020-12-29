@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.apache.kafka.common.utils.CircularIteratorTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-10-29T02:34:18" hostname="chukun-mac" time="0.004">
+  <properties/>
+  <testcase name="testCycleCollection" classname="org.apache.kafka.common.utils.CircularIteratorTest" time="0.001"/>
+  <testcase name="testEmptyCollection" classname="org.apache.kafka.common.utils.CircularIteratorTest" time="0.001"/>
+  <testcase name="testNullCollection" classname="org.apache.kafka.common.utils.CircularIteratorTest" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

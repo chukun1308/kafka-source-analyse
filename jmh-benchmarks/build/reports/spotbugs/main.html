@@ -1,0 +1,270 @@
+
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+   <head>
+      <title>SpotBugs Report</title>
+      <style type="text/css">
+		.tablerow0 {
+			background: #EEEEEE;
+		}
+
+		.tablerow1 {
+			background: white;
+		}
+
+		.detailrow0 {
+			background: #EEEEEE;
+		}
+
+		.detailrow1 {
+			background: white;
+		}
+
+		.tableheader {
+			background: #b9b9fe;
+			font-size: larger;
+		}
+
+		.tablerow0:hover, .tablerow1:hover {
+			background: #aaffaa;
+		}
+
+		.priority-1 {
+				color: red;
+				font-weight: bold;
+		}
+		.priority-2 {
+				color: orange;
+				font-weight: bold;
+		}
+		.priority-3 {
+				color: green;
+				font-weight: bold;
+		}
+		.priority-4 {
+				color: blue;
+				font-weight: bold;
+		}
+		</style>
+      <script type="text/javascript">
+			function toggleRow(elid) {
+				if (document.getElementById) {
+					element = document.getElementById(elid);
+					if (element) {
+						if (element.style.display == 'none') {
+							element.style.display = 'block';
+							//window.status = 'Toggle on!';
+						} else {
+							element.style.display = 'none';
+							//window.status = 'Toggle off!';
+						}
+					}
+				}
+			}
+		</script>
+   </head>
+   <body>
+      <h1>
+         <a href="https://spotbugs.github.io/">SpotBugs</a> Report</h1>
+      <h2>Project Information</h2>
+      <p>Project: 
+		kafka (spotbugsMain)</p>
+      <p>SpotBugs version: 4.0.6</p>
+      <p>Code analyzed:</p>
+      <ul>
+         <li>/Users/chukun/work/sourcecode/kafka/jmh-benchmarks/build/classes/java/main/org/apache/kafka/jmh/producer/generated/ProducerRecordBenchmark_jmhType_B3.class</li>
+         <li>/Users/chukun/work/sourcecode/kafka/jmh-benchmarks/build/classes/java/main/org/apache/kafka/jmh/producer/generated/ProducerRecordBenchmark_jmhType_B1.class</li>
+         <li>/Users/chukun/work/sourcecode/kafka/jmh-benchmarks/build/classes/java/main/org/apache/kafka/jmh/producer/generated/ProducerRecordBenchmark_constructorBenchmark_jmhTest.class</li>
+         <li>/Users/chukun/work/sourcecode/kafka/jmh-benchmarks/build/classes/java/main/org/apache/kafka/jmh/producer/generated/ProducerRecordBenchmark_jmhType.class</li>
+         <li>/Users/chukun/work/sourcecode/kafka/jmh-benchmarks/build/classes/java/main/org/apache/kafka/jmh/producer/generated/ProducerRecordBenchmark_jmhType_B2.class</li>
+         <li>/Users/chukun/work/sourcecode/kafka/jmh-benchmarks/build/classes/java/main/org/apache/kafka/jmh/producer/ProducerRecordBenchmark.class</li>
+         <li>/Users/chukun/work/sourcecode/kafka/jmh-benchmarks/build/classes/java/main/org/apache/kafka/jmh/record/generated/UncompressedRecordBatchValidationBenchmark_jmhType_B2.class</li>
+         <li>/Users/chukun/work/sourcecode/kafka/jmh-benchmarks/build/classes/java/main/org/apache/kafka/jmh/record/generated/RecordBatchIterationBenchmark_measureStreamingIteratorForVariableBatchSize_jmhTest.class</li>
+         <li>/Users/chukun/work/sourcecode/kafka/jmh-benchmarks/build/classes/java/main/org/apache/kafka/jmh/record/generated/CompressedRecordBatchValidationBenchmark_jmhType_B3.class</li>
+         <li>/Users/chukun/work/sourcecode/kafka/jmh-benchmarks/build/classes/java/main/org/apache/kafka/jmh/record/generated/UncompressedRecordBatchValidationBenchmark_measureAssignOffsetsNonCompressed_jmhTest.class</li>
+         <li>/Users/chukun/work/sourcecode/kafka/jmh-benchmarks/build/classes/java/main/org/apache/kafka/jmh/record/generated/CompressedRecordBatchValidationBenchmark_jmhType_B1.class</li>
+         <li>/Users/chukun/work/sourcecode/kafka/jmh-benchmarks/build/classes/java/main/org/apache/kafka/jmh/record/generated/RecordBatchIterationBenchmark_measureSkipIteratorForVariableBatchSize_jmhTest.class</li>
+         <li>/Users/chukun/work/sourcecode/kafka/jmh-benchmarks/build/classes/java/main/org/apache/kafka/jmh/record/generated/UncompressedRecordBatchValidationBenchmark_jmhType_B1.class</li>
+         <li>/Users/chukun/work/sourcecode/kafka/jmh-benchmarks/build/classes/java/main/org/apache/kafka/jmh/record/generated/UncompressedRecordBatchValidationBenchmark_jmhType_B3.class</li>
+         <li>/Users/chukun/work/sourcecode/kafka/jmh-benchmarks/build/classes/java/main/org/apache/kafka/jmh/record/generated/RecordBatchIterationBenchmark_jmhType.class</li>
+         <li>/Users/chukun/work/sourcecode/kafka/jmh-benchmarks/build/classes/java/main/org/apache/kafka/jmh/record/generated/RecordBatchIterationBenchmark_measureIteratorForBatchWithSingleMessage_jmhTest.class</li>
+         <li>/Users/chukun/work/sourcecode/kafka/jmh-benchmarks/build/classes/java/main/org/apache/kafka/jmh/record/generated/UncompressedRecordBatchValidationBenchmark_jmhType.class</li>
+         <li>/Users/chukun/work/sourcecode/kafka/jmh-benchmarks/build/classes/java/main/org/apache/kafka/jmh/record/generated/CompressedRecordBatchValidationBenchmark_jmhType_B2.class</li>
+         <li>/Users/chukun/work/sourcecode/kafka/jmh-benchmarks/build/classes/java/main/org/apache/kafka/jmh/record/generated/CompressedRecordBatchValidationBenchmark_measureValidateMessagesAndAssignOffsetsCompressed_jmhTest.class</li>
+         <li>/Users/chukun/work/sourcecode/kafka/jmh-benchmarks/build/classes/java/main/org/apache/kafka/jmh/record/generated/RecordBatchIterationBenchmark_jmhType_B2.class</li>
+         <li>/Users/chukun/work/sourcecode/kafka/jmh-benchmarks/build/classes/java/main/org/apache/kafka/jmh/record/generated/RecordBatchIterationBenchmark_jmhType_B1.class</li>
+         <li>/Users/chukun/work/sourcecode/kafka/jmh-benchmarks/build/classes/java/main/org/apache/kafka/jmh/record/generated/CompressedRecordBatchValidationBenchmark_jmhType.class</li>
+         <li>/Users/chukun/work/sourcecode/kafka/jmh-benchmarks/build/classes/java/main/org/apache/kafka/jmh/record/generated/RecordBatchIterationBenchmark_jmhType_B3.class</li>
+         <li>/Users/chukun/work/sourcecode/kafka/jmh-benchmarks/build/classes/java/main/org/apache/kafka/jmh/record/BaseRecordBatchBenchmark$2.class</li>
+         <li>/Users/chukun/work/sourcecode/kafka/jmh-benchmarks/build/classes/java/main/org/apache/kafka/jmh/record/BaseRecordBatchBenchmark$1.class</li>
+         <li>/Users/chukun/work/sourcecode/kafka/jmh-benchmarks/build/classes/java/main/org/apache/kafka/jmh/record/RecordBatchIterationBenchmark.class</li>
+         <li>/Users/chukun/work/sourcecode/kafka/jmh-benchmarks/build/classes/java/main/org/apache/kafka/jmh/record/BaseRecordBatchBenchmark$Bytes.class</li>
+         <li>/Users/chukun/work/sourcecode/kafka/jmh-benchmarks/build/classes/java/main/org/apache/kafka/jmh/record/UncompressedRecordBatchValidationBenchmark.class</li>
+         <li>/Users/chukun/work/sourcecode/kafka/jmh-benchmarks/build/classes/java/main/org/apache/kafka/jmh/record/CompressedRecordBatchValidationBenchmark.class</li>
+         <li>/Users/chukun/work/sourcecode/kafka/jmh-benchmarks/build/classes/java/main/org/apache/kafka/jmh/record/BaseRecordBatchBenchmark.class</li>
+         <li>/Users/chukun/work/sourcecode/kafka/jmh-benchmarks/build/classes/java/main/org/apache/kafka/jmh/cache/generated/LRUCacheBenchmark_jmhType_B1.class</li>
+         <li>/Users/chukun/work/sourcecode/kafka/jmh-benchmarks/build/classes/java/main/org/apache/kafka/jmh/cache/generated/LRUCacheBenchmark_jmhType_B3.class</li>
+         <li>/Users/chukun/work/sourcecode/kafka/jmh-benchmarks/build/classes/java/main/org/apache/kafka/jmh/cache/generated/LRUCacheBenchmark_testCachePerformance_jmhTest.class</li>
+         <li>/Users/chukun/work/sourcecode/kafka/jmh-benchmarks/build/classes/java/main/org/apache/kafka/jmh/cache/generated/LRUCacheBenchmark_jmhType.class</li>
+         <li>/Users/chukun/work/sourcecode/kafka/jmh-benchmarks/build/classes/java/main/org/apache/kafka/jmh/cache/generated/LRUCacheBenchmark_jmhType_B2.class</li>
+         <li>/Users/chukun/work/sourcecode/kafka/jmh-benchmarks/build/classes/java/main/org/apache/kafka/jmh/cache/LRUCacheBenchmark.class</li>
+         <li>/Users/chukun/work/sourcecode/kafka/jmh-benchmarks/build/classes/java/main/org/apache/kafka/jmh/fetcher/generated/ReplicaFetcherThreadBenchmark_jmhType_B1.class</li>
+         <li>/Users/chukun/work/sourcecode/kafka/jmh-benchmarks/build/classes/java/main/org/apache/kafka/jmh/fetcher/generated/ReplicaFetcherThreadBenchmark_jmhType_B3.class</li>
+         <li>/Users/chukun/work/sourcecode/kafka/jmh-benchmarks/build/classes/java/main/org/apache/kafka/jmh/fetcher/generated/ReplicaFetcherThreadBenchmark_jmhType_B2.class</li>
+         <li>/Users/chukun/work/sourcecode/kafka/jmh-benchmarks/build/classes/java/main/org/apache/kafka/jmh/fetcher/generated/ReplicaFetcherThreadBenchmark_testFetcher_jmhTest.class</li>
+         <li>/Users/chukun/work/sourcecode/kafka/jmh-benchmarks/build/classes/java/main/org/apache/kafka/jmh/fetcher/generated/ReplicaFetcherThreadBenchmark_jmhType.class</li>
+         <li>/Users/chukun/work/sourcecode/kafka/jmh-benchmarks/build/classes/java/main/org/apache/kafka/jmh/fetcher/ReplicaFetcherThreadBenchmark$1.class</li>
+         <li>/Users/chukun/work/sourcecode/kafka/jmh-benchmarks/build/classes/java/main/org/apache/kafka/jmh/fetcher/ReplicaFetcherThreadBenchmark$ReplicaFetcherBenchThread.class</li>
+         <li>/Users/chukun/work/sourcecode/kafka/jmh-benchmarks/build/classes/java/main/org/apache/kafka/jmh/fetcher/ReplicaFetcherThreadBenchmark.class</li>
+         <li>/Users/chukun/work/sourcecode/kafka/jmh-benchmarks/build/classes/java/main/org/apache/kafka/jmh/fetcher/ReplicaFetcherThreadBenchmark$ReplicaFetcherBenchThread$1.class</li>
+         <li>/Users/chukun/work/sourcecode/kafka/jmh-benchmarks/build/classes/java/main/org/apache/kafka/jmh/fetcher/ReplicaFetcherThreadBenchmark$DelayedOperationsMock.class</li>
+         <li>/Users/chukun/work/sourcecode/kafka/jmh-benchmarks/build/classes/java/main/org/apache/kafka/jmh/server/generated/CheckpointBench_measureCheckpointHighWatermarks_jmhTest.class</li>
+         <li>/Users/chukun/work/sourcecode/kafka/jmh-benchmarks/build/classes/java/main/org/apache/kafka/jmh/server/generated/CheckpointBench_jmhType_B2.class</li>
+         <li>/Users/chukun/work/sourcecode/kafka/jmh-benchmarks/build/classes/java/main/org/apache/kafka/jmh/server/generated/CheckpointBench_jmhType.class</li>
+         <li>/Users/chukun/work/sourcecode/kafka/jmh-benchmarks/build/classes/java/main/org/apache/kafka/jmh/server/generated/CheckpointBench_jmhType_B1.class</li>
+         <li>/Users/chukun/work/sourcecode/kafka/jmh-benchmarks/build/classes/java/main/org/apache/kafka/jmh/server/generated/CheckpointBench_measureCheckpointLogStartOffsets_jmhTest.class</li>
+         <li>/Users/chukun/work/sourcecode/kafka/jmh-benchmarks/build/classes/java/main/org/apache/kafka/jmh/server/generated/CheckpointBench_jmhType_B3.class</li>
+         <li>/Users/chukun/work/sourcecode/kafka/jmh-benchmarks/build/classes/java/main/org/apache/kafka/jmh/server/CheckpointBench.class</li>
+         <li>/Users/chukun/work/sourcecode/kafka/jmh-benchmarks/build/classes/java/main/org/apache/kafka/jmh/server/CheckpointBench$1.class</li>
+         <li>/Users/chukun/work/sourcecode/kafka/jmh-benchmarks/build/classes/java/main/org/apache/kafka/jmh/common/generated/TopicBenchmark_jmhType_B2.class</li>
+         <li>/Users/chukun/work/sourcecode/kafka/jmh-benchmarks/build/classes/java/main/org/apache/kafka/jmh/common/generated/FetchRequestBenchmark_testSerializeFetchRequestForReplica_jmhTest.class</li>
+         <li>/Users/chukun/work/sourcecode/kafka/jmh-benchmarks/build/classes/java/main/org/apache/kafka/jmh/common/generated/TopicBenchmark_BenchState_jmhType_B2.class</li>
+         <li>/Users/chukun/work/sourcecode/kafka/jmh-benchmarks/build/classes/java/main/org/apache/kafka/jmh/common/generated/TopicBenchmark_jmhType.class</li>
+         <li>/Users/chukun/work/sourcecode/kafka/jmh-benchmarks/build/classes/java/main/org/apache/kafka/jmh/common/generated/FetchRequestBenchmark_jmhType_B1.class</li>
+         <li>/Users/chukun/work/sourcecode/kafka/jmh-benchmarks/build/classes/java/main/org/apache/kafka/jmh/common/generated/FetchRequestBenchmark_testSerializeFetchRequestForConsumer_jmhTest.class</li>
+         <li>/Users/chukun/work/sourcecode/kafka/jmh-benchmarks/build/classes/java/main/org/apache/kafka/jmh/common/generated/FetchResponseBenchmark_jmhType_B1.class</li>
+         <li>/Users/chukun/work/sourcecode/kafka/jmh-benchmarks/build/classes/java/main/org/apache/kafka/jmh/common/generated/FetchResponseBenchmark_jmhType_B3.class</li>
+         <li>/Users/chukun/work/sourcecode/kafka/jmh-benchmarks/build/classes/java/main/org/apache/kafka/jmh/common/generated/FetchRequestBenchmark_jmhType_B3.class</li>
+         <li>/Users/chukun/work/sourcecode/kafka/jmh-benchmarks/build/classes/java/main/org/apache/kafka/jmh/common/generated/TopicBenchmark_jmhType_B1.class</li>
+         <li>/Users/chukun/work/sourcecode/kafka/jmh-benchmarks/build/classes/java/main/org/apache/kafka/jmh/common/generated/TopicBenchmark_BenchState_jmhType_B3.class</li>
+         <li>/Users/chukun/work/sourcecode/kafka/jmh-benchmarks/build/classes/java/main/org/apache/kafka/jmh/common/generated/FetchRequestBenchmark_jmhType.class</li>
+         <li>/Users/chukun/work/sourcecode/kafka/jmh-benchmarks/build/classes/java/main/org/apache/kafka/jmh/common/generated/TopicBenchmark_jmhType_B3.class</li>
+         <li>/Users/chukun/work/sourcecode/kafka/jmh-benchmarks/build/classes/java/main/org/apache/kafka/jmh/common/generated/TopicBenchmark_BenchState_jmhType_B1.class</li>
+         <li>/Users/chukun/work/sourcecode/kafka/jmh-benchmarks/build/classes/java/main/org/apache/kafka/jmh/common/generated/TopicBenchmark_BenchState_jmhType.class</li>
+         <li>/Users/chukun/work/sourcecode/kafka/jmh-benchmarks/build/classes/java/main/org/apache/kafka/jmh/common/generated/FetchRequestBenchmark_jmhType_B2.class</li>
+         <li>/Users/chukun/work/sourcecode/kafka/jmh-benchmarks/build/classes/java/main/org/apache/kafka/jmh/common/generated/FetchResponseBenchmark_jmhType_B2.class</li>
+         <li>/Users/chukun/work/sourcecode/kafka/jmh-benchmarks/build/classes/java/main/org/apache/kafka/jmh/common/generated/FetchResponseBenchmark_jmhType.class</li>
+         <li>/Users/chukun/work/sourcecode/kafka/jmh-benchmarks/build/classes/java/main/org/apache/kafka/jmh/common/generated/FetchRequestBenchmark_testFetchRequestForReplica_jmhTest.class</li>
+         <li>/Users/chukun/work/sourcecode/kafka/jmh-benchmarks/build/classes/java/main/org/apache/kafka/jmh/common/generated/TopicBenchmark_testValidate_jmhTest.class</li>
+         <li>/Users/chukun/work/sourcecode/kafka/jmh-benchmarks/build/classes/java/main/org/apache/kafka/jmh/common/generated/FetchResponseBenchmark_testSerializeFetchResponse_jmhTest.class</li>
+         <li>/Users/chukun/work/sourcecode/kafka/jmh-benchmarks/build/classes/java/main/org/apache/kafka/jmh/common/generated/FetchRequestBenchmark_testFetchRequestFromStruct_jmhTest.class</li>
+         <li>/Users/chukun/work/sourcecode/kafka/jmh-benchmarks/build/classes/java/main/org/apache/kafka/jmh/common/generated/FetchResponseBenchmark_testConstructFetchResponse_jmhTest.class</li>
+         <li>/Users/chukun/work/sourcecode/kafka/jmh-benchmarks/build/classes/java/main/org/apache/kafka/jmh/common/generated/FetchRequestBenchmark_testFetchRequestForConsumer_jmhTest.class</li>
+         <li>/Users/chukun/work/sourcecode/kafka/jmh-benchmarks/build/classes/java/main/org/apache/kafka/jmh/common/TopicBenchmark.class</li>
+         <li>/Users/chukun/work/sourcecode/kafka/jmh-benchmarks/build/classes/java/main/org/apache/kafka/jmh/common/FetchResponseBenchmark.class</li>
+         <li>/Users/chukun/work/sourcecode/kafka/jmh-benchmarks/build/classes/java/main/org/apache/kafka/jmh/common/TopicBenchmark$BenchState.class</li>
+         <li>/Users/chukun/work/sourcecode/kafka/jmh-benchmarks/build/classes/java/main/org/apache/kafka/jmh/common/FetchRequestBenchmark.class</li>
+         <li>/Users/chukun/work/sourcecode/kafka/jmh-benchmarks/build/classes/java/main/org/apache/kafka/jmh/fetchsession/generated/FetchSessionBenchmark_jmhType_B1.class</li>
+         <li>/Users/chukun/work/sourcecode/kafka/jmh-benchmarks/build/classes/java/main/org/apache/kafka/jmh/fetchsession/generated/FetchSessionBenchmark_jmhType_B3.class</li>
+         <li>/Users/chukun/work/sourcecode/kafka/jmh-benchmarks/build/classes/java/main/org/apache/kafka/jmh/fetchsession/generated/FetchSessionBenchmark_jmhType_B2.class</li>
+         <li>/Users/chukun/work/sourcecode/kafka/jmh-benchmarks/build/classes/java/main/org/apache/kafka/jmh/fetchsession/generated/FetchSessionBenchmark_incrementalFetchSessionBuild_jmhTest.class</li>
+         <li>/Users/chukun/work/sourcecode/kafka/jmh-benchmarks/build/classes/java/main/org/apache/kafka/jmh/fetchsession/generated/FetchSessionBenchmark_jmhType.class</li>
+         <li>/Users/chukun/work/sourcecode/kafka/jmh-benchmarks/build/classes/java/main/org/apache/kafka/jmh/fetchsession/FetchSessionBenchmark.class</li>
+         <li>/Users/chukun/work/sourcecode/kafka/jmh-benchmarks/build/classes/java/main/org/apache/kafka/jmh/consumer/generated/SubscriptionStateBenchmark_testHasAllFetchPositions_jmhTest.class</li>
+         <li>/Users/chukun/work/sourcecode/kafka/jmh-benchmarks/build/classes/java/main/org/apache/kafka/jmh/consumer/generated/SubscriptionStateBenchmark_testFetchablePartitions_jmhTest.class</li>
+         <li>/Users/chukun/work/sourcecode/kafka/jmh-benchmarks/build/classes/java/main/org/apache/kafka/jmh/consumer/generated/SubscriptionStateBenchmark_jmhType.class</li>
+         <li>/Users/chukun/work/sourcecode/kafka/jmh-benchmarks/build/classes/java/main/org/apache/kafka/jmh/consumer/generated/SubscriptionStateBenchmark_jmhType_B3.class</li>
+         <li>/Users/chukun/work/sourcecode/kafka/jmh-benchmarks/build/classes/java/main/org/apache/kafka/jmh/consumer/generated/SubscriptionStateBenchmark_jmhType_B1.class</li>
+         <li>/Users/chukun/work/sourcecode/kafka/jmh-benchmarks/build/classes/java/main/org/apache/kafka/jmh/consumer/generated/SubscriptionStateBenchmark_testPartitionsNeedingValidation_jmhTest.class</li>
+         <li>/Users/chukun/work/sourcecode/kafka/jmh-benchmarks/build/classes/java/main/org/apache/kafka/jmh/consumer/generated/SubscriptionStateBenchmark_jmhType_B2.class</li>
+         <li>/Users/chukun/work/sourcecode/kafka/jmh-benchmarks/build/classes/java/main/org/apache/kafka/jmh/consumer/SubscriptionStateBenchmark.class</li>
+         <li>/Users/chukun/work/sourcecode/kafka/jmh-benchmarks/build/classes/java/main/org/apache/kafka/jmh/partition/generated/UpdateFollowerFetchStateBenchmark_jmhType.class</li>
+         <li>/Users/chukun/work/sourcecode/kafka/jmh-benchmarks/build/classes/java/main/org/apache/kafka/jmh/partition/generated/UpdateFollowerFetchStateBenchmark_updateFollowerFetchStateBenchNoChange_jmhTest.class</li>
+         <li>/Users/chukun/work/sourcecode/kafka/jmh-benchmarks/build/classes/java/main/org/apache/kafka/jmh/partition/generated/PartitionMakeFollowerBenchmark_jmhType_B2.class</li>
+         <li>/Users/chukun/work/sourcecode/kafka/jmh-benchmarks/build/classes/java/main/org/apache/kafka/jmh/partition/generated/UpdateFollowerFetchStateBenchmark_jmhType_B2.class</li>
+         <li>/Users/chukun/work/sourcecode/kafka/jmh-benchmarks/build/classes/java/main/org/apache/kafka/jmh/partition/generated/PartitionMakeFollowerBenchmark_jmhType.class</li>
+         <li>/Users/chukun/work/sourcecode/kafka/jmh-benchmarks/build/classes/java/main/org/apache/kafka/jmh/partition/generated/PartitionMakeFollowerBenchmark_testMakeFollower_jmhTest.class</li>
+         <li>/Users/chukun/work/sourcecode/kafka/jmh-benchmarks/build/classes/java/main/org/apache/kafka/jmh/partition/generated/UpdateFollowerFetchStateBenchmark_jmhType_B3.class</li>
+         <li>/Users/chukun/work/sourcecode/kafka/jmh-benchmarks/build/classes/java/main/org/apache/kafka/jmh/partition/generated/PartitionMakeFollowerBenchmark_jmhType_B1.class</li>
+         <li>/Users/chukun/work/sourcecode/kafka/jmh-benchmarks/build/classes/java/main/org/apache/kafka/jmh/partition/generated/PartitionMakeFollowerBenchmark_jmhType_B3.class</li>
+         <li>/Users/chukun/work/sourcecode/kafka/jmh-benchmarks/build/classes/java/main/org/apache/kafka/jmh/partition/generated/UpdateFollowerFetchStateBenchmark_updateFollowerFetchStateBench_jmhTest.class</li>
+         <li>/Users/chukun/work/sourcecode/kafka/jmh-benchmarks/build/classes/java/main/org/apache/kafka/jmh/partition/generated/UpdateFollowerFetchStateBenchmark_jmhType_B1.class</li>
+         <li>/Users/chukun/work/sourcecode/kafka/jmh-benchmarks/build/classes/java/main/org/apache/kafka/jmh/partition/UpdateFollowerFetchStateBenchmark$DelayedOperationsMock.class</li>
+         <li>/Users/chukun/work/sourcecode/kafka/jmh-benchmarks/build/classes/java/main/org/apache/kafka/jmh/partition/UpdateFollowerFetchStateBenchmark.class</li>
+         <li>/Users/chukun/work/sourcecode/kafka/jmh-benchmarks/build/classes/java/main/org/apache/kafka/jmh/partition/PartitionMakeFollowerBenchmark.class</li>
+         <li>/Users/chukun/work/sourcecode/kafka/jmh-benchmarks/build/classes/java/main/org/apache/kafka/jmh/metadata/generated/MetadataRequestBenchmark_jmhType.class</li>
+         <li>/Users/chukun/work/sourcecode/kafka/jmh-benchmarks/build/classes/java/main/org/apache/kafka/jmh/metadata/generated/MetadataRequestBenchmark_jmhType_B1.class</li>
+         <li>/Users/chukun/work/sourcecode/kafka/jmh-benchmarks/build/classes/java/main/org/apache/kafka/jmh/metadata/generated/MetadataRequestBenchmark_jmhType_B3.class</li>
+         <li>/Users/chukun/work/sourcecode/kafka/jmh-benchmarks/build/classes/java/main/org/apache/kafka/jmh/metadata/generated/MetadataRequestBenchmark_testMetadataRequestForAllTopics_jmhTest.class</li>
+         <li>/Users/chukun/work/sourcecode/kafka/jmh-benchmarks/build/classes/java/main/org/apache/kafka/jmh/metadata/generated/MetadataRequestBenchmark_jmhType_B2.class</li>
+         <li>/Users/chukun/work/sourcecode/kafka/jmh-benchmarks/build/classes/java/main/org/apache/kafka/jmh/metadata/MetadataRequestBenchmark.class</li>
+         <li>/Users/chukun/work/sourcecode/kafka/jmh-benchmarks/build/classes/java/main/org/apache/kafka/jmh/acl/generated/AclAuthorizerBenchmark_testAuthorizer_jmhTest.class</li>
+         <li>/Users/chukun/work/sourcecode/kafka/jmh-benchmarks/build/classes/java/main/org/apache/kafka/jmh/acl/generated/AclAuthorizerBenchmark_jmhType.class</li>
+         <li>/Users/chukun/work/sourcecode/kafka/jmh-benchmarks/build/classes/java/main/org/apache/kafka/jmh/acl/generated/AclAuthorizerBenchmark_jmhType_B2.class</li>
+         <li>/Users/chukun/work/sourcecode/kafka/jmh-benchmarks/build/classes/java/main/org/apache/kafka/jmh/acl/generated/AclAuthorizerBenchmark_testAclsIterator_jmhTest.class</li>
+         <li>/Users/chukun/work/sourcecode/kafka/jmh-benchmarks/build/classes/java/main/org/apache/kafka/jmh/acl/generated/AclAuthorizerBenchmark_jmhType_B3.class</li>
+         <li>/Users/chukun/work/sourcecode/kafka/jmh-benchmarks/build/classes/java/main/org/apache/kafka/jmh/acl/generated/AclAuthorizerBenchmark_jmhType_B1.class</li>
+         <li>/Users/chukun/work/sourcecode/kafka/jmh-benchmarks/build/classes/java/main/org/apache/kafka/jmh/acl/AclAuthorizerBenchmark.class</li>
+      </ul>
+      <p>
+         <br/>
+         <br/>
+      </p>
+      <h2>Metrics</h2>
+      <p>25739 lines of code analyzed,
+	in 123 classes, 
+	in 22 packages.</p>
+      <table width="500" cellpadding="5" cellspacing="2">
+         <tr class="tableheader">
+            <th align="left">Metric</th>
+            <th align="right">Total</th>
+            <th align="right">Density*</th>
+         </tr>
+         <tr class="tablerow0">
+            <td>High Priority Warnings</td>
+            <td align="right"/>
+            <td align="right">0.00</td>
+         </tr>
+         <tr class="tablerow1">
+            <td>Medium Priority Warnings</td>
+            <td align="right"/>
+            <td align="right">0.00</td>
+         </tr>
+         <tr class="$totalClass">
+            <td>
+               <b>Total Warnings</b>
+            </td>
+            <td align="right">
+               <b>0</b>
+            </td>
+            <td align="right">
+               <b>0.00</b>
+            </td>
+         </tr>
+      </table>
+      <p>
+         <i>(* Defects per Thousand lines of non-commenting source statements)</i>
+      </p>
+      <p>
+         <br/>
+         <br/>
+      </p>
+      <h2>Contents</h2>
+      <ul>
+         <li>
+            <a href="#Details">Details</a>
+         </li>
+      </ul>
+      <h1>Summary</h1>
+      <table width="500" cellpadding="5" cellspacing="2">
+         <tr class="tableheader">
+            <th align="left">Warning Type</th>
+            <th align="right">Number</th>
+         </tr>
+         <tr class="tablerow0">
+            <td>
+               <b>Total</b>
+            </td>
+            <td align="right">
+               <b>0</b>
+            </td>
+         </tr>
+      </table>
+      <h1>Warnings</h1>
+      <p>Click on a warning row to see full context information.</p>
+      <h1>
+         <a name="Details">Details</a>
+      </h1>
+   </body>
+</html>

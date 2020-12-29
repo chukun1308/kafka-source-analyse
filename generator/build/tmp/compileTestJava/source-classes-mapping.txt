@@ -1,0 +1,16 @@
+org/apache/kafka/message/IsNullConditionalTest.java
+ org.apache.kafka.message.IsNullConditionalTest
+org/apache/kafka/message/CodeBufferTest.java
+ org.apache.kafka.message.CodeBufferTest
+org/apache/kafka/message/VersionConditionalTest.java
+ org.apache.kafka.message.VersionConditionalTest
+org/apache/kafka/message/StructRegistryTest.java
+ org.apache.kafka.message.StructRegistryTest
+org/apache/kafka/message/EntityTypeTest.java
+ org.apache.kafka.message.EntityTypeTest
+org/apache/kafka/message/MessageDataGeneratorTest.java
+ org.apache.kafka.message.MessageDataGeneratorTest
+org/apache/kafka/message/MessageGeneratorTest.java
+ org.apache.kafka.message.MessageGeneratorTest
+org/apache/kafka/message/VersionsTest.java
+ org.apache.kafka.message.VersionsTest

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.apache.kafka.clients.producer.internals.RecordAccumulatorTest" tests="25" skipped="0" failures="0" errors="0" timestamp="2020-10-29T02:31:23" hostname="chukun-mac" time="6.596">
+  <properties/>
+  <testcase name="testSplitBatchOffAccumulator" classname="org.apache.kafka.clients.producer.internals.RecordAccumulatorTest" time="0.073"/>
+  <testcase name="testRetryBackoff" classname="org.apache.kafka.clients.producer.internals.RecordAccumulatorTest" time="0.001"/>
+  <testcase name="testNextReadyCheckDelay" classname="org.apache.kafka.clients.producer.internals.RecordAccumulatorTest" time="0.007"/>
+  <testcase name="testExpiredBatchSingle" classname="org.apache.kafka.clients.producer.internals.RecordAccumulatorTest" time="0.002"/>
+  <testcase name="testStressfulSituation" classname="org.apache.kafka.clients.producer.internals.RecordAccumulatorTest" time="0.602"/>
+  <testcase name="testAppendLargeNonCompressed" classname="org.apache.kafka.clients.producer.internals.RecordAccumulatorTest" time="0.002"/>
+  <testcase name="testAwaitFlushComplete" classname="org.apache.kafka.clients.producer.internals.RecordAccumulatorTest" time="1.005"/>
+  <testcase name="testSoonToExpireBatchesArePickedUpForExpiry" classname="org.apache.kafka.clients.producer.internals.RecordAccumulatorTest" time="0.0"/>
+  <testcase name="testFlush" classname="org.apache.kafka.clients.producer.internals.RecordAccumulatorTest" time="0.001"/>
+  <testcase name="testFull" classname="org.apache.kafka.clients.producer.internals.RecordAccumulatorTest" time="0.002"/>
+  <testcase name="testSplitFrequency" classname="org.apache.kafka.clients.producer.internals.RecordAccumulatorTest" time="4.843"/>
+  <testcase name="testAbortUnsentBatches" classname="org.apache.kafka.clients.producer.internals.RecordAccumulatorTest" time="0.002"/>
+  <testcase name="testExpiredBatchSingleMaxValue" classname="org.apache.kafka.clients.producer.internals.RecordAccumulatorTest" time="0.001"/>
+  <testcase name="testStickyBatches" classname="org.apache.kafka.clients.producer.internals.RecordAccumulatorTest" time="0.002"/>
+  <testcase name="testIdempotenceWithOldMagic" classname="org.apache.kafka.clients.producer.internals.RecordAccumulatorTest" time="0.029"/>
+  <testcase name="testAppendLargeOldMessageFormatNonCompressed" classname="org.apache.kafka.clients.producer.internals.RecordAccumulatorTest" time="0.002"/>
+  <testcase name="testAbortIncompleteBatches" classname="org.apache.kafka.clients.producer.internals.RecordAccumulatorTest" time="0.004"/>
+  <testcase name="testAppendLargeCompressed" classname="org.apache.kafka.clients.producer.internals.RecordAccumulatorTest" time="0.002"/>
+  <testcase name="testMutedPartitions" classname="org.apache.kafka.clients.producer.internals.RecordAccumulatorTest" time="0.0"/>
+  <testcase name="testExpiredBatches" classname="org.apache.kafka.clients.producer.internals.RecordAccumulatorTest" time="0.0"/>
+  <testcase name="testExpiredBatchesRetry" classname="org.apache.kafka.clients.producer.internals.RecordAccumulatorTest" time="0.001"/>
+  <testcase name="testAppendLargeOldMessageFormatCompressed" classname="org.apache.kafka.clients.producer.internals.RecordAccumulatorTest" time="0.002"/>
+  <testcase name="testLinger" classname="org.apache.kafka.clients.producer.internals.RecordAccumulatorTest" time="0.001"/>
+  <testcase name="testPartialDrain" classname="org.apache.kafka.clients.producer.internals.RecordAccumulatorTest" time="0.001"/>
+  <testcase name="testSplitAndReenqueue" classname="org.apache.kafka.clients.producer.internals.RecordAccumulatorTest" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

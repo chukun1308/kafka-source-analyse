@@ -1,0 +1,135 @@
+org/apache/kafka/connect/data/Values.java
+ org.apache.kafka.connect.data.Values
+ org.apache.kafka.connect.data.Values$1
+ org.apache.kafka.connect.data.Values$Parser
+ org.apache.kafka.connect.data.Values$SchemaDetector
+org/apache/kafka/connect/rest/ConnectRestExtension.java
+ org.apache.kafka.connect.rest.ConnectRestExtension
+org/apache/kafka/connect/storage/Converter.java
+ org.apache.kafka.connect.storage.Converter
+org/apache/kafka/connect/data/SchemaAndValue.java
+ org.apache.kafka.connect.data.SchemaAndValue
+org/apache/kafka/connect/header/Headers.java
+ org.apache.kafka.connect.header.Headers
+ org.apache.kafka.connect.header.Headers$HeaderTransform
+org/apache/kafka/connect/data/Date.java
+ org.apache.kafka.connect.data.Date
+org/apache/kafka/connect/source/SourceTask.java
+ org.apache.kafka.connect.source.SourceTask
+org/apache/kafka/connect/health/ConnectorHealth.java
+ org.apache.kafka.connect.health.ConnectorHealth
+org/apache/kafka/connect/health/ConnectorType.java
+ org.apache.kafka.connect.health.ConnectorType
+org/apache/kafka/connect/data/Field.java
+ org.apache.kafka.connect.data.Field
+org/apache/kafka/connect/errors/SchemaBuilderException.java
+ org.apache.kafka.connect.errors.SchemaBuilderException
+org/apache/kafka/connect/errors/NotFoundException.java
+ org.apache.kafka.connect.errors.NotFoundException
+org/apache/kafka/connect/data/SchemaProjector.java
+ org.apache.kafka.connect.data.SchemaProjector
+ org.apache.kafka.connect.data.SchemaProjector$1
+org/apache/kafka/connect/health/ConnectClusterState.java
+ org.apache.kafka.connect.health.ConnectClusterState
+org/apache/kafka/connect/source/SourceConnectorContext.java
+ org.apache.kafka.connect.source.SourceConnectorContext
+org/apache/kafka/connect/health/AbstractState.java
+ org.apache.kafka.connect.health.AbstractState
+org/apache/kafka/connect/sink/SinkConnector.java
+ org.apache.kafka.connect.sink.SinkConnector
+org/apache/kafka/connect/sink/SinkTask.java
+ org.apache.kafka.connect.sink.SinkTask
+org/apache/kafka/connect/connector/ConnectorContext.java
+ org.apache.kafka.connect.connector.ConnectorContext
+org/apache/kafka/connect/rest/ConnectRestExtensionContext.java
+ org.apache.kafka.connect.rest.ConnectRestExtensionContext
+org/apache/kafka/connect/errors/ConnectException.java
+ org.apache.kafka.connect.errors.ConnectException
+org/apache/kafka/connect/health/TaskState.java
+ org.apache.kafka.connect.health.TaskState
+org/apache/kafka/connect/data/Struct.java
+ org.apache.kafka.connect.data.Struct
+org/apache/kafka/connect/source/SourceTaskContext.java
+ org.apache.kafka.connect.source.SourceTaskContext
+org/apache/kafka/connect/source/SourceRecord.java
+ org.apache.kafka.connect.source.SourceRecord
+org/apache/kafka/connect/errors/AlreadyExistsException.java
+ org.apache.kafka.connect.errors.AlreadyExistsException
+org/apache/kafka/connect/sink/SinkConnectorContext.java
+ org.apache.kafka.connect.sink.SinkConnectorContext
+org/apache/kafka/connect/errors/RetriableException.java
+ org.apache.kafka.connect.errors.RetriableException
+org/apache/kafka/connect/connector/policy/ConnectorClientConfigRequest.java
+ org.apache.kafka.connect.connector.policy.ConnectorClientConfigRequest
+ org.apache.kafka.connect.connector.policy.ConnectorClientConfigRequest$ClientType
+org/apache/kafka/connect/connector/Connector.java
+ org.apache.kafka.connect.connector.Connector
+org/apache/kafka/connect/sink/SinkRecord.java
+ org.apache.kafka.connect.sink.SinkRecord
+org/apache/kafka/connect/connector/Task.java
+ org.apache.kafka.connect.connector.Task
+org/apache/kafka/connect/storage/HeaderConverter.java
+ org.apache.kafka.connect.storage.HeaderConverter
+org/apache/kafka/connect/connector/ConnectRecord.java
+ org.apache.kafka.connect.connector.ConnectRecord
+org/apache/kafka/connect/storage/OffsetStorageReader.java
+ org.apache.kafka.connect.storage.OffsetStorageReader
+org/apache/kafka/connect/header/Header.java
+ org.apache.kafka.connect.header.Header
+org/apache/kafka/connect/storage/StringConverter.java
+ org.apache.kafka.connect.storage.StringConverter
+org/apache/kafka/connect/data/Decimal.java
+ org.apache.kafka.connect.data.Decimal
+org/apache/kafka/connect/data/Time.java
+ org.apache.kafka.connect.data.Time
+org/apache/kafka/connect/data/Timestamp.java
+ org.apache.kafka.connect.data.Timestamp
+org/apache/kafka/connect/source/SourceConnector.java
+ org.apache.kafka.connect.source.SourceConnector
+org/apache/kafka/connect/transforms/Transformation.java
+ org.apache.kafka.connect.transforms.Transformation
+org/apache/kafka/connect/components/Versioned.java
+ org.apache.kafka.connect.components.Versioned
+org/apache/kafka/connect/util/ConnectorUtils.java
+ org.apache.kafka.connect.util.ConnectorUtils
+org/apache/kafka/connect/health/ConnectorState.java
+ org.apache.kafka.connect.health.ConnectorState
+org/apache/kafka/connect/sink/SinkTaskContext.java
+ org.apache.kafka.connect.sink.SinkTaskContext
+org/apache/kafka/connect/storage/ConverterConfig.java
+ org.apache.kafka.connect.storage.ConverterConfig
+org/apache/kafka/connect/header/ConnectHeader.java
+ org.apache.kafka.connect.header.ConnectHeader
+org/apache/kafka/connect/errors/DataException.java
+ org.apache.kafka.connect.errors.DataException
+org/apache/kafka/connect/data/Schema.java
+ org.apache.kafka.connect.data.Schema
+ org.apache.kafka.connect.data.Schema$1
+ org.apache.kafka.connect.data.Schema$Type
+org/apache/kafka/connect/errors/IllegalWorkerStateException.java
+ org.apache.kafka.connect.errors.IllegalWorkerStateException
+org/apache/kafka/connect/transforms/predicates/Predicate.java
+ org.apache.kafka.connect.transforms.predicates.Predicate
+org/apache/kafka/connect/data/SchemaBuilder.java
+ org.apache.kafka.connect.data.SchemaBuilder
+org/apache/kafka/connect/header/ConnectHeaders.java
+ org.apache.kafka.connect.header.ConnectHeaders
+ org.apache.kafka.connect.header.ConnectHeaders$1
+ org.apache.kafka.connect.header.ConnectHeaders$FilterByKeyIterator
+org/apache/kafka/connect/storage/ConverterType.java
+ org.apache.kafka.connect.storage.ConverterType
+org/apache/kafka/connect/data/ConnectSchema.java
+ org.apache.kafka.connect.data.ConnectSchema
+ org.apache.kafka.connect.data.ConnectSchema$1
+org/apache/kafka/connect/sink/ErrantRecordReporter.java
+ org.apache.kafka.connect.sink.ErrantRecordReporter
+org/apache/kafka/connect/health/ConnectClusterDetails.java
+ org.apache.kafka.connect.health.ConnectClusterDetails
+org/apache/kafka/connect/storage/StringConverterConfig.java
+ org.apache.kafka.connect.storage.StringConverterConfig
+org/apache/kafka/connect/storage/SimpleHeaderConverter.java
+ org.apache.kafka.connect.storage.SimpleHeaderConverter
+org/apache/kafka/connect/errors/SchemaProjectorException.java
+ org.apache.kafka.connect.errors.SchemaProjectorException
+org/apache/kafka/connect/connector/policy/ConnectorClientConfigOverridePolicy.java
+ org.apache.kafka.connect.connector.policy.ConnectorClientConfigOverridePolicy

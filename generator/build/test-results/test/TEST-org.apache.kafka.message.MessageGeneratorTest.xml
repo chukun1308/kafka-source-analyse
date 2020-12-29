@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.apache.kafka.message.MessageGeneratorTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2020-10-29T02:41:09" hostname="chukun-mac" time="0.003">
+  <properties/>
+  <testcase name="testToSnakeCase" classname="org.apache.kafka.message.MessageGeneratorTest" time="0.0"/>
+  <testcase name="testCapitalizeFirst" classname="org.apache.kafka.message.MessageGeneratorTest" time="0.001"/>
+  <testcase name="testLowerCaseFirst" classname="org.apache.kafka.message.MessageGeneratorTest" time="0.001"/>
+  <testcase name="testFirstIsCapitalized" classname="org.apache.kafka.message.MessageGeneratorTest" time="0.0"/>
+  <testcase name="stripSuffixTest" classname="org.apache.kafka.message.MessageGeneratorTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

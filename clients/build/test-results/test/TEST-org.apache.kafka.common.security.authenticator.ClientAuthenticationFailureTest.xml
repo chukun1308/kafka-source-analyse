@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.apache.kafka.common.security.authenticator.ClientAuthenticationFailureTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2020-10-29T02:32:04" hostname="chukun-mac" time="0.533">
+  <properties/>
+  <testcase name="testProducerWithInvalidCredentials" classname="org.apache.kafka.common.security.authenticator.ClientAuthenticationFailureTest" time="0.157"/>
+  <testcase name="testTransactionalProducerWithInvalidCredentials" classname="org.apache.kafka.common.security.authenticator.ClientAuthenticationFailureTest" time="0.121"/>
+  <testcase name="testConsumerWithInvalidCredentials" classname="org.apache.kafka.common.security.authenticator.ClientAuthenticationFailureTest" time="0.137"/>
+  <testcase name="testAdminClientWithInvalidCredentials" classname="org.apache.kafka.common.security.authenticator.ClientAuthenticationFailureTest" time="0.118"/>
+  <system-out><![CDATA[[2020-10-29 10:32:04,546] ERROR [Producer clientId=producer-1] Connection to node -1 (localhost/127.0.0.1:53790) failed authentication due to: Authentication failed: Invalid username or password (org.apache.kafka.clients.NetworkClient:768)
+[2020-10-29 10:32:04,670] ERROR [Producer clientId=producer-txclient-1, transactionalId=txclient-1] Connection to node -1 (localhost/127.0.0.1:53792) failed authentication due to: Authentication failed: Invalid username or password (org.apache.kafka.clients.NetworkClient:768)
+[2020-10-29 10:32:04,808] ERROR [Consumer clientId=consumer--1, groupId=] Connection to node -1 (localhost/127.0.0.1:53794) failed authentication due to: Authentication failed: Invalid username or password (org.apache.kafka.clients.NetworkClient:768)
+[2020-10-29 10:32:04,923] ERROR [AdminClient clientId=adminclient-124] Connection to node -1 (localhost/127.0.0.1:53796) failed authentication due to: Authentication failed: Invalid username or password (org.apache.kafka.clients.NetworkClient:768)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

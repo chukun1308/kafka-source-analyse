@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.apache.kafka.clients.ClusterConnectionStatesTest" tests="16" skipped="0" failures="0" errors="0" timestamp="2020-10-29T02:31:52" hostname="chukun-mac" time="0.009">
+  <properties/>
+  <testcase name="testIsPreparingConnection" classname="org.apache.kafka.clients.ClusterConnectionStatesTest" time="0.0"/>
+  <testcase name="testNodeWithNewHostname" classname="org.apache.kafka.clients.ClusterConnectionStatesTest" time="0.005"/>
+  <testcase name="testHostResolveChange" classname="org.apache.kafka.clients.ClusterConnectionStatesTest" time="0.0"/>
+  <testcase name="testAuthorizationFailed" classname="org.apache.kafka.clients.ClusterConnectionStatesTest" time="0.001"/>
+  <testcase name="testMultipleIPsWithDefault" classname="org.apache.kafka.clients.ClusterConnectionStatesTest" time="0.0"/>
+  <testcase name="testTimedOutConnections" classname="org.apache.kafka.clients.ClusterConnectionStatesTest" time="0.0"/>
+  <testcase name="testThrottled" classname="org.apache.kafka.clients.ClusterConnectionStatesTest" time="0.0"/>
+  <testcase name="testExponentialReconnectBackoff" classname="org.apache.kafka.clients.ClusterConnectionStatesTest" time="0.0"/>
+  <testcase name="testRemoveNode" classname="org.apache.kafka.clients.ClusterConnectionStatesTest" time="0.0"/>
+  <testcase name="testExponentialConnectionSetupTimeout" classname="org.apache.kafka.clients.ClusterConnectionStatesTest" time="0.001"/>
+  <testcase name="testSingleIPWithUseAll" classname="org.apache.kafka.clients.ClusterConnectionStatesTest" time="0.0"/>
+  <testcase name="testMultipleIPsWithUseAll" classname="org.apache.kafka.clients.ClusterConnectionStatesTest" time="0.0"/>
+  <testcase name="testMultipleNodeConnectionStates" classname="org.apache.kafka.clients.ClusterConnectionStatesTest" time="0.0"/>
+  <testcase name="testClusterConnectionStateChanges" classname="org.apache.kafka.clients.ClusterConnectionStatesTest" time="0.0"/>
+  <testcase name="testMaxReconnectBackoff" classname="org.apache.kafka.clients.ClusterConnectionStatesTest" time="0.001"/>
+  <testcase name="testSingleIPWithDefault" classname="org.apache.kafka.clients.ClusterConnectionStatesTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

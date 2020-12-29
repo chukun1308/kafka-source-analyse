@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.apache.kafka.clients.ClientUtilsTest" tests="10" skipped="0" failures="0" errors="0" timestamp="2020-10-29T02:32:20" hostname="chukun-mac" time="0.516">
+  <properties/>
+  <testcase name="testResolveDnsLookupResolveCanonicalBootstrapServers" classname="org.apache.kafka.clients.ClientUtilsTest" time="0.003"/>
+  <testcase name="testFilterPreferredAddresses" classname="org.apache.kafka.clients.ClientUtilsTest" time="0.001"/>
+  <testcase name="testResolveUnknownHostException" classname="org.apache.kafka.clients.ClientUtilsTest" time="0.0"/>
+  <testcase name="testOnlyBadHostname" classname="org.apache.kafka.clients.ClientUtilsTest" time="0.0"/>
+  <testcase name="testInvalidConfig" classname="org.apache.kafka.clients.ClientUtilsTest" time="0.001"/>
+  <testcase name="testResolveDnsLookupAllIps" classname="org.apache.kafka.clients.ClientUtilsTest" time="0.0"/>
+  <testcase name="testResolveDnsLookup" classname="org.apache.kafka.clients.ClientUtilsTest" time="0.0"/>
+  <testcase name="testParseAndValidateAddresses" classname="org.apache.kafka.clients.ClientUtilsTest" time="0.001"/>
+  <testcase name="testParseAndValidateAddressesWithReverseLookup" classname="org.apache.kafka.clients.ClientUtilsTest" time="0.509"/>
+  <testcase name="testNoPort" classname="org.apache.kafka.clients.ClientUtilsTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

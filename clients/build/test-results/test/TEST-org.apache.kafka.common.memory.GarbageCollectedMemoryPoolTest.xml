@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.apache.kafka.common.memory.GarbageCollectedMemoryPoolTest" tests="13" skipped="0" failures="0" errors="0" timestamp="2020-10-29T02:32:15" hostname="chukun-mac" time="3.975">
+  <properties/>
+  <testcase name="testReleaseForeignBuffer" classname="org.apache.kafka.common.memory.GarbageCollectedMemoryPoolTest" time="0.005"/>
+  <testcase name="testBuffersGarbageCollected" classname="org.apache.kafka.common.memory.GarbageCollectedMemoryPoolTest" time="3.967"/>
+  <testcase name="testAllocationBound" classname="org.apache.kafka.common.memory.GarbageCollectedMemoryPoolTest" time="0.0"/>
+  <testcase name="testReleaseNull" classname="org.apache.kafka.common.memory.GarbageCollectedMemoryPoolTest" time="0.0"/>
+  <testcase name="testAllocationZero" classname="org.apache.kafka.common.memory.GarbageCollectedMemoryPoolTest" time="0.001"/>
+  <testcase name="testDoubleFree" classname="org.apache.kafka.common.memory.GarbageCollectedMemoryPoolTest" time="0.0"/>
+  <testcase name="testNegativeMaxAllocation" classname="org.apache.kafka.common.memory.GarbageCollectedMemoryPoolTest" time="0.0"/>
+  <testcase name="testAllocationOverMaxAllocation" classname="org.apache.kafka.common.memory.GarbageCollectedMemoryPoolTest" time="0.0"/>
+  <testcase name="testMaxAllocationLargerThanSize" classname="org.apache.kafka.common.memory.GarbageCollectedMemoryPoolTest" time="0.001"/>
+  <testcase name="testZeroMaxAllocation" classname="org.apache.kafka.common.memory.GarbageCollectedMemoryPoolTest" time="0.0"/>
+  <testcase name="testZeroSize" classname="org.apache.kafka.common.memory.GarbageCollectedMemoryPoolTest" time="0.0"/>
+  <testcase name="testNegativeSize" classname="org.apache.kafka.common.memory.GarbageCollectedMemoryPoolTest" time="0.001"/>
+  <testcase name="testAllocationNegative" classname="org.apache.kafka.common.memory.GarbageCollectedMemoryPoolTest" time="0.0"/>
+  <system-out><![CDATA[[2020-10-29 10:32:17,711] ERROR Reclaimed buffer of size 95446630 and identity 1930559186 that was not properly release()ed. This is a bug. (org.apache.kafka.common.memory.GarbageCollectedMemoryPool:106)
+[2020-10-29 10:32:17,711] ERROR Reclaimed buffer of size 95446630 and identity 2096990719 that was not properly release()ed. This is a bug. (org.apache.kafka.common.memory.GarbageCollectedMemoryPool:106)
+[2020-10-29 10:32:17,711] ERROR Reclaimed buffer of size 95446630 and identity 438969239 that was not properly release()ed. This is a bug. (org.apache.kafka.common.memory.GarbageCollectedMemoryPool:106)
+[2020-10-29 10:32:17,712] ERROR Reclaimed buffer of size 95446630 and identity 231724770 that was not properly release()ed. This is a bug. (org.apache.kafka.common.memory.GarbageCollectedMemoryPool:106)
+[2020-10-29 10:32:17,712] ERROR Reclaimed buffer of size 95446630 and identity 1177711400 that was not properly release()ed. This is a bug. (org.apache.kafka.common.memory.GarbageCollectedMemoryPool:106)
+[2020-10-29 10:32:17,712] ERROR Reclaimed buffer of size 95446630 and identity 15081436 that was not properly release()ed. This is a bug. (org.apache.kafka.common.memory.GarbageCollectedMemoryPool:106)
+[2020-10-29 10:32:17,712] ERROR Reclaimed buffer of size 95446630 and identity 1079718099 that was not properly release()ed. This is a bug. (org.apache.kafka.common.memory.GarbageCollectedMemoryPool:106)
+[2020-10-29 10:32:17,713] ERROR Reclaimed buffer of size 95446630 and identity 623551650 that was not properly release()ed. This is a bug. (org.apache.kafka.common.memory.GarbageCollectedMemoryPool:106)
+[2020-10-29 10:32:17,714] ERROR Reclaimed buffer of size 95446630 and identity 421016207 that was not properly release()ed. This is a bug. (org.apache.kafka.common.memory.GarbageCollectedMemoryPool:106)
+[2020-10-29 10:32:17,714] ERROR Reclaimed buffer of size 95446630 and identity 57558441 that was not properly release()ed. This is a bug. (org.apache.kafka.common.memory.GarbageCollectedMemoryPool:106)
+[2020-10-29 10:32:17,714] ERROR Reclaimed buffer of size 95446630 and identity 1124007181 that was not properly release()ed. This is a bug. (org.apache.kafka.common.memory.GarbageCollectedMemoryPool:106)
+[2020-10-29 10:32:19,608] ERROR Reclaimed buffer of size 95446630 and identity 1063514470 that was not properly release()ed. This is a bug. (org.apache.kafka.common.memory.GarbageCollectedMemoryPool:106)
+[2020-10-29 10:32:19,609] ERROR Reclaimed buffer of size 95446630 and identity 388955298 that was not properly release()ed. This is a bug. (org.apache.kafka.common.memory.GarbageCollectedMemoryPool:106)
+[2020-10-29 10:32:19,609] ERROR Reclaimed buffer of size 95446630 and identity 638788428 that was not properly release()ed. This is a bug. (org.apache.kafka.common.memory.GarbageCollectedMemoryPool:106)
+[2020-10-29 10:32:19,609] ERROR Reclaimed buffer of size 95446630 and identity 296801471 that was not properly release()ed. This is a bug. (org.apache.kafka.common.memory.GarbageCollectedMemoryPool:106)
+[2020-10-29 10:32:19,610] ERROR Reclaimed buffer of size 95446630 and identity 1169558499 that was not properly release()ed. This is a bug. (org.apache.kafka.common.memory.GarbageCollectedMemoryPool:106)
+[2020-10-29 10:32:19,610] ERROR Reclaimed buffer of size 95446630 and identity 1606995409 that was not properly release()ed. This is a bug. (org.apache.kafka.common.memory.GarbageCollectedMemoryPool:106)
+[2020-10-29 10:32:19,610] ERROR Reclaimed buffer of size 95446630 and identity 110691829 that was not properly release()ed. This is a bug. (org.apache.kafka.common.memory.GarbageCollectedMemoryPool:106)
+[2020-10-29 10:32:19,610] ERROR Reclaimed buffer of size 95446630 and identity 681096264 that was not properly release()ed. This is a bug. (org.apache.kafka.common.memory.GarbageCollectedMemoryPool:106)
+[2020-10-29 10:32:19,610] ERROR Reclaimed buffer of size 95446630 and identity 917627904 that was not properly release()ed. This is a bug. (org.apache.kafka.common.memory.GarbageCollectedMemoryPool:106)
+[2020-10-29 10:32:19,610] ERROR Reclaimed buffer of size 95446630 and identity 1379149878 that was not properly release()ed. This is a bug. (org.apache.kafka.common.memory.GarbageCollectedMemoryPool:106)
+[2020-10-29 10:32:19,610] ERROR Reclaimed buffer of size 95446630 and identity 1436059611 that was not properly release()ed. This is a bug. (org.apache.kafka.common.memory.GarbageCollectedMemoryPool:106)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

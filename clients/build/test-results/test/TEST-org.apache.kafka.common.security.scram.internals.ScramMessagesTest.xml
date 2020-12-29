@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.apache.kafka.common.security.scram.internals.ScramMessagesTest" tests="8" skipped="0" failures="0" errors="0" timestamp="2020-10-29T02:31:43" hostname="chukun-mac" time="0.03">
+  <properties/>
+  <testcase name="validClientFirstMessage" classname="org.apache.kafka.common.security.scram.internals.ScramMessagesTest" time="0.007"/>
+  <testcase name="invalidClientFinalMessage" classname="org.apache.kafka.common.security.scram.internals.ScramMessagesTest" time="0.003"/>
+  <testcase name="validServerFirstMessage" classname="org.apache.kafka.common.security.scram.internals.ScramMessagesTest" time="0.004"/>
+  <testcase name="invalidServerFinalMessage" classname="org.apache.kafka.common.security.scram.internals.ScramMessagesTest" time="0.003"/>
+  <testcase name="invalidClientFirstMessage" classname="org.apache.kafka.common.security.scram.internals.ScramMessagesTest" time="0.001"/>
+  <testcase name="validClientFinalMessage" classname="org.apache.kafka.common.security.scram.internals.ScramMessagesTest" time="0.005"/>
+  <testcase name="invalidServerFirstMessage" classname="org.apache.kafka.common.security.scram.internals.ScramMessagesTest" time="0.003"/>
+  <testcase name="validServerFinalMessage" classname="org.apache.kafka.common.security.scram.internals.ScramMessagesTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

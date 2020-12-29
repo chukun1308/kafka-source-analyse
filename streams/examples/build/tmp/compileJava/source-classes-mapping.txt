@@ -1,0 +1,33 @@
+org/apache/kafka/streams/examples/pageview/PageViewUntypedDemo.java
+ org.apache.kafka.streams.examples.pageview.PageViewUntypedDemo
+org/apache/kafka/streams/examples/wordcount/WordCountTransformerDemo.java
+ org.apache.kafka.streams.examples.wordcount.WordCountTransformerDemo
+ org.apache.kafka.streams.examples.wordcount.WordCountTransformerDemo$1
+ org.apache.kafka.streams.examples.wordcount.WordCountTransformerDemo$MyTransformerSupplier
+ org.apache.kafka.streams.examples.wordcount.WordCountTransformerDemo$MyTransformerSupplier$1
+org/apache/kafka/streams/examples/pageview/JsonTimestampExtractor.java
+ org.apache.kafka.streams.examples.pageview.JsonTimestampExtractor
+org/apache/kafka/streams/examples/pageview/PageViewTypedDemo.java
+ org.apache.kafka.streams.examples.pageview.PageViewTypedDemo
+ org.apache.kafka.streams.examples.pageview.PageViewTypedDemo$1
+ org.apache.kafka.streams.examples.pageview.PageViewTypedDemo$JSONSerde
+ org.apache.kafka.streams.examples.pageview.PageViewTypedDemo$JSONSerdeCompatible
+ org.apache.kafka.streams.examples.pageview.PageViewTypedDemo$PageView
+ org.apache.kafka.streams.examples.pageview.PageViewTypedDemo$PageViewByRegion
+ org.apache.kafka.streams.examples.pageview.PageViewTypedDemo$RegionCount
+ org.apache.kafka.streams.examples.pageview.PageViewTypedDemo$UserProfile
+ org.apache.kafka.streams.examples.pageview.PageViewTypedDemo$WindowedPageViewByRegion
+org/apache/kafka/streams/examples/temperature/TemperatureDemo.java
+ org.apache.kafka.streams.examples.temperature.TemperatureDemo
+ org.apache.kafka.streams.examples.temperature.TemperatureDemo$1
+org/apache/kafka/streams/examples/wordcount/WordCountProcessorDemo.java
+ org.apache.kafka.streams.examples.wordcount.WordCountProcessorDemo
+ org.apache.kafka.streams.examples.wordcount.WordCountProcessorDemo$1
+ org.apache.kafka.streams.examples.wordcount.WordCountProcessorDemo$MyProcessorSupplier
+ org.apache.kafka.streams.examples.wordcount.WordCountProcessorDemo$MyProcessorSupplier$1
+org/apache/kafka/streams/examples/pipe/PipeDemo.java
+ org.apache.kafka.streams.examples.pipe.PipeDemo
+ org.apache.kafka.streams.examples.pipe.PipeDemo$1
+org/apache/kafka/streams/examples/wordcount/WordCountDemo.java
+ org.apache.kafka.streams.examples.wordcount.WordCountDemo
+ org.apache.kafka.streams.examples.wordcount.WordCountDemo$1

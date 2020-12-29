@@ -1,0 +1,16 @@
+org/apache/kafka/connect/mirror/MirrorClientConfig.java
+ org.apache.kafka.connect.mirror.MirrorClientConfig
+org/apache/kafka/connect/mirror/Checkpoint.java
+ org.apache.kafka.connect.mirror.Checkpoint
+org/apache/kafka/connect/mirror/MirrorClient.java
+ org.apache.kafka.connect.mirror.MirrorClient
+org/apache/kafka/connect/mirror/ReplicationPolicy.java
+ org.apache.kafka.connect.mirror.ReplicationPolicy
+org/apache/kafka/connect/mirror/SourceAndTarget.java
+ org.apache.kafka.connect.mirror.SourceAndTarget
+org/apache/kafka/connect/mirror/Heartbeat.java
+ org.apache.kafka.connect.mirror.Heartbeat
+org/apache/kafka/connect/mirror/DefaultReplicationPolicy.java
+ org.apache.kafka.connect.mirror.DefaultReplicationPolicy
+org/apache/kafka/connect/mirror/RemoteClusterUtils.java
+ org.apache.kafka.connect.mirror.RemoteClusterUtils

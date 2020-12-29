@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.apache.kafka.raft.VotedStateTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-10-29T02:42:00" hostname="chukun-mac" time="0.375">
+  <properties/>
+  <testcase name="testElectionTimeout()" classname="org.apache.kafka.raft.VotedStateTest" time="0.375"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

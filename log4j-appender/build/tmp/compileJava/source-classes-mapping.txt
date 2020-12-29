@@ -1,0 +1,2 @@
+org/apache/kafka/log4jappender/KafkaLog4jAppender.java
+ org.apache.kafka.log4jappender.KafkaLog4jAppender

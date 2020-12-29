@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.apache.kafka.common.network.SslTransportTls12Tls13Test" tests="4" skipped="3" failures="0" errors="0" timestamp="2020-10-29T02:32:04" hostname="chukun-mac" time="5.445">
+  <properties/>
+  <testcase name="testCiphersSuiteForTls12FailsForTls13" classname="org.apache.kafka.common.network.SslTransportTls12Tls13Test" time="1.669">
+    <skipped/>
+  </testcase>
+  <testcase name="testCiphersSuiteForTls12" classname="org.apache.kafka.common.network.SslTransportTls12Tls13Test" time="0.967"/>
+  <testcase name="testCiphersSuiteForTls13" classname="org.apache.kafka.common.network.SslTransportTls12Tls13Test" time="0.976">
+    <skipped/>
+  </testcase>
+  <testcase name="testCiphersSuiteFailForServerTls12ClientTls13" classname="org.apache.kafka.common.network.SslTransportTls12Tls13Test" time="1.831">
+    <skipped/>
+  </testcase>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

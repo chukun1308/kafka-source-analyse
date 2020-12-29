@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.apache.kafka.clients.consumer.RoundRobinAssignorTest" tests="13" skipped="0" failures="0" errors="0" timestamp="2020-10-29T02:32:11" hostname="chukun-mac" time="0.007">
+  <properties/>
+  <testcase name="testOneConsumerNoTopic" classname="org.apache.kafka.clients.consumer.RoundRobinAssignorTest" time="0.002"/>
+  <testcase name="testStaticMemberRoundRobinAssignmentPersistentAfterMemberIdChanges" classname="org.apache.kafka.clients.consumer.RoundRobinAssignorTest" time="0.002"/>
+  <testcase name="testStaticMemberRoundRobinAssignmentPersistent" classname="org.apache.kafka.clients.consumer.RoundRobinAssignorTest" time="0.001"/>
+  <testcase name="testTwoDynamicConsumersTwoTopicsSixPartitions" classname="org.apache.kafka.clients.consumer.RoundRobinAssignorTest" time="0.0"/>
+  <testcase name="testOneConsumerOneTopic" classname="org.apache.kafka.clients.consumer.RoundRobinAssignorTest" time="0.0"/>
+  <testcase name="testMultipleConsumersMixedTopics" classname="org.apache.kafka.clients.consumer.RoundRobinAssignorTest" time="0.0"/>
+  <testcase name="testTwoConsumersOneTopicOnePartition" classname="org.apache.kafka.clients.consumer.RoundRobinAssignorTest" time="0.0"/>
+  <testcase name="testTwoStaticConsumersTwoTopicsSixPartitions" classname="org.apache.kafka.clients.consumer.RoundRobinAssignorTest" time="0.0"/>
+  <testcase name="testOneConsumerMultipleTopics" classname="org.apache.kafka.clients.consumer.RoundRobinAssignorTest" time="0.001"/>
+  <testcase name="testOnlyAssignsPartitionsFromSubscribedTopics" classname="org.apache.kafka.clients.consumer.RoundRobinAssignorTest" time="0.0"/>
+  <testcase name="testTwoConsumersOneTopicTwoPartitions" classname="org.apache.kafka.clients.consumer.RoundRobinAssignorTest" time="0.0"/>
+  <testcase name="testOneStaticConsumerAndOneDynamicConsumerTwoTopicsSixPartitions" classname="org.apache.kafka.clients.consumer.RoundRobinAssignorTest" time="0.0"/>
+  <testcase name="testOneConsumerNonexistentTopic" classname="org.apache.kafka.clients.consumer.RoundRobinAssignorTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

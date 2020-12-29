@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.apache.kafka.common.metrics.JmxReporterTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2020-10-29T02:32:11" hostname="chukun-mac" time="0.192">
+  <properties/>
+  <testcase name="testPredicateAndDynamicReload" classname="org.apache.kafka.common.metrics.JmxReporterTest" time="0.184"/>
+  <testcase name="testJmxRegistration" classname="org.apache.kafka.common.metrics.JmxReporterTest" time="0.001"/>
+  <testcase name="testJmxPrefix" classname="org.apache.kafka.common.metrics.JmxReporterTest" time="0.0"/>
+  <testcase name="testJmxRegistrationSanitization" classname="org.apache.kafka.common.metrics.JmxReporterTest" time="0.003"/>
+  <testcase name="testDeprecatedJmxPrefixWithDefaultMetrics" classname="org.apache.kafka.common.metrics.JmxReporterTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

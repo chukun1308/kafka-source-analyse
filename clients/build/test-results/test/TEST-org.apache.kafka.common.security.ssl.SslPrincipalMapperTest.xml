@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.apache.kafka.common.security.ssl.SslPrincipalMapperTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2020-10-29T02:31:56" hostname="chukun-mac" time="0.027">
+  <properties/>
+  <testcase name="testRulesSplitting" classname="org.apache.kafka.common.security.ssl.SslPrincipalMapperTest" time="0.024"/>
+  <testcase name="testValidRules" classname="org.apache.kafka.common.security.ssl.SslPrincipalMapperTest" time="0.001"/>
+  <testcase name="testCommaWithWhitespace" classname="org.apache.kafka.common.security.ssl.SslPrincipalMapperTest" time="0.0"/>
+  <testcase name="testSslPrincipalMapper" classname="org.apache.kafka.common.security.ssl.SslPrincipalMapperTest" time="0.0"/>
+  <testcase name="testInvalidRules" classname="org.apache.kafka.common.security.ssl.SslPrincipalMapperTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

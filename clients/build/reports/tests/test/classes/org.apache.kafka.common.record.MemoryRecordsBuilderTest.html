@@ -1,0 +1,1541 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Class org.apache.kafka.common.record.MemoryRecordsBuilderTest</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class org.apache.kafka.common.record.MemoryRecordsBuilderTest</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/org.apache.kafka.common.record.html">org.apache.kafka.common.record</a> &gt; MemoryRecordsBuilderTest</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">290</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">24</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">2.209s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox skipped" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">buildUsingCreateTime[bufferOffset=0, compression=GZIP]</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">buildUsingCreateTime[bufferOffset=0, compression=LZ4]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">buildUsingCreateTime[bufferOffset=0, compression=NONE]</td>
+<td class="success">0.002s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">buildUsingCreateTime[bufferOffset=0, compression=SNAPPY]</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="skipped">buildUsingCreateTime[bufferOffset=0, compression=ZSTD]</td>
+<td class="skipped">-</td>
+<td class="skipped">ignored</td>
+</tr>
+<tr>
+<td class="success">buildUsingCreateTime[bufferOffset=15, compression=GZIP]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">buildUsingCreateTime[bufferOffset=15, compression=LZ4]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">buildUsingCreateTime[bufferOffset=15, compression=NONE]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">buildUsingCreateTime[bufferOffset=15, compression=SNAPPY]</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="skipped">buildUsingCreateTime[bufferOffset=15, compression=ZSTD]</td>
+<td class="skipped">-</td>
+<td class="skipped">ignored</td>
+</tr>
+<tr>
+<td class="success">buildUsingLogAppendTime[bufferOffset=0, compression=GZIP]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">buildUsingLogAppendTime[bufferOffset=0, compression=LZ4]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">buildUsingLogAppendTime[bufferOffset=0, compression=NONE]</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">buildUsingLogAppendTime[bufferOffset=0, compression=SNAPPY]</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="skipped">buildUsingLogAppendTime[bufferOffset=0, compression=ZSTD]</td>
+<td class="skipped">-</td>
+<td class="skipped">ignored</td>
+</tr>
+<tr>
+<td class="success">buildUsingLogAppendTime[bufferOffset=15, compression=GZIP]</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">buildUsingLogAppendTime[bufferOffset=15, compression=LZ4]</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">buildUsingLogAppendTime[bufferOffset=15, compression=NONE]</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">buildUsingLogAppendTime[bufferOffset=15, compression=SNAPPY]</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="skipped">buildUsingLogAppendTime[bufferOffset=15, compression=ZSTD]</td>
+<td class="skipped">-</td>
+<td class="skipped">ignored</td>
+</tr>
+<tr>
+<td class="success">convertToV1WithMixedV0AndV2Data[bufferOffset=0, compression=GZIP]</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">convertToV1WithMixedV0AndV2Data[bufferOffset=0, compression=LZ4]</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">convertToV1WithMixedV0AndV2Data[bufferOffset=0, compression=NONE]</td>
+<td class="success">0.002s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">convertToV1WithMixedV0AndV2Data[bufferOffset=0, compression=SNAPPY]</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="skipped">convertToV1WithMixedV0AndV2Data[bufferOffset=0, compression=ZSTD]</td>
+<td class="skipped">-</td>
+<td class="skipped">ignored</td>
+</tr>
+<tr>
+<td class="success">convertToV1WithMixedV0AndV2Data[bufferOffset=15, compression=GZIP]</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">convertToV1WithMixedV0AndV2Data[bufferOffset=15, compression=LZ4]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">convertToV1WithMixedV0AndV2Data[bufferOffset=15, compression=NONE]</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">convertToV1WithMixedV0AndV2Data[bufferOffset=15, compression=SNAPPY]</td>
+<td class="success">0.002s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="skipped">convertToV1WithMixedV0AndV2Data[bufferOffset=15, compression=ZSTD]</td>
+<td class="skipped">-</td>
+<td class="skipped">ignored</td>
+</tr>
+<tr>
+<td class="success">convertV2ToV1UsingMixedCreateAndLogAppendTime[bufferOffset=0, compression=GZIP]</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">convertV2ToV1UsingMixedCreateAndLogAppendTime[bufferOffset=0, compression=LZ4]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">convertV2ToV1UsingMixedCreateAndLogAppendTime[bufferOffset=0, compression=NONE]</td>
+<td class="success">0.005s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">convertV2ToV1UsingMixedCreateAndLogAppendTime[bufferOffset=0, compression=SNAPPY]</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">convertV2ToV1UsingMixedCreateAndLogAppendTime[bufferOffset=0, compression=ZSTD]</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">convertV2ToV1UsingMixedCreateAndLogAppendTime[bufferOffset=15, compression=GZIP]</td>
+<td class="success">0.002s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">convertV2ToV1UsingMixedCreateAndLogAppendTime[bufferOffset=15, compression=LZ4]</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">convertV2ToV1UsingMixedCreateAndLogAppendTime[bufferOffset=15, compression=NONE]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">convertV2ToV1UsingMixedCreateAndLogAppendTime[bufferOffset=15, compression=SNAPPY]</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">convertV2ToV1UsingMixedCreateAndLogAppendTime[bufferOffset=15, compression=ZSTD]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">shouldResetBufferToInitialPositionOnAbort[bufferOffset=0, compression=GZIP]</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">shouldResetBufferToInitialPositionOnAbort[bufferOffset=0, compression=LZ4]</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">shouldResetBufferToInitialPositionOnAbort[bufferOffset=0, compression=NONE]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">shouldResetBufferToInitialPositionOnAbort[bufferOffset=0, compression=SNAPPY]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="skipped">shouldResetBufferToInitialPositionOnAbort[bufferOffset=0, compression=ZSTD]</td>
+<td class="skipped">-</td>
+<td class="skipped">ignored</td>
+</tr>
+<tr>
+<td class="success">shouldResetBufferToInitialPositionOnAbort[bufferOffset=15, compression=GZIP]</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">shouldResetBufferToInitialPositionOnAbort[bufferOffset=15, compression=LZ4]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">shouldResetBufferToInitialPositionOnAbort[bufferOffset=15, compression=NONE]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">shouldResetBufferToInitialPositionOnAbort[bufferOffset=15, compression=SNAPPY]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="skipped">shouldResetBufferToInitialPositionOnAbort[bufferOffset=15, compression=ZSTD]</td>
+<td class="skipped">-</td>
+<td class="skipped">ignored</td>
+</tr>
+<tr>
+<td class="success">shouldThrowIllegalStateExceptionOnAppendWhenAborted[bufferOffset=0, compression=GZIP]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">shouldThrowIllegalStateExceptionOnAppendWhenAborted[bufferOffset=0, compression=LZ4]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">shouldThrowIllegalStateExceptionOnAppendWhenAborted[bufferOffset=0, compression=NONE]</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">shouldThrowIllegalStateExceptionOnAppendWhenAborted[bufferOffset=0, compression=SNAPPY]</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="skipped">shouldThrowIllegalStateExceptionOnAppendWhenAborted[bufferOffset=0, compression=ZSTD]</td>
+<td class="skipped">-</td>
+<td class="skipped">ignored</td>
+</tr>
+<tr>
+<td class="success">shouldThrowIllegalStateExceptionOnAppendWhenAborted[bufferOffset=15, compression=GZIP]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">shouldThrowIllegalStateExceptionOnAppendWhenAborted[bufferOffset=15, compression=LZ4]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">shouldThrowIllegalStateExceptionOnAppendWhenAborted[bufferOffset=15, compression=NONE]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">shouldThrowIllegalStateExceptionOnAppendWhenAborted[bufferOffset=15, compression=SNAPPY]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="skipped">shouldThrowIllegalStateExceptionOnAppendWhenAborted[bufferOffset=15, compression=ZSTD]</td>
+<td class="skipped">-</td>
+<td class="skipped">ignored</td>
+</tr>
+<tr>
+<td class="success">shouldThrowIllegalStateExceptionOnBuildWhenAborted[bufferOffset=0, compression=GZIP]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">shouldThrowIllegalStateExceptionOnBuildWhenAborted[bufferOffset=0, compression=LZ4]</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">shouldThrowIllegalStateExceptionOnBuildWhenAborted[bufferOffset=0, compression=NONE]</td>
+<td class="success">0.003s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">shouldThrowIllegalStateExceptionOnBuildWhenAborted[bufferOffset=0, compression=SNAPPY]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="skipped">shouldThrowIllegalStateExceptionOnBuildWhenAborted[bufferOffset=0, compression=ZSTD]</td>
+<td class="skipped">-</td>
+<td class="skipped">ignored</td>
+</tr>
+<tr>
+<td class="success">shouldThrowIllegalStateExceptionOnBuildWhenAborted[bufferOffset=15, compression=GZIP]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">shouldThrowIllegalStateExceptionOnBuildWhenAborted[bufferOffset=15, compression=LZ4]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">shouldThrowIllegalStateExceptionOnBuildWhenAborted[bufferOffset=15, compression=NONE]</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">shouldThrowIllegalStateExceptionOnBuildWhenAborted[bufferOffset=15, compression=SNAPPY]</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="skipped">shouldThrowIllegalStateExceptionOnBuildWhenAborted[bufferOffset=15, compression=ZSTD]</td>
+<td class="skipped">-</td>
+<td class="skipped">ignored</td>
+</tr>
+<tr>
+<td class="success">shouldThrowIllegalStateExceptionOnCloseWhenAborted[bufferOffset=0, compression=GZIP]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">shouldThrowIllegalStateExceptionOnCloseWhenAborted[bufferOffset=0, compression=LZ4]</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">shouldThrowIllegalStateExceptionOnCloseWhenAborted[bufferOffset=0, compression=NONE]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">shouldThrowIllegalStateExceptionOnCloseWhenAborted[bufferOffset=0, compression=SNAPPY]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="skipped">shouldThrowIllegalStateExceptionOnCloseWhenAborted[bufferOffset=0, compression=ZSTD]</td>
+<td class="skipped">-</td>
+<td class="skipped">ignored</td>
+</tr>
+<tr>
+<td class="success">shouldThrowIllegalStateExceptionOnCloseWhenAborted[bufferOffset=15, compression=GZIP]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">shouldThrowIllegalStateExceptionOnCloseWhenAborted[bufferOffset=15, compression=LZ4]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">shouldThrowIllegalStateExceptionOnCloseWhenAborted[bufferOffset=15, compression=NONE]</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">shouldThrowIllegalStateExceptionOnCloseWhenAborted[bufferOffset=15, compression=SNAPPY]</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="skipped">shouldThrowIllegalStateExceptionOnCloseWhenAborted[bufferOffset=15, compression=ZSTD]</td>
+<td class="skipped">-</td>
+<td class="skipped">ignored</td>
+</tr>
+<tr>
+<td class="success">testAppendAtInvalidOffset[bufferOffset=0, compression=GZIP]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testAppendAtInvalidOffset[bufferOffset=0, compression=LZ4]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testAppendAtInvalidOffset[bufferOffset=0, compression=NONE]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testAppendAtInvalidOffset[bufferOffset=0, compression=SNAPPY]</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testAppendAtInvalidOffset[bufferOffset=0, compression=ZSTD]</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testAppendAtInvalidOffset[bufferOffset=15, compression=GZIP]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testAppendAtInvalidOffset[bufferOffset=15, compression=LZ4]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testAppendAtInvalidOffset[bufferOffset=15, compression=NONE]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testAppendAtInvalidOffset[bufferOffset=15, compression=SNAPPY]</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testAppendAtInvalidOffset[bufferOffset=15, compression=ZSTD]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testAppendedChecksumConsistency[bufferOffset=0, compression=GZIP]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testAppendedChecksumConsistency[bufferOffset=0, compression=LZ4]</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testAppendedChecksumConsistency[bufferOffset=0, compression=NONE]</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testAppendedChecksumConsistency[bufferOffset=0, compression=SNAPPY]</td>
+<td class="success">0.004s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="skipped">testAppendedChecksumConsistency[bufferOffset=0, compression=ZSTD]</td>
+<td class="skipped">-</td>
+<td class="skipped">ignored</td>
+</tr>
+<tr>
+<td class="success">testAppendedChecksumConsistency[bufferOffset=15, compression=GZIP]</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testAppendedChecksumConsistency[bufferOffset=15, compression=LZ4]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testAppendedChecksumConsistency[bufferOffset=15, compression=NONE]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testAppendedChecksumConsistency[bufferOffset=15, compression=SNAPPY]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="skipped">testAppendedChecksumConsistency[bufferOffset=15, compression=ZSTD]</td>
+<td class="skipped">-</td>
+<td class="skipped">ignored</td>
+</tr>
+<tr>
+<td class="success">testBuffersDereferencedOnClose[bufferOffset=0, compression=GZIP]</td>
+<td class="success">0.315s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testBuffersDereferencedOnClose[bufferOffset=0, compression=LZ4]</td>
+<td class="success">0.145s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testBuffersDereferencedOnClose[bufferOffset=0, compression=NONE]</td>
+<td class="success">0.283s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testBuffersDereferencedOnClose[bufferOffset=0, compression=SNAPPY]</td>
+<td class="success">0.137s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testBuffersDereferencedOnClose[bufferOffset=0, compression=ZSTD]</td>
+<td class="success">0.229s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testBuffersDereferencedOnClose[bufferOffset=15, compression=GZIP]</td>
+<td class="success">0.400s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testBuffersDereferencedOnClose[bufferOffset=15, compression=LZ4]</td>
+<td class="success">0.110s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testBuffersDereferencedOnClose[bufferOffset=15, compression=NONE]</td>
+<td class="success">0.155s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testBuffersDereferencedOnClose[bufferOffset=15, compression=SNAPPY]</td>
+<td class="success">0.175s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testBuffersDereferencedOnClose[bufferOffset=15, compression=ZSTD]</td>
+<td class="success">0.139s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testCompressionRateV0[bufferOffset=0, compression=GZIP]</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testCompressionRateV0[bufferOffset=0, compression=LZ4]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testCompressionRateV0[bufferOffset=0, compression=NONE]</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testCompressionRateV0[bufferOffset=0, compression=SNAPPY]</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="skipped">testCompressionRateV0[bufferOffset=0, compression=ZSTD]</td>
+<td class="skipped">-</td>
+<td class="skipped">ignored</td>
+</tr>
+<tr>
+<td class="success">testCompressionRateV0[bufferOffset=15, compression=GZIP]</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testCompressionRateV0[bufferOffset=15, compression=LZ4]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testCompressionRateV0[bufferOffset=15, compression=NONE]</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testCompressionRateV0[bufferOffset=15, compression=SNAPPY]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="skipped">testCompressionRateV0[bufferOffset=15, compression=ZSTD]</td>
+<td class="skipped">-</td>
+<td class="skipped">ignored</td>
+</tr>
+<tr>
+<td class="success">testCompressionRateV1[bufferOffset=0, compression=GZIP]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testCompressionRateV1[bufferOffset=0, compression=LZ4]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testCompressionRateV1[bufferOffset=0, compression=NONE]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testCompressionRateV1[bufferOffset=0, compression=SNAPPY]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="skipped">testCompressionRateV1[bufferOffset=0, compression=ZSTD]</td>
+<td class="skipped">-</td>
+<td class="skipped">ignored</td>
+</tr>
+<tr>
+<td class="success">testCompressionRateV1[bufferOffset=15, compression=GZIP]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testCompressionRateV1[bufferOffset=15, compression=LZ4]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testCompressionRateV1[bufferOffset=15, compression=NONE]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testCompressionRateV1[bufferOffset=15, compression=SNAPPY]</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="skipped">testCompressionRateV1[bufferOffset=15, compression=ZSTD]</td>
+<td class="skipped">-</td>
+<td class="skipped">ignored</td>
+</tr>
+<tr>
+<td class="success">testEstimatedSizeInBytes[bufferOffset=0, compression=GZIP]</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testEstimatedSizeInBytes[bufferOffset=0, compression=LZ4]</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testEstimatedSizeInBytes[bufferOffset=0, compression=NONE]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testEstimatedSizeInBytes[bufferOffset=0, compression=SNAPPY]</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testEstimatedSizeInBytes[bufferOffset=0, compression=ZSTD]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testEstimatedSizeInBytes[bufferOffset=15, compression=GZIP]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testEstimatedSizeInBytes[bufferOffset=15, compression=LZ4]</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testEstimatedSizeInBytes[bufferOffset=15, compression=NONE]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testEstimatedSizeInBytes[bufferOffset=15, compression=SNAPPY]</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testEstimatedSizeInBytes[bufferOffset=15, compression=ZSTD]</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testSmallWriteLimit[bufferOffset=0, compression=GZIP]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testSmallWriteLimit[bufferOffset=0, compression=LZ4]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testSmallWriteLimit[bufferOffset=0, compression=NONE]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testSmallWriteLimit[bufferOffset=0, compression=SNAPPY]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testSmallWriteLimit[bufferOffset=0, compression=ZSTD]</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testSmallWriteLimit[bufferOffset=15, compression=GZIP]</td>
+<td class="success">0.002s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testSmallWriteLimit[bufferOffset=15, compression=LZ4]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testSmallWriteLimit[bufferOffset=15, compression=NONE]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testSmallWriteLimit[bufferOffset=15, compression=SNAPPY]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testSmallWriteLimit[bufferOffset=15, compression=ZSTD]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testWriteControlBatchNotAllowedMagicV0[bufferOffset=0, compression=GZIP]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testWriteControlBatchNotAllowedMagicV0[bufferOffset=0, compression=LZ4]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testWriteControlBatchNotAllowedMagicV0[bufferOffset=0, compression=NONE]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testWriteControlBatchNotAllowedMagicV0[bufferOffset=0, compression=SNAPPY]</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testWriteControlBatchNotAllowedMagicV0[bufferOffset=0, compression=ZSTD]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testWriteControlBatchNotAllowedMagicV0[bufferOffset=15, compression=GZIP]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testWriteControlBatchNotAllowedMagicV0[bufferOffset=15, compression=LZ4]</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testWriteControlBatchNotAllowedMagicV0[bufferOffset=15, compression=NONE]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testWriteControlBatchNotAllowedMagicV0[bufferOffset=15, compression=SNAPPY]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testWriteControlBatchNotAllowedMagicV0[bufferOffset=15, compression=ZSTD]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testWriteControlBatchNotAllowedMagicV1[bufferOffset=0, compression=GZIP]</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testWriteControlBatchNotAllowedMagicV1[bufferOffset=0, compression=LZ4]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testWriteControlBatchNotAllowedMagicV1[bufferOffset=0, compression=NONE]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testWriteControlBatchNotAllowedMagicV1[bufferOffset=0, compression=SNAPPY]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testWriteControlBatchNotAllowedMagicV1[bufferOffset=0, compression=ZSTD]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testWriteControlBatchNotAllowedMagicV1[bufferOffset=15, compression=GZIP]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testWriteControlBatchNotAllowedMagicV1[bufferOffset=15, compression=LZ4]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testWriteControlBatchNotAllowedMagicV1[bufferOffset=15, compression=NONE]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testWriteControlBatchNotAllowedMagicV1[bufferOffset=15, compression=SNAPPY]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testWriteControlBatchNotAllowedMagicV1[bufferOffset=15, compression=ZSTD]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testWriteEmptyRecordSet[bufferOffset=0, compression=GZIP]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testWriteEmptyRecordSet[bufferOffset=0, compression=LZ4]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testWriteEmptyRecordSet[bufferOffset=0, compression=NONE]</td>
+<td class="success">0.002s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testWriteEmptyRecordSet[bufferOffset=0, compression=SNAPPY]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="skipped">testWriteEmptyRecordSet[bufferOffset=0, compression=ZSTD]</td>
+<td class="skipped">-</td>
+<td class="skipped">ignored</td>
+</tr>
+<tr>
+<td class="success">testWriteEmptyRecordSet[bufferOffset=15, compression=GZIP]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testWriteEmptyRecordSet[bufferOffset=15, compression=LZ4]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testWriteEmptyRecordSet[bufferOffset=15, compression=NONE]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testWriteEmptyRecordSet[bufferOffset=15, compression=SNAPPY]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="skipped">testWriteEmptyRecordSet[bufferOffset=15, compression=ZSTD]</td>
+<td class="skipped">-</td>
+<td class="skipped">ignored</td>
+</tr>
+<tr>
+<td class="success">testWriteEndTxnMarkerNonControlBatch[bufferOffset=0, compression=GZIP]</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testWriteEndTxnMarkerNonControlBatch[bufferOffset=0, compression=LZ4]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testWriteEndTxnMarkerNonControlBatch[bufferOffset=0, compression=NONE]</td>
+<td class="success">0.003s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testWriteEndTxnMarkerNonControlBatch[bufferOffset=0, compression=SNAPPY]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testWriteEndTxnMarkerNonControlBatch[bufferOffset=0, compression=ZSTD]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testWriteEndTxnMarkerNonControlBatch[bufferOffset=15, compression=GZIP]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testWriteEndTxnMarkerNonControlBatch[bufferOffset=15, compression=LZ4]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testWriteEndTxnMarkerNonControlBatch[bufferOffset=15, compression=NONE]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testWriteEndTxnMarkerNonControlBatch[bufferOffset=15, compression=SNAPPY]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testWriteEndTxnMarkerNonControlBatch[bufferOffset=15, compression=ZSTD]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testWriteEndTxnMarkerNonTransactionalBatch[bufferOffset=0, compression=GZIP]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testWriteEndTxnMarkerNonTransactionalBatch[bufferOffset=0, compression=LZ4]</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testWriteEndTxnMarkerNonTransactionalBatch[bufferOffset=0, compression=NONE]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testWriteEndTxnMarkerNonTransactionalBatch[bufferOffset=0, compression=SNAPPY]</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testWriteEndTxnMarkerNonTransactionalBatch[bufferOffset=0, compression=ZSTD]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testWriteEndTxnMarkerNonTransactionalBatch[bufferOffset=15, compression=GZIP]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testWriteEndTxnMarkerNonTransactionalBatch[bufferOffset=15, compression=LZ4]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testWriteEndTxnMarkerNonTransactionalBatch[bufferOffset=15, compression=NONE]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testWriteEndTxnMarkerNonTransactionalBatch[bufferOffset=15, compression=SNAPPY]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testWriteEndTxnMarkerNonTransactionalBatch[bufferOffset=15, compression=ZSTD]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testWriteIdempotentWithInvalidBaseSequence[bufferOffset=0, compression=GZIP]</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testWriteIdempotentWithInvalidBaseSequence[bufferOffset=0, compression=LZ4]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testWriteIdempotentWithInvalidBaseSequence[bufferOffset=0, compression=NONE]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testWriteIdempotentWithInvalidBaseSequence[bufferOffset=0, compression=SNAPPY]</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testWriteIdempotentWithInvalidBaseSequence[bufferOffset=0, compression=ZSTD]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testWriteIdempotentWithInvalidBaseSequence[bufferOffset=15, compression=GZIP]</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testWriteIdempotentWithInvalidBaseSequence[bufferOffset=15, compression=LZ4]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testWriteIdempotentWithInvalidBaseSequence[bufferOffset=15, compression=NONE]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testWriteIdempotentWithInvalidBaseSequence[bufferOffset=15, compression=SNAPPY]</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testWriteIdempotentWithInvalidBaseSequence[bufferOffset=15, compression=ZSTD]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testWriteIdempotentWithInvalidEpoch[bufferOffset=0, compression=GZIP]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testWriteIdempotentWithInvalidEpoch[bufferOffset=0, compression=LZ4]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testWriteIdempotentWithInvalidEpoch[bufferOffset=0, compression=NONE]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testWriteIdempotentWithInvalidEpoch[bufferOffset=0, compression=SNAPPY]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testWriteIdempotentWithInvalidEpoch[bufferOffset=0, compression=ZSTD]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testWriteIdempotentWithInvalidEpoch[bufferOffset=15, compression=GZIP]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testWriteIdempotentWithInvalidEpoch[bufferOffset=15, compression=LZ4]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testWriteIdempotentWithInvalidEpoch[bufferOffset=15, compression=NONE]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testWriteIdempotentWithInvalidEpoch[bufferOffset=15, compression=SNAPPY]</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testWriteIdempotentWithInvalidEpoch[bufferOffset=15, compression=ZSTD]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testWriteLeaderChangeControlBatchWithoutLeaderEpoch[bufferOffset=0, compression=GZIP]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testWriteLeaderChangeControlBatchWithoutLeaderEpoch[bufferOffset=0, compression=LZ4]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testWriteLeaderChangeControlBatchWithoutLeaderEpoch[bufferOffset=0, compression=NONE]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testWriteLeaderChangeControlBatchWithoutLeaderEpoch[bufferOffset=0, compression=SNAPPY]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testWriteLeaderChangeControlBatchWithoutLeaderEpoch[bufferOffset=0, compression=ZSTD]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testWriteLeaderChangeControlBatchWithoutLeaderEpoch[bufferOffset=15, compression=GZIP]</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testWriteLeaderChangeControlBatchWithoutLeaderEpoch[bufferOffset=15, compression=LZ4]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testWriteLeaderChangeControlBatchWithoutLeaderEpoch[bufferOffset=15, compression=NONE]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testWriteLeaderChangeControlBatchWithoutLeaderEpoch[bufferOffset=15, compression=SNAPPY]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testWriteLeaderChangeControlBatchWithoutLeaderEpoch[bufferOffset=15, compression=ZSTD]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testWriteLeaderChangeControlBatch[bufferOffset=0, compression=GZIP]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testWriteLeaderChangeControlBatch[bufferOffset=0, compression=LZ4]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testWriteLeaderChangeControlBatch[bufferOffset=0, compression=NONE]</td>
+<td class="success">0.005s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testWriteLeaderChangeControlBatch[bufferOffset=0, compression=SNAPPY]</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testWriteLeaderChangeControlBatch[bufferOffset=0, compression=ZSTD]</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testWriteLeaderChangeControlBatch[bufferOffset=15, compression=GZIP]</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testWriteLeaderChangeControlBatch[bufferOffset=15, compression=LZ4]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testWriteLeaderChangeControlBatch[bufferOffset=15, compression=NONE]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testWriteLeaderChangeControlBatch[bufferOffset=15, compression=SNAPPY]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testWriteLeaderChangeControlBatch[bufferOffset=15, compression=ZSTD]</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testWriteTransactionalNotAllowedMagicV0[bufferOffset=0, compression=GZIP]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testWriteTransactionalNotAllowedMagicV0[bufferOffset=0, compression=LZ4]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testWriteTransactionalNotAllowedMagicV0[bufferOffset=0, compression=NONE]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testWriteTransactionalNotAllowedMagicV0[bufferOffset=0, compression=SNAPPY]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testWriteTransactionalNotAllowedMagicV0[bufferOffset=0, compression=ZSTD]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testWriteTransactionalNotAllowedMagicV0[bufferOffset=15, compression=GZIP]</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testWriteTransactionalNotAllowedMagicV0[bufferOffset=15, compression=LZ4]</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testWriteTransactionalNotAllowedMagicV0[bufferOffset=15, compression=NONE]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testWriteTransactionalNotAllowedMagicV0[bufferOffset=15, compression=SNAPPY]</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testWriteTransactionalNotAllowedMagicV0[bufferOffset=15, compression=ZSTD]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testWriteTransactionalNotAllowedMagicV1[bufferOffset=0, compression=GZIP]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testWriteTransactionalNotAllowedMagicV1[bufferOffset=0, compression=LZ4]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testWriteTransactionalNotAllowedMagicV1[bufferOffset=0, compression=NONE]</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testWriteTransactionalNotAllowedMagicV1[bufferOffset=0, compression=SNAPPY]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testWriteTransactionalNotAllowedMagicV1[bufferOffset=0, compression=ZSTD]</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testWriteTransactionalNotAllowedMagicV1[bufferOffset=15, compression=GZIP]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testWriteTransactionalNotAllowedMagicV1[bufferOffset=15, compression=LZ4]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testWriteTransactionalNotAllowedMagicV1[bufferOffset=15, compression=NONE]</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testWriteTransactionalNotAllowedMagicV1[bufferOffset=15, compression=SNAPPY]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testWriteTransactionalNotAllowedMagicV1[bufferOffset=15, compression=ZSTD]</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testWriteTransactionalRecordSet[bufferOffset=0, compression=GZIP]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testWriteTransactionalRecordSet[bufferOffset=0, compression=LZ4]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testWriteTransactionalRecordSet[bufferOffset=0, compression=NONE]</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testWriteTransactionalRecordSet[bufferOffset=0, compression=SNAPPY]</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testWriteTransactionalRecordSet[bufferOffset=0, compression=ZSTD]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testWriteTransactionalRecordSet[bufferOffset=15, compression=GZIP]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testWriteTransactionalRecordSet[bufferOffset=15, compression=LZ4]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testWriteTransactionalRecordSet[bufferOffset=15, compression=NONE]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testWriteTransactionalRecordSet[bufferOffset=15, compression=SNAPPY]</td>
+<td class="success">0.002s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testWriteTransactionalRecordSet[bufferOffset=15, compression=ZSTD]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testWriteTransactionalWithInvalidPID[bufferOffset=0, compression=GZIP]</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testWriteTransactionalWithInvalidPID[bufferOffset=0, compression=LZ4]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testWriteTransactionalWithInvalidPID[bufferOffset=0, compression=NONE]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testWriteTransactionalWithInvalidPID[bufferOffset=0, compression=SNAPPY]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testWriteTransactionalWithInvalidPID[bufferOffset=0, compression=ZSTD]</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testWriteTransactionalWithInvalidPID[bufferOffset=15, compression=GZIP]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testWriteTransactionalWithInvalidPID[bufferOffset=15, compression=LZ4]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testWriteTransactionalWithInvalidPID[bufferOffset=15, compression=NONE]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testWriteTransactionalWithInvalidPID[bufferOffset=15, compression=SNAPPY]</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testWriteTransactionalWithInvalidPID[bufferOffset=15, compression=ZSTD]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">writePastLimit[bufferOffset=0, compression=GZIP]</td>
+<td class="success">0.002s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">writePastLimit[bufferOffset=0, compression=LZ4]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">writePastLimit[bufferOffset=0, compression=NONE]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">writePastLimit[bufferOffset=0, compression=SNAPPY]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="skipped">writePastLimit[bufferOffset=0, compression=ZSTD]</td>
+<td class="skipped">-</td>
+<td class="skipped">ignored</td>
+</tr>
+<tr>
+<td class="success">writePastLimit[bufferOffset=15, compression=GZIP]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">writePastLimit[bufferOffset=15, compression=LZ4]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">writePastLimit[bufferOffset=15, compression=NONE]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">writePastLimit[bufferOffset=15, compression=SNAPPY]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="skipped">writePastLimit[bufferOffset=15, compression=ZSTD]</td>
+<td class="skipped">-</td>
+<td class="skipped">ignored</td>
+</tr>
+</table>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 6.7</a> at 2020-10-29 10:36:13</p>
+</div>
+</div>
+</body>
+</html>

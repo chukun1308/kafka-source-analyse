@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.apache.kafka.common.security.JaasContextTest" tests="17" skipped="0" failures="0" errors="0" timestamp="2020-10-29T02:32:32" hostname="chukun-mac" time="0.101">
+  <properties/>
+  <testcase name="testLoadForServerWithListenerNameOverride" classname="org.apache.kafka.common.security.JaasContextTest" time="0.006"/>
+  <testcase name="testMissingOptionValue" classname="org.apache.kafka.common.security.JaasContextTest" time="0.005"/>
+  <testcase name="testSingleOption" classname="org.apache.kafka.common.security.JaasContextTest" time="0.004"/>
+  <testcase name="testNumericOptionWithoutQuotes" classname="org.apache.kafka.common.security.JaasContextTest" time="0.002"/>
+  <testcase name="testConfigNoOptions" classname="org.apache.kafka.common.security.JaasContextTest" time="0.016"/>
+  <testcase name="testLoadForServerWithWrongListenerName" classname="org.apache.kafka.common.security.JaasContextTest" time="0.003"/>
+  <testcase name="testNumericOptionWithQuotes" classname="org.apache.kafka.common.security.JaasContextTest" time="0.009"/>
+  <testcase name="testQuotedOptionValue" classname="org.apache.kafka.common.security.JaasContextTest" time="0.017"/>
+  <testcase name="testMissingLoginModule" classname="org.apache.kafka.common.security.JaasContextTest" time="0.005"/>
+  <testcase name="testMissingSemicolon" classname="org.apache.kafka.common.security.JaasContextTest" time="0.004"/>
+  <testcase name="testInvalidControlFlag" classname="org.apache.kafka.common.security.JaasContextTest" time="0.002"/>
+  <testcase name="testMultipleOptions" classname="org.apache.kafka.common.security.JaasContextTest" time="0.003"/>
+  <testcase name="testMultipleLoginModules" classname="org.apache.kafka.common.security.JaasContextTest" time="0.002"/>
+  <testcase name="testMissingControlFlag" classname="org.apache.kafka.common.security.JaasContextTest" time="0.002"/>
+  <testcase name="testLoadForServerWithListenerNameAndFallback" classname="org.apache.kafka.common.security.JaasContextTest" time="0.003"/>
+  <testcase name="testQuotedOptionName" classname="org.apache.kafka.common.security.JaasContextTest" time="0.007"/>
+  <testcase name="testControlFlag" classname="org.apache.kafka.common.security.JaasContextTest" time="0.007"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.apache.kafka.common.security.ssl.DefaultSslEngineFactoryTest" tests="10" skipped="0" failures="0" errors="0" timestamp="2020-10-29T02:31:36" hostname="chukun-mac" time="6.939">
+  <properties/>
+  <testcase name="testPemTrustStoreConfigWithOneCert" classname="org.apache.kafka.common.security.ssl.DefaultSslEngineFactoryTest" time="1.04"/>
+  <testcase name="testTrailingNewLines" classname="org.apache.kafka.common.security.ssl.DefaultSslEngineFactoryTest" time="1.389"/>
+  <testcase name="testCarriageReturnLineFeed" classname="org.apache.kafka.common.security.ssl.DefaultSslEngineFactoryTest" time="0.885"/>
+  <testcase name="testPemKeyStoreFileNoKeyPassword" classname="org.apache.kafka.common.security.ssl.DefaultSslEngineFactoryTest" time="0.002"/>
+  <testcase name="testPemKeyStoreConfigNoPassword" classname="org.apache.kafka.common.security.ssl.DefaultSslEngineFactoryTest" time="0.929"/>
+  <testcase name="testPemKeyStoreConfigWithKeyPassword" classname="org.apache.kafka.common.security.ssl.DefaultSslEngineFactoryTest" time="0.96"/>
+  <testcase name="testPemTrustStoreFile" classname="org.apache.kafka.common.security.ssl.DefaultSslEngineFactoryTest" time="0.005"/>
+  <testcase name="testPemTrustStoreConfigWithMultipleCerts" classname="org.apache.kafka.common.security.ssl.DefaultSslEngineFactoryTest" time="0.002"/>
+  <testcase name="testPemKeyStoreFileWithKeyPassword" classname="org.apache.kafka.common.security.ssl.DefaultSslEngineFactoryTest" time="0.994"/>
+  <testcase name="testLeadingNewLines" classname="org.apache.kafka.common.security.ssl.DefaultSslEngineFactoryTest" time="0.731"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

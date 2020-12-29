@@ -1,0 +1,689 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Class org.apache.kafka.clients.producer.internals.TransactionManagerTest</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class org.apache.kafka.clients.producer.internals.TransactionManagerTest</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/org.apache.kafka.clients.producer.internals.html">org.apache.kafka.clients.producer.internals</a> &gt; TransactionManagerTest</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">116</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">8.967s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">resendFailedProduceRequestAfterAbortableError</td>
+<td class="success">0.003s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">shouldFailAbortIfAddOffsetsFailsWithFatalError</td>
+<td class="success">0.017s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">shouldNotAddPartitionsToTransactionWhenTopicAuthorizationFailed</td>
+<td class="success">0.002s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">shouldNotSendAbortTxnRequestWhenOnlyAddOffsetsRequestFailed</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">shouldNotSendAbortTxnRequestWhenOnlyAddPartitionsRequestFailed</td>
+<td class="success">0.004s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testAbortResendsAddPartitionErrorIfRetried</td>
+<td class="success">0.003s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testAbortResendsProduceRequestIfRetried</td>
+<td class="success">0.004s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testAbortTransactionAndResetSequenceNumberOnUnknownProducerId</td>
+<td class="success">0.017s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testAbortTransactionAndReuseSequenceNumberOnError</td>
+<td class="success">0.005s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testAbortableErrorWhileAbortInProgress</td>
+<td class="success">0.004s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testAddPartitionToTransactionOverridesRetryBackoffForConcurrentTransactions</td>
+<td class="success">0.006s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testAddPartitionToTransactionRetainsRetryBackoffForRegularRetriableError</td>
+<td class="success">0.002s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testAddPartitionToTransactionRetainsRetryBackoffWhenPartitionsAlreadyAdded</td>
+<td class="success">0.003s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testAllowAbortOnProduceFailure</td>
+<td class="success">0.111s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testAllowDrainInAbortableErrorState</td>
+<td class="success">0.016s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testBasicTransaction</td>
+<td class="success">0.003s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testBatchCompletedAfterProducerReset</td>
+<td class="success">0.009s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testBatchFailureAfterProducerReset</td>
+<td class="success">0.011s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testBumpEpochAfterTimeoutWithoutPendingInflightRequests</td>
+<td class="success">0.007s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testBumpEpochAndResetSequenceNumbersAfterUnknownProducerId</td>
+<td class="success">0.139s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testBumpTransactionalEpochOnAbortableError</td>
+<td class="success">0.012s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testBumpTransactionalEpochOnRecoverableAddOffsetsRequestError</td>
+<td class="success">0.007s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testBumpTransactionalEpochOnRecoverableAddPartitionRequestError</td>
+<td class="success">0.023s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testBumpTransactionalEpochOnTimeout</td>
+<td class="success">0.007s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testBumpTransactionalEpochOnUnknownProducerIdError</td>
+<td class="success">0.005s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testCanBumpEpochDuringCoordinatorDisconnect</td>
+<td class="success">0.013s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testCancelUnsentAddPartitionsAndProduceOnAbort</td>
+<td class="success">0.003s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testCommitTransactionWithInFlightProduceRequest</td>
+<td class="success">0.005s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testCommitTransactionWithUnsentProduceRequest</td>
+<td class="success">0.042s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testCommitWithTopicAuthorizationFailureInAddPartitionsInFlight</td>
+<td class="success">0.002s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testDefaultSequenceNumber</td>
+<td class="success">0.002s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testDisallowCommitOnProduceFailure</td>
+<td class="success">0.004s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testDisconnectAndRetry</td>
+<td class="success">0.014s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testDropCommitOnBatchExpiry</td>
+<td class="success">0.025s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testEndTxnNotSentIfIncompleteBatches</td>
+<td class="success">0.002s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testEpochBumpAfterLastInflightBatchFails</td>
+<td class="success">0.009s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testFailIfNotReadyForSendAfterAbortableError</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testFailIfNotReadyForSendAfterFatalError</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testFailIfNotReadyForSendIdempotentProducer</td>
+<td class="success">0.003s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testFailIfNotReadyForSendIdempotentProducerFatalError</td>
+<td class="success">0.002s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testFailIfNotReadyForSendNoOngoingTransaction</td>
+<td class="success">0.002s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testFailIfNotReadyForSendNoProducerId</td>
+<td class="success">0.040s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testFailedInflightBatchAfterEpochBump</td>
+<td class="success">0.004s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testFencedInstanceIdInTxnOffsetCommitByGroupMetadata</td>
+<td class="success">0.003s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testFindCoordinatorAllowedInAbortableErrorState</td>
+<td class="success">0.009s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testFlushPendingPartitionsOnCommit</td>
+<td class="success">0.003s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testGroupAuthorizationFailureInFindCoordinator</td>
+<td class="success">0.006s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testGroupAuthorizationFailureInTxnOffsetCommit</td>
+<td class="success">0.002s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testHandlingOfCoordinatorLoadingErrorOnTxnOffsetCommit</td>
+<td class="success">0.014s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testHandlingOfInvalidProducerEpochErrorOnTxnOffsetCommit</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testHandlingOfProducerFencedErrorOnTxnOffsetCommit</td>
+<td class="success">0.020s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testHandlingOfTransactionalIdAuthorizationFailedErrorOnTxnOffsetCommit</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testHandlingOfUnknownTopicPartitionErrorOnAddPartitions</td>
+<td class="success">0.005s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testHandlingOfUnknownTopicPartitionErrorOnTxnOffsetCommit</td>
+<td class="success">0.003s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testHandlingOfUnsupportedForMessageFormatErrorOnTxnOffsetCommit</td>
+<td class="success">0.002s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testHasOngoingTransactionAbortableError</td>
+<td class="success">0.003s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testHasOngoingTransactionFatalError</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testHasOngoingTransactionSuccessfulAbort</td>
+<td class="success">0.006s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testHasOngoingTransactionSuccessfulCommit</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testHealthyPartitionRetriesDuringEpochBump</td>
+<td class="success">0.013s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testIllegalGenerationInTxnOffsetCommitByGroupMetadata</td>
+<td class="success">0.003s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testInitializeTransactionsTwiceRaisesError</td>
+<td class="success">0.002s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testInvalidProducerEpochConvertToProducerFencedInAddOffSetsToTxn</td>
+<td class="success">0.005s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testInvalidProducerEpochConvertToProducerFencedInAddPartitionToTxn</td>
+<td class="success">0.004s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testInvalidProducerEpochConvertToProducerFencedInEndTxn</td>
+<td class="success">0.011s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testInvalidProducerEpochConvertToProducerFencedInInitProducerId</td>
+<td class="success">0.004s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testInvalidProducerEpochFromProduce</td>
+<td class="success">0.004s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testIsSendToPartitionAllowedWithAddedPartitionAfterAbortableError</td>
+<td class="success">0.003s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testIsSendToPartitionAllowedWithAddedPartitionAfterFatalError</td>
+<td class="success">0.002s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testIsSendToPartitionAllowedWithInFlightPartitionAddAfterAbortableError</td>
+<td class="success">0.004s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testIsSendToPartitionAllowedWithInFlightPartitionAddAfterFatalError</td>
+<td class="success">0.003s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testIsSendToPartitionAllowedWithPartitionNotAdded</td>
+<td class="success">0.010s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testIsSendToPartitionAllowedWithPendingPartitionAfterAbortableError</td>
+<td class="success">0.002s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testIsSendToPartitionAllowedWithPendingPartitionAfterFatalError</td>
+<td class="success">0.046s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testLookupCoordinatorOnDisconnectAfterSend</td>
+<td class="success">0.005s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testLookupCoordinatorOnDisconnectBeforeSend</td>
+<td class="success">0.004s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testLookupCoordinatorOnNotCoordinatorError</td>
+<td class="success">0.003s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testMaybeAddPartitionToTransaction</td>
+<td class="success">0.002s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testMaybeAddPartitionToTransactionAfterAbortableError</td>
+<td class="success">0.002s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testMaybeAddPartitionToTransactionAfterFatalError</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testMaybeAddPartitionToTransactionBeforeBeginTransaction</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testMaybeAddPartitionToTransactionBeforeInitTransactions</td>
+<td class="success">0.003s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testMultipleAddPartitionsPerForOneProduce</td>
+<td class="success">0.003s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testNoDrainWhenPartitionsPending</td>
+<td class="success">0.002s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testNoFailedBatchHandlingWhenTxnManagerIsInFatalError</td>
+<td class="success">0.015s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testNoProducerIdResetAfterLastInFlightBatchSucceeds</td>
+<td class="success">0.002s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testProducerFencedExceptionInInitProducerId</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testProducerFencedInAddOffSetsToTxn</td>
+<td class="success">0.002s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testProducerFencedInAddPartitionToTxn</td>
+<td class="success">0.254s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testProducerIdReset</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testRaiseErrorWhenNoPartitionsPendingOnDrain</td>
+<td class="success">0.002s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testRecoveryFromAbortableErrorProduceRequestInRetry</td>
+<td class="success">0.008s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testRecoveryFromAbortableErrorTransactionNotStarted</td>
+<td class="success">0.005s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testRecoveryFromAbortableErrorTransactionStarted</td>
+<td class="success">0.042s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testRetryAbortTransaction</td>
+<td class="success">1.022s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testRetryAbortTransactionAfterCommitTimeout</td>
+<td class="success">1.006s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testRetryCommitTransaction</td>
+<td class="success">1.027s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testRetryCommitTransactionAfterAbortTimeout</td>
+<td class="success">1.003s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testSendOffsetWithGroupMetadataFailAsAutoDowngradeTxnCommitNotEnabled</td>
+<td class="success">0.003s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testSendOffsetWithGroupMetadataSuccessAsAutoDowngradeTxnCommitEnabled</td>
+<td class="success">0.003s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testSendOffsetsWithGroupMetadata</td>
+<td class="success">0.014s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testSenderShutdownWithPendingTransactions</td>
+<td class="success">0.004s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testSequenceNumberOverflow</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testTopicAuthorizationFailureInAddPartitions</td>
+<td class="success">3.680s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testTransactionalIdAuthorizationFailureInAddOffsetsToTxn</td>
+<td class="success">0.003s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testTransactionalIdAuthorizationFailureInAddPartitions</td>
+<td class="success">0.002s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testTransactionalIdAuthorizationFailureInFindCoordinator</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testTransactionalIdAuthorizationFailureInInitProducerId</td>
+<td class="success">0.003s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testTransactionalIdAuthorizationFailureInTxnOffsetCommit</td>
+<td class="success">0.002s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testTransitionToAbortableErrorOnBatchExpiry</td>
+<td class="success">0.004s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testTransitionToAbortableErrorOnMultipleBatchExpiry</td>
+<td class="success">0.021s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testTransitionToFatalErrorWhenRetriedBatchIsExpired</td>
+<td class="success">0.009s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testUnknownMemberIdInTxnOffsetCommitByGroupMetadata</td>
+<td class="success">0.003s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testUnsupportedFindCoordinator</td>
+<td class="success">0.002s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testUnsupportedForMessageFormatInTxnOffsetCommit</td>
+<td class="success">0.003s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testUnsupportedInitTransactions</td>
+<td class="success">0.002s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>[2020-10-29 10:31:22,339] ERROR The broker returned org.apache.kafka.common.errors.OutOfOrderSequenceException: out of sequence for topic-partition foo-0 with producerId 15, epoch 5, and sequence number 0 (org.apache.kafka.clients.producer.internals.TransactionManager:728)
+[2020-10-29 10:31:22,533] ERROR Aborting producer batches due to fatal error (org.apache.kafka.clients.producer.internals.Sender:502)
+org.apache.kafka.common.errors.ProducerFencedException: There is a newer producer with the same transactionalId which fences the current one.
+[2020-10-29 10:31:22,700] ERROR Aborting producer batches due to fatal error (org.apache.kafka.clients.producer.internals.Sender:502)
+org.apache.kafka.common.errors.ProducerFencedException: There is a newer producer with the same transactionalId which fences the current one.
+[2020-10-29 10:31:22,816] ERROR Aborting producer batches due to fatal error (org.apache.kafka.clients.producer.internals.Sender:502)
+org.apache.kafka.common.errors.ProducerFencedException: There is a newer producer with the same transactionalId which fences the current one.
+[2020-10-29 10:31:27,320] ERROR Aborting producer batches due to fatal error (org.apache.kafka.clients.producer.internals.Sender:502)
+org.apache.kafka.common.errors.ProducerFencedException: There is a newer producer with the same transactionalId which fences the current one.
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 6.7</a> at 2020-10-29 10:36:13</p>
+</div>
+</div>
+</body>
+</html>

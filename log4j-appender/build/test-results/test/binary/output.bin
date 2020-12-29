@@ -1,0 +1,327 @@
+4log4j: Parsing for [root] with value=[INFO, KAFKA].
+log4j: Level token is [INFO].
+!log4j: Category root set to INFO
+'log4j: Parsing appender named "KAFKA".
++log4j: Parsing layout options for "KAFKA".
+Blog4j: Setting property [conversionPattern] to [%-5p: %c - %m%n].
+#log4j: End of parsing for "KAFKA".
+2log4j: Setting property [requiredNumAcks] to [1].
+:log4j: Setting property [brokerList] to [127.0.0.1:9093].
+1log4j: Setting property [topic] to [test-topic].
+.log4j: Setting property [syncSend] to [true].
+7log4j: Setting property [ignoreExceptions] to [false].
+2log4j: Kafka producer connected to 127.0.0.1:9093
+%log4j: Logging for topic: test-topic
+log4j: Parsed "KAFKA" options.
+;log4j: Parsing for [kafka.log4j] with value=[INFO, KAFKA].
+log4j: Level token is [INFO].
+(log4j: Category kafka.log4j set to INFO
+'log4j: Parsing appender named "KAFKA".
+,log4j: Appender "KAFKA" was already parsed.
+4log4j: Handling log4j.additivity.kafka.log4j=[null]
+log4j: Finished configuring.
+2log4j: Kafka producer connected to 127.0.0.1:9093
+%log4j: Logging for topic: test-topic
+plog4j: [Thu Oct 29 10:41:34 CST 2020]ERROR: org.apache.kafka.log4jappender.KafkaLog4jAppenderTest - [B@4337d868
+
+4log4j: Parsing for [root] with value=[INFO, KAFKA].
+log4j: Level token is [INFO].
+!log4j: Category root set to INFO
+'log4j: Parsing appender named "KAFKA".
++log4j: Parsing layout options for "KAFKA".
+Blog4j: Setting property [conversionPattern] to [%-5p: %c - %m%n].
+#log4j: End of parsing for "KAFKA".
+.log4j: Setting property [maxBlockMs] to [10].
+2log4j: Setting property [requiredNumAcks] to [1].
+:log4j: Setting property [brokerList] to [127.0.0.2:9093].
+1log4j: Setting property [topic] to [test-topic].
+.log4j: Setting property [syncSend] to [true].
+7log4j: Setting property [ignoreExceptions] to [false].
+2log4j: Kafka producer connected to 127.0.0.2:9093
+%log4j: Logging for topic: test-topic
+log4j: Parsed "KAFKA" options.
+;log4j: Parsing for [kafka.log4j] with value=[INFO, KAFKA].
+log4j: Level token is [INFO].
+(log4j: Category kafka.log4j set to INFO
+'log4j: Parsing appender named "KAFKA".
+,log4j: Appender "KAFKA" was already parsed.
+4log4j: Handling log4j.additivity.kafka.log4j=[null]
+log4j: Finished configuring.
+plog4j: [Thu Oct 29 10:41:34 CST 2020]ERROR: org.apache.kafka.log4jappender.KafkaLog4jAppenderTest - [B@104387b1
+
+4log4j: Parsing for [root] with value=[INFO, KAFKA].
+log4j: Level token is [INFO].
+!log4j: Category root set to INFO
+'log4j: Parsing appender named "KAFKA".
++log4j: Parsing layout options for "KAFKA".
+Blog4j: Setting property [conversionPattern] to [%-5p: %c - %m%n].
+#log4j: End of parsing for "KAFKA".
+2log4j: Setting property [requiredNumAcks] to [1].
+:log4j: Setting property [brokerList] to [127.0.0.1:9093].
+1log4j: Setting property [topic] to [test-topic].
+/log4j: Setting property [syncSend] to [false].
+2log4j: Kafka producer connected to 127.0.0.1:9093
+%log4j: Logging for topic: test-topic
+log4j: Parsed "KAFKA" options.
+;log4j: Parsing for [kafka.log4j] with value=[INFO, KAFKA].
+log4j: Level token is [INFO].
+(log4j: Category kafka.log4j set to INFO
+'log4j: Parsing appender named "KAFKA".
+,log4j: Appender "KAFKA" was already parsed.
+4log4j: Handling log4j.additivity.kafka.log4j=[null]
+log4j: Finished configuring.
+plog4j: [Thu Oct 29 10:41:34 CST 2020]ERROR: org.apache.kafka.log4jappender.KafkaLog4jAppenderTest - [B@4d0d6e7d
+
+plog4j: [Thu Oct 29 10:41:34 CST 2020]ERROR: org.apache.kafka.log4jappender.KafkaLog4jAppenderTest - [B@1e3e219c
+
+plog4j: [Thu Oct 29 10:41:34 CST 2020]ERROR: org.apache.kafka.log4jappender.KafkaLog4jAppenderTest - [B@6abc3991
+
+plog4j: [Thu Oct 29 10:41:34 CST 2020]ERROR: org.apache.kafka.log4jappender.KafkaLog4jAppenderTest - [B@7f0436b7
+
+plog4j: [Thu Oct 29 10:41:34 CST 2020]ERROR: org.apache.kafka.log4jappender.KafkaLog4jAppenderTest - [B@11555d62
+
+4log4j: Parsing for [root] with value=[INFO, KAFKA].
+log4j: Level token is [INFO].
+!log4j: Category root set to INFO
+'log4j: Parsing appender named "KAFKA".
++log4j: Parsing layout options for "KAFKA".
+Blog4j: Setting property [conversionPattern] to [%-5p: %c - %m%n].
+#log4j: End of parsing for "KAFKA".
+2log4j: Setting property [requiredNumAcks] to [1].
+4log4j: Setting property [saslMechanism] to [PLAIN].
+:log4j: Setting property [brokerList] to [127.0.0.1:9093].
+1log4j: Setting property [topic] to [test-topic].
+/log4j: Setting property [syncSend] to [false].
+2log4j: Kafka producer connected to 127.0.0.1:9093
+%log4j: Logging for topic: test-topic
+log4j: Parsed "KAFKA" options.
+;log4j: Parsing for [kafka.log4j] with value=[INFO, KAFKA].
+log4j: Level token is [INFO].
+(log4j: Category kafka.log4j set to INFO
+'log4j: Parsing appender named "KAFKA".
+,log4j: Appender "KAFKA" was already parsed.
+4log4j: Handling log4j.additivity.kafka.log4j=[null]
+log4j: Finished configuring.
+4log4j: Parsing for [root] with value=[INFO, KAFKA].
+log4j: Level token is [INFO].
+!log4j: Category root set to INFO
+'log4j: Parsing appender named "KAFKA".
++log4j: Parsing layout options for "KAFKA".
+Blog4j: Setting property [conversionPattern] to [%-5p: %c - %m%n].
+#log4j: End of parsing for "KAFKA".
+2log4j: Setting property [requiredNumAcks] to [1].
+:log4j: Setting property [brokerList] to [127.0.0.1:9093].
+1log4j: Setting property [topic] to [test-topic].
+/log4j: Setting property [syncSend] to [false].
+2log4j: Kafka producer connected to 127.0.0.1:9093
+%log4j: Logging for topic: test-topic
+log4j: Parsed "KAFKA" options.
+;log4j: Parsing for [kafka.log4j] with value=[INFO, KAFKA].
+log4j: Level token is [INFO].
+(log4j: Category kafka.log4j set to INFO
+'log4j: Parsing appender named "KAFKA".
+,log4j: Appender "KAFKA" was already parsed.
+4log4j: Handling log4j.additivity.kafka.log4j=[null]
+log4j: Finished configuring.
+-log4j: Parsing for [root] with value=[INFO].
+log4j: Level token is [INFO].
+!log4j: Category root set to INFO
+;log4j: Parsing for [kafka.log4j] with value=[INFO, KAFKA].
+log4j: Level token is [INFO].
+(log4j: Category kafka.log4j set to INFO
+'log4j: Parsing appender named "KAFKA".
++log4j: Parsing layout options for "KAFKA".
+Blog4j: Setting property [conversionPattern] to [%-5p: %c - %m%n].
+#log4j: End of parsing for "KAFKA".
+1log4j: Setting property [topic] to [test-topic].
+-log4j: Parsing for [root] with value=[INFO].
+log4j: Level token is [INFO].
+!log4j: Category root set to INFO
+;log4j: Parsing for [kafka.log4j] with value=[INFO, KAFKA].
+log4j: Level token is [INFO].
+(log4j: Category kafka.log4j set to INFO
+'log4j: Parsing appender named "KAFKA".
++log4j: Parsing layout options for "KAFKA".
+Blog4j: Setting property [conversionPattern] to [%-5p: %c - %m%n].
+#log4j: End of parsing for "KAFKA".
+:log4j: Setting property [brokerList] to [127.0.0.1:9093].
+4log4j: Parsing for [root] with value=[INFO, KAFKA].
+log4j: Level token is [INFO].
+!log4j: Category root set to INFO
+'log4j: Parsing appender named "KAFKA".
++log4j: Parsing layout options for "KAFKA".
+Blog4j: Setting property [conversionPattern] to [%-5p: %c - %m%n].
+#log4j: End of parsing for "KAFKA".
+2log4j: Setting property [requiredNumAcks] to [1].
+:log4j: Setting property [brokerList] to [127.0.0.1:9093].
+1log4j: Setting property [topic] to [test-topic].
+.log4j: Setting property [syncSend] to [true].
+7log4j: Setting property [ignoreExceptions] to [false].
+2log4j: Kafka producer connected to 127.0.0.1:9093
+%log4j: Logging for topic: test-topic
+log4j: Parsed "KAFKA" options.
+;log4j: Parsing for [kafka.log4j] with value=[INFO, KAFKA].
+log4j: Level token is [INFO].
+(log4j: Category kafka.log4j set to INFO
+'log4j: Parsing appender named "KAFKA".
+,log4j: Appender "KAFKA" was already parsed.
+4log4j: Handling log4j.additivity.kafka.log4j=[null]
+log4j: Finished configuring.
+2log4j: Kafka producer connected to 127.0.0.1:9093
+%log4j: Logging for topic: test-topic
+plog4j: [Thu Oct 29 10:41:34 CST 2020]ERROR: org.apache.kafka.log4jappender.KafkaLog4jAppenderTest - [B@2b64167e
+
+	4log4j: Parsing for [root] with value=[INFO, KAFKA].
+	log4j: Level token is [INFO].
+	!log4j: Category root set to INFO
+	'log4j: Parsing appender named "KAFKA".
+	+log4j: Parsing layout options for "KAFKA".
+	Blog4j: Setting property [conversionPattern] to [%-5p: %c - %m%n].
+	#log4j: End of parsing for "KAFKA".
+	.log4j: Setting property [maxBlockMs] to [10].
+	2log4j: Setting property [requiredNumAcks] to [1].
+	:log4j: Setting property [brokerList] to [127.0.0.2:9093].
+	1log4j: Setting property [topic] to [test-topic].
+	.log4j: Setting property [syncSend] to [true].
+	6log4j: Setting property [ignoreExceptions] to [true].
+	2log4j: Kafka producer connected to 127.0.0.2:9093
+	%log4j: Logging for topic: test-topic
+	log4j: Parsed "KAFKA" options.
+	;log4j: Parsing for [kafka.log4j] with value=[INFO, KAFKA].
+	log4j: Level token is [INFO].
+	(log4j: Category kafka.log4j set to INFO
+	'log4j: Parsing appender named "KAFKA".
+	,log4j: Appender "KAFKA" was already parsed.
+	4log4j: Handling log4j.additivity.kafka.log4j=[null]
+	log4j: Finished configuring.
+	plog4j: [Thu Oct 29 10:41:34 CST 2020]ERROR: org.apache.kafka.log4jappender.KafkaLog4jAppenderTest - [B@2586735b
+	
+	(log4j: Exception while getting response
+	êjava.util.concurrent.ExecutionException: org.apache.kafka.common.errors.TimeoutException: Topic test-topic not present in metadata after 10 ms.
+	b	at org.apache.kafka.clients.producer.KafkaProducer$FutureFailure.<init>(KafkaProducer.java:1307)
+	S	at org.apache.kafka.clients.producer.KafkaProducer.doSend(KafkaProducer.java:976)
+	Q	at org.apache.kafka.clients.producer.KafkaProducer.send(KafkaProducer.java:876)
+	Q	at org.apache.kafka.clients.producer.KafkaProducer.send(KafkaProducer.java:764)
+	Z	at org.apache.kafka.log4jappender.KafkaLog4jAppender.append(KafkaLog4jAppender.java:348)
+	J	at org.apache.log4j.AppenderSkeleton.doAppend(AppenderSkeleton.java:251)
+	j	at org.apache.log4j.helpers.AppenderAttachableImpl.appendLoopOnAppenders(AppenderAttachableImpl.java:66)
+	?	at org.apache.log4j.Category.callAppenders(Category.java:206)
+	;	at org.apache.log4j.Category.forcedLog(Category.java:391)
+	7	at org.apache.log4j.Category.error(Category.java:305)
+	•	at org.apache.kafka.log4jappender.KafkaLog4jAppenderTest.testLog4jAppendsWithRealProducerConfigWithSyncSendShouldNotThrowException(KafkaLog4jAppenderTest.java:167)
+	@	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	R	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	Z	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	5	at java.lang.reflect.Method.invoke(Method.java:498)
+	Y	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	X	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	W	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	V	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	R	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	E	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	Y	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+	B	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+	W	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+	V	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+	@	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	D	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	F	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	D	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	E	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	E	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	>	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	u	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.runTestClass(JUnitTestClassExecutor.java:110)
+	o	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:58)
+	o	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:38)
+	ä	at org.gradle.api.internal.tasks.testing.junit.AbstractJUnitTestClassProcessor.processTestClass(AbstractJUnitTestClassProcessor.java:62)
+	t	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.processTestClass(SuiteTestClassProcessor.java:51)
+	@	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	R	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	Z	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	5	at java.lang.reflect.Method.invoke(Method.java:498)
+	Y	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	Y	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	i	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33)
+	x	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:94)
+	;	at com.sun.proxy.$Proxy2.processTestClass(Unknown Source)
+	b	at org.gradle.api.internal.tasks.testing.worker.TestWorker.processTestClass(TestWorker.java:119)
+	@	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	R	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	Z	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	5	at java.lang.reflect.Method.invoke(Method.java:498)
+	Y	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	Y	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	ë	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:182)
+	ë	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:164)
+	X	at org.gradle.internal.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:414)
+	k	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:64)
+	Z	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:48)
+	T	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	T	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	j	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:56)
+	*	at java.lang.Thread.run(Thread.java:748)
+	rCaused by: org.apache.kafka.common.errors.TimeoutException: Topic test-topic not present in metadata after 10 ms.
+
+4log4j: Parsing for [root] with value=[INFO, KAFKA].
+
+log4j: Level token is [INFO].
+
+!log4j: Category root set to INFO
+
+'log4j: Parsing appender named "KAFKA".
+
++log4j: Parsing layout options for "KAFKA".
+
+Blog4j: Setting property [conversionPattern] to [%-5p: %c - %m%n].
+
+#log4j: End of parsing for "KAFKA".
+
+2log4j: Setting property [requiredNumAcks] to [1].
+
+:log4j: Setting property [brokerList] to [127.0.0.1:9093].
+
+1log4j: Setting property [topic] to [test-topic].
+
+/log4j: Setting property [syncSend] to [false].
+
+2log4j: Kafka producer connected to 127.0.0.1:9093
+
+%log4j: Logging for topic: test-topic
+
+log4j: Parsed "KAFKA" options.
+
+;log4j: Parsing for [kafka.log4j] with value=[INFO, KAFKA].
+
+log4j: Level token is [INFO].
+
+(log4j: Category kafka.log4j set to INFO
+
+'log4j: Parsing appender named "KAFKA".
+
+,log4j: Appender "KAFKA" was already parsed.
+
+4log4j: Handling log4j.additivity.kafka.log4j=[null]
+
+log4j: Finished configuring.
+4log4j: Parsing for [root] with value=[INFO, KAFKA].
+log4j: Level token is [INFO].
+!log4j: Category root set to INFO
+'log4j: Parsing appender named "KAFKA".
++log4j: Parsing layout options for "KAFKA".
+Blog4j: Setting property [conversionPattern] to [%-5p: %c - %m%n].
+#log4j: End of parsing for "KAFKA".
+2log4j: Setting property [requiredNumAcks] to [1].
+;log4j: Setting property [clientJaasConf] to [jaas-config].
+:log4j: Setting property [brokerList] to [127.0.0.1:9093].
+1log4j: Setting property [topic] to [test-topic].
+/log4j: Setting property [syncSend] to [false].
+2log4j: Kafka producer connected to 127.0.0.1:9093
+%log4j: Logging for topic: test-topic
+log4j: Parsed "KAFKA" options.
+;log4j: Parsing for [kafka.log4j] with value=[INFO, KAFKA].
+log4j: Level token is [INFO].
+(log4j: Category kafka.log4j set to INFO
+'log4j: Parsing appender named "KAFKA".
+,log4j: Appender "KAFKA" was already parsed.
+4log4j: Handling log4j.additivity.kafka.log4j=[null]
+log4j: Finished configuring.

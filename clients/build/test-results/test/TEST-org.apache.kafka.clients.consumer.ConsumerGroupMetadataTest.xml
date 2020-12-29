@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.apache.kafka.clients.consumer.ConsumerGroupMetadataTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2020-10-29T02:31:27" hostname="chukun-mac" time="0.007">
+  <properties/>
+  <testcase name="testInvalidMemberId" classname="org.apache.kafka.clients.consumer.ConsumerGroupMetadataTest" time="0.002"/>
+  <testcase name="testAssignmentConstructor" classname="org.apache.kafka.clients.consumer.ConsumerGroupMetadataTest" time="0.0"/>
+  <testcase name="testInvalidGroupId" classname="org.apache.kafka.clients.consumer.ConsumerGroupMetadataTest" time="0.002"/>
+  <testcase name="testInvalidInstanceId" classname="org.apache.kafka.clients.consumer.ConsumerGroupMetadataTest" time="0.002"/>
+  <testcase name="testGroupIdConstructor" classname="org.apache.kafka.clients.consumer.ConsumerGroupMetadataTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

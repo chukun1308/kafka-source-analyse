@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.apache.kafka.common.header.internals.RecordHeadersTest" tests="8" skipped="0" failures="0" errors="0" timestamp="2020-10-29T02:32:19" hostname="chukun-mac" time="0.033">
+  <properties/>
+  <testcase name="shouldThrowNpeWhenAddingNullHeader" classname="org.apache.kafka.common.header.internals.RecordHeadersTest" time="0.0"/>
+  <testcase name="testAdd" classname="org.apache.kafka.common.header.internals.RecordHeadersTest" time="0.002"/>
+  <testcase name="testNew" classname="org.apache.kafka.common.header.internals.RecordHeadersTest" time="0.0"/>
+  <testcase name="testReadOnly" classname="org.apache.kafka.common.header.internals.RecordHeadersTest" time="0.0"/>
+  <testcase name="testHeaders" classname="org.apache.kafka.common.header.internals.RecordHeadersTest" time="0.031"/>
+  <testcase name="testLastHeader" classname="org.apache.kafka.common.header.internals.RecordHeadersTest" time="0.0"/>
+  <testcase name="testRemove" classname="org.apache.kafka.common.header.internals.RecordHeadersTest" time="0.0"/>
+  <testcase name="testAddRemoveInterleaved" classname="org.apache.kafka.common.header.internals.RecordHeadersTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

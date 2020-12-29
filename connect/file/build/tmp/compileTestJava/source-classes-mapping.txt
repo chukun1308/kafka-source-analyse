@@ -1,0 +1,8 @@
+org/apache/kafka/connect/file/FileStreamSourceConnectorTest.java
+ org.apache.kafka.connect.file.FileStreamSourceConnectorTest
+org/apache/kafka/connect/file/FileStreamSinkConnectorTest.java
+ org.apache.kafka.connect.file.FileStreamSinkConnectorTest
+org/apache/kafka/connect/file/FileStreamSourceTaskTest.java
+ org.apache.kafka.connect.file.FileStreamSourceTaskTest
+org/apache/kafka/connect/file/FileStreamSinkTaskTest.java
+ org.apache.kafka.connect.file.FileStreamSinkTaskTest

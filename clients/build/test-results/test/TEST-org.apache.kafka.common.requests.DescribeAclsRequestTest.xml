@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.apache.kafka.common.requests.DescribeAclsRequestTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2020-10-29T02:34:18" hostname="chukun-mac" time="0.02">
+  <properties/>
+  <testcase name="shouldThrowIfUnknown" classname="org.apache.kafka.common.requests.DescribeAclsRequestTest" time="0.018"/>
+  <testcase name="shouldRoundTripPrefixedV1" classname="org.apache.kafka.common.requests.DescribeAclsRequestTest" time="0.0"/>
+  <testcase name="shouldRoundTripAnyV1" classname="org.apache.kafka.common.requests.DescribeAclsRequestTest" time="0.0"/>
+  <testcase name="shouldThrowOnV0IfPrefixed" classname="org.apache.kafka.common.requests.DescribeAclsRequestTest" time="0.0"/>
+  <testcase name="shouldRoundTripLiteralV0" classname="org.apache.kafka.common.requests.DescribeAclsRequestTest" time="0.001"/>
+  <testcase name="shouldRoundTripLiteralV1" classname="org.apache.kafka.common.requests.DescribeAclsRequestTest" time="0.0"/>
+  <testcase name="shouldRoundTripAnyV0AsLiteral" classname="org.apache.kafka.common.requests.DescribeAclsRequestTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

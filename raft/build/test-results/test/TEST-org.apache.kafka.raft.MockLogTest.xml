@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.apache.kafka.raft.MockLogTest" tests="18" skipped="0" failures="0" errors="0" timestamp="2020-10-29T02:42:01" hostname="chukun-mac" time="0.157">
+  <properties/>
+  <testcase name="testAppendAsFollower()" classname="org.apache.kafka.raft.MockLogTest" time="0.029"/>
+  <testcase name="testEndOffsetForEpoch()" classname="org.apache.kafka.raft.MockLogTest" time="0.008"/>
+  <testcase name="testEmptyAppendNotAllowed()" classname="org.apache.kafka.raft.MockLogTest" time="0.002"/>
+  <testcase name="testReadOutOfRangeOffset()" classname="org.apache.kafka.raft.MockLogTest" time="0.002"/>
+  <testcase name="testReadRecords()" classname="org.apache.kafka.raft.MockLogTest" time="0.001"/>
+  <testcase name="testReadUpToLogEnd()" classname="org.apache.kafka.raft.MockLogTest" time="0.008"/>
+  <testcase name="testAppendControlRecord()" classname="org.apache.kafka.raft.MockLogTest" time="0.031"/>
+  <testcase name="testAssignEpochStartOffset()" classname="org.apache.kafka.raft.MockLogTest" time="0.004"/>
+  <testcase name="testUpdateHighWatermark()" classname="org.apache.kafka.raft.MockLogTest" time="0.001"/>
+  <testcase name="testMonotonicEpochStartOffset()" classname="org.apache.kafka.raft.MockLogTest" time="0.001"/>
+  <testcase name="testUnflushedRecordsLostAfterReopen()" classname="org.apache.kafka.raft.MockLogTest" time="0.002"/>
+  <testcase name="testAppendAsLeaderHelper()" classname="org.apache.kafka.raft.MockLogTest" time="0.002"/>
+  <testcase name="testAppendAsLeader()" classname="org.apache.kafka.raft.MockLogTest" time="0.001"/>
+  <testcase name="testDecrementHighWatermark()" classname="org.apache.kafka.raft.MockLogTest" time="0.012"/>
+  <testcase name="testMetadataValidation()" classname="org.apache.kafka.raft.MockLogTest" time="0.007"/>
+  <testcase name="testTopicPartition()" classname="org.apache.kafka.raft.MockLogTest" time="0.001"/>
+  <testcase name="testReadUpToHighWatermark()" classname="org.apache.kafka.raft.MockLogTest" time="0.026"/>
+  <testcase name="testTruncateTo()" classname="org.apache.kafka.raft.MockLogTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,108 @@
+Adding ACLs for resource `ResourcePattern(resourceType=CLUSTER, name=kafka-cluster, patternType=LITERAL)`: 
+ 	(principal=User:kafka, host=*, operation=CLUSTER_ACTION, permissionType=ALLOW) 
+
+Current ACLs for resource `ResourcePattern(resourceType=CLUSTER, name=kafka-cluster, patternType=LITERAL)`: 
+ 	(principal=User:kafka, host=*, operation=CLUSTER_ACTION, permissionType=ALLOW) 
+
+Adding ACLs for resource `ResourcePattern(resourceType=CLUSTER, name=kafka-cluster, patternType=LITERAL)`: 
+ 	(principal=User:kafka, host=*, operation=ALTER, permissionType=ALLOW) 
+
+Current ACLs for resource `ResourcePattern(resourceType=CLUSTER, name=kafka-cluster, patternType=LITERAL)`: 
+ 	(principal=User:kafka, host=*, operation=CLUSTER_ACTION, permissionType=ALLOW)
+	(principal=User:kafka, host=*, operation=ALTER, permissionType=ALLOW) 
+
+Adding ACLs for resource `ResourcePattern(resourceType=TOPIC, name=*, patternType=LITERAL)`: 
+ 	(principal=User:kafka, host=*, operation=READ, permissionType=ALLOW) 
+
+Current ACLs for resource `ResourcePattern(resourceType=TOPIC, name=*, patternType=LITERAL)`: 
+ 	(principal=User:kafka, host=*, operation=READ, permissionType=ALLOW) 
+
+Debug is  true storeKey true useTicketCache false useKeyTab true doNotPrompt false ticketCache is null isInitiator true KeyTab is /var/folders/y3/mvtqxgns6j93y74hb90_t2p9rflg_z/T/kafka7053450742612103739.tmp refreshKrb5Config is false principal is kafka/localhost@EXAMPLE.COM tryFirstPass is false useFirstPass is false storePass is false clearPass is false
+principal is kafka/localhost@EXAMPLE.COM
+Will use keytab
+Commit Succeeded 
+
+[2020-10-29 11:16:30,270] INFO [ControllerEventThread controllerId=0] Starting (kafka.controller.ControllerEventManager$ControllerEventThread:66)
+[2020-10-29 11:16:30,272] INFO [Controller id=0] 0 successfully elected as the controller. Epoch incremented to 1 and epoch zk version is now 1 (kafka.controller.KafkaController:66)
+[2020-10-29 11:16:30,273] INFO [Controller id=0] Creating FeatureZNode at path: /feature with contents: FeatureZNode(Enabled,Features{}) (kafka.controller.KafkaController:66)
+[2020-10-29 11:16:30,273] INFO [Controller id=0] Registering handlers (kafka.controller.KafkaController:66)
+[2020-10-29 11:16:30,274] INFO [Controller id=0] Deleting log dir event notifications (kafka.controller.KafkaController:66)
+[2020-10-29 11:16:30,275] INFO [Controller id=0] Deleting isr change notifications (kafka.controller.KafkaController:66)
+[2020-10-29 11:16:30,275] INFO [Controller id=0] Initializing controller context (kafka.controller.KafkaController:66)
+[2020-10-29 11:16:30,276] INFO [Controller id=0] Initialized broker epochs cache: HashMap(0 -> 129) (kafka.controller.KafkaController:66)
+[2020-10-29 11:16:30,278] INFO [Controller id=0] Currently active brokers in the cluster: Set(0) (kafka.controller.KafkaController:66)
+[2020-10-29 11:16:30,278] INFO [Controller id=0] Currently shutting brokers in the cluster: HashSet() (kafka.controller.KafkaController:66)
+[2020-10-29 11:16:30,278] INFO [Controller id=0] Current list of topics in the cluster: HashSet() (kafka.controller.KafkaController:66)
+[2020-10-29 11:16:30,278] INFO [Controller id=0] Fetching topic deletions in progress (kafka.controller.KafkaController:66)
+[2020-10-29 11:16:30,278] INFO [Controller id=0] List of topics to be deleted:  (kafka.controller.KafkaController:66)
+[2020-10-29 11:16:30,278] INFO [Controller id=0] List of topics ineligible for deletion:  (kafka.controller.KafkaController:66)
+[2020-10-29 11:16:30,278] INFO [Controller id=0] Initializing topic deletion manager (kafka.controller.KafkaController:66)
+[2020-10-29 11:16:30,279] INFO [Controller id=0] Sending update metadata request (kafka.controller.KafkaController:66)
+[2020-10-29 11:16:30,279] INFO [Controller id=0] Ready to serve as the new controller with epoch 1 (kafka.controller.KafkaController:66)
+[2020-10-29 11:16:30,280] INFO [Controller id=0] Partitions undergoing preferred replica election:  (kafka.controller.KafkaController:66)
+[2020-10-29 11:16:30,281] INFO [Controller id=0] Partitions that completed preferred replica election:  (kafka.controller.KafkaController:66)
+[2020-10-29 11:16:30,281] INFO [Controller id=0] Skipping preferred replica election for partitions due to topic deletion:  (kafka.controller.KafkaController:66)
+[2020-10-29 11:16:30,281] INFO [Controller id=0] Resuming preferred replica election for partitions:  (kafka.controller.KafkaController:66)
+[2020-10-29 11:16:30,281] INFO [Controller id=0] Starting replica leader election (PREFERRED) for partitions  triggered by ZkTriggered (kafka.controller.KafkaController:66)
+[2020-10-29 11:16:30,282] INFO [Controller id=0] Starting the controller scheduler (kafka.controller.KafkaController:66)
+[2020-10-29 11:16:30,486] INFO [Controller id=0] Newly added brokers: 1, deleted brokers: , bounced brokers: , all live brokers: 0,1 (kafka.controller.KafkaController:66)
+[2020-10-29 11:16:30,487] INFO [ControllerEventThread controllerId=1] Starting (kafka.controller.ControllerEventManager$ControllerEventThread:66)
+[2020-10-29 11:16:30,487] INFO [Controller id=0] New broker startup callback for 1 (kafka.controller.KafkaController:66)
+[2020-10-29 11:16:30,488] INFO [Controller id=0] Updated broker epochs cache: HashMap(0 -> 129, 1 -> 164) (kafka.controller.KafkaController:66)
+[2020-10-29 11:16:30,668] INFO [Controller id=0] Newly added brokers: 2, deleted brokers: , bounced brokers: , all live brokers: 0,1,2 (kafka.controller.KafkaController:66)
+[2020-10-29 11:16:30,669] INFO [Controller id=0] New broker startup callback for 2 (kafka.controller.KafkaController:66)
+[2020-10-29 11:16:30,670] INFO [ControllerEventThread controllerId=2] Starting (kafka.controller.ControllerEventManager$ControllerEventThread:66)
+[2020-10-29 11:16:30,671] INFO [Controller id=0] Updated broker epochs cache: HashMap(0 -> 129, 1 -> 164, 2 -> 195) (kafka.controller.KafkaController:66)
+[2020-10-29 11:16:30,694] INFO [Controller id=0] New topics: [Set(__consumer_offsets)], deleted topics: [HashSet()], new partition replica assignment [Map(__consumer_offsets-0 -> ReplicaAssignment(replicas=1,0,2, addingReplicas=, removingReplicas=))] (kafka.controller.KafkaController:66)
+[2020-10-29 11:16:30,694] INFO [Controller id=0] New partition creation callback for __consumer_offsets-0 (kafka.controller.KafkaController:66)
+[2020-10-29 11:16:31,004] INFO [Controller id=0] New topics: [Set(e2etopic)], deleted topics: [HashSet()], new partition replica assignment [Map(e2etopic-0 -> ReplicaAssignment(replicas=2,1,0, addingReplicas=, removingReplicas=))] (kafka.controller.KafkaController:66)
+[2020-10-29 11:16:31,004] INFO [Controller id=0] New partition creation callback for e2etopic-0 (kafka.controller.KafkaController:66)
+Adding ACLs for resource `ResourcePattern(resourceType=TOPIC, name=e2e, patternType=PREFIXED)`: 
+ 	(principal=User:client, host=*, operation=READ, permissionType=ALLOW)
+	(principal=User:client, host=*, operation=DESCRIBE, permissionType=ALLOW)
+	(principal=User:client, host=*, operation=CREATE, permissionType=ALLOW)
+	(principal=User:client, host=*, operation=WRITE, permissionType=ALLOW) 
+
+Adding ACLs for resource `ResourcePattern(resourceType=GROUP, name=gr, patternType=PREFIXED)`: 
+ 	(principal=User:client, host=*, operation=READ, permissionType=ALLOW) 
+
+Current ACLs for resource `ResourcePattern(resourceType=TOPIC, name=e2e, patternType=PREFIXED)`: 
+ 	(principal=User:client, host=*, operation=READ, permissionType=ALLOW)
+	(principal=User:client, host=*, operation=DESCRIBE, permissionType=ALLOW)
+	(principal=User:client, host=*, operation=CREATE, permissionType=ALLOW)
+	(principal=User:client, host=*, operation=WRITE, permissionType=ALLOW) 
+
+Current ACLs for resource `ResourcePattern(resourceType=GROUP, name=gr, patternType=PREFIXED)`: 
+ 	(principal=User:client, host=*, operation=READ, permissionType=ALLOW) 
+
+Debug is  true storeKey true useTicketCache false useKeyTab true doNotPrompt false ticketCache is null isInitiator true KeyTab is /var/folders/y3/mvtqxgns6j93y74hb90_t2p9rflg_z/T/kafka8665928313374346520.tmp refreshKrb5Config is false principal is client@EXAMPLE.COM tryFirstPass is false useFirstPass is false storePass is false clearPass is false
+principal is client@EXAMPLE.COM
+Will use keytab
+Commit Succeeded 
+
+[2020-10-29 11:16:31,474] ERROR [Producer clientId=producer-26] Connection to node -1 (localhost/127.0.0.1:59915) failed authentication due to: An error: (java.security.PrivilegedActionException: javax.security.sasl.SaslException: GSS initiate failed [Caused by GSSException: No valid credentials provided (Mechanism level: Bad file descriptor (Write failed))]) occurred when evaluating SASL token received from the Kafka Broker. Kafka Client will go to AUTHENTICATION_FAILED state. (org.apache.kafka.clients.NetworkClient:768)
+[2020-10-29 11:16:31,499] INFO [Controller id=0] Shutting down broker 1 (kafka.controller.KafkaController:66)
+[2020-10-29 11:16:31,504] INFO [Controller id=0] Shutting down broker 2 (kafka.controller.KafkaController:66)
+[2020-10-29 11:16:31,512] INFO [Controller id=0] Shutting down broker 0 (kafka.controller.KafkaController:66)
+[2020-10-29 11:16:31,620] INFO [Controller id=0] Shutting down broker 0 (kafka.controller.KafkaController:66)
+[2020-10-29 11:16:31,723] INFO [Controller id=0] Shutting down broker 0 (kafka.controller.KafkaController:66)
+[2020-10-29 11:16:32,410] INFO [ControllerEventThread controllerId=1] Shutting down (kafka.controller.ControllerEventManager$ControllerEventThread:66)
+[2020-10-29 11:16:32,411] INFO [ControllerEventThread controllerId=1] Shutdown completed (kafka.controller.ControllerEventManager$ControllerEventThread:66)
+[2020-10-29 11:16:32,411] INFO [ControllerEventThread controllerId=1] Stopped (kafka.controller.ControllerEventManager$ControllerEventThread:66)
+[2020-10-29 11:16:32,411] INFO [Controller id=1] Resigned (kafka.controller.KafkaController:66)
+[2020-10-29 11:16:32,518] INFO [Controller id=0] Newly added brokers: , deleted brokers: 1, bounced brokers: , all live brokers: 0,2 (kafka.controller.KafkaController:66)
+[2020-10-29 11:16:32,519] INFO [Controller id=0] Broker failure callback for 1 (kafka.controller.KafkaController:66)
+[2020-10-29 11:16:32,519] INFO [Controller id=0] Removed 1 from list of shutting down brokers. (kafka.controller.KafkaController:66)
+[2020-10-29 11:16:32,521] INFO [Controller id=0] Updated broker epochs cache: HashMap(0 -> 129, 2 -> 195) (kafka.controller.KafkaController:66)
+[2020-10-29 11:16:32,806] INFO [ControllerEventThread controllerId=2] Shutting down (kafka.controller.ControllerEventManager$ControllerEventThread:66)
+[2020-10-29 11:16:32,806] INFO [ControllerEventThread controllerId=2] Shutdown completed (kafka.controller.ControllerEventManager$ControllerEventThread:66)
+[2020-10-29 11:16:32,806] INFO [ControllerEventThread controllerId=2] Stopped (kafka.controller.ControllerEventManager$ControllerEventThread:66)
+[2020-10-29 11:16:32,806] INFO [Controller id=2] Resigned (kafka.controller.KafkaController:66)
+[2020-10-29 11:16:32,807] INFO [Controller id=0] Newly added brokers: , deleted brokers: 2, bounced brokers: , all live brokers: 0 (kafka.controller.KafkaController:66)
+[2020-10-29 11:16:32,808] INFO [ControllerEventThread controllerId=0] Shutting down (kafka.controller.ControllerEventManager$ControllerEventThread:66)
+[2020-10-29 11:16:32,808] INFO [Controller id=0] Broker failure callback for 2 (kafka.controller.KafkaController:66)
+[2020-10-29 11:16:32,808] INFO [Controller id=0] Removed 2 from list of shutting down brokers. (kafka.controller.KafkaController:66)
+[2020-10-29 11:16:32,810] INFO [Controller id=0] Updated broker epochs cache: HashMap(0 -> 129) (kafka.controller.KafkaController:66)
+[2020-10-29 11:16:32,810] INFO [ControllerEventThread controllerId=0] Stopped (kafka.controller.ControllerEventManager$ControllerEventThread:66)
+[2020-10-29 11:16:32,810] INFO [ControllerEventThread controllerId=0] Shutdown completed (kafka.controller.ControllerEventManager$ControllerEventThread:66)
+[2020-10-29 11:16:32,811] INFO [Controller id=0] Resigned (kafka.controller.KafkaController:66)

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.apache.kafka.common.requests.ApiVersionsResponseTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2020-10-29T02:36:12" hostname="chukun-mac" time="0.004">
+  <properties/>
+  <testcase name="shouldReturnAllKeysWhenMagicIsCurrentValueAndThrottleMsIsDefaultThrottle" classname="org.apache.kafka.common.requests.ApiVersionsResponseTest" time="0.001"/>
+  <testcase name="shouldCreateApiResponseThatHasAllApiKeysSupportedByBroker" classname="org.apache.kafka.common.requests.ApiVersionsResponseTest" time="0.0"/>
+  <testcase name="shouldReturnFeatureKeysWhenMagicIsCurrentValueAndThrottleMsIsDefaultThrottle" classname="org.apache.kafka.common.requests.ApiVersionsResponseTest" time="0.003"/>
+  <testcase name="shouldHaveCorrectDefaultApiVersionsResponse" classname="org.apache.kafka.common.requests.ApiVersionsResponseTest" time="0.0"/>
+  <testcase name="shouldCreateApiResponseOnlyWithKeysSupportedByMagicValue" classname="org.apache.kafka.common.requests.ApiVersionsResponseTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

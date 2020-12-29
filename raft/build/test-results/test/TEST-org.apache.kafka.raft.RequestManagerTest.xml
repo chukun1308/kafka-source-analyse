@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.apache.kafka.raft.RequestManagerTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2020-10-29T02:42:18" hostname="chukun-mac" time="0.015">
+  <properties/>
+  <testcase name="testResetAllConnections()" classname="org.apache.kafka.raft.RequestManagerTest" time="0.007"/>
+  <testcase name="testSuccessfulResponse()" classname="org.apache.kafka.raft.RequestManagerTest" time="0.002"/>
+  <testcase name="testRequestTimeout()" classname="org.apache.kafka.raft.RequestManagerTest" time="0.001"/>
+  <testcase name="testBackoffAfterFailure()" classname="org.apache.kafka.raft.RequestManagerTest" time="0.0"/>
+  <testcase name="testIgnoreUnexpectedResponse()" classname="org.apache.kafka.raft.RequestManagerTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

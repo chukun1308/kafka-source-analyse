@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.apache.kafka.common.serialization.SerializationTest" tests="12" skipped="0" failures="0" errors="0" timestamp="2020-10-29T02:32:32" hostname="chukun-mac" time="0.145">
+  <properties/>
+  <testcase name="floatDeserializerShouldThrowSerializationExceptionOnZeroBytes" classname="org.apache.kafka.common.serialization.SerializationTest" time="0.043"/>
+  <testcase name="testSerializeVoid" classname="org.apache.kafka.common.serialization.SerializationTest" time="0.006"/>
+  <testcase name="testSerdeFromUnknown" classname="org.apache.kafka.common.serialization.SerializationTest" time="0.001"/>
+  <testcase name="allSerdesShouldRoundtripInput" classname="org.apache.kafka.common.serialization.SerializationTest" time="0.085"/>
+  <testcase name="floatDeserializerShouldThrowSerializationExceptionOnTooManyBytes" classname="org.apache.kafka.common.serialization.SerializationTest" time="0.0"/>
+  <testcase name="allSerdesShouldSupportNull" classname="org.apache.kafka.common.serialization.SerializationTest" time="0.002"/>
+  <testcase name="voidDeserializerShouldThrowOnNotNullValues" classname="org.apache.kafka.common.serialization.SerializationTest" time="0.0"/>
+  <testcase name="floatSerdeShouldPreserveNaNValues" classname="org.apache.kafka.common.serialization.SerializationTest" time="0.001"/>
+  <testcase name="testSerdeFromNotNull" classname="org.apache.kafka.common.serialization.SerializationTest" time="0.0"/>
+  <testcase name="stringSerdeShouldSupportDifferentEncodings" classname="org.apache.kafka.common.serialization.SerializationTest" time="0.003"/>
+  <testcase name="testDeserializeVoid" classname="org.apache.kafka.common.serialization.SerializationTest" time="0.001"/>
+  <testcase name="floatDeserializerShouldThrowSerializationExceptionOnTooFewBytes" classname="org.apache.kafka.common.serialization.SerializationTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

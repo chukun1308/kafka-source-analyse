@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.apache.kafka.clients.NetworkClientTest" tests="33" skipped="0" failures="0" errors="0" timestamp="2020-10-29T02:31:40" hostname="chukun-mac" time="0.13">
+  <properties/>
+  <testcase name="testDefaultRequestTimeout" classname="org.apache.kafka.clients.NetworkClientTest" time="0.025"/>
+  <testcase name="testSimpleRequestResponse" classname="org.apache.kafka.clients.NetworkClientTest" time="0.003"/>
+  <testcase name="testUnsupportedApiVersionsRequestWithVersionProvidedByTheBroker" classname="org.apache.kafka.clients.NetworkClientTest" time="0.002"/>
+  <testcase name="testUnsupportedVersionDuringInternalMetadataRequest" classname="org.apache.kafka.clients.NetworkClientTest" time="0.001"/>
+  <testcase name="testDisconnectDuringUserMetadataRequest" classname="org.apache.kafka.clients.NetworkClientTest" time="0.002"/>
+  <testcase name="testClose" classname="org.apache.kafka.clients.NetworkClientTest" time="0.001"/>
+  <testcase name="testConnectionDelayDisconnectedWithNoExponentialBackoff" classname="org.apache.kafka.clients.NetworkClientTest" time="0.001"/>
+  <testcase name="testLeastLoadedNode" classname="org.apache.kafka.clients.NetworkClientTest" time="0.001"/>
+  <testcase name="testInvalidApiVersionsRequest" classname="org.apache.kafka.clients.NetworkClientTest" time="0.001"/>
+  <testcase name="testConnectionSetupTimeout" classname="org.apache.kafka.clients.NetworkClientTest" time="0.0"/>
+  <testcase name="testConnectionDelayConnected" classname="org.apache.kafka.clients.NetworkClientTest" time="0.001"/>
+  <testcase name="testApiVersionsRequest" classname="org.apache.kafka.clients.NetworkClientTest" time="0.002"/>
+  <testcase name="testAuthenticationFailureWithInFlightMetadataRequest" classname="org.apache.kafka.clients.NetworkClientTest" time="0.015"/>
+  <testcase name="testRequestTimeout" classname="org.apache.kafka.clients.NetworkClientTest" time="0.004"/>
+  <testcase name="testUnsupportedApiVersionsRequestWithoutVersionProvidedByTheBroker" classname="org.apache.kafka.clients.NetworkClientTest" time="0.001"/>
+  <testcase name="testConnectionDelayConnectedWithNoExponentialBackoff" classname="org.apache.kafka.clients.NetworkClientTest" time="0.002"/>
+  <testcase name="testSimpleRequestResponseWithNoBrokerDiscovery" classname="org.apache.kafka.clients.NetworkClientTest" time="0.002"/>
+  <testcase name="testThrottlingNotEnabledForConnectionToOlderBroker" classname="org.apache.kafka.clients.NetworkClientTest" time="0.002"/>
+  <testcase name="testSimpleRequestResponseWithStaticNodes" classname="org.apache.kafka.clients.NetworkClientTest" time="0.0"/>
+  <testcase name="testLeastLoadedNodeConsidersThrottledConnections" classname="org.apache.kafka.clients.NetworkClientTest" time="0.004"/>
+  <testcase name="testClientDisconnectAfterInternalApiVersionRequest" classname="org.apache.kafka.clients.NetworkClientTest" time="0.004"/>
+  <testcase name="testCallDisconnect" classname="org.apache.kafka.clients.NetworkClientTest" time="0.001"/>
+  <testcase name="testIncludeInitialPrincipalNameAndClientIdInHeader" classname="org.apache.kafka.clients.NetworkClientTest" time="0.0"/>
+  <testcase name="testDnsLookupFailure" classname="org.apache.kafka.clients.NetworkClientTest" time="0.017"/>
+  <testcase name="testConnectionDelay" classname="org.apache.kafka.clients.NetworkClientTest" time="0.001"/>
+  <testcase name="testConnectionThrottling" classname="org.apache.kafka.clients.NetworkClientTest" time="0.006"/>
+  <testcase name="testServerDisconnectAfterInternalApiVersionRequest" classname="org.apache.kafka.clients.NetworkClientTest" time="0.004"/>
+  <testcase name="testConnectionDelayWithNoExponentialBackoff" classname="org.apache.kafka.clients.NetworkClientTest" time="0.0"/>
+  <testcase name="testCorrelationId" classname="org.apache.kafka.clients.NetworkClientTest" time="0.002"/>
+  <testcase name="testSendToUnreadyNode" classname="org.apache.kafka.clients.NetworkClientTest" time="0.0"/>
+  <testcase name="testLeastLoadedNodeProvideDisconnectedNodesPrioritizedByLastConnectionTimestamp" classname="org.apache.kafka.clients.NetworkClientTest" time="0.001"/>
+  <testcase name="testConnectionDelayDisconnected" classname="org.apache.kafka.clients.NetworkClientTest" time="0.002"/>
+  <testcase name="testDisconnectWithMultipleInFlights" classname="org.apache.kafka.clients.NetworkClientTest" time="0.002"/>
+  <system-out><![CDATA[[2020-10-29 10:31:40,556] ERROR Connection to node 0 (null) failed authentication due to: Authentication failed (org.apache.kafka.clients.NetworkClient:768)
+[2020-10-29 10:31:40,566] ERROR Connection to node 0 (null) failed authentication due to: Authentication failed (org.apache.kafka.clients.NetworkClient:768)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

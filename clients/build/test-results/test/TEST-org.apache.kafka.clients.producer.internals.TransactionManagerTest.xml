@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.apache.kafka.clients.producer.internals.TransactionManagerTest" tests="116" skipped="0" failures="0" errors="0" timestamp="2020-10-29T02:31:18" hostname="chukun-mac" time="9.017">
+  <properties/>
+  <testcase name="testTopicAuthorizationFailureInAddPartitions" classname="org.apache.kafka.clients.producer.internals.TransactionManagerTest" time="3.68"/>
+  <testcase name="shouldFailAbortIfAddOffsetsFailsWithFatalError" classname="org.apache.kafka.clients.producer.internals.TransactionManagerTest" time="0.017"/>
+  <testcase name="testDropCommitOnBatchExpiry" classname="org.apache.kafka.clients.producer.internals.TransactionManagerTest" time="0.025"/>
+  <testcase name="testSendOffsetsWithGroupMetadata" classname="org.apache.kafka.clients.producer.internals.TransactionManagerTest" time="0.014"/>
+  <testcase name="testBatchFailureAfterProducerReset" classname="org.apache.kafka.clients.producer.internals.TransactionManagerTest" time="0.011"/>
+  <testcase name="testBumpEpochAndResetSequenceNumbersAfterUnknownProducerId" classname="org.apache.kafka.clients.producer.internals.TransactionManagerTest" time="0.139"/>
+  <testcase name="testHandlingOfProducerFencedErrorOnTxnOffsetCommit" classname="org.apache.kafka.clients.producer.internals.TransactionManagerTest" time="0.02"/>
+  <testcase name="testAllowDrainInAbortableErrorState" classname="org.apache.kafka.clients.producer.internals.TransactionManagerTest" time="0.016"/>
+  <testcase name="testEpochBumpAfterLastInflightBatchFails" classname="org.apache.kafka.clients.producer.internals.TransactionManagerTest" time="0.009"/>
+  <testcase name="testTransitionToFatalErrorWhenRetriedBatchIsExpired" classname="org.apache.kafka.clients.producer.internals.TransactionManagerTest" time="0.009"/>
+  <testcase name="testNoFailedBatchHandlingWhenTxnManagerIsInFatalError" classname="org.apache.kafka.clients.producer.internals.TransactionManagerTest" time="0.015"/>
+  <testcase name="testLookupCoordinatorOnDisconnectAfterSend" classname="org.apache.kafka.clients.producer.internals.TransactionManagerTest" time="0.005"/>
+  <testcase name="testAbortTransactionAndResetSequenceNumberOnUnknownProducerId" classname="org.apache.kafka.clients.producer.internals.TransactionManagerTest" time="0.017"/>
+  <testcase name="testSendOffsetWithGroupMetadataSuccessAsAutoDowngradeTxnCommitEnabled" classname="org.apache.kafka.clients.producer.internals.TransactionManagerTest" time="0.003"/>
+  <testcase name="testIsSendToPartitionAllowedWithInFlightPartitionAddAfterAbortableError" classname="org.apache.kafka.clients.producer.internals.TransactionManagerTest" time="0.004"/>
+  <testcase name="testCanBumpEpochDuringCoordinatorDisconnect" classname="org.apache.kafka.clients.producer.internals.TransactionManagerTest" time="0.013"/>
+  <testcase name="testMaybeAddPartitionToTransactionAfterAbortableError" classname="org.apache.kafka.clients.producer.internals.TransactionManagerTest" time="0.002"/>
+  <testcase name="testProducerFencedInAddPartitionToTxn" classname="org.apache.kafka.clients.producer.internals.TransactionManagerTest" time="0.254"/>
+  <testcase name="testMaybeAddPartitionToTransactionBeforeInitTransactions" classname="org.apache.kafka.clients.producer.internals.TransactionManagerTest" time="0.003"/>
+  <testcase name="testMaybeAddPartitionToTransaction" classname="org.apache.kafka.clients.producer.internals.TransactionManagerTest" time="0.002"/>
+  <testcase name="testHandlingOfCoordinatorLoadingErrorOnTxnOffsetCommit" classname="org.apache.kafka.clients.producer.internals.TransactionManagerTest" time="0.014"/>
+  <testcase name="testIsSendToPartitionAllowedWithPartitionNotAdded" classname="org.apache.kafka.clients.producer.internals.TransactionManagerTest" time="0.01"/>
+  <testcase name="testAddPartitionToTransactionOverridesRetryBackoffForConcurrentTransactions" classname="org.apache.kafka.clients.producer.internals.TransactionManagerTest" time="0.006"/>
+  <testcase name="testIsSendToPartitionAllowedWithAddedPartitionAfterAbortableError" classname="org.apache.kafka.clients.producer.internals.TransactionManagerTest" time="0.003"/>
+  <testcase name="testInvalidProducerEpochFromProduce" classname="org.apache.kafka.clients.producer.internals.TransactionManagerTest" time="0.004"/>
+  <testcase name="testIsSendToPartitionAllowedWithInFlightPartitionAddAfterFatalError" classname="org.apache.kafka.clients.producer.internals.TransactionManagerTest" time="0.003"/>
+  <testcase name="testTransactionalIdAuthorizationFailureInFindCoordinator" classname="org.apache.kafka.clients.producer.internals.TransactionManagerTest" time="0.001"/>
+  <testcase name="testInvalidProducerEpochConvertToProducerFencedInAddOffSetsToTxn" classname="org.apache.kafka.clients.producer.internals.TransactionManagerTest" time="0.005"/>
+  <testcase name="testAllowAbortOnProduceFailure" classname="org.apache.kafka.clients.producer.internals.TransactionManagerTest" time="0.111"/>
+  <testcase name="testInvalidProducerEpochConvertToProducerFencedInAddPartitionToTxn" classname="org.apache.kafka.clients.producer.internals.TransactionManagerTest" time="0.004"/>
+  <testcase name="testCommitTransactionWithUnsentProduceRequest" classname="org.apache.kafka.clients.producer.internals.TransactionManagerTest" time="0.042"/>
+  <testcase name="testFailIfNotReadyForSendNoProducerId" classname="org.apache.kafka.clients.producer.internals.TransactionManagerTest" time="0.04"/>
+  <testcase name="testTransitionToAbortableErrorOnBatchExpiry" classname="org.apache.kafka.clients.producer.internals.TransactionManagerTest" time="0.004"/>
+  <testcase name="testInvalidProducerEpochConvertToProducerFencedInEndTxn" classname="org.apache.kafka.clients.producer.internals.TransactionManagerTest" time="0.011"/>
+  <testcase name="testRecoveryFromAbortableErrorTransactionStarted" classname="org.apache.kafka.clients.producer.internals.TransactionManagerTest" time="0.042"/>
+  <testcase name="testTransactionalIdAuthorizationFailureInAddOffsetsToTxn" classname="org.apache.kafka.clients.producer.internals.TransactionManagerTest" time="0.003"/>
+  <testcase name="testIsSendToPartitionAllowedWithPendingPartitionAfterAbortableError" classname="org.apache.kafka.clients.producer.internals.TransactionManagerTest" time="0.002"/>
+  <testcase name="testTransitionToAbortableErrorOnMultipleBatchExpiry" classname="org.apache.kafka.clients.producer.internals.TransactionManagerTest" time="0.021"/>
+  <testcase name="testTransactionalIdAuthorizationFailureInInitProducerId" classname="org.apache.kafka.clients.producer.internals.TransactionManagerTest" time="0.003"/>
+  <testcase name="testAbortResendsAddPartitionErrorIfRetried" classname="org.apache.kafka.clients.producer.internals.TransactionManagerTest" time="0.003"/>
+  <testcase name="testIsSendToPartitionAllowedWithPendingPartitionAfterFatalError" classname="org.apache.kafka.clients.producer.internals.TransactionManagerTest" time="0.046"/>
+  <testcase name="testBumpTransactionalEpochOnRecoverableAddOffsetsRequestError" classname="org.apache.kafka.clients.producer.internals.TransactionManagerTest" time="0.007"/>
+  <testcase name="testBatchCompletedAfterProducerReset" classname="org.apache.kafka.clients.producer.internals.TransactionManagerTest" time="0.009"/>
+  <testcase name="testRaiseErrorWhenNoPartitionsPendingOnDrain" classname="org.apache.kafka.clients.producer.internals.TransactionManagerTest" time="0.002"/>
+  <testcase name="testFailIfNotReadyForSendAfterFatalError" classname="org.apache.kafka.clients.producer.internals.TransactionManagerTest" time="0.001"/>
+  <testcase name="testLookupCoordinatorOnDisconnectBeforeSend" classname="org.apache.kafka.clients.producer.internals.TransactionManagerTest" time="0.004"/>
+  <testcase name="shouldNotSendAbortTxnRequestWhenOnlyAddPartitionsRequestFailed" classname="org.apache.kafka.clients.producer.internals.TransactionManagerTest" time="0.004"/>
+  <testcase name="testRetryCommitTransaction" classname="org.apache.kafka.clients.producer.internals.TransactionManagerTest" time="1.027"/>
+  <testcase name="testFailedInflightBatchAfterEpochBump" classname="org.apache.kafka.clients.producer.internals.TransactionManagerTest" time="0.004"/>
+  <testcase name="testMultipleAddPartitionsPerForOneProduce" classname="org.apache.kafka.clients.producer.internals.TransactionManagerTest" time="0.003"/>
+  <testcase name="testGroupAuthorizationFailureInFindCoordinator" classname="org.apache.kafka.clients.producer.internals.TransactionManagerTest" time="0.006"/>
+  <testcase name="testFailIfNotReadyForSendIdempotentProducerFatalError" classname="org.apache.kafka.clients.producer.internals.TransactionManagerTest" time="0.002"/>
+  <testcase name="testInvalidProducerEpochConvertToProducerFencedInInitProducerId" classname="org.apache.kafka.clients.producer.internals.TransactionManagerTest" time="0.004"/>
+  <testcase name="testFailIfNotReadyForSendAfterAbortableError" classname="org.apache.kafka.clients.producer.internals.TransactionManagerTest" time="0.001"/>
+  <testcase name="testHasOngoingTransactionAbortableError" classname="org.apache.kafka.clients.producer.internals.TransactionManagerTest" time="0.003"/>
+  <testcase name="shouldNotAddPartitionsToTransactionWhenTopicAuthorizationFailed" classname="org.apache.kafka.clients.producer.internals.TransactionManagerTest" time="0.002"/>
+  <testcase name="testHealthyPartitionRetriesDuringEpochBump" classname="org.apache.kafka.clients.producer.internals.TransactionManagerTest" time="0.013"/>
+  <testcase name="testDefaultSequenceNumber" classname="org.apache.kafka.clients.producer.internals.TransactionManagerTest" time="0.002"/>
+  <testcase name="testDisallowCommitOnProduceFailure" classname="org.apache.kafka.clients.producer.internals.TransactionManagerTest" time="0.004"/>
+  <testcase name="testLookupCoordinatorOnNotCoordinatorError" classname="org.apache.kafka.clients.producer.internals.TransactionManagerTest" time="0.003"/>
+  <testcase name="testMaybeAddPartitionToTransactionAfterFatalError" classname="org.apache.kafka.clients.producer.internals.TransactionManagerTest" time="0.001"/>
+  <testcase name="testInitializeTransactionsTwiceRaisesError" classname="org.apache.kafka.clients.producer.internals.TransactionManagerTest" time="0.002"/>
+  <testcase name="testHandlingOfUnknownTopicPartitionErrorOnTxnOffsetCommit" classname="org.apache.kafka.clients.producer.internals.TransactionManagerTest" time="0.003"/>
+  <testcase name="testCancelUnsentAddPartitionsAndProduceOnAbort" classname="org.apache.kafka.clients.producer.internals.TransactionManagerTest" time="0.003"/>
+  <testcase name="testMaybeAddPartitionToTransactionBeforeBeginTransaction" classname="org.apache.kafka.clients.producer.internals.TransactionManagerTest" time="0.001"/>
+  <testcase name="resendFailedProduceRequestAfterAbortableError" classname="org.apache.kafka.clients.producer.internals.TransactionManagerTest" time="0.003"/>
+  <testcase name="testUnsupportedForMessageFormatInTxnOffsetCommit" classname="org.apache.kafka.clients.producer.internals.TransactionManagerTest" time="0.003"/>
+  <testcase name="testAddPartitionToTransactionRetainsRetryBackoffWhenPartitionsAlreadyAdded" classname="org.apache.kafka.clients.producer.internals.TransactionManagerTest" time="0.003"/>
+  <testcase name="testBumpTransactionalEpochOnRecoverableAddPartitionRequestError" classname="org.apache.kafka.clients.producer.internals.TransactionManagerTest" time="0.023"/>
+  <testcase name="testRetryAbortTransaction" classname="org.apache.kafka.clients.producer.internals.TransactionManagerTest" time="1.022"/>
+  <testcase name="testSendOffsetWithGroupMetadataFailAsAutoDowngradeTxnCommitNotEnabled" classname="org.apache.kafka.clients.producer.internals.TransactionManagerTest" time="0.003"/>
+  <testcase name="testFailIfNotReadyForSendIdempotentProducer" classname="org.apache.kafka.clients.producer.internals.TransactionManagerTest" time="0.003"/>
+  <testcase name="testFailIfNotReadyForSendNoOngoingTransaction" classname="org.apache.kafka.clients.producer.internals.TransactionManagerTest" time="0.002"/>
+  <testcase name="testRetryAbortTransactionAfterCommitTimeout" classname="org.apache.kafka.clients.producer.internals.TransactionManagerTest" time="1.006"/>
+  <testcase name="testTransactionalIdAuthorizationFailureInTxnOffsetCommit" classname="org.apache.kafka.clients.producer.internals.TransactionManagerTest" time="0.002"/>
+  <testcase name="testUnsupportedInitTransactions" classname="org.apache.kafka.clients.producer.internals.TransactionManagerTest" time="0.002"/>
+  <testcase name="testHasOngoingTransactionSuccessfulCommit" classname="org.apache.kafka.clients.producer.internals.TransactionManagerTest" time="0.001"/>
+  <testcase name="testRetryCommitTransactionAfterAbortTimeout" classname="org.apache.kafka.clients.producer.internals.TransactionManagerTest" time="1.003"/>
+  <testcase name="testIsSendToPartitionAllowedWithAddedPartitionAfterFatalError" classname="org.apache.kafka.clients.producer.internals.TransactionManagerTest" time="0.002"/>
+  <testcase name="testHandlingOfInvalidProducerEpochErrorOnTxnOffsetCommit" classname="org.apache.kafka.clients.producer.internals.TransactionManagerTest" time="0.001"/>
+  <testcase name="testUnknownMemberIdInTxnOffsetCommitByGroupMetadata" classname="org.apache.kafka.clients.producer.internals.TransactionManagerTest" time="0.003"/>
+  <testcase name="testSequenceNumberOverflow" classname="org.apache.kafka.clients.producer.internals.TransactionManagerTest" time="0.001"/>
+  <testcase name="testHandlingOfUnknownTopicPartitionErrorOnAddPartitions" classname="org.apache.kafka.clients.producer.internals.TransactionManagerTest" time="0.005"/>
+  <testcase name="testFlushPendingPartitionsOnCommit" classname="org.apache.kafka.clients.producer.internals.TransactionManagerTest" time="0.003"/>
+  <testcase name="testUnsupportedFindCoordinator" classname="org.apache.kafka.clients.producer.internals.TransactionManagerTest" time="0.002"/>
+  <testcase name="testNoDrainWhenPartitionsPending" classname="org.apache.kafka.clients.producer.internals.TransactionManagerTest" time="0.002"/>
+  <testcase name="testBumpTransactionalEpochOnTimeout" classname="org.apache.kafka.clients.producer.internals.TransactionManagerTest" time="0.007"/>
+  <testcase name="testSenderShutdownWithPendingTransactions" classname="org.apache.kafka.clients.producer.internals.TransactionManagerTest" time="0.004"/>
+  <testcase name="testProducerFencedExceptionInInitProducerId" classname="org.apache.kafka.clients.producer.internals.TransactionManagerTest" time="0.001"/>
+  <testcase name="shouldNotSendAbortTxnRequestWhenOnlyAddOffsetsRequestFailed" classname="org.apache.kafka.clients.producer.internals.TransactionManagerTest" time="0.001"/>
+  <testcase name="testRecoveryFromAbortableErrorTransactionNotStarted" classname="org.apache.kafka.clients.producer.internals.TransactionManagerTest" time="0.005"/>
+  <testcase name="testFencedInstanceIdInTxnOffsetCommitByGroupMetadata" classname="org.apache.kafka.clients.producer.internals.TransactionManagerTest" time="0.003"/>
+  <testcase name="testAddPartitionToTransactionRetainsRetryBackoffForRegularRetriableError" classname="org.apache.kafka.clients.producer.internals.TransactionManagerTest" time="0.002"/>
+  <testcase name="testBumpTransactionalEpochOnUnknownProducerIdError" classname="org.apache.kafka.clients.producer.internals.TransactionManagerTest" time="0.005"/>
+  <testcase name="testNoProducerIdResetAfterLastInFlightBatchSucceeds" classname="org.apache.kafka.clients.producer.internals.TransactionManagerTest" time="0.002"/>
+  <testcase name="testCommitTransactionWithInFlightProduceRequest" classname="org.apache.kafka.clients.producer.internals.TransactionManagerTest" time="0.005"/>
+  <testcase name="testRecoveryFromAbortableErrorProduceRequestInRetry" classname="org.apache.kafka.clients.producer.internals.TransactionManagerTest" time="0.008"/>
+  <testcase name="testGroupAuthorizationFailureInTxnOffsetCommit" classname="org.apache.kafka.clients.producer.internals.TransactionManagerTest" time="0.002"/>
+  <testcase name="testBumpEpochAfterTimeoutWithoutPendingInflightRequests" classname="org.apache.kafka.clients.producer.internals.TransactionManagerTest" time="0.007"/>
+  <testcase name="testAbortableErrorWhileAbortInProgress" classname="org.apache.kafka.clients.producer.internals.TransactionManagerTest" time="0.004"/>
+  <testcase name="testBasicTransaction" classname="org.apache.kafka.clients.producer.internals.TransactionManagerTest" time="0.003"/>
+  <testcase name="testHandlingOfTransactionalIdAuthorizationFailedErrorOnTxnOffsetCommit" classname="org.apache.kafka.clients.producer.internals.TransactionManagerTest" time="0.001"/>
+  <testcase name="testProducerFencedInAddOffSetsToTxn" classname="org.apache.kafka.clients.producer.internals.TransactionManagerTest" time="0.002"/>
+  <testcase name="testProducerIdReset" classname="org.apache.kafka.clients.producer.internals.TransactionManagerTest" time="0.001"/>
+  <testcase name="testCommitWithTopicAuthorizationFailureInAddPartitionsInFlight" classname="org.apache.kafka.clients.producer.internals.TransactionManagerTest" time="0.002"/>
+  <testcase name="testAbortResendsProduceRequestIfRetried" classname="org.apache.kafka.clients.producer.internals.TransactionManagerTest" time="0.004"/>
+  <testcase name="testHasOngoingTransactionSuccessfulAbort" classname="org.apache.kafka.clients.producer.internals.TransactionManagerTest" time="0.006"/>
+  <testcase name="testIllegalGenerationInTxnOffsetCommitByGroupMetadata" classname="org.apache.kafka.clients.producer.internals.TransactionManagerTest" time="0.003"/>
+  <testcase name="testFindCoordinatorAllowedInAbortableErrorState" classname="org.apache.kafka.clients.producer.internals.TransactionManagerTest" time="0.009"/>
+  <testcase name="testTransactionalIdAuthorizationFailureInAddPartitions" classname="org.apache.kafka.clients.producer.internals.TransactionManagerTest" time="0.002"/>
+  <testcase name="testHandlingOfUnsupportedForMessageFormatErrorOnTxnOffsetCommit" classname="org.apache.kafka.clients.producer.internals.TransactionManagerTest" time="0.002"/>
+  <testcase name="testBumpTransactionalEpochOnAbortableError" classname="org.apache.kafka.clients.producer.internals.TransactionManagerTest" time="0.012"/>
+  <testcase name="testDisconnectAndRetry" classname="org.apache.kafka.clients.producer.internals.TransactionManagerTest" time="0.014"/>
+  <testcase name="testHasOngoingTransactionFatalError" classname="org.apache.kafka.clients.producer.internals.TransactionManagerTest" time="0.001"/>
+  <testcase name="testAbortTransactionAndReuseSequenceNumberOnError" classname="org.apache.kafka.clients.producer.internals.TransactionManagerTest" time="0.005"/>
+  <testcase name="testEndTxnNotSentIfIncompleteBatches" classname="org.apache.kafka.clients.producer.internals.TransactionManagerTest" time="0.002"/>
+  <system-out><![CDATA[[2020-10-29 10:31:22,339] ERROR The broker returned org.apache.kafka.common.errors.OutOfOrderSequenceException: out of sequence for topic-partition foo-0 with producerId 15, epoch 5, and sequence number 0 (org.apache.kafka.clients.producer.internals.TransactionManager:728)
+[2020-10-29 10:31:22,533] ERROR Aborting producer batches due to fatal error (org.apache.kafka.clients.producer.internals.Sender:502)
+org.apache.kafka.common.errors.ProducerFencedException: There is a newer producer with the same transactionalId which fences the current one.
+[2020-10-29 10:31:22,700] ERROR Aborting producer batches due to fatal error (org.apache.kafka.clients.producer.internals.Sender:502)
+org.apache.kafka.common.errors.ProducerFencedException: There is a newer producer with the same transactionalId which fences the current one.
+[2020-10-29 10:31:22,816] ERROR Aborting producer batches due to fatal error (org.apache.kafka.clients.producer.internals.Sender:502)
+org.apache.kafka.common.errors.ProducerFencedException: There is a newer producer with the same transactionalId which fences the current one.
+[2020-10-29 10:31:27,320] ERROR Aborting producer batches due to fatal error (org.apache.kafka.clients.producer.internals.Sender:502)
+org.apache.kafka.common.errors.ProducerFencedException: There is a newer producer with the same transactionalId which fences the current one.
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

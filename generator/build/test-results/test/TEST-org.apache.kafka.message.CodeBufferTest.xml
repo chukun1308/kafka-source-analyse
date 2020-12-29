@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.apache.kafka.message.CodeBufferTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-10-29T02:41:08" hostname="chukun-mac" time="0.032">
+  <properties/>
+  <testcase name="testWrite" classname="org.apache.kafka.message.CodeBufferTest" time="0.026"/>
+  <testcase name="testIndentMustBeNonNegative" classname="org.apache.kafka.message.CodeBufferTest" time="0.001"/>
+  <testcase name="testEquals" classname="org.apache.kafka.message.CodeBufferTest" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

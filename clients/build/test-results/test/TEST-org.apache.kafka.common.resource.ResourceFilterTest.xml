@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.apache.kafka.common.resource.ResourceFilterTest" tests="9" skipped="0" failures="0" errors="0" timestamp="2020-10-29T02:34:18" hostname="chukun-mac" time="0.008">
+  <properties/>
+  <testcase name="shouldMatchWildcardIfExactMatch" classname="org.apache.kafka.common.resource.ResourceFilterTest" time="0.007"/>
+  <testcase name="shouldNotMatchIfDifferentName" classname="org.apache.kafka.common.resource.ResourceFilterTest" time="0.0"/>
+  <testcase name="shouldMatchWhereResourceTypeIsAny" classname="org.apache.kafka.common.resource.ResourceFilterTest" time="0.0"/>
+  <testcase name="shouldMatchWhereResourceNameIsAny" classname="org.apache.kafka.common.resource.ResourceFilterTest" time="0.0"/>
+  <testcase name="shouldNotMatchIfDifferentResourceType" classname="org.apache.kafka.common.resource.ResourceFilterTest" time="0.0"/>
+  <testcase name="shouldNotMatchWildcardAgainstOtherName" classname="org.apache.kafka.common.resource.ResourceFilterTest" time="0.0"/>
+  <testcase name="shouldMatchIfExactMatch" classname="org.apache.kafka.common.resource.ResourceFilterTest" time="0.0"/>
+  <testcase name="shouldNotMatchIfDifferentNameCase" classname="org.apache.kafka.common.resource.ResourceFilterTest" time="0.0"/>
+  <testcase name="shouldNotMatchLiteralWildcardTheWayAround" classname="org.apache.kafka.common.resource.ResourceFilterTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

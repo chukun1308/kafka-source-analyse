@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.apache.kafka.common.security.oauthbearer.OAuthBearerExtensionsValidatorCallbackTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2020-10-29T02:31:43" hostname="chukun-mac" time="0.005">
+  <properties/>
+  <testcase name="testCannotValidateExtensionWhichWasNotGiven" classname="org.apache.kafka.common.security.oauthbearer.OAuthBearerExtensionsValidatorCallbackTest" time="0.002"/>
+  <testcase name="testUnvalidatedExtensionsAreIgnored" classname="org.apache.kafka.common.security.oauthbearer.OAuthBearerExtensionsValidatorCallbackTest" time="0.003"/>
+  <testcase name="testValidatedExtensionsAreReturned" classname="org.apache.kafka.common.security.oauthbearer.OAuthBearerExtensionsValidatorCallbackTest" time="0.0"/>
+  <testcase name="testInvalidExtensionsAndErrorMessagesAreReturned" classname="org.apache.kafka.common.security.oauthbearer.OAuthBearerExtensionsValidatorCallbackTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

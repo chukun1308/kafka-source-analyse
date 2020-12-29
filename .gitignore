@@ -43,6 +43,7 @@ cmake-build-*/
 
 # IntelliJ
 out/
+.idea
 
 # mpeltonen/sbt-idea plugin
 .idea_modules/
@@ -64,3 +65,24 @@ fabric.properties
 
 # Android studio 3.1+ serialized cache file
 .idea/caches/build_file_checksums.ser
+
+# gradle
+
+.gradle
+
+*.md
+
+doap_Kafka.rdf
+docs
+release.py
+release_notes.py
+kafka-merge-pr.py
+jenkins.sh
+Jenkinsfile
+Vagrantfile
+vagrant
+HEADER
+jenkins.sh
+LICENSE
+NOTICE
+checkstyle

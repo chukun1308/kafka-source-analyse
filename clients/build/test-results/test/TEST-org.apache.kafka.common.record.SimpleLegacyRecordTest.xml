@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.apache.kafka.common.record.SimpleLegacyRecordTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2020-10-29T02:31:36" hostname="chukun-mac" time="0.0">
+  <properties/>
+  <testcase name="testCompressedIterationWithNullValue" classname="org.apache.kafka.common.record.SimpleLegacyRecordTest" time="0.0"/>
+  <testcase name="testCompressedIterationWithEmptyRecords" classname="org.apache.kafka.common.record.SimpleLegacyRecordTest" time="0.0"/>
+  <testcase name="testIsValidWithChecksumMismatch" classname="org.apache.kafka.common.record.SimpleLegacyRecordTest" time="0.0"/>
+  <testcase name="testIsValidWithTooSmallBuffer" classname="org.apache.kafka.common.record.SimpleLegacyRecordTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

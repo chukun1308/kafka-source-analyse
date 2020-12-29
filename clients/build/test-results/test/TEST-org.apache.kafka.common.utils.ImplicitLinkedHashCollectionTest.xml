@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.apache.kafka.common.utils.ImplicitLinkedHashCollectionTest" tests="20" skipped="0" failures="0" errors="0" timestamp="2020-10-29T02:34:18" hostname="chukun-mac" time="0.047">
+  <properties/>
+  <testcase name="testSetViewModification" classname="org.apache.kafka.common.utils.ImplicitLinkedHashCollectionTest" time="0.003"/>
+  <testcase name="testSetViewGet" classname="org.apache.kafka.common.utils.ImplicitLinkedHashCollectionTest" time="0.001"/>
+  <testcase name="testInsertingTheSameObjectMultipleTimes" classname="org.apache.kafka.common.utils.ImplicitLinkedHashCollectionTest" time="0.005"/>
+  <testcase name="testListIteratorCreation" classname="org.apache.kafka.common.utils.ImplicitLinkedHashCollectionTest" time="0.001"/>
+  <testcase name="testEnlargement" classname="org.apache.kafka.common.utils.ImplicitLinkedHashCollectionTest" time="0.001"/>
+  <testcase name="testListIteratorTraversal" classname="org.apache.kafka.common.utils.ImplicitLinkedHashCollectionTest" time="0.001"/>
+  <testcase name="testListViewGet" classname="org.apache.kafka.common.utils.ImplicitLinkedHashCollectionTest" time="0.002"/>
+  <testcase name="testFindContainsRemoveOnEmptyCollection" classname="org.apache.kafka.common.utils.ImplicitLinkedHashCollectionTest" time="0.0"/>
+  <testcase name="testRemovals" classname="org.apache.kafka.common.utils.ImplicitLinkedHashCollectionTest" time="0.005"/>
+  <testcase name="testListViewModification" classname="org.apache.kafka.common.utils.ImplicitLinkedHashCollectionTest" time="0.003"/>
+  <testcase name="testNullForbidden" classname="org.apache.kafka.common.utils.ImplicitLinkedHashCollectionTest" time="0.001"/>
+  <testcase name="testSameKeysDifferentValues" classname="org.apache.kafka.common.utils.ImplicitLinkedHashCollectionTest" time="0.0"/>
+  <testcase name="testEmptyListIterator" classname="org.apache.kafka.common.utils.ImplicitLinkedHashCollectionTest" time="0.001"/>
+  <testcase name="testEquals" classname="org.apache.kafka.common.utils.ImplicitLinkedHashCollectionTest" time="0.001"/>
+  <testcase name="testInsertDelete" classname="org.apache.kafka.common.utils.ImplicitLinkedHashCollectionTest" time="0.001"/>
+  <testcase name="testListIteratorRemove" classname="org.apache.kafka.common.utils.ImplicitLinkedHashCollectionTest" time="0.001"/>
+  <testcase name="testMoveToEnd" classname="org.apache.kafka.common.utils.ImplicitLinkedHashCollectionTest" time="0.001"/>
+  <testcase name="testTraversal" classname="org.apache.kafka.common.utils.ImplicitLinkedHashCollectionTest" time="0.001"/>
+  <testcase name="testCollisions" classname="org.apache.kafka.common.utils.ImplicitLinkedHashCollectionTest" time="0.001"/>
+  <testcase name="testManyInsertsAndDeletes" classname="org.apache.kafka.common.utils.ImplicitLinkedHashCollectionTest" time="0.013"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

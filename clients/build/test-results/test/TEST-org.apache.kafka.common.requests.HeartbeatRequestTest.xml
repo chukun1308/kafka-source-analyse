@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.apache.kafka.common.requests.HeartbeatRequestTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-10-29T02:32:19" hostname="chukun-mac" time="0.0">
+  <properties/>
+  <testcase name="testRequestVersionCompatibilityFailBuild" classname="org.apache.kafka.common.requests.HeartbeatRequestTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.apache.kafka.common.message.SimpleExampleMessageTest" tests="19" skipped="0" failures="0" errors="0" timestamp="2020-10-29T02:34:16" hostname="chukun-mac" time="0.035">
+  <properties/>
+  <testcase name="shouldRoundTripFieldThroughStruct" classname="org.apache.kafka.common.message.SimpleExampleMessageTest" time="0.006"/>
+  <testcase name="shouldRoundTripFieldThroughStructWithNullable" classname="org.apache.kafka.common.message.SimpleExampleMessageTest" time="0.0"/>
+  <testcase name="testMyTaggedStruct" classname="org.apache.kafka.common.message.SimpleExampleMessageTest" time="0.009"/>
+  <testcase name="testMyNullableString" classname="org.apache.kafka.common.message.SimpleExampleMessageTest" time="0.001"/>
+  <testcase name="shouldStoreField" classname="org.apache.kafka.common.message.SimpleExampleMessageTest" time="0.0"/>
+  <testcase name="testMyStructUnsupportedVersion" classname="org.apache.kafka.common.message.SimpleExampleMessageTest" time="0.001"/>
+  <testcase name="shouldRoundTripFieldThroughBufferWithNullable" classname="org.apache.kafka.common.message.SimpleExampleMessageTest" time="0.0"/>
+  <testcase name="testMyString" classname="org.apache.kafka.common.message.SimpleExampleMessageTest" time="0.001"/>
+  <testcase name="testMyStruct" classname="org.apache.kafka.common.message.SimpleExampleMessageTest" time="0.001"/>
+  <testcase name="testMyTaggedIntArray" classname="org.apache.kafka.common.message.SimpleExampleMessageTest" time="0.002"/>
+  <testcase name="shouldThrowIfCannotWriteNonIgnorableField" classname="org.apache.kafka.common.message.SimpleExampleMessageTest" time="0.0"/>
+  <testcase name="shouldImplementEqualsAndHashCode" classname="org.apache.kafka.common.message.SimpleExampleMessageTest" time="0.001"/>
+  <testcase name="testMyBytes" classname="org.apache.kafka.common.message.SimpleExampleMessageTest" time="0.002"/>
+  <testcase name="testMyInt16" classname="org.apache.kafka.common.message.SimpleExampleMessageTest" time="0.006"/>
+  <testcase name="testCommonStruct" classname="org.apache.kafka.common.message.SimpleExampleMessageTest" time="0.001"/>
+  <testcase name="shouldDefaultField" classname="org.apache.kafka.common.message.SimpleExampleMessageTest" time="0.0"/>
+  <testcase name="shouldRoundTripFieldThroughBuffer" classname="org.apache.kafka.common.message.SimpleExampleMessageTest" time="0.0"/>
+  <testcase name="testTaggedLong" classname="org.apache.kafka.common.message.SimpleExampleMessageTest" time="0.002"/>
+  <testcase name="testTaggedUuid" classname="org.apache.kafka.common.message.SimpleExampleMessageTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

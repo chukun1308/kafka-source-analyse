@@ -1,0 +1,1900 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Class org.apache.kafka.clients.producer.KafkaProducerTest</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class org.apache.kafka.clients.producer.KafkaProducerTest</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/org.apache.kafka.clients.producer.html">org.apache.kafka.clients.producer</a> &gt; KafkaProducerTest</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">45</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">13.954s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">closeShouldBeIdempotent</td>
+<td class="success">0.067s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">closeWithNegativeTimestampShouldThrow</td>
+<td class="success">0.046s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">serializerShouldSeeGeneratedClientId</td>
+<td class="success">0.008s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">shouldCloseProperlyAndThrowIfInterrupted</td>
+<td class="success">0.318s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testAbortTransaction</td>
+<td class="success">0.006s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testCloseIsForcedOnPendingAddOffsetRequest</td>
+<td class="success">1.027s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testCloseIsForcedOnPendingFindCoordinator</td>
+<td class="success">1.135s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testCloseIsForcedOnPendingInitProducerId</td>
+<td class="success">1.126s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testCloseWhenWaitingForMetadataUpdate</td>
+<td class="success">0.021s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testConstructorFailureCloseResource</td>
+<td class="success">5.013s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testConstructorWithNotStringKey</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testConstructorWithSerializers</td>
+<td class="success">0.005s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testFlushCompleteSendOfInflightBatches</td>
+<td class="success">0.292s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testHeaders</td>
+<td class="success">0.025s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testHeadersWithExtendedClasses</td>
+<td class="success">1.599s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testInitTransactionTimeout</td>
+<td class="success">0.531s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testInitTransactionWhileThrottled</td>
+<td class="success">0.006s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testInterceptorConstructClose</td>
+<td class="success">0.007s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testInterceptorPartitionSetOnTooLargeRecord</td>
+<td class="success">0.035s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testInvalidGenerationIdAndMemberIdCombinedInSendOffsets</td>
+<td class="success">1.616s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testInvalidSocketReceiveBufferSize</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testInvalidSocketSendBufferSize</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testMetadataExpiry</td>
+<td class="success">0.009s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testMetadataFetch</td>
+<td class="success">0.015s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testMetadataTimeoutWithMissingTopic</td>
+<td class="success">0.006s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testMetadataTimeoutWithPartitionOutOfRange</td>
+<td class="success">0.010s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testMetadataWithPartitionOutOfRange</td>
+<td class="success">0.277s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testMetricConfigRecordingLevel</td>
+<td class="success">0.022s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testMetricsReporterAutoGeneratedClientId</td>
+<td class="success">0.007s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testNoSerializerProvided</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testNullGroupMetadataInSendOffsets</td>
+<td class="success">0.009s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testOnlyCanExecuteCloseAfterInitTransactionsTimeout</td>
+<td class="success">0.010s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testOsDefaultSocketBufferSizes</td>
+<td class="success">0.006s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testOverwriteAcksAndRetriesForIdempotentProducers</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testPartitionerClose</td>
+<td class="success">0.026s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testPartitionsForWithNullTopic</td>
+<td class="success">0.006s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testProducerJmxPrefix</td>
+<td class="success">0.005s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testSendToInvalidTopic</td>
+<td class="success">0.017s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testSendTxnOffsetsWithGroupId</td>
+<td class="success">0.015s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testSendTxnOffsetsWithGroupMetadata</td>
+<td class="success">0.017s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testSendTxnOffsetsWithGroupMetadataDowngrade</td>
+<td class="success">0.011s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testSerializerClose</td>
+<td class="success">0.009s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testTopicExpiryInMetadata</td>
+<td class="success">0.317s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testTopicRefreshInMetadata</td>
+<td class="success">0.270s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testTransactionalMethodThrowsWhenSenderClosed</td>
+<td class="success">0.004s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>[2020-10-29 10:32:11,994] ERROR [Producer clientId=producer-6] Uncaught error in kafka producer I/O thread:  (org.apache.kafka.clients.producer.internals.Sender:242)
+java.lang.IllegalStateException: No previous metadata update to use
+	at org.apache.kafka.clients.MockClient$DefaultMockMetadataUpdater.updateWithCurrentMetadata(MockClient.java:631)
+	at org.apache.kafka.clients.MockClient.poll(MockClient.java:284)
+	at org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:325)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:240)
+	at java.lang.Thread.run(Thread.java:748)
+[2020-10-29 10:32:12,141] ERROR [Producer clientId=producer-7] Uncaught error in kafka producer I/O thread:  (org.apache.kafka.clients.producer.internals.Sender:242)
+java.lang.IllegalStateException: No previous metadata update to use
+	at org.apache.kafka.clients.MockClient$DefaultMockMetadataUpdater.updateWithCurrentMetadata(MockClient.java:631)
+	at org.apache.kafka.clients.MockClient.poll(MockClient.java:284)
+	at org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:325)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:240)
+	at java.lang.Thread.run(Thread.java:748)
+[2020-10-29 10:32:12,145] ERROR [Producer clientId=producer-7] Uncaught error in kafka producer I/O thread:  (org.apache.kafka.clients.producer.internals.Sender:242)
+java.lang.IllegalStateException: No previous metadata update to use
+	at org.apache.kafka.clients.MockClient$DefaultMockMetadataUpdater.updateWithCurrentMetadata(MockClient.java:631)
+	at org.apache.kafka.clients.MockClient.poll(MockClient.java:284)
+	at org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:325)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:240)
+	at java.lang.Thread.run(Thread.java:748)
+[2020-10-29 10:32:12,145] ERROR [Producer clientId=producer-7] Uncaught error in kafka producer I/O thread:  (org.apache.kafka.clients.producer.internals.Sender:242)
+java.lang.IllegalStateException: No previous metadata update to use
+	at org.apache.kafka.clients.MockClient$DefaultMockMetadataUpdater.updateWithCurrentMetadata(MockClient.java:631)
+	at org.apache.kafka.clients.MockClient.poll(MockClient.java:284)
+	at org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:325)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:240)
+	at java.lang.Thread.run(Thread.java:748)
+[2020-10-29 10:32:12,146] ERROR [Producer clientId=producer-7] Uncaught error in kafka producer I/O thread:  (org.apache.kafka.clients.producer.internals.Sender:242)
+java.lang.IllegalStateException: No previous metadata update to use
+	at org.apache.kafka.clients.MockClient$DefaultMockMetadataUpdater.updateWithCurrentMetadata(MockClient.java:631)
+	at org.apache.kafka.clients.MockClient.poll(MockClient.java:284)
+	at org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:325)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:240)
+	at java.lang.Thread.run(Thread.java:748)
+[2020-10-29 10:32:12,146] ERROR [Producer clientId=producer-7] Uncaught error in kafka producer I/O thread:  (org.apache.kafka.clients.producer.internals.Sender:242)
+java.lang.IllegalStateException: No previous metadata update to use
+	at org.apache.kafka.clients.MockClient$DefaultMockMetadataUpdater.updateWithCurrentMetadata(MockClient.java:631)
+	at org.apache.kafka.clients.MockClient.poll(MockClient.java:284)
+	at org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:325)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:240)
+	at java.lang.Thread.run(Thread.java:748)
+[2020-10-29 10:32:12,147] ERROR [Producer clientId=producer-7] Uncaught error in kafka producer I/O thread:  (org.apache.kafka.clients.producer.internals.Sender:242)
+java.lang.IllegalStateException: No previous metadata update to use
+	at org.apache.kafka.clients.MockClient$DefaultMockMetadataUpdater.updateWithCurrentMetadata(MockClient.java:631)
+	at org.apache.kafka.clients.MockClient.poll(MockClient.java:284)
+	at org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:325)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:240)
+	at java.lang.Thread.run(Thread.java:748)
+[2020-10-29 10:32:12,148] ERROR [Producer clientId=producer-7] Uncaught error in kafka producer I/O thread:  (org.apache.kafka.clients.producer.internals.Sender:242)
+java.lang.IllegalStateException: No previous metadata update to use
+	at org.apache.kafka.clients.MockClient$DefaultMockMetadataUpdater.updateWithCurrentMetadata(MockClient.java:631)
+	at org.apache.kafka.clients.MockClient.poll(MockClient.java:284)
+	at org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:325)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:240)
+	at java.lang.Thread.run(Thread.java:748)
+[2020-10-29 10:32:12,149] ERROR [Producer clientId=producer-7] Uncaught error in kafka producer I/O thread:  (org.apache.kafka.clients.producer.internals.Sender:242)
+java.lang.IllegalStateException: No previous metadata update to use
+	at org.apache.kafka.clients.MockClient$DefaultMockMetadataUpdater.updateWithCurrentMetadata(MockClient.java:631)
+	at org.apache.kafka.clients.MockClient.poll(MockClient.java:284)
+	at org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:325)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:240)
+	at java.lang.Thread.run(Thread.java:748)
+[2020-10-29 10:32:12,150] ERROR [Producer clientId=producer-7] Uncaught error in kafka producer I/O thread:  (org.apache.kafka.clients.producer.internals.Sender:242)
+java.lang.IllegalStateException: No previous metadata update to use
+	at org.apache.kafka.clients.MockClient$DefaultMockMetadataUpdater.updateWithCurrentMetadata(MockClient.java:631)
+	at org.apache.kafka.clients.MockClient.poll(MockClient.java:284)
+	at org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:325)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:240)
+	at java.lang.Thread.run(Thread.java:748)
+[2020-10-29 10:32:12,151] ERROR [Producer clientId=producer-7] Uncaught error in kafka producer I/O thread:  (org.apache.kafka.clients.producer.internals.Sender:242)
+java.lang.IllegalStateException: No previous metadata update to use
+	at org.apache.kafka.clients.MockClient$DefaultMockMetadataUpdater.updateWithCurrentMetadata(MockClient.java:631)
+	at org.apache.kafka.clients.MockClient.poll(MockClient.java:284)
+	at org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:325)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:240)
+	at java.lang.Thread.run(Thread.java:748)
+[2020-10-29 10:32:12,152] ERROR [Producer clientId=producer-7] Uncaught error in kafka producer I/O thread:  (org.apache.kafka.clients.producer.internals.Sender:242)
+java.lang.IllegalStateException: No previous metadata update to use
+	at org.apache.kafka.clients.MockClient$DefaultMockMetadataUpdater.updateWithCurrentMetadata(MockClient.java:631)
+	at org.apache.kafka.clients.MockClient.poll(MockClient.java:284)
+	at org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:325)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:240)
+	at java.lang.Thread.run(Thread.java:748)
+[2020-10-29 10:32:12,153] ERROR [Producer clientId=producer-7] Uncaught error in kafka producer I/O thread:  (org.apache.kafka.clients.producer.internals.Sender:242)
+java.lang.IllegalStateException: No previous metadata update to use
+	at org.apache.kafka.clients.MockClient$DefaultMockMetadataUpdater.updateWithCurrentMetadata(MockClient.java:631)
+	at org.apache.kafka.clients.MockClient.poll(MockClient.java:284)
+	at org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:325)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:240)
+	at java.lang.Thread.run(Thread.java:748)
+[2020-10-29 10:32:12,154] ERROR [Producer clientId=producer-7] Uncaught error in kafka producer I/O thread:  (org.apache.kafka.clients.producer.internals.Sender:242)
+java.lang.IllegalStateException: No previous metadata update to use
+	at org.apache.kafka.clients.MockClient$DefaultMockMetadataUpdater.updateWithCurrentMetadata(MockClient.java:631)
+	at org.apache.kafka.clients.MockClient.poll(MockClient.java:284)
+	at org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:325)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:240)
+	at java.lang.Thread.run(Thread.java:748)
+[2020-10-29 10:32:12,155] ERROR [Producer clientId=producer-7] Uncaught error in kafka producer I/O thread:  (org.apache.kafka.clients.producer.internals.Sender:242)
+java.lang.IllegalStateException: No previous metadata update to use
+	at org.apache.kafka.clients.MockClient$DefaultMockMetadataUpdater.updateWithCurrentMetadata(MockClient.java:631)
+	at org.apache.kafka.clients.MockClient.poll(MockClient.java:284)
+	at org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:325)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:240)
+	at java.lang.Thread.run(Thread.java:748)
+[2020-10-29 10:32:12,156] ERROR [Producer clientId=producer-7] Uncaught error in kafka producer I/O thread:  (org.apache.kafka.clients.producer.internals.Sender:242)
+java.lang.IllegalStateException: No previous metadata update to use
+	at org.apache.kafka.clients.MockClient$DefaultMockMetadataUpdater.updateWithCurrentMetadata(MockClient.java:631)
+	at org.apache.kafka.clients.MockClient.poll(MockClient.java:284)
+	at org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:325)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:240)
+	at java.lang.Thread.run(Thread.java:748)
+[2020-10-29 10:32:12,157] ERROR [Producer clientId=producer-7] Uncaught error in kafka producer I/O thread:  (org.apache.kafka.clients.producer.internals.Sender:242)
+java.lang.IllegalStateException: No previous metadata update to use
+	at org.apache.kafka.clients.MockClient$DefaultMockMetadataUpdater.updateWithCurrentMetadata(MockClient.java:631)
+	at org.apache.kafka.clients.MockClient.poll(MockClient.java:284)
+	at org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:325)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:240)
+	at java.lang.Thread.run(Thread.java:748)
+[2020-10-29 10:32:12,158] ERROR [Producer clientId=producer-7] Uncaught error in kafka producer I/O thread:  (org.apache.kafka.clients.producer.internals.Sender:242)
+java.lang.IllegalStateException: No previous metadata update to use
+	at org.apache.kafka.clients.MockClient$DefaultMockMetadataUpdater.updateWithCurrentMetadata(MockClient.java:631)
+	at org.apache.kafka.clients.MockClient.poll(MockClient.java:284)
+	at org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:325)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:240)
+	at java.lang.Thread.run(Thread.java:748)
+[2020-10-29 10:32:12,159] ERROR [Producer clientId=producer-7] Uncaught error in kafka producer I/O thread:  (org.apache.kafka.clients.producer.internals.Sender:242)
+java.lang.IllegalStateException: No previous metadata update to use
+	at org.apache.kafka.clients.MockClient$DefaultMockMetadataUpdater.updateWithCurrentMetadata(MockClient.java:631)
+	at org.apache.kafka.clients.MockClient.poll(MockClient.java:284)
+	at org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:325)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:240)
+	at java.lang.Thread.run(Thread.java:748)
+[2020-10-29 10:32:12,159] ERROR [Producer clientId=producer-7] Uncaught error in kafka producer I/O thread:  (org.apache.kafka.clients.producer.internals.Sender:242)
+java.lang.IllegalStateException: No previous metadata update to use
+	at org.apache.kafka.clients.MockClient$DefaultMockMetadataUpdater.updateWithCurrentMetadata(MockClient.java:631)
+	at org.apache.kafka.clients.MockClient.poll(MockClient.java:284)
+	at org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:325)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:240)
+	at java.lang.Thread.run(Thread.java:748)
+[2020-10-29 10:32:12,161] ERROR [Producer clientId=producer-7] Uncaught error in kafka producer I/O thread:  (org.apache.kafka.clients.producer.internals.Sender:242)
+java.lang.IllegalStateException: No previous metadata update to use
+	at org.apache.kafka.clients.MockClient$DefaultMockMetadataUpdater.updateWithCurrentMetadata(MockClient.java:631)
+	at org.apache.kafka.clients.MockClient.poll(MockClient.java:284)
+	at org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:325)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:240)
+	at java.lang.Thread.run(Thread.java:748)
+[2020-10-29 10:32:12,161] ERROR [Producer clientId=producer-7] Uncaught error in kafka producer I/O thread:  (org.apache.kafka.clients.producer.internals.Sender:242)
+java.lang.IllegalStateException: No previous metadata update to use
+	at org.apache.kafka.clients.MockClient$DefaultMockMetadataUpdater.updateWithCurrentMetadata(MockClient.java:631)
+	at org.apache.kafka.clients.MockClient.poll(MockClient.java:284)
+	at org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:325)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:240)
+	at java.lang.Thread.run(Thread.java:748)
+[2020-10-29 10:32:12,162] ERROR [Producer clientId=producer-7] Uncaught error in kafka producer I/O thread:  (org.apache.kafka.clients.producer.internals.Sender:242)
+java.lang.IllegalStateException: No previous metadata update to use
+	at org.apache.kafka.clients.MockClient$DefaultMockMetadataUpdater.updateWithCurrentMetadata(MockClient.java:631)
+	at org.apache.kafka.clients.MockClient.poll(MockClient.java:284)
+	at org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:325)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:240)
+	at java.lang.Thread.run(Thread.java:748)
+[2020-10-29 10:32:12,162] ERROR [Producer clientId=producer-7] Uncaught error in kafka producer I/O thread:  (org.apache.kafka.clients.producer.internals.Sender:242)
+java.lang.IllegalStateException: No previous metadata update to use
+	at org.apache.kafka.clients.MockClient$DefaultMockMetadataUpdater.updateWithCurrentMetadata(MockClient.java:631)
+	at org.apache.kafka.clients.MockClient.poll(MockClient.java:284)
+	at org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:325)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:240)
+	at java.lang.Thread.run(Thread.java:748)
+[2020-10-29 10:32:12,163] ERROR [Producer clientId=producer-7] Uncaught error in kafka producer I/O thread:  (org.apache.kafka.clients.producer.internals.Sender:242)
+java.lang.IllegalStateException: No previous metadata update to use
+	at org.apache.kafka.clients.MockClient$DefaultMockMetadataUpdater.updateWithCurrentMetadata(MockClient.java:631)
+	at org.apache.kafka.clients.MockClient.poll(MockClient.java:284)
+	at org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:325)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:240)
+	at java.lang.Thread.run(Thread.java:748)
+[2020-10-29 10:32:12,163] ERROR [Producer clientId=producer-7] Uncaught error in kafka producer I/O thread:  (org.apache.kafka.clients.producer.internals.Sender:242)
+java.lang.IllegalStateException: No previous metadata update to use
+	at org.apache.kafka.clients.MockClient$DefaultMockMetadataUpdater.updateWithCurrentMetadata(MockClient.java:631)
+	at org.apache.kafka.clients.MockClient.poll(MockClient.java:284)
+	at org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:325)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:240)
+	at java.lang.Thread.run(Thread.java:748)
+[2020-10-29 10:32:12,165] ERROR [Producer clientId=producer-7] Uncaught error in kafka producer I/O thread:  (org.apache.kafka.clients.producer.internals.Sender:242)
+java.lang.IllegalStateException: No previous metadata update to use
+	at org.apache.kafka.clients.MockClient$DefaultMockMetadataUpdater.updateWithCurrentMetadata(MockClient.java:631)
+	at org.apache.kafka.clients.MockClient.poll(MockClient.java:284)
+	at org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:325)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:240)
+	at java.lang.Thread.run(Thread.java:748)
+[2020-10-29 10:32:12,165] ERROR [Producer clientId=producer-7] Uncaught error in kafka producer I/O thread:  (org.apache.kafka.clients.producer.internals.Sender:242)
+java.lang.IllegalStateException: No previous metadata update to use
+	at org.apache.kafka.clients.MockClient$DefaultMockMetadataUpdater.updateWithCurrentMetadata(MockClient.java:631)
+	at org.apache.kafka.clients.MockClient.poll(MockClient.java:284)
+	at org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:325)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:240)
+	at java.lang.Thread.run(Thread.java:748)
+[2020-10-29 10:32:12,168] ERROR [Producer clientId=producer-7] Uncaught error in kafka producer I/O thread:  (org.apache.kafka.clients.producer.internals.Sender:242)
+java.lang.IllegalStateException: No previous metadata update to use
+	at org.apache.kafka.clients.MockClient$DefaultMockMetadataUpdater.updateWithCurrentMetadata(MockClient.java:631)
+	at org.apache.kafka.clients.MockClient.poll(MockClient.java:284)
+	at org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:325)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:240)
+	at java.lang.Thread.run(Thread.java:748)
+[2020-10-29 10:32:12,169] ERROR [Producer clientId=producer-7] Uncaught error in kafka producer I/O thread:  (org.apache.kafka.clients.producer.internals.Sender:242)
+java.lang.IllegalStateException: No previous metadata update to use
+	at org.apache.kafka.clients.MockClient$DefaultMockMetadataUpdater.updateWithCurrentMetadata(MockClient.java:631)
+	at org.apache.kafka.clients.MockClient.poll(MockClient.java:284)
+	at org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:325)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:240)
+	at java.lang.Thread.run(Thread.java:748)
+[2020-10-29 10:32:12,170] ERROR [Producer clientId=producer-7] Uncaught error in kafka producer I/O thread:  (org.apache.kafka.clients.producer.internals.Sender:242)
+java.lang.IllegalStateException: No previous metadata update to use
+	at org.apache.kafka.clients.MockClient$DefaultMockMetadataUpdater.updateWithCurrentMetadata(MockClient.java:631)
+	at org.apache.kafka.clients.MockClient.poll(MockClient.java:284)
+	at org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:325)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:240)
+	at java.lang.Thread.run(Thread.java:748)
+[2020-10-29 10:32:12,171] ERROR [Producer clientId=producer-7] Uncaught error in kafka producer I/O thread:  (org.apache.kafka.clients.producer.internals.Sender:242)
+java.lang.IllegalStateException: No previous metadata update to use
+	at org.apache.kafka.clients.MockClient$DefaultMockMetadataUpdater.updateWithCurrentMetadata(MockClient.java:631)
+	at org.apache.kafka.clients.MockClient.poll(MockClient.java:284)
+	at org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:325)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:240)
+	at java.lang.Thread.run(Thread.java:748)
+[2020-10-29 10:32:12,171] ERROR [Producer clientId=producer-7] Uncaught error in kafka producer I/O thread:  (org.apache.kafka.clients.producer.internals.Sender:242)
+java.lang.IllegalStateException: No previous metadata update to use
+	at org.apache.kafka.clients.MockClient$DefaultMockMetadataUpdater.updateWithCurrentMetadata(MockClient.java:631)
+	at org.apache.kafka.clients.MockClient.poll(MockClient.java:284)
+	at org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:325)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:240)
+	at java.lang.Thread.run(Thread.java:748)
+[2020-10-29 10:32:12,172] ERROR [Producer clientId=producer-7] Uncaught error in kafka producer I/O thread:  (org.apache.kafka.clients.producer.internals.Sender:242)
+java.lang.IllegalStateException: No previous metadata update to use
+	at org.apache.kafka.clients.MockClient$DefaultMockMetadataUpdater.updateWithCurrentMetadata(MockClient.java:631)
+	at org.apache.kafka.clients.MockClient.poll(MockClient.java:284)
+	at org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:325)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:240)
+	at java.lang.Thread.run(Thread.java:748)
+[2020-10-29 10:32:12,172] ERROR [Producer clientId=producer-7] Uncaught error in kafka producer I/O thread:  (org.apache.kafka.clients.producer.internals.Sender:242)
+java.lang.IllegalStateException: No previous metadata update to use
+	at org.apache.kafka.clients.MockClient$DefaultMockMetadataUpdater.updateWithCurrentMetadata(MockClient.java:631)
+	at org.apache.kafka.clients.MockClient.poll(MockClient.java:284)
+	at org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:325)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:240)
+	at java.lang.Thread.run(Thread.java:748)
+[2020-10-29 10:32:12,173] ERROR [Producer clientId=producer-7] Uncaught error in kafka producer I/O thread:  (org.apache.kafka.clients.producer.internals.Sender:242)
+java.lang.IllegalStateException: No previous metadata update to use
+	at org.apache.kafka.clients.MockClient$DefaultMockMetadataUpdater.updateWithCurrentMetadata(MockClient.java:631)
+	at org.apache.kafka.clients.MockClient.poll(MockClient.java:284)
+	at org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:325)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:240)
+	at java.lang.Thread.run(Thread.java:748)
+[2020-10-29 10:32:12,173] ERROR [Producer clientId=producer-7] Uncaught error in kafka producer I/O thread:  (org.apache.kafka.clients.producer.internals.Sender:242)
+java.lang.IllegalStateException: No previous metadata update to use
+	at org.apache.kafka.clients.MockClient$DefaultMockMetadataUpdater.updateWithCurrentMetadata(MockClient.java:631)
+	at org.apache.kafka.clients.MockClient.poll(MockClient.java:284)
+	at org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:325)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:240)
+	at java.lang.Thread.run(Thread.java:748)
+[2020-10-29 10:32:12,174] ERROR [Producer clientId=producer-7] Uncaught error in kafka producer I/O thread:  (org.apache.kafka.clients.producer.internals.Sender:242)
+java.lang.IllegalStateException: No previous metadata update to use
+	at org.apache.kafka.clients.MockClient$DefaultMockMetadataUpdater.updateWithCurrentMetadata(MockClient.java:631)
+	at org.apache.kafka.clients.MockClient.poll(MockClient.java:284)
+	at org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:325)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:240)
+	at java.lang.Thread.run(Thread.java:748)
+[2020-10-29 10:32:12,174] ERROR [Producer clientId=producer-7] Uncaught error in kafka producer I/O thread:  (org.apache.kafka.clients.producer.internals.Sender:242)
+java.lang.IllegalStateException: No previous metadata update to use
+	at org.apache.kafka.clients.MockClient$DefaultMockMetadataUpdater.updateWithCurrentMetadata(MockClient.java:631)
+	at org.apache.kafka.clients.MockClient.poll(MockClient.java:284)
+	at org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:325)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:240)
+	at java.lang.Thread.run(Thread.java:748)
+[2020-10-29 10:32:12,175] ERROR [Producer clientId=producer-7] Uncaught error in kafka producer I/O thread:  (org.apache.kafka.clients.producer.internals.Sender:242)
+java.lang.IllegalStateException: No previous metadata update to use
+	at org.apache.kafka.clients.MockClient$DefaultMockMetadataUpdater.updateWithCurrentMetadata(MockClient.java:631)
+	at org.apache.kafka.clients.MockClient.poll(MockClient.java:284)
+	at org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:325)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:240)
+	at java.lang.Thread.run(Thread.java:748)
+[2020-10-29 10:32:12,177] ERROR [Producer clientId=producer-7] Uncaught error in kafka producer I/O thread:  (org.apache.kafka.clients.producer.internals.Sender:242)
+java.lang.IllegalStateException: No previous metadata update to use
+	at org.apache.kafka.clients.MockClient$DefaultMockMetadataUpdater.updateWithCurrentMetadata(MockClient.java:631)
+	at org.apache.kafka.clients.MockClient.poll(MockClient.java:284)
+	at org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:325)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:240)
+	at java.lang.Thread.run(Thread.java:748)
+[2020-10-29 10:32:12,177] ERROR [Producer clientId=producer-7] Uncaught error in kafka producer I/O thread:  (org.apache.kafka.clients.producer.internals.Sender:242)
+java.lang.IllegalStateException: No previous metadata update to use
+	at org.apache.kafka.clients.MockClient$DefaultMockMetadataUpdater.updateWithCurrentMetadata(MockClient.java:631)
+	at org.apache.kafka.clients.MockClient.poll(MockClient.java:284)
+	at org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:325)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:240)
+	at java.lang.Thread.run(Thread.java:748)
+[2020-10-29 10:32:12,178] ERROR [Producer clientId=producer-7] Uncaught error in kafka producer I/O thread:  (org.apache.kafka.clients.producer.internals.Sender:242)
+java.lang.IllegalStateException: No previous metadata update to use
+	at org.apache.kafka.clients.MockClient$DefaultMockMetadataUpdater.updateWithCurrentMetadata(MockClient.java:631)
+	at org.apache.kafka.clients.MockClient.poll(MockClient.java:284)
+	at org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:325)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:240)
+	at java.lang.Thread.run(Thread.java:748)
+[2020-10-29 10:32:12,178] ERROR [Producer clientId=producer-7] Uncaught error in kafka producer I/O thread:  (org.apache.kafka.clients.producer.internals.Sender:242)
+java.lang.IllegalStateException: No previous metadata update to use
+	at org.apache.kafka.clients.MockClient$DefaultMockMetadataUpdater.updateWithCurrentMetadata(MockClient.java:631)
+	at org.apache.kafka.clients.MockClient.poll(MockClient.java:284)
+	at org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:325)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:240)
+	at java.lang.Thread.run(Thread.java:748)
+[2020-10-29 10:32:12,179] ERROR [Producer clientId=producer-7] Uncaught error in kafka producer I/O thread:  (org.apache.kafka.clients.producer.internals.Sender:242)
+java.lang.IllegalStateException: No previous metadata update to use
+	at org.apache.kafka.clients.MockClient$DefaultMockMetadataUpdater.updateWithCurrentMetadata(MockClient.java:631)
+	at org.apache.kafka.clients.MockClient.poll(MockClient.java:284)
+	at org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:325)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:240)
+	at java.lang.Thread.run(Thread.java:748)
+[2020-10-29 10:32:12,179] ERROR [Producer clientId=producer-7] Uncaught error in kafka producer I/O thread:  (org.apache.kafka.clients.producer.internals.Sender:242)
+java.lang.IllegalStateException: No previous metadata update to use
+	at org.apache.kafka.clients.MockClient$DefaultMockMetadataUpdater.updateWithCurrentMetadata(MockClient.java:631)
+	at org.apache.kafka.clients.MockClient.poll(MockClient.java:284)
+	at org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:325)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:240)
+	at java.lang.Thread.run(Thread.java:748)
+[2020-10-29 10:32:12,180] ERROR [Producer clientId=producer-7] Uncaught error in kafka producer I/O thread:  (org.apache.kafka.clients.producer.internals.Sender:242)
+java.lang.IllegalStateException: No previous metadata update to use
+	at org.apache.kafka.clients.MockClient$DefaultMockMetadataUpdater.updateWithCurrentMetadata(MockClient.java:631)
+	at org.apache.kafka.clients.MockClient.poll(MockClient.java:284)
+	at org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:325)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:240)
+	at java.lang.Thread.run(Thread.java:748)
+[2020-10-29 10:32:12,180] ERROR [Producer clientId=producer-7] Uncaught error in kafka producer I/O thread:  (org.apache.kafka.clients.producer.internals.Sender:242)
+java.lang.IllegalStateException: No previous metadata update to use
+	at org.apache.kafka.clients.MockClient$DefaultMockMetadataUpdater.updateWithCurrentMetadata(MockClient.java:631)
+	at org.apache.kafka.clients.MockClient.poll(MockClient.java:284)
+	at org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:325)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:240)
+	at java.lang.Thread.run(Thread.java:748)
+[2020-10-29 10:32:12,181] ERROR [Producer clientId=producer-7] Uncaught error in kafka producer I/O thread:  (org.apache.kafka.clients.producer.internals.Sender:242)
+java.lang.IllegalStateException: No previous metadata update to use
+	at org.apache.kafka.clients.MockClient$DefaultMockMetadataUpdater.updateWithCurrentMetadata(MockClient.java:631)
+	at org.apache.kafka.clients.MockClient.poll(MockClient.java:284)
+	at org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:325)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:240)
+	at java.lang.Thread.run(Thread.java:748)
+[2020-10-29 10:32:12,182] ERROR [Producer clientId=producer-7] Uncaught error in kafka producer I/O thread:  (org.apache.kafka.clients.producer.internals.Sender:242)
+java.lang.IllegalStateException: No previous metadata update to use
+	at org.apache.kafka.clients.MockClient$DefaultMockMetadataUpdater.updateWithCurrentMetadata(MockClient.java:631)
+	at org.apache.kafka.clients.MockClient.poll(MockClient.java:284)
+	at org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:325)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:240)
+	at java.lang.Thread.run(Thread.java:748)
+[2020-10-29 10:32:12,182] ERROR [Producer clientId=producer-7] Uncaught error in kafka producer I/O thread:  (org.apache.kafka.clients.producer.internals.Sender:242)
+java.lang.IllegalStateException: No previous metadata update to use
+	at org.apache.kafka.clients.MockClient$DefaultMockMetadataUpdater.updateWithCurrentMetadata(MockClient.java:631)
+	at org.apache.kafka.clients.MockClient.poll(MockClient.java:284)
+	at org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:325)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:240)
+	at java.lang.Thread.run(Thread.java:748)
+[2020-10-29 10:32:12,185] ERROR [Producer clientId=producer-7] Uncaught error in kafka producer I/O thread:  (org.apache.kafka.clients.producer.internals.Sender:242)
+java.lang.IllegalStateException: No previous metadata update to use
+	at org.apache.kafka.clients.MockClient$DefaultMockMetadataUpdater.updateWithCurrentMetadata(MockClient.java:631)
+	at org.apache.kafka.clients.MockClient.poll(MockClient.java:284)
+	at org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:325)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:240)
+	at java.lang.Thread.run(Thread.java:748)
+[2020-10-29 10:32:12,185] ERROR [Producer clientId=producer-7] Uncaught error in kafka producer I/O thread:  (org.apache.kafka.clients.producer.internals.Sender:242)
+java.lang.IllegalStateException: No previous metadata update to use
+	at org.apache.kafka.clients.MockClient$DefaultMockMetadataUpdater.updateWithCurrentMetadata(MockClient.java:631)
+	at org.apache.kafka.clients.MockClient.poll(MockClient.java:284)
+	at org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:325)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:240)
+	at java.lang.Thread.run(Thread.java:748)
+[2020-10-29 10:32:12,186] ERROR [Producer clientId=producer-7] Uncaught error in kafka producer I/O thread:  (org.apache.kafka.clients.producer.internals.Sender:242)
+java.lang.IllegalStateException: No previous metadata update to use
+	at org.apache.kafka.clients.MockClient$DefaultMockMetadataUpdater.updateWithCurrentMetadata(MockClient.java:631)
+	at org.apache.kafka.clients.MockClient.poll(MockClient.java:284)
+	at org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:325)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:240)
+	at java.lang.Thread.run(Thread.java:748)
+[2020-10-29 10:32:12,186] ERROR [Producer clientId=producer-7] Uncaught error in kafka producer I/O thread:  (org.apache.kafka.clients.producer.internals.Sender:242)
+java.lang.IllegalStateException: No previous metadata update to use
+	at org.apache.kafka.clients.MockClient$DefaultMockMetadataUpdater.updateWithCurrentMetadata(MockClient.java:631)
+	at org.apache.kafka.clients.MockClient.poll(MockClient.java:284)
+	at org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:325)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:240)
+	at java.lang.Thread.run(Thread.java:748)
+[2020-10-29 10:32:12,187] ERROR [Producer clientId=producer-7] Uncaught error in kafka producer I/O thread:  (org.apache.kafka.clients.producer.internals.Sender:242)
+java.lang.IllegalStateException: No previous metadata update to use
+	at org.apache.kafka.clients.MockClient$DefaultMockMetadataUpdater.updateWithCurrentMetadata(MockClient.java:631)
+	at org.apache.kafka.clients.MockClient.poll(MockClient.java:284)
+	at org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:325)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:240)
+	at java.lang.Thread.run(Thread.java:748)
+[2020-10-29 10:32:12,187] ERROR [Producer clientId=producer-7] Uncaught error in kafka producer I/O thread:  (org.apache.kafka.clients.producer.internals.Sender:242)
+java.lang.IllegalStateException: No previous metadata update to use
+	at org.apache.kafka.clients.MockClient$DefaultMockMetadataUpdater.updateWithCurrentMetadata(MockClient.java:631)
+	at org.apache.kafka.clients.MockClient.poll(MockClient.java:284)
+	at org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:325)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:240)
+	at java.lang.Thread.run(Thread.java:748)
+[2020-10-29 10:32:12,187] ERROR [Producer clientId=producer-7] Uncaught error in kafka producer I/O thread:  (org.apache.kafka.clients.producer.internals.Sender:242)
+java.lang.IllegalStateException: No previous metadata update to use
+	at org.apache.kafka.clients.MockClient$DefaultMockMetadataUpdater.updateWithCurrentMetadata(MockClient.java:631)
+	at org.apache.kafka.clients.MockClient.poll(MockClient.java:284)
+	at org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:325)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:240)
+	at java.lang.Thread.run(Thread.java:748)
+[2020-10-29 10:32:12,188] ERROR [Producer clientId=producer-7] Uncaught error in kafka producer I/O thread:  (org.apache.kafka.clients.producer.internals.Sender:242)
+java.lang.IllegalStateException: No previous metadata update to use
+	at org.apache.kafka.clients.MockClient$DefaultMockMetadataUpdater.updateWithCurrentMetadata(MockClient.java:631)
+	at org.apache.kafka.clients.MockClient.poll(MockClient.java:284)
+	at org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:325)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:240)
+	at java.lang.Thread.run(Thread.java:748)
+[2020-10-29 10:32:12,188] ERROR [Producer clientId=producer-7] Uncaught error in kafka producer I/O thread:  (org.apache.kafka.clients.producer.internals.Sender:242)
+java.lang.IllegalStateException: No previous metadata update to use
+	at org.apache.kafka.clients.MockClient$DefaultMockMetadataUpdater.updateWithCurrentMetadata(MockClient.java:631)
+	at org.apache.kafka.clients.MockClient.poll(MockClient.java:284)
+	at org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:325)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:240)
+	at java.lang.Thread.run(Thread.java:748)
+[2020-10-29 10:32:12,189] ERROR [Producer clientId=producer-7] Uncaught error in kafka producer I/O thread:  (org.apache.kafka.clients.producer.internals.Sender:242)
+java.lang.IllegalStateException: No previous metadata update to use
+	at org.apache.kafka.clients.MockClient$DefaultMockMetadataUpdater.updateWithCurrentMetadata(MockClient.java:631)
+	at org.apache.kafka.clients.MockClient.poll(MockClient.java:284)
+	at org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:325)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:240)
+	at java.lang.Thread.run(Thread.java:748)
+[2020-10-29 10:32:12,189] ERROR [Producer clientId=producer-7] Uncaught error in kafka producer I/O thread:  (org.apache.kafka.clients.producer.internals.Sender:242)
+java.lang.IllegalStateException: No previous metadata update to use
+	at org.apache.kafka.clients.MockClient$DefaultMockMetadataUpdater.updateWithCurrentMetadata(MockClient.java:631)
+	at org.apache.kafka.clients.MockClient.poll(MockClient.java:284)
+	at org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:325)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:240)
+	at java.lang.Thread.run(Thread.java:748)
+[2020-10-29 10:32:12,189] ERROR [Producer clientId=producer-7] Uncaught error in kafka producer I/O thread:  (org.apache.kafka.clients.producer.internals.Sender:242)
+java.lang.IllegalStateException: No previous metadata update to use
+	at org.apache.kafka.clients.MockClient$DefaultMockMetadataUpdater.updateWithCurrentMetadata(MockClient.java:631)
+	at org.apache.kafka.clients.MockClient.poll(MockClient.java:284)
+	at org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:325)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:240)
+	at java.lang.Thread.run(Thread.java:748)
+[2020-10-29 10:32:12,189] ERROR [Producer clientId=producer-7] Uncaught error in kafka producer I/O thread:  (org.apache.kafka.clients.producer.internals.Sender:242)
+java.lang.IllegalStateException: No previous metadata update to use
+	at org.apache.kafka.clients.MockClient$DefaultMockMetadataUpdater.updateWithCurrentMetadata(MockClient.java:631)
+	at org.apache.kafka.clients.MockClient.poll(MockClient.java:284)
+	at org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:325)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:240)
+	at java.lang.Thread.run(Thread.java:748)
+[2020-10-29 10:32:12,190] ERROR [Producer clientId=producer-7] Uncaught error in kafka producer I/O thread:  (org.apache.kafka.clients.producer.internals.Sender:242)
+java.lang.IllegalStateException: No previous metadata update to use
+	at org.apache.kafka.clients.MockClient$DefaultMockMetadataUpdater.updateWithCurrentMetadata(MockClient.java:631)
+	at org.apache.kafka.clients.MockClient.poll(MockClient.java:284)
+	at org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:325)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:240)
+	at java.lang.Thread.run(Thread.java:748)
+[2020-10-29 10:32:12,190] ERROR [Producer clientId=producer-7] Uncaught error in kafka producer I/O thread:  (org.apache.kafka.clients.producer.internals.Sender:242)
+java.lang.IllegalStateException: No previous metadata update to use
+	at org.apache.kafka.clients.MockClient$DefaultMockMetadataUpdater.updateWithCurrentMetadata(MockClient.java:631)
+	at org.apache.kafka.clients.MockClient.poll(MockClient.java:284)
+	at org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:325)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:240)
+	at java.lang.Thread.run(Thread.java:748)
+[2020-10-29 10:32:12,190] ERROR [Producer clientId=producer-7] Uncaught error in kafka producer I/O thread:  (org.apache.kafka.clients.producer.internals.Sender:242)
+java.lang.IllegalStateException: No previous metadata update to use
+	at org.apache.kafka.clients.MockClient$DefaultMockMetadataUpdater.updateWithCurrentMetadata(MockClient.java:631)
+	at org.apache.kafka.clients.MockClient.poll(MockClient.java:284)
+	at org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:325)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:240)
+	at java.lang.Thread.run(Thread.java:748)
+[2020-10-29 10:32:12,190] ERROR [Producer clientId=producer-7] Uncaught error in kafka producer I/O thread:  (org.apache.kafka.clients.producer.internals.Sender:242)
+java.lang.IllegalStateException: No previous metadata update to use
+	at org.apache.kafka.clients.MockClient$DefaultMockMetadataUpdater.updateWithCurrentMetadata(MockClient.java:631)
+	at org.apache.kafka.clients.MockClient.poll(MockClient.java:284)
+	at org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:325)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:240)
+	at java.lang.Thread.run(Thread.java:748)
+[2020-10-29 10:32:12,190] ERROR [Producer clientId=producer-7] Uncaught error in kafka producer I/O thread:  (org.apache.kafka.clients.producer.internals.Sender:242)
+java.lang.IllegalStateException: No previous metadata update to use
+	at org.apache.kafka.clients.MockClient$DefaultMockMetadataUpdater.updateWithCurrentMetadata(MockClient.java:631)
+	at org.apache.kafka.clients.MockClient.poll(MockClient.java:284)
+	at org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:325)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:240)
+	at java.lang.Thread.run(Thread.java:748)
+[2020-10-29 10:32:12,191] ERROR [Producer clientId=producer-7] Uncaught error in kafka producer I/O thread:  (org.apache.kafka.clients.producer.internals.Sender:242)
+java.lang.IllegalStateException: No previous metadata update to use
+	at org.apache.kafka.clients.MockClient$DefaultMockMetadataUpdater.updateWithCurrentMetadata(MockClient.java:631)
+	at org.apache.kafka.clients.MockClient.poll(MockClient.java:284)
+	at org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:325)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:240)
+	at java.lang.Thread.run(Thread.java:748)
+[2020-10-29 10:32:12,191] ERROR [Producer clientId=producer-7] Uncaught error in kafka producer I/O thread:  (org.apache.kafka.clients.producer.internals.Sender:242)
+java.lang.IllegalStateException: No previous metadata update to use
+	at org.apache.kafka.clients.MockClient$DefaultMockMetadataUpdater.updateWithCurrentMetadata(MockClient.java:631)
+	at org.apache.kafka.clients.MockClient.poll(MockClient.java:284)
+	at org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:325)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:240)
+	at java.lang.Thread.run(Thread.java:748)
+[2020-10-29 10:32:12,191] ERROR [Producer clientId=producer-7] Uncaught error in kafka producer I/O thread:  (org.apache.kafka.clients.producer.internals.Sender:242)
+java.lang.IllegalStateException: No previous metadata update to use
+	at org.apache.kafka.clients.MockClient$DefaultMockMetadataUpdater.updateWithCurrentMetadata(MockClient.java:631)
+	at org.apache.kafka.clients.MockClient.poll(MockClient.java:284)
+	at org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:325)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:240)
+	at java.lang.Thread.run(Thread.java:748)
+[2020-10-29 10:32:12,191] ERROR [Producer clientId=producer-7] Uncaught error in kafka producer I/O thread:  (org.apache.kafka.clients.producer.internals.Sender:242)
+java.lang.IllegalStateException: No previous metadata update to use
+	at org.apache.kafka.clients.MockClient$DefaultMockMetadataUpdater.updateWithCurrentMetadata(MockClient.java:631)
+	at org.apache.kafka.clients.MockClient.poll(MockClient.java:284)
+	at org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:325)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:240)
+	at java.lang.Thread.run(Thread.java:748)
+[2020-10-29 10:32:12,192] ERROR [Producer clientId=producer-7] Uncaught error in kafka producer I/O thread:  (org.apache.kafka.clients.producer.internals.Sender:242)
+java.lang.IllegalStateException: No previous metadata update to use
+	at org.apache.kafka.clients.MockClient$DefaultMockMetadataUpdater.updateWithCurrentMetadata(MockClient.java:631)
+	at org.apache.kafka.clients.MockClient.poll(MockClient.java:284)
+	at org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:325)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:240)
+	at java.lang.Thread.run(Thread.java:748)
+[2020-10-29 10:32:12,192] ERROR [Producer clientId=producer-7] Uncaught error in kafka producer I/O thread:  (org.apache.kafka.clients.producer.internals.Sender:242)
+java.lang.IllegalStateException: No previous metadata update to use
+	at org.apache.kafka.clients.MockClient$DefaultMockMetadataUpdater.updateWithCurrentMetadata(MockClient.java:631)
+	at org.apache.kafka.clients.MockClient.poll(MockClient.java:284)
+	at org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:325)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:240)
+	at java.lang.Thread.run(Thread.java:748)
+[2020-10-29 10:32:12,193] ERROR [Producer clientId=producer-7] Uncaught error in kafka producer I/O thread:  (org.apache.kafka.clients.producer.internals.Sender:242)
+java.lang.IllegalStateException: No previous metadata update to use
+	at org.apache.kafka.clients.MockClient$DefaultMockMetadataUpdater.updateWithCurrentMetadata(MockClient.java:631)
+	at org.apache.kafka.clients.MockClient.poll(MockClient.java:284)
+	at org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:325)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:240)
+	at java.lang.Thread.run(Thread.java:748)
+[2020-10-29 10:32:12,193] ERROR [Producer clientId=producer-7] Uncaught error in kafka producer I/O thread:  (org.apache.kafka.clients.producer.internals.Sender:242)
+java.lang.IllegalStateException: No previous metadata update to use
+	at org.apache.kafka.clients.MockClient$DefaultMockMetadataUpdater.updateWithCurrentMetadata(MockClient.java:631)
+	at org.apache.kafka.clients.MockClient.poll(MockClient.java:284)
+	at org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:325)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:240)
+	at java.lang.Thread.run(Thread.java:748)
+[2020-10-29 10:32:12,194] ERROR [Producer clientId=producer-7] Uncaught error in kafka producer I/O thread:  (org.apache.kafka.clients.producer.internals.Sender:242)
+java.lang.IllegalStateException: No previous metadata update to use
+	at org.apache.kafka.clients.MockClient$DefaultMockMetadataUpdater.updateWithCurrentMetadata(MockClient.java:631)
+	at org.apache.kafka.clients.MockClient.poll(MockClient.java:284)
+	at org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:325)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:240)
+	at java.lang.Thread.run(Thread.java:748)
+[2020-10-29 10:32:12,194] ERROR [Producer clientId=producer-7] Uncaught error in kafka producer I/O thread:  (org.apache.kafka.clients.producer.internals.Sender:242)
+java.lang.IllegalStateException: No previous metadata update to use
+	at org.apache.kafka.clients.MockClient$DefaultMockMetadataUpdater.updateWithCurrentMetadata(MockClient.java:631)
+	at org.apache.kafka.clients.MockClient.poll(MockClient.java:284)
+	at org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:325)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:240)
+	at java.lang.Thread.run(Thread.java:748)
+[2020-10-29 10:32:12,194] ERROR [Producer clientId=producer-7] Uncaught error in kafka producer I/O thread:  (org.apache.kafka.clients.producer.internals.Sender:242)
+java.lang.IllegalStateException: No previous metadata update to use
+	at org.apache.kafka.clients.MockClient$DefaultMockMetadataUpdater.updateWithCurrentMetadata(MockClient.java:631)
+	at org.apache.kafka.clients.MockClient.poll(MockClient.java:284)
+	at org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:325)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:240)
+	at java.lang.Thread.run(Thread.java:748)
+[2020-10-29 10:32:12,195] ERROR [Producer clientId=producer-7] Uncaught error in kafka producer I/O thread:  (org.apache.kafka.clients.producer.internals.Sender:242)
+java.lang.IllegalStateException: No previous metadata update to use
+	at org.apache.kafka.clients.MockClient$DefaultMockMetadataUpdater.updateWithCurrentMetadata(MockClient.java:631)
+	at org.apache.kafka.clients.MockClient.poll(MockClient.java:284)
+	at org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:325)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:240)
+	at java.lang.Thread.run(Thread.java:748)
+[2020-10-29 10:32:12,195] ERROR [Producer clientId=producer-7] Uncaught error in kafka producer I/O thread:  (org.apache.kafka.clients.producer.internals.Sender:242)
+java.lang.IllegalStateException: No previous metadata update to use
+	at org.apache.kafka.clients.MockClient$DefaultMockMetadataUpdater.updateWithCurrentMetadata(MockClient.java:631)
+	at org.apache.kafka.clients.MockClient.poll(MockClient.java:284)
+	at org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:325)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:240)
+	at java.lang.Thread.run(Thread.java:748)
+[2020-10-29 10:32:12,195] ERROR [Producer clientId=producer-7] Uncaught error in kafka producer I/O thread:  (org.apache.kafka.clients.producer.internals.Sender:242)
+java.lang.IllegalStateException: No previous metadata update to use
+	at org.apache.kafka.clients.MockClient$DefaultMockMetadataUpdater.updateWithCurrentMetadata(MockClient.java:631)
+	at org.apache.kafka.clients.MockClient.poll(MockClient.java:284)
+	at org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:325)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:240)
+	at java.lang.Thread.run(Thread.java:748)
+[2020-10-29 10:32:12,196] ERROR [Producer clientId=producer-7] Uncaught error in kafka producer I/O thread:  (org.apache.kafka.clients.producer.internals.Sender:242)
+java.lang.IllegalStateException: No previous metadata update to use
+	at org.apache.kafka.clients.MockClient$DefaultMockMetadataUpdater.updateWithCurrentMetadata(MockClient.java:631)
+	at org.apache.kafka.clients.MockClient.poll(MockClient.java:284)
+	at org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:325)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:240)
+	at java.lang.Thread.run(Thread.java:748)
+[2020-10-29 10:32:12,196] ERROR [Producer clientId=producer-7] Uncaught error in kafka producer I/O thread:  (org.apache.kafka.clients.producer.internals.Sender:242)
+java.lang.IllegalStateException: No previous metadata update to use
+	at org.apache.kafka.clients.MockClient$DefaultMockMetadataUpdater.updateWithCurrentMetadata(MockClient.java:631)
+	at org.apache.kafka.clients.MockClient.poll(MockClient.java:284)
+	at org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:325)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:240)
+	at java.lang.Thread.run(Thread.java:748)
+[2020-10-29 10:32:12,196] ERROR [Producer clientId=producer-7] Uncaught error in kafka producer I/O thread:  (org.apache.kafka.clients.producer.internals.Sender:242)
+java.lang.IllegalStateException: No previous metadata update to use
+	at org.apache.kafka.clients.MockClient$DefaultMockMetadataUpdater.updateWithCurrentMetadata(MockClient.java:631)
+	at org.apache.kafka.clients.MockClient.poll(MockClient.java:284)
+	at org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:325)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:240)
+	at java.lang.Thread.run(Thread.java:748)
+[2020-10-29 10:32:12,197] ERROR [Producer clientId=producer-7] Uncaught error in kafka producer I/O thread:  (org.apache.kafka.clients.producer.internals.Sender:242)
+java.lang.IllegalStateException: No previous metadata update to use
+	at org.apache.kafka.clients.MockClient$DefaultMockMetadataUpdater.updateWithCurrentMetadata(MockClient.java:631)
+	at org.apache.kafka.clients.MockClient.poll(MockClient.java:284)
+	at org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:325)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:240)
+	at java.lang.Thread.run(Thread.java:748)
+[2020-10-29 10:32:12,197] ERROR [Producer clientId=producer-7] Uncaught error in kafka producer I/O thread:  (org.apache.kafka.clients.producer.internals.Sender:242)
+java.lang.IllegalStateException: No previous metadata update to use
+	at org.apache.kafka.clients.MockClient$DefaultMockMetadataUpdater.updateWithCurrentMetadata(MockClient.java:631)
+	at org.apache.kafka.clients.MockClient.poll(MockClient.java:284)
+	at org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:325)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:240)
+	at java.lang.Thread.run(Thread.java:748)
+[2020-10-29 10:32:12,198] ERROR [Producer clientId=producer-7] Uncaught error in kafka producer I/O thread:  (org.apache.kafka.clients.producer.internals.Sender:242)
+java.lang.IllegalStateException: No previous metadata update to use
+	at org.apache.kafka.clients.MockClient$DefaultMockMetadataUpdater.updateWithCurrentMetadata(MockClient.java:631)
+	at org.apache.kafka.clients.MockClient.poll(MockClient.java:284)
+	at org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:325)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:240)
+	at java.lang.Thread.run(Thread.java:748)
+[2020-10-29 10:32:12,198] ERROR [Producer clientId=producer-7] Uncaught error in kafka producer I/O thread:  (org.apache.kafka.clients.producer.internals.Sender:242)
+java.lang.IllegalStateException: No previous metadata update to use
+	at org.apache.kafka.clients.MockClient$DefaultMockMetadataUpdater.updateWithCurrentMetadata(MockClient.java:631)
+	at org.apache.kafka.clients.MockClient.poll(MockClient.java:284)
+	at org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:325)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:240)
+	at java.lang.Thread.run(Thread.java:748)
+[2020-10-29 10:32:12,198] ERROR [Producer clientId=producer-7] Uncaught error in kafka producer I/O thread:  (org.apache.kafka.clients.producer.internals.Sender:242)
+java.lang.IllegalStateException: No previous metadata update to use
+	at org.apache.kafka.clients.MockClient$DefaultMockMetadataUpdater.updateWithCurrentMetadata(MockClient.java:631)
+	at org.apache.kafka.clients.MockClient.poll(MockClient.java:284)
+	at org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:325)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:240)
+	at java.lang.Thread.run(Thread.java:748)
+[2020-10-29 10:32:12,198] ERROR [Producer clientId=producer-7] Uncaught error in kafka producer I/O thread:  (org.apache.kafka.clients.producer.internals.Sender:242)
+java.lang.IllegalStateException: No previous metadata update to use
+	at org.apache.kafka.clients.MockClient$DefaultMockMetadataUpdater.updateWithCurrentMetadata(MockClient.java:631)
+	at org.apache.kafka.clients.MockClient.poll(MockClient.java:284)
+	at org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:325)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:240)
+	at java.lang.Thread.run(Thread.java:748)
+[2020-10-29 10:32:12,199] ERROR [Producer clientId=producer-7] Uncaught error in kafka producer I/O thread:  (org.apache.kafka.clients.producer.internals.Sender:242)
+java.lang.IllegalStateException: No previous metadata update to use
+	at org.apache.kafka.clients.MockClient$DefaultMockMetadataUpdater.updateWithCurrentMetadata(MockClient.java:631)
+	at org.apache.kafka.clients.MockClient.poll(MockClient.java:284)
+	at org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:325)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:240)
+	at java.lang.Thread.run(Thread.java:748)
+[2020-10-29 10:32:12,199] ERROR [Producer clientId=producer-7] Uncaught error in kafka producer I/O thread:  (org.apache.kafka.clients.producer.internals.Sender:242)
+java.lang.IllegalStateException: No previous metadata update to use
+	at org.apache.kafka.clients.MockClient$DefaultMockMetadataUpdater.updateWithCurrentMetadata(MockClient.java:631)
+	at org.apache.kafka.clients.MockClient.poll(MockClient.java:284)
+	at org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:325)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:240)
+	at java.lang.Thread.run(Thread.java:748)
+[2020-10-29 10:32:12,199] ERROR [Producer clientId=producer-7] Uncaught error in kafka producer I/O thread:  (org.apache.kafka.clients.producer.internals.Sender:242)
+java.lang.IllegalStateException: No previous metadata update to use
+	at org.apache.kafka.clients.MockClient$DefaultMockMetadataUpdater.updateWithCurrentMetadata(MockClient.java:631)
+	at org.apache.kafka.clients.MockClient.poll(MockClient.java:284)
+	at org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:325)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:240)
+	at java.lang.Thread.run(Thread.java:748)
+[2020-10-29 10:32:12,200] ERROR [Producer clientId=producer-7] Uncaught error in kafka producer I/O thread:  (org.apache.kafka.clients.producer.internals.Sender:242)
+java.lang.IllegalStateException: No previous metadata update to use
+	at org.apache.kafka.clients.MockClient$DefaultMockMetadataUpdater.updateWithCurrentMetadata(MockClient.java:631)
+	at org.apache.kafka.clients.MockClient.poll(MockClient.java:284)
+	at org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:325)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:240)
+	at java.lang.Thread.run(Thread.java:748)
+[2020-10-29 10:32:12,200] ERROR [Producer clientId=producer-7] Uncaught error in kafka producer I/O thread:  (org.apache.kafka.clients.producer.internals.Sender:242)
+java.lang.IllegalStateException: No previous metadata update to use
+	at org.apache.kafka.clients.MockClient$DefaultMockMetadataUpdater.updateWithCurrentMetadata(MockClient.java:631)
+	at org.apache.kafka.clients.MockClient.poll(MockClient.java:284)
+	at org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:325)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:240)
+	at java.lang.Thread.run(Thread.java:748)
+[2020-10-29 10:32:12,201] ERROR [Producer clientId=producer-7] Uncaught error in kafka producer I/O thread:  (org.apache.kafka.clients.producer.internals.Sender:242)
+java.lang.IllegalStateException: No previous metadata update to use
+	at org.apache.kafka.clients.MockClient$DefaultMockMetadataUpdater.updateWithCurrentMetadata(MockClient.java:631)
+	at org.apache.kafka.clients.MockClient.poll(MockClient.java:284)
+	at org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:325)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:240)
+	at java.lang.Thread.run(Thread.java:748)
+[2020-10-29 10:32:12,201] ERROR [Producer clientId=producer-7] Uncaught error in kafka producer I/O thread:  (org.apache.kafka.clients.producer.internals.Sender:242)
+java.lang.IllegalStateException: No previous metadata update to use
+	at org.apache.kafka.clients.MockClient$DefaultMockMetadataUpdater.updateWithCurrentMetadata(MockClient.java:631)
+	at org.apache.kafka.clients.MockClient.poll(MockClient.java:284)
+	at org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:325)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:240)
+	at java.lang.Thread.run(Thread.java:748)
+[2020-10-29 10:32:12,201] ERROR [Producer clientId=producer-7] Uncaught error in kafka producer I/O thread:  (org.apache.kafka.clients.producer.internals.Sender:242)
+java.lang.IllegalStateException: No previous metadata update to use
+	at org.apache.kafka.clients.MockClient$DefaultMockMetadataUpdater.updateWithCurrentMetadata(MockClient.java:631)
+	at org.apache.kafka.clients.MockClient.poll(MockClient.java:284)
+	at org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:325)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:240)
+	at java.lang.Thread.run(Thread.java:748)
+[2020-10-29 10:32:12,202] ERROR [Producer clientId=producer-7] Uncaught error in kafka producer I/O thread:  (org.apache.kafka.clients.producer.internals.Sender:242)
+java.lang.IllegalStateException: No previous metadata update to use
+	at org.apache.kafka.clients.MockClient$DefaultMockMetadataUpdater.updateWithCurrentMetadata(MockClient.java:631)
+	at org.apache.kafka.clients.MockClient.poll(MockClient.java:284)
+	at org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:325)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:240)
+	at java.lang.Thread.run(Thread.java:748)
+[2020-10-29 10:32:12,203] ERROR [Producer clientId=producer-7] Uncaught error in kafka producer I/O thread:  (org.apache.kafka.clients.producer.internals.Sender:242)
+java.lang.IllegalStateException: No previous metadata update to use
+	at org.apache.kafka.clients.MockClient$DefaultMockMetadataUpdater.updateWithCurrentMetadata(MockClient.java:631)
+	at org.apache.kafka.clients.MockClient.poll(MockClient.java:284)
+	at org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:325)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:240)
+	at java.lang.Thread.run(Thread.java:748)
+[2020-10-29 10:32:12,203] ERROR [Producer clientId=producer-7] Uncaught error in kafka producer I/O thread:  (org.apache.kafka.clients.producer.internals.Sender:242)
+java.lang.IllegalStateException: No previous metadata update to use
+	at org.apache.kafka.clients.MockClient$DefaultMockMetadataUpdater.updateWithCurrentMetadata(MockClient.java:631)
+	at org.apache.kafka.clients.MockClient.poll(MockClient.java:284)
+	at org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:325)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:240)
+	at java.lang.Thread.run(Thread.java:748)
+[2020-10-29 10:32:12,204] ERROR [Producer clientId=producer-7] Uncaught error in kafka producer I/O thread:  (org.apache.kafka.clients.producer.internals.Sender:242)
+java.lang.IllegalStateException: No previous metadata update to use
+	at org.apache.kafka.clients.MockClient$DefaultMockMetadataUpdater.updateWithCurrentMetadata(MockClient.java:631)
+	at org.apache.kafka.clients.MockClient.poll(MockClient.java:284)
+	at org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:325)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:240)
+	at java.lang.Thread.run(Thread.java:748)
+[2020-10-29 10:32:12,204] ERROR [Producer clientId=producer-7] Uncaught error in kafka producer I/O thread:  (org.apache.kafka.clients.producer.internals.Sender:242)
+java.lang.IllegalStateException: No previous metadata update to use
+	at org.apache.kafka.clients.MockClient$DefaultMockMetadataUpdater.updateWithCurrentMetadata(MockClient.java:631)
+	at org.apache.kafka.clients.MockClient.poll(MockClient.java:284)
+	at org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:325)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:240)
+	at java.lang.Thread.run(Thread.java:748)
+[2020-10-29 10:32:12,204] ERROR [Producer clientId=producer-7] Uncaught error in kafka producer I/O thread:  (org.apache.kafka.clients.producer.internals.Sender:242)
+java.lang.IllegalStateException: No previous metadata update to use
+	at org.apache.kafka.clients.MockClient$DefaultMockMetadataUpdater.updateWithCurrentMetadata(MockClient.java:631)
+	at org.apache.kafka.clients.MockClient.poll(MockClient.java:284)
+	at org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:325)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:240)
+	at java.lang.Thread.run(Thread.java:748)
+[2020-10-29 10:32:12,205] ERROR [Producer clientId=producer-7] Uncaught error in kafka producer I/O thread:  (org.apache.kafka.clients.producer.internals.Sender:242)
+java.lang.IllegalStateException: No previous metadata update to use
+	at org.apache.kafka.clients.MockClient$DefaultMockMetadataUpdater.updateWithCurrentMetadata(MockClient.java:631)
+	at org.apache.kafka.clients.MockClient.poll(MockClient.java:284)
+	at org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:325)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:240)
+	at java.lang.Thread.run(Thread.java:748)
+[2020-10-29 10:32:12,205] ERROR [Producer clientId=producer-7] Uncaught error in kafka producer I/O thread:  (org.apache.kafka.clients.producer.internals.Sender:242)
+java.lang.IllegalStateException: No previous metadata update to use
+	at org.apache.kafka.clients.MockClient$DefaultMockMetadataUpdater.updateWithCurrentMetadata(MockClient.java:631)
+	at org.apache.kafka.clients.MockClient.poll(MockClient.java:284)
+	at org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:325)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:240)
+	at java.lang.Thread.run(Thread.java:748)
+[2020-10-29 10:32:12,206] ERROR [Producer clientId=producer-7] Uncaught error in kafka producer I/O thread:  (org.apache.kafka.clients.producer.internals.Sender:242)
+java.lang.IllegalStateException: No previous metadata update to use
+	at org.apache.kafka.clients.MockClient$DefaultMockMetadataUpdater.updateWithCurrentMetadata(MockClient.java:631)
+	at org.apache.kafka.clients.MockClient.poll(MockClient.java:284)
+	at org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:325)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:240)
+	at java.lang.Thread.run(Thread.java:748)
+[2020-10-29 10:32:12,206] ERROR [Producer clientId=producer-7] Uncaught error in kafka producer I/O thread:  (org.apache.kafka.clients.producer.internals.Sender:242)
+java.lang.IllegalStateException: No previous metadata update to use
+	at org.apache.kafka.clients.MockClient$DefaultMockMetadataUpdater.updateWithCurrentMetadata(MockClient.java:631)
+	at org.apache.kafka.clients.MockClient.poll(MockClient.java:284)
+	at org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:325)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:240)
+	at java.lang.Thread.run(Thread.java:748)
+[2020-10-29 10:32:12,207] ERROR [Producer clientId=producer-7] Uncaught error in kafka producer I/O thread:  (org.apache.kafka.clients.producer.internals.Sender:242)
+java.lang.IllegalStateException: No previous metadata update to use
+	at org.apache.kafka.clients.MockClient$DefaultMockMetadataUpdater.updateWithCurrentMetadata(MockClient.java:631)
+	at org.apache.kafka.clients.MockClient.poll(MockClient.java:284)
+	at org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:325)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:240)
+	at java.lang.Thread.run(Thread.java:748)
+[2020-10-29 10:32:12,207] ERROR [Producer clientId=producer-7] Uncaught error in kafka producer I/O thread:  (org.apache.kafka.clients.producer.internals.Sender:242)
+java.lang.IllegalStateException: No previous metadata update to use
+	at org.apache.kafka.clients.MockClient$DefaultMockMetadataUpdater.updateWithCurrentMetadata(MockClient.java:631)
+	at org.apache.kafka.clients.MockClient.poll(MockClient.java:284)
+	at org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:325)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:240)
+	at java.lang.Thread.run(Thread.java:748)
+[2020-10-29 10:32:12,207] ERROR [Producer clientId=producer-7] Uncaught error in kafka producer I/O thread:  (org.apache.kafka.clients.producer.internals.Sender:242)
+java.lang.IllegalStateException: No previous metadata update to use
+	at org.apache.kafka.clients.MockClient$DefaultMockMetadataUpdater.updateWithCurrentMetadata(MockClient.java:631)
+	at org.apache.kafka.clients.MockClient.poll(MockClient.java:284)
+	at org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:325)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:240)
+	at java.lang.Thread.run(Thread.java:748)
+[2020-10-29 10:32:12,208] ERROR [Producer clientId=producer-7] Uncaught error in kafka producer I/O thread:  (org.apache.kafka.clients.producer.internals.Sender:242)
+java.lang.IllegalStateException: No previous metadata update to use
+	at org.apache.kafka.clients.MockClient$DefaultMockMetadataUpdater.updateWithCurrentMetadata(MockClient.java:631)
+	at org.apache.kafka.clients.MockClient.poll(MockClient.java:284)
+	at org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:325)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:240)
+	at java.lang.Thread.run(Thread.java:748)
+[2020-10-29 10:32:12,208] ERROR [Producer clientId=producer-7] Uncaught error in kafka producer I/O thread:  (org.apache.kafka.clients.producer.internals.Sender:242)
+java.lang.IllegalStateException: No previous metadata update to use
+	at org.apache.kafka.clients.MockClient$DefaultMockMetadataUpdater.updateWithCurrentMetadata(MockClient.java:631)
+	at org.apache.kafka.clients.MockClient.poll(MockClient.java:284)
+	at org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:325)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:240)
+	at java.lang.Thread.run(Thread.java:748)
+[2020-10-29 10:32:12,208] ERROR [Producer clientId=producer-7] Uncaught error in kafka producer I/O thread:  (org.apache.kafka.clients.producer.internals.Sender:242)
+java.lang.IllegalStateException: No previous metadata update to use
+	at org.apache.kafka.clients.MockClient$DefaultMockMetadataUpdater.updateWithCurrentMetadata(MockClient.java:631)
+	at org.apache.kafka.clients.MockClient.poll(MockClient.java:284)
+	at org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:325)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:240)
+	at java.lang.Thread.run(Thread.java:748)
+[2020-10-29 10:32:12,208] ERROR [Producer clientId=producer-7] Uncaught error in kafka producer I/O thread:  (org.apache.kafka.clients.producer.internals.Sender:242)
+java.lang.IllegalStateException: No previous metadata update to use
+	at org.apache.kafka.clients.MockClient$DefaultMockMetadataUpdater.updateWithCurrentMetadata(MockClient.java:631)
+	at org.apache.kafka.clients.MockClient.poll(MockClient.java:284)
+	at org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:325)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:240)
+	at java.lang.Thread.run(Thread.java:748)
+[2020-10-29 10:32:12,613] ERROR [Producer clientId=producer-9] Uncaught error in kafka producer I/O thread:  (org.apache.kafka.clients.producer.internals.Sender:242)
+java.lang.IllegalStateException: No previous metadata update to use
+	at org.apache.kafka.clients.MockClient$DefaultMockMetadataUpdater.updateWithCurrentMetadata(MockClient.java:631)
+	at org.apache.kafka.clients.MockClient.poll(MockClient.java:284)
+	at org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:325)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:240)
+	at java.lang.Thread.run(Thread.java:748)
+[2020-10-29 10:32:12,613] ERROR [Producer clientId=producer-9] Uncaught error in kafka producer I/O thread:  (org.apache.kafka.clients.producer.internals.Sender:242)
+java.lang.IllegalStateException: No previous metadata update to use
+	at org.apache.kafka.clients.MockClient$DefaultMockMetadataUpdater.updateWithCurrentMetadata(MockClient.java:631)
+	at org.apache.kafka.clients.MockClient.poll(MockClient.java:284)
+	at org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:325)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:240)
+	at java.lang.Thread.run(Thread.java:748)
+[2020-10-29 10:32:12,614] ERROR [Producer clientId=producer-9] Uncaught error in kafka producer I/O thread:  (org.apache.kafka.clients.producer.internals.Sender:242)
+java.lang.IllegalStateException: No previous metadata update to use
+	at org.apache.kafka.clients.MockClient$DefaultMockMetadataUpdater.updateWithCurrentMetadata(MockClient.java:631)
+	at org.apache.kafka.clients.MockClient.poll(MockClient.java:284)
+	at org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:325)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:240)
+	at java.lang.Thread.run(Thread.java:748)
+[2020-10-29 10:32:12,614] ERROR [Producer clientId=producer-9] Uncaught error in kafka producer I/O thread:  (org.apache.kafka.clients.producer.internals.Sender:242)
+java.lang.IllegalStateException: No previous metadata update to use
+	at org.apache.kafka.clients.MockClient$DefaultMockMetadataUpdater.updateWithCurrentMetadata(MockClient.java:631)
+	at org.apache.kafka.clients.MockClient.poll(MockClient.java:284)
+	at org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:325)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:240)
+	at java.lang.Thread.run(Thread.java:748)
+[2020-10-29 10:32:12,614] ERROR [Producer clientId=producer-9] Uncaught error in kafka producer I/O thread:  (org.apache.kafka.clients.producer.internals.Sender:242)
+java.lang.IllegalStateException: No previous metadata update to use
+	at org.apache.kafka.clients.MockClient$DefaultMockMetadataUpdater.updateWithCurrentMetadata(MockClient.java:631)
+	at org.apache.kafka.clients.MockClient.poll(MockClient.java:284)
+	at org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:325)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:240)
+	at java.lang.Thread.run(Thread.java:748)
+[2020-10-29 10:32:12,614] ERROR [Producer clientId=producer-9] Uncaught error in kafka producer I/O thread:  (org.apache.kafka.clients.producer.internals.Sender:242)
+java.lang.IllegalStateException: No previous metadata update to use
+	at org.apache.kafka.clients.MockClient$DefaultMockMetadataUpdater.updateWithCurrentMetadata(MockClient.java:631)
+	at org.apache.kafka.clients.MockClient.poll(MockClient.java:284)
+	at org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:325)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:240)
+	at java.lang.Thread.run(Thread.java:748)
+[2020-10-29 10:32:12,614] ERROR [Producer clientId=producer-9] Uncaught error in kafka producer I/O thread:  (org.apache.kafka.clients.producer.internals.Sender:242)
+java.lang.IllegalStateException: No previous metadata update to use
+	at org.apache.kafka.clients.MockClient$DefaultMockMetadataUpdater.updateWithCurrentMetadata(MockClient.java:631)
+	at org.apache.kafka.clients.MockClient.poll(MockClient.java:284)
+	at org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:325)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:240)
+	at java.lang.Thread.run(Thread.java:748)
+[2020-10-29 10:32:12,615] ERROR [Producer clientId=producer-9] Uncaught error in kafka producer I/O thread:  (org.apache.kafka.clients.producer.internals.Sender:242)
+java.lang.IllegalStateException: No previous metadata update to use
+	at org.apache.kafka.clients.MockClient$DefaultMockMetadataUpdater.updateWithCurrentMetadata(MockClient.java:631)
+	at org.apache.kafka.clients.MockClient.poll(MockClient.java:284)
+	at org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:325)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:240)
+	at java.lang.Thread.run(Thread.java:748)
+[2020-10-29 10:32:12,615] ERROR [Producer clientId=producer-9] Uncaught error in kafka producer I/O thread:  (org.apache.kafka.clients.producer.internals.Sender:242)
+java.lang.IllegalStateException: No previous metadata update to use
+	at org.apache.kafka.clients.MockClient$DefaultMockMetadataUpdater.updateWithCurrentMetadata(MockClient.java:631)
+	at org.apache.kafka.clients.MockClient.poll(MockClient.java:284)
+	at org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:325)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:240)
+	at java.lang.Thread.run(Thread.java:748)
+[2020-10-29 10:32:12,615] ERROR [Producer clientId=producer-9] Uncaught error in kafka producer I/O thread:  (org.apache.kafka.clients.producer.internals.Sender:242)
+java.lang.IllegalStateException: No previous metadata update to use
+	at org.apache.kafka.clients.MockClient$DefaultMockMetadataUpdater.updateWithCurrentMetadata(MockClient.java:631)
+	at org.apache.kafka.clients.MockClient.poll(MockClient.java:284)
+	at org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:325)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:240)
+	at java.lang.Thread.run(Thread.java:748)
+[2020-10-29 10:32:12,615] ERROR [Producer clientId=producer-9] Uncaught error in kafka producer I/O thread:  (org.apache.kafka.clients.producer.internals.Sender:242)
+java.lang.IllegalStateException: No previous metadata update to use
+	at org.apache.kafka.clients.MockClient$DefaultMockMetadataUpdater.updateWithCurrentMetadata(MockClient.java:631)
+	at org.apache.kafka.clients.MockClient.poll(MockClient.java:284)
+	at org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:325)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:240)
+	at java.lang.Thread.run(Thread.java:748)
+[2020-10-29 10:32:12,615] ERROR [Producer clientId=producer-9] Uncaught error in kafka producer I/O thread:  (org.apache.kafka.clients.producer.internals.Sender:242)
+java.lang.IllegalStateException: No previous metadata update to use
+	at org.apache.kafka.clients.MockClient$DefaultMockMetadataUpdater.updateWithCurrentMetadata(MockClient.java:631)
+	at org.apache.kafka.clients.MockClient.poll(MockClient.java:284)
+	at org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:325)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:240)
+	at java.lang.Thread.run(Thread.java:748)
+[2020-10-29 10:32:12,616] ERROR [Producer clientId=producer-9] Uncaught error in kafka producer I/O thread:  (org.apache.kafka.clients.producer.internals.Sender:242)
+java.lang.IllegalStateException: No previous metadata update to use
+	at org.apache.kafka.clients.MockClient$DefaultMockMetadataUpdater.updateWithCurrentMetadata(MockClient.java:631)
+	at org.apache.kafka.clients.MockClient.poll(MockClient.java:284)
+	at org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:325)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:240)
+	at java.lang.Thread.run(Thread.java:748)
+[2020-10-29 10:32:12,616] ERROR [Producer clientId=producer-9] Uncaught error in kafka producer I/O thread:  (org.apache.kafka.clients.producer.internals.Sender:242)
+java.lang.IllegalStateException: No previous metadata update to use
+	at org.apache.kafka.clients.MockClient$DefaultMockMetadataUpdater.updateWithCurrentMetadata(MockClient.java:631)
+	at org.apache.kafka.clients.MockClient.poll(MockClient.java:284)
+	at org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:325)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:240)
+	at java.lang.Thread.run(Thread.java:748)
+[2020-10-29 10:32:12,616] ERROR [Producer clientId=producer-9] Uncaught error in kafka producer I/O thread:  (org.apache.kafka.clients.producer.internals.Sender:242)
+java.lang.IllegalStateException: No previous metadata update to use
+	at org.apache.kafka.clients.MockClient$DefaultMockMetadataUpdater.updateWithCurrentMetadata(MockClient.java:631)
+	at org.apache.kafka.clients.MockClient.poll(MockClient.java:284)
+	at org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:325)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:240)
+	at java.lang.Thread.run(Thread.java:748)
+[2020-10-29 10:32:12,616] ERROR [Producer clientId=producer-9] Uncaught error in kafka producer I/O thread:  (org.apache.kafka.clients.producer.internals.Sender:242)
+java.lang.IllegalStateException: No previous metadata update to use
+	at org.apache.kafka.clients.MockClient$DefaultMockMetadataUpdater.updateWithCurrentMetadata(MockClient.java:631)
+	at org.apache.kafka.clients.MockClient.poll(MockClient.java:284)
+	at org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:325)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:240)
+	at java.lang.Thread.run(Thread.java:748)
+[2020-10-29 10:32:12,616] ERROR [Producer clientId=producer-9] Uncaught error in kafka producer I/O thread:  (org.apache.kafka.clients.producer.internals.Sender:242)
+java.lang.IllegalStateException: No previous metadata update to use
+	at org.apache.kafka.clients.MockClient$DefaultMockMetadataUpdater.updateWithCurrentMetadata(MockClient.java:631)
+	at org.apache.kafka.clients.MockClient.poll(MockClient.java:284)
+	at org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:325)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:240)
+	at java.lang.Thread.run(Thread.java:748)
+[2020-10-29 10:32:12,616] ERROR [Producer clientId=producer-9] Uncaught error in kafka producer I/O thread:  (org.apache.kafka.clients.producer.internals.Sender:242)
+java.lang.IllegalStateException: No previous metadata update to use
+	at org.apache.kafka.clients.MockClient$DefaultMockMetadataUpdater.updateWithCurrentMetadata(MockClient.java:631)
+	at org.apache.kafka.clients.MockClient.poll(MockClient.java:284)
+	at org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:325)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:240)
+	at java.lang.Thread.run(Thread.java:748)
+[2020-10-29 10:32:12,617] ERROR [Producer clientId=producer-9] Uncaught error in kafka producer I/O thread:  (org.apache.kafka.clients.producer.internals.Sender:242)
+java.lang.IllegalStateException: No previous metadata update to use
+	at org.apache.kafka.clients.MockClient$DefaultMockMetadataUpdater.updateWithCurrentMetadata(MockClient.java:631)
+	at org.apache.kafka.clients.MockClient.poll(MockClient.java:284)
+	at org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:325)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:240)
+	at java.lang.Thread.run(Thread.java:748)
+[2020-10-29 10:32:12,617] ERROR [Producer clientId=producer-9] Uncaught error in kafka producer I/O thread:  (org.apache.kafka.clients.producer.internals.Sender:242)
+java.lang.IllegalStateException: No previous metadata update to use
+	at org.apache.kafka.clients.MockClient$DefaultMockMetadataUpdater.updateWithCurrentMetadata(MockClient.java:631)
+	at org.apache.kafka.clients.MockClient.poll(MockClient.java:284)
+	at org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:325)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:240)
+	at java.lang.Thread.run(Thread.java:748)
+[2020-10-29 10:32:12,617] ERROR [Producer clientId=producer-9] Uncaught error in kafka producer I/O thread:  (org.apache.kafka.clients.producer.internals.Sender:242)
+java.lang.IllegalStateException: No previous metadata update to use
+	at org.apache.kafka.clients.MockClient$DefaultMockMetadataUpdater.updateWithCurrentMetadata(MockClient.java:631)
+	at org.apache.kafka.clients.MockClient.poll(MockClient.java:284)
+	at org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:325)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:240)
+	at java.lang.Thread.run(Thread.java:748)
+[2020-10-29 10:32:12,617] ERROR [Producer clientId=producer-9] Uncaught error in kafka producer I/O thread:  (org.apache.kafka.clients.producer.internals.Sender:242)
+java.lang.IllegalStateException: No previous metadata update to use
+	at org.apache.kafka.clients.MockClient$DefaultMockMetadataUpdater.updateWithCurrentMetadata(MockClient.java:631)
+	at org.apache.kafka.clients.MockClient.poll(MockClient.java:284)
+	at org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:325)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:240)
+	at java.lang.Thread.run(Thread.java:748)
+[2020-10-29 10:32:12,617] ERROR [Producer clientId=producer-9] Uncaught error in kafka producer I/O thread:  (org.apache.kafka.clients.producer.internals.Sender:242)
+java.lang.IllegalStateException: No previous metadata update to use
+	at org.apache.kafka.clients.MockClient$DefaultMockMetadataUpdater.updateWithCurrentMetadata(MockClient.java:631)
+	at org.apache.kafka.clients.MockClient.poll(MockClient.java:284)
+	at org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:325)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:240)
+	at java.lang.Thread.run(Thread.java:748)
+[2020-10-29 10:32:12,617] ERROR [Producer clientId=producer-9] Uncaught error in kafka producer I/O thread:  (org.apache.kafka.clients.producer.internals.Sender:242)
+java.lang.IllegalStateException: No previous metadata update to use
+	at org.apache.kafka.clients.MockClient$DefaultMockMetadataUpdater.updateWithCurrentMetadata(MockClient.java:631)
+	at org.apache.kafka.clients.MockClient.poll(MockClient.java:284)
+	at org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:325)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:240)
+	at java.lang.Thread.run(Thread.java:748)
+[2020-10-29 10:32:12,618] ERROR [Producer clientId=producer-9] Uncaught error in kafka producer I/O thread:  (org.apache.kafka.clients.producer.internals.Sender:242)
+java.lang.IllegalStateException: No previous metadata update to use
+	at org.apache.kafka.clients.MockClient$DefaultMockMetadataUpdater.updateWithCurrentMetadata(MockClient.java:631)
+	at org.apache.kafka.clients.MockClient.poll(MockClient.java:284)
+	at org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:325)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:240)
+	at java.lang.Thread.run(Thread.java:748)
+[2020-10-29 10:32:12,618] ERROR [Producer clientId=producer-9] Uncaught error in kafka producer I/O thread:  (org.apache.kafka.clients.producer.internals.Sender:242)
+java.lang.IllegalStateException: No previous metadata update to use
+	at org.apache.kafka.clients.MockClient$DefaultMockMetadataUpdater.updateWithCurrentMetadata(MockClient.java:631)
+	at org.apache.kafka.clients.MockClient.poll(MockClient.java:284)
+	at org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:325)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:240)
+	at java.lang.Thread.run(Thread.java:748)
+[2020-10-29 10:32:12,618] ERROR [Producer clientId=producer-9] Uncaught error in kafka producer I/O thread:  (org.apache.kafka.clients.producer.internals.Sender:242)
+java.lang.IllegalStateException: No previous metadata update to use
+	at org.apache.kafka.clients.MockClient$DefaultMockMetadataUpdater.updateWithCurrentMetadata(MockClient.java:631)
+	at org.apache.kafka.clients.MockClient.poll(MockClient.java:284)
+	at org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:325)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:240)
+	at java.lang.Thread.run(Thread.java:748)
+[2020-10-29 10:32:12,618] ERROR [Producer clientId=producer-9] Uncaught error in kafka producer I/O thread:  (org.apache.kafka.clients.producer.internals.Sender:242)
+java.lang.IllegalStateException: No previous metadata update to use
+	at org.apache.kafka.clients.MockClient$DefaultMockMetadataUpdater.updateWithCurrentMetadata(MockClient.java:631)
+	at org.apache.kafka.clients.MockClient.poll(MockClient.java:284)
+	at org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:325)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:240)
+	at java.lang.Thread.run(Thread.java:748)
+[2020-10-29 10:32:12,618] ERROR [Producer clientId=producer-9] Uncaught error in kafka producer I/O thread:  (org.apache.kafka.clients.producer.internals.Sender:242)
+java.lang.IllegalStateException: No previous metadata update to use
+	at org.apache.kafka.clients.MockClient$DefaultMockMetadataUpdater.updateWithCurrentMetadata(MockClient.java:631)
+	at org.apache.kafka.clients.MockClient.poll(MockClient.java:284)
+	at org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:325)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:240)
+	at java.lang.Thread.run(Thread.java:748)
+[2020-10-29 10:32:12,619] ERROR [Producer clientId=producer-9] Uncaught error in kafka producer I/O thread:  (org.apache.kafka.clients.producer.internals.Sender:242)
+java.lang.IllegalStateException: No previous metadata update to use
+	at org.apache.kafka.clients.MockClient$DefaultMockMetadataUpdater.updateWithCurrentMetadata(MockClient.java:631)
+	at org.apache.kafka.clients.MockClient.poll(MockClient.java:284)
+	at org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:325)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:240)
+	at java.lang.Thread.run(Thread.java:748)
+[2020-10-29 10:32:12,619] ERROR [Producer clientId=producer-9] Uncaught error in kafka producer I/O thread:  (org.apache.kafka.clients.producer.internals.Sender:242)
+java.lang.IllegalStateException: No previous metadata update to use
+	at org.apache.kafka.clients.MockClient$DefaultMockMetadataUpdater.updateWithCurrentMetadata(MockClient.java:631)
+	at org.apache.kafka.clients.MockClient.poll(MockClient.java:284)
+	at org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:325)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:240)
+	at java.lang.Thread.run(Thread.java:748)
+[2020-10-29 10:32:12,619] ERROR [Producer clientId=producer-9] Uncaught error in kafka producer I/O thread:  (org.apache.kafka.clients.producer.internals.Sender:242)
+java.lang.IllegalStateException: No previous metadata update to use
+	at org.apache.kafka.clients.MockClient$DefaultMockMetadataUpdater.updateWithCurrentMetadata(MockClient.java:631)
+	at org.apache.kafka.clients.MockClient.poll(MockClient.java:284)
+	at org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:325)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:240)
+	at java.lang.Thread.run(Thread.java:748)
+[2020-10-29 10:32:12,619] ERROR [Producer clientId=producer-9] Uncaught error in kafka producer I/O thread:  (org.apache.kafka.clients.producer.internals.Sender:242)
+java.lang.IllegalStateException: No previous metadata update to use
+	at org.apache.kafka.clients.MockClient$DefaultMockMetadataUpdater.updateWithCurrentMetadata(MockClient.java:631)
+	at org.apache.kafka.clients.MockClient.poll(MockClient.java:284)
+	at org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:325)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:240)
+	at java.lang.Thread.run(Thread.java:748)
+[2020-10-29 10:32:12,619] ERROR [Producer clientId=producer-9] Uncaught error in kafka producer I/O thread:  (org.apache.kafka.clients.producer.internals.Sender:242)
+java.lang.IllegalStateException: No previous metadata update to use
+	at org.apache.kafka.clients.MockClient$DefaultMockMetadataUpdater.updateWithCurrentMetadata(MockClient.java:631)
+	at org.apache.kafka.clients.MockClient.poll(MockClient.java:284)
+	at org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:325)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:240)
+	at java.lang.Thread.run(Thread.java:748)
+[2020-10-29 10:32:12,619] ERROR [Producer clientId=producer-9] Uncaught error in kafka producer I/O thread:  (org.apache.kafka.clients.producer.internals.Sender:242)
+java.lang.IllegalStateException: No previous metadata update to use
+	at org.apache.kafka.clients.MockClient$DefaultMockMetadataUpdater.updateWithCurrentMetadata(MockClient.java:631)
+	at org.apache.kafka.clients.MockClient.poll(MockClient.java:284)
+	at org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:325)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:240)
+	at java.lang.Thread.run(Thread.java:748)
+[2020-10-29 10:32:12,620] ERROR [Producer clientId=producer-9] Uncaught error in kafka producer I/O thread:  (org.apache.kafka.clients.producer.internals.Sender:242)
+java.lang.IllegalStateException: No previous metadata update to use
+	at org.apache.kafka.clients.MockClient$DefaultMockMetadataUpdater.updateWithCurrentMetadata(MockClient.java:631)
+	at org.apache.kafka.clients.MockClient.poll(MockClient.java:284)
+	at org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:325)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:240)
+	at java.lang.Thread.run(Thread.java:748)
+[2020-10-29 10:32:12,620] ERROR [Producer clientId=producer-9] Uncaught error in kafka producer I/O thread:  (org.apache.kafka.clients.producer.internals.Sender:242)
+java.lang.IllegalStateException: No previous metadata update to use
+	at org.apache.kafka.clients.MockClient$DefaultMockMetadataUpdater.updateWithCurrentMetadata(MockClient.java:631)
+	at org.apache.kafka.clients.MockClient.poll(MockClient.java:284)
+	at org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:325)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:240)
+	at java.lang.Thread.run(Thread.java:748)
+[2020-10-29 10:32:12,620] ERROR [Producer clientId=producer-9] Uncaught error in kafka producer I/O thread:  (org.apache.kafka.clients.producer.internals.Sender:242)
+java.lang.IllegalStateException: No previous metadata update to use
+	at org.apache.kafka.clients.MockClient$DefaultMockMetadataUpdater.updateWithCurrentMetadata(MockClient.java:631)
+	at org.apache.kafka.clients.MockClient.poll(MockClient.java:284)
+	at org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:325)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:240)
+	at java.lang.Thread.run(Thread.java:748)
+[2020-10-29 10:32:12,620] ERROR [Producer clientId=producer-9] Uncaught error in kafka producer I/O thread:  (org.apache.kafka.clients.producer.internals.Sender:242)
+java.lang.IllegalStateException: No previous metadata update to use
+	at org.apache.kafka.clients.MockClient$DefaultMockMetadataUpdater.updateWithCurrentMetadata(MockClient.java:631)
+	at org.apache.kafka.clients.MockClient.poll(MockClient.java:284)
+	at org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:325)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:240)
+	at java.lang.Thread.run(Thread.java:748)
+[2020-10-29 10:32:12,620] ERROR [Producer clientId=producer-9] Uncaught error in kafka producer I/O thread:  (org.apache.kafka.clients.producer.internals.Sender:242)
+java.lang.IllegalStateException: No previous metadata update to use
+	at org.apache.kafka.clients.MockClient$DefaultMockMetadataUpdater.updateWithCurrentMetadata(MockClient.java:631)
+	at org.apache.kafka.clients.MockClient.poll(MockClient.java:284)
+	at org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:325)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:240)
+	at java.lang.Thread.run(Thread.java:748)
+[2020-10-29 10:32:12,620] ERROR [Producer clientId=producer-9] Uncaught error in kafka producer I/O thread:  (org.apache.kafka.clients.producer.internals.Sender:242)
+java.lang.IllegalStateException: No previous metadata update to use
+	at org.apache.kafka.clients.MockClient$DefaultMockMetadataUpdater.updateWithCurrentMetadata(MockClient.java:631)
+	at org.apache.kafka.clients.MockClient.poll(MockClient.java:284)
+	at org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:325)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:240)
+	at java.lang.Thread.run(Thread.java:748)
+[2020-10-29 10:32:12,621] ERROR [Producer clientId=producer-9] Uncaught error in kafka producer I/O thread:  (org.apache.kafka.clients.producer.internals.Sender:242)
+java.lang.IllegalStateException: No previous metadata update to use
+	at org.apache.kafka.clients.MockClient$DefaultMockMetadataUpdater.updateWithCurrentMetadata(MockClient.java:631)
+	at org.apache.kafka.clients.MockClient.poll(MockClient.java:284)
+	at org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:325)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:240)
+	at java.lang.Thread.run(Thread.java:748)
+[2020-10-29 10:32:12,621] ERROR [Producer clientId=producer-9] Uncaught error in kafka producer I/O thread:  (org.apache.kafka.clients.producer.internals.Sender:242)
+java.lang.IllegalStateException: No previous metadata update to use
+	at org.apache.kafka.clients.MockClient$DefaultMockMetadataUpdater.updateWithCurrentMetadata(MockClient.java:631)
+	at org.apache.kafka.clients.MockClient.poll(MockClient.java:284)
+	at org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:325)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:240)
+	at java.lang.Thread.run(Thread.java:748)
+[2020-10-29 10:32:12,621] ERROR [Producer clientId=producer-9] Uncaught error in kafka producer I/O thread:  (org.apache.kafka.clients.producer.internals.Sender:242)
+java.lang.IllegalStateException: No previous metadata update to use
+	at org.apache.kafka.clients.MockClient$DefaultMockMetadataUpdater.updateWithCurrentMetadata(MockClient.java:631)
+	at org.apache.kafka.clients.MockClient.poll(MockClient.java:284)
+	at org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:325)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:240)
+	at java.lang.Thread.run(Thread.java:748)
+[2020-10-29 10:32:12,621] ERROR [Producer clientId=producer-9] Uncaught error in kafka producer I/O thread:  (org.apache.kafka.clients.producer.internals.Sender:242)
+java.lang.IllegalStateException: No previous metadata update to use
+	at org.apache.kafka.clients.MockClient$DefaultMockMetadataUpdater.updateWithCurrentMetadata(MockClient.java:631)
+	at org.apache.kafka.clients.MockClient.poll(MockClient.java:284)
+	at org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:325)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:240)
+	at java.lang.Thread.run(Thread.java:748)
+[2020-10-29 10:32:12,622] ERROR [Producer clientId=producer-9] Uncaught error in kafka producer I/O thread:  (org.apache.kafka.clients.producer.internals.Sender:242)
+java.lang.IllegalStateException: No previous metadata update to use
+	at org.apache.kafka.clients.MockClient$DefaultMockMetadataUpdater.updateWithCurrentMetadata(MockClient.java:631)
+	at org.apache.kafka.clients.MockClient.poll(MockClient.java:284)
+	at org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:325)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:240)
+	at java.lang.Thread.run(Thread.java:748)
+[2020-10-29 10:32:12,622] ERROR [Producer clientId=producer-9] Uncaught error in kafka producer I/O thread:  (org.apache.kafka.clients.producer.internals.Sender:242)
+java.lang.IllegalStateException: No previous metadata update to use
+	at org.apache.kafka.clients.MockClient$DefaultMockMetadataUpdater.updateWithCurrentMetadata(MockClient.java:631)
+	at org.apache.kafka.clients.MockClient.poll(MockClient.java:284)
+	at org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:325)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:240)
+	at java.lang.Thread.run(Thread.java:748)
+[2020-10-29 10:32:12,623] ERROR [Producer clientId=producer-9] Uncaught error in kafka producer I/O thread:  (org.apache.kafka.clients.producer.internals.Sender:242)
+java.lang.IllegalStateException: No previous metadata update to use
+	at org.apache.kafka.clients.MockClient$DefaultMockMetadataUpdater.updateWithCurrentMetadata(MockClient.java:631)
+	at org.apache.kafka.clients.MockClient.poll(MockClient.java:284)
+	at org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:325)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:240)
+	at java.lang.Thread.run(Thread.java:748)
+[2020-10-29 10:32:12,623] ERROR [Producer clientId=producer-9] Uncaught error in kafka producer I/O thread:  (org.apache.kafka.clients.producer.internals.Sender:242)
+java.lang.IllegalStateException: No previous metadata update to use
+	at org.apache.kafka.clients.MockClient$DefaultMockMetadataUpdater.updateWithCurrentMetadata(MockClient.java:631)
+	at org.apache.kafka.clients.MockClient.poll(MockClient.java:284)
+	at org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:325)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:240)
+	at java.lang.Thread.run(Thread.java:748)
+[2020-10-29 10:32:12,623] ERROR [Producer clientId=producer-9] Uncaught error in kafka producer I/O thread:  (org.apache.kafka.clients.producer.internals.Sender:242)
+java.lang.IllegalStateException: No previous metadata update to use
+	at org.apache.kafka.clients.MockClient$DefaultMockMetadataUpdater.updateWithCurrentMetadata(MockClient.java:631)
+	at org.apache.kafka.clients.MockClient.poll(MockClient.java:284)
+	at org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:325)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:240)
+	at java.lang.Thread.run(Thread.java:748)
+[2020-10-29 10:32:12,631] ERROR [Producer clientId=producer-9] Uncaught error in kafka producer I/O thread:  (org.apache.kafka.clients.producer.internals.Sender:242)
+java.lang.IllegalStateException: No previous metadata update to use
+	at org.apache.kafka.clients.MockClient$DefaultMockMetadataUpdater.updateWithCurrentMetadata(MockClient.java:631)
+	at org.apache.kafka.clients.MockClient.poll(MockClient.java:284)
+	at org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:325)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:240)
+	at java.lang.Thread.run(Thread.java:748)
+[2020-10-29 10:32:12,631] ERROR [Producer clientId=producer-9] Uncaught error in kafka producer I/O thread:  (org.apache.kafka.clients.producer.internals.Sender:242)
+java.lang.IllegalStateException: No previous metadata update to use
+	at org.apache.kafka.clients.MockClient$DefaultMockMetadataUpdater.updateWithCurrentMetadata(MockClient.java:631)
+	at org.apache.kafka.clients.MockClient.poll(MockClient.java:284)
+	at org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:325)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:240)
+	at java.lang.Thread.run(Thread.java:748)
+[2020-10-29 10:32:12,631] ERROR [Producer clientId=producer-9] Uncaught error in kafka producer I/O thread:  (org.apache.kafka.clients.producer.internals.Sender:242)
+java.lang.IllegalStateException: No previous metadata update to use
+	at org.apache.kafka.clients.MockClient$DefaultMockMetadataUpdater.updateWithCurrentMetadata(MockClient.java:631)
+	at org.apache.kafka.clients.MockClient.poll(MockClient.java:284)
+	at org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:325)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:240)
+	at java.lang.Thread.run(Thread.java:748)
+[2020-10-29 10:32:12,632] ERROR [Producer clientId=producer-9] Uncaught error in kafka producer I/O thread:  (org.apache.kafka.clients.producer.internals.Sender:242)
+java.lang.IllegalStateException: No previous metadata update to use
+	at org.apache.kafka.clients.MockClient$DefaultMockMetadataUpdater.updateWithCurrentMetadata(MockClient.java:631)
+	at org.apache.kafka.clients.MockClient.poll(MockClient.java:284)
+	at org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:325)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:240)
+	at java.lang.Thread.run(Thread.java:748)
+[2020-10-29 10:32:12,632] ERROR [Producer clientId=producer-9] Uncaught error in kafka producer I/O thread:  (org.apache.kafka.clients.producer.internals.Sender:242)
+java.lang.IllegalStateException: No previous metadata update to use
+	at org.apache.kafka.clients.MockClient$DefaultMockMetadataUpdater.updateWithCurrentMetadata(MockClient.java:631)
+	at org.apache.kafka.clients.MockClient.poll(MockClient.java:284)
+	at org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:325)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:240)
+	at java.lang.Thread.run(Thread.java:748)
+[2020-10-29 10:32:12,632] ERROR [Producer clientId=producer-9] Uncaught error in kafka producer I/O thread:  (org.apache.kafka.clients.producer.internals.Sender:242)
+java.lang.IllegalStateException: No previous metadata update to use
+	at org.apache.kafka.clients.MockClient$DefaultMockMetadataUpdater.updateWithCurrentMetadata(MockClient.java:631)
+	at org.apache.kafka.clients.MockClient.poll(MockClient.java:284)
+	at org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:325)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:240)
+	at java.lang.Thread.run(Thread.java:748)
+[2020-10-29 10:32:12,632] ERROR [Producer clientId=producer-9] Uncaught error in kafka producer I/O thread:  (org.apache.kafka.clients.producer.internals.Sender:242)
+java.lang.IllegalStateException: No previous metadata update to use
+	at org.apache.kafka.clients.MockClient$DefaultMockMetadataUpdater.updateWithCurrentMetadata(MockClient.java:631)
+	at org.apache.kafka.clients.MockClient.poll(MockClient.java:284)
+	at org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:325)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:240)
+	at java.lang.Thread.run(Thread.java:748)
+[2020-10-29 10:32:12,632] ERROR [Producer clientId=producer-9] Uncaught error in kafka producer I/O thread:  (org.apache.kafka.clients.producer.internals.Sender:242)
+java.lang.IllegalStateException: No previous metadata update to use
+	at org.apache.kafka.clients.MockClient$DefaultMockMetadataUpdater.updateWithCurrentMetadata(MockClient.java:631)
+	at org.apache.kafka.clients.MockClient.poll(MockClient.java:284)
+	at org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:325)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:240)
+	at java.lang.Thread.run(Thread.java:748)
+[2020-10-29 10:32:12,632] ERROR [Producer clientId=producer-9] Uncaught error in kafka producer I/O thread:  (org.apache.kafka.clients.producer.internals.Sender:242)
+java.lang.IllegalStateException: No previous metadata update to use
+	at org.apache.kafka.clients.MockClient$DefaultMockMetadataUpdater.updateWithCurrentMetadata(MockClient.java:631)
+	at org.apache.kafka.clients.MockClient.poll(MockClient.java:284)
+	at org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:325)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:240)
+	at java.lang.Thread.run(Thread.java:748)
+[2020-10-29 10:32:12,632] ERROR [Producer clientId=producer-9] Uncaught error in kafka producer I/O thread:  (org.apache.kafka.clients.producer.internals.Sender:242)
+java.lang.IllegalStateException: No previous metadata update to use
+	at org.apache.kafka.clients.MockClient$DefaultMockMetadataUpdater.updateWithCurrentMetadata(MockClient.java:631)
+	at org.apache.kafka.clients.MockClient.poll(MockClient.java:284)
+	at org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:325)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:240)
+	at java.lang.Thread.run(Thread.java:748)
+[2020-10-29 10:32:12,633] ERROR [Producer clientId=producer-9] Uncaught error in kafka producer I/O thread:  (org.apache.kafka.clients.producer.internals.Sender:242)
+java.lang.IllegalStateException: No previous metadata update to use
+	at org.apache.kafka.clients.MockClient$DefaultMockMetadataUpdater.updateWithCurrentMetadata(MockClient.java:631)
+	at org.apache.kafka.clients.MockClient.poll(MockClient.java:284)
+	at org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:325)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:240)
+	at java.lang.Thread.run(Thread.java:748)
+[2020-10-29 10:32:12,633] ERROR [Producer clientId=producer-9] Uncaught error in kafka producer I/O thread:  (org.apache.kafka.clients.producer.internals.Sender:242)
+java.lang.IllegalStateException: No previous metadata update to use
+	at org.apache.kafka.clients.MockClient$DefaultMockMetadataUpdater.updateWithCurrentMetadata(MockClient.java:631)
+	at org.apache.kafka.clients.MockClient.poll(MockClient.java:284)
+	at org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:325)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:240)
+	at java.lang.Thread.run(Thread.java:748)
+[2020-10-29 10:32:12,633] ERROR [Producer clientId=producer-9] Uncaught error in kafka producer I/O thread:  (org.apache.kafka.clients.producer.internals.Sender:242)
+java.lang.IllegalStateException: No previous metadata update to use
+	at org.apache.kafka.clients.MockClient$DefaultMockMetadataUpdater.updateWithCurrentMetadata(MockClient.java:631)
+	at org.apache.kafka.clients.MockClient.poll(MockClient.java:284)
+	at org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:325)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:240)
+	at java.lang.Thread.run(Thread.java:748)
+[2020-10-29 10:32:12,633] ERROR [Producer clientId=producer-9] Uncaught error in kafka producer I/O thread:  (org.apache.kafka.clients.producer.internals.Sender:242)
+java.lang.IllegalStateException: No previous metadata update to use
+	at org.apache.kafka.clients.MockClient$DefaultMockMetadataUpdater.updateWithCurrentMetadata(MockClient.java:631)
+	at org.apache.kafka.clients.MockClient.poll(MockClient.java:284)
+	at org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:325)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:240)
+	at java.lang.Thread.run(Thread.java:748)
+[2020-10-29 10:32:12,633] ERROR [Producer clientId=producer-9] Uncaught error in kafka producer I/O thread:  (org.apache.kafka.clients.producer.internals.Sender:242)
+java.lang.IllegalStateException: No previous metadata update to use
+	at org.apache.kafka.clients.MockClient$DefaultMockMetadataUpdater.updateWithCurrentMetadata(MockClient.java:631)
+	at org.apache.kafka.clients.MockClient.poll(MockClient.java:284)
+	at org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:325)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:240)
+	at java.lang.Thread.run(Thread.java:748)
+[2020-10-29 10:32:12,633] ERROR [Producer clientId=producer-9] Uncaught error in kafka producer I/O thread:  (org.apache.kafka.clients.producer.internals.Sender:242)
+java.lang.IllegalStateException: No previous metadata update to use
+	at org.apache.kafka.clients.MockClient$DefaultMockMetadataUpdater.updateWithCurrentMetadata(MockClient.java:631)
+	at org.apache.kafka.clients.MockClient.poll(MockClient.java:284)
+	at org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:325)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:240)
+	at java.lang.Thread.run(Thread.java:748)
+[2020-10-29 10:32:12,634] ERROR [Producer clientId=producer-9] Uncaught error in kafka producer I/O thread:  (org.apache.kafka.clients.producer.internals.Sender:242)
+java.lang.IllegalStateException: No previous metadata update to use
+	at org.apache.kafka.clients.MockClient$DefaultMockMetadataUpdater.updateWithCurrentMetadata(MockClient.java:631)
+	at org.apache.kafka.clients.MockClient.poll(MockClient.java:284)
+	at org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:325)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:240)
+	at java.lang.Thread.run(Thread.java:748)
+[2020-10-29 10:32:12,634] ERROR [Producer clientId=producer-9] Uncaught error in kafka producer I/O thread:  (org.apache.kafka.clients.producer.internals.Sender:242)
+java.lang.IllegalStateException: No previous metadata update to use
+	at org.apache.kafka.clients.MockClient$DefaultMockMetadataUpdater.updateWithCurrentMetadata(MockClient.java:631)
+	at org.apache.kafka.clients.MockClient.poll(MockClient.java:284)
+	at org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:325)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:240)
+	at java.lang.Thread.run(Thread.java:748)
+[2020-10-29 10:32:12,634] ERROR [Producer clientId=producer-9] Uncaught error in kafka producer I/O thread:  (org.apache.kafka.clients.producer.internals.Sender:242)
+java.lang.IllegalStateException: No previous metadata update to use
+	at org.apache.kafka.clients.MockClient$DefaultMockMetadataUpdater.updateWithCurrentMetadata(MockClient.java:631)
+	at org.apache.kafka.clients.MockClient.poll(MockClient.java:284)
+	at org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:325)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:240)
+	at java.lang.Thread.run(Thread.java:748)
+[2020-10-29 10:32:12,634] ERROR [Producer clientId=producer-9] Uncaught error in kafka producer I/O thread:  (org.apache.kafka.clients.producer.internals.Sender:242)
+java.lang.IllegalStateException: No previous metadata update to use
+	at org.apache.kafka.clients.MockClient$DefaultMockMetadataUpdater.updateWithCurrentMetadata(MockClient.java:631)
+	at org.apache.kafka.clients.MockClient.poll(MockClient.java:284)
+	at org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:325)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:240)
+	at java.lang.Thread.run(Thread.java:748)
+[2020-10-29 10:32:12,635] ERROR [Producer clientId=producer-9] Uncaught error in kafka producer I/O thread:  (org.apache.kafka.clients.producer.internals.Sender:242)
+java.lang.IllegalStateException: No previous metadata update to use
+	at org.apache.kafka.clients.MockClient$DefaultMockMetadataUpdater.updateWithCurrentMetadata(MockClient.java:631)
+	at org.apache.kafka.clients.MockClient.poll(MockClient.java:284)
+	at org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:325)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:240)
+	at java.lang.Thread.run(Thread.java:748)
+[2020-10-29 10:32:12,635] ERROR [Producer clientId=producer-9] Uncaught error in kafka producer I/O thread:  (org.apache.kafka.clients.producer.internals.Sender:242)
+java.lang.IllegalStateException: No previous metadata update to use
+	at org.apache.kafka.clients.MockClient$DefaultMockMetadataUpdater.updateWithCurrentMetadata(MockClient.java:631)
+	at org.apache.kafka.clients.MockClient.poll(MockClient.java:284)
+	at org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:325)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:240)
+	at java.lang.Thread.run(Thread.java:748)
+[2020-10-29 10:32:12,635] ERROR [Producer clientId=producer-9] Uncaught error in kafka producer I/O thread:  (org.apache.kafka.clients.producer.internals.Sender:242)
+java.lang.IllegalStateException: No previous metadata update to use
+	at org.apache.kafka.clients.MockClient$DefaultMockMetadataUpdater.updateWithCurrentMetadata(MockClient.java:631)
+	at org.apache.kafka.clients.MockClient.poll(MockClient.java:284)
+	at org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:325)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:240)
+	at java.lang.Thread.run(Thread.java:748)
+[2020-10-29 10:32:12,635] ERROR [Producer clientId=producer-9] Uncaught error in kafka producer I/O thread:  (org.apache.kafka.clients.producer.internals.Sender:242)
+java.lang.IllegalStateException: No previous metadata update to use
+	at org.apache.kafka.clients.MockClient$DefaultMockMetadataUpdater.updateWithCurrentMetadata(MockClient.java:631)
+	at org.apache.kafka.clients.MockClient.poll(MockClient.java:284)
+	at org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:325)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:240)
+	at java.lang.Thread.run(Thread.java:748)
+[2020-10-29 10:32:12,635] ERROR [Producer clientId=producer-9] Uncaught error in kafka producer I/O thread:  (org.apache.kafka.clients.producer.internals.Sender:242)
+java.lang.IllegalStateException: No previous metadata update to use
+	at org.apache.kafka.clients.MockClient$DefaultMockMetadataUpdater.updateWithCurrentMetadata(MockClient.java:631)
+	at org.apache.kafka.clients.MockClient.poll(MockClient.java:284)
+	at org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:325)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:240)
+	at java.lang.Thread.run(Thread.java:748)
+[2020-10-29 10:32:12,635] ERROR [Producer clientId=producer-9] Uncaught error in kafka producer I/O thread:  (org.apache.kafka.clients.producer.internals.Sender:242)
+java.lang.IllegalStateException: No previous metadata update to use
+	at org.apache.kafka.clients.MockClient$DefaultMockMetadataUpdater.updateWithCurrentMetadata(MockClient.java:631)
+	at org.apache.kafka.clients.MockClient.poll(MockClient.java:284)
+	at org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:325)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:240)
+	at java.lang.Thread.run(Thread.java:748)
+[2020-10-29 10:32:12,636] ERROR [Producer clientId=producer-9] Uncaught error in kafka producer I/O thread:  (org.apache.kafka.clients.producer.internals.Sender:242)
+java.lang.IllegalStateException: No previous metadata update to use
+	at org.apache.kafka.clients.MockClient$DefaultMockMetadataUpdater.updateWithCurrentMetadata(MockClient.java:631)
+	at org.apache.kafka.clients.MockClient.poll(MockClient.java:284)
+	at org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:325)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:240)
+	at java.lang.Thread.run(Thread.java:748)
+[2020-10-29 10:32:12,636] ERROR [Producer clientId=producer-9] Uncaught error in kafka producer I/O thread:  (org.apache.kafka.clients.producer.internals.Sender:242)
+java.lang.IllegalStateException: No previous metadata update to use
+	at org.apache.kafka.clients.MockClient$DefaultMockMetadataUpdater.updateWithCurrentMetadata(MockClient.java:631)
+	at org.apache.kafka.clients.MockClient.poll(MockClient.java:284)
+	at org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:325)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:240)
+	at java.lang.Thread.run(Thread.java:748)
+[2020-10-29 10:32:12,636] ERROR [Producer clientId=producer-9] Uncaught error in kafka producer I/O thread:  (org.apache.kafka.clients.producer.internals.Sender:242)
+java.lang.IllegalStateException: No previous metadata update to use
+	at org.apache.kafka.clients.MockClient$DefaultMockMetadataUpdater.updateWithCurrentMetadata(MockClient.java:631)
+	at org.apache.kafka.clients.MockClient.poll(MockClient.java:284)
+	at org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:325)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:240)
+	at java.lang.Thread.run(Thread.java:748)
+[2020-10-29 10:32:12,636] ERROR [Producer clientId=producer-9] Uncaught error in kafka producer I/O thread:  (org.apache.kafka.clients.producer.internals.Sender:242)
+java.lang.IllegalStateException: No previous metadata update to use
+	at org.apache.kafka.clients.MockClient$DefaultMockMetadataUpdater.updateWithCurrentMetadata(MockClient.java:631)
+	at org.apache.kafka.clients.MockClient.poll(MockClient.java:284)
+	at org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:325)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:240)
+	at java.lang.Thread.run(Thread.java:748)
+[2020-10-29 10:32:12,636] ERROR [Producer clientId=producer-9] Uncaught error in kafka producer I/O thread:  (org.apache.kafka.clients.producer.internals.Sender:242)
+java.lang.IllegalStateException: No previous metadata update to use
+	at org.apache.kafka.clients.MockClient$DefaultMockMetadataUpdater.updateWithCurrentMetadata(MockClient.java:631)
+	at org.apache.kafka.clients.MockClient.poll(MockClient.java:284)
+	at org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:325)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:240)
+	at java.lang.Thread.run(Thread.java:748)
+[2020-10-29 10:32:12,636] ERROR [Producer clientId=producer-9] Uncaught error in kafka producer I/O thread:  (org.apache.kafka.clients.producer.internals.Sender:242)
+java.lang.IllegalStateException: No previous metadata update to use
+	at org.apache.kafka.clients.MockClient$DefaultMockMetadataUpdater.updateWithCurrentMetadata(MockClient.java:631)
+	at org.apache.kafka.clients.MockClient.poll(MockClient.java:284)
+	at org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:325)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:240)
+	at java.lang.Thread.run(Thread.java:748)
+[2020-10-29 10:32:12,636] ERROR [Producer clientId=producer-9] Uncaught error in kafka producer I/O thread:  (org.apache.kafka.clients.producer.internals.Sender:242)
+java.lang.IllegalStateException: No previous metadata update to use
+	at org.apache.kafka.clients.MockClient$DefaultMockMetadataUpdater.updateWithCurrentMetadata(MockClient.java:631)
+	at org.apache.kafka.clients.MockClient.poll(MockClient.java:284)
+	at org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:325)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:240)
+	at java.lang.Thread.run(Thread.java:748)
+[2020-10-29 10:32:12,637] ERROR [Producer clientId=producer-9] Uncaught error in kafka producer I/O thread:  (org.apache.kafka.clients.producer.internals.Sender:242)
+java.lang.IllegalStateException: No previous metadata update to use
+	at org.apache.kafka.clients.MockClient$DefaultMockMetadataUpdater.updateWithCurrentMetadata(MockClient.java:631)
+	at org.apache.kafka.clients.MockClient.poll(MockClient.java:284)
+	at org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:325)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:240)
+	at java.lang.Thread.run(Thread.java:748)
+[2020-10-29 10:32:12,637] ERROR [Producer clientId=producer-9] Uncaught error in kafka producer I/O thread:  (org.apache.kafka.clients.producer.internals.Sender:242)
+java.lang.IllegalStateException: No previous metadata update to use
+	at org.apache.kafka.clients.MockClient$DefaultMockMetadataUpdater.updateWithCurrentMetadata(MockClient.java:631)
+	at org.apache.kafka.clients.MockClient.poll(MockClient.java:284)
+	at org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:325)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:240)
+	at java.lang.Thread.run(Thread.java:748)
+[2020-10-29 10:32:12,637] ERROR [Producer clientId=producer-9] Uncaught error in kafka producer I/O thread:  (org.apache.kafka.clients.producer.internals.Sender:242)
+java.lang.IllegalStateException: No previous metadata update to use
+	at org.apache.kafka.clients.MockClient$DefaultMockMetadataUpdater.updateWithCurrentMetadata(MockClient.java:631)
+	at org.apache.kafka.clients.MockClient.poll(MockClient.java:284)
+	at org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:325)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:240)
+	at java.lang.Thread.run(Thread.java:748)
+[2020-10-29 10:32:12,637] ERROR [Producer clientId=producer-9] Uncaught error in kafka producer I/O thread:  (org.apache.kafka.clients.producer.internals.Sender:242)
+java.lang.IllegalStateException: No previous metadata update to use
+	at org.apache.kafka.clients.MockClient$DefaultMockMetadataUpdater.updateWithCurrentMetadata(MockClient.java:631)
+	at org.apache.kafka.clients.MockClient.poll(MockClient.java:284)
+	at org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:325)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:240)
+	at java.lang.Thread.run(Thread.java:748)
+[2020-10-29 10:32:12,638] ERROR [Producer clientId=producer-9] Uncaught error in kafka producer I/O thread:  (org.apache.kafka.clients.producer.internals.Sender:242)
+java.lang.IllegalStateException: No previous metadata update to use
+	at org.apache.kafka.clients.MockClient$DefaultMockMetadataUpdater.updateWithCurrentMetadata(MockClient.java:631)
+	at org.apache.kafka.clients.MockClient.poll(MockClient.java:284)
+	at org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:325)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:240)
+	at java.lang.Thread.run(Thread.java:748)
+[2020-10-29 10:32:12,638] ERROR [Producer clientId=producer-9] Uncaught error in kafka producer I/O thread:  (org.apache.kafka.clients.producer.internals.Sender:242)
+java.lang.IllegalStateException: No previous metadata update to use
+	at org.apache.kafka.clients.MockClient$DefaultMockMetadataUpdater.updateWithCurrentMetadata(MockClient.java:631)
+	at org.apache.kafka.clients.MockClient.poll(MockClient.java:284)
+	at org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:325)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:240)
+	at java.lang.Thread.run(Thread.java:748)
+[2020-10-29 10:32:12,639] ERROR [Producer clientId=producer-9] Uncaught error in kafka producer I/O thread:  (org.apache.kafka.clients.producer.internals.Sender:242)
+java.lang.IllegalStateException: No previous metadata update to use
+	at org.apache.kafka.clients.MockClient$DefaultMockMetadataUpdater.updateWithCurrentMetadata(MockClient.java:631)
+	at org.apache.kafka.clients.MockClient.poll(MockClient.java:284)
+	at org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:325)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:240)
+	at java.lang.Thread.run(Thread.java:748)
+[2020-10-29 10:32:12,639] ERROR [Producer clientId=producer-9] Uncaught error in kafka producer I/O thread:  (org.apache.kafka.clients.producer.internals.Sender:242)
+java.lang.IllegalStateException: No previous metadata update to use
+	at org.apache.kafka.clients.MockClient$DefaultMockMetadataUpdater.updateWithCurrentMetadata(MockClient.java:631)
+	at org.apache.kafka.clients.MockClient.poll(MockClient.java:284)
+	at org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:325)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:240)
+	at java.lang.Thread.run(Thread.java:748)
+[2020-10-29 10:32:12,639] ERROR [Producer clientId=producer-9] Uncaught error in kafka producer I/O thread:  (org.apache.kafka.clients.producer.internals.Sender:242)
+java.lang.IllegalStateException: No previous metadata update to use
+	at org.apache.kafka.clients.MockClient$DefaultMockMetadataUpdater.updateWithCurrentMetadata(MockClient.java:631)
+	at org.apache.kafka.clients.MockClient.poll(MockClient.java:284)
+	at org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:325)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:240)
+	at java.lang.Thread.run(Thread.java:748)
+[2020-10-29 10:32:12,639] ERROR [Producer clientId=producer-9] Uncaught error in kafka producer I/O thread:  (org.apache.kafka.clients.producer.internals.Sender:242)
+java.lang.IllegalStateException: No previous metadata update to use
+	at org.apache.kafka.clients.MockClient$DefaultMockMetadataUpdater.updateWithCurrentMetadata(MockClient.java:631)
+	at org.apache.kafka.clients.MockClient.poll(MockClient.java:284)
+	at org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:325)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:240)
+	at java.lang.Thread.run(Thread.java:748)
+[2020-10-29 10:32:12,639] ERROR [Producer clientId=producer-9] Uncaught error in kafka producer I/O thread:  (org.apache.kafka.clients.producer.internals.Sender:242)
+java.lang.IllegalStateException: No previous metadata update to use
+	at org.apache.kafka.clients.MockClient$DefaultMockMetadataUpdater.updateWithCurrentMetadata(MockClient.java:631)
+	at org.apache.kafka.clients.MockClient.poll(MockClient.java:284)
+	at org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:325)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:240)
+	at java.lang.Thread.run(Thread.java:748)
+[2020-10-29 10:32:12,639] ERROR [Producer clientId=producer-9] Uncaught error in kafka producer I/O thread:  (org.apache.kafka.clients.producer.internals.Sender:242)
+java.lang.IllegalStateException: No previous metadata update to use
+	at org.apache.kafka.clients.MockClient$DefaultMockMetadataUpdater.updateWithCurrentMetadata(MockClient.java:631)
+	at org.apache.kafka.clients.MockClient.poll(MockClient.java:284)
+	at org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:325)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:240)
+	at java.lang.Thread.run(Thread.java:748)
+[2020-10-29 10:32:12,640] ERROR [Producer clientId=producer-9] Uncaught error in kafka producer I/O thread:  (org.apache.kafka.clients.producer.internals.Sender:242)
+java.lang.IllegalStateException: No previous metadata update to use
+	at org.apache.kafka.clients.MockClient$DefaultMockMetadataUpdater.updateWithCurrentMetadata(MockClient.java:631)
+	at org.apache.kafka.clients.MockClient.poll(MockClient.java:284)
+	at org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:325)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:240)
+	at java.lang.Thread.run(Thread.java:748)
+[2020-10-29 10:32:12,640] ERROR [Producer clientId=producer-9] Uncaught error in kafka producer I/O thread:  (org.apache.kafka.clients.producer.internals.Sender:242)
+java.lang.IllegalStateException: No previous metadata update to use
+	at org.apache.kafka.clients.MockClient$DefaultMockMetadataUpdater.updateWithCurrentMetadata(MockClient.java:631)
+	at org.apache.kafka.clients.MockClient.poll(MockClient.java:284)
+	at org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:325)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:240)
+	at java.lang.Thread.run(Thread.java:748)
+[2020-10-29 10:32:12,640] ERROR [Producer clientId=producer-9] Uncaught error in kafka producer I/O thread:  (org.apache.kafka.clients.producer.internals.Sender:242)
+java.lang.IllegalStateException: No previous metadata update to use
+	at org.apache.kafka.clients.MockClient$DefaultMockMetadataUpdater.updateWithCurrentMetadata(MockClient.java:631)
+	at org.apache.kafka.clients.MockClient.poll(MockClient.java:284)
+	at org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:325)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:240)
+	at java.lang.Thread.run(Thread.java:748)
+[2020-10-29 10:32:12,640] ERROR [Producer clientId=producer-9] Uncaught error in kafka producer I/O thread:  (org.apache.kafka.clients.producer.internals.Sender:242)
+java.lang.IllegalStateException: No previous metadata update to use
+	at org.apache.kafka.clients.MockClient$DefaultMockMetadataUpdater.updateWithCurrentMetadata(MockClient.java:631)
+	at org.apache.kafka.clients.MockClient.poll(MockClient.java:284)
+	at org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:325)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:240)
+	at java.lang.Thread.run(Thread.java:748)
+[2020-10-29 10:32:12,640] ERROR [Producer clientId=producer-9] Uncaught error in kafka producer I/O thread:  (org.apache.kafka.clients.producer.internals.Sender:242)
+java.lang.IllegalStateException: No previous metadata update to use
+	at org.apache.kafka.clients.MockClient$DefaultMockMetadataUpdater.updateWithCurrentMetadata(MockClient.java:631)
+	at org.apache.kafka.clients.MockClient.poll(MockClient.java:284)
+	at org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:325)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:240)
+	at java.lang.Thread.run(Thread.java:748)
+[2020-10-29 10:32:12,641] ERROR [Producer clientId=producer-9] Uncaught error in kafka producer I/O thread:  (org.apache.kafka.clients.producer.internals.Sender:242)
+java.lang.IllegalStateException: No previous metadata update to use
+	at org.apache.kafka.clients.MockClient$DefaultMockMetadataUpdater.updateWithCurrentMetadata(MockClient.java:631)
+	at org.apache.kafka.clients.MockClient.poll(MockClient.java:284)
+	at org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:325)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:240)
+	at java.lang.Thread.run(Thread.java:748)
+[2020-10-29 10:32:12,641] ERROR [Producer clientId=producer-9] Uncaught error in kafka producer I/O thread:  (org.apache.kafka.clients.producer.internals.Sender:242)
+java.lang.IllegalStateException: No previous metadata update to use
+	at org.apache.kafka.clients.MockClient$DefaultMockMetadataUpdater.updateWithCurrentMetadata(MockClient.java:631)
+	at org.apache.kafka.clients.MockClient.poll(MockClient.java:284)
+	at org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:325)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:240)
+	at java.lang.Thread.run(Thread.java:748)
+[2020-10-29 10:32:12,641] ERROR [Producer clientId=producer-9] Uncaught error in kafka producer I/O thread:  (org.apache.kafka.clients.producer.internals.Sender:242)
+java.lang.IllegalStateException: No previous metadata update to use
+	at org.apache.kafka.clients.MockClient$DefaultMockMetadataUpdater.updateWithCurrentMetadata(MockClient.java:631)
+	at org.apache.kafka.clients.MockClient.poll(MockClient.java:284)
+	at org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:325)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:240)
+	at java.lang.Thread.run(Thread.java:748)
+[2020-10-29 10:32:12,643] ERROR [Producer clientId=producer-9] Uncaught error in kafka producer I/O thread:  (org.apache.kafka.clients.producer.internals.Sender:242)
+java.lang.IllegalStateException: No previous metadata update to use
+	at org.apache.kafka.clients.MockClient$DefaultMockMetadataUpdater.updateWithCurrentMetadata(MockClient.java:631)
+	at org.apache.kafka.clients.MockClient.poll(MockClient.java:284)
+	at org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:325)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:240)
+	at java.lang.Thread.run(Thread.java:748)
+[2020-10-29 10:32:12,643] ERROR [Producer clientId=producer-9] Uncaught error in kafka producer I/O thread:  (org.apache.kafka.clients.producer.internals.Sender:242)
+java.lang.IllegalStateException: No previous metadata update to use
+	at org.apache.kafka.clients.MockClient$DefaultMockMetadataUpdater.updateWithCurrentMetadata(MockClient.java:631)
+	at org.apache.kafka.clients.MockClient.poll(MockClient.java:284)
+	at org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:325)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:240)
+	at java.lang.Thread.run(Thread.java:748)
+[2020-10-29 10:32:12,644] ERROR [Producer clientId=producer-9] Uncaught error in kafka producer I/O thread:  (org.apache.kafka.clients.producer.internals.Sender:242)
+java.lang.IllegalStateException: No previous metadata update to use
+	at org.apache.kafka.clients.MockClient$DefaultMockMetadataUpdater.updateWithCurrentMetadata(MockClient.java:631)
+	at org.apache.kafka.clients.MockClient.poll(MockClient.java:284)
+	at org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:325)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:240)
+	at java.lang.Thread.run(Thread.java:748)
+[2020-10-29 10:32:13,647] ERROR [Producer clientId=producer-11] Interrupted while joining ioThread (org.apache.kafka.clients.producer.KafkaProducer:1214)
+java.lang.InterruptedException
+	at java.lang.Object.wait(Native Method)
+	at java.lang.Thread.join(Thread.java:1260)
+	at org.apache.kafka.clients.producer.KafkaProducer.close(KafkaProducer.java:1211)
+	at org.apache.kafka.clients.producer.KafkaProducer.close(KafkaProducer.java:1188)
+	at org.apache.kafka.clients.producer.KafkaProducer.close(KafkaProducer.java:1164)
+	at org.apache.kafka.clients.producer.KafkaProducerTest.lambda$shouldCloseProperlyAndThrowIfInterrupted$1(KafkaProducerTest.java:306)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[2020-10-29 10:32:19,311] ERROR Metadata response reported invalid topics [topic abc] (org.apache.kafka.clients.Metadata:294)
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 6.7</a> at 2020-10-29 10:36:13</p>
+</div>
+</div>
+</body>
+</html>

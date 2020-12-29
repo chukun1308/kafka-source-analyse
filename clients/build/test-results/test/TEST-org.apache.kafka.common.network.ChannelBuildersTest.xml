@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.apache.kafka.common.network.ChannelBuildersTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-10-29T02:36:11" hostname="chukun-mac" time="0.114">
+  <properties/>
+  <testcase name="testChannelBuilderConfigs" classname="org.apache.kafka.common.network.ChannelBuildersTest" time="0.001"/>
+  <testcase name="testCreateConfigurableKafkaPrincipalBuilder" classname="org.apache.kafka.common.network.ChannelBuildersTest" time="0.001"/>
+  <testcase name="testCreateOldPrincipalBuilder" classname="org.apache.kafka.common.network.ChannelBuildersTest" time="0.112"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

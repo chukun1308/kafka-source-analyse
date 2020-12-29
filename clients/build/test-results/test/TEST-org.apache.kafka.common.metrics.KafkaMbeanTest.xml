@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.apache.kafka.common.metrics.KafkaMbeanTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2020-10-29T02:32:11" hostname="chukun-mac" time="0.016">
+  <properties/>
+  <testcase name="testSetAttribute" classname="org.apache.kafka.common.metrics.KafkaMbeanTest" time="0.002"/>
+  <testcase name="testSetAttributes" classname="org.apache.kafka.common.metrics.KafkaMbeanTest" time="0.002"/>
+  <testcase name="testGetAttribute" classname="org.apache.kafka.common.metrics.KafkaMbeanTest" time="0.002"/>
+  <testcase name="testGetAttributeUnknown" classname="org.apache.kafka.common.metrics.KafkaMbeanTest" time="0.001"/>
+  <testcase name="testInvoke" classname="org.apache.kafka.common.metrics.KafkaMbeanTest" time="0.001"/>
+  <testcase name="testGetAttributesWithUnknown" classname="org.apache.kafka.common.metrics.KafkaMbeanTest" time="0.002"/>
+  <testcase name="testGetAttributes" classname="org.apache.kafka.common.metrics.KafkaMbeanTest" time="0.003"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

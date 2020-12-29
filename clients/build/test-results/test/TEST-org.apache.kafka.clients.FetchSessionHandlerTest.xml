@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.apache.kafka.clients.FetchSessionHandlerTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2020-10-29T02:31:29" hostname="chukun-mac" time="0.056">
+  <properties/>
+  <testcase name="testSessionless" classname="org.apache.kafka.clients.FetchSessionHandlerTest" time="0.024"/>
+  <testcase name="testVerifyFullFetchResponsePartitions" classname="org.apache.kafka.clients.FetchSessionHandlerTest" time="0.008"/>
+  <testcase name="testIncrementals" classname="org.apache.kafka.clients.FetchSessionHandlerTest" time="0.002"/>
+  <testcase name="testIncrementalPartitionRemoval" classname="org.apache.kafka.clients.FetchSessionHandlerTest" time="0.003"/>
+  <testcase name="testFindMissing" classname="org.apache.kafka.clients.FetchSessionHandlerTest" time="0.011"/>
+  <testcase name="testDoubleBuild" classname="org.apache.kafka.clients.FetchSessionHandlerTest" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

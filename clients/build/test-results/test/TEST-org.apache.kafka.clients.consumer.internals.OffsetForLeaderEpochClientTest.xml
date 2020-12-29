@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.apache.kafka.clients.consumer.internals.OffsetForLeaderEpochClientTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2020-10-29T02:32:11" hostname="chukun-mac" time="0.001">
+  <properties/>
+  <testcase name="testOkResponse" classname="org.apache.kafka.clients.consumer.internals.OffsetForLeaderEpochClientTest" time="0.0"/>
+  <testcase name="testEmptyResponse" classname="org.apache.kafka.clients.consumer.internals.OffsetForLeaderEpochClientTest" time="0.0"/>
+  <testcase name="testUnauthorizedTopic" classname="org.apache.kafka.clients.consumer.internals.OffsetForLeaderEpochClientTest" time="0.001"/>
+  <testcase name="testUnexpectedEmptyResponse" classname="org.apache.kafka.clients.consumer.internals.OffsetForLeaderEpochClientTest" time="0.0"/>
+  <testcase name="testRetriableError" classname="org.apache.kafka.clients.consumer.internals.OffsetForLeaderEpochClientTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,2 @@
+org/apache/kafka/connect/rest/basic/auth/extension/JaasBasicAuthFilterTest.java
+ org.apache.kafka.connect.rest.basic.auth.extension.JaasBasicAuthFilterTest

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.apache.kafka.clients.consumer.internals.SubscriptionStateTest" tests="36" skipped="0" failures="0" errors="0" timestamp="2020-10-29T02:31:52" hostname="chukun-mac" time="0.025">
+  <properties/>
+  <testcase name="testMaybeCompleteValidationAfterPositionChange" classname="org.apache.kafka.clients.consumer.internals.SubscriptionStateTest" time="0.001"/>
+  <testcase name="unsubscribeUserAssignment" classname="org.apache.kafka.clients.consumer.internals.SubscriptionStateTest" time="0.001"/>
+  <testcase name="testSeekUnvalidatedWithOffsetEpoch" classname="org.apache.kafka.clients.consumer.internals.SubscriptionStateTest" time="0.008"/>
+  <testcase name="cantSubscribePartitionAndPattern" classname="org.apache.kafka.clients.consumer.internals.SubscriptionStateTest" time="0.0"/>
+  <testcase name="partitionAssignment" classname="org.apache.kafka.clients.consumer.internals.SubscriptionStateTest" time="0.001"/>
+  <testcase name="testGroupSubscribe" classname="org.apache.kafka.clients.consumer.internals.SubscriptionStateTest" time="0.0"/>
+  <testcase name="topicSubscription" classname="org.apache.kafka.clients.consumer.internals.SubscriptionStateTest" time="0.0"/>
+  <testcase name="testOffsetResetWhileAwaitingValidation" classname="org.apache.kafka.clients.consumer.internals.SubscriptionStateTest" time="0.0"/>
+  <testcase name="partitionPause" classname="org.apache.kafka.clients.consumer.internals.SubscriptionStateTest" time="0.0"/>
+  <testcase name="partitionReset" classname="org.apache.kafka.clients.consumer.internals.SubscriptionStateTest" time="0.001"/>
+  <testcase name="testMaybeCompleteValidationAfterOffsetReset" classname="org.apache.kafka.clients.consumer.internals.SubscriptionStateTest" time="0.0"/>
+  <testcase name="unsubscription" classname="org.apache.kafka.clients.consumer.internals.SubscriptionStateTest" time="0.0"/>
+  <testcase name="testSeekUnvalidatedWithNoEpochClearsAwaitingValidation" classname="org.apache.kafka.clients.consumer.internals.SubscriptionStateTest" time="0.0"/>
+  <testcase name="patternSubscription" classname="org.apache.kafka.clients.consumer.internals.SubscriptionStateTest" time="0.001"/>
+  <testcase name="resetOffsetNoValidation" classname="org.apache.kafka.clients.consumer.internals.SubscriptionStateTest" time="0.0"/>
+  <testcase name="partitionAssignmentChangeOnTopicSubscription" classname="org.apache.kafka.clients.consumer.internals.SubscriptionStateTest" time="0.001"/>
+  <testcase name="cantSubscribeTopicAndPattern" classname="org.apache.kafka.clients.consumer.internals.SubscriptionStateTest" time="0.0"/>
+  <testcase name="testTruncationDetectionUnknownDivergentOffsetWithoutResetPolicy" classname="org.apache.kafka.clients.consumer.internals.SubscriptionStateTest" time="0.002"/>
+  <testcase name="invalidPositionUpdate" classname="org.apache.kafka.clients.consumer.internals.SubscriptionStateTest" time="0.0"/>
+  <testcase name="unsubscribeUserSubscribe" classname="org.apache.kafka.clients.consumer.internals.SubscriptionStateTest" time="0.001"/>
+  <testcase name="cantChangePositionForNonAssignedPartition" classname="org.apache.kafka.clients.consumer.internals.SubscriptionStateTest" time="0.0"/>
+  <testcase name="testCompleteValidationShouldClearAwaitingValidation" classname="org.apache.kafka.clients.consumer.internals.SubscriptionStateTest" time="0.001"/>
+  <testcase name="cantAssignPartitionForUnsubscribedTopics" classname="org.apache.kafka.clients.consumer.internals.SubscriptionStateTest" time="0.0"/>
+  <testcase name="testSeekValidatedShouldClearAwaitingValidation" classname="org.apache.kafka.clients.consumer.internals.SubscriptionStateTest" time="0.0"/>
+  <testcase name="verifyAssignmentId" classname="org.apache.kafka.clients.consumer.internals.SubscriptionStateTest" time="0.0"/>
+  <testcase name="testTruncationDetectionWithResetPolicy" classname="org.apache.kafka.clients.consumer.internals.SubscriptionStateTest" time="0.001"/>
+  <testcase name="partitionAssignmentChangeOnPatternSubscription" classname="org.apache.kafka.clients.consumer.internals.SubscriptionStateTest" time="0.0"/>
+  <testcase name="testMaybeCompleteValidation" classname="org.apache.kafka.clients.consumer.internals.SubscriptionStateTest" time="0.001"/>
+  <testcase name="testTruncationDetectionUnknownDivergentOffsetWithResetPolicy" classname="org.apache.kafka.clients.consumer.internals.SubscriptionStateTest" time="0.0"/>
+  <testcase name="cantSubscribePatternAndTopic" classname="org.apache.kafka.clients.consumer.internals.SubscriptionStateTest" time="0.0"/>
+  <testcase name="testSeekUnvalidatedWithNoOffsetEpoch" classname="org.apache.kafka.clients.consumer.internals.SubscriptionStateTest" time="0.0"/>
+  <testcase name="cantSubscribePatternAndPartition" classname="org.apache.kafka.clients.consumer.internals.SubscriptionStateTest" time="0.0"/>
+  <testcase name="testPreferredReadReplicaLease" classname="org.apache.kafka.clients.consumer.internals.SubscriptionStateTest" time="0.002"/>
+  <testcase name="cantAssignPartitionForUnmatchedPattern" classname="org.apache.kafka.clients.consumer.internals.SubscriptionStateTest" time="0.0"/>
+  <testcase name="testMaybeValidatePositionForCurrentLeader" classname="org.apache.kafka.clients.consumer.internals.SubscriptionStateTest" time="0.0"/>
+  <testcase name="testTruncationDetectionWithoutResetPolicy" classname="org.apache.kafka.clients.consumer.internals.SubscriptionStateTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

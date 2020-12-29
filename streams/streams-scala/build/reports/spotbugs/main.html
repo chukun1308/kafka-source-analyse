@@ -1,0 +1,261 @@
+
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+   <head>
+      <title>SpotBugs Report</title>
+      <style type="text/css">
+		.tablerow0 {
+			background: #EEEEEE;
+		}
+
+		.tablerow1 {
+			background: white;
+		}
+
+		.detailrow0 {
+			background: #EEEEEE;
+		}
+
+		.detailrow1 {
+			background: white;
+		}
+
+		.tableheader {
+			background: #b9b9fe;
+			font-size: larger;
+		}
+
+		.tablerow0:hover, .tablerow1:hover {
+			background: #aaffaa;
+		}
+
+		.priority-1 {
+				color: red;
+				font-weight: bold;
+		}
+		.priority-2 {
+				color: orange;
+				font-weight: bold;
+		}
+		.priority-3 {
+				color: green;
+				font-weight: bold;
+		}
+		.priority-4 {
+				color: blue;
+				font-weight: bold;
+		}
+		</style>
+      <script type="text/javascript">
+			function toggleRow(elid) {
+				if (document.getElementById) {
+					element = document.getElementById(elid);
+					if (element) {
+						if (element.style.display == 'none') {
+							element.style.display = 'block';
+							//window.status = 'Toggle on!';
+						} else {
+							element.style.display = 'none';
+							//window.status = 'Toggle off!';
+						}
+					}
+				}
+			}
+		</script>
+   </head>
+   <body>
+      <h1>
+         <a href="https://spotbugs.github.io/">SpotBugs</a> Report</h1>
+      <h2>Project Information</h2>
+      <p>Project: 
+		kafka (spotbugsMain)</p>
+      <p>SpotBugs version: 4.0.6</p>
+      <p>Code analyzed:</p>
+      <ul>
+         <li>/Users/chukun/work/sourcecode/kafka/streams/streams-scala/build/classes/scala/main/org/apache/kafka/streams/scala/FunctionConversions$AggregatorFromFunction.class</li>
+         <li>/Users/chukun/work/sourcecode/kafka/streams/streams-scala/build/classes/scala/main/org/apache/kafka/streams/scala/Serdes$$anon$2.class</li>
+         <li>/Users/chukun/work/sourcecode/kafka/streams/streams-scala/build/classes/scala/main/org/apache/kafka/streams/scala/FunctionsCompatConversions$TransformerSupplierFromFunction.class</li>
+         <li>/Users/chukun/work/sourcecode/kafka/streams/streams-scala/build/classes/scala/main/org/apache/kafka/streams/scala/FunctionConversions$ForeachActionFromFunction.class</li>
+         <li>/Users/chukun/work/sourcecode/kafka/streams/streams-scala/build/classes/scala/main/org/apache/kafka/streams/scala/FunctionsCompatConversions$ValueTransformerSupplierWithKeyAsJava$$anon$3.class</li>
+         <li>/Users/chukun/work/sourcecode/kafka/streams/streams-scala/build/classes/scala/main/org/apache/kafka/streams/scala/FunctionsCompatConversions$ValueTransformerSupplierAsJava.class</li>
+         <li>/Users/chukun/work/sourcecode/kafka/streams/streams-scala/build/classes/scala/main/org/apache/kafka/streams/scala/FunctionsCompatConversions$PredicateFromFunction.class</li>
+         <li>/Users/chukun/work/sourcecode/kafka/streams/streams-scala/build/classes/scala/main/org/apache/kafka/streams/scala/FunctionsCompatConversions$MergerFromFunction$.class</li>
+         <li>/Users/chukun/work/sourcecode/kafka/streams/streams-scala/build/classes/scala/main/org/apache/kafka/streams/scala/FunctionsCompatConversions$ValueTransformerSupplierAsJava$.class</li>
+         <li>/Users/chukun/work/sourcecode/kafka/streams/streams-scala/build/classes/scala/main/org/apache/kafka/streams/scala/FunctionsCompatConversions$FlatValueMapperFromFunction.class</li>
+         <li>/Users/chukun/work/sourcecode/kafka/streams/streams-scala/build/classes/scala/main/org/apache/kafka/streams/scala/FunctionConversions$ReducerFromFunction$.class</li>
+         <li>/Users/chukun/work/sourcecode/kafka/streams/streams-scala/build/classes/scala/main/org/apache/kafka/streams/scala/Serdes$$anon$4.class</li>
+         <li>/Users/chukun/work/sourcecode/kafka/streams/streams-scala/build/classes/scala/main/org/apache/kafka/streams/scala/FunctionsCompatConversions$ValueMapperWithKeyFromFunction$.class</li>
+         <li>/Users/chukun/work/sourcecode/kafka/streams/streams-scala/build/classes/scala/main/org/apache/kafka/streams/scala/FunctionsCompatConversions$TransformerSupplierFromFunction$.class</li>
+         <li>/Users/chukun/work/sourcecode/kafka/streams/streams-scala/build/classes/scala/main/org/apache/kafka/streams/scala/FunctionsCompatConversions$ReducerFromFunction$.class</li>
+         <li>/Users/chukun/work/sourcecode/kafka/streams/streams-scala/build/classes/scala/main/org/apache/kafka/streams/scala/kstream/Materialized.class</li>
+         <li>/Users/chukun/work/sourcecode/kafka/streams/streams-scala/build/classes/scala/main/org/apache/kafka/streams/scala/kstream/CogroupedKStream.class</li>
+         <li>/Users/chukun/work/sourcecode/kafka/streams/streams-scala/build/classes/scala/main/org/apache/kafka/streams/scala/kstream/KStream.class</li>
+         <li>/Users/chukun/work/sourcecode/kafka/streams/streams-scala/build/classes/scala/main/org/apache/kafka/streams/scala/kstream/SessionWindowedKStream.class</li>
+         <li>/Users/chukun/work/sourcecode/kafka/streams/streams-scala/build/classes/scala/main/org/apache/kafka/streams/scala/kstream/Repartitioned.class</li>
+         <li>/Users/chukun/work/sourcecode/kafka/streams/streams-scala/build/classes/scala/main/org/apache/kafka/streams/scala/kstream/SessionWindowedCogroupedKStream.class</li>
+         <li>/Users/chukun/work/sourcecode/kafka/streams/streams-scala/build/classes/scala/main/org/apache/kafka/streams/scala/kstream/Produced$.class</li>
+         <li>/Users/chukun/work/sourcecode/kafka/streams/streams-scala/build/classes/scala/main/org/apache/kafka/streams/scala/kstream/Suppressed.class</li>
+         <li>/Users/chukun/work/sourcecode/kafka/streams/streams-scala/build/classes/scala/main/org/apache/kafka/streams/scala/kstream/package$.class</li>
+         <li>/Users/chukun/work/sourcecode/kafka/streams/streams-scala/build/classes/scala/main/org/apache/kafka/streams/scala/kstream/KGroupedTable.class</li>
+         <li>/Users/chukun/work/sourcecode/kafka/streams/streams-scala/build/classes/scala/main/org/apache/kafka/streams/scala/kstream/KTable.class</li>
+         <li>/Users/chukun/work/sourcecode/kafka/streams/streams-scala/build/classes/scala/main/org/apache/kafka/streams/scala/kstream/Grouped$.class</li>
+         <li>/Users/chukun/work/sourcecode/kafka/streams/streams-scala/build/classes/scala/main/org/apache/kafka/streams/scala/kstream/StreamJoined.class</li>
+         <li>/Users/chukun/work/sourcecode/kafka/streams/streams-scala/build/classes/scala/main/org/apache/kafka/streams/scala/kstream/Materialized$.class</li>
+         <li>/Users/chukun/work/sourcecode/kafka/streams/streams-scala/build/classes/scala/main/org/apache/kafka/streams/scala/kstream/StreamJoined$.class</li>
+         <li>/Users/chukun/work/sourcecode/kafka/streams/streams-scala/build/classes/scala/main/org/apache/kafka/streams/scala/kstream/Produced.class</li>
+         <li>/Users/chukun/work/sourcecode/kafka/streams/streams-scala/build/classes/scala/main/org/apache/kafka/streams/scala/kstream/package.class</li>
+         <li>/Users/chukun/work/sourcecode/kafka/streams/streams-scala/build/classes/scala/main/org/apache/kafka/streams/scala/kstream/Consumed.class</li>
+         <li>/Users/chukun/work/sourcecode/kafka/streams/streams-scala/build/classes/scala/main/org/apache/kafka/streams/scala/kstream/TimeWindowedKStream.class</li>
+         <li>/Users/chukun/work/sourcecode/kafka/streams/streams-scala/build/classes/scala/main/org/apache/kafka/streams/scala/kstream/Joined$.class</li>
+         <li>/Users/chukun/work/sourcecode/kafka/streams/streams-scala/build/classes/scala/main/org/apache/kafka/streams/scala/kstream/Suppressed$.class</li>
+         <li>/Users/chukun/work/sourcecode/kafka/streams/streams-scala/build/classes/scala/main/org/apache/kafka/streams/scala/kstream/KGroupedStream.class</li>
+         <li>/Users/chukun/work/sourcecode/kafka/streams/streams-scala/build/classes/scala/main/org/apache/kafka/streams/scala/kstream/TimeWindowedCogroupedKStream.class</li>
+         <li>/Users/chukun/work/sourcecode/kafka/streams/streams-scala/build/classes/scala/main/org/apache/kafka/streams/scala/kstream/Grouped.class</li>
+         <li>/Users/chukun/work/sourcecode/kafka/streams/streams-scala/build/classes/scala/main/org/apache/kafka/streams/scala/kstream/Repartitioned$.class</li>
+         <li>/Users/chukun/work/sourcecode/kafka/streams/streams-scala/build/classes/scala/main/org/apache/kafka/streams/scala/kstream/Consumed$.class</li>
+         <li>/Users/chukun/work/sourcecode/kafka/streams/streams-scala/build/classes/scala/main/org/apache/kafka/streams/scala/kstream/Suppressed$BufferConfig$.class</li>
+         <li>/Users/chukun/work/sourcecode/kafka/streams/streams-scala/build/classes/scala/main/org/apache/kafka/streams/scala/kstream/Joined.class</li>
+         <li>/Users/chukun/work/sourcecode/kafka/streams/streams-scala/build/classes/scala/main/org/apache/kafka/streams/scala/FunctionsCompatConversions$AggregatorFromFunction.class</li>
+         <li>/Users/chukun/work/sourcecode/kafka/streams/streams-scala/build/classes/scala/main/org/apache/kafka/streams/scala/FunctionsCompatConversions$InitializerFromFunction.class</li>
+         <li>/Users/chukun/work/sourcecode/kafka/streams/streams-scala/build/classes/scala/main/org/apache/kafka/streams/scala/FunctionConversions$.class</li>
+         <li>/Users/chukun/work/sourcecode/kafka/streams/streams-scala/build/classes/scala/main/org/apache/kafka/streams/scala/FunctionConversions$ForeachActionFromFunction$.class</li>
+         <li>/Users/chukun/work/sourcecode/kafka/streams/streams-scala/build/classes/scala/main/org/apache/kafka/streams/scala/FunctionsCompatConversions$ForeachActionFromFunction$.class</li>
+         <li>/Users/chukun/work/sourcecode/kafka/streams/streams-scala/build/classes/scala/main/org/apache/kafka/streams/scala/FunctionsCompatConversions$ValueTransformerSupplierWithKeyAsJava.class</li>
+         <li>/Users/chukun/work/sourcecode/kafka/streams/streams-scala/build/classes/scala/main/org/apache/kafka/streams/scala/package$.class</li>
+         <li>/Users/chukun/work/sourcecode/kafka/streams/streams-scala/build/classes/scala/main/org/apache/kafka/streams/scala/Serdes$$anon$1.class</li>
+         <li>/Users/chukun/work/sourcecode/kafka/streams/streams-scala/build/classes/scala/main/org/apache/kafka/streams/scala/serialization/Serdes$$anon$2.class</li>
+         <li>/Users/chukun/work/sourcecode/kafka/streams/streams-scala/build/classes/scala/main/org/apache/kafka/streams/scala/serialization/Serdes$$anon$4.class</li>
+         <li>/Users/chukun/work/sourcecode/kafka/streams/streams-scala/build/classes/scala/main/org/apache/kafka/streams/scala/serialization/LowPrioritySerdes.class</li>
+         <li>/Users/chukun/work/sourcecode/kafka/streams/streams-scala/build/classes/scala/main/org/apache/kafka/streams/scala/serialization/Serdes$$anon$1.class</li>
+         <li>/Users/chukun/work/sourcecode/kafka/streams/streams-scala/build/classes/scala/main/org/apache/kafka/streams/scala/serialization/Serdes$$anon$3.class</li>
+         <li>/Users/chukun/work/sourcecode/kafka/streams/streams-scala/build/classes/scala/main/org/apache/kafka/streams/scala/serialization/Serdes$.class</li>
+         <li>/Users/chukun/work/sourcecode/kafka/streams/streams-scala/build/classes/scala/main/org/apache/kafka/streams/scala/serialization/Serdes.class</li>
+         <li>/Users/chukun/work/sourcecode/kafka/streams/streams-scala/build/classes/scala/main/org/apache/kafka/streams/scala/Serdes$$anon$3.class</li>
+         <li>/Users/chukun/work/sourcecode/kafka/streams/streams-scala/build/classes/scala/main/org/apache/kafka/streams/scala/FunctionsCompatConversions$ValueTransformerSupplierAsJava$$anon$2.class</li>
+         <li>/Users/chukun/work/sourcecode/kafka/streams/streams-scala/build/classes/scala/main/org/apache/kafka/streams/scala/FunctionsCompatConversions$ValueMapperWithKeyFromFunction.class</li>
+         <li>/Users/chukun/work/sourcecode/kafka/streams/streams-scala/build/classes/scala/main/org/apache/kafka/streams/scala/FunctionsCompatConversions$AggregatorFromFunction$.class</li>
+         <li>/Users/chukun/work/sourcecode/kafka/streams/streams-scala/build/classes/scala/main/org/apache/kafka/streams/scala/FunctionConversions$FlatValueMapperFromFunction.class</li>
+         <li>/Users/chukun/work/sourcecode/kafka/streams/streams-scala/build/classes/scala/main/org/apache/kafka/streams/scala/ImplicitConversions.class</li>
+         <li>/Users/chukun/work/sourcecode/kafka/streams/streams-scala/build/classes/scala/main/org/apache/kafka/streams/scala/FunctionConversions$MapperFromFunction.class</li>
+         <li>/Users/chukun/work/sourcecode/kafka/streams/streams-scala/build/classes/scala/main/org/apache/kafka/streams/scala/FunctionsCompatConversions$FunctionFromFunction.class</li>
+         <li>/Users/chukun/work/sourcecode/kafka/streams/streams-scala/build/classes/scala/main/org/apache/kafka/streams/scala/FunctionsCompatConversions$TransformerSupplierAsJava$$anon$1.class</li>
+         <li>/Users/chukun/work/sourcecode/kafka/streams/streams-scala/build/classes/scala/main/org/apache/kafka/streams/scala/FunctionsCompatConversions$FunctionFromFunction$.class</li>
+         <li>/Users/chukun/work/sourcecode/kafka/streams/streams-scala/build/classes/scala/main/org/apache/kafka/streams/scala/FunctionsCompatConversions$MergerFromFunction.class</li>
+         <li>/Users/chukun/work/sourcecode/kafka/streams/streams-scala/build/classes/scala/main/org/apache/kafka/streams/scala/FunctionConversions$MergerFromFunction$.class</li>
+         <li>/Users/chukun/work/sourcecode/kafka/streams/streams-scala/build/classes/scala/main/org/apache/kafka/streams/scala/StreamsBuilder$.class</li>
+         <li>/Users/chukun/work/sourcecode/kafka/streams/streams-scala/build/classes/scala/main/org/apache/kafka/streams/scala/FunctionsCompatConversions$ValueMapperFromFunction.class</li>
+         <li>/Users/chukun/work/sourcecode/kafka/streams/streams-scala/build/classes/scala/main/org/apache/kafka/streams/scala/FunctionsCompatConversions$KeyValueMapperFromFunction.class</li>
+         <li>/Users/chukun/work/sourcecode/kafka/streams/streams-scala/build/classes/scala/main/org/apache/kafka/streams/scala/FunctionConversions$FlatValueMapperWithKeyFromFunction$.class</li>
+         <li>/Users/chukun/work/sourcecode/kafka/streams/streams-scala/build/classes/scala/main/org/apache/kafka/streams/scala/FunctionConversions$KeyValueMapperFromFunction.class</li>
+         <li>/Users/chukun/work/sourcecode/kafka/streams/streams-scala/build/classes/scala/main/org/apache/kafka/streams/scala/FunctionsCompatConversions$.class</li>
+         <li>/Users/chukun/work/sourcecode/kafka/streams/streams-scala/build/classes/scala/main/org/apache/kafka/streams/scala/FunctionsCompatConversions$ValueTransformerSupplierWithKeyAsJava$.class</li>
+         <li>/Users/chukun/work/sourcecode/kafka/streams/streams-scala/build/classes/scala/main/org/apache/kafka/streams/scala/FunctionConversions$PredicateFromFunction.class</li>
+         <li>/Users/chukun/work/sourcecode/kafka/streams/streams-scala/build/classes/scala/main/org/apache/kafka/streams/scala/FunctionsCompatConversions$ValueMapperFromFunction$.class</li>
+         <li>/Users/chukun/work/sourcecode/kafka/streams/streams-scala/build/classes/scala/main/org/apache/kafka/streams/scala/Serdes$.class</li>
+         <li>/Users/chukun/work/sourcecode/kafka/streams/streams-scala/build/classes/scala/main/org/apache/kafka/streams/scala/FunctionsCompatConversions$KeyValueMapperFromFunction$.class</li>
+         <li>/Users/chukun/work/sourcecode/kafka/streams/streams-scala/build/classes/scala/main/org/apache/kafka/streams/scala/ImplicitConversions$.class</li>
+         <li>/Users/chukun/work/sourcecode/kafka/streams/streams-scala/build/classes/scala/main/org/apache/kafka/streams/scala/FunctionConversions$ReducerFromFunction.class</li>
+         <li>/Users/chukun/work/sourcecode/kafka/streams/streams-scala/build/classes/scala/main/org/apache/kafka/streams/scala/Serdes.class</li>
+         <li>/Users/chukun/work/sourcecode/kafka/streams/streams-scala/build/classes/scala/main/org/apache/kafka/streams/scala/FunctionsCompatConversions$MapperFromFunction.class</li>
+         <li>/Users/chukun/work/sourcecode/kafka/streams/streams-scala/build/classes/scala/main/org/apache/kafka/streams/scala/FunctionConversions$TransformerSupplierFromFunction$.class</li>
+         <li>/Users/chukun/work/sourcecode/kafka/streams/streams-scala/build/classes/scala/main/org/apache/kafka/streams/scala/package.class</li>
+         <li>/Users/chukun/work/sourcecode/kafka/streams/streams-scala/build/classes/scala/main/org/apache/kafka/streams/scala/FunctionsCompatConversions$TransformerSupplierAsJava$.class</li>
+         <li>/Users/chukun/work/sourcecode/kafka/streams/streams-scala/build/classes/scala/main/org/apache/kafka/streams/scala/FunctionConversions.class</li>
+         <li>/Users/chukun/work/sourcecode/kafka/streams/streams-scala/build/classes/scala/main/org/apache/kafka/streams/scala/FunctionConversions$MergerFromFunction.class</li>
+         <li>/Users/chukun/work/sourcecode/kafka/streams/streams-scala/build/classes/scala/main/org/apache/kafka/streams/scala/FunctionConversions$InitializerFromFunction$.class</li>
+         <li>/Users/chukun/work/sourcecode/kafka/streams/streams-scala/build/classes/scala/main/org/apache/kafka/streams/scala/FunctionsCompatConversions$TransformerSupplierAsJava.class</li>
+         <li>/Users/chukun/work/sourcecode/kafka/streams/streams-scala/build/classes/scala/main/org/apache/kafka/streams/scala/FunctionConversions$MapperFromFunction$.class</li>
+         <li>/Users/chukun/work/sourcecode/kafka/streams/streams-scala/build/classes/scala/main/org/apache/kafka/streams/scala/FunctionConversions$FlatValueMapperWithKeyFromFunction.class</li>
+         <li>/Users/chukun/work/sourcecode/kafka/streams/streams-scala/build/classes/scala/main/org/apache/kafka/streams/scala/FunctionConversions$ValueMapperWithKeyFromFunction$.class</li>
+         <li>/Users/chukun/work/sourcecode/kafka/streams/streams-scala/build/classes/scala/main/org/apache/kafka/streams/scala/FunctionsCompatConversions$MapperFromFunction$.class</li>
+         <li>/Users/chukun/work/sourcecode/kafka/streams/streams-scala/build/classes/scala/main/org/apache/kafka/streams/scala/FunctionConversions$InitializerFromFunction.class</li>
+         <li>/Users/chukun/work/sourcecode/kafka/streams/streams-scala/build/classes/scala/main/org/apache/kafka/streams/scala/FunctionConversions$ValueMapperFromFunction$.class</li>
+         <li>/Users/chukun/work/sourcecode/kafka/streams/streams-scala/build/classes/scala/main/org/apache/kafka/streams/scala/FunctionsCompatConversions$PredicateFromFunction$.class</li>
+         <li>/Users/chukun/work/sourcecode/kafka/streams/streams-scala/build/classes/scala/main/org/apache/kafka/streams/scala/FunctionsCompatConversions$FlatValueMapperWithKeyFromFunction$.class</li>
+         <li>/Users/chukun/work/sourcecode/kafka/streams/streams-scala/build/classes/scala/main/org/apache/kafka/streams/scala/FunctionConversions$AggregatorFromFunction$.class</li>
+         <li>/Users/chukun/work/sourcecode/kafka/streams/streams-scala/build/classes/scala/main/org/apache/kafka/streams/scala/FunctionConversions$ValueMapperWithKeyFromFunction.class</li>
+         <li>/Users/chukun/work/sourcecode/kafka/streams/streams-scala/build/classes/scala/main/org/apache/kafka/streams/scala/FunctionsCompatConversions$ReducerFromFunction.class</li>
+         <li>/Users/chukun/work/sourcecode/kafka/streams/streams-scala/build/classes/scala/main/org/apache/kafka/streams/scala/FunctionsCompatConversions$ForeachActionFromFunction.class</li>
+         <li>/Users/chukun/work/sourcecode/kafka/streams/streams-scala/build/classes/scala/main/org/apache/kafka/streams/scala/FunctionsCompatConversions$FlatValueMapperWithKeyFromFunction.class</li>
+         <li>/Users/chukun/work/sourcecode/kafka/streams/streams-scala/build/classes/scala/main/org/apache/kafka/streams/scala/StreamsBuilder.class</li>
+         <li>/Users/chukun/work/sourcecode/kafka/streams/streams-scala/build/classes/scala/main/org/apache/kafka/streams/scala/FunctionConversions$TransformerSupplierFromFunction.class</li>
+         <li>/Users/chukun/work/sourcecode/kafka/streams/streams-scala/build/classes/scala/main/org/apache/kafka/streams/scala/FunctionsCompatConversions$FlatValueMapperFromFunction$.class</li>
+         <li>/Users/chukun/work/sourcecode/kafka/streams/streams-scala/build/classes/scala/main/org/apache/kafka/streams/scala/FunctionConversions$KeyValueMapperFromFunction$.class</li>
+         <li>/Users/chukun/work/sourcecode/kafka/streams/streams-scala/build/classes/scala/main/org/apache/kafka/streams/scala/FunctionsCompatConversions$InitializerFromFunction$.class</li>
+         <li>/Users/chukun/work/sourcecode/kafka/streams/streams-scala/build/classes/scala/main/org/apache/kafka/streams/scala/FunctionConversions$PredicateFromFunction$.class</li>
+         <li>/Users/chukun/work/sourcecode/kafka/streams/streams-scala/build/classes/scala/main/org/apache/kafka/streams/scala/FunctionConversions$FlatValueMapperFromFunction$.class</li>
+         <li>/Users/chukun/work/sourcecode/kafka/streams/streams-scala/build/classes/scala/main/org/apache/kafka/streams/scala/FunctionConversions$ValueMapperFromFunction.class</li>
+         <li>/Users/chukun/work/sourcecode/kafka/streams/streams-scala/build/classes/scala/main/org/apache/kafka/streams/scala/FunctionsCompatConversions.class</li>
+      </ul>
+      <p>
+         <br/>
+         <br/>
+      </p>
+      <h2>Metrics</h2>
+      <p>1553 lines of code analyzed,
+	in 114 classes, 
+	in 3 packages.</p>
+      <table width="500" cellpadding="5" cellspacing="2">
+         <tr class="tableheader">
+            <th align="left">Metric</th>
+            <th align="right">Total</th>
+            <th align="right">Density*</th>
+         </tr>
+         <tr class="tablerow0">
+            <td>High Priority Warnings</td>
+            <td align="right"/>
+            <td align="right">0.00</td>
+         </tr>
+         <tr class="tablerow1">
+            <td>Medium Priority Warnings</td>
+            <td align="right"/>
+            <td align="right">0.00</td>
+         </tr>
+         <tr class="$totalClass">
+            <td>
+               <b>Total Warnings</b>
+            </td>
+            <td align="right">
+               <b>0</b>
+            </td>
+            <td align="right">
+               <b>0.00</b>
+            </td>
+         </tr>
+      </table>
+      <p>
+         <i>(* Defects per Thousand lines of non-commenting source statements)</i>
+      </p>
+      <p>
+         <br/>
+         <br/>
+      </p>
+      <h2>Contents</h2>
+      <ul>
+         <li>
+            <a href="#Details">Details</a>
+         </li>
+      </ul>
+      <h1>Summary</h1>
+      <table width="500" cellpadding="5" cellspacing="2">
+         <tr class="tableheader">
+            <th align="left">Warning Type</th>
+            <th align="right">Number</th>
+         </tr>
+         <tr class="tablerow0">
+            <td>
+               <b>Total</b>
+            </td>
+            <td align="right">
+               <b>0</b>
+            </td>
+         </tr>
+      </table>
+      <h1>Warnings</h1>
+      <p>Click on a warning row to see full context information.</p>
+      <h1>
+         <a name="Details">Details</a>
+      </h1>
+   </body>
+</html>

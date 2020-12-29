@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.apache.kafka.common.config.ConfigTransformerTest" tests="8" skipped="0" failures="0" errors="0" timestamp="2020-10-29T02:31:36" hostname="chukun-mac" time="0.149">
+  <properties/>
+  <testcase name="testNoReplacement" classname="org.apache.kafka.common.config.ConfigTransformerTest" time="0.012"/>
+  <testcase name="testReplaceVariable" classname="org.apache.kafka.common.config.ConfigTransformerTest" time="0.0"/>
+  <testcase name="testReplaceMultipleVariablesWithoutPathInValue" classname="org.apache.kafka.common.config.ConfigTransformerTest" time="0.001"/>
+  <testcase name="testReplaceVariableWithTTL" classname="org.apache.kafka.common.config.ConfigTransformerTest" time="0.001"/>
+  <testcase name="testNullConfigValue" classname="org.apache.kafka.common.config.ConfigTransformerTest" time="0.0"/>
+  <testcase name="testSingleLevelOfIndirection" classname="org.apache.kafka.common.config.ConfigTransformerTest" time="0.001"/>
+  <testcase name="testReplaceMultipleVariablesInValue" classname="org.apache.kafka.common.config.ConfigTransformerTest" time="0.0"/>
+  <testcase name="testReplaceVariableNoPath" classname="org.apache.kafka.common.config.ConfigTransformerTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,62 @@
+org/apache/kafka/message/SchemaGenerator.java
+ org.apache.kafka.message.SchemaGenerator
+ org.apache.kafka.message.SchemaGenerator$MessageInfo
+org/apache/kafka/message/FieldSpec.java
+ org.apache.kafka.message.FieldSpec
+org/apache/kafka/message/IsNullConditional.java
+ org.apache.kafka.message.IsNullConditional
+ org.apache.kafka.message.IsNullConditional$ConditionalGenerator
+ org.apache.kafka.message.IsNullConditional$PrimitiveConditionalGenerator
+org/apache/kafka/message/StructSpec.java
+ org.apache.kafka.message.StructSpec
+org/apache/kafka/message/Target.java
+ org.apache.kafka.message.Target
+org/apache/kafka/message/CodeBuffer.java
+ org.apache.kafka.message.CodeBuffer
+org/apache/kafka/message/JsonConverterGenerator.java
+ org.apache.kafka.message.JsonConverterGenerator
+org/apache/kafka/message/MessageDataGenerator.java
+ org.apache.kafka.message.MessageDataGenerator
+org/apache/kafka/message/MessageClassGenerator.java
+ org.apache.kafka.message.MessageClassGenerator
+org/apache/kafka/message/ClauseGenerator.java
+ org.apache.kafka.message.ClauseGenerator
+org/apache/kafka/message/MessageSpecType.java
+ org.apache.kafka.message.MessageSpecType
+org/apache/kafka/message/HeaderGenerator.java
+ org.apache.kafka.message.HeaderGenerator
+org/apache/kafka/message/ApiMessageTypeGenerator.java
+ org.apache.kafka.message.ApiMessageTypeGenerator
+ org.apache.kafka.message.ApiMessageTypeGenerator$1
+ org.apache.kafka.message.ApiMessageTypeGenerator$ApiData
+org/apache/kafka/message/MessageSpec.java
+ org.apache.kafka.message.MessageSpec
+ org.apache.kafka.message.MessageSpec$1
+org/apache/kafka/message/StructRegistry.java
+ org.apache.kafka.message.StructRegistry
+ org.apache.kafka.message.StructRegistry$1
+ org.apache.kafka.message.StructRegistry$StructInfo
+org/apache/kafka/message/TypeClassGenerator.java
+ org.apache.kafka.message.TypeClassGenerator
+org/apache/kafka/message/EntityType.java
+ org.apache.kafka.message.EntityType
+org/apache/kafka/message/MessageGenerator.java
+ org.apache.kafka.message.MessageGenerator
+org/apache/kafka/message/FieldType.java
+ org.apache.kafka.message.FieldType
+ org.apache.kafka.message.FieldType$ArrayType
+ org.apache.kafka.message.FieldType$BoolFieldType
+ org.apache.kafka.message.FieldType$BytesFieldType
+ org.apache.kafka.message.FieldType$Float64FieldType
+ org.apache.kafka.message.FieldType$Int16FieldType
+ org.apache.kafka.message.FieldType$Int32FieldType
+ org.apache.kafka.message.FieldType$Int64FieldType
+ org.apache.kafka.message.FieldType$Int8FieldType
+ org.apache.kafka.message.FieldType$RecordsFieldType
+ org.apache.kafka.message.FieldType$StringFieldType
+ org.apache.kafka.message.FieldType$StructType
+ org.apache.kafka.message.FieldType$UUIDFieldType
+org/apache/kafka/message/VersionConditional.java
+ org.apache.kafka.message.VersionConditional
+org/apache/kafka/message/Versions.java
+ org.apache.kafka.message.Versions

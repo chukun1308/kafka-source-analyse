@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.apache.kafka.clients.consumer.internals.ConsumerNetworkClientTest" tests="19" skipped="0" failures="0" errors="0" timestamp="2020-10-29T02:32:42" hostname="chukun-mac" time="0.233">
+  <properties/>
+  <testcase name="testMetadataFailurePropagated" classname="org.apache.kafka.clients.consumer.internals.ConsumerNetworkClientTest" time="0.006"/>
+  <testcase name="testTrySend" classname="org.apache.kafka.clients.consumer.internals.ConsumerNetworkClientTest" time="0.005"/>
+  <testcase name="multiSend" classname="org.apache.kafka.clients.consumer.internals.ConsumerNetworkClientTest" time="0.001"/>
+  <testcase name="testInvalidTopicExceptionPropagatedFromMetadata" classname="org.apache.kafka.clients.consumer.internals.ConsumerNetworkClientTest" time="0.002"/>
+  <testcase name="wakeup" classname="org.apache.kafka.clients.consumer.internals.ConsumerNetworkClientTest" time="0.0"/>
+  <testcase name="testTimeoutUnsentRequest" classname="org.apache.kafka.clients.consumer.internals.ConsumerNetworkClientTest" time="0.0"/>
+  <testcase name="testDisconnectWithInFlightRequests" classname="org.apache.kafka.clients.consumer.internals.ConsumerNetworkClientTest" time="0.001"/>
+  <testcase name="blockWhenPollConditionNotSatisfied" classname="org.apache.kafka.clients.consumer.internals.ConsumerNetworkClientTest" time="0.095"/>
+  <testcase name="send" classname="org.apache.kafka.clients.consumer.internals.ConsumerNetworkClientTest" time="0.001"/>
+  <testcase name="testAuthenticationExceptionPropagatedFromMetadata" classname="org.apache.kafka.clients.consumer.internals.ConsumerNetworkClientTest" time="0.001"/>
+  <testcase name="sendExpiry" classname="org.apache.kafka.clients.consumer.internals.ConsumerNetworkClientTest" time="0.003"/>
+  <testcase name="blockOnlyForRetryBackoffIfNoInflightRequests" classname="org.apache.kafka.clients.consumer.internals.ConsumerNetworkClientTest" time="0.001"/>
+  <testcase name="testAwaitForMetadataUpdateWithTimeout" classname="org.apache.kafka.clients.consumer.internals.ConsumerNetworkClientTest" time="0.001"/>
+  <testcase name="testDisconnectWakesUpPoll" classname="org.apache.kafka.clients.consumer.internals.ConsumerNetworkClientTest" time="0.001"/>
+  <testcase name="testTopicAuthorizationExceptionPropagatedFromMetadata" classname="org.apache.kafka.clients.consumer.internals.ConsumerNetworkClientTest" time="0.001"/>
+  <testcase name="testFutureCompletionOutsidePoll" classname="org.apache.kafka.clients.consumer.internals.ConsumerNetworkClientTest" time="0.109"/>
+  <testcase name="sendWithinBackoffPeriodAfterAuthenticationFailure" classname="org.apache.kafka.clients.consumer.internals.ConsumerNetworkClientTest" time="0.001"/>
+  <testcase name="doNotBlockIfPollConditionIsSatisfied" classname="org.apache.kafka.clients.consumer.internals.ConsumerNetworkClientTest" time="0.001"/>
+  <testcase name="testDisconnectWithUnsentRequests" classname="org.apache.kafka.clients.consumer.internals.ConsumerNetworkClientTest" time="0.001"/>
+  <system-out><![CDATA[[2020-10-29 10:32:42,576] ERROR Metadata response reported invalid topics [topic] (org.apache.kafka.clients.Metadata:294)
+[2020-10-29 10:32:42,682] ERROR Topic authorization failed for topics [topic] (org.apache.kafka.clients.Metadata:301)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

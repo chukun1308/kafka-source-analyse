@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.apache.kafka.raft.CandidateStateTest" tests="11" skipped="0" failures="0" errors="0" timestamp="2020-10-29T02:42:06" hostname="chukun-mac" time="0.028">
+  <properties/>
+  <testcase name="testCannotRejectVoteFromLocalId()" classname="org.apache.kafka.raft.CandidateStateTest" time="0.01"/>
+  <testcase name="testSingleNodeQuorum()" classname="org.apache.kafka.raft.CandidateStateTest" time="0.005"/>
+  <testcase name="testThreeNodeQuorumVoteGranted()" classname="org.apache.kafka.raft.CandidateStateTest" time="0.001"/>
+  <testcase name="testTwoNodeQuorumVoteRejected()" classname="org.apache.kafka.raft.CandidateStateTest" time="0.0"/>
+  <testcase name="testTwoNodeQuorumVoteGranted()" classname="org.apache.kafka.raft.CandidateStateTest" time="0.001"/>
+  <testcase name="testCannotChangeVoteRejectedToGranted()" classname="org.apache.kafka.raft.CandidateStateTest" time="0.001"/>
+  <testcase name="testIdempotentGrant()" classname="org.apache.kafka.raft.CandidateStateTest" time="0.001"/>
+  <testcase name="testCannotGrantOrRejectNonVoters()" classname="org.apache.kafka.raft.CandidateStateTest" time="0.001"/>
+  <testcase name="testIdempotentReject()" classname="org.apache.kafka.raft.CandidateStateTest" time="0.001"/>
+  <testcase name="testThreeNodeQuorumVoteRejected()" classname="org.apache.kafka.raft.CandidateStateTest" time="0.001"/>
+  <testcase name="testCannotChangeVoteGrantedToRejected()" classname="org.apache.kafka.raft.CandidateStateTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

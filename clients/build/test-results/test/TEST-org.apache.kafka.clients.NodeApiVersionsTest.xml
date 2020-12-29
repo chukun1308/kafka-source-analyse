@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.apache.kafka.clients.NodeApiVersionsTest" tests="10" skipped="0" failures="0" errors="0" timestamp="2020-10-29T02:31:30" hostname="chukun-mac" time="0.007">
+  <properties/>
+  <testcase name="testConstructionFromApiVersionsResponse" classname="org.apache.kafka.clients.NodeApiVersionsTest" time="0.001"/>
+  <testcase name="testLatestUsableVersionOutOfRangeHigh" classname="org.apache.kafka.clients.NodeApiVersionsTest" time="0.0"/>
+  <testcase name="testLatestUsableVersion" classname="org.apache.kafka.clients.NodeApiVersionsTest" time="0.0"/>
+  <testcase name="testUsableVersionCalculationNoKnownVersions" classname="org.apache.kafka.clients.NodeApiVersionsTest" time="0.0"/>
+  <testcase name="testVersionsToString" classname="org.apache.kafka.clients.NodeApiVersionsTest" time="0.002"/>
+  <testcase name="testUnsupportedVersionsToString" classname="org.apache.kafka.clients.NodeApiVersionsTest" time="0.001"/>
+  <testcase name="testLatestUsableVersionOutOfRangeLow" classname="org.apache.kafka.clients.NodeApiVersionsTest" time="0.0"/>
+  <testcase name="testLatestUsableVersionOutOfRange" classname="org.apache.kafka.clients.NodeApiVersionsTest" time="0.0"/>
+  <testcase name="testUnknownApiVersionsToString" classname="org.apache.kafka.clients.NodeApiVersionsTest" time="0.001"/>
+  <testcase name="testUsableVersionLatestVersions" classname="org.apache.kafka.clients.NodeApiVersionsTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

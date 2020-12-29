@@ -1,0 +1,2032 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Class org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/org.apache.kafka.clients.consumer.internals.html">org.apache.kafka.clients.consumer.internals</a> &gt; ConsumerCoordinatorTest</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">238</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">11.777s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">shouldUpdateConsumerGroupMetadataBeforeCallbacks[rebalance protocol = COOPERATIVE]</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">shouldUpdateConsumerGroupMetadataBeforeCallbacks[rebalance protocol = EAGER]</td>
+<td class="success">0.010s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testAsyncCommitCallbacksInvokedPriorToSyncCommitCompletion[rebalance protocol = COOPERATIVE]</td>
+<td class="success">0.102s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testAsyncCommitCallbacksInvokedPriorToSyncCommitCompletion[rebalance protocol = EAGER]</td>
+<td class="success">0.107s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testAuthenticationFailureInEnsureActiveGroup[rebalance protocol = COOPERATIVE]</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testAuthenticationFailureInEnsureActiveGroup[rebalance protocol = EAGER]</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testAutoCommitAfterCoordinatorBackToService[rebalance protocol = COOPERATIVE]</td>
+<td class="success">0.004s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testAutoCommitAfterCoordinatorBackToService[rebalance protocol = EAGER]</td>
+<td class="success">0.008s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testAutoCommitAwaitsInterval[rebalance protocol = COOPERATIVE]</td>
+<td class="success">0.002s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testAutoCommitAwaitsInterval[rebalance protocol = EAGER]</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testAutoCommitDynamicAssignmentRebalance[rebalance protocol = COOPERATIVE]</td>
+<td class="success">0.002s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testAutoCommitDynamicAssignmentRebalance[rebalance protocol = EAGER]</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testAutoCommitDynamicAssignment[rebalance protocol = COOPERATIVE]</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testAutoCommitDynamicAssignment[rebalance protocol = EAGER]</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testAutoCommitManualAssignmentCoordinatorUnknown[rebalance protocol = COOPERATIVE]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testAutoCommitManualAssignmentCoordinatorUnknown[rebalance protocol = EAGER]</td>
+<td class="success">0.002s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testAutoCommitManualAssignment[rebalance protocol = COOPERATIVE]</td>
+<td class="success">0.004s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testAutoCommitManualAssignment[rebalance protocol = EAGER]</td>
+<td class="success">0.002s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testAutoCommitRetryBackoff[rebalance protocol = COOPERATIVE]</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testAutoCommitRetryBackoff[rebalance protocol = EAGER]</td>
+<td class="success">0.004s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testCloseCoordinatorNotKnownManualAssignment[rebalance protocol = COOPERATIVE]</td>
+<td class="success">0.707s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testCloseCoordinatorNotKnownManualAssignment[rebalance protocol = EAGER]</td>
+<td class="success">0.750s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testCloseCoordinatorNotKnownNoCommits[rebalance protocol = COOPERATIVE]</td>
+<td class="success">0.204s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testCloseCoordinatorNotKnownNoCommits[rebalance protocol = EAGER]</td>
+<td class="success">0.206s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testCloseCoordinatorNotKnownWithCommits[rebalance protocol = COOPERATIVE]</td>
+<td class="success">0.745s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testCloseCoordinatorNotKnownWithCommits[rebalance protocol = EAGER]</td>
+<td class="success">0.732s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testCloseCoordinatorUnavailableNoCommits[rebalance protocol = COOPERATIVE]</td>
+<td class="success">0.202s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testCloseCoordinatorUnavailableNoCommits[rebalance protocol = EAGER]</td>
+<td class="success">0.203s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testCloseDynamicAssignment[rebalance protocol = COOPERATIVE]</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testCloseDynamicAssignment[rebalance protocol = EAGER]</td>
+<td class="success">0.002s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testCloseManualAssignment[rebalance protocol = COOPERATIVE]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testCloseManualAssignment[rebalance protocol = EAGER]</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testCloseMaxWaitCoordinatorUnavailableForCommit[rebalance protocol = COOPERATIVE]</td>
+<td class="success">0.702s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testCloseMaxWaitCoordinatorUnavailableForCommit[rebalance protocol = EAGER]</td>
+<td class="success">0.744s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testCloseNoResponseForCommit[rebalance protocol = COOPERATIVE]</td>
+<td class="success">0.627s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testCloseNoResponseForCommit[rebalance protocol = EAGER]</td>
+<td class="success">0.721s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testCloseNoResponseForLeaveGroup[rebalance protocol = COOPERATIVE]</td>
+<td class="success">0.614s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testCloseNoResponseForLeaveGroup[rebalance protocol = EAGER]</td>
+<td class="success">0.639s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testCloseNoWait[rebalance protocol = COOPERATIVE]</td>
+<td class="success">0.104s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testCloseNoWait[rebalance protocol = EAGER]</td>
+<td class="success">0.103s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testCloseTimeoutCoordinatorUnavailableForCommit[rebalance protocol = COOPERATIVE]</td>
+<td class="success">0.738s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testCloseTimeoutCoordinatorUnavailableForCommit[rebalance protocol = EAGER]</td>
+<td class="success">0.708s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testCommitAfterLeaveGroup[rebalance protocol = COOPERATIVE]</td>
+<td class="success">0.002s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testCommitAfterLeaveGroup[rebalance protocol = EAGER]</td>
+<td class="success">0.006s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testCommitOffsetAsyncCoordinatorNotAvailable[rebalance protocol = COOPERATIVE]</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testCommitOffsetAsyncCoordinatorNotAvailable[rebalance protocol = EAGER]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testCommitOffsetAsyncDisconnected[rebalance protocol = COOPERATIVE]</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testCommitOffsetAsyncDisconnected[rebalance protocol = EAGER]</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testCommitOffsetAsyncFailedWithDefaultCallback[rebalance protocol = COOPERATIVE]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testCommitOffsetAsyncFailedWithDefaultCallback[rebalance protocol = EAGER]</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testCommitOffsetAsyncNotCoordinator[rebalance protocol = COOPERATIVE]</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testCommitOffsetAsyncNotCoordinator[rebalance protocol = EAGER]</td>
+<td class="success">0.002s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testCommitOffsetAsyncWithDefaultCallback[rebalance protocol = COOPERATIVE]</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testCommitOffsetAsyncWithDefaultCallback[rebalance protocol = EAGER]</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testCommitOffsetFencedInstanceWithNewGenearion[rebalance protocol = COOPERATIVE]</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testCommitOffsetFencedInstanceWithNewGenearion[rebalance protocol = EAGER]</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testCommitOffsetFencedInstanceWithRebalancingGenearion[rebalance protocol = COOPERATIVE]</td>
+<td class="success">0.002s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testCommitOffsetFencedInstanceWithRebalancingGenearion[rebalance protocol = EAGER]</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testCommitOffsetIllegalGenerationWithNewGeneration[rebalance protocol = COOPERATIVE]</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testCommitOffsetIllegalGenerationWithNewGeneration[rebalance protocol = EAGER]</td>
+<td class="success">0.002s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testCommitOffsetIllegalGenerationWithResetGenearion[rebalance protocol = COOPERATIVE]</td>
+<td class="success">0.004s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testCommitOffsetIllegalGenerationWithResetGenearion[rebalance protocol = EAGER]</td>
+<td class="success">0.003s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testCommitOffsetIllegalGeneration[rebalance protocol = COOPERATIVE]</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testCommitOffsetIllegalGeneration[rebalance protocol = EAGER]</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testCommitOffsetMetadataTooLarge[rebalance protocol = COOPERATIVE]</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testCommitOffsetMetadataTooLarge[rebalance protocol = EAGER]</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testCommitOffsetMetadata[rebalance protocol = COOPERATIVE]</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testCommitOffsetMetadata[rebalance protocol = EAGER]</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testCommitOffsetOnly[rebalance protocol = COOPERATIVE]</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testCommitOffsetOnly[rebalance protocol = EAGER]</td>
+<td class="success">0.002s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testCommitOffsetRebalanceInProgress[rebalance protocol = COOPERATIVE]</td>
+<td class="success">0.002s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testCommitOffsetRebalanceInProgress[rebalance protocol = EAGER]</td>
+<td class="success">0.005s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testCommitOffsetRequestAsyncAlwaysReceiveFencedException[rebalance protocol = COOPERATIVE]</td>
+<td class="success">0.002s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testCommitOffsetRequestAsyncAlwaysReceiveFencedException[rebalance protocol = EAGER]</td>
+<td class="success">0.002s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testCommitOffsetRequestAsyncWithFencedInstanceIdException[rebalance protocol = COOPERATIVE]</td>
+<td class="success">0.002s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testCommitOffsetRequestAsyncWithFencedInstanceIdException[rebalance protocol = EAGER]</td>
+<td class="success">0.002s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testCommitOffsetRequestSyncWithFencedInstanceIdException[rebalance protocol = COOPERATIVE]</td>
+<td class="success">0.003s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testCommitOffsetRequestSyncWithFencedInstanceIdException[rebalance protocol = EAGER]</td>
+<td class="success">0.002s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testCommitOffsetSyncCallbackWithNonRetriableException[rebalance protocol = COOPERATIVE]</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testCommitOffsetSyncCallbackWithNonRetriableException[rebalance protocol = EAGER]</td>
+<td class="success">0.002s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testCommitOffsetSyncCoordinatorDisconnected[rebalance protocol = COOPERATIVE]</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testCommitOffsetSyncCoordinatorDisconnected[rebalance protocol = EAGER]</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testCommitOffsetSyncCoordinatorNotAvailable[rebalance protocol = COOPERATIVE]</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testCommitOffsetSyncCoordinatorNotAvailable[rebalance protocol = EAGER]</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testCommitOffsetSyncNotCoordinator[rebalance protocol = COOPERATIVE]</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testCommitOffsetSyncNotCoordinator[rebalance protocol = EAGER]</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testCommitOffsetSyncWithoutFutureGetsCompleted[rebalance protocol = COOPERATIVE]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testCommitOffsetSyncWithoutFutureGetsCompleted[rebalance protocol = EAGER]</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testCommitOffsetUnknownMemberId[rebalance protocol = COOPERATIVE]</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testCommitOffsetUnknownMemberId[rebalance protocol = EAGER]</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testCommitOffsetUnknownMemberWithNewGenearion[rebalance protocol = COOPERATIVE]</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testCommitOffsetUnknownMemberWithNewGenearion[rebalance protocol = EAGER]</td>
+<td class="success">0.002s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testCommitOffsetUnknownMemberWithResetGenearion[rebalance protocol = COOPERATIVE]</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testCommitOffsetUnknownMemberWithResetGenearion[rebalance protocol = EAGER]</td>
+<td class="success">0.002s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testConsumerRejoinAfterRebalance[rebalance protocol = COOPERATIVE]</td>
+<td class="success">0.002s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testConsumerRejoinAfterRebalance[rebalance protocol = EAGER]</td>
+<td class="success">0.004s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testCoordinatorDisconnectAfterCoordinatorNotAvailableError[rebalance protocol = COOPERATIVE]</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testCoordinatorDisconnectAfterCoordinatorNotAvailableError[rebalance protocol = EAGER]</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testCoordinatorDisconnectAfterNotCoordinatorError[rebalance protocol = COOPERATIVE]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testCoordinatorDisconnectAfterNotCoordinatorError[rebalance protocol = EAGER]</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testCoordinatorDisconnect[rebalance protocol = COOPERATIVE]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testCoordinatorDisconnect[rebalance protocol = EAGER]</td>
+<td class="success">0.003s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testCoordinatorNotAvailable[rebalance protocol = COOPERATIVE]</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testCoordinatorNotAvailable[rebalance protocol = EAGER]</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testCoordinatorUnknownInUnsentCallbacksAfterCoordinatorDead[rebalance protocol = COOPERATIVE]</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testCoordinatorUnknownInUnsentCallbacksAfterCoordinatorDead[rebalance protocol = EAGER]</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testDisconnectInJoin[rebalance protocol = COOPERATIVE]</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testDisconnectInJoin[rebalance protocol = EAGER]</td>
+<td class="success">0.002s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testExcludeInternalTopicsConfigOption[rebalance protocol = COOPERATIVE]</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testExcludeInternalTopicsConfigOption[rebalance protocol = EAGER]</td>
+<td class="success">0.002s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testFetchCommittedOffsets[rebalance protocol = COOPERATIVE]</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testFetchCommittedOffsets[rebalance protocol = EAGER]</td>
+<td class="success">0.002s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testForceMetadataRefreshForPatternSubscriptionDuringRebalance[rebalance protocol = COOPERATIVE]</td>
+<td class="success">0.002s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testForceMetadataRefreshForPatternSubscriptionDuringRebalance[rebalance protocol = EAGER]</td>
+<td class="success">0.003s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testGetGroupMetadata[rebalance protocol = COOPERATIVE]</td>
+<td class="success">0.002s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testGetGroupMetadata[rebalance protocol = EAGER]</td>
+<td class="success">0.002s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testGroupDescribeUnauthorized[rebalance protocol = COOPERATIVE]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testGroupDescribeUnauthorized[rebalance protocol = EAGER]</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testGroupReadUnauthorized[rebalance protocol = COOPERATIVE]</td>
+<td class="success">0.002s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testGroupReadUnauthorized[rebalance protocol = EAGER]</td>
+<td class="success">0.004s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testHeartbeatThreadClose[rebalance protocol = COOPERATIVE]</td>
+<td class="success">0.621s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testHeartbeatThreadClose[rebalance protocol = EAGER]</td>
+<td class="success">0.629s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testIllegalGenerationOnSyncGroup[rebalance protocol = COOPERATIVE]</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testIllegalGenerationOnSyncGroup[rebalance protocol = EAGER]</td>
+<td class="success">0.002s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testIllegalGeneration[rebalance protocol = COOPERATIVE]</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testIllegalGeneration[rebalance protocol = EAGER]</td>
+<td class="success">0.002s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testIncludeInternalTopicsConfigOption[rebalance protocol = COOPERATIVE]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testIncludeInternalTopicsConfigOption[rebalance protocol = EAGER]</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testInvalidSessionTimeout[rebalance protocol = COOPERATIVE]</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testInvalidSessionTimeout[rebalance protocol = EAGER]</td>
+<td class="success">0.005s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testJoinGroupInvalidGroupId[rebalance protocol = COOPERATIVE]</td>
+<td class="success">0.002s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testJoinGroupInvalidGroupId[rebalance protocol = EAGER]</td>
+<td class="success">0.002s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testLeaveGroupOnClose[rebalance protocol = COOPERATIVE]</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testLeaveGroupOnClose[rebalance protocol = EAGER]</td>
+<td class="success">0.002s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testManyInFlightAsyncCommitsWithCoordinatorDisconnect[rebalance protocol = COOPERATIVE]</td>
+<td class="success">0.014s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testManyInFlightAsyncCommitsWithCoordinatorDisconnect[rebalance protocol = EAGER]</td>
+<td class="success">0.033s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testMaybeLeaveGroup[rebalance protocol = COOPERATIVE]</td>
+<td class="success">0.002s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testMaybeLeaveGroup[rebalance protocol = EAGER]</td>
+<td class="success">0.003s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testMetadataChangeTriggersRebalance[rebalance protocol = COOPERATIVE]</td>
+<td class="success">0.002s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testMetadataChangeTriggersRebalance[rebalance protocol = EAGER]</td>
+<td class="success">0.002s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testMetadataRefreshDuringRebalance[rebalance protocol = COOPERATIVE]</td>
+<td class="success">0.004s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testMetadataRefreshDuringRebalance[rebalance protocol = EAGER]</td>
+<td class="success">0.007s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testMetadataTopicsDuringSubscriptionChange[rebalance protocol = COOPERATIVE]</td>
+<td class="success">0.002s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testMetadataTopicsDuringSubscriptionChange[rebalance protocol = EAGER]</td>
+<td class="success">0.004s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testMetrics[rebalance protocol = COOPERATIVE]</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testMetrics[rebalance protocol = EAGER]</td>
+<td class="success">0.002s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testNoCoordinatorDiscoveryIfPartitionAwaitingReset[rebalance protocol = COOPERATIVE]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testNoCoordinatorDiscoveryIfPartitionAwaitingReset[rebalance protocol = EAGER]</td>
+<td class="success">0.002s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testNoCoordinatorDiscoveryIfPositionsKnown[rebalance protocol = COOPERATIVE]</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testNoCoordinatorDiscoveryIfPositionsKnown[rebalance protocol = EAGER]</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testNoThrowWhenStableFlagIsSupported[rebalance protocol = COOPERATIVE]</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testNoThrowWhenStableFlagIsSupported[rebalance protocol = EAGER]</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testNormalHeartbeat[rebalance protocol = COOPERATIVE]</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testNormalHeartbeat[rebalance protocol = EAGER]</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testNormalJoinGroupFollower[rebalance protocol = COOPERATIVE]</td>
+<td class="success">0.002s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testNormalJoinGroupFollower[rebalance protocol = EAGER]</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testNormalJoinGroupLeader[rebalance protocol = COOPERATIVE]</td>
+<td class="success">0.002s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testNormalJoinGroupLeader[rebalance protocol = EAGER]</td>
+<td class="success">0.003s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testNotCoordinator[rebalance protocol = COOPERATIVE]</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testNotCoordinator[rebalance protocol = EAGER]</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testOnAssignmentExceptionShouldBeRenderedIfNotKafkaException[rebalance protocol = COOPERATIVE]</td>
+<td class="success">0.003s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testOnAssignmentExceptionShouldBeRenderedIfNotKafkaException[rebalance protocol = EAGER]</td>
+<td class="success">0.005s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testOnAssignmentExceptionThrownFirstNonBlockingSubCallbacks[rebalance protocol = COOPERATIVE]</td>
+<td class="success">0.003s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testOnAssignmentExceptionThrownFirstNonBlockingSubCallbacks[rebalance protocol = EAGER]</td>
+<td class="success">0.004s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testOnPartitionsAssignExceptionShouldBeRenderedIfNotKafkaException[rebalance protocol = COOPERATIVE]</td>
+<td class="success">0.002s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testOnPartitionsAssignExceptionShouldBeRenderedIfNotKafkaException[rebalance protocol = EAGER]</td>
+<td class="success">0.003s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testOnPartitionsAssignExceptionThrownWhenNoPreviousThrownCallbacks[rebalance protocol = COOPERATIVE]</td>
+<td class="success">0.005s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testOnPartitionsAssignExceptionThrownWhenNoPreviousThrownCallbacks[rebalance protocol = EAGER]</td>
+<td class="success">0.016s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testOnRevokeExceptionShouldBeRenderedIfNotKafkaException[rebalance protocol = COOPERATIVE]</td>
+<td class="success">0.003s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testOnRevokeExceptionShouldBeRenderedIfNotKafkaException[rebalance protocol = EAGER]</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testOutdatedCoordinatorAssignment[rebalance protocol = COOPERATIVE]</td>
+<td class="success">0.002s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testOutdatedCoordinatorAssignment[rebalance protocol = EAGER]</td>
+<td class="success">0.004s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testPatternJoinGroupFollower[rebalance protocol = COOPERATIVE]</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testPatternJoinGroupFollower[rebalance protocol = EAGER]</td>
+<td class="success">0.002s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testPatternJoinGroupLeader[rebalance protocol = COOPERATIVE]</td>
+<td class="success">0.002s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testPatternJoinGroupLeader[rebalance protocol = EAGER]</td>
+<td class="success">0.003s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testPendingMemberShouldLeaveGroup[rebalance protocol = COOPERATIVE]</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testPendingMemberShouldLeaveGroup[rebalance protocol = EAGER]</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testRebalanceAfterNotMatchingTopicUnavailableWithPatternSubscribe[rebalance protocol = COOPERATIVE]</td>
+<td class="success">0.004s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testRebalanceAfterNotMatchingTopicUnavailableWithPatternSubscribe[rebalance protocol = EAGER]</td>
+<td class="success">0.005s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testRebalanceAfterTopicUnavailableWithPatternSubscribe[rebalance protocol = COOPERATIVE]</td>
+<td class="success">0.003s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testRebalanceAfterTopicUnavailableWithPatternSubscribe[rebalance protocol = EAGER]</td>
+<td class="success">0.005s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testRebalanceAfterTopicUnavailableWithSubscribe[rebalance protocol = COOPERATIVE]</td>
+<td class="success">0.002s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testRebalanceAfterTopicUnavailableWithSubscribe[rebalance protocol = EAGER]</td>
+<td class="success">0.005s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testRebalanceInProgressOnSyncGroup[rebalance protocol = COOPERATIVE]</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testRebalanceInProgressOnSyncGroup[rebalance protocol = EAGER]</td>
+<td class="success">0.002s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testRebalanceWithMetadataChange[rebalance protocol = COOPERATIVE]</td>
+<td class="success">0.003s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testRebalanceWithMetadataChange[rebalance protocol = EAGER]</td>
+<td class="success">0.006s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testRefreshOffsetLoadInProgress[rebalance protocol = COOPERATIVE]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testRefreshOffsetLoadInProgress[rebalance protocol = EAGER]</td>
+<td class="success">0.004s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testRefreshOffsetNotCoordinatorForConsumer[rebalance protocol = COOPERATIVE]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testRefreshOffsetNotCoordinatorForConsumer[rebalance protocol = EAGER]</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testRefreshOffsetUnknownTopicOrPartition[rebalance protocol = COOPERATIVE]</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testRefreshOffsetUnknownTopicOrPartition[rebalance protocol = EAGER]</td>
+<td class="success">0.006s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testRefreshOffsetWithNoFetchableOffsets[rebalance protocol = COOPERATIVE]</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testRefreshOffsetWithNoFetchableOffsets[rebalance protocol = EAGER]</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testRefreshOffsetWithPendingTransactions[rebalance protocol = COOPERATIVE]</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testRefreshOffsetWithPendingTransactions[rebalance protocol = EAGER]</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testRefreshOffsetWithValidation[rebalance protocol = COOPERATIVE]</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testRefreshOffsetWithValidation[rebalance protocol = EAGER]</td>
+<td class="success">0.004s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testRefreshOffset[rebalance protocol = COOPERATIVE]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testRefreshOffset[rebalance protocol = EAGER]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testRefreshOffsetsGroupNotAuthorized[rebalance protocol = COOPERATIVE]</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testRefreshOffsetsGroupNotAuthorized[rebalance protocol = EAGER]</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testRejoinGroup[rebalance protocol = COOPERATIVE]</td>
+<td class="success">0.002s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testRejoinGroup[rebalance protocol = EAGER]</td>
+<td class="success">0.002s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testRetryCommitUnknownTopicOrPartition[rebalance protocol = COOPERATIVE]</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testRetryCommitUnknownTopicOrPartition[rebalance protocol = EAGER]</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testRevokeExceptionThrownFirstNonBlockingSubCallbacks[rebalance protocol = COOPERATIVE]</td>
+<td class="success">0.003s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testRevokeExceptionThrownFirstNonBlockingSubCallbacks[rebalance protocol = EAGER]</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testSelectRebalanceProtcol[rebalance protocol = COOPERATIVE]</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testSelectRebalanceProtcol[rebalance protocol = EAGER]</td>
+<td class="success">0.003s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testSubscriptionChangeWithAuthorizationFailure[rebalance protocol = COOPERATIVE]</td>
+<td class="success">0.003s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testSubscriptionChangeWithAuthorizationFailure[rebalance protocol = EAGER]</td>
+<td class="success">0.091s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testThreadSafeAssignedPartitionsMetric[rebalance protocol = COOPERATIVE]</td>
+<td class="success">0.002s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testThreadSafeAssignedPartitionsMetric[rebalance protocol = EAGER]</td>
+<td class="success">0.004s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testThrowOnUnsupportedStableFlag[rebalance protocol = COOPERATIVE]</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testThrowOnUnsupportedStableFlag[rebalance protocol = EAGER]</td>
+<td class="success">0.002s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testTopicAuthorizationFailedInOffsetFetch[rebalance protocol = COOPERATIVE]</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testTopicAuthorizationFailedInOffsetFetch[rebalance protocol = EAGER]</td>
+<td class="success">0.002s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testUnexpectedErrorOnSyncGroup[rebalance protocol = COOPERATIVE]</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testUnexpectedErrorOnSyncGroup[rebalance protocol = EAGER]</td>
+<td class="success">0.002s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testUnknownMemberIdOnSyncGroup[rebalance protocol = COOPERATIVE]</td>
+<td class="success">0.002s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testUnknownMemberIdOnSyncGroup[rebalance protocol = EAGER]</td>
+<td class="success">0.002s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testUnknownMemberId[rebalance protocol = COOPERATIVE]</td>
+<td class="success">0.002s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testUnknownMemberId[rebalance protocol = EAGER]</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testUnsubscribeWithInvalidGeneration[rebalance protocol = COOPERATIVE]</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testUnsubscribeWithInvalidGeneration[rebalance protocol = EAGER]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testUnsubscribeWithValidGeneration[rebalance protocol = COOPERATIVE]</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testUnsubscribeWithValidGeneration[rebalance protocol = EAGER]</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testUpdateLastHeartbeatPollWhenCoordinatorUnknown[rebalance protocol = COOPERATIVE]</td>
+<td class="success">0.108s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testUpdateLastHeartbeatPollWhenCoordinatorUnknown[rebalance protocol = EAGER]</td>
+<td class="success">0.205s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testUpdateMetadataDuringRebalance[rebalance protocol = COOPERATIVE]</td>
+<td class="success">0.006s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testUpdateMetadataDuringRebalance[rebalance protocol = EAGER]</td>
+<td class="success">0.005s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testWakeupDuringJoin[rebalance protocol = COOPERATIVE]</td>
+<td class="success">0.002s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testWakeupDuringJoin[rebalance protocol = EAGER]</td>
+<td class="success">0.002s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testWakeupFromAssignmentCallback[rebalance protocol = COOPERATIVE]</td>
+<td class="success">0.002s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testWakeupFromAssignmentCallback[rebalance protocol = EAGER]</td>
+<td class="success">0.002s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>[2020-10-29 10:31:41,113] ERROR Topic authorization failed for topics [test2] (org.apache.kafka.clients.Metadata:301)
+[2020-10-29 10:31:41,128] ERROR JoinGroup failed due to fatal error: Group authorization failed. (org.apache.kafka.clients.consumer.internals.AbstractCoordinator:632)
+[2020-10-29 10:31:41,145] ERROR JoinGroup failed due to fatal error: The session timeout is not within the range allowed by the broker (as configured by group.min.session.timeout.ms and group.max.session.timeout.ms). (org.apache.kafka.clients.consumer.internals.AbstractCoordinator:632)
+[2020-10-29 10:31:41,167] ERROR User provided listener org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest$5 failed on invocation of onPartitionsAssigned for partitions [test1-0] (org.apache.kafka.clients.consumer.internals.ConsumerCoordinator:298)
+org.apache.kafka.common.KafkaException: Kaboom on partition assign!
+	at org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest$5.onPartitionsAssigned(ConsumerCoordinatorTest.java:522)
+	at org.apache.kafka.clients.consumer.internals.ConsumerCoordinator.invokePartitionsAssigned(ConsumerCoordinator.java:293)
+	at org.apache.kafka.clients.consumer.internals.ConsumerCoordinator.onJoinComplete(ConsumerCoordinator.java:430)
+	at org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest.lambda$verifyOnCallbackExceptions$2(ConsumerCoordinatorTest.java:594)
+	at org.junit.Assert.assertThrows(Assert.java:1001)
+	at org.junit.Assert.assertThrows(Assert.java:981)
+	at org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest.verifyOnCallbackExceptions(ConsumerCoordinatorTest.java:593)
+	at org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest.testOnPartitionsAssignExceptionThrownWhenNoPreviousThrownCallbacks(ConsumerCoordinatorTest.java:526)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.runTestClass(JUnitTestClassExecutor.java:110)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:58)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:38)
+	at org.gradle.api.internal.tasks.testing.junit.AbstractJUnitTestClassProcessor.processTestClass(AbstractJUnitTestClassProcessor.java:62)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.processTestClass(SuiteTestClassProcessor.java:51)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:94)
+	at com.sun.proxy.$Proxy2.processTestClass(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.processTestClass(TestWorker.java:119)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:182)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:164)
+	at org.gradle.internal.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:414)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:64)
+	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:48)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:56)
+	at java.lang.Thread.run(Thread.java:748)
+[2020-10-29 10:31:44,067] ERROR Offset commit failed on partition test1-0 at offset 100: Specified group generation id is not valid. (org.apache.kafka.clients.consumer.internals.ConsumerCoordinator:1190)
+[2020-10-29 10:31:44,282] ERROR User provided listener org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest$7 failed on invocation of onPartitionsAssigned for partitions [test1-0] (org.apache.kafka.clients.consumer.internals.ConsumerCoordinator:298)
+org.apache.kafka.common.KafkaException: Kaboom on partition assign!
+	at org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest$7.onPartitionsAssigned(ConsumerCoordinatorTest.java:557)
+	at org.apache.kafka.clients.consumer.internals.ConsumerCoordinator.invokePartitionsAssigned(ConsumerCoordinator.java:293)
+	at org.apache.kafka.clients.consumer.internals.ConsumerCoordinator.onJoinComplete(ConsumerCoordinator.java:430)
+	at org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest.lambda$verifyOnCallbackExceptions$2(ConsumerCoordinatorTest.java:594)
+	at org.junit.Assert.assertThrows(Assert.java:1001)
+	at org.junit.Assert.assertThrows(Assert.java:981)
+	at org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest.verifyOnCallbackExceptions(ConsumerCoordinatorTest.java:593)
+	at org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest.testOnAssignmentExceptionShouldBeRenderedIfNotKafkaException(ConsumerCoordinatorTest.java:560)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.runTestClass(JUnitTestClassExecutor.java:110)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:58)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:38)
+	at org.gradle.api.internal.tasks.testing.junit.AbstractJUnitTestClassProcessor.processTestClass(AbstractJUnitTestClassProcessor.java:62)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.processTestClass(SuiteTestClassProcessor.java:51)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:94)
+	at com.sun.proxy.$Proxy2.processTestClass(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.processTestClass(TestWorker.java:119)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:182)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:164)
+	at org.gradle.internal.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:414)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:64)
+	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:48)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:56)
+	at java.lang.Thread.run(Thread.java:748)
+[2020-10-29 10:31:44,493] ERROR Offset commit failed on partition test1-0 at offset 100: The server experienced an unexpected error when processing the request. (org.apache.kafka.clients.consumer.internals.ConsumerCoordinator:1190)
+[2020-10-29 10:31:44,628] ERROR Offset commit failed on partition test1-0 at offset 100: The group is rebalancing, so a rejoin is needed. (org.apache.kafka.clients.consumer.internals.ConsumerCoordinator:1190)
+[2020-10-29 10:31:45,381] ERROR Offset commit failed on partition test1-0 at offset 100: The broker rejected this static consumer since another consumer with the same group.instance.id has registered with a different member.id. (org.apache.kafka.clients.consumer.internals.ConsumerCoordinator:1190)
+[2020-10-29 10:31:45,387] ERROR Offset commit failed on partition test1-0 at offset 100: The coordinator is not aware of this member. (org.apache.kafka.clients.consumer.internals.ConsumerCoordinator:1190)
+[2020-10-29 10:31:46,098] ERROR Offset commit failed on partition test1-0 at offset 100: The group is rebalancing, so a rejoin is needed. (org.apache.kafka.clients.consumer.internals.ConsumerCoordinator:1190)
+[ClientRequest(expectResponse=true, callback=org.apache.kafka.clients.consumer.internals.ConsumerNetworkClient$RequestFutureCompletionHandler@55dd6ac5, destination=2147483647, correlationId=6, clientId=mockClientId, createdTimeMs=1603938706096, requestBuilder=JoinGroupRequestData(groupId='test-group', sessionTimeoutMs=10000, rebalanceTimeoutMs=60000, memberId='', groupInstanceId='group-id', protocolType='consumer', protocols=[JoinGroupRequestProtocol(name='consumer-mock-assignor', metadata=[0, 1, 0, 0, 0, 1, 0, 5, 116, 101, 115, 116, 49, -1, -1, -1, -1, 0, 0, 0, 0]), JoinGroupRequestProtocol(name='throw-on-assignment-assignor', metadata=[0, 1, 0, 0, 0, 1, 0, 5, 116, 101, 115, 116, 49, -1, -1, -1, -1, 0, 0, 0, 0]), JoinGroupRequestProtocol(name='throw-fatal-error-on-assignment-assignor', metadata=[0, 1, 0, 0, 0, 1, 0, 5, 116, 101, 115, 116, 49, -1, -1, -1, -1, 0, 0, 0, 0])]))]
+[2020-10-29 10:31:46,101] ERROR Offset commit failed on partition test1-0 at offset 100: The broker rejected this static consumer since another consumer with the same group.instance.id has registered with a different member.id. (org.apache.kafka.clients.consumer.internals.ConsumerCoordinator:1190)
+[2020-10-29 10:31:46,121] ERROR Offset commit failed on partition test1-0 at offset 100: The coordinator is not aware of this member. (org.apache.kafka.clients.consumer.internals.ConsumerCoordinator:1190)
+[2020-10-29 10:31:46,126] ERROR JoinGroup failed due to fatal error: Group authorization failed. (org.apache.kafka.clients.consumer.internals.AbstractCoordinator:632)
+[2020-10-29 10:31:46,129] ERROR User provided listener org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest$4 failed on invocation of onPartitionsAssigned for partitions [test1-0] (org.apache.kafka.clients.consumer.internals.ConsumerCoordinator:298)
+org.apache.kafka.common.KafkaException: Kaboom on partition assign!
+	at org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest$4.onPartitionsAssigned(ConsumerCoordinatorTest.java:508)
+	at org.apache.kafka.clients.consumer.internals.ConsumerCoordinator.invokePartitionsAssigned(ConsumerCoordinator.java:293)
+	at org.apache.kafka.clients.consumer.internals.ConsumerCoordinator.onJoinComplete(ConsumerCoordinator.java:430)
+	at org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest.lambda$verifyOnCallbackExceptions$2(ConsumerCoordinatorTest.java:594)
+	at org.junit.Assert.assertThrows(Assert.java:1001)
+	at org.junit.Assert.assertThrows(Assert.java:981)
+	at org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest.verifyOnCallbackExceptions(ConsumerCoordinatorTest.java:593)
+	at org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest.testOnAssignmentExceptionThrownFirstNonBlockingSubCallbacks(ConsumerCoordinatorTest.java:512)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.runTestClass(JUnitTestClassExecutor.java:110)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:58)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:38)
+	at org.gradle.api.internal.tasks.testing.junit.AbstractJUnitTestClassProcessor.processTestClass(AbstractJUnitTestClassProcessor.java:62)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.processTestClass(SuiteTestClassProcessor.java:51)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:94)
+	at com.sun.proxy.$Proxy2.processTestClass(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.processTestClass(TestWorker.java:119)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:182)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:164)
+	at org.gradle.internal.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:414)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:64)
+	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:48)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:56)
+	at java.lang.Thread.run(Thread.java:748)
+[2020-10-29 10:31:46,136] ERROR Offset commit failed on partition test1-0 at offset 100: The coordinator is not aware of this member. (org.apache.kafka.clients.consumer.internals.ConsumerCoordinator:1190)
+[2020-10-29 10:31:46,778] ERROR Offset commit failed on partition test1-0 at offset 100: The broker rejected this static consumer since another consumer with the same group.instance.id has registered with a different member.id. (org.apache.kafka.clients.consumer.internals.ConsumerCoordinator:1190)
+[2020-10-29 10:31:46,789] ERROR User provided listener org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest$8 failed on invocation of onPartitionsAssigned for partitions [test1-0] (org.apache.kafka.clients.consumer.internals.ConsumerCoordinator:298)
+java.lang.IllegalStateException: Illegal state on partition assign!
+	at org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest$8.onPartitionsAssigned(ConsumerCoordinatorTest.java:571)
+	at org.apache.kafka.clients.consumer.internals.ConsumerCoordinator.invokePartitionsAssigned(ConsumerCoordinator.java:293)
+	at org.apache.kafka.clients.consumer.internals.ConsumerCoordinator.onJoinComplete(ConsumerCoordinator.java:430)
+	at org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest.lambda$verifyOnCallbackExceptions$2(ConsumerCoordinatorTest.java:594)
+	at org.junit.Assert.assertThrows(Assert.java:1001)
+	at org.junit.Assert.assertThrows(Assert.java:981)
+	at org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest.verifyOnCallbackExceptions(ConsumerCoordinatorTest.java:593)
+	at org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest.testOnPartitionsAssignExceptionShouldBeRenderedIfNotKafkaException(ConsumerCoordinatorTest.java:575)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.runTestClass(JUnitTestClassExecutor.java:110)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:58)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:38)
+	at org.gradle.api.internal.tasks.testing.junit.AbstractJUnitTestClassProcessor.processTestClass(AbstractJUnitTestClassProcessor.java:62)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.processTestClass(SuiteTestClassProcessor.java:51)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:94)
+	at com.sun.proxy.$Proxy2.processTestClass(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.processTestClass(TestWorker.java:119)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:182)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:164)
+	at org.gradle.internal.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:414)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:64)
+	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:48)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:56)
+	at java.lang.Thread.run(Thread.java:748)
+[2020-10-29 10:31:46,798] ERROR Offset commit failed on partition test1-0 at offset 100: The broker rejected this static consumer since another consumer with the same group.instance.id has registered with a different member.id. (org.apache.kafka.clients.consumer.internals.ConsumerCoordinator:1190)
+[2020-10-29 10:31:46,799] ERROR Offset commit failed on partition test1-0 at offset 100: The metadata field of the offset request was too large. (org.apache.kafka.clients.consumer.internals.ConsumerCoordinator:1190)
+[2020-10-29 10:31:46,801] ERROR Offset commit failed on partition test1-0 at offset 100: Specified group generation id is not valid. (org.apache.kafka.clients.consumer.internals.ConsumerCoordinator:1190)
+[2020-10-29 10:31:46,962] ERROR Offset commit failed on partition test1-0 at offset 100: The broker rejected this static consumer since another consumer with the same group.instance.id has registered with a different member.id. (org.apache.kafka.clients.consumer.internals.ConsumerCoordinator:1190)
+[2020-10-29 10:31:46,971] ERROR JoinGroup failed due to fatal error: The configured groupId is invalid. (org.apache.kafka.clients.consumer.internals.AbstractCoordinator:632)
+[2020-10-29 10:31:46,973] ERROR Offset commit failed on partition test1-0 at offset 100: Specified group generation id is not valid. (org.apache.kafka.clients.consumer.internals.ConsumerCoordinator:1190)
+[2020-10-29 10:31:47,184] ERROR Topic authorization failed for topics [test2] (org.apache.kafka.clients.Metadata:301)
+[2020-10-29 10:31:47,185] ERROR JoinGroup failed due to fatal error: Group authorization failed. (org.apache.kafka.clients.consumer.internals.AbstractCoordinator:632)
+[2020-10-29 10:31:47,188] ERROR JoinGroup failed due to fatal error: The session timeout is not within the range allowed by the broker (as configured by group.min.session.timeout.ms and group.max.session.timeout.ms). (org.apache.kafka.clients.consumer.internals.AbstractCoordinator:632)
+[2020-10-29 10:31:47,195] ERROR User provided listener org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest$5 failed on invocation of onPartitionsAssigned for partitions [test1-0] (org.apache.kafka.clients.consumer.internals.ConsumerCoordinator:298)
+org.apache.kafka.common.KafkaException: Kaboom on partition assign!
+	at org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest$5.onPartitionsAssigned(ConsumerCoordinatorTest.java:522)
+	at org.apache.kafka.clients.consumer.internals.ConsumerCoordinator.invokePartitionsAssigned(ConsumerCoordinator.java:293)
+	at org.apache.kafka.clients.consumer.internals.ConsumerCoordinator.onJoinComplete(ConsumerCoordinator.java:430)
+	at org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest.lambda$verifyOnCallbackExceptions$2(ConsumerCoordinatorTest.java:594)
+	at org.junit.Assert.assertThrows(Assert.java:1001)
+	at org.junit.Assert.assertThrows(Assert.java:981)
+	at org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest.verifyOnCallbackExceptions(ConsumerCoordinatorTest.java:593)
+	at org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest.testOnPartitionsAssignExceptionThrownWhenNoPreviousThrownCallbacks(ConsumerCoordinatorTest.java:526)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.runTestClass(JUnitTestClassExecutor.java:110)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:58)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:38)
+	at org.gradle.api.internal.tasks.testing.junit.AbstractJUnitTestClassProcessor.processTestClass(AbstractJUnitTestClassProcessor.java:62)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.processTestClass(SuiteTestClassProcessor.java:51)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:94)
+	at com.sun.proxy.$Proxy2.processTestClass(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.processTestClass(TestWorker.java:119)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:182)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:164)
+	at org.gradle.internal.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:414)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:64)
+	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:48)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:56)
+	at java.lang.Thread.run(Thread.java:748)
+[2020-10-29 10:31:49,929] ERROR Offset commit failed on partition test1-0 at offset 100: Specified group generation id is not valid. (org.apache.kafka.clients.consumer.internals.ConsumerCoordinator:1190)
+[2020-10-29 10:31:50,142] ERROR User provided listener org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest$3 failed on invocation of onPartitionsRevoked for partitions [test2-0] (org.apache.kafka.clients.consumer.internals.ConsumerCoordinator:317)
+org.apache.kafka.common.KafkaException: Kaboom on revoke!
+	at org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest$3.onPartitionsRevoked(ConsumerCoordinatorTest.java:488)
+	at org.apache.kafka.clients.consumer.internals.ConsumerCoordinator.invokePartitionsRevoked(ConsumerCoordinator.java:312)
+	at org.apache.kafka.clients.consumer.internals.ConsumerCoordinator.onJoinComplete(ConsumerCoordinator.java:408)
+	at org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest.lambda$verifyOnCallbackExceptions$2(ConsumerCoordinatorTest.java:594)
+	at org.junit.Assert.assertThrows(Assert.java:1001)
+	at org.junit.Assert.assertThrows(Assert.java:981)
+	at org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest.verifyOnCallbackExceptions(ConsumerCoordinatorTest.java:593)
+	at org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest.testRevokeExceptionThrownFirstNonBlockingSubCallbacks(ConsumerCoordinatorTest.java:493)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.runTestClass(JUnitTestClassExecutor.java:110)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:58)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:38)
+	at org.gradle.api.internal.tasks.testing.junit.AbstractJUnitTestClassProcessor.processTestClass(AbstractJUnitTestClassProcessor.java:62)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.processTestClass(SuiteTestClassProcessor.java:51)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:94)
+	at com.sun.proxy.$Proxy2.processTestClass(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.processTestClass(TestWorker.java:119)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:182)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:164)
+	at org.gradle.internal.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:414)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:64)
+	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:48)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:56)
+	at java.lang.Thread.run(Thread.java:748)
+[2020-10-29 10:31:50,146] ERROR User provided listener org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest$7 failed on invocation of onPartitionsAssigned for partitions [test1-0] (org.apache.kafka.clients.consumer.internals.ConsumerCoordinator:298)
+org.apache.kafka.common.KafkaException: Kaboom on partition assign!
+	at org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest$7.onPartitionsAssigned(ConsumerCoordinatorTest.java:557)
+	at org.apache.kafka.clients.consumer.internals.ConsumerCoordinator.invokePartitionsAssigned(ConsumerCoordinator.java:293)
+	at org.apache.kafka.clients.consumer.internals.ConsumerCoordinator.onJoinComplete(ConsumerCoordinator.java:430)
+	at org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest.lambda$verifyOnCallbackExceptions$2(ConsumerCoordinatorTest.java:594)
+	at org.junit.Assert.assertThrows(Assert.java:1001)
+	at org.junit.Assert.assertThrows(Assert.java:981)
+	at org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest.verifyOnCallbackExceptions(ConsumerCoordinatorTest.java:593)
+	at org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest.testOnAssignmentExceptionShouldBeRenderedIfNotKafkaException(ConsumerCoordinatorTest.java:560)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.runTestClass(JUnitTestClassExecutor.java:110)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:58)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:38)
+	at org.gradle.api.internal.tasks.testing.junit.AbstractJUnitTestClassProcessor.processTestClass(AbstractJUnitTestClassProcessor.java:62)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.processTestClass(SuiteTestClassProcessor.java:51)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:94)
+	at com.sun.proxy.$Proxy2.processTestClass(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.processTestClass(TestWorker.java:119)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:182)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:164)
+	at org.gradle.internal.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:414)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:64)
+	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:48)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:56)
+	at java.lang.Thread.run(Thread.java:748)
+[2020-10-29 10:31:50,256] ERROR Offset commit failed on partition test1-0 at offset 100: The server experienced an unexpected error when processing the request. (org.apache.kafka.clients.consumer.internals.ConsumerCoordinator:1190)
+[2020-10-29 10:31:50,379] ERROR Offset commit failed on partition test1-0 at offset 100: The group is rebalancing, so a rejoin is needed. (org.apache.kafka.clients.consumer.internals.ConsumerCoordinator:1190)
+[2020-10-29 10:31:51,085] ERROR User provided listener org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest$6 failed on invocation of onPartitionsRevoked for partitions [test2-0] (org.apache.kafka.clients.consumer.internals.ConsumerCoordinator:317)
+java.lang.IllegalStateException: Illegal state on partition revoke!
+	at org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest$6.onPartitionsRevoked(ConsumerCoordinatorTest.java:536)
+	at org.apache.kafka.clients.consumer.internals.ConsumerCoordinator.invokePartitionsRevoked(ConsumerCoordinator.java:312)
+	at org.apache.kafka.clients.consumer.internals.ConsumerCoordinator.onJoinComplete(ConsumerCoordinator.java:408)
+	at org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest.lambda$verifyOnCallbackExceptions$2(ConsumerCoordinatorTest.java:594)
+	at org.junit.Assert.assertThrows(Assert.java:1001)
+	at org.junit.Assert.assertThrows(Assert.java:981)
+	at org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest.verifyOnCallbackExceptions(ConsumerCoordinatorTest.java:593)
+	at org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest.testOnRevokeExceptionShouldBeRenderedIfNotKafkaException(ConsumerCoordinatorTest.java:541)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.runTestClass(JUnitTestClassExecutor.java:110)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:58)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:38)
+	at org.gradle.api.internal.tasks.testing.junit.AbstractJUnitTestClassProcessor.processTestClass(AbstractJUnitTestClassProcessor.java:62)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.processTestClass(SuiteTestClassProcessor.java:51)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:94)
+	at com.sun.proxy.$Proxy2.processTestClass(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.processTestClass(TestWorker.java:119)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:182)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:164)
+	at org.gradle.internal.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:414)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:64)
+	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:48)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:56)
+	at java.lang.Thread.run(Thread.java:748)
+[2020-10-29 10:31:51,091] ERROR Offset commit failed on partition test1-0 at offset 100: The broker rejected this static consumer since another consumer with the same group.instance.id has registered with a different member.id. (org.apache.kafka.clients.consumer.internals.ConsumerCoordinator:1190)
+[2020-10-29 10:31:51,098] ERROR Offset commit failed on partition test1-0 at offset 100: The coordinator is not aware of this member. (org.apache.kafka.clients.consumer.internals.ConsumerCoordinator:1190)
+[2020-10-29 10:31:51,838] ERROR Offset commit failed on partition test1-0 at offset 100: The group is rebalancing, so a rejoin is needed. (org.apache.kafka.clients.consumer.internals.ConsumerCoordinator:1190)
+[ClientRequest(expectResponse=true, callback=org.apache.kafka.clients.consumer.internals.ConsumerNetworkClient$RequestFutureCompletionHandler@617bfdc, destination=2147483647, correlationId=6, clientId=mockClientId, createdTimeMs=1603938711837, requestBuilder=JoinGroupRequestData(groupId='test-group', sessionTimeoutMs=10000, rebalanceTimeoutMs=60000, memberId='', groupInstanceId='group-id', protocolType='consumer', protocols=[JoinGroupRequestProtocol(name='consumer-mock-assignor', metadata=[0, 1, 0, 0, 0, 1, 0, 5, 116, 101, 115, 116, 49, -1, -1, -1, -1, 0, 0, 0, 1, 0, 5, 116, 101, 115, 116, 49, 0, 0, 0, 1, 0, 0, 0, 0]), JoinGroupRequestProtocol(name='throw-on-assignment-assignor', metadata=[0, 1, 0, 0, 0, 1, 0, 5, 116, 101, 115, 116, 49, -1, -1, -1, -1, 0, 0, 0, 1, 0, 5, 116, 101, 115, 116, 49, 0, 0, 0, 1, 0, 0, 0, 0]), JoinGroupRequestProtocol(name='throw-fatal-error-on-assignment-assignor', metadata=[0, 1, 0, 0, 0, 1, 0, 5, 116, 101, 115, 116, 49, -1, -1, -1, -1, 0, 0, 0, 1, 0, 5, 116, 101, 115, 116, 49, 0, 0, 0, 1, 0, 0, 0, 0])]))]
+[2020-10-29 10:31:51,840] ERROR Offset commit failed on partition test1-0 at offset 100: The broker rejected this static consumer since another consumer with the same group.instance.id has registered with a different member.id. (org.apache.kafka.clients.consumer.internals.ConsumerCoordinator:1190)
+[2020-10-29 10:31:51,850] ERROR Offset commit failed on partition test1-0 at offset 100: The coordinator is not aware of this member. (org.apache.kafka.clients.consumer.internals.ConsumerCoordinator:1190)
+[2020-10-29 10:31:51,853] ERROR JoinGroup failed due to fatal error: Group authorization failed. (org.apache.kafka.clients.consumer.internals.AbstractCoordinator:632)
+[2020-10-29 10:31:51,855] ERROR User provided listener org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest$4 failed on invocation of onPartitionsAssigned for partitions [test1-0] (org.apache.kafka.clients.consumer.internals.ConsumerCoordinator:298)
+org.apache.kafka.common.KafkaException: Kaboom on partition assign!
+	at org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest$4.onPartitionsAssigned(ConsumerCoordinatorTest.java:508)
+	at org.apache.kafka.clients.consumer.internals.ConsumerCoordinator.invokePartitionsAssigned(ConsumerCoordinator.java:293)
+	at org.apache.kafka.clients.consumer.internals.ConsumerCoordinator.onJoinComplete(ConsumerCoordinator.java:430)
+	at org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest.lambda$verifyOnCallbackExceptions$2(ConsumerCoordinatorTest.java:594)
+	at org.junit.Assert.assertThrows(Assert.java:1001)
+	at org.junit.Assert.assertThrows(Assert.java:981)
+	at org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest.verifyOnCallbackExceptions(ConsumerCoordinatorTest.java:593)
+	at org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest.testOnAssignmentExceptionThrownFirstNonBlockingSubCallbacks(ConsumerCoordinatorTest.java:512)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.runTestClass(JUnitTestClassExecutor.java:110)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:58)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:38)
+	at org.gradle.api.internal.tasks.testing.junit.AbstractJUnitTestClassProcessor.processTestClass(AbstractJUnitTestClassProcessor.java:62)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.processTestClass(SuiteTestClassProcessor.java:51)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:94)
+	at com.sun.proxy.$Proxy2.processTestClass(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.processTestClass(TestWorker.java:119)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:182)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:164)
+	at org.gradle.internal.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:414)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:64)
+	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:48)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:56)
+	at java.lang.Thread.run(Thread.java:748)
+[2020-10-29 10:31:51,859] ERROR Offset commit failed on partition test1-0 at offset 100: The coordinator is not aware of this member. (org.apache.kafka.clients.consumer.internals.ConsumerCoordinator:1190)
+[2020-10-29 10:31:52,474] ERROR Offset commit failed on partition test1-0 at offset 100: The broker rejected this static consumer since another consumer with the same group.instance.id has registered with a different member.id. (org.apache.kafka.clients.consumer.internals.ConsumerCoordinator:1190)
+[2020-10-29 10:31:52,476] ERROR User provided listener org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest$8 failed on invocation of onPartitionsAssigned for partitions [test1-0] (org.apache.kafka.clients.consumer.internals.ConsumerCoordinator:298)
+java.lang.IllegalStateException: Illegal state on partition assign!
+	at org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest$8.onPartitionsAssigned(ConsumerCoordinatorTest.java:571)
+	at org.apache.kafka.clients.consumer.internals.ConsumerCoordinator.invokePartitionsAssigned(ConsumerCoordinator.java:293)
+	at org.apache.kafka.clients.consumer.internals.ConsumerCoordinator.onJoinComplete(ConsumerCoordinator.java:430)
+	at org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest.lambda$verifyOnCallbackExceptions$2(ConsumerCoordinatorTest.java:594)
+	at org.junit.Assert.assertThrows(Assert.java:1001)
+	at org.junit.Assert.assertThrows(Assert.java:981)
+	at org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest.verifyOnCallbackExceptions(ConsumerCoordinatorTest.java:593)
+	at org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest.testOnPartitionsAssignExceptionShouldBeRenderedIfNotKafkaException(ConsumerCoordinatorTest.java:575)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.runTestClass(JUnitTestClassExecutor.java:110)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:58)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:38)
+	at org.gradle.api.internal.tasks.testing.junit.AbstractJUnitTestClassProcessor.processTestClass(AbstractJUnitTestClassProcessor.java:62)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.processTestClass(SuiteTestClassProcessor.java:51)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:94)
+	at com.sun.proxy.$Proxy2.processTestClass(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.processTestClass(TestWorker.java:119)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:182)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:164)
+	at org.gradle.internal.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:414)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:64)
+	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:48)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:56)
+	at java.lang.Thread.run(Thread.java:748)
+[2020-10-29 10:31:52,483] ERROR Offset commit failed on partition test1-0 at offset 100: The broker rejected this static consumer since another consumer with the same group.instance.id has registered with a different member.id. (org.apache.kafka.clients.consumer.internals.ConsumerCoordinator:1190)
+[2020-10-29 10:31:52,485] ERROR Offset commit failed on partition test1-0 at offset 100: The metadata field of the offset request was too large. (org.apache.kafka.clients.consumer.internals.ConsumerCoordinator:1190)
+[2020-10-29 10:31:52,486] ERROR Offset commit failed on partition test1-0 at offset 100: Specified group generation id is not valid. (org.apache.kafka.clients.consumer.internals.ConsumerCoordinator:1190)
+[2020-10-29 10:31:52,631] ERROR Offset commit failed on partition test1-0 at offset 100: The broker rejected this static consumer since another consumer with the same group.instance.id has registered with a different member.id. (org.apache.kafka.clients.consumer.internals.ConsumerCoordinator:1190)
+[2020-10-29 10:31:52,637] ERROR JoinGroup failed due to fatal error: The configured groupId is invalid. (org.apache.kafka.clients.consumer.internals.AbstractCoordinator:632)
+[2020-10-29 10:31:52,639] ERROR Offset commit failed on partition test1-0 at offset 100: Specified group generation id is not valid. (org.apache.kafka.clients.consumer.internals.ConsumerCoordinator:1190)
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 6.7</a> at 2020-10-29 10:36:13</p>
+</div>
+</div>
+</body>
+</html>

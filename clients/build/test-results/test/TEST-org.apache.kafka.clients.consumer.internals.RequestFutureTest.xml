@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.apache.kafka.clients.consumer.internals.RequestFutureTest" tests="18" skipped="0" failures="0" errors="0" timestamp="2020-10-29T02:31:40" hostname="chukun-mac" time="0.016">
+  <properties/>
+  <testcase name="invokeValueAfterFailure" classname="org.apache.kafka.clients.consumer.internals.RequestFutureTest" time="0.006"/>
+  <testcase name="listenersInvokedIfAddedBeforeAndAfterFailure" classname="org.apache.kafka.clients.consumer.internals.RequestFutureTest" time="0.0"/>
+  <testcase name="invokeCompleteAfterAlreadyFailed" classname="org.apache.kafka.clients.consumer.internals.RequestFutureTest" time="0.001"/>
+  <testcase name="listenerInvokedIfAddedBeforeFutureFailure" classname="org.apache.kafka.clients.consumer.internals.RequestFutureTest" time="0.0"/>
+  <testcase name="listenersInvokedIfAddedBeforeAndAfterCompletion" classname="org.apache.kafka.clients.consumer.internals.RequestFutureTest" time="0.0"/>
+  <testcase name="invokeCompleteAfterAlreadyComplete" classname="org.apache.kafka.clients.consumer.internals.RequestFutureTest" time="0.0"/>
+  <testcase name="listenerInvokedIfAddedBeforeFutureCompletion" classname="org.apache.kafka.clients.consumer.internals.RequestFutureTest" time="0.0"/>
+  <testcase name="testComposeFailureCase" classname="org.apache.kafka.clients.consumer.internals.RequestFutureTest" time="0.002"/>
+  <testcase name="invokeExceptionAfterSuccess" classname="org.apache.kafka.clients.consumer.internals.RequestFutureTest" time="0.001"/>
+  <testcase name="testComposeSuccessCase" classname="org.apache.kafka.clients.consumer.internals.RequestFutureTest" time="0.0"/>
+  <testcase name="testBasicCompletion" classname="org.apache.kafka.clients.consumer.internals.RequestFutureTest" time="0.001"/>
+  <testcase name="testRuntimeExceptionInComplete" classname="org.apache.kafka.clients.consumer.internals.RequestFutureTest" time="0.001"/>
+  <testcase name="invokeRaiseAfterAlreadyFailed" classname="org.apache.kafka.clients.consumer.internals.RequestFutureTest" time="0.001"/>
+  <testcase name="testBasicFailure" classname="org.apache.kafka.clients.consumer.internals.RequestFutureTest" time="0.001"/>
+  <testcase name="listenerInvokedIfAddedAfterFutureCompletion" classname="org.apache.kafka.clients.consumer.internals.RequestFutureTest" time="0.0"/>
+  <testcase name="invokeRaiseAfterAlreadyCompleted" classname="org.apache.kafka.clients.consumer.internals.RequestFutureTest" time="0.002"/>
+  <testcase name="listenerInvokedIfAddedAfterFutureFailure" classname="org.apache.kafka.clients.consumer.internals.RequestFutureTest" time="0.0"/>
+  <testcase name="testVoidFuture" classname="org.apache.kafka.clients.consumer.internals.RequestFutureTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

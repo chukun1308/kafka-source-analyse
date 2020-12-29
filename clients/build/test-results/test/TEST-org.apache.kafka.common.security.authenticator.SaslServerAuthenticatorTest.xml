@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.apache.kafka.common.security.authenticator.SaslServerAuthenticatorTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2020-10-29T02:31:43" hostname="chukun-mac" time="1.411">
+  <properties/>
+  <testcase name="testUnexpectedRequestType" classname="org.apache.kafka.common.security.authenticator.SaslServerAuthenticatorTest" time="0.314"/>
+  <testcase name="testOversizeRequest" classname="org.apache.kafka.common.security.authenticator.SaslServerAuthenticatorTest" time="0.002"/>
+  <testcase name="testOldestApiVersionsRequest" classname="org.apache.kafka.common.security.authenticator.SaslServerAuthenticatorTest" time="1.09"/>
+  <testcase name="testLatestApiVersionsRequest" classname="org.apache.kafka.common.security.authenticator.SaslServerAuthenticatorTest" time="0.005"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

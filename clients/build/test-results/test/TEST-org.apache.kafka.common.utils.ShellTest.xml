@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.apache.kafka.common.utils.ShellTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2020-10-29T02:31:48" hostname="chukun-mac" time="0.075">
+  <properties/>
+  <testcase name="testEchoHello" classname="org.apache.kafka.common.utils.ShellTest" time="0.026"/>
+  <testcase name="testRunProgramWithErrorReturn" classname="org.apache.kafka.common.utils.ShellTest" time="0.016"/>
+  <testcase name="testHeadDevZero" classname="org.apache.kafka.common.utils.ShellTest" time="0.024"/>
+  <testcase name="testAttemptToRunNonExistentProgram" classname="org.apache.kafka.common.utils.ShellTest" time="0.009"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

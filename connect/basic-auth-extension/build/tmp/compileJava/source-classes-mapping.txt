@@ -1,0 +1,7 @@
+org/apache/kafka/connect/rest/basic/auth/extension/BasicAuthSecurityRestExtension.java
+ org.apache.kafka.connect.rest.basic.auth.extension.BasicAuthSecurityRestExtension
+org/apache/kafka/connect/rest/basic/auth/extension/JaasBasicAuthFilter.java
+ org.apache.kafka.connect.rest.basic.auth.extension.JaasBasicAuthFilter
+ org.apache.kafka.connect.rest.basic.auth.extension.JaasBasicAuthFilter$BasicAuthCallBackHandler
+org/apache/kafka/connect/rest/basic/auth/extension/PropertyFileLoginModule.java
+ org.apache.kafka.connect.rest.basic.auth.extension.PropertyFileLoginModule

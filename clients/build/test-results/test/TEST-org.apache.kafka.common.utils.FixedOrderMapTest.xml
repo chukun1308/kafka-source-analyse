@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.apache.kafka.common.utils.FixedOrderMapTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-10-29T02:36:11" hostname="chukun-mac" time="0.003">
+  <properties/>
+  <testcase name="shouldMaintainOrderWhenAdding" classname="org.apache.kafka.common.utils.FixedOrderMapTest" time="0.003"/>
+  <testcase name="shouldForbidConditionalRemove" classname="org.apache.kafka.common.utils.FixedOrderMapTest" time="0.0"/>
+  <testcase name="shouldForbidRemove" classname="org.apache.kafka.common.utils.FixedOrderMapTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.apache.kafka.common.metrics.MetricsTest" tests="26" skipped="0" failures="0" errors="0" timestamp="2020-10-29T02:31:30" hostname="chukun-mac" time="2.542">
+  <properties/>
+  <testcase name="testSimpleRate" classname="org.apache.kafka.common.metrics.MetricsTest" time="0.184"/>
+  <testcase name="testSimpleStats" classname="org.apache.kafka.common.metrics.MetricsTest" time="0.022"/>
+  <testcase name="testOldDataHasNoEffect" classname="org.apache.kafka.common.metrics.MetricsTest" time="0.001"/>
+  <testcase name="testQuotasEquality" classname="org.apache.kafka.common.metrics.MetricsTest" time="0.006"/>
+  <testcase name="testRemoveInactiveMetrics" classname="org.apache.kafka.common.metrics.MetricsTest" time="0.002"/>
+  <testcase name="testRemoveChildSensor" classname="org.apache.kafka.common.metrics.MetricsTest" time="0.002"/>
+  <testcase name="testPercentilesWithRandomNumbersAndLinearBucketing" classname="org.apache.kafka.common.metrics.MetricsTest" time="0.36"/>
+  <testcase name="shouldPinLargerValuesToMax" classname="org.apache.kafka.common.metrics.MetricsTest" time="0.006"/>
+  <testcase name="shouldPinSmallerValuesToMin" classname="org.apache.kafka.common.metrics.MetricsTest" time="0.002"/>
+  <testcase name="testMetricName" classname="org.apache.kafka.common.metrics.MetricsTest" time="0.002"/>
+  <testcase name="testSampledStatReturnsInitialValueWhenNoValuesExist" classname="org.apache.kafka.common.metrics.MetricsTest" time="0.016"/>
+  <testcase name="testDeprecatedMetricValueMethod" classname="org.apache.kafka.common.metrics.MetricsTest" time="0.006"/>
+  <testcase name="testRateWindowing" classname="org.apache.kafka.common.metrics.MetricsTest" time="0.002"/>
+  <testcase name="testMetricInstances" classname="org.apache.kafka.common.metrics.MetricsTest" time="0.004"/>
+  <testcase name="testTimeWindowing" classname="org.apache.kafka.common.metrics.MetricsTest" time="0.012"/>
+  <testcase name="testEventWindowing" classname="org.apache.kafka.common.metrics.MetricsTest" time="0.002"/>
+  <testcase name="testSampledStatReturnsNaNWhenNoValuesExist" classname="org.apache.kafka.common.metrics.MetricsTest" time="0.001"/>
+  <testcase name="testConcurrentReadUpdate" classname="org.apache.kafka.common.metrics.MetricsTest" time="1.017"/>
+  <testcase name="testRemoveMetric" classname="org.apache.kafka.common.metrics.MetricsTest" time="0.002"/>
+  <testcase name="testBadSensorHierarchy" classname="org.apache.kafka.common.metrics.MetricsTest" time="0.002"/>
+  <testcase name="testRemoveSensor" classname="org.apache.kafka.common.metrics.MetricsTest" time="0.002"/>
+  <testcase name="testConcurrentReadUpdateReport" classname="org.apache.kafka.common.metrics.MetricsTest" time="0.874"/>
+  <testcase name="testPercentiles" classname="org.apache.kafka.common.metrics.MetricsTest" time="0.002"/>
+  <testcase name="testDuplicateMetricName" classname="org.apache.kafka.common.metrics.MetricsTest" time="0.001"/>
+  <testcase name="testQuotas" classname="org.apache.kafka.common.metrics.MetricsTest" time="0.004"/>
+  <testcase name="testHierarchicalSensors" classname="org.apache.kafka.common.metrics.MetricsTest" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
