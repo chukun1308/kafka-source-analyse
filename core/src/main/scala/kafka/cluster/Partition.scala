@@ -909,24 +909,28 @@ class Partition(val topicPartition: TopicPartition,
   private def tryCompleteDelayedRequests(): Unit = delayedOperations.checkAndCompleteAll()
 
   def maybeShrinkIsr(): Unit = {
+    // 判断是否需要Isr收缩
     val needsIsrUpdate = !isrState.isInflight && inReadLock(leaderIsrUpdateLock) {
       needsShrinkIsr()
     }
     val leaderHWIncremented = needsIsrUpdate && inWriteLock(leaderIsrUpdateLock) {
       leaderLogIfLocal.exists { leaderLog =>
+        // 获取不同步的副本id列表
         val outOfSyncReplicaIds = getOutOfSyncReplicas(replicaLagTimeMaxMs)
         if (outOfSyncReplicaIds.nonEmpty) {
           val outOfSyncReplicaLog = outOfSyncReplicaIds.map { replicaId =>
             s"(brokerId: $replicaId, endOffset: ${getReplicaOrException(replicaId).logEndOffset})"
           }.mkString(" ")
+          // 计算新的Isr列表
           val newIsrLog = (isrState.isr -- outOfSyncReplicaIds).mkString(",")
           info(s"Shrinking ISR from ${isrState.isr.mkString(",")} to $newIsrLog. " +
                s"Leader: (highWatermark: ${leaderLog.highWatermark}, endOffset: ${leaderLog.logEndOffset}). " +
                s"Out of sync replicas: $outOfSyncReplicaLog.")
-
+          // 更新zk分区的ISR数据以及Broke的元数据缓存的数据
           shrinkIsr(outOfSyncReplicaIds)
 
           // we may need to increment high watermark since ISR could be down to 1
+          // 尝试更新leader副本的高水位值
           maybeIncrementLeaderHW(leaderLog)
         } else {
           false
