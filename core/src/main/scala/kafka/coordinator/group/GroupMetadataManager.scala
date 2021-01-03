@@ -54,6 +54,16 @@ import scala.collection._
 import scala.collection.mutable.ArrayBuffer
 import scala.jdk.CollectionConverters._
 
+/**
+ *
+ * @param brokerId 所在的broker的 id
+ * @param interBrokerProtocolVersion Broker端参数inter.broker.protocol.version的值
+ * @param config 内部位移主题的配置类
+ * @param replicaManager 副本管理类
+ * @param zkClient zk客户端
+ * @param time
+ * @param metrics
+ */
 class GroupMetadataManager(brokerId: Int,
                            interBrokerProtocolVersion: ApiVersion,
                            config: OffsetConfig,
@@ -62,23 +72,28 @@ class GroupMetadataManager(brokerId: Int,
                            time: Time,
                            metrics: Metrics) extends Logging with KafkaMetricsGroup {
 
+  // 压缩器类型，向位移主题写入消息时执行压缩操作
   private val compressionType: CompressionType = CompressionType.forId(config.offsetsTopicCompressionCodec.codec)
 
+  // 消费者组元数据容器，保存Broker管理的所有消费者组的数据
   private val groupMetadataCache = new Pool[String, GroupMetadata]
 
   /* lock protecting access to loading and owned partition sets */
   private val partitionLock = new ReentrantLock()
 
   /* partitions of consumer groups that are being loaded, its lock should be always called BEFORE the group lock if needed */
+  // 位移主题下正在执行加载操作的分区
   private val loadingPartitions: mutable.Set[Int] = mutable.Set()
 
   /* partitions of consumer groups that are assigned, using the same loading partition lock */
+  // 位移主题(__consumer_offset)下完成加载操作的分区
   private val ownedPartitions: mutable.Set[Int] = mutable.Set()
 
   /* shutting down flag */
   private val shuttingDown = new AtomicBoolean(false)
 
   /* number of partitions for the consumer metadata topic */
+  // 位移主题(__consumer_offset)总分区数
   private val groupMetadataTopicPartitionCount = getGroupMetadataTopicPartitionCount
 
   /* single-thread scheduler to handle offset/group metadata cache loading and unloading */
@@ -187,6 +202,7 @@ class GroupMetadataManager(brokerId: Int,
 
   def isPartitionLoading(partition: Int) = inLock(partitionLock) { loadingPartitions.contains(partition) }
 
+  // 消费者组名哈希值与位移主题分区取模
   def partitionFor(groupId: String): Int = Utils.abs(groupId.hashCode) % groupMetadataTopicPartitionCount
 
   def isGroupLocal(groupId: String): Boolean = isPartitionOwned(partitionFor(groupId))
@@ -212,6 +228,7 @@ class GroupMetadataManager(brokerId: Int,
 
   /**
    * Get the group associated with the given groupId or null if not found
+   * 返回给定的消费者组的元数据信息，如果不存在就返回None
    */
   def getGroup(groupId: String): Option[GroupMetadata] = {
     Option(groupMetadataCache.get(groupId))
@@ -220,11 +237,13 @@ class GroupMetadataManager(brokerId: Int,
   /**
    * Get the group associated with the given groupId - the group is created if createIfNotExist
    * is true - or null if not found
+   * 返回给定消息者组的元数据，若不存在，则视createIfNotExist参数的值决定是否需要添加该消费者组
    */
   def getOrMaybeCreateGroup(groupId: String, createIfNotExist: Boolean): Option[GroupMetadata] = {
-    if (createIfNotExist)
+    if (createIfNotExist) {
+      // 若不存在且允许添加，则添加一个状态是Empty的消费者组元数据对象
       Option(groupMetadataCache.getAndMaybePut(groupId, new GroupMetadata(groupId, Empty, time)))
-    else
+    } else
       Option(groupMetadataCache.get(groupId))
   }
 
@@ -248,9 +267,11 @@ class GroupMetadataManager(brokerId: Int,
         // We always use CREATE_TIME, like the producer. The conversion to LOG_APPEND_TIME (if necessary) happens automatically.
         val timestampType = TimestampType.CREATE_TIME
         val timestamp = time.milliseconds()
+        // 构造注册消息的key
         val key = GroupMetadataManager.groupMetadataKey(group.groupId)
+        // 构造注册消息的value
         val value = GroupMetadataManager.groupMetadataValue(group, groupAssignment, interBrokerProtocolVersion)
-
+        // 使用 key与value 构造待写入消息集合
         val records = {
           val buffer = ByteBuffer.allocate(AbstractRecords.estimateSizeInBytes(magicValue, compressionType,
             Seq(new SimpleRecord(timestamp, key, value)).asJava))
@@ -258,7 +279,7 @@ class GroupMetadataManager(brokerId: Int,
           builder.append(timestamp, key, value)
           builder.build()
         }
-
+        // 计算要写入的目标分区
         val groupMetadataPartition = new TopicPartition(Topic.GROUP_METADATA_TOPIC_NAME, partitionFor(group.groupId))
         val groupMetadataRecords = Map(groupMetadataPartition -> records)
         val generationId = group.generationId
@@ -336,6 +357,16 @@ class GroupMetadataManager(brokerId: Int,
 
   /**
    * Store offsets by appending it to the replicated log and then inserting to cache
+   * 保存消费者组位移
+   */
+  /**
+   *
+   * @param group 消费者组元数据
+   * @param consumerId 消费者组成员id
+   * @param offsetMetadata 待保存的位移值，按照分区分组
+   * @param responseCallback 处理完成后的回调函数
+   * @param producerId  事务型Producer ID
+   * @param producerEpoch 事务型Producer Epoch的值
    */
   def storeOffsets(group: GroupMetadata,
                    consumerId: String,
@@ -344,6 +375,7 @@ class GroupMetadataManager(brokerId: Int,
                    producerId: Long = RecordBatch.NO_PRODUCER_ID,
                    producerEpoch: Short = RecordBatch.NO_PRODUCER_EPOCH): Unit = {
     // first filter out partitions with offset metadata size exceeding limit
+    // 过滤出满足特定条件的待保存的位移数据
     val filteredOffsetMetadata = offsetMetadata.filter { case (_, offsetAndMetadata) =>
       validateOffsetMetadataLength(offsetAndMetadata.metadata)
     }
@@ -357,24 +389,28 @@ class GroupMetadataManager(brokerId: Int,
 
     val isTxnOffsetCommit = producerId != RecordBatch.NO_PRODUCER_ID
     // construct the message set to append
+    // 过滤的满足条件的待保存位移的数据为空
     if (filteredOffsetMetadata.isEmpty) {
       // compute the final error codes for the commit response
+      // 构造 OFFSET_METADATA_TOO_LARGE异常并调用responseCallback返回
       val commitStatus = offsetMetadata.map { case (k, _) => k -> Errors.OFFSET_METADATA_TOO_LARGE }
       responseCallback(commitStatus)
       None
     } else {
+      // 查看当前的Broker是否为给定消费者组的Coordinator
       getMagic(partitionFor(group.groupId)) match {
         case Some(magicValue) =>
           // We always use CREATE_TIME, like the producer. The conversion to LOG_APPEND_TIME (if necessary) happens automatically.
           val timestampType = TimestampType.CREATE_TIME
           val timestamp = time.milliseconds()
-
+          // 构造位移主题的位移消息
           val records = filteredOffsetMetadata.map { case (topicPartition, offsetAndMetadata) =>
             val key = GroupMetadataManager.offsetCommitKey(group.groupId, topicPartition)
             val value = GroupMetadataManager.offsetCommitValue(offsetAndMetadata, interBrokerProtocolVersion)
             new SimpleRecord(timestamp, key, value)
           }
           val offsetTopicPartition = new TopicPartition(Topic.GROUP_METADATA_TOPIC_NAME, partitionFor(group.groupId))
+          // 为写入消息创建buffer
           val buffer = ByteBuffer.allocate(AbstractRecords.estimateSizeInBytes(magicValue, compressionType, records.asJava))
 
           if (isTxnOffsetCommit && magicValue < RecordBatch.MAGIC_VALUE_V2)
@@ -389,11 +425,13 @@ class GroupMetadataManager(brokerId: Int,
           // set the callback function to insert offsets into cache after log append completed
           def putCacheCallback(responseStatus: Map[TopicPartition, PartitionResponse]): Unit = {
             // the append response should only contain the topics partition
+            // 确保消息写入到指定位移主题分区，否则抛出异常
             if (responseStatus.size != 1 || !responseStatus.contains(offsetTopicPartition))
               throw new IllegalStateException("Append status %s should only have one partition %s"
                 .format(responseStatus, offsetTopicPartition))
 
             // record the number of offsets committed to the log
+            // 更新已经提交位移指标
             offsetCommitsSensor.record(records.size)
 
             // construct the commit response status and insert
@@ -401,13 +439,17 @@ class GroupMetadataManager(brokerId: Int,
             val status = responseStatus(offsetTopicPartition)
 
             val responseError = group.inLock {
+              // 写入的结果没有错误
               if (status.error == Errors.NONE) {
+                // 不是Dead状态
                 if (!group.is(Dead)) {
                   filteredOffsetMetadata.forKeyValue { (topicPartition, offsetAndMetadata) =>
                     if (isTxnOffsetCommit)
                       group.onTxnOffsetCommitAppend(producerId, topicPartition, CommitRecordMetadataAndOffset(Some(status.baseOffset), offsetAndMetadata))
-                    else
+                    else {
+                      // 调用GroupMetadata的onOffsetCommitAppend方法填充元数据
                       group.onOffsetCommitAppend(topicPartition, CommitRecordMetadataAndOffset(Some(status.baseOffset), offsetAndMetadata))
+                    }
                   }
                 }
                 Errors.NONE
@@ -418,8 +460,10 @@ class GroupMetadataManager(brokerId: Int,
                   filteredOffsetMetadata.forKeyValue { (topicPartition, offsetAndMetadata) =>
                     if (isTxnOffsetCommit)
                       group.failPendingTxnOffsetCommit(producerId, topicPartition)
-                    else
+                    else {
+                      // 取消未完成的位移消息写入
                       group.failPendingOffsetWrite(topicPartition, offsetAndMetadata)
+                    }
                   }
                 }
 
@@ -427,6 +471,7 @@ class GroupMetadataManager(brokerId: Int,
                   s"with generation ${group.generationId} failed when appending to log due to ${status.error.exceptionName}")
 
                 // transform the log append error code to the corresponding the commit status error code
+                // 确认异常的类型
                 status.error match {
                   case Errors.UNKNOWN_TOPIC_OR_PARTITION
                        | Errors.NOT_ENOUGH_REPLICAS
@@ -469,7 +514,7 @@ class GroupMetadataManager(brokerId: Int,
               group.prepareOffsetCommit(offsetMetadata)
             }
           }
-
+          // 写入消息到位移主题，同时调用putCacheCallback方法更新消费者的元数据
           appendForGroup(group, entries, putCacheCallback)
 
         case None =>
@@ -488,6 +533,7 @@ class GroupMetadataManager(brokerId: Int,
    */
   def getOffsets(groupId: String, requireStable: Boolean, topicPartitionsOpt: Option[Seq[TopicPartition]]): Map[TopicPartition, PartitionData] = {
     trace("Getting offsets of %s for group %s.".format(topicPartitionsOpt.getOrElse("all partitions"), groupId))
+    // 根据groupId查询相关的消费者组
     val group = groupMetadataCache.get(groupId)
     if (group == null) {
       topicPartitionsOpt.getOrElse(Seq.empty[TopicPartition]).map { topicPartition =>
@@ -497,6 +543,7 @@ class GroupMetadataManager(brokerId: Int,
       }.toMap
     } else {
       group.inLock {
+        // group处于 Dead状态，就返回空数据
         if (group.is(Dead)) {
           topicPartitionsOpt.getOrElse(Seq.empty[TopicPartition]).map { topicPartition =>
             val partitionData = new PartitionData(OffsetFetchResponse.INVALID_OFFSET,
@@ -512,10 +559,13 @@ class GroupMetadataManager(brokerId: Int,
                 Optional.empty(), "", Errors.UNSTABLE_OFFSET_COMMIT)
             } else {
               val partitionData = group.offset(topicPartition) match {
+                  // 没有该分区位移数据，返回空数据
                 case None =>
                   new PartitionData(OffsetFetchResponse.INVALID_OFFSET,
                     Optional.empty(), "", Errors.NONE)
+                  // 有相应的分区位移数据
                 case Some(offsetAndMetadata) =>
+                  // 构造分区位移相关的数据
                   new PartitionData(offsetAndMetadata.offset,
                     offsetAndMetadata.leaderEpoch, offsetAndMetadata.metadata, Errors.NONE)
               }
@@ -563,35 +613,44 @@ class GroupMetadataManager(brokerId: Int,
   }
 
   private def doLoadGroupsAndOffsets(topicPartition: TopicPartition, onGroupLoaded: GroupMetadata => Unit): Unit = {
+    // 获取当前主题的分区的LEO值，如果当前Broker不是该分区的leader副本，则返回 -1
     def logEndOffset: Long = replicaManager.getLogEndOffset(topicPartition).getOrElse(-1L)
-
+    // 获取位移主题目标分区的日志对象
     replicaManager.getLog(topicPartition) match {
       case None =>
         warn(s"Attempted to load offsets and group metadata from $topicPartition, but found no log")
-
+      // 获取到日志对象
       case Some(log) =>
+        // 已完成位移值加载的分区列表
         val loadedOffsets = mutable.Map[GroupTopicPartition, CommitRecordMetadataAndOffset]()
+        // 处于位移加载中的分区列表，只用于kafka的事务
         val pendingOffsets = mutable.Map[Long, mutable.Map[GroupTopicPartition, CommitRecordMetadataAndOffset]]()
+        // 已完成组信息加载的消费者组列表
         val loadedGroups = mutable.Map[String, GroupMetadata]()
+        // 待移除的消费者列表
         val removedGroups = mutable.Set[String]()
 
         // buffer may not be needed if records are read from memory
+        // 保存消息的buffer缓冲区
         var buffer = ByteBuffer.allocate(0)
 
         // loop breaks if leader changes at any time during the load, since logEndOffset is -1
+        // 位移主题目标分区日志起始位移值
         var currOffset = log.logStartOffset
 
         // loop breaks if no records have been read, since the end of the log has been reached
+        // 至少要求读取一条消息
         var readAtLeastOneRecord = true
-
+        // 当前的读取位移小于 LEO，并且至少读取一条消息
         while (currOffset < logEndOffset && readAtLeastOneRecord && !shuttingDown.get()) {
+          // 读取位移主题指定的分区
           val fetchDataInfo = log.read(currOffset,
             maxLength = config.loadBufferSize,
             isolation = FetchLogEnd,
             minOneMessage = true)
-
+          // 如果无消息可读，则设置 readAtLeastOneRecord = false
           readAtLeastOneRecord = fetchDataInfo.records.sizeInBytes > 0
-
+          // 创建消息集合
           val memRecords = fetchDataInfo.records match {
             case records: MemoryRecords => records
             case fileRecords: FileRecords =>
@@ -612,9 +671,10 @@ class GroupMetadataManager(brokerId: Int,
               fileRecords.readInto(buffer, 0)
               MemoryRecords.readableRecords(buffer)
           }
-
+          // 处理消息集合
           memRecords.batches.forEach { batch =>
             val isTxnOffsetCommit = batch.isTransactional
+            // 如果是控制类消息批次，这里的控制类消息属于kafka的事务
             if (batch.isControlBatch) {
               val recordIterator = batch.iterator
               if (recordIterator.hasNext) {
@@ -631,41 +691,55 @@ class GroupMetadataManager(brokerId: Int,
                 pendingOffsets.remove(batch.producerId)
               }
             } else {
+              // 保存消息批次第一条消息的位移值
               var batchBaseOffset: Option[Long] = None
               for (record <- batch.asScala) {
                 require(record.hasKey, "Group metadata/offset entry key should not be null")
-                if (batchBaseOffset.isEmpty)
+                if (batchBaseOffset.isEmpty) {
+                  // 记录消息批次第一条消息的位移值
                   batchBaseOffset = Some(record.offset)
+                }
+                // 读取消息的key
                 GroupMetadataManager.readMessageKey(record.key) match {
-
+                  // 若为 OffsetKey，说明是提交位移消息
                   case offsetKey: OffsetKey =>
                     if (isTxnOffsetCommit && !pendingOffsets.contains(batch.producerId))
                       pendingOffsets.put(batch.producerId, mutable.Map[GroupTopicPartition, CommitRecordMetadataAndOffset]())
 
                     // load offset
                     val groupTopicPartition = offsetKey.key
+                    // 如果该消息没有value
                     if (!record.hasValue) {
                       if (isTxnOffsetCommit)
                         pendingOffsets(batch.producerId).remove(groupTopicPartition)
-                      else
+                      else {
+                        // 将目标分区从已经完成加载的分区列表中移除
                         loadedOffsets.remove(groupTopicPartition)
+                      }
                     } else {
                       val offsetAndMetadata = GroupMetadataManager.readOffsetMessageValue(record.value)
                       if (isTxnOffsetCommit)
                         pendingOffsets(batch.producerId).put(groupTopicPartition, CommitRecordMetadataAndOffset(batchBaseOffset, offsetAndMetadata))
-                      else
+                      else {
+                        //将目标分区加入到已经完成位移值加载的列表中
                         loadedOffsets.put(groupTopicPartition, CommitRecordMetadataAndOffset(batchBaseOffset, offsetAndMetadata))
+                      }
                     }
-
+                  // GroupMetadataKey,说明是注册信息
                   case groupMetadataKey: GroupMetadataKey =>
                     // load group metadata
                     val groupId = groupMetadataKey.key
                     val groupMetadata = GroupMetadataManager.readGroupMessageValue(groupId, record.value, time)
+                    // 如果消息的value不为空
                     if (groupMetadata != null) {
+                      // 将消费者组从待移除的消费者组列表中移除
                       removedGroups.remove(groupId)
+                      // 将消费者组加入到已经完成加载的消费者组列表中
                       loadedGroups.put(groupId, groupMetadata)
                     } else {
+                      // 将消费者组从已经完成加载的消费者组列表中移除
                       loadedGroups.remove(groupId)
+                      // 将消费者组加入到待删除的消费者组列表中移除
                       removedGroups.add(groupId)
                     }
 
@@ -674,13 +748,15 @@ class GroupMetadataManager(brokerId: Int,
                 }
               }
             }
+            // 更新读取位置到消息批次的最后一条消息的位移值 + 1
             currOffset = batch.nextOffset
           }
         }
-
+        // 处理 loadedOffsets
         val (groupOffsets, emptyGroupOffsets) = loadedOffsets
           .groupBy(_._1.group)
           .map { case (k, v) =>
+            // 提取 <组名，主题名，分区>与位移值的键值对
             k -> v.map { case (groupTopicPartition, offset) => (groupTopicPartition.topicPartition, offset) }
           }.partition { case (group, _) => loadedGroups.contains(group) }
 
@@ -700,12 +776,16 @@ class GroupMetadataManager(brokerId: Int,
 
         val (pendingGroupOffsets, pendingEmptyGroupOffsets) = pendingOffsetsByGroup
           .partition { case (group, _) => loadedGroups.contains(group)}
-
+        // 处理 loadedOffsets
         loadedGroups.values.foreach { group =>
+          // 提取消费者组已经提交的位移
           val offsets = groupOffsets.getOrElse(group.groupId, Map.empty[TopicPartition, CommitRecordMetadataAndOffset])
+          // 提取消费者组正在提交的位移，事务消息使用
           val pendingOffsets = pendingGroupOffsets.getOrElse(group.groupId, Map.empty[Long, mutable.Map[TopicPartition, CommitRecordMetadataAndOffset]])
           debug(s"Loaded group metadata $group with offsets $offsets and pending offsets $pendingOffsets")
+          // 为空的消费者组执行加载组的操作
           loadGroup(group, offsets, pendingOffsets)
+          // 为空的消费者组执行加载组之后的操作
           onGroupLoaded(group)
         }
 
@@ -719,7 +799,7 @@ class GroupMetadataManager(brokerId: Int,
           loadGroup(group, offsets, pendingOffsets)
           onGroupLoaded(group)
         }
-
+        // 处理 removedGroups
         removedGroups.foreach { groupId =>
           // if the cache already contains a group which should be removed, raise an error. Note that it
           // is possible (however unlikely) for a consumer group to be removed, and then to be used only for
@@ -736,8 +816,9 @@ class GroupMetadataManager(brokerId: Int,
     // offsets are initialized prior to loading the group into the cache to ensure that clients see a consistent
     // view of the group's offsets
     trace(s"Initialized offsets $offsets for group ${group.groupId}")
+    // 获取初始化消费者组的位移信息
     group.initializeOffsets(offsets, pendingTransactionalOffsets.toMap)
-
+    // 调用addGroup方法添加消费者组
     val currentGroup = addGroup(group)
     if (group != currentGroup)
       debug(s"Attempt to load group ${group.groupId} from log with generation ${group.generationId} failed " +
@@ -752,10 +833,12 @@ class GroupMetadataManager(brokerId: Int,
    */
   def removeGroupsForPartition(offsetsPartition: Int,
                                onGroupUnloaded: GroupMetadata => Unit): Unit = {
+    // 位移主题分区
     val topicPartition = new TopicPartition(Topic.GROUP_METADATA_TOPIC_NAME, offsetsPartition)
     info(s"Scheduling unloading of offsets and group metadata from $topicPartition")
+    // 创建异步任务，移除组信息和位移信息
     scheduler.schedule(topicPartition.toString, () => removeGroupsAndOffsets())
-
+    // 内部方法，用于移除组信息和位移信息
     def removeGroupsAndOffsets(): Unit = {
       var numOffsetsRemoved = 0
       var numGroupsRemoved = 0
@@ -764,14 +847,20 @@ class GroupMetadataManager(brokerId: Int,
       inLock(partitionLock) {
         // we need to guard the group removal in cache in the loading partition lock
         // to prevent coordinator's check-and-get-group race condition
+        // 移除 ownedPartitions列表中特定位移主题分区记录
         ownedPartitions.remove(offsetsPartition)
-
+        // 遍历消费者组
         for (group <- groupMetadataCache.values) {
+          // 如果该组保存在特定位移主题分区中
           if (partitionFor(group.groupId) == offsetsPartition) {
             onGroupUnloaded(group)
+            // 把组的信息从groupMetadataCache中移除
             groupMetadataCache.remove(group.groupId, group)
+            // 把消息者组从producer对应的组集合中移除
             removeGroupFromAllProducers(group.groupId)
+            // 更新已经移除的组计数
             numGroupsRemoved += 1
+            // 更新已移除位移值计数器
             numOffsetsRemoved += group.numOffsets
           }
         }
@@ -827,6 +916,7 @@ class GroupMetadataManager(brokerId: Int,
             removedOffsets.forKeyValue { (topicPartition, offsetAndMetadata) =>
               trace(s"Removing expired/deleted offset and metadata for $groupId, $topicPartition: $offsetAndMetadata")
               val commitKey = GroupMetadataManager.offsetCommitKey(groupId, topicPartition)
+              // 提交位移消息对应的Tombstone消息
               tombstones += new SimpleRecord(timestamp, commitKey, null)
             }
             trace(s"Marked ${removedOffsets.size} offsets in $appendPartition for deletion.")
@@ -838,6 +928,7 @@ class GroupMetadataManager(brokerId: Int,
               // if we crash or leaders move) since the new leaders will still expire the consumers with heartbeat and
               // retry removing this group.
               val groupMetadataKey = GroupMetadataManager.groupMetadataKey(group.groupId)
+              // 注册消息对应的Tombstone消息
               tombstones += new SimpleRecord(timestamp, groupMetadataKey, null)
               trace(s"Group $groupId removed from the metadata cache and marked for deletion in $appendPartition.")
             }
@@ -1170,7 +1261,7 @@ object GroupMetadataManager {
 
   /**
    * Generates the key for offset commit message for given (group, topic, partition)
-   *
+   * 将 消费者组名，主题，分区 转化为字节数组
    * @param groupId the ID of the group to generate the key
    * @param topicPartition the TopicPartition to generate the key
    * @return key for offset commit message
@@ -1196,7 +1287,7 @@ object GroupMetadataManager {
   def groupMetadataKey(groupId: String): Array[Byte] = {
     val key = new Struct(CURRENT_GROUP_KEY_SCHEMA)
     key.set(GROUP_KEY_GROUP_FIELD, groupId)
-
+    // 构造一个ByteBuffer对象，容纳version和key对象
     val byteBuffer = ByteBuffer.allocate(2 /* version */ + key.sizeOf)
     byteBuffer.putShort(CURRENT_GROUP_KEY_SCHEMA_VERSION)
     key.writeTo(byteBuffer)
@@ -1224,6 +1315,7 @@ object GroupMetadataManager {
           offsetAndMetadata.expireTimestamp.getOrElse(OffsetCommitRequest.DEFAULT_TIMESTAMP))
         (1, value)
       } else if (apiVersion < KAFKA_2_1_IV1) {
+        // 依次写入 位移值， leader epoch，自定义元数据以及时间戳
         val value = new Struct(OFFSET_COMMIT_VALUE_SCHEMA_V2)
         value.set(OFFSET_VALUE_OFFSET_FIELD_V2, offsetAndMetadata.offset)
         value.set(OFFSET_VALUE_METADATA_FIELD_V2, offsetAndMetadata.metadata)
@@ -1255,10 +1347,11 @@ object GroupMetadataManager {
    * @param apiVersion the api version
    * @return payload for offset commit message
    */
-  def groupMetadataValue(groupMetadata: GroupMetadata,
-                         assignment: Map[String, Array[Byte]],
-                         apiVersion: ApiVersion): Array[Byte] = {
-
+  def groupMetadataValue(groupMetadata: GroupMetadata, // 消费者组元数据信息
+                         assignment: Map[String, Array[Byte]], // 分区的分配方案
+                         apiVersion: ApiVersion // kafka API的版本号
+                        ): Array[Byte] = {
+    // 确定消息格式版本以及格式结构
     val (version, value) = {
       if (apiVersion < KAFKA_0_10_1_IV0)
         (0.toShort, new Struct(GROUP_METADATA_VALUE_SCHEMA_V0))
@@ -1269,22 +1362,24 @@ object GroupMetadataManager {
       else
         (3.toShort, new Struct(GROUP_METADATA_VALUE_SCHEMA_V3))
     }
-
+    // 依次写入消费者组主要的元数据信息
+    // 包括 协议类型，generationId，分区策略，leader成员ID
     value.set(PROTOCOL_TYPE_KEY, groupMetadata.protocolType.getOrElse(""))
     value.set(GENERATION_KEY, groupMetadata.generationId)
     value.set(PROTOCOL_KEY, groupMetadata.protocolName.orNull)
     value.set(LEADER_KEY, groupMetadata.leaderOrNull)
-
+    // 写入最近一次状态变更的时间戳
     if (version >= 2)
       value.set(CURRENT_STATE_TIMESTAMP_KEY, groupMetadata.currentStateTimestampOrDefault)
-
+    // 写入各个成员的元数据信息
+    // 包括 成员Id，客户端Id，客户端主机名，客户端会话超时时间
     val memberArray = groupMetadata.allMemberMetadata.map { memberMetadata =>
       val memberStruct = value.instance(MEMBERS_KEY)
       memberStruct.set(MEMBER_ID_KEY, memberMetadata.memberId)
       memberStruct.set(CLIENT_ID_KEY, memberMetadata.clientId)
       memberStruct.set(CLIENT_HOST_KEY, memberMetadata.clientHost)
       memberStruct.set(SESSION_TIMEOUT_KEY, memberMetadata.sessionTimeoutMs)
-
+      // 写入 reblance的超时时间
       if (version > 0)
         memberStruct.set(REBALANCE_TIMEOUT_KEY, memberMetadata.rebalanceTimeoutMs)
 
@@ -1292,23 +1387,24 @@ object GroupMetadataManager {
         memberStruct.set(GROUP_INSTANCE_ID_KEY, memberMetadata.groupInstanceId.orNull)
 
       // The group is non-empty, so the current protocol must be defined
+      // 分区策略为空，抛出异常
       val protocol = groupMetadata.protocolName.orNull
       if (protocol == null)
         throw new IllegalStateException("Attempted to write non-empty group metadata with no defined protocol")
-
+      // 写入成员消费订阅信息
       val metadata = memberMetadata.metadata(protocol)
       memberStruct.set(SUBSCRIPTION_KEY, ByteBuffer.wrap(metadata))
 
       val memberAssignment = assignment(memberMetadata.memberId)
       assert(memberAssignment != null)
-
+      // 写入 消费分配信息
       memberStruct.set(ASSIGNMENT_KEY, ByteBuffer.wrap(memberAssignment))
 
       memberStruct
     }
 
     value.set(MEMBERS_KEY, memberArray.toArray)
-
+    // 向Buffer依次写入版本信息和以上的元数据信息
     val byteBuffer = ByteBuffer.allocate(2 /* version */ + value.sizeOf)
     byteBuffer.putShort(version)
     value.writeTo(byteBuffer)
@@ -1571,6 +1667,11 @@ object GroupMetadataManager {
 
 }
 
+/**
+ * 封装 <消费者组名,主题,分区> 三元组
+ * @param group
+ * @param topicPartition
+ */
 case class GroupTopicPartition(group: String, topicPartition: TopicPartition) {
 
   def this(group: String, topic: String, partition: Int) =
@@ -1584,7 +1685,7 @@ trait BaseKey{
   def version: Short
   def key: Any
 }
-
+// 定义了提交位移消息的key值
 case class OffsetKey(version: Short, key: GroupTopicPartition) extends BaseKey {
 
   override def toString: String = key.toString

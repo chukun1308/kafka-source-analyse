@@ -21,14 +21,16 @@ import java.util
 
 import kafka.utils.nonthreadsafe
 
-case class MemberSummary(memberId: String,
-                         groupInstanceId: Option[String],
-                         clientId: String,
-                         clientHost: String,
-                         metadata: Array[Byte],
-                         assignment: Array[Byte])
+case class MemberSummary(memberId: String, //成员Id，由kafka自动生成
+                         groupInstanceId: Option[String],// consumer端参数group.instance.id值
+                         clientId: String, // client.id的参数值
+                         clientHost: String, // Consumer端程序主机名
+                         metadata: Array[Byte], // 消费者组成员使用的分配策略
+                         assignment: Array[Byte] // 成员订阅分区
+                        )
 
 private object MemberMetadata {
+  // 提取分区策略集合
   def plainProtocolSet(supportedProtocols: List[(String, Array[Byte])]) = supportedProtocols.map(_._1).toSet
 }
 
@@ -58,15 +60,21 @@ private[group] class MemberMetadata(var memberId: String,
                                     val groupInstanceId: Option[String],
                                     val clientId: String,
                                     val clientHost: String,
-                                    val rebalanceTimeoutMs: Int,
-                                    val sessionTimeoutMs: Int,
-                                    val protocolType: String,
-                                    var supportedProtocols: List[(String, Array[Byte])]) {
+                                    val rebalanceTimeoutMs: Int, // rebalance操作的超时时间
+                                    val sessionTimeoutMs: Int,// 会话超时时间
+                                    val protocolType: String, //
+                                    var supportedProtocols: List[(String, Array[Byte])] // 成员配置的多套分区分配策略
+                                   ) {
 
+  // 分区分配方案
   var assignment: Array[Byte] = Array.empty[Byte]
+  // 表示成员是否在等待加入组
   var awaitingJoinCallback: JoinGroupResult => Unit = null
+  // 表示消费者成员是否正在等待GroupCoordinator发送分配方案
   var awaitingSyncCallback: SyncGroupResult => Unit = null
+  // 表示组成员是否发起退出组的操作
   var isLeaving: Boolean = false
+  // 表示是否是消费者下的新成员
   var isNew: Boolean = false
   val isStaticMember: Boolean = groupInstanceId.isDefined
 
