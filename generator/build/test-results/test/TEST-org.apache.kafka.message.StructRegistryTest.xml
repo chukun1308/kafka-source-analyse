@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.apache.kafka.message.StructRegistryTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2020-10-29T02:41:08" hostname="chukun-mac" time="0.981">
+<testsuite name="org.apache.kafka.message.StructRegistryTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2022-09-03T08:48:19" hostname="LAPTOP-FH01OFOM" time="0.364">
   <properties/>
-  <testcase name="testDuplicateCommonStructError" classname="org.apache.kafka.message.StructRegistryTest" time="0.975"/>
+  <testcase name="testDuplicateCommonStructError" classname="org.apache.kafka.message.StructRegistryTest" time="0.357"/>
   <testcase name="testSingleStruct" classname="org.apache.kafka.message.StructRegistryTest" time="0.002"/>
   <testcase name="testReSpecifiedCommonStructError" classname="org.apache.kafka.message.StructRegistryTest" time="0.002"/>
   <testcase name="testCommonStructs" classname="org.apache.kafka.message.StructRegistryTest" time="0.002"/>

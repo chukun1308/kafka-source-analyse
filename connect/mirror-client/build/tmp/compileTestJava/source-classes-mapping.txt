@@ -1,3 +1,0 @@
-org/apache/kafka/connect/mirror/MirrorClientTest.java
- org.apache.kafka.connect.mirror.MirrorClientTest
- org.apache.kafka.connect.mirror.MirrorClientTest$FakeMirrorClient

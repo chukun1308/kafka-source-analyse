@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.apache.kafka.common.security.scram.internals.ScramSaslServerTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-10-29T02:32:32" hostname="chukun-mac" time="0.193">
+<testsuite name="org.apache.kafka.common.security.scram.internals.ScramSaslServerTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2022-09-03T10:41:16" hostname="LAPTOP-FH01OFOM" time="0.064">
   <properties/>
-  <testcase name="noAuthorizationIdSpecified" classname="org.apache.kafka.common.security.scram.internals.ScramSaslServerTest" time="0.124"/>
-  <testcase name="authorizatonIdEqualsAuthenticationId" classname="org.apache.kafka.common.security.scram.internals.ScramSaslServerTest" time="0.034"/>
-  <testcase name="authorizatonIdNotEqualsAuthenticationId" classname="org.apache.kafka.common.security.scram.internals.ScramSaslServerTest" time="0.035"/>
+  <testcase name="noAuthorizationIdSpecified" classname="org.apache.kafka.common.security.scram.internals.ScramSaslServerTest" time="0.029"/>
+  <testcase name="authorizatonIdEqualsAuthenticationId" classname="org.apache.kafka.common.security.scram.internals.ScramSaslServerTest" time="0.017"/>
+  <testcase name="authorizatonIdNotEqualsAuthenticationId" classname="org.apache.kafka.common.security.scram.internals.ScramSaslServerTest" time="0.018"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

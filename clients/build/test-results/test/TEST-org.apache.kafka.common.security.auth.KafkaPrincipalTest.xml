@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.apache.kafka.common.security.auth.KafkaPrincipalTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-10-29T02:31:43" hostname="chukun-mac" time="0.002">
+<testsuite name="org.apache.kafka.common.security.auth.KafkaPrincipalTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-09-03T10:37:55" hostname="LAPTOP-FH01OFOM" time="0.001">
   <properties/>
-  <testcase name="testEqualsAndHashCode" classname="org.apache.kafka.common.security.auth.KafkaPrincipalTest" time="0.002"/>
+  <testcase name="testEqualsAndHashCode" classname="org.apache.kafka.common.security.auth.KafkaPrincipalTest" time="0.001"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

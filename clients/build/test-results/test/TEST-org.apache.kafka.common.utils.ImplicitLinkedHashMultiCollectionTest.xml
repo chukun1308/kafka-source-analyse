@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.apache.kafka.common.utils.ImplicitLinkedHashMultiCollectionTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2020-10-29T02:36:11" hostname="chukun-mac" time="0.018">
+<testsuite name="org.apache.kafka.common.utils.ImplicitLinkedHashMultiCollectionTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2022-09-03T10:38:34" hostname="LAPTOP-FH01OFOM" time="0.012">
   <properties/>
-  <testcase name="testFindFindAllContainsRemoveOnEmptyCollection" classname="org.apache.kafka.common.utils.ImplicitLinkedHashMultiCollectionTest" time="0.0"/>
-  <testcase name="testEnlargement" classname="org.apache.kafka.common.utils.ImplicitLinkedHashMultiCollectionTest" time="0.001"/>
+  <testcase name="testFindFindAllContainsRemoveOnEmptyCollection" classname="org.apache.kafka.common.utils.ImplicitLinkedHashMultiCollectionTest" time="0.001"/>
+  <testcase name="testEnlargement" classname="org.apache.kafka.common.utils.ImplicitLinkedHashMultiCollectionTest" time="0.0"/>
   <testcase name="testNullForbidden" classname="org.apache.kafka.common.utils.ImplicitLinkedHashMultiCollectionTest" time="0.001"/>
-  <testcase name="testInsertDelete" classname="org.apache.kafka.common.utils.ImplicitLinkedHashMultiCollectionTest" time="0.001"/>
-  <testcase name="testTraversal" classname="org.apache.kafka.common.utils.ImplicitLinkedHashMultiCollectionTest" time="0.001"/>
-  <testcase name="testManyInsertsAndDeletes" classname="org.apache.kafka.common.utils.ImplicitLinkedHashMultiCollectionTest" time="0.014"/>
+  <testcase name="testInsertDelete" classname="org.apache.kafka.common.utils.ImplicitLinkedHashMultiCollectionTest" time="0.0"/>
+  <testcase name="testTraversal" classname="org.apache.kafka.common.utils.ImplicitLinkedHashMultiCollectionTest" time="0.0"/>
+  <testcase name="testManyInsertsAndDeletes" classname="org.apache.kafka.common.utils.ImplicitLinkedHashMultiCollectionTest" time="0.009"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

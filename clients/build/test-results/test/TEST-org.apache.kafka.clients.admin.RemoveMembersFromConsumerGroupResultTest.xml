@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.apache.kafka.clients.admin.RemoveMembersFromConsumerGroupResultTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2020-10-29T02:31:27" hostname="chukun-mac" time="0.155">
+<testsuite name="org.apache.kafka.clients.admin.RemoveMembersFromConsumerGroupResultTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2022-09-03T10:37:48" hostname="LAPTOP-FH01OFOM" time="0.171">
   <properties/>
-  <testcase name="testMemberLevelErrorInResponseConstructor" classname="org.apache.kafka.clients.admin.RemoveMembersFromConsumerGroupResultTest" time="0.151"/>
+  <testcase name="testMemberLevelErrorInResponseConstructor" classname="org.apache.kafka.clients.admin.RemoveMembersFromConsumerGroupResultTest" time="0.169"/>
   <testcase name="testTopLevelErrorConstructor" classname="org.apache.kafka.clients.admin.RemoveMembersFromConsumerGroupResultTest" time="0.0"/>
-  <testcase name="testMemberMissingErrorInRequestConstructor" classname="org.apache.kafka.clients.admin.RemoveMembersFromConsumerGroupResultTest" time="0.0"/>
-  <testcase name="testMemberLevelErrorConstructor" classname="org.apache.kafka.clients.admin.RemoveMembersFromConsumerGroupResultTest" time="0.001"/>
-  <testcase name="testNoErrorConstructor" classname="org.apache.kafka.clients.admin.RemoveMembersFromConsumerGroupResultTest" time="0.001"/>
+  <testcase name="testMemberMissingErrorInRequestConstructor" classname="org.apache.kafka.clients.admin.RemoveMembersFromConsumerGroupResultTest" time="0.001"/>
+  <testcase name="testMemberLevelErrorConstructor" classname="org.apache.kafka.clients.admin.RemoveMembersFromConsumerGroupResultTest" time="0.0"/>
+  <testcase name="testNoErrorConstructor" classname="org.apache.kafka.clients.admin.RemoveMembersFromConsumerGroupResultTest" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

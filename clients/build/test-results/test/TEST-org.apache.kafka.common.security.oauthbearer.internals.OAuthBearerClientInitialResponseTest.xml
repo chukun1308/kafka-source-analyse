@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.apache.kafka.common.security.oauthbearer.internals.OAuthBearerClientInitialResponseTest" tests="10" skipped="0" failures="0" errors="0" timestamp="2020-10-29T02:31:43" hostname="chukun-mac" time="0.012">
+<testsuite name="org.apache.kafka.common.security.oauthbearer.internals.OAuthBearerClientInitialResponseTest" tests="10" skipped="0" failures="0" errors="0" timestamp="2022-09-03T10:38:46" hostname="LAPTOP-FH01OFOM" time="0.003">
   <properties/>
-  <testcase name="testToken" classname="org.apache.kafka.common.security.oauthbearer.internals.OAuthBearerClientInitialResponseTest" time="0.005"/>
+  <testcase name="testToken" classname="org.apache.kafka.common.security.oauthbearer.internals.OAuthBearerClientInitialResponseTest" time="0.002"/>
   <testcase name="testValidateNullExtensions" classname="org.apache.kafka.common.security.oauthbearer.internals.OAuthBearerClientInitialResponseTest" time="0.0"/>
   <testcase name="testNoExtensionsFromByteArray" classname="org.apache.kafka.common.security.oauthbearer.internals.OAuthBearerClientInitialResponseTest" time="0.0"/>
-  <testcase name="testAuthorizationId" classname="org.apache.kafka.common.security.oauthbearer.internals.OAuthBearerClientInitialResponseTest" time="0.001"/>
-  <testcase name="testRfc7688Example" classname="org.apache.kafka.common.security.oauthbearer.internals.OAuthBearerClientInitialResponseTest" time="0.002"/>
-  <testcase name="testThrowsSaslExceptionOnInvalidExtensionKey" classname="org.apache.kafka.common.security.oauthbearer.internals.OAuthBearerClientInitialResponseTest" time="0.001"/>
-  <testcase name="testNoExtensionsFromTokenAndNullExtensions" classname="org.apache.kafka.common.security.oauthbearer.internals.OAuthBearerClientInitialResponseTest" time="0.001"/>
-  <testcase name="testBuildClientResponseToBytes" classname="org.apache.kafka.common.security.oauthbearer.internals.OAuthBearerClientInitialResponseTest" time="0.001"/>
+  <testcase name="testAuthorizationId" classname="org.apache.kafka.common.security.oauthbearer.internals.OAuthBearerClientInitialResponseTest" time="0.0"/>
+  <testcase name="testRfc7688Example" classname="org.apache.kafka.common.security.oauthbearer.internals.OAuthBearerClientInitialResponseTest" time="0.001"/>
+  <testcase name="testThrowsSaslExceptionOnInvalidExtensionKey" classname="org.apache.kafka.common.security.oauthbearer.internals.OAuthBearerClientInitialResponseTest" time="0.0"/>
+  <testcase name="testNoExtensionsFromTokenAndNullExtensions" classname="org.apache.kafka.common.security.oauthbearer.internals.OAuthBearerClientInitialResponseTest" time="0.0"/>
+  <testcase name="testBuildClientResponseToBytes" classname="org.apache.kafka.common.security.oauthbearer.internals.OAuthBearerClientInitialResponseTest" time="0.0"/>
   <testcase name="testExtensions" classname="org.apache.kafka.common.security.oauthbearer.internals.OAuthBearerClientInitialResponseTest" time="0.0"/>
   <testcase name="testBuildServerResponseToBytes" classname="org.apache.kafka.common.security.oauthbearer.internals.OAuthBearerClientInitialResponseTest" time="0.0"/>
   <system-out><![CDATA[]]></system-out>

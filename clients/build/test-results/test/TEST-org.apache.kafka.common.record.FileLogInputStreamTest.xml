@@ -1,110 +1,110 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.apache.kafka.common.record.FileLogInputStreamTest" tests="105" skipped="0" failures="0" errors="0" timestamp="2020-10-29T02:32:48" hostname="chukun-mac" time="0.315">
+<testsuite name="org.apache.kafka.common.record.FileLogInputStreamTest" tests="105" skipped="0" failures="0" errors="0" timestamp="2022-09-03T10:38:45" hostname="LAPTOP-FH01OFOM" time="0.36">
   <properties/>
-  <testcase name="testNextBatchSelectionWithMaxedParams[magic=0, compression=NONE]" classname="org.apache.kafka.common.record.FileLogInputStreamTest" time="0.032"/>
-  <testcase name="testSimpleBatchIteration[magic=0, compression=NONE]" classname="org.apache.kafka.common.record.FileLogInputStreamTest" time="0.004"/>
-  <testcase name="testBatchIterationV2[magic=0, compression=NONE]" classname="org.apache.kafka.common.record.FileLogInputStreamTest" time="0.001"/>
-  <testcase name="testBatchIterationWithMultipleRecordsPerBatch[magic=0, compression=NONE]" classname="org.apache.kafka.common.record.FileLogInputStreamTest" time="0.001"/>
-  <testcase name="testBatchIterationIncompleteBatch[magic=0, compression=NONE]" classname="org.apache.kafka.common.record.FileLogInputStreamTest" time="0.007"/>
-  <testcase name="testWriteTo[magic=0, compression=NONE]" classname="org.apache.kafka.common.record.FileLogInputStreamTest" time="0.014"/>
-  <testcase name="testNextBatchSelectionWithZeroedParams[magic=0, compression=NONE]" classname="org.apache.kafka.common.record.FileLogInputStreamTest" time="0.001"/>
+  <testcase name="testNextBatchSelectionWithMaxedParams[magic=0, compression=NONE]" classname="org.apache.kafka.common.record.FileLogInputStreamTest" time="0.005"/>
+  <testcase name="testSimpleBatchIteration[magic=0, compression=NONE]" classname="org.apache.kafka.common.record.FileLogInputStreamTest" time="0.007"/>
+  <testcase name="testBatchIterationV2[magic=0, compression=NONE]" classname="org.apache.kafka.common.record.FileLogInputStreamTest" time="0.0"/>
+  <testcase name="testBatchIterationWithMultipleRecordsPerBatch[magic=0, compression=NONE]" classname="org.apache.kafka.common.record.FileLogInputStreamTest" time="0.0"/>
+  <testcase name="testBatchIterationIncompleteBatch[magic=0, compression=NONE]" classname="org.apache.kafka.common.record.FileLogInputStreamTest" time="0.003"/>
+  <testcase name="testWriteTo[magic=0, compression=NONE]" classname="org.apache.kafka.common.record.FileLogInputStreamTest" time="0.003"/>
+  <testcase name="testNextBatchSelectionWithZeroedParams[magic=0, compression=NONE]" classname="org.apache.kafka.common.record.FileLogInputStreamTest" time="0.002"/>
   <testcase name="testNextBatchSelectionWithMaxedParams[magic=0, compression=GZIP]" classname="org.apache.kafka.common.record.FileLogInputStreamTest" time="0.001"/>
-  <testcase name="testSimpleBatchIteration[magic=0, compression=GZIP]" classname="org.apache.kafka.common.record.FileLogInputStreamTest" time="0.002"/>
+  <testcase name="testSimpleBatchIteration[magic=0, compression=GZIP]" classname="org.apache.kafka.common.record.FileLogInputStreamTest" time="0.005"/>
   <testcase name="testBatchIterationV2[magic=0, compression=GZIP]" classname="org.apache.kafka.common.record.FileLogInputStreamTest" time="0.0"/>
-  <testcase name="testBatchIterationWithMultipleRecordsPerBatch[magic=0, compression=GZIP]" classname="org.apache.kafka.common.record.FileLogInputStreamTest" time="0.006"/>
-  <testcase name="testBatchIterationIncompleteBatch[magic=0, compression=GZIP]" classname="org.apache.kafka.common.record.FileLogInputStreamTest" time="0.002"/>
-  <testcase name="testWriteTo[magic=0, compression=GZIP]" classname="org.apache.kafka.common.record.FileLogInputStreamTest" time="0.007"/>
+  <testcase name="testBatchIterationWithMultipleRecordsPerBatch[magic=0, compression=GZIP]" classname="org.apache.kafka.common.record.FileLogInputStreamTest" time="0.003"/>
+  <testcase name="testBatchIterationIncompleteBatch[magic=0, compression=GZIP]" classname="org.apache.kafka.common.record.FileLogInputStreamTest" time="0.004"/>
+  <testcase name="testWriteTo[magic=0, compression=GZIP]" classname="org.apache.kafka.common.record.FileLogInputStreamTest" time="0.002"/>
   <testcase name="testNextBatchSelectionWithZeroedParams[magic=0, compression=GZIP]" classname="org.apache.kafka.common.record.FileLogInputStreamTest" time="0.001"/>
-  <testcase name="testNextBatchSelectionWithMaxedParams[magic=0, compression=SNAPPY]" classname="org.apache.kafka.common.record.FileLogInputStreamTest" time="0.001"/>
-  <testcase name="testSimpleBatchIteration[magic=0, compression=SNAPPY]" classname="org.apache.kafka.common.record.FileLogInputStreamTest" time="0.001"/>
+  <testcase name="testNextBatchSelectionWithMaxedParams[magic=0, compression=SNAPPY]" classname="org.apache.kafka.common.record.FileLogInputStreamTest" time="0.002"/>
+  <testcase name="testSimpleBatchIteration[magic=0, compression=SNAPPY]" classname="org.apache.kafka.common.record.FileLogInputStreamTest" time="0.059"/>
   <testcase name="testBatchIterationV2[magic=0, compression=SNAPPY]" classname="org.apache.kafka.common.record.FileLogInputStreamTest" time="0.001"/>
-  <testcase name="testBatchIterationWithMultipleRecordsPerBatch[magic=0, compression=SNAPPY]" classname="org.apache.kafka.common.record.FileLogInputStreamTest" time="0.004"/>
-  <testcase name="testBatchIterationIncompleteBatch[magic=0, compression=SNAPPY]" classname="org.apache.kafka.common.record.FileLogInputStreamTest" time="0.003"/>
+  <testcase name="testBatchIterationWithMultipleRecordsPerBatch[magic=0, compression=SNAPPY]" classname="org.apache.kafka.common.record.FileLogInputStreamTest" time="0.002"/>
+  <testcase name="testBatchIterationIncompleteBatch[magic=0, compression=SNAPPY]" classname="org.apache.kafka.common.record.FileLogInputStreamTest" time="0.004"/>
   <testcase name="testWriteTo[magic=0, compression=SNAPPY]" classname="org.apache.kafka.common.record.FileLogInputStreamTest" time="0.002"/>
-  <testcase name="testNextBatchSelectionWithZeroedParams[magic=0, compression=SNAPPY]" classname="org.apache.kafka.common.record.FileLogInputStreamTest" time="0.001"/>
+  <testcase name="testNextBatchSelectionWithZeroedParams[magic=0, compression=SNAPPY]" classname="org.apache.kafka.common.record.FileLogInputStreamTest" time="0.002"/>
   <testcase name="testNextBatchSelectionWithMaxedParams[magic=0, compression=LZ4]" classname="org.apache.kafka.common.record.FileLogInputStreamTest" time="0.001"/>
-  <testcase name="testSimpleBatchIteration[magic=0, compression=LZ4]" classname="org.apache.kafka.common.record.FileLogInputStreamTest" time="0.004"/>
+  <testcase name="testSimpleBatchIteration[magic=0, compression=LZ4]" classname="org.apache.kafka.common.record.FileLogInputStreamTest" time="0.042"/>
   <testcase name="testBatchIterationV2[magic=0, compression=LZ4]" classname="org.apache.kafka.common.record.FileLogInputStreamTest" time="0.0"/>
-  <testcase name="testBatchIterationWithMultipleRecordsPerBatch[magic=0, compression=LZ4]" classname="org.apache.kafka.common.record.FileLogInputStreamTest" time="0.001"/>
-  <testcase name="testBatchIterationIncompleteBatch[magic=0, compression=LZ4]" classname="org.apache.kafka.common.record.FileLogInputStreamTest" time="0.002"/>
+  <testcase name="testBatchIterationWithMultipleRecordsPerBatch[magic=0, compression=LZ4]" classname="org.apache.kafka.common.record.FileLogInputStreamTest" time="0.003"/>
+  <testcase name="testBatchIterationIncompleteBatch[magic=0, compression=LZ4]" classname="org.apache.kafka.common.record.FileLogInputStreamTest" time="0.003"/>
   <testcase name="testWriteTo[magic=0, compression=LZ4]" classname="org.apache.kafka.common.record.FileLogInputStreamTest" time="0.002"/>
-  <testcase name="testNextBatchSelectionWithZeroedParams[magic=0, compression=LZ4]" classname="org.apache.kafka.common.record.FileLogInputStreamTest" time="0.0"/>
-  <testcase name="testNextBatchSelectionWithMaxedParams[magic=0, compression=ZSTD]" classname="org.apache.kafka.common.record.FileLogInputStreamTest" time="0.002"/>
+  <testcase name="testNextBatchSelectionWithZeroedParams[magic=0, compression=LZ4]" classname="org.apache.kafka.common.record.FileLogInputStreamTest" time="0.002"/>
+  <testcase name="testNextBatchSelectionWithMaxedParams[magic=0, compression=ZSTD]" classname="org.apache.kafka.common.record.FileLogInputStreamTest" time="0.001"/>
   <testcase name="testSimpleBatchIteration[magic=0, compression=ZSTD]" classname="org.apache.kafka.common.record.FileLogInputStreamTest" time="0.0"/>
   <testcase name="testBatchIterationV2[magic=0, compression=ZSTD]" classname="org.apache.kafka.common.record.FileLogInputStreamTest" time="0.0"/>
-  <testcase name="testBatchIterationWithMultipleRecordsPerBatch[magic=0, compression=ZSTD]" classname="org.apache.kafka.common.record.FileLogInputStreamTest" time="0.001"/>
+  <testcase name="testBatchIterationWithMultipleRecordsPerBatch[magic=0, compression=ZSTD]" classname="org.apache.kafka.common.record.FileLogInputStreamTest" time="0.0"/>
   <testcase name="testBatchIterationIncompleteBatch[magic=0, compression=ZSTD]" classname="org.apache.kafka.common.record.FileLogInputStreamTest" time="0.0"/>
   <testcase name="testWriteTo[magic=0, compression=ZSTD]" classname="org.apache.kafka.common.record.FileLogInputStreamTest" time="0.0"/>
-  <testcase name="testNextBatchSelectionWithZeroedParams[magic=0, compression=ZSTD]" classname="org.apache.kafka.common.record.FileLogInputStreamTest" time="0.001"/>
-  <testcase name="testNextBatchSelectionWithMaxedParams[magic=1, compression=NONE]" classname="org.apache.kafka.common.record.FileLogInputStreamTest" time="0.001"/>
-  <testcase name="testSimpleBatchIteration[magic=1, compression=NONE]" classname="org.apache.kafka.common.record.FileLogInputStreamTest" time="0.002"/>
+  <testcase name="testNextBatchSelectionWithZeroedParams[magic=0, compression=ZSTD]" classname="org.apache.kafka.common.record.FileLogInputStreamTest" time="0.002"/>
+  <testcase name="testNextBatchSelectionWithMaxedParams[magic=1, compression=NONE]" classname="org.apache.kafka.common.record.FileLogInputStreamTest" time="0.002"/>
+  <testcase name="testSimpleBatchIteration[magic=1, compression=NONE]" classname="org.apache.kafka.common.record.FileLogInputStreamTest" time="0.003"/>
   <testcase name="testBatchIterationV2[magic=1, compression=NONE]" classname="org.apache.kafka.common.record.FileLogInputStreamTest" time="0.0"/>
   <testcase name="testBatchIterationWithMultipleRecordsPerBatch[magic=1, compression=NONE]" classname="org.apache.kafka.common.record.FileLogInputStreamTest" time="0.0"/>
-  <testcase name="testBatchIterationIncompleteBatch[magic=1, compression=NONE]" classname="org.apache.kafka.common.record.FileLogInputStreamTest" time="0.002"/>
-  <testcase name="testWriteTo[magic=1, compression=NONE]" classname="org.apache.kafka.common.record.FileLogInputStreamTest" time="0.001"/>
+  <testcase name="testBatchIterationIncompleteBatch[magic=1, compression=NONE]" classname="org.apache.kafka.common.record.FileLogInputStreamTest" time="0.003"/>
+  <testcase name="testWriteTo[magic=1, compression=NONE]" classname="org.apache.kafka.common.record.FileLogInputStreamTest" time="0.003"/>
   <testcase name="testNextBatchSelectionWithZeroedParams[magic=1, compression=NONE]" classname="org.apache.kafka.common.record.FileLogInputStreamTest" time="0.001"/>
-  <testcase name="testNextBatchSelectionWithMaxedParams[magic=1, compression=GZIP]" classname="org.apache.kafka.common.record.FileLogInputStreamTest" time="0.001"/>
+  <testcase name="testNextBatchSelectionWithMaxedParams[magic=1, compression=GZIP]" classname="org.apache.kafka.common.record.FileLogInputStreamTest" time="0.002"/>
   <testcase name="testSimpleBatchIteration[magic=1, compression=GZIP]" classname="org.apache.kafka.common.record.FileLogInputStreamTest" time="0.002"/>
   <testcase name="testBatchIterationV2[magic=1, compression=GZIP]" classname="org.apache.kafka.common.record.FileLogInputStreamTest" time="0.0"/>
   <testcase name="testBatchIterationWithMultipleRecordsPerBatch[magic=1, compression=GZIP]" classname="org.apache.kafka.common.record.FileLogInputStreamTest" time="0.003"/>
-  <testcase name="testBatchIterationIncompleteBatch[magic=1, compression=GZIP]" classname="org.apache.kafka.common.record.FileLogInputStreamTest" time="0.003"/>
+  <testcase name="testBatchIterationIncompleteBatch[magic=1, compression=GZIP]" classname="org.apache.kafka.common.record.FileLogInputStreamTest" time="0.004"/>
   <testcase name="testWriteTo[magic=1, compression=GZIP]" classname="org.apache.kafka.common.record.FileLogInputStreamTest" time="0.002"/>
-  <testcase name="testNextBatchSelectionWithZeroedParams[magic=1, compression=GZIP]" classname="org.apache.kafka.common.record.FileLogInputStreamTest" time="0.0"/>
-  <testcase name="testNextBatchSelectionWithMaxedParams[magic=1, compression=SNAPPY]" classname="org.apache.kafka.common.record.FileLogInputStreamTest" time="0.0"/>
+  <testcase name="testNextBatchSelectionWithZeroedParams[magic=1, compression=GZIP]" classname="org.apache.kafka.common.record.FileLogInputStreamTest" time="0.002"/>
+  <testcase name="testNextBatchSelectionWithMaxedParams[magic=1, compression=SNAPPY]" classname="org.apache.kafka.common.record.FileLogInputStreamTest" time="0.002"/>
   <testcase name="testSimpleBatchIteration[magic=1, compression=SNAPPY]" classname="org.apache.kafka.common.record.FileLogInputStreamTest" time="0.002"/>
-  <testcase name="testBatchIterationV2[magic=1, compression=SNAPPY]" classname="org.apache.kafka.common.record.FileLogInputStreamTest" time="0.0"/>
+  <testcase name="testBatchIterationV2[magic=1, compression=SNAPPY]" classname="org.apache.kafka.common.record.FileLogInputStreamTest" time="0.001"/>
   <testcase name="testBatchIterationWithMultipleRecordsPerBatch[magic=1, compression=SNAPPY]" classname="org.apache.kafka.common.record.FileLogInputStreamTest" time="0.002"/>
   <testcase name="testBatchIterationIncompleteBatch[magic=1, compression=SNAPPY]" classname="org.apache.kafka.common.record.FileLogInputStreamTest" time="0.003"/>
-  <testcase name="testWriteTo[magic=1, compression=SNAPPY]" classname="org.apache.kafka.common.record.FileLogInputStreamTest" time="0.002"/>
-  <testcase name="testNextBatchSelectionWithZeroedParams[magic=1, compression=SNAPPY]" classname="org.apache.kafka.common.record.FileLogInputStreamTest" time="0.001"/>
+  <testcase name="testWriteTo[magic=1, compression=SNAPPY]" classname="org.apache.kafka.common.record.FileLogInputStreamTest" time="0.003"/>
+  <testcase name="testNextBatchSelectionWithZeroedParams[magic=1, compression=SNAPPY]" classname="org.apache.kafka.common.record.FileLogInputStreamTest" time="0.002"/>
   <testcase name="testNextBatchSelectionWithMaxedParams[magic=1, compression=LZ4]" classname="org.apache.kafka.common.record.FileLogInputStreamTest" time="0.001"/>
   <testcase name="testSimpleBatchIteration[magic=1, compression=LZ4]" classname="org.apache.kafka.common.record.FileLogInputStreamTest" time="0.003"/>
   <testcase name="testBatchIterationV2[magic=1, compression=LZ4]" classname="org.apache.kafka.common.record.FileLogInputStreamTest" time="0.0"/>
-  <testcase name="testBatchIterationWithMultipleRecordsPerBatch[magic=1, compression=LZ4]" classname="org.apache.kafka.common.record.FileLogInputStreamTest" time="0.004"/>
+  <testcase name="testBatchIterationWithMultipleRecordsPerBatch[magic=1, compression=LZ4]" classname="org.apache.kafka.common.record.FileLogInputStreamTest" time="0.002"/>
   <testcase name="testBatchIterationIncompleteBatch[magic=1, compression=LZ4]" classname="org.apache.kafka.common.record.FileLogInputStreamTest" time="0.004"/>
   <testcase name="testWriteTo[magic=1, compression=LZ4]" classname="org.apache.kafka.common.record.FileLogInputStreamTest" time="0.002"/>
-  <testcase name="testNextBatchSelectionWithZeroedParams[magic=1, compression=LZ4]" classname="org.apache.kafka.common.record.FileLogInputStreamTest" time="0.001"/>
-  <testcase name="testNextBatchSelectionWithMaxedParams[magic=1, compression=ZSTD]" classname="org.apache.kafka.common.record.FileLogInputStreamTest" time="0.0"/>
-  <testcase name="testSimpleBatchIteration[magic=1, compression=ZSTD]" classname="org.apache.kafka.common.record.FileLogInputStreamTest" time="0.001"/>
+  <testcase name="testNextBatchSelectionWithZeroedParams[magic=1, compression=LZ4]" classname="org.apache.kafka.common.record.FileLogInputStreamTest" time="0.002"/>
+  <testcase name="testNextBatchSelectionWithMaxedParams[magic=1, compression=ZSTD]" classname="org.apache.kafka.common.record.FileLogInputStreamTest" time="0.002"/>
+  <testcase name="testSimpleBatchIteration[magic=1, compression=ZSTD]" classname="org.apache.kafka.common.record.FileLogInputStreamTest" time="0.0"/>
   <testcase name="testBatchIterationV2[magic=1, compression=ZSTD]" classname="org.apache.kafka.common.record.FileLogInputStreamTest" time="0.0"/>
   <testcase name="testBatchIterationWithMultipleRecordsPerBatch[magic=1, compression=ZSTD]" classname="org.apache.kafka.common.record.FileLogInputStreamTest" time="0.0"/>
   <testcase name="testBatchIterationIncompleteBatch[magic=1, compression=ZSTD]" classname="org.apache.kafka.common.record.FileLogInputStreamTest" time="0.0"/>
   <testcase name="testWriteTo[magic=1, compression=ZSTD]" classname="org.apache.kafka.common.record.FileLogInputStreamTest" time="0.0"/>
   <testcase name="testNextBatchSelectionWithZeroedParams[magic=1, compression=ZSTD]" classname="org.apache.kafka.common.record.FileLogInputStreamTest" time="0.001"/>
   <testcase name="testNextBatchSelectionWithMaxedParams[magic=2, compression=NONE]" classname="org.apache.kafka.common.record.FileLogInputStreamTest" time="0.002"/>
-  <testcase name="testSimpleBatchIteration[magic=2, compression=NONE]" classname="org.apache.kafka.common.record.FileLogInputStreamTest" time="0.002"/>
+  <testcase name="testSimpleBatchIteration[magic=2, compression=NONE]" classname="org.apache.kafka.common.record.FileLogInputStreamTest" time="0.004"/>
   <testcase name="testBatchIterationV2[magic=2, compression=NONE]" classname="org.apache.kafka.common.record.FileLogInputStreamTest" time="0.002"/>
   <testcase name="testBatchIterationWithMultipleRecordsPerBatch[magic=2, compression=NONE]" classname="org.apache.kafka.common.record.FileLogInputStreamTest" time="0.002"/>
-  <testcase name="testBatchIterationIncompleteBatch[magic=2, compression=NONE]" classname="org.apache.kafka.common.record.FileLogInputStreamTest" time="0.002"/>
+  <testcase name="testBatchIterationIncompleteBatch[magic=2, compression=NONE]" classname="org.apache.kafka.common.record.FileLogInputStreamTest" time="0.003"/>
   <testcase name="testWriteTo[magic=2, compression=NONE]" classname="org.apache.kafka.common.record.FileLogInputStreamTest" time="0.002"/>
-  <testcase name="testNextBatchSelectionWithZeroedParams[magic=2, compression=NONE]" classname="org.apache.kafka.common.record.FileLogInputStreamTest" time="0.001"/>
-  <testcase name="testNextBatchSelectionWithMaxedParams[magic=2, compression=GZIP]" classname="org.apache.kafka.common.record.FileLogInputStreamTest" time="0.034"/>
-  <testcase name="testSimpleBatchIteration[magic=2, compression=GZIP]" classname="org.apache.kafka.common.record.FileLogInputStreamTest" time="0.007"/>
-  <testcase name="testBatchIterationV2[magic=2, compression=GZIP]" classname="org.apache.kafka.common.record.FileLogInputStreamTest" time="0.008"/>
-  <testcase name="testBatchIterationWithMultipleRecordsPerBatch[magic=2, compression=GZIP]" classname="org.apache.kafka.common.record.FileLogInputStreamTest" time="0.023"/>
-  <testcase name="testBatchIterationIncompleteBatch[magic=2, compression=GZIP]" classname="org.apache.kafka.common.record.FileLogInputStreamTest" time="0.006"/>
-  <testcase name="testWriteTo[magic=2, compression=GZIP]" classname="org.apache.kafka.common.record.FileLogInputStreamTest" time="0.001"/>
-  <testcase name="testNextBatchSelectionWithZeroedParams[magic=2, compression=GZIP]" classname="org.apache.kafka.common.record.FileLogInputStreamTest" time="0.002"/>
-  <testcase name="testNextBatchSelectionWithMaxedParams[magic=2, compression=SNAPPY]" classname="org.apache.kafka.common.record.FileLogInputStreamTest" time="0.003"/>
-  <testcase name="testSimpleBatchIteration[magic=2, compression=SNAPPY]" classname="org.apache.kafka.common.record.FileLogInputStreamTest" time="0.004"/>
-  <testcase name="testBatchIterationV2[magic=2, compression=SNAPPY]" classname="org.apache.kafka.common.record.FileLogInputStreamTest" time="0.002"/>
-  <testcase name="testBatchIterationWithMultipleRecordsPerBatch[magic=2, compression=SNAPPY]" classname="org.apache.kafka.common.record.FileLogInputStreamTest" time="0.002"/>
-  <testcase name="testBatchIterationIncompleteBatch[magic=2, compression=SNAPPY]" classname="org.apache.kafka.common.record.FileLogInputStreamTest" time="0.002"/>
-  <testcase name="testWriteTo[magic=2, compression=SNAPPY]" classname="org.apache.kafka.common.record.FileLogInputStreamTest" time="0.001"/>
-  <testcase name="testNextBatchSelectionWithZeroedParams[magic=2, compression=SNAPPY]" classname="org.apache.kafka.common.record.FileLogInputStreamTest" time="0.001"/>
+  <testcase name="testNextBatchSelectionWithZeroedParams[magic=2, compression=NONE]" classname="org.apache.kafka.common.record.FileLogInputStreamTest" time="0.002"/>
+  <testcase name="testNextBatchSelectionWithMaxedParams[magic=2, compression=GZIP]" classname="org.apache.kafka.common.record.FileLogInputStreamTest" time="0.001"/>
+  <testcase name="testSimpleBatchIteration[magic=2, compression=GZIP]" classname="org.apache.kafka.common.record.FileLogInputStreamTest" time="0.003"/>
+  <testcase name="testBatchIterationV2[magic=2, compression=GZIP]" classname="org.apache.kafka.common.record.FileLogInputStreamTest" time="0.004"/>
+  <testcase name="testBatchIterationWithMultipleRecordsPerBatch[magic=2, compression=GZIP]" classname="org.apache.kafka.common.record.FileLogInputStreamTest" time="0.003"/>
+  <testcase name="testBatchIterationIncompleteBatch[magic=2, compression=GZIP]" classname="org.apache.kafka.common.record.FileLogInputStreamTest" time="0.003"/>
+  <testcase name="testWriteTo[magic=2, compression=GZIP]" classname="org.apache.kafka.common.record.FileLogInputStreamTest" time="0.003"/>
+  <testcase name="testNextBatchSelectionWithZeroedParams[magic=2, compression=GZIP]" classname="org.apache.kafka.common.record.FileLogInputStreamTest" time="0.001"/>
+  <testcase name="testNextBatchSelectionWithMaxedParams[magic=2, compression=SNAPPY]" classname="org.apache.kafka.common.record.FileLogInputStreamTest" time="0.002"/>
+  <testcase name="testSimpleBatchIteration[magic=2, compression=SNAPPY]" classname="org.apache.kafka.common.record.FileLogInputStreamTest" time="0.002"/>
+  <testcase name="testBatchIterationV2[magic=2, compression=SNAPPY]" classname="org.apache.kafka.common.record.FileLogInputStreamTest" time="0.003"/>
+  <testcase name="testBatchIterationWithMultipleRecordsPerBatch[magic=2, compression=SNAPPY]" classname="org.apache.kafka.common.record.FileLogInputStreamTest" time="0.003"/>
+  <testcase name="testBatchIterationIncompleteBatch[magic=2, compression=SNAPPY]" classname="org.apache.kafka.common.record.FileLogInputStreamTest" time="0.003"/>
+  <testcase name="testWriteTo[magic=2, compression=SNAPPY]" classname="org.apache.kafka.common.record.FileLogInputStreamTest" time="0.003"/>
+  <testcase name="testNextBatchSelectionWithZeroedParams[magic=2, compression=SNAPPY]" classname="org.apache.kafka.common.record.FileLogInputStreamTest" time="0.002"/>
   <testcase name="testNextBatchSelectionWithMaxedParams[magic=2, compression=LZ4]" classname="org.apache.kafka.common.record.FileLogInputStreamTest" time="0.001"/>
-  <testcase name="testSimpleBatchIteration[magic=2, compression=LZ4]" classname="org.apache.kafka.common.record.FileLogInputStreamTest" time="0.002"/>
-  <testcase name="testBatchIterationV2[magic=2, compression=LZ4]" classname="org.apache.kafka.common.record.FileLogInputStreamTest" time="0.004"/>
+  <testcase name="testSimpleBatchIteration[magic=2, compression=LZ4]" classname="org.apache.kafka.common.record.FileLogInputStreamTest" time="0.003"/>
+  <testcase name="testBatchIterationV2[magic=2, compression=LZ4]" classname="org.apache.kafka.common.record.FileLogInputStreamTest" time="0.003"/>
   <testcase name="testBatchIterationWithMultipleRecordsPerBatch[magic=2, compression=LZ4]" classname="org.apache.kafka.common.record.FileLogInputStreamTest" time="0.003"/>
   <testcase name="testBatchIterationIncompleteBatch[magic=2, compression=LZ4]" classname="org.apache.kafka.common.record.FileLogInputStreamTest" time="0.003"/>
   <testcase name="testWriteTo[magic=2, compression=LZ4]" classname="org.apache.kafka.common.record.FileLogInputStreamTest" time="0.003"/>
-  <testcase name="testNextBatchSelectionWithZeroedParams[magic=2, compression=LZ4]" classname="org.apache.kafka.common.record.FileLogInputStreamTest" time="0.002"/>
+  <testcase name="testNextBatchSelectionWithZeroedParams[magic=2, compression=LZ4]" classname="org.apache.kafka.common.record.FileLogInputStreamTest" time="0.001"/>
   <testcase name="testNextBatchSelectionWithMaxedParams[magic=2, compression=ZSTD]" classname="org.apache.kafka.common.record.FileLogInputStreamTest" time="0.002"/>
-  <testcase name="testSimpleBatchIteration[magic=2, compression=ZSTD]" classname="org.apache.kafka.common.record.FileLogInputStreamTest" time="0.004"/>
-  <testcase name="testBatchIterationV2[magic=2, compression=ZSTD]" classname="org.apache.kafka.common.record.FileLogInputStreamTest" time="0.003"/>
+  <testcase name="testSimpleBatchIteration[magic=2, compression=ZSTD]" classname="org.apache.kafka.common.record.FileLogInputStreamTest" time="0.048"/>
+  <testcase name="testBatchIterationV2[magic=2, compression=ZSTD]" classname="org.apache.kafka.common.record.FileLogInputStreamTest" time="0.004"/>
   <testcase name="testBatchIterationWithMultipleRecordsPerBatch[magic=2, compression=ZSTD]" classname="org.apache.kafka.common.record.FileLogInputStreamTest" time="0.004"/>
-  <testcase name="testBatchIterationIncompleteBatch[magic=2, compression=ZSTD]" classname="org.apache.kafka.common.record.FileLogInputStreamTest" time="0.002"/>
-  <testcase name="testWriteTo[magic=2, compression=ZSTD]" classname="org.apache.kafka.common.record.FileLogInputStreamTest" time="0.001"/>
+  <testcase name="testBatchIterationIncompleteBatch[magic=2, compression=ZSTD]" classname="org.apache.kafka.common.record.FileLogInputStreamTest" time="0.004"/>
+  <testcase name="testWriteTo[magic=2, compression=ZSTD]" classname="org.apache.kafka.common.record.FileLogInputStreamTest" time="0.003"/>
   <testcase name="testNextBatchSelectionWithZeroedParams[magic=2, compression=ZSTD]" classname="org.apache.kafka.common.record.FileLogInputStreamTest" time="0.001"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>

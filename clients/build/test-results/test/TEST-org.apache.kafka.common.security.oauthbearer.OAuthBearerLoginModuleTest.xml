@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.apache.kafka.common.security.oauthbearer.OAuthBearerLoginModuleTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2020-10-29T02:32:51" hostname="chukun-mac" time="0.159">
+<testsuite name="org.apache.kafka.common.security.oauthbearer.OAuthBearerLoginModuleTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2022-09-03T10:38:33" hostname="LAPTOP-FH01OFOM" time="0.025">
   <properties/>
-  <testcase name="login1Commit1Login2Abort2Login3Commit3Logout3" classname="org.apache.kafka.common.security.oauthbearer.OAuthBearerLoginModuleTest" time="0.156"/>
-  <testcase name="commitDoesNotThrowOnUnsupportedExtensionsCallback" classname="org.apache.kafka.common.security.oauthbearer.OAuthBearerLoginModuleTest" time="0.001"/>
+  <testcase name="login1Commit1Login2Abort2Login3Commit3Logout3" classname="org.apache.kafka.common.security.oauthbearer.OAuthBearerLoginModuleTest" time="0.024"/>
+  <testcase name="commitDoesNotThrowOnUnsupportedExtensionsCallback" classname="org.apache.kafka.common.security.oauthbearer.OAuthBearerLoginModuleTest" time="0.0"/>
   <testcase name="login1Commit1Logout1Login2Commit2Logout2" classname="org.apache.kafka.common.security.oauthbearer.OAuthBearerLoginModuleTest" time="0.0"/>
   <testcase name="login1Commit1Login2Commit2Logout1Login3Commit3Logout2" classname="org.apache.kafka.common.security.oauthbearer.OAuthBearerLoginModuleTest" time="0.0"/>
-  <testcase name="loginAbortLoginCommitLogout" classname="org.apache.kafka.common.security.oauthbearer.OAuthBearerLoginModuleTest" time="0.001"/>
+  <testcase name="loginAbortLoginCommitLogout" classname="org.apache.kafka.common.security.oauthbearer.OAuthBearerLoginModuleTest" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

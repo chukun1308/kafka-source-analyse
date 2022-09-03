@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.apache.kafka.common.acl.ResourcePatternFilterTest" tests="24" skipped="0" failures="0" errors="0" timestamp="2020-10-29T02:36:12" hostname="chukun-mac" time="0.006">
+<testsuite name="org.apache.kafka.common.acl.ResourcePatternFilterTest" tests="24" skipped="0" failures="0" errors="0" timestamp="2022-09-03T10:40:15" hostname="LAPTOP-FH01OFOM" time="0.005">
   <properties/>
-  <testcase name="shouldNotMatchIfBothPrefixedAndResourceIsPrefixOfFilter" classname="org.apache.kafka.common.acl.ResourcePatternFilterTest" time="0.001"/>
+  <testcase name="shouldNotMatchIfBothPrefixedAndResourceIsPrefixOfFilter" classname="org.apache.kafka.common.acl.ResourcePatternFilterTest" time="0.002"/>
   <testcase name="shouldNotMatchPrefixedIfNamePrefixedAnyFilterTypeIsAny" classname="org.apache.kafka.common.acl.ResourcePatternFilterTest" time="0.0"/>
   <testcase name="shouldBeUnknownIfResourceTypeUnknown" classname="org.apache.kafka.common.acl.ResourcePatternFilterTest" time="0.0"/>
   <testcase name="shouldMatchPrefixedIfExactMatch" classname="org.apache.kafka.common.acl.ResourcePatternFilterTest" time="0.0"/>
-  <testcase name="shouldNotMatchIfDifferentName" classname="org.apache.kafka.common.acl.ResourcePatternFilterTest" time="0.0"/>
+  <testcase name="shouldNotMatchIfDifferentName" classname="org.apache.kafka.common.acl.ResourcePatternFilterTest" time="0.001"/>
   <testcase name="shouldMatchLiteralIfNameMatchesAndFilterIsOnPatternTypeAny" classname="org.apache.kafka.common.acl.ResourcePatternFilterTest" time="0.0"/>
   <testcase name="shouldMatchWhereResourceTypeIsAny" classname="org.apache.kafka.common.acl.ResourcePatternFilterTest" time="0.0"/>
   <testcase name="shouldNotMatchLiteralWildcardIfFilterHasPatternTypeOfAny" classname="org.apache.kafka.common.acl.ResourcePatternFilterTest" time="0.0"/>
-  <testcase name="shouldMatchLiteralWildcardIfFilterHasPatternTypeOfMatch" classname="org.apache.kafka.common.acl.ResourcePatternFilterTest" time="0.001"/>
+  <testcase name="shouldMatchLiteralWildcardIfFilterHasPatternTypeOfMatch" classname="org.apache.kafka.common.acl.ResourcePatternFilterTest" time="0.0"/>
   <testcase name="shouldMatchWherePatternTypeIsAny" classname="org.apache.kafka.common.acl.ResourcePatternFilterTest" time="0.0"/>
   <testcase name="shouldMatchLiteralIfNameMatchesAndFilterIsOnPatternTypeMatch" classname="org.apache.kafka.common.acl.ResourcePatternFilterTest" time="0.0"/>
   <testcase name="shouldMatchWhereResourceNameIsAny" classname="org.apache.kafka.common.acl.ResourcePatternFilterTest" time="0.0"/>
@@ -22,7 +22,7 @@
   <testcase name="shouldNotMatchLiteralIfNamePrefixed" classname="org.apache.kafka.common.acl.ResourcePatternFilterTest" time="0.0"/>
   <testcase name="shouldNotMatchIfBothPrefixedAndFilterIsPrefixOfResource" classname="org.apache.kafka.common.acl.ResourcePatternFilterTest" time="0.0"/>
   <testcase name="shouldNotMatchIfDifferentNameCase" classname="org.apache.kafka.common.acl.ResourcePatternFilterTest" time="0.0"/>
-  <testcase name="shouldMatchPrefixedIfNamePrefixedAnyFilterTypeIsMatch" classname="org.apache.kafka.common.acl.ResourcePatternFilterTest" time="0.0"/>
+  <testcase name="shouldMatchPrefixedIfNamePrefixedAnyFilterTypeIsMatch" classname="org.apache.kafka.common.acl.ResourcePatternFilterTest" time="0.001"/>
   <testcase name="shouldNotMatchLiteralWildcardTheWayAround" classname="org.apache.kafka.common.acl.ResourcePatternFilterTest" time="0.0"/>
   <testcase name="shouldMatchLiteralWildcardIfExactMatch" classname="org.apache.kafka.common.acl.ResourcePatternFilterTest" time="0.0"/>
   <system-out><![CDATA[]]></system-out>

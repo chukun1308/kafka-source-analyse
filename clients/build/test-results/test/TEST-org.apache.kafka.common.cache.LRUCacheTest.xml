@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.apache.kafka.common.cache.LRUCacheTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-10-29T02:31:56" hostname="chukun-mac" time="0.002">
+<testsuite name="org.apache.kafka.common.cache.LRUCacheTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2022-09-03T10:37:53" hostname="LAPTOP-FH01OFOM" time="0.002">
   <properties/>
-  <testcase name="testEviction" classname="org.apache.kafka.common.cache.LRUCacheTest" time="0.002"/>
+  <testcase name="testEviction" classname="org.apache.kafka.common.cache.LRUCacheTest" time="0.001"/>
   <testcase name="testPutGet" classname="org.apache.kafka.common.cache.LRUCacheTest" time="0.0"/>
   <testcase name="testRemove" classname="org.apache.kafka.common.cache.LRUCacheTest" time="0.0"/>
   <system-out><![CDATA[]]></system-out>

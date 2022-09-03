@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.apache.kafka.clients.consumer.internals.PartitionAssignorAdapterTest" tests="8" skipped="0" failures="0" errors="0" timestamp="2020-10-29T02:32:42" hostname="chukun-mac" time="0.088">
+<testsuite name="org.apache.kafka.clients.consumer.internals.PartitionAssignorAdapterTest" tests="8" skipped="0" failures="0" errors="0" timestamp="2022-09-03T10:38:01" hostname="LAPTOP-FH01OFOM" time="0.177">
   <properties/>
-  <testcase name="shouldThrowKafkaExceptionOnAssignorNotFound" classname="org.apache.kafka.clients.consumer.internals.PartitionAssignorAdapterTest" time="0.012"/>
-  <testcase name="shouldInstantiateFromListOfOldAndNewClassTypes" classname="org.apache.kafka.clients.consumer.internals.PartitionAssignorAdapterTest" time="0.057"/>
-  <testcase name="shouldThrowKafkaExceptionOnNonAssignor" classname="org.apache.kafka.clients.consumer.internals.PartitionAssignorAdapterTest" time="0.001"/>
+  <testcase name="shouldThrowKafkaExceptionOnAssignorNotFound" classname="org.apache.kafka.clients.consumer.internals.PartitionAssignorAdapterTest" time="0.001"/>
+  <testcase name="shouldInstantiateFromListOfOldAndNewClassTypes" classname="org.apache.kafka.clients.consumer.internals.PartitionAssignorAdapterTest" time="0.166"/>
+  <testcase name="shouldThrowKafkaExceptionOnNonAssignor" classname="org.apache.kafka.clients.consumer.internals.PartitionAssignorAdapterTest" time="0.0"/>
   <testcase name="shouldAdaptOldAssignors" classname="org.apache.kafka.clients.consumer.internals.PartitionAssignorAdapterTest" time="0.0"/>
-  <testcase name="testOnAssignment" classname="org.apache.kafka.clients.consumer.internals.PartitionAssignorAdapterTest" time="0.012"/>
+  <testcase name="testOnAssignment" classname="org.apache.kafka.clients.consumer.internals.PartitionAssignorAdapterTest" time="0.001"/>
   <testcase name="shouldInstantiateNewAssignors" classname="org.apache.kafka.clients.consumer.internals.PartitionAssignorAdapterTest" time="0.0"/>
-  <testcase name="testAssign" classname="org.apache.kafka.clients.consumer.internals.PartitionAssignorAdapterTest" time="0.003"/>
-  <testcase name="shouldThrowKafkaExceptionOnListWithNonAssignorClassType" classname="org.apache.kafka.clients.consumer.internals.PartitionAssignorAdapterTest" time="0.003"/>
+  <testcase name="testAssign" classname="org.apache.kafka.clients.consumer.internals.PartitionAssignorAdapterTest" time="0.001"/>
+  <testcase name="shouldThrowKafkaExceptionOnListWithNonAssignorClassType" classname="org.apache.kafka.clients.consumer.internals.PartitionAssignorAdapterTest" time="0.008"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

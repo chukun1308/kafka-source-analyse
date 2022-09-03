@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.apache.kafka.common.requests.StopReplicaRequestTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2020-10-29T02:36:12" hostname="chukun-mac" time="0.008">
+<testsuite name="org.apache.kafka.common.requests.StopReplicaRequestTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2022-09-03T10:38:23" hostname="LAPTOP-FH01OFOM" time="0.005">
   <properties/>
-  <testcase name="testUnsupportedVersion" classname="org.apache.kafka.common.requests.StopReplicaRequestTest" time="0.003"/>
+  <testcase name="testUnsupportedVersion" classname="org.apache.kafka.common.requests.StopReplicaRequestTest" time="0.002"/>
   <testcase name="testBuilderNormalizationWithAllDeletePartitionEqualToTrue" classname="org.apache.kafka.common.requests.StopReplicaRequestTest" time="0.001"/>
   <testcase name="testBuilderNormalizationWithAllDeletePartitionEqualToFalse" classname="org.apache.kafka.common.requests.StopReplicaRequestTest" time="0.0"/>
   <testcase name="testPartitionStatesNormalization" classname="org.apache.kafka.common.requests.StopReplicaRequestTest" time="0.0"/>
-  <testcase name="testGetErrorResponse" classname="org.apache.kafka.common.requests.StopReplicaRequestTest" time="0.003"/>
+  <testcase name="testGetErrorResponse" classname="org.apache.kafka.common.requests.StopReplicaRequestTest" time="0.002"/>
   <testcase name="testTopicStatesNormalization" classname="org.apache.kafka.common.requests.StopReplicaRequestTest" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>

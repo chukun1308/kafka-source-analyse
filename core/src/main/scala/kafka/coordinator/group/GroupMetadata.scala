@@ -195,13 +195,13 @@ case class CommitRecordMetadataAndOffset(appendedBatchOffset: Option[Long], offs
  *  2. generation id
  *  3. leader id
  */
-@nonthreadsafe
 
 /**
  * groupId 组名
  * initialState 消费者组的初始状态
  *
  */
+@nonthreadsafe
 private[group] class GroupMetadata(val groupId: String, initialState: GroupState, time: Time) extends Logging {
   type JoinCallback = JoinGroupResult => Unit
 

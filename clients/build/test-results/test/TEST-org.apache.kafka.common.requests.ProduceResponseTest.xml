@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.apache.kafka.common.requests.ProduceResponseTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-10-29T02:31:48" hostname="chukun-mac" time="0.012">
+<testsuite name="org.apache.kafka.common.requests.ProduceResponseTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2022-09-03T10:38:45" hostname="LAPTOP-FH01OFOM" time="0.005">
   <properties/>
-  <testcase name="produceResponseVersionTest" classname="org.apache.kafka.common.requests.ProduceResponseTest" time="0.004"/>
+  <testcase name="produceResponseVersionTest" classname="org.apache.kafka.common.requests.ProduceResponseTest" time="0.001"/>
   <testcase name="produceResponseV5Test" classname="org.apache.kafka.common.requests.ProduceResponseTest" time="0.003"/>
-  <testcase name="produceResponseRecordErrorsTest" classname="org.apache.kafka.common.requests.ProduceResponseTest" time="0.002"/>
+  <testcase name="produceResponseRecordErrorsTest" classname="org.apache.kafka.common.requests.ProduceResponseTest" time="0.001"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.apache.kafka.common.requests.LeaveGroupResponseTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2020-10-29T02:36:12" hostname="chukun-mac" time="0.003">
+<testsuite name="org.apache.kafka.common.requests.LeaveGroupResponseTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2022-09-03T10:37:55" hostname="LAPTOP-FH01OFOM" time="0.001">
   <properties/>
   <testcase name="testShouldThrottle" classname="org.apache.kafka.common.requests.LeaveGroupResponseTest" time="0.0"/>
-  <testcase name="testEqualityWithStruct" classname="org.apache.kafka.common.requests.LeaveGroupResponseTest" time="0.001"/>
+  <testcase name="testEqualityWithStruct" classname="org.apache.kafka.common.requests.LeaveGroupResponseTest" time="0.0"/>
   <testcase name="testConstructorWithStruct" classname="org.apache.kafka.common.requests.LeaveGroupResponseTest" time="0.001"/>
   <testcase name="testEqualityWithMemberResponses" classname="org.apache.kafka.common.requests.LeaveGroupResponseTest" time="0.0"/>
-  <testcase name="testConstructorWithMemberResponses" classname="org.apache.kafka.common.requests.LeaveGroupResponseTest" time="0.001"/>
+  <testcase name="testConstructorWithMemberResponses" classname="org.apache.kafka.common.requests.LeaveGroupResponseTest" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

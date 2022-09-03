@@ -1,62 +1,62 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.apache.kafka.clients.producer.MockProducerTest" tests="56" skipped="0" failures="0" errors="0" timestamp="2020-10-29T02:31:30" hostname="chukun-mac" time="0.11">
+<testsuite name="org.apache.kafka.clients.producer.MockProducerTest" tests="56" skipped="0" failures="0" errors="0" timestamp="2022-09-03T10:37:57" hostname="LAPTOP-FH01OFOM" time="0.068">
   <properties/>
-  <testcase name="shouldPreserveOffsetsFromCommitByGroupMetadataOnAbortIfTransactionsAreEnabled" classname="org.apache.kafka.clients.producer.MockProducerTest" time="0.016"/>
-  <testcase name="shouldInitTransactions" classname="org.apache.kafka.clients.producer.MockProducerTest" time="0.001"/>
-  <testcase name="shouldThrowOnAbortTransactionIfProducerIsClosed" classname="org.apache.kafka.clients.producer.MockProducerTest" time="0.0"/>
-  <testcase name="shouldBeFlushedWithAutoCompleteIfBufferedRecords" classname="org.apache.kafka.clients.producer.MockProducerTest" time="0.002"/>
+  <testcase name="shouldPreserveOffsetsFromCommitByGroupMetadataOnAbortIfTransactionsAreEnabled" classname="org.apache.kafka.clients.producer.MockProducerTest" time="0.006"/>
+  <testcase name="shouldInitTransactions" classname="org.apache.kafka.clients.producer.MockProducerTest" time="0.0"/>
+  <testcase name="shouldThrowOnAbortTransactionIfProducerIsClosed" classname="org.apache.kafka.clients.producer.MockProducerTest" time="0.001"/>
+  <testcase name="shouldBeFlushedWithAutoCompleteIfBufferedRecords" classname="org.apache.kafka.clients.producer.MockProducerTest" time="0.0"/>
   <testcase name="shouldNotBeFlushedAfterFlush" classname="org.apache.kafka.clients.producer.MockProducerTest" time="0.001"/>
-  <testcase name="shouldThrowOnBeginTransactionIfTransactionsNotInitialized" classname="org.apache.kafka.clients.producer.MockProducerTest" time="0.001"/>
-  <testcase name="shouldThrowOnSendIfProducerGotFenced" classname="org.apache.kafka.clients.producer.MockProducerTest" time="0.001"/>
+  <testcase name="shouldThrowOnBeginTransactionIfTransactionsNotInitialized" classname="org.apache.kafka.clients.producer.MockProducerTest" time="0.0"/>
+  <testcase name="shouldThrowOnSendIfProducerGotFenced" classname="org.apache.kafka.clients.producer.MockProducerTest" time="0.0"/>
   <testcase name="shouldThrowOnCommitTransactionIfNoTransactionGotStarted" classname="org.apache.kafka.clients.producer.MockProducerTest" time="0.0"/>
-  <testcase name="shouldPublishLatestAndCumulativeConsumerGroupOffsetsOnlyAfterCommitIfTransactionsAreEnabled" classname="org.apache.kafka.clients.producer.MockProducerTest" time="0.002"/>
-  <testcase name="shouldThrowOnNullConsumerGroupMetadataWhenSendOffsetsToTransaction" classname="org.apache.kafka.clients.producer.MockProducerTest" time="0.002"/>
-  <testcase name="shouldPublishConsumerGroupOffsetsOnlyAfterCommitIfTransactionsAreEnabled" classname="org.apache.kafka.clients.producer.MockProducerTest" time="0.002"/>
-  <testcase name="shouldThrowOnSendOffsetsToTransactionTransactionIfNoTransactionGotStarted" classname="org.apache.kafka.clients.producer.MockProducerTest" time="0.0"/>
+  <testcase name="shouldPublishLatestAndCumulativeConsumerGroupOffsetsOnlyAfterCommitIfTransactionsAreEnabled" classname="org.apache.kafka.clients.producer.MockProducerTest" time="0.001"/>
+  <testcase name="shouldThrowOnNullConsumerGroupMetadataWhenSendOffsetsToTransaction" classname="org.apache.kafka.clients.producer.MockProducerTest" time="0.001"/>
+  <testcase name="shouldPublishConsumerGroupOffsetsOnlyAfterCommitIfTransactionsAreEnabled" classname="org.apache.kafka.clients.producer.MockProducerTest" time="0.0"/>
+  <testcase name="shouldThrowOnSendOffsetsToTransactionTransactionIfNoTransactionGotStarted" classname="org.apache.kafka.clients.producer.MockProducerTest" time="0.001"/>
   <testcase name="shouldThrowOnNullConsumerGroupIdWhenSendOffsetsToTransaction" classname="org.apache.kafka.clients.producer.MockProducerTest" time="0.0"/>
-  <testcase name="shouldThrowOnSendOffsetsToTransactionByGroupMetadataIfProducerGotFenced" classname="org.apache.kafka.clients.producer.MockProducerTest" time="0.0"/>
-  <testcase name="shouldThrowOnAbortForNonAutoCompleteIfTransactionsAreEnabled" classname="org.apache.kafka.clients.producer.MockProducerTest" time="0.001"/>
-  <testcase name="shouldAddOffsetsWhenSendOffsetsToTransactionByGroupId" classname="org.apache.kafka.clients.producer.MockProducerTest" time="0.009"/>
-  <testcase name="shouldResetSentOffsetsFlagOnlyWhenBeginningNewTransaction" classname="org.apache.kafka.clients.producer.MockProducerTest" time="0.001"/>
+  <testcase name="shouldThrowOnSendOffsetsToTransactionByGroupMetadataIfProducerGotFenced" classname="org.apache.kafka.clients.producer.MockProducerTest" time="0.001"/>
+  <testcase name="shouldThrowOnAbortForNonAutoCompleteIfTransactionsAreEnabled" classname="org.apache.kafka.clients.producer.MockProducerTest" time="0.0"/>
+  <testcase name="shouldAddOffsetsWhenSendOffsetsToTransactionByGroupId" classname="org.apache.kafka.clients.producer.MockProducerTest" time="0.002"/>
+  <testcase name="shouldResetSentOffsetsFlagOnlyWhenBeginningNewTransaction" classname="org.apache.kafka.clients.producer.MockProducerTest" time="0.0"/>
   <testcase name="shouldAddOffsetsWhenSendOffsetsToTransactionByGroupMetadata" classname="org.apache.kafka.clients.producer.MockProducerTest" time="0.001"/>
   <testcase name="shouldThrowSendOffsetsToTransactionByGroupIdIfProducerIsClosed" classname="org.apache.kafka.clients.producer.MockProducerTest" time="0.0"/>
   <testcase name="shouldThrowOnInitTransactionIfProducerIsClosed" classname="org.apache.kafka.clients.producer.MockProducerTest" time="0.0"/>
-  <testcase name="shouldPreserveCommittedMessagesOnAbortIfTransactionsAreEnabled" classname="org.apache.kafka.clients.producer.MockProducerTest" time="0.001"/>
-  <testcase name="shouldThrowOnInitTransactionIfProducerAlreadyInitializedForTransactions" classname="org.apache.kafka.clients.producer.MockProducerTest" time="0.0"/>
-  <testcase name="testManualCompletion" classname="org.apache.kafka.clients.producer.MockProducerTest" time="0.0"/>
+  <testcase name="shouldPreserveCommittedMessagesOnAbortIfTransactionsAreEnabled" classname="org.apache.kafka.clients.producer.MockProducerTest" time="0.0"/>
+  <testcase name="shouldThrowOnInitTransactionIfProducerAlreadyInitializedForTransactions" classname="org.apache.kafka.clients.producer.MockProducerTest" time="0.018"/>
+  <testcase name="testManualCompletion" classname="org.apache.kafka.clients.producer.MockProducerTest" time="0.002"/>
   <testcase name="testAutoCompleteMock" classname="org.apache.kafka.clients.producer.MockProducerTest" time="0.001"/>
-  <testcase name="shouldThrowOnFlushProducerIfProducerIsClosed" classname="org.apache.kafka.clients.producer.MockProducerTest" time="0.0"/>
-  <testcase name="shouldThrowSendOffsetsToTransactionByGroupMetadataIfProducerIsClosed" classname="org.apache.kafka.clients.producer.MockProducerTest" time="0.0"/>
-  <testcase name="shouldNotBeFlushedWithNoAutoCompleteIfBufferedRecords" classname="org.apache.kafka.clients.producer.MockProducerTest" time="0.0"/>
-  <testcase name="shouldNotCountAbortedTransaction" classname="org.apache.kafka.clients.producer.MockProducerTest" time="0.001"/>
+  <testcase name="shouldThrowOnFlushProducerIfProducerIsClosed" classname="org.apache.kafka.clients.producer.MockProducerTest" time="0.001"/>
+  <testcase name="shouldThrowSendOffsetsToTransactionByGroupMetadataIfProducerIsClosed" classname="org.apache.kafka.clients.producer.MockProducerTest" time="0.001"/>
+  <testcase name="shouldNotBeFlushedWithNoAutoCompleteIfBufferedRecords" classname="org.apache.kafka.clients.producer.MockProducerTest" time="0.001"/>
+  <testcase name="shouldNotCountAbortedTransaction" classname="org.apache.kafka.clients.producer.MockProducerTest" time="0.0"/>
   <testcase name="shouldThrowOnAbortTransactionIfProducerGotFenced" classname="org.apache.kafka.clients.producer.MockProducerTest" time="0.0"/>
-  <testcase name="testPartitioner" classname="org.apache.kafka.clients.producer.MockProducerTest" time="0.002"/>
-  <testcase name="shouldThrowOnFenceProducerIfProducerIsClosed" classname="org.apache.kafka.clients.producer.MockProducerTest" time="0.001"/>
+  <testcase name="testPartitioner" classname="org.apache.kafka.clients.producer.MockProducerTest" time="0.001"/>
+  <testcase name="shouldThrowOnFenceProducerIfProducerIsClosed" classname="org.apache.kafka.clients.producer.MockProducerTest" time="0.0"/>
   <testcase name="shouldThrowOnCommitTransactionIfProducerIsClosed" classname="org.apache.kafka.clients.producer.MockProducerTest" time="0.001"/>
   <testcase name="shouldPreserveOffsetsFromCommitByGroupIdOnAbortIfTransactionsAreEnabled" classname="org.apache.kafka.clients.producer.MockProducerTest" time="0.001"/>
-  <testcase name="shouldThrowFenceProducerIfTransactionsNotInitialized" classname="org.apache.kafka.clients.producer.MockProducerTest" time="0.002"/>
-  <testcase name="shouldThrowOnBeginTransactionsIfTransactionInflight" classname="org.apache.kafka.clients.producer.MockProducerTest" time="0.002"/>
+  <testcase name="shouldThrowFenceProducerIfTransactionsNotInitialized" classname="org.apache.kafka.clients.producer.MockProducerTest" time="0.0"/>
+  <testcase name="shouldThrowOnBeginTransactionsIfTransactionInflight" classname="org.apache.kafka.clients.producer.MockProducerTest" time="0.001"/>
   <testcase name="shouldCountCommittedTransaction" classname="org.apache.kafka.clients.producer.MockProducerTest" time="0.0"/>
-  <testcase name="shouldBeFlushedIfNoBufferedRecords" classname="org.apache.kafka.clients.producer.MockProducerTest" time="0.0"/>
+  <testcase name="shouldBeFlushedIfNoBufferedRecords" classname="org.apache.kafka.clients.producer.MockProducerTest" time="0.001"/>
   <testcase name="shouldIgnoreEmptyOffsetsWhenSendOffsetsToTransactionByGroupMetadata" classname="org.apache.kafka.clients.producer.MockProducerTest" time="0.0"/>
-  <testcase name="shouldPublishMessagesOnlyAfterCommitIfTransactionsAreEnabled" classname="org.apache.kafka.clients.producer.MockProducerTest" time="0.0"/>
+  <testcase name="shouldPublishMessagesOnlyAfterCommitIfTransactionsAreEnabled" classname="org.apache.kafka.clients.producer.MockProducerTest" time="0.002"/>
   <testcase name="shouldFlushOnCommitForNonAutoCompleteIfTransactionsAreEnabled" classname="org.apache.kafka.clients.producer.MockProducerTest" time="0.001"/>
-  <testcase name="shouldThrowOnAbortTransactionIfNoTransactionGotStarted" classname="org.apache.kafka.clients.producer.MockProducerTest" time="0.0"/>
+  <testcase name="shouldThrowOnAbortTransactionIfNoTransactionGotStarted" classname="org.apache.kafka.clients.producer.MockProducerTest" time="0.001"/>
   <testcase name="shouldThrowOnBeginTransactionIfProducerIsClosed" classname="org.apache.kafka.clients.producer.MockProducerTest" time="0.0"/>
-  <testcase name="shouldDropMessagesOnAbortIfTransactionsAreEnabled" classname="org.apache.kafka.clients.producer.MockProducerTest" time="0.0"/>
+  <testcase name="shouldDropMessagesOnAbortIfTransactionsAreEnabled" classname="org.apache.kafka.clients.producer.MockProducerTest" time="0.001"/>
   <testcase name="shouldThrowOnSendIfProducerIsClosed" classname="org.apache.kafka.clients.producer.MockProducerTest" time="0.0"/>
-  <testcase name="shouldThrowOnCommitIfTransactionsNotInitialized" classname="org.apache.kafka.clients.producer.MockProducerTest" time="0.009"/>
-  <testcase name="shouldThrowOnBeginTransactionsIfProducerGotFenced" classname="org.apache.kafka.clients.producer.MockProducerTest" time="0.001"/>
-  <testcase name="shouldThrowOnAbortIfTransactionsNotInitialized" classname="org.apache.kafka.clients.producer.MockProducerTest" time="0.0"/>
+  <testcase name="shouldThrowOnCommitIfTransactionsNotInitialized" classname="org.apache.kafka.clients.producer.MockProducerTest" time="0.001"/>
+  <testcase name="shouldThrowOnBeginTransactionsIfProducerGotFenced" classname="org.apache.kafka.clients.producer.MockProducerTest" time="0.0"/>
+  <testcase name="shouldThrowOnAbortIfTransactionsNotInitialized" classname="org.apache.kafka.clients.producer.MockProducerTest" time="0.001"/>
   <testcase name="shouldIgnoreEmptyOffsetsWhenSendOffsetsToTransactionByGroupId" classname="org.apache.kafka.clients.producer.MockProducerTest" time="0.0"/>
   <testcase name="shouldBeginTransactions" classname="org.apache.kafka.clients.producer.MockProducerTest" time="0.0"/>
   <testcase name="shouldThrowOnSendOffsetsToTransactionByGroupIdIfProducerGotFenced" classname="org.apache.kafka.clients.producer.MockProducerTest" time="0.0"/>
   <testcase name="shouldThrowOnSendOffsetsToTransactionIfTransactionsNotInitialized" classname="org.apache.kafka.clients.producer.MockProducerTest" time="0.0"/>
-  <testcase name="shouldThrowClassCastException" classname="org.apache.kafka.clients.producer.MockProducerTest" time="0.017"/>
+  <testcase name="shouldThrowClassCastException" classname="org.apache.kafka.clients.producer.MockProducerTest" time="0.001"/>
   <testcase name="shouldThrowOnCommitTransactionIfProducerGotFenced" classname="org.apache.kafka.clients.producer.MockProducerTest" time="0.0"/>
   <testcase name="shouldAbortEmptyTransaction" classname="org.apache.kafka.clients.producer.MockProducerTest" time="0.0"/>
   <testcase name="shouldCommitEmptyTransaction" classname="org.apache.kafka.clients.producer.MockProducerTest" time="0.0"/>
-  <testcase name="shouldDropConsumerGroupOffsetsOnAbortIfTransactionsAreEnabled" classname="org.apache.kafka.clients.producer.MockProducerTest" time="0.006"/>
+  <testcase name="shouldDropConsumerGroupOffsetsOnAbortIfTransactionsAreEnabled" classname="org.apache.kafka.clients.producer.MockProducerTest" time="0.001"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

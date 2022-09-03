@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.apache.kafka.common.requests.DeleteAclsRequestTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2020-10-29T02:31:48" hostname="chukun-mac" time="0.014">
+<testsuite name="org.apache.kafka.common.requests.DeleteAclsRequestTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2022-09-03T10:41:16" hostname="LAPTOP-FH01OFOM" time="0.003">
   <properties/>
-  <testcase name="shouldRoundTripV1" classname="org.apache.kafka.common.requests.DeleteAclsRequestTest" time="0.012"/>
+  <testcase name="shouldRoundTripV1" classname="org.apache.kafka.common.requests.DeleteAclsRequestTest" time="0.002"/>
   <testcase name="shouldThrowOnV0IfPrefixed" classname="org.apache.kafka.common.requests.DeleteAclsRequestTest" time="0.0"/>
   <testcase name="shouldRoundTripLiteralV0" classname="org.apache.kafka.common.requests.DeleteAclsRequestTest" time="0.0"/>
-  <testcase name="shouldRoundTripAnyV0AsLiteral" classname="org.apache.kafka.common.requests.DeleteAclsRequestTest" time="0.001"/>
-  <testcase name="shouldThrowOnUnknownElements" classname="org.apache.kafka.common.requests.DeleteAclsRequestTest" time="0.001"/>
+  <testcase name="shouldRoundTripAnyV0AsLiteral" classname="org.apache.kafka.common.requests.DeleteAclsRequestTest" time="0.0"/>
+  <testcase name="shouldThrowOnUnknownElements" classname="org.apache.kafka.common.requests.DeleteAclsRequestTest" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.apache.kafka.common.security.scram.internals.ScramFormatterTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2020-10-29T02:31:57" hostname="chukun-mac" time="0.09">
+<testsuite name="org.apache.kafka.common.security.scram.internals.ScramFormatterTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2022-09-03T10:38:46" hostname="LAPTOP-FH01OFOM" time="0.042">
   <properties/>
-  <testcase name="rfc7677Example" classname="org.apache.kafka.common.security.scram.internals.ScramFormatterTest" time="0.087"/>
+  <testcase name="rfc7677Example" classname="org.apache.kafka.common.security.scram.internals.ScramFormatterTest" time="0.041"/>
   <testcase name="saslName" classname="org.apache.kafka.common.security.scram.internals.ScramFormatterTest" time="0.001"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>

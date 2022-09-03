@@ -1,4 +1,0 @@
-org/apache/kafka/connect/json/JsonConverterTest.java
- org.apache.kafka.connect.json.JsonConverterTest
-org/apache/kafka/connect/json/JsonConverterConfigTest.java
- org.apache.kafka.connect.json.JsonConverterConfigTest

@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.apache.kafka.message.VersionConditionalTest" tests="12" skipped="0" failures="0" errors="0" timestamp="2020-10-29T02:41:10" hostname="chukun-mac" time="0.022">
+<testsuite name="org.apache.kafka.message.VersionConditionalTest" tests="12" skipped="0" failures="0" errors="0" timestamp="2022-09-03T08:48:19" hostname="LAPTOP-FH01OFOM" time="0.33">
   <properties/>
-  <testcase name="testAlwaysTrueConditionalWithAlwaysEmitBlockScope" classname="org.apache.kafka.message.VersionConditionalTest" time="0.004"/>
-  <testcase name="testLowerRangeCheckWithElse" classname="org.apache.kafka.message.VersionConditionalTest" time="0.002"/>
-  <testcase name="testFullRangeCheck" classname="org.apache.kafka.message.VersionConditionalTest" time="0.001"/>
-  <testcase name="testAlwaysTrueConditional" classname="org.apache.kafka.message.VersionConditionalTest" time="0.002"/>
-  <testcase name="testAlwaysFalseConditional" classname="org.apache.kafka.message.VersionConditionalTest" time="0.001"/>
-  <testcase name="testLowerRangeCheckWithIfMember" classname="org.apache.kafka.message.VersionConditionalTest" time="0.001"/>
-  <testcase name="testUpperRangeCheckWithIfNotMember" classname="org.apache.kafka.message.VersionConditionalTest" time="0.001"/>
-  <testcase name="testUpperRangeCheckWithIfMember" classname="org.apache.kafka.message.VersionConditionalTest" time="0.001"/>
-  <testcase name="testAnotherAlwaysFalseConditional" classname="org.apache.kafka.message.VersionConditionalTest" time="0.002"/>
-  <testcase name="testAllowMembershipCheckAlwaysFalseFails" classname="org.apache.kafka.message.VersionConditionalTest" time="0.002"/>
-  <testcase name="testLowerRangeCheckWithIfNotMember" classname="org.apache.kafka.message.VersionConditionalTest" time="0.001"/>
-  <testcase name="testUpperRangeCheckWithElse" classname="org.apache.kafka.message.VersionConditionalTest" time="0.002"/>
+  <testcase name="testAlwaysTrueConditionalWithAlwaysEmitBlockScope" classname="org.apache.kafka.message.VersionConditionalTest" time="0.039"/>
+  <testcase name="testLowerRangeCheckWithElse" classname="org.apache.kafka.message.VersionConditionalTest" time="0.042"/>
+  <testcase name="testFullRangeCheck" classname="org.apache.kafka.message.VersionConditionalTest" time="0.03"/>
+  <testcase name="testAlwaysTrueConditional" classname="org.apache.kafka.message.VersionConditionalTest" time="0.012"/>
+  <testcase name="testAlwaysFalseConditional" classname="org.apache.kafka.message.VersionConditionalTest" time="0.004"/>
+  <testcase name="testLowerRangeCheckWithIfMember" classname="org.apache.kafka.message.VersionConditionalTest" time="0.073"/>
+  <testcase name="testUpperRangeCheckWithIfNotMember" classname="org.apache.kafka.message.VersionConditionalTest" time="0.047"/>
+  <testcase name="testUpperRangeCheckWithIfMember" classname="org.apache.kafka.message.VersionConditionalTest" time="0.04"/>
+  <testcase name="testAnotherAlwaysFalseConditional" classname="org.apache.kafka.message.VersionConditionalTest" time="0.004"/>
+  <testcase name="testAllowMembershipCheckAlwaysFalseFails" classname="org.apache.kafka.message.VersionConditionalTest" time="0.007"/>
+  <testcase name="testLowerRangeCheckWithIfNotMember" classname="org.apache.kafka.message.VersionConditionalTest" time="0.02"/>
+  <testcase name="testUpperRangeCheckWithElse" classname="org.apache.kafka.message.VersionConditionalTest" time="0.007"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

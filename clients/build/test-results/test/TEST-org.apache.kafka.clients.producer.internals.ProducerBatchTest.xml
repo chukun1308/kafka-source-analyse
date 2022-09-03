@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.apache.kafka.clients.producer.internals.ProducerBatchTest" tests="10" skipped="0" failures="0" errors="0" timestamp="2020-10-29T02:32:19" hostname="chukun-mac" time="0.746">
+<testsuite name="org.apache.kafka.clients.producer.internals.ProducerBatchTest" tests="10" skipped="0" failures="0" errors="0" timestamp="2022-09-03T10:37:56" hostname="LAPTOP-FH01OFOM" time="1.083">
   <properties/>
-  <testcase name="testBatchExpirationAfterReenqueue" classname="org.apache.kafka.clients.producer.internals.ProducerBatchTest" time="0.001"/>
-  <testcase name="testChecksumNullForMagicV2" classname="org.apache.kafka.clients.producer.internals.ProducerBatchTest" time="0.0"/>
+  <testcase name="testBatchExpirationAfterReenqueue" classname="org.apache.kafka.clients.producer.internals.ProducerBatchTest" time="0.027"/>
+  <testcase name="testChecksumNullForMagicV2" classname="org.apache.kafka.clients.producer.internals.ProducerBatchTest" time="0.007"/>
   <testcase name="testBatchExpiration" classname="org.apache.kafka.clients.producer.internals.ProducerBatchTest" time="0.0"/>
-  <testcase name="testBatchAbort" classname="org.apache.kafka.clients.producer.internals.ProducerBatchTest" time="0.001"/>
-  <testcase name="testAppendedChecksumMagicV0AndV1" classname="org.apache.kafka.clients.producer.internals.ProducerBatchTest" time="0.007"/>
-  <testcase name="testBatchCannotCompleteTwice" classname="org.apache.kafka.clients.producer.internals.ProducerBatchTest" time="0.0"/>
-  <testcase name="testSplitPreservesMagicAndCompressionType" classname="org.apache.kafka.clients.producer.internals.ProducerBatchTest" time="0.717"/>
-  <testcase name="testBatchCannotAbortTwice" classname="org.apache.kafka.clients.producer.internals.ProducerBatchTest" time="0.002"/>
-  <testcase name="testShouldNotAttemptAppendOnceRecordsBuilderIsClosedForAppends" classname="org.apache.kafka.clients.producer.internals.ProducerBatchTest" time="0.001"/>
-  <testcase name="testSplitPreservesHeaders" classname="org.apache.kafka.clients.producer.internals.ProducerBatchTest" time="0.016"/>
+  <testcase name="testBatchAbort" classname="org.apache.kafka.clients.producer.internals.ProducerBatchTest" time="0.002"/>
+  <testcase name="testAppendedChecksumMagicV0AndV1" classname="org.apache.kafka.clients.producer.internals.ProducerBatchTest" time="0.005"/>
+  <testcase name="testBatchCannotCompleteTwice" classname="org.apache.kafka.clients.producer.internals.ProducerBatchTest" time="0.001"/>
+  <testcase name="testSplitPreservesMagicAndCompressionType" classname="org.apache.kafka.clients.producer.internals.ProducerBatchTest" time="1.016"/>
+  <testcase name="testBatchCannotAbortTwice" classname="org.apache.kafka.clients.producer.internals.ProducerBatchTest" time="0.0"/>
+  <testcase name="testShouldNotAttemptAppendOnceRecordsBuilderIsClosedForAppends" classname="org.apache.kafka.clients.producer.internals.ProducerBatchTest" time="0.0"/>
+  <testcase name="testSplitPreservesHeaders" classname="org.apache.kafka.clients.producer.internals.ProducerBatchTest" time="0.021"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

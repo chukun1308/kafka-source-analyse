@@ -1,8 +1,0 @@
-org/apache/kafka/connect/file/FileStreamSourceConnector.java
- org.apache.kafka.connect.file.FileStreamSourceConnector
-org/apache/kafka/connect/file/FileStreamSinkConnector.java
- org.apache.kafka.connect.file.FileStreamSinkConnector
-org/apache/kafka/connect/file/FileStreamSourceTask.java
- org.apache.kafka.connect.file.FileStreamSourceTask
-org/apache/kafka/connect/file/FileStreamSinkTask.java
- org.apache.kafka.connect.file.FileStreamSinkTask

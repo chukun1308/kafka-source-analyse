@@ -1,101 +1,101 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.apache.kafka.common.record.MemoryRecordsBuilderTest" tests="290" skipped="24" failures="0" errors="0" timestamp="2020-10-29T02:32:49" hostname="chukun-mac" time="2.243">
+<testsuite name="org.apache.kafka.common.record.MemoryRecordsBuilderTest" tests="290" skipped="24" failures="0" errors="0" timestamp="2022-09-03T10:38:11" hostname="LAPTOP-FH01OFOM" time="1.692">
   <properties/>
-  <testcase name="testWriteEndTxnMarkerNonControlBatch[bufferOffset=0, compression=NONE]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.003"/>
-  <testcase name="convertV2ToV1UsingMixedCreateAndLogAppendTime[bufferOffset=0, compression=NONE]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.005"/>
+  <testcase name="testWriteEndTxnMarkerNonControlBatch[bufferOffset=0, compression=NONE]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.0"/>
+  <testcase name="convertV2ToV1UsingMixedCreateAndLogAppendTime[bufferOffset=0, compression=NONE]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.002"/>
   <testcase name="shouldThrowIllegalStateExceptionOnBuildWhenAborted[bufferOffset=0, compression=NONE]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.003"/>
-  <testcase name="buildUsingCreateTime[bufferOffset=0, compression=NONE]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.002"/>
+  <testcase name="buildUsingCreateTime[bufferOffset=0, compression=NONE]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.0"/>
   <testcase name="testWriteIdempotentWithInvalidEpoch[bufferOffset=0, compression=NONE]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.0"/>
-  <testcase name="testCompressionRateV0[bufferOffset=0, compression=NONE]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.001"/>
+  <testcase name="testCompressionRateV0[bufferOffset=0, compression=NONE]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.0"/>
   <testcase name="testCompressionRateV1[bufferOffset=0, compression=NONE]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.0"/>
   <testcase name="testWriteEndTxnMarkerNonTransactionalBatch[bufferOffset=0, compression=NONE]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.0"/>
-  <testcase name="buildUsingLogAppendTime[bufferOffset=0, compression=NONE]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.001"/>
-  <testcase name="testWriteTransactionalRecordSet[bufferOffset=0, compression=NONE]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.001"/>
+  <testcase name="buildUsingLogAppendTime[bufferOffset=0, compression=NONE]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.0"/>
+  <testcase name="testWriteTransactionalRecordSet[bufferOffset=0, compression=NONE]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.0"/>
   <testcase name="testWriteTransactionalWithInvalidPID[bufferOffset=0, compression=NONE]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.0"/>
-  <testcase name="testAppendedChecksumConsistency[bufferOffset=0, compression=NONE]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.001"/>
+  <testcase name="testAppendedChecksumConsistency[bufferOffset=0, compression=NONE]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.0"/>
   <testcase name="testWriteIdempotentWithInvalidBaseSequence[bufferOffset=0, compression=NONE]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.0"/>
-  <testcase name="convertToV1WithMixedV0AndV2Data[bufferOffset=0, compression=NONE]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.002"/>
+  <testcase name="convertToV1WithMixedV0AndV2Data[bufferOffset=0, compression=NONE]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.0"/>
   <testcase name="testWriteEmptyRecordSet[bufferOffset=0, compression=NONE]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.002"/>
   <testcase name="testEstimatedSizeInBytes[bufferOffset=0, compression=NONE]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.0"/>
-  <testcase name="testWriteLeaderChangeControlBatch[bufferOffset=0, compression=NONE]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.005"/>
+  <testcase name="testWriteLeaderChangeControlBatch[bufferOffset=0, compression=NONE]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.003"/>
   <testcase name="testWriteControlBatchNotAllowedMagicV0[bufferOffset=0, compression=NONE]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.0"/>
   <testcase name="testWriteControlBatchNotAllowedMagicV1[bufferOffset=0, compression=NONE]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.0"/>
   <testcase name="shouldThrowIllegalStateExceptionOnCloseWhenAborted[bufferOffset=0, compression=NONE]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.0"/>
-  <testcase name="shouldThrowIllegalStateExceptionOnAppendWhenAborted[bufferOffset=0, compression=NONE]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.001"/>
-  <testcase name="testBuffersDereferencedOnClose[bufferOffset=0, compression=NONE]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.283"/>
-  <testcase name="testSmallWriteLimit[bufferOffset=0, compression=NONE]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.0"/>
+  <testcase name="shouldThrowIllegalStateExceptionOnAppendWhenAborted[bufferOffset=0, compression=NONE]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.0"/>
+  <testcase name="testBuffersDereferencedOnClose[bufferOffset=0, compression=NONE]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.102"/>
+  <testcase name="testSmallWriteLimit[bufferOffset=0, compression=NONE]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.001"/>
   <testcase name="shouldResetBufferToInitialPositionOnAbort[bufferOffset=0, compression=NONE]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.0"/>
-  <testcase name="testWriteTransactionalNotAllowedMagicV0[bufferOffset=0, compression=NONE]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.0"/>
-  <testcase name="testWriteTransactionalNotAllowedMagicV1[bufferOffset=0, compression=NONE]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.001"/>
+  <testcase name="testWriteTransactionalNotAllowedMagicV0[bufferOffset=0, compression=NONE]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.001"/>
+  <testcase name="testWriteTransactionalNotAllowedMagicV1[bufferOffset=0, compression=NONE]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.0"/>
   <testcase name="testWriteLeaderChangeControlBatchWithoutLeaderEpoch[bufferOffset=0, compression=NONE]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.0"/>
   <testcase name="writePastLimit[bufferOffset=0, compression=NONE]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.0"/>
-  <testcase name="testAppendAtInvalidOffset[bufferOffset=0, compression=NONE]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.0"/>
-  <testcase name="testWriteEndTxnMarkerNonControlBatch[bufferOffset=0, compression=GZIP]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.001"/>
+  <testcase name="testAppendAtInvalidOffset[bufferOffset=0, compression=NONE]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.001"/>
+  <testcase name="testWriteEndTxnMarkerNonControlBatch[bufferOffset=0, compression=GZIP]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.0"/>
   <testcase name="convertV2ToV1UsingMixedCreateAndLogAppendTime[bufferOffset=0, compression=GZIP]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.001"/>
   <testcase name="shouldThrowIllegalStateExceptionOnBuildWhenAborted[bufferOffset=0, compression=GZIP]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.0"/>
-  <testcase name="buildUsingCreateTime[bufferOffset=0, compression=GZIP]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.001"/>
+  <testcase name="buildUsingCreateTime[bufferOffset=0, compression=GZIP]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.0"/>
   <testcase name="testWriteIdempotentWithInvalidEpoch[bufferOffset=0, compression=GZIP]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.0"/>
   <testcase name="testCompressionRateV0[bufferOffset=0, compression=GZIP]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.001"/>
   <testcase name="testCompressionRateV1[bufferOffset=0, compression=GZIP]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.0"/>
   <testcase name="testWriteEndTxnMarkerNonTransactionalBatch[bufferOffset=0, compression=GZIP]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.0"/>
   <testcase name="buildUsingLogAppendTime[bufferOffset=0, compression=GZIP]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.0"/>
   <testcase name="testWriteTransactionalRecordSet[bufferOffset=0, compression=GZIP]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.0"/>
-  <testcase name="testWriteTransactionalWithInvalidPID[bufferOffset=0, compression=GZIP]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.001"/>
+  <testcase name="testWriteTransactionalWithInvalidPID[bufferOffset=0, compression=GZIP]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.0"/>
   <testcase name="testAppendedChecksumConsistency[bufferOffset=0, compression=GZIP]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.0"/>
-  <testcase name="testWriteIdempotentWithInvalidBaseSequence[bufferOffset=0, compression=GZIP]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.001"/>
+  <testcase name="testWriteIdempotentWithInvalidBaseSequence[bufferOffset=0, compression=GZIP]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.0"/>
   <testcase name="convertToV1WithMixedV0AndV2Data[bufferOffset=0, compression=GZIP]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.001"/>
-  <testcase name="testWriteEmptyRecordSet[bufferOffset=0, compression=GZIP]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.0"/>
-  <testcase name="testEstimatedSizeInBytes[bufferOffset=0, compression=GZIP]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.001"/>
+  <testcase name="testWriteEmptyRecordSet[bufferOffset=0, compression=GZIP]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.001"/>
+  <testcase name="testEstimatedSizeInBytes[bufferOffset=0, compression=GZIP]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.0"/>
   <testcase name="testWriteLeaderChangeControlBatch[bufferOffset=0, compression=GZIP]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.0"/>
   <testcase name="testWriteControlBatchNotAllowedMagicV0[bufferOffset=0, compression=GZIP]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.0"/>
-  <testcase name="testWriteControlBatchNotAllowedMagicV1[bufferOffset=0, compression=GZIP]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.001"/>
+  <testcase name="testWriteControlBatchNotAllowedMagicV1[bufferOffset=0, compression=GZIP]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.0"/>
   <testcase name="shouldThrowIllegalStateExceptionOnCloseWhenAborted[bufferOffset=0, compression=GZIP]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.0"/>
   <testcase name="shouldThrowIllegalStateExceptionOnAppendWhenAborted[bufferOffset=0, compression=GZIP]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.0"/>
-  <testcase name="testBuffersDereferencedOnClose[bufferOffset=0, compression=GZIP]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.315"/>
+  <testcase name="testBuffersDereferencedOnClose[bufferOffset=0, compression=GZIP]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.183"/>
   <testcase name="testSmallWriteLimit[bufferOffset=0, compression=GZIP]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.0"/>
   <testcase name="shouldResetBufferToInitialPositionOnAbort[bufferOffset=0, compression=GZIP]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.001"/>
   <testcase name="testWriteTransactionalNotAllowedMagicV0[bufferOffset=0, compression=GZIP]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.0"/>
   <testcase name="testWriteTransactionalNotAllowedMagicV1[bufferOffset=0, compression=GZIP]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.0"/>
   <testcase name="testWriteLeaderChangeControlBatchWithoutLeaderEpoch[bufferOffset=0, compression=GZIP]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.0"/>
-  <testcase name="writePastLimit[bufferOffset=0, compression=GZIP]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.002"/>
+  <testcase name="writePastLimit[bufferOffset=0, compression=GZIP]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.0"/>
   <testcase name="testAppendAtInvalidOffset[bufferOffset=0, compression=GZIP]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.0"/>
-  <testcase name="testWriteEndTxnMarkerNonControlBatch[bufferOffset=0, compression=SNAPPY]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.0"/>
+  <testcase name="testWriteEndTxnMarkerNonControlBatch[bufferOffset=0, compression=SNAPPY]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.069"/>
   <testcase name="convertV2ToV1UsingMixedCreateAndLogAppendTime[bufferOffset=0, compression=SNAPPY]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.001"/>
   <testcase name="shouldThrowIllegalStateExceptionOnBuildWhenAborted[bufferOffset=0, compression=SNAPPY]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.0"/>
-  <testcase name="buildUsingCreateTime[bufferOffset=0, compression=SNAPPY]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.001"/>
-  <testcase name="testWriteIdempotentWithInvalidEpoch[bufferOffset=0, compression=SNAPPY]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.0"/>
-  <testcase name="testCompressionRateV0[bufferOffset=0, compression=SNAPPY]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.001"/>
+  <testcase name="buildUsingCreateTime[bufferOffset=0, compression=SNAPPY]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.0"/>
+  <testcase name="testWriteIdempotentWithInvalidEpoch[bufferOffset=0, compression=SNAPPY]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.001"/>
+  <testcase name="testCompressionRateV0[bufferOffset=0, compression=SNAPPY]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.0"/>
   <testcase name="testCompressionRateV1[bufferOffset=0, compression=SNAPPY]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.0"/>
-  <testcase name="testWriteEndTxnMarkerNonTransactionalBatch[bufferOffset=0, compression=SNAPPY]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.001"/>
-  <testcase name="buildUsingLogAppendTime[bufferOffset=0, compression=SNAPPY]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.001"/>
-  <testcase name="testWriteTransactionalRecordSet[bufferOffset=0, compression=SNAPPY]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.001"/>
-  <testcase name="testWriteTransactionalWithInvalidPID[bufferOffset=0, compression=SNAPPY]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.0"/>
-  <testcase name="testAppendedChecksumConsistency[bufferOffset=0, compression=SNAPPY]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.004"/>
-  <testcase name="testWriteIdempotentWithInvalidBaseSequence[bufferOffset=0, compression=SNAPPY]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.001"/>
+  <testcase name="testWriteEndTxnMarkerNonTransactionalBatch[bufferOffset=0, compression=SNAPPY]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.0"/>
+  <testcase name="buildUsingLogAppendTime[bufferOffset=0, compression=SNAPPY]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.0"/>
+  <testcase name="testWriteTransactionalRecordSet[bufferOffset=0, compression=SNAPPY]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.0"/>
+  <testcase name="testWriteTransactionalWithInvalidPID[bufferOffset=0, compression=SNAPPY]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.001"/>
+  <testcase name="testAppendedChecksumConsistency[bufferOffset=0, compression=SNAPPY]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.0"/>
+  <testcase name="testWriteIdempotentWithInvalidBaseSequence[bufferOffset=0, compression=SNAPPY]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.0"/>
   <testcase name="convertToV1WithMixedV0AndV2Data[bufferOffset=0, compression=SNAPPY]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.001"/>
   <testcase name="testWriteEmptyRecordSet[bufferOffset=0, compression=SNAPPY]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.0"/>
-  <testcase name="testEstimatedSizeInBytes[bufferOffset=0, compression=SNAPPY]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.001"/>
+  <testcase name="testEstimatedSizeInBytes[bufferOffset=0, compression=SNAPPY]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.0"/>
   <testcase name="testWriteLeaderChangeControlBatch[bufferOffset=0, compression=SNAPPY]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.001"/>
-  <testcase name="testWriteControlBatchNotAllowedMagicV0[bufferOffset=0, compression=SNAPPY]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.001"/>
+  <testcase name="testWriteControlBatchNotAllowedMagicV0[bufferOffset=0, compression=SNAPPY]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.0"/>
   <testcase name="testWriteControlBatchNotAllowedMagicV1[bufferOffset=0, compression=SNAPPY]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.0"/>
   <testcase name="shouldThrowIllegalStateExceptionOnCloseWhenAborted[bufferOffset=0, compression=SNAPPY]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.0"/>
-  <testcase name="shouldThrowIllegalStateExceptionOnAppendWhenAborted[bufferOffset=0, compression=SNAPPY]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.001"/>
-  <testcase name="testBuffersDereferencedOnClose[bufferOffset=0, compression=SNAPPY]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.137"/>
+  <testcase name="shouldThrowIllegalStateExceptionOnAppendWhenAborted[bufferOffset=0, compression=SNAPPY]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.0"/>
+  <testcase name="testBuffersDereferencedOnClose[bufferOffset=0, compression=SNAPPY]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.096"/>
   <testcase name="testSmallWriteLimit[bufferOffset=0, compression=SNAPPY]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.0"/>
   <testcase name="shouldResetBufferToInitialPositionOnAbort[bufferOffset=0, compression=SNAPPY]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.0"/>
   <testcase name="testWriteTransactionalNotAllowedMagicV0[bufferOffset=0, compression=SNAPPY]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.0"/>
   <testcase name="testWriteTransactionalNotAllowedMagicV1[bufferOffset=0, compression=SNAPPY]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.0"/>
   <testcase name="testWriteLeaderChangeControlBatchWithoutLeaderEpoch[bufferOffset=0, compression=SNAPPY]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.0"/>
-  <testcase name="writePastLimit[bufferOffset=0, compression=SNAPPY]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.0"/>
-  <testcase name="testAppendAtInvalidOffset[bufferOffset=0, compression=SNAPPY]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.001"/>
-  <testcase name="testWriteEndTxnMarkerNonControlBatch[bufferOffset=0, compression=LZ4]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.0"/>
-  <testcase name="convertV2ToV1UsingMixedCreateAndLogAppendTime[bufferOffset=0, compression=LZ4]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.0"/>
-  <testcase name="shouldThrowIllegalStateExceptionOnBuildWhenAborted[bufferOffset=0, compression=LZ4]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.001"/>
+  <testcase name="writePastLimit[bufferOffset=0, compression=SNAPPY]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.001"/>
+  <testcase name="testAppendAtInvalidOffset[bufferOffset=0, compression=SNAPPY]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.0"/>
+  <testcase name="testWriteEndTxnMarkerNonControlBatch[bufferOffset=0, compression=LZ4]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.058"/>
+  <testcase name="convertV2ToV1UsingMixedCreateAndLogAppendTime[bufferOffset=0, compression=LZ4]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.001"/>
+  <testcase name="shouldThrowIllegalStateExceptionOnBuildWhenAborted[bufferOffset=0, compression=LZ4]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.0"/>
   <testcase name="buildUsingCreateTime[bufferOffset=0, compression=LZ4]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.0"/>
   <testcase name="testWriteIdempotentWithInvalidEpoch[bufferOffset=0, compression=LZ4]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.0"/>
-  <testcase name="testCompressionRateV0[bufferOffset=0, compression=LZ4]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.0"/>
+  <testcase name="testCompressionRateV0[bufferOffset=0, compression=LZ4]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.001"/>
   <testcase name="testCompressionRateV1[bufferOffset=0, compression=LZ4]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.0"/>
-  <testcase name="testWriteEndTxnMarkerNonTransactionalBatch[bufferOffset=0, compression=LZ4]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.001"/>
+  <testcase name="testWriteEndTxnMarkerNonTransactionalBatch[bufferOffset=0, compression=LZ4]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.0"/>
   <testcase name="buildUsingLogAppendTime[bufferOffset=0, compression=LZ4]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.0"/>
   <testcase name="testWriteTransactionalRecordSet[bufferOffset=0, compression=LZ4]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.0"/>
   <testcase name="testWriteTransactionalWithInvalidPID[bufferOffset=0, compression=LZ4]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.0"/>
@@ -103,33 +103,33 @@
   <testcase name="testWriteIdempotentWithInvalidBaseSequence[bufferOffset=0, compression=LZ4]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.0"/>
   <testcase name="convertToV1WithMixedV0AndV2Data[bufferOffset=0, compression=LZ4]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.001"/>
   <testcase name="testWriteEmptyRecordSet[bufferOffset=0, compression=LZ4]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.0"/>
-  <testcase name="testEstimatedSizeInBytes[bufferOffset=0, compression=LZ4]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.001"/>
+  <testcase name="testEstimatedSizeInBytes[bufferOffset=0, compression=LZ4]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.0"/>
   <testcase name="testWriteLeaderChangeControlBatch[bufferOffset=0, compression=LZ4]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.0"/>
   <testcase name="testWriteControlBatchNotAllowedMagicV0[bufferOffset=0, compression=LZ4]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.0"/>
   <testcase name="testWriteControlBatchNotAllowedMagicV1[bufferOffset=0, compression=LZ4]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.0"/>
   <testcase name="shouldThrowIllegalStateExceptionOnCloseWhenAborted[bufferOffset=0, compression=LZ4]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.001"/>
   <testcase name="shouldThrowIllegalStateExceptionOnAppendWhenAborted[bufferOffset=0, compression=LZ4]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.0"/>
-  <testcase name="testBuffersDereferencedOnClose[bufferOffset=0, compression=LZ4]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.145"/>
-  <testcase name="testSmallWriteLimit[bufferOffset=0, compression=LZ4]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.0"/>
-  <testcase name="shouldResetBufferToInitialPositionOnAbort[bufferOffset=0, compression=LZ4]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.001"/>
+  <testcase name="testBuffersDereferencedOnClose[bufferOffset=0, compression=LZ4]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.098"/>
+  <testcase name="testSmallWriteLimit[bufferOffset=0, compression=LZ4]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.001"/>
+  <testcase name="shouldResetBufferToInitialPositionOnAbort[bufferOffset=0, compression=LZ4]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.0"/>
   <testcase name="testWriteTransactionalNotAllowedMagicV0[bufferOffset=0, compression=LZ4]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.0"/>
   <testcase name="testWriteTransactionalNotAllowedMagicV1[bufferOffset=0, compression=LZ4]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.0"/>
   <testcase name="testWriteLeaderChangeControlBatchWithoutLeaderEpoch[bufferOffset=0, compression=LZ4]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.0"/>
   <testcase name="writePastLimit[bufferOffset=0, compression=LZ4]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.0"/>
-  <testcase name="testAppendAtInvalidOffset[bufferOffset=0, compression=LZ4]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.0"/>
-  <testcase name="testWriteEndTxnMarkerNonControlBatch[bufferOffset=0, compression=ZSTD]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.0"/>
-  <testcase name="convertV2ToV1UsingMixedCreateAndLogAppendTime[bufferOffset=0, compression=ZSTD]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.001"/>
-  <testcase name="shouldThrowIllegalStateExceptionOnBuildWhenAborted[bufferOffset=0, compression=ZSTD]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.002">
+  <testcase name="testAppendAtInvalidOffset[bufferOffset=0, compression=LZ4]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.001"/>
+  <testcase name="testWriteEndTxnMarkerNonControlBatch[bufferOffset=0, compression=ZSTD]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.049"/>
+  <testcase name="convertV2ToV1UsingMixedCreateAndLogAppendTime[bufferOffset=0, compression=ZSTD]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.003"/>
+  <testcase name="shouldThrowIllegalStateExceptionOnBuildWhenAborted[bufferOffset=0, compression=ZSTD]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.001">
     <skipped/>
   </testcase>
   <testcase name="buildUsingCreateTime[bufferOffset=0, compression=ZSTD]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.0">
     <skipped/>
   </testcase>
   <testcase name="testWriteIdempotentWithInvalidEpoch[bufferOffset=0, compression=ZSTD]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.0"/>
-  <testcase name="testCompressionRateV0[bufferOffset=0, compression=ZSTD]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.001">
+  <testcase name="testCompressionRateV0[bufferOffset=0, compression=ZSTD]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.0">
     <skipped/>
   </testcase>
-  <testcase name="testCompressionRateV1[bufferOffset=0, compression=ZSTD]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.0">
+  <testcase name="testCompressionRateV1[bufferOffset=0, compression=ZSTD]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.001">
     <skipped/>
   </testcase>
   <testcase name="testWriteEndTxnMarkerNonTransactionalBatch[bufferOffset=0, compression=ZSTD]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.0"/>
@@ -148,39 +148,39 @@
   <testcase name="testWriteEmptyRecordSet[bufferOffset=0, compression=ZSTD]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.0">
     <skipped/>
   </testcase>
-  <testcase name="testEstimatedSizeInBytes[bufferOffset=0, compression=ZSTD]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.0"/>
+  <testcase name="testEstimatedSizeInBytes[bufferOffset=0, compression=ZSTD]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.001"/>
   <testcase name="testWriteLeaderChangeControlBatch[bufferOffset=0, compression=ZSTD]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.001"/>
   <testcase name="testWriteControlBatchNotAllowedMagicV0[bufferOffset=0, compression=ZSTD]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.0"/>
-  <testcase name="testWriteControlBatchNotAllowedMagicV1[bufferOffset=0, compression=ZSTD]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.0"/>
+  <testcase name="testWriteControlBatchNotAllowedMagicV1[bufferOffset=0, compression=ZSTD]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.001"/>
   <testcase name="shouldThrowIllegalStateExceptionOnCloseWhenAborted[bufferOffset=0, compression=ZSTD]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.0">
     <skipped/>
   </testcase>
-  <testcase name="shouldThrowIllegalStateExceptionOnAppendWhenAborted[bufferOffset=0, compression=ZSTD]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.001">
+  <testcase name="shouldThrowIllegalStateExceptionOnAppendWhenAborted[bufferOffset=0, compression=ZSTD]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.0">
     <skipped/>
   </testcase>
-  <testcase name="testBuffersDereferencedOnClose[bufferOffset=0, compression=ZSTD]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.229"/>
+  <testcase name="testBuffersDereferencedOnClose[bufferOffset=0, compression=ZSTD]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.102"/>
   <testcase name="testSmallWriteLimit[bufferOffset=0, compression=ZSTD]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.001"/>
-  <testcase name="shouldResetBufferToInitialPositionOnAbort[bufferOffset=0, compression=ZSTD]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.0">
+  <testcase name="shouldResetBufferToInitialPositionOnAbort[bufferOffset=0, compression=ZSTD]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.001">
     <skipped/>
   </testcase>
   <testcase name="testWriteTransactionalNotAllowedMagicV0[bufferOffset=0, compression=ZSTD]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.0"/>
-  <testcase name="testWriteTransactionalNotAllowedMagicV1[bufferOffset=0, compression=ZSTD]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.001"/>
+  <testcase name="testWriteTransactionalNotAllowedMagicV1[bufferOffset=0, compression=ZSTD]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.0"/>
   <testcase name="testWriteLeaderChangeControlBatchWithoutLeaderEpoch[bufferOffset=0, compression=ZSTD]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.0"/>
   <testcase name="writePastLimit[bufferOffset=0, compression=ZSTD]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.0">
     <skipped/>
   </testcase>
-  <testcase name="testAppendAtInvalidOffset[bufferOffset=0, compression=ZSTD]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.001"/>
+  <testcase name="testAppendAtInvalidOffset[bufferOffset=0, compression=ZSTD]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.0"/>
   <testcase name="testWriteEndTxnMarkerNonControlBatch[bufferOffset=15, compression=NONE]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.0"/>
-  <testcase name="convertV2ToV1UsingMixedCreateAndLogAppendTime[bufferOffset=15, compression=NONE]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.0"/>
-  <testcase name="shouldThrowIllegalStateExceptionOnBuildWhenAborted[bufferOffset=15, compression=NONE]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.001"/>
+  <testcase name="convertV2ToV1UsingMixedCreateAndLogAppendTime[bufferOffset=15, compression=NONE]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.001"/>
+  <testcase name="shouldThrowIllegalStateExceptionOnBuildWhenAborted[bufferOffset=15, compression=NONE]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.0"/>
   <testcase name="buildUsingCreateTime[bufferOffset=15, compression=NONE]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.0"/>
   <testcase name="testWriteIdempotentWithInvalidEpoch[bufferOffset=15, compression=NONE]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.0"/>
-  <testcase name="testCompressionRateV0[bufferOffset=15, compression=NONE]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.001"/>
+  <testcase name="testCompressionRateV0[bufferOffset=15, compression=NONE]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.0"/>
   <testcase name="testCompressionRateV1[bufferOffset=15, compression=NONE]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.0"/>
   <testcase name="testWriteEndTxnMarkerNonTransactionalBatch[bufferOffset=15, compression=NONE]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.0"/>
-  <testcase name="buildUsingLogAppendTime[bufferOffset=15, compression=NONE]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.001"/>
+  <testcase name="buildUsingLogAppendTime[bufferOffset=15, compression=NONE]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.0"/>
   <testcase name="testWriteTransactionalRecordSet[bufferOffset=15, compression=NONE]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.0"/>
-  <testcase name="testWriteTransactionalWithInvalidPID[bufferOffset=15, compression=NONE]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.0"/>
+  <testcase name="testWriteTransactionalWithInvalidPID[bufferOffset=15, compression=NONE]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.001"/>
   <testcase name="testAppendedChecksumConsistency[bufferOffset=15, compression=NONE]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.0"/>
   <testcase name="testWriteIdempotentWithInvalidBaseSequence[bufferOffset=15, compression=NONE]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.0"/>
   <testcase name="convertToV1WithMixedV0AndV2Data[bufferOffset=15, compression=NONE]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.001"/>
@@ -189,105 +189,105 @@
   <testcase name="testWriteLeaderChangeControlBatch[bufferOffset=15, compression=NONE]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.0"/>
   <testcase name="testWriteControlBatchNotAllowedMagicV0[bufferOffset=15, compression=NONE]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.0"/>
   <testcase name="testWriteControlBatchNotAllowedMagicV1[bufferOffset=15, compression=NONE]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.0"/>
-  <testcase name="shouldThrowIllegalStateExceptionOnCloseWhenAborted[bufferOffset=15, compression=NONE]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.001"/>
+  <testcase name="shouldThrowIllegalStateExceptionOnCloseWhenAborted[bufferOffset=15, compression=NONE]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.0"/>
   <testcase name="shouldThrowIllegalStateExceptionOnAppendWhenAborted[bufferOffset=15, compression=NONE]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.0"/>
-  <testcase name="testBuffersDereferencedOnClose[bufferOffset=15, compression=NONE]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.155"/>
+  <testcase name="testBuffersDereferencedOnClose[bufferOffset=15, compression=NONE]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.084"/>
   <testcase name="testSmallWriteLimit[bufferOffset=15, compression=NONE]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.0"/>
-  <testcase name="shouldResetBufferToInitialPositionOnAbort[bufferOffset=15, compression=NONE]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.0"/>
+  <testcase name="shouldResetBufferToInitialPositionOnAbort[bufferOffset=15, compression=NONE]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.001"/>
   <testcase name="testWriteTransactionalNotAllowedMagicV0[bufferOffset=15, compression=NONE]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.0"/>
-  <testcase name="testWriteTransactionalNotAllowedMagicV1[bufferOffset=15, compression=NONE]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.001"/>
+  <testcase name="testWriteTransactionalNotAllowedMagicV1[bufferOffset=15, compression=NONE]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.0"/>
   <testcase name="testWriteLeaderChangeControlBatchWithoutLeaderEpoch[bufferOffset=15, compression=NONE]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.0"/>
   <testcase name="writePastLimit[bufferOffset=15, compression=NONE]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.0"/>
   <testcase name="testAppendAtInvalidOffset[bufferOffset=15, compression=NONE]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.0"/>
   <testcase name="testWriteEndTxnMarkerNonControlBatch[bufferOffset=15, compression=GZIP]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.0"/>
-  <testcase name="convertV2ToV1UsingMixedCreateAndLogAppendTime[bufferOffset=15, compression=GZIP]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.002"/>
+  <testcase name="convertV2ToV1UsingMixedCreateAndLogAppendTime[bufferOffset=15, compression=GZIP]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.001"/>
   <testcase name="shouldThrowIllegalStateExceptionOnBuildWhenAborted[bufferOffset=15, compression=GZIP]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.0"/>
   <testcase name="buildUsingCreateTime[bufferOffset=15, compression=GZIP]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.0"/>
   <testcase name="testWriteIdempotentWithInvalidEpoch[bufferOffset=15, compression=GZIP]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.0"/>
-  <testcase name="testCompressionRateV0[bufferOffset=15, compression=GZIP]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.001"/>
+  <testcase name="testCompressionRateV0[bufferOffset=15, compression=GZIP]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.0"/>
   <testcase name="testCompressionRateV1[bufferOffset=15, compression=GZIP]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.0"/>
-  <testcase name="testWriteEndTxnMarkerNonTransactionalBatch[bufferOffset=15, compression=GZIP]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.0"/>
-  <testcase name="buildUsingLogAppendTime[bufferOffset=15, compression=GZIP]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.001"/>
+  <testcase name="testWriteEndTxnMarkerNonTransactionalBatch[bufferOffset=15, compression=GZIP]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.001"/>
+  <testcase name="buildUsingLogAppendTime[bufferOffset=15, compression=GZIP]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.0"/>
   <testcase name="testWriteTransactionalRecordSet[bufferOffset=15, compression=GZIP]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.0"/>
   <testcase name="testWriteTransactionalWithInvalidPID[bufferOffset=15, compression=GZIP]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.0"/>
-  <testcase name="testAppendedChecksumConsistency[bufferOffset=15, compression=GZIP]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.001"/>
-  <testcase name="testWriteIdempotentWithInvalidBaseSequence[bufferOffset=15, compression=GZIP]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.001"/>
+  <testcase name="testAppendedChecksumConsistency[bufferOffset=15, compression=GZIP]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.0"/>
+  <testcase name="testWriteIdempotentWithInvalidBaseSequence[bufferOffset=15, compression=GZIP]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.0"/>
   <testcase name="convertToV1WithMixedV0AndV2Data[bufferOffset=15, compression=GZIP]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.001"/>
   <testcase name="testWriteEmptyRecordSet[bufferOffset=15, compression=GZIP]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.0"/>
   <testcase name="testEstimatedSizeInBytes[bufferOffset=15, compression=GZIP]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.0"/>
-  <testcase name="testWriteLeaderChangeControlBatch[bufferOffset=15, compression=GZIP]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.001"/>
+  <testcase name="testWriteLeaderChangeControlBatch[bufferOffset=15, compression=GZIP]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.0"/>
   <testcase name="testWriteControlBatchNotAllowedMagicV0[bufferOffset=15, compression=GZIP]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.0"/>
   <testcase name="testWriteControlBatchNotAllowedMagicV1[bufferOffset=15, compression=GZIP]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.0"/>
   <testcase name="shouldThrowIllegalStateExceptionOnCloseWhenAborted[bufferOffset=15, compression=GZIP]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.0"/>
   <testcase name="shouldThrowIllegalStateExceptionOnAppendWhenAborted[bufferOffset=15, compression=GZIP]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.0"/>
-  <testcase name="testBuffersDereferencedOnClose[bufferOffset=15, compression=GZIP]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.4"/>
-  <testcase name="testSmallWriteLimit[bufferOffset=15, compression=GZIP]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.002"/>
-  <testcase name="shouldResetBufferToInitialPositionOnAbort[bufferOffset=15, compression=GZIP]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.001"/>
-  <testcase name="testWriteTransactionalNotAllowedMagicV0[bufferOffset=15, compression=GZIP]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.001"/>
+  <testcase name="testBuffersDereferencedOnClose[bufferOffset=15, compression=GZIP]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.32"/>
+  <testcase name="testSmallWriteLimit[bufferOffset=15, compression=GZIP]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.001"/>
+  <testcase name="shouldResetBufferToInitialPositionOnAbort[bufferOffset=15, compression=GZIP]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.0"/>
+  <testcase name="testWriteTransactionalNotAllowedMagicV0[bufferOffset=15, compression=GZIP]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.0"/>
   <testcase name="testWriteTransactionalNotAllowedMagicV1[bufferOffset=15, compression=GZIP]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.0"/>
-  <testcase name="testWriteLeaderChangeControlBatchWithoutLeaderEpoch[bufferOffset=15, compression=GZIP]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.001"/>
-  <testcase name="writePastLimit[bufferOffset=15, compression=GZIP]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.0"/>
+  <testcase name="testWriteLeaderChangeControlBatchWithoutLeaderEpoch[bufferOffset=15, compression=GZIP]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.0"/>
+  <testcase name="writePastLimit[bufferOffset=15, compression=GZIP]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.001"/>
   <testcase name="testAppendAtInvalidOffset[bufferOffset=15, compression=GZIP]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.0"/>
   <testcase name="testWriteEndTxnMarkerNonControlBatch[bufferOffset=15, compression=SNAPPY]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.0"/>
   <testcase name="convertV2ToV1UsingMixedCreateAndLogAppendTime[bufferOffset=15, compression=SNAPPY]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.001"/>
-  <testcase name="shouldThrowIllegalStateExceptionOnBuildWhenAborted[bufferOffset=15, compression=SNAPPY]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.001"/>
-  <testcase name="buildUsingCreateTime[bufferOffset=15, compression=SNAPPY]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.001"/>
-  <testcase name="testWriteIdempotentWithInvalidEpoch[bufferOffset=15, compression=SNAPPY]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.001"/>
+  <testcase name="shouldThrowIllegalStateExceptionOnBuildWhenAborted[bufferOffset=15, compression=SNAPPY]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.0"/>
+  <testcase name="buildUsingCreateTime[bufferOffset=15, compression=SNAPPY]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.0"/>
+  <testcase name="testWriteIdempotentWithInvalidEpoch[bufferOffset=15, compression=SNAPPY]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.0"/>
   <testcase name="testCompressionRateV0[bufferOffset=15, compression=SNAPPY]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.0"/>
   <testcase name="testCompressionRateV1[bufferOffset=15, compression=SNAPPY]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.001"/>
   <testcase name="testWriteEndTxnMarkerNonTransactionalBatch[bufferOffset=15, compression=SNAPPY]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.0"/>
-  <testcase name="buildUsingLogAppendTime[bufferOffset=15, compression=SNAPPY]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.001"/>
-  <testcase name="testWriteTransactionalRecordSet[bufferOffset=15, compression=SNAPPY]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.002"/>
-  <testcase name="testWriteTransactionalWithInvalidPID[bufferOffset=15, compression=SNAPPY]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.001"/>
-  <testcase name="testAppendedChecksumConsistency[bufferOffset=15, compression=SNAPPY]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.0"/>
-  <testcase name="testWriteIdempotentWithInvalidBaseSequence[bufferOffset=15, compression=SNAPPY]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.001"/>
-  <testcase name="convertToV1WithMixedV0AndV2Data[bufferOffset=15, compression=SNAPPY]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.002"/>
+  <testcase name="buildUsingLogAppendTime[bufferOffset=15, compression=SNAPPY]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.0"/>
+  <testcase name="testWriteTransactionalRecordSet[bufferOffset=15, compression=SNAPPY]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.0"/>
+  <testcase name="testWriteTransactionalWithInvalidPID[bufferOffset=15, compression=SNAPPY]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.0"/>
+  <testcase name="testAppendedChecksumConsistency[bufferOffset=15, compression=SNAPPY]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.001"/>
+  <testcase name="testWriteIdempotentWithInvalidBaseSequence[bufferOffset=15, compression=SNAPPY]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.0"/>
+  <testcase name="convertToV1WithMixedV0AndV2Data[bufferOffset=15, compression=SNAPPY]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.0"/>
   <testcase name="testWriteEmptyRecordSet[bufferOffset=15, compression=SNAPPY]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.0"/>
-  <testcase name="testEstimatedSizeInBytes[bufferOffset=15, compression=SNAPPY]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.001"/>
+  <testcase name="testEstimatedSizeInBytes[bufferOffset=15, compression=SNAPPY]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.0"/>
   <testcase name="testWriteLeaderChangeControlBatch[bufferOffset=15, compression=SNAPPY]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.0"/>
   <testcase name="testWriteControlBatchNotAllowedMagicV0[bufferOffset=15, compression=SNAPPY]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.0"/>
   <testcase name="testWriteControlBatchNotAllowedMagicV1[bufferOffset=15, compression=SNAPPY]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.0"/>
-  <testcase name="shouldThrowIllegalStateExceptionOnCloseWhenAborted[bufferOffset=15, compression=SNAPPY]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.001"/>
+  <testcase name="shouldThrowIllegalStateExceptionOnCloseWhenAborted[bufferOffset=15, compression=SNAPPY]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.0"/>
   <testcase name="shouldThrowIllegalStateExceptionOnAppendWhenAborted[bufferOffset=15, compression=SNAPPY]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.0"/>
-  <testcase name="testBuffersDereferencedOnClose[bufferOffset=15, compression=SNAPPY]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.175"/>
+  <testcase name="testBuffersDereferencedOnClose[bufferOffset=15, compression=SNAPPY]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.135"/>
   <testcase name="testSmallWriteLimit[bufferOffset=15, compression=SNAPPY]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.0"/>
-  <testcase name="shouldResetBufferToInitialPositionOnAbort[bufferOffset=15, compression=SNAPPY]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.0"/>
-  <testcase name="testWriteTransactionalNotAllowedMagicV0[bufferOffset=15, compression=SNAPPY]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.001"/>
+  <testcase name="shouldResetBufferToInitialPositionOnAbort[bufferOffset=15, compression=SNAPPY]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.001"/>
+  <testcase name="testWriteTransactionalNotAllowedMagicV0[bufferOffset=15, compression=SNAPPY]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.0"/>
   <testcase name="testWriteTransactionalNotAllowedMagicV1[bufferOffset=15, compression=SNAPPY]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.0"/>
   <testcase name="testWriteLeaderChangeControlBatchWithoutLeaderEpoch[bufferOffset=15, compression=SNAPPY]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.0"/>
   <testcase name="writePastLimit[bufferOffset=15, compression=SNAPPY]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.0"/>
-  <testcase name="testAppendAtInvalidOffset[bufferOffset=15, compression=SNAPPY]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.001"/>
+  <testcase name="testAppendAtInvalidOffset[bufferOffset=15, compression=SNAPPY]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.0"/>
   <testcase name="testWriteEndTxnMarkerNonControlBatch[bufferOffset=15, compression=LZ4]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.0"/>
-  <testcase name="convertV2ToV1UsingMixedCreateAndLogAppendTime[bufferOffset=15, compression=LZ4]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.001"/>
+  <testcase name="convertV2ToV1UsingMixedCreateAndLogAppendTime[bufferOffset=15, compression=LZ4]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.0"/>
   <testcase name="shouldThrowIllegalStateExceptionOnBuildWhenAborted[bufferOffset=15, compression=LZ4]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.0"/>
   <testcase name="buildUsingCreateTime[bufferOffset=15, compression=LZ4]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.0"/>
   <testcase name="testWriteIdempotentWithInvalidEpoch[bufferOffset=15, compression=LZ4]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.0"/>
   <testcase name="testCompressionRateV0[bufferOffset=15, compression=LZ4]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.0"/>
   <testcase name="testCompressionRateV1[bufferOffset=15, compression=LZ4]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.0"/>
   <testcase name="testWriteEndTxnMarkerNonTransactionalBatch[bufferOffset=15, compression=LZ4]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.0"/>
-  <testcase name="buildUsingLogAppendTime[bufferOffset=15, compression=LZ4]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.001"/>
+  <testcase name="buildUsingLogAppendTime[bufferOffset=15, compression=LZ4]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.0"/>
   <testcase name="testWriteTransactionalRecordSet[bufferOffset=15, compression=LZ4]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.0"/>
-  <testcase name="testWriteTransactionalWithInvalidPID[bufferOffset=15, compression=LZ4]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.0"/>
+  <testcase name="testWriteTransactionalWithInvalidPID[bufferOffset=15, compression=LZ4]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.001"/>
   <testcase name="testAppendedChecksumConsistency[bufferOffset=15, compression=LZ4]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.0"/>
   <testcase name="testWriteIdempotentWithInvalidBaseSequence[bufferOffset=15, compression=LZ4]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.0"/>
-  <testcase name="convertToV1WithMixedV0AndV2Data[bufferOffset=15, compression=LZ4]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.0"/>
+  <testcase name="convertToV1WithMixedV0AndV2Data[bufferOffset=15, compression=LZ4]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.001"/>
   <testcase name="testWriteEmptyRecordSet[bufferOffset=15, compression=LZ4]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.0"/>
-  <testcase name="testEstimatedSizeInBytes[bufferOffset=15, compression=LZ4]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.001"/>
+  <testcase name="testEstimatedSizeInBytes[bufferOffset=15, compression=LZ4]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.0"/>
   <testcase name="testWriteLeaderChangeControlBatch[bufferOffset=15, compression=LZ4]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.0"/>
-  <testcase name="testWriteControlBatchNotAllowedMagicV0[bufferOffset=15, compression=LZ4]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.001"/>
+  <testcase name="testWriteControlBatchNotAllowedMagicV0[bufferOffset=15, compression=LZ4]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.0"/>
   <testcase name="testWriteControlBatchNotAllowedMagicV1[bufferOffset=15, compression=LZ4]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.0"/>
   <testcase name="shouldThrowIllegalStateExceptionOnCloseWhenAborted[bufferOffset=15, compression=LZ4]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.0"/>
   <testcase name="shouldThrowIllegalStateExceptionOnAppendWhenAborted[bufferOffset=15, compression=LZ4]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.0"/>
-  <testcase name="testBuffersDereferencedOnClose[bufferOffset=15, compression=LZ4]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.11"/>
+  <testcase name="testBuffersDereferencedOnClose[bufferOffset=15, compression=LZ4]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.148"/>
   <testcase name="testSmallWriteLimit[bufferOffset=15, compression=LZ4]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.0"/>
   <testcase name="shouldResetBufferToInitialPositionOnAbort[bufferOffset=15, compression=LZ4]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.0"/>
-  <testcase name="testWriteTransactionalNotAllowedMagicV0[bufferOffset=15, compression=LZ4]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.001"/>
+  <testcase name="testWriteTransactionalNotAllowedMagicV0[bufferOffset=15, compression=LZ4]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.0"/>
   <testcase name="testWriteTransactionalNotAllowedMagicV1[bufferOffset=15, compression=LZ4]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.0"/>
   <testcase name="testWriteLeaderChangeControlBatchWithoutLeaderEpoch[bufferOffset=15, compression=LZ4]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.0"/>
-  <testcase name="writePastLimit[bufferOffset=15, compression=LZ4]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.0"/>
+  <testcase name="writePastLimit[bufferOffset=15, compression=LZ4]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.001"/>
   <testcase name="testAppendAtInvalidOffset[bufferOffset=15, compression=LZ4]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.0"/>
   <testcase name="testWriteEndTxnMarkerNonControlBatch[bufferOffset=15, compression=ZSTD]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.0"/>
-  <testcase name="convertV2ToV1UsingMixedCreateAndLogAppendTime[bufferOffset=15, compression=ZSTD]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.0"/>
+  <testcase name="convertV2ToV1UsingMixedCreateAndLogAppendTime[bufferOffset=15, compression=ZSTD]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.013"/>
   <testcase name="shouldThrowIllegalStateExceptionOnBuildWhenAborted[bufferOffset=15, compression=ZSTD]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.001">
     <skipped/>
   </testcase>
@@ -302,12 +302,12 @@
     <skipped/>
   </testcase>
   <testcase name="testWriteEndTxnMarkerNonTransactionalBatch[bufferOffset=15, compression=ZSTD]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.0"/>
-  <testcase name="buildUsingLogAppendTime[bufferOffset=15, compression=ZSTD]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.001">
+  <testcase name="buildUsingLogAppendTime[bufferOffset=15, compression=ZSTD]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.0">
     <skipped/>
   </testcase>
-  <testcase name="testWriteTransactionalRecordSet[bufferOffset=15, compression=ZSTD]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.0"/>
+  <testcase name="testWriteTransactionalRecordSet[bufferOffset=15, compression=ZSTD]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.001"/>
   <testcase name="testWriteTransactionalWithInvalidPID[bufferOffset=15, compression=ZSTD]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.0"/>
-  <testcase name="testAppendedChecksumConsistency[bufferOffset=15, compression=ZSTD]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.001">
+  <testcase name="testAppendedChecksumConsistency[bufferOffset=15, compression=ZSTD]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.0">
     <skipped/>
   </testcase>
   <testcase name="testWriteIdempotentWithInvalidBaseSequence[bufferOffset=15, compression=ZSTD]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.0"/>
@@ -324,21 +324,30 @@
   <testcase name="shouldThrowIllegalStateExceptionOnCloseWhenAborted[bufferOffset=15, compression=ZSTD]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.0">
     <skipped/>
   </testcase>
-  <testcase name="shouldThrowIllegalStateExceptionOnAppendWhenAborted[bufferOffset=15, compression=ZSTD]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.001">
+  <testcase name="shouldThrowIllegalStateExceptionOnAppendWhenAborted[bufferOffset=15, compression=ZSTD]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.0">
     <skipped/>
   </testcase>
-  <testcase name="testBuffersDereferencedOnClose[bufferOffset=15, compression=ZSTD]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.139"/>
-  <testcase name="testSmallWriteLimit[bufferOffset=15, compression=ZSTD]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.0"/>
+  <testcase name="testBuffersDereferencedOnClose[bufferOffset=15, compression=ZSTD]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.156"/>
+  <testcase name="testSmallWriteLimit[bufferOffset=15, compression=ZSTD]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.001"/>
   <testcase name="shouldResetBufferToInitialPositionOnAbort[bufferOffset=15, compression=ZSTD]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.0">
     <skipped/>
   </testcase>
   <testcase name="testWriteTransactionalNotAllowedMagicV0[bufferOffset=15, compression=ZSTD]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.0"/>
-  <testcase name="testWriteTransactionalNotAllowedMagicV1[bufferOffset=15, compression=ZSTD]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.001"/>
+  <testcase name="testWriteTransactionalNotAllowedMagicV1[bufferOffset=15, compression=ZSTD]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.0"/>
   <testcase name="testWriteLeaderChangeControlBatchWithoutLeaderEpoch[bufferOffset=15, compression=ZSTD]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.0"/>
   <testcase name="writePastLimit[bufferOffset=15, compression=ZSTD]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.0">
     <skipped/>
   </testcase>
   <testcase name="testAppendAtInvalidOffset[bufferOffset=15, compression=ZSTD]" classname="org.apache.kafka.common.record.MemoryRecordsBuilderTest" time="0.0"/>
-  <system-out><![CDATA[]]></system-out>
+  <system-out><![CDATA[[2022-09-03 18:38:11,529] ERROR Reclaimed buffer of size 95446630 and identity 354543734 that was not properly release()ed. This is a bug. (org.apache.kafka.common.memory.GarbageCollectedMemoryPool:106)
+[2022-09-03 18:38:11,529] ERROR Reclaimed buffer of size 10 and identity 1163478743 that was not properly release()ed. This is a bug. (org.apache.kafka.common.memory.GarbageCollectedMemoryPool:106)
+[2022-09-03 18:38:11,548] ERROR Reclaimed buffer of size 95446630 and identity 1621088445 that was not properly release()ed. This is a bug. (org.apache.kafka.common.memory.GarbageCollectedMemoryPool:106)
+[2022-09-03 18:38:11,549] ERROR Reclaimed buffer of size 95446630 and identity 998091105 that was not properly release()ed. This is a bug. (org.apache.kafka.common.memory.GarbageCollectedMemoryPool:106)
+[2022-09-03 18:38:11,549] ERROR Reclaimed buffer of size 95446630 and identity 1824072807 that was not properly release()ed. This is a bug. (org.apache.kafka.common.memory.GarbageCollectedMemoryPool:106)
+[2022-09-03 18:38:11,549] ERROR Reclaimed buffer of size 10 and identity 807304361 that was not properly release()ed. This is a bug. (org.apache.kafka.common.memory.GarbageCollectedMemoryPool:106)
+[2022-09-03 18:38:11,550] ERROR Reclaimed buffer of size 95446630 and identity 1128359902 that was not properly release()ed. This is a bug. (org.apache.kafka.common.memory.GarbageCollectedMemoryPool:106)
+[2022-09-03 18:38:11,550] ERROR Reclaimed buffer of size 95446630 and identity 1560614643 that was not properly release()ed. This is a bug. (org.apache.kafka.common.memory.GarbageCollectedMemoryPool:106)
+[2022-09-03 18:38:11,550] ERROR Reclaimed buffer of size 10 and identity 387354022 that was not properly release()ed. This is a bug. (org.apache.kafka.common.memory.GarbageCollectedMemoryPool:106)
+]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

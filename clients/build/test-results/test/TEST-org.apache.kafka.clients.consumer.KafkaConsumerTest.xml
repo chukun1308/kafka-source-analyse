@@ -1,88 +1,88 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.apache.kafka.clients.consumer.KafkaConsumerTest" tests="81" skipped="0" failures="0" errors="0" timestamp="2020-10-29T02:32:42" hostname="chukun-mac" time="5.62">
+<testsuite name="org.apache.kafka.clients.consumer.KafkaConsumerTest" tests="81" skipped="0" failures="0" errors="0" timestamp="2022-09-03T10:38:17" hostname="LAPTOP-FH01OFOM" time="5.415">
   <properties/>
-  <testcase name="testCloseShouldBeIdempotent" classname="org.apache.kafka.clients.consumer.KafkaConsumerTest" time="0.014"/>
-  <testcase name="testOffsetIsValidAfterSeek" classname="org.apache.kafka.clients.consumer.KafkaConsumerTest" time="0.08"/>
-  <testcase name="testGracefulClose" classname="org.apache.kafka.clients.consumer.KafkaConsumerTest" time="0.271"/>
-  <testcase name="testMetricConfigRecordingLevel" classname="org.apache.kafka.clients.consumer.KafkaConsumerTest" time="0.005"/>
-  <testcase name="testRegexSubscription" classname="org.apache.kafka.clients.consumer.KafkaConsumerTest" time="0.005"/>
-  <testcase name="testPollWithEmptySubscription" classname="org.apache.kafka.clients.consumer.KafkaConsumerTest" time="0.004"/>
-  <testcase name="testSubscriptionWithEmptyPartitionAssignment" classname="org.apache.kafka.clients.consumer.KafkaConsumerTest" time="0.003"/>
-  <testcase name="testCloseTimeout" classname="org.apache.kafka.clients.consumer.KafkaConsumerTest" time="0.104"/>
-  <testcase name="testOperationsBySubscribingConsumerWithDefaultGroupId" classname="org.apache.kafka.clients.consumer.KafkaConsumerTest" time="0.007"/>
-  <testcase name="shouldIgnoreGroupInstanceIdForEmptyGroupId" classname="org.apache.kafka.clients.consumer.KafkaConsumerTest" time="0.003"/>
-  <testcase name="testPollWithEmptyUserAssignment" classname="org.apache.kafka.clients.consumer.KafkaConsumerTest" time="0.003"/>
+  <testcase name="testCloseShouldBeIdempotent" classname="org.apache.kafka.clients.consumer.KafkaConsumerTest" time="0.03"/>
+  <testcase name="testOffsetIsValidAfterSeek" classname="org.apache.kafka.clients.consumer.KafkaConsumerTest" time="0.029"/>
+  <testcase name="testGracefulClose" classname="org.apache.kafka.clients.consumer.KafkaConsumerTest" time="0.246"/>
+  <testcase name="testMetricConfigRecordingLevel" classname="org.apache.kafka.clients.consumer.KafkaConsumerTest" time="0.013"/>
+  <testcase name="testRegexSubscription" classname="org.apache.kafka.clients.consumer.KafkaConsumerTest" time="0.004"/>
+  <testcase name="testPollWithEmptySubscription" classname="org.apache.kafka.clients.consumer.KafkaConsumerTest" time="0.008"/>
+  <testcase name="testSubscriptionWithEmptyPartitionAssignment" classname="org.apache.kafka.clients.consumer.KafkaConsumerTest" time="0.007"/>
+  <testcase name="testCloseTimeout" classname="org.apache.kafka.clients.consumer.KafkaConsumerTest" time="0.11"/>
+  <testcase name="testOperationsBySubscribingConsumerWithDefaultGroupId" classname="org.apache.kafka.clients.consumer.KafkaConsumerTest" time="0.013"/>
+  <testcase name="shouldIgnoreGroupInstanceIdForEmptyGroupId" classname="org.apache.kafka.clients.consumer.KafkaConsumerTest" time="0.005"/>
+  <testcase name="testPollWithEmptyUserAssignment" classname="org.apache.kafka.clients.consumer.KafkaConsumerTest" time="0.004"/>
   <testcase name="testConstructorClose" classname="org.apache.kafka.clients.consumer.KafkaConsumerTest" time="0.001"/>
-  <testcase name="testFetchStableOffsetThrowInPosition" classname="org.apache.kafka.clients.consumer.KafkaConsumerTest" time="0.006"/>
-  <testcase name="testAssignOnNullTopicInPartition" classname="org.apache.kafka.clients.consumer.KafkaConsumerTest" time="0.011"/>
+  <testcase name="testFetchStableOffsetThrowInPosition" classname="org.apache.kafka.clients.consumer.KafkaConsumerTest" time="0.003"/>
+  <testcase name="testAssignOnNullTopicInPartition" classname="org.apache.kafka.clients.consumer.KafkaConsumerTest" time="0.004"/>
   <testcase name="testPause" classname="org.apache.kafka.clients.consumer.KafkaConsumerTest" time="0.006"/>
-  <testcase name="testManualAssignmentChangeWithAutoCommitEnabled" classname="org.apache.kafka.clients.consumer.KafkaConsumerTest" time="0.054"/>
-  <testcase name="testSubscriptionChangesWithAutoCommitEnabled" classname="org.apache.kafka.clients.consumer.KafkaConsumerTest" time="0.014"/>
-  <testcase name="testChangingRegexSubscription" classname="org.apache.kafka.clients.consumer.KafkaConsumerTest" time="0.006"/>
+  <testcase name="testManualAssignmentChangeWithAutoCommitEnabled" classname="org.apache.kafka.clients.consumer.KafkaConsumerTest" time="0.008"/>
+  <testcase name="testSubscriptionChangesWithAutoCommitEnabled" classname="org.apache.kafka.clients.consumer.KafkaConsumerTest" time="0.008"/>
+  <testcase name="testChangingRegexSubscription" classname="org.apache.kafka.clients.consumer.KafkaConsumerTest" time="0.002"/>
   <testcase name="testPollWithNoSubscription" classname="org.apache.kafka.clients.consumer.KafkaConsumerTest" time="0.003"/>
-  <testcase name="testFetchProgressWithMissingPartitionPosition" classname="org.apache.kafka.clients.consumer.KafkaConsumerTest" time="0.011"/>
-  <testcase name="testSubscriptionOnEmptyPattern" classname="org.apache.kafka.clients.consumer.KafkaConsumerTest" time="0.004"/>
+  <testcase name="testFetchProgressWithMissingPartitionPosition" classname="org.apache.kafka.clients.consumer.KafkaConsumerTest" time="0.004"/>
+  <testcase name="testSubscriptionOnEmptyPattern" classname="org.apache.kafka.clients.consumer.KafkaConsumerTest" time="0.003"/>
   <testcase name="testBeginningOffsetsAuthenticationFailure" classname="org.apache.kafka.clients.consumer.KafkaConsumerTest" time="0.003"/>
-  <testcase name="testUnsubscribeShouldTriggerPartitionsRevokedWithValidGeneration" classname="org.apache.kafka.clients.consumer.KafkaConsumerTest" time="0.007"/>
+  <testcase name="testUnsubscribeShouldTriggerPartitionsRevokedWithValidGeneration" classname="org.apache.kafka.clients.consumer.KafkaConsumerTest" time="0.013"/>
   <testcase name="testCommittedAuthenticationFailure" classname="org.apache.kafka.clients.consumer.KafkaConsumerTest" time="0.001"/>
-  <testcase name="verifyNoCoordinatorLookupForManualAssignmentWithSeek" classname="org.apache.kafka.clients.consumer.KafkaConsumerTest" time="0.005"/>
+  <testcase name="verifyNoCoordinatorLookupForManualAssignmentWithSeek" classname="org.apache.kafka.clients.consumer.KafkaConsumerTest" time="0.001"/>
   <testcase name="testInvalidSocketSendBufferSize" classname="org.apache.kafka.clients.consumer.KafkaConsumerTest" time="0.001"/>
-  <testcase name="testConsumerJmxPrefix" classname="org.apache.kafka.clients.consumer.KafkaConsumerTest" time="0.06"/>
+  <testcase name="testConsumerJmxPrefix" classname="org.apache.kafka.clients.consumer.KafkaConsumerTest" time="0.003"/>
   <testcase name="testOffsetsForTimesAuthenticationFailure" classname="org.apache.kafka.clients.consumer.KafkaConsumerTest" time="0.001"/>
-  <testcase name="testCommitsFetchedDuringAssign" classname="org.apache.kafka.clients.consumer.KafkaConsumerTest" time="0.002"/>
+  <testcase name="testCommitsFetchedDuringAssign" classname="org.apache.kafka.clients.consumer.KafkaConsumerTest" time="0.001"/>
   <testcase name="testOsDefaultSocketBufferSizes" classname="org.apache.kafka.clients.consumer.KafkaConsumerTest" time="0.004"/>
-  <testcase name="testResetToCommittedOffset" classname="org.apache.kafka.clients.consumer.KafkaConsumerTest" time="0.003"/>
+  <testcase name="testResetToCommittedOffset" classname="org.apache.kafka.clients.consumer.KafkaConsumerTest" time="0.002"/>
   <testcase name="testPollTimeMetrics" classname="org.apache.kafka.clients.consumer.KafkaConsumerTest" time="0.001"/>
-  <testcase name="testCloseNoWait" classname="org.apache.kafka.clients.consumer.KafkaConsumerTest" time="0.081"/>
+  <testcase name="testCloseNoWait" classname="org.apache.kafka.clients.consumer.KafkaConsumerTest" time="0.003"/>
   <testcase name="testEndOffsetsAuthenticationFailure" classname="org.apache.kafka.clients.consumer.KafkaConsumerTest" time="0.001"/>
-  <testcase name="testCloseInterrupt" classname="org.apache.kafka.clients.consumer.KafkaConsumerTest" time="0.214"/>
-  <testcase name="testPollIdleRatio" classname="org.apache.kafka.clients.consumer.KafkaConsumerTest" time="0.002"/>
-  <testcase name="testGetGroupMetadata" classname="org.apache.kafka.clients.consumer.KafkaConsumerTest" time="0.003"/>
-  <testcase name="testAssignOnNullTopicPartition" classname="org.apache.kafka.clients.consumer.KafkaConsumerTest" time="0.003"/>
-  <testcase name="verifyPollTimesOutDuringMetadataUpdate" classname="org.apache.kafka.clients.consumer.KafkaConsumerTest" time="0.005"/>
-  <testcase name="verifyDeprecatedPollDoesNotTimeOutDuringMetadataUpdate" classname="org.apache.kafka.clients.consumer.KafkaConsumerTest" time="0.003"/>
+  <testcase name="testCloseInterrupt" classname="org.apache.kafka.clients.consumer.KafkaConsumerTest" time="0.225"/>
+  <testcase name="testPollIdleRatio" classname="org.apache.kafka.clients.consumer.KafkaConsumerTest" time="0.001"/>
+  <testcase name="testGetGroupMetadata" classname="org.apache.kafka.clients.consumer.KafkaConsumerTest" time="0.002"/>
+  <testcase name="testAssignOnNullTopicPartition" classname="org.apache.kafka.clients.consumer.KafkaConsumerTest" time="0.006"/>
+  <testcase name="verifyPollTimesOutDuringMetadataUpdate" classname="org.apache.kafka.clients.consumer.KafkaConsumerTest" time="0.003"/>
+  <testcase name="verifyDeprecatedPollDoesNotTimeOutDuringMetadataUpdate" classname="org.apache.kafka.clients.consumer.KafkaConsumerTest" time="0.002"/>
   <testcase name="testMetricsReporterAutoGeneratedClientId" classname="org.apache.kafka.clients.consumer.KafkaConsumerTest" time="0.004"/>
-  <testcase name="testInvalidGroupMetadata" classname="org.apache.kafka.clients.consumer.KafkaConsumerTest" time="1.029"/>
+  <testcase name="testInvalidGroupMetadata" classname="org.apache.kafka.clients.consumer.KafkaConsumerTest" time="1.008"/>
   <testcase name="testManualAssignmentChangeWithAutoCommitDisabled" classname="org.apache.kafka.clients.consumer.KafkaConsumerTest" time="0.002"/>
-  <testcase name="testOffsetOfPausedPartitions" classname="org.apache.kafka.clients.consumer.KafkaConsumerTest" time="0.002"/>
-  <testcase name="testSubscriptionChangesWithAutoCommitDisabled" classname="org.apache.kafka.clients.consumer.KafkaConsumerTest" time="0.003"/>
+  <testcase name="testOffsetOfPausedPartitions" classname="org.apache.kafka.clients.consumer.KafkaConsumerTest" time="0.001"/>
+  <testcase name="testSubscriptionChangesWithAutoCommitDisabled" classname="org.apache.kafka.clients.consumer.KafkaConsumerTest" time="0.002"/>
   <testcase name="testSeekNegative" classname="org.apache.kafka.clients.consumer.KafkaConsumerTest" time="0.002"/>
   <testcase name="testPollAuthenticationFailure" classname="org.apache.kafka.clients.consumer.KafkaConsumerTest" time="0.001"/>
   <testcase name="testAssignOnEmptyTopicInPartition" classname="org.apache.kafka.clients.consumer.KafkaConsumerTest" time="0.003"/>
-  <testcase name="testRebalanceException" classname="org.apache.kafka.clients.consumer.KafkaConsumerTest" time="0.004"/>
-  <testcase name="testMissingOffsetNoResetPolicy" classname="org.apache.kafka.clients.consumer.KafkaConsumerTest" time="0.001"/>
+  <testcase name="testRebalanceException" classname="org.apache.kafka.clients.consumer.KafkaConsumerTest" time="0.009"/>
+  <testcase name="testMissingOffsetNoResetPolicy" classname="org.apache.kafka.clients.consumer.KafkaConsumerTest" time="0.0"/>
   <testcase name="testInvalidSocketReceiveBufferSize" classname="org.apache.kafka.clients.consumer.KafkaConsumerTest" time="0.0"/>
-  <testcase name="testClosingConsumerUnregistersConsumerMetrics" classname="org.apache.kafka.clients.consumer.KafkaConsumerTest" time="0.001"/>
+  <testcase name="testClosingConsumerUnregistersConsumerMetrics" classname="org.apache.kafka.clients.consumer.KafkaConsumerTest" time="0.0"/>
   <testcase name="testSubscriptionOnInvalidTopic" classname="org.apache.kafka.clients.consumer.KafkaConsumerTest" time="0.002"/>
-  <testcase name="testAutoCommitSentBeforePositionUpdate" classname="org.apache.kafka.clients.consumer.KafkaConsumerTest" time="0.004"/>
+  <testcase name="testAutoCommitSentBeforePositionUpdate" classname="org.apache.kafka.clients.consumer.KafkaConsumerTest" time="0.003"/>
   <testcase name="fetchResponseWithUnexpectedPartitionIsIgnored" classname="org.apache.kafka.clients.consumer.KafkaConsumerTest" time="0.003"/>
   <testcase name="testPollThrowsInterruptExceptionIfInterrupted" classname="org.apache.kafka.clients.consumer.KafkaConsumerTest" time="0.003"/>
-  <testcase name="testSubscriptionOnNullPattern" classname="org.apache.kafka.clients.consumer.KafkaConsumerTest" time="0.003"/>
+  <testcase name="testSubscriptionOnNullPattern" classname="org.apache.kafka.clients.consumer.KafkaConsumerTest" time="0.005"/>
   <testcase name="testEnforceRebalanceTriggersRebalanceOnNextPoll" classname="org.apache.kafka.clients.consumer.KafkaConsumerTest" time="0.003"/>
-  <testcase name="testEnforceRebalanceWithManualAssignment" classname="org.apache.kafka.clients.consumer.KafkaConsumerTest" time="0.003"/>
-  <testcase name="testShouldAttemptToRejoinGroupAfterSyncGroupFailed" classname="org.apache.kafka.clients.consumer.KafkaConsumerTest" time="1.009"/>
+  <testcase name="testEnforceRebalanceWithManualAssignment" classname="org.apache.kafka.clients.consumer.KafkaConsumerTest" time="0.004"/>
+  <testcase name="testShouldAttemptToRejoinGroupAfterSyncGroupFailed" classname="org.apache.kafka.clients.consumer.KafkaConsumerTest" time="1.012"/>
   <testcase name="testCommitSyncAuthenticationFailure" classname="org.apache.kafka.clients.consumer.KafkaConsumerTest" time="0.001"/>
-  <testcase name="verifyHeartbeatSent" classname="org.apache.kafka.clients.consumer.KafkaConsumerTest" time="1.007"/>
-  <testcase name="verifyHeartbeatSentWhenFetchedDataReady" classname="org.apache.kafka.clients.consumer.KafkaConsumerTest" time="1.005"/>
-  <testcase name="testResetUsingAutoResetPolicy" classname="org.apache.kafka.clients.consumer.KafkaConsumerTest" time="0.001"/>
-  <testcase name="testNoCommittedOffsets" classname="org.apache.kafka.clients.consumer.KafkaConsumerTest" time="0.002"/>
+  <testcase name="verifyHeartbeatSent" classname="org.apache.kafka.clients.consumer.KafkaConsumerTest" time="1.017"/>
+  <testcase name="verifyHeartbeatSentWhenFetchedDataReady" classname="org.apache.kafka.clients.consumer.KafkaConsumerTest" time="1.011"/>
+  <testcase name="testResetUsingAutoResetPolicy" classname="org.apache.kafka.clients.consumer.KafkaConsumerTest" time="0.0"/>
+  <testcase name="testNoCommittedOffsets" classname="org.apache.kafka.clients.consumer.KafkaConsumerTest" time="0.001"/>
   <testcase name="testOperationsByAssigningConsumerWithDefaultGroupId" classname="org.apache.kafka.clients.consumer.KafkaConsumerTest" time="0.002"/>
   <testcase name="testAssignOnEmptyTopicPartition" classname="org.apache.kafka.clients.consumer.KafkaConsumerTest" time="0.003"/>
-  <testcase name="testFetchStableOffsetThrowInCommitted" classname="org.apache.kafka.clients.consumer.KafkaConsumerTest" time="0.004"/>
-  <testcase name="testUnsubscribeShouldTriggerPartitionsLostWithNoGeneration" classname="org.apache.kafka.clients.consumer.KafkaConsumerTest" time="0.113"/>
-  <testcase name="testSubscriptionOnNullTopic" classname="org.apache.kafka.clients.consumer.KafkaConsumerTest" time="0.003"/>
+  <testcase name="testFetchStableOffsetThrowInCommitted" classname="org.apache.kafka.clients.consumer.KafkaConsumerTest" time="0.002"/>
+  <testcase name="testUnsubscribeShouldTriggerPartitionsLostWithNoGeneration" classname="org.apache.kafka.clients.consumer.KafkaConsumerTest" time="0.227"/>
+  <testcase name="testSubscriptionOnNullTopic" classname="org.apache.kafka.clients.consumer.KafkaConsumerTest" time="0.004"/>
   <testcase name="testSubscription" classname="org.apache.kafka.clients.consumer.KafkaConsumerTest" time="0.004"/>
-  <testcase name="testInterceptorConstructorClose" classname="org.apache.kafka.clients.consumer.KafkaConsumerTest" time="0.004"/>
+  <testcase name="testInterceptorConstructorClose" classname="org.apache.kafka.clients.consumer.KafkaConsumerTest" time="0.003"/>
   <testcase name="testSubscriptionOnEmptyTopic" classname="org.apache.kafka.clients.consumer.KafkaConsumerTest" time="0.003"/>
-  <testcase name="testWakeupWithFetchDataAvailable" classname="org.apache.kafka.clients.consumer.KafkaConsumerTest" time="0.027"/>
-  <testcase name="testReturnRecordsDuringRebalance" classname="org.apache.kafka.clients.consumer.KafkaConsumerTest" time="0.013"/>
-  <testcase name="testLeaveGroupTimeout" classname="org.apache.kafka.clients.consumer.KafkaConsumerTest" time="0.11"/>
-  <testcase name="testFetchStableOffsetThrowInPoll" classname="org.apache.kafka.clients.consumer.KafkaConsumerTest" time="0.003"/>
-  <testcase name="testPartitionsForAuthenticationFailure" classname="org.apache.kafka.clients.consumer.KafkaConsumerTest" time="0.001"/>
-  <testcase name="testSubscriptionOnNullTopicCollection" classname="org.apache.kafka.clients.consumer.KafkaConsumerTest" time="0.003"/>
-  <testcase name="deserializerShouldSeeGeneratedClientId" classname="org.apache.kafka.clients.consumer.KafkaConsumerTest" time="0.003"/>
-  <testcase name="testCloseWithTimeUnit" classname="org.apache.kafka.clients.consumer.KafkaConsumerTest" time="0.201"/>
-  <system-out><![CDATA[[2020-10-29 10:32:43,533] ERROR User provided listener org.apache.kafka.clients.consumer.KafkaConsumerTest$2 failed on invocation of onPartitionsAssigned for partitions [test-0] (org.apache.kafka.clients.consumer.internals.ConsumerCoordinator:298)
+  <testcase name="testWakeupWithFetchDataAvailable" classname="org.apache.kafka.clients.consumer.KafkaConsumerTest" time="0.033"/>
+  <testcase name="testReturnRecordsDuringRebalance" classname="org.apache.kafka.clients.consumer.KafkaConsumerTest" time="0.009"/>
+  <testcase name="testLeaveGroupTimeout" classname="org.apache.kafka.clients.consumer.KafkaConsumerTest" time="0.113"/>
+  <testcase name="testFetchStableOffsetThrowInPoll" classname="org.apache.kafka.clients.consumer.KafkaConsumerTest" time="0.002"/>
+  <testcase name="testPartitionsForAuthenticationFailure" classname="org.apache.kafka.clients.consumer.KafkaConsumerTest" time="0.0"/>
+  <testcase name="testSubscriptionOnNullTopicCollection" classname="org.apache.kafka.clients.consumer.KafkaConsumerTest" time="0.004"/>
+  <testcase name="deserializerShouldSeeGeneratedClientId" classname="org.apache.kafka.clients.consumer.KafkaConsumerTest" time="0.004"/>
+  <testcase name="testCloseWithTimeUnit" classname="org.apache.kafka.clients.consumer.KafkaConsumerTest" time="0.117"/>
+  <system-out><![CDATA[[2022-09-03 18:38:18,073] ERROR User provided listener org.apache.kafka.clients.consumer.KafkaConsumerTest$2 failed on invocation of onPartitionsAssigned for partitions [test-0] (org.apache.kafka.clients.consumer.internals.ConsumerCoordinator:298)
 java.lang.RuntimeException: Hit partition assign [test-0]
 	at org.apache.kafka.clients.consumer.KafkaConsumerTest$2.onPartitionsAssigned(KafkaConsumerTest.java:2074)
 	at org.apache.kafka.clients.consumer.internals.ConsumerCoordinator.invokePartitionsAssigned(ConsumerCoordinator.java:293)
@@ -146,7 +146,7 @@ java.lang.RuntimeException: Hit partition assign [test-0]
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:56)
 	at java.lang.Thread.run(Thread.java:748)
-[2020-10-29 10:32:43,535] ERROR User provided listener org.apache.kafka.clients.consumer.KafkaConsumerTest$2 failed on invocation of onPartitionsRevoked for partitions [test-0] (org.apache.kafka.clients.consumer.internals.ConsumerCoordinator:317)
+[2022-09-03 18:38:18,079] ERROR User provided listener org.apache.kafka.clients.consumer.KafkaConsumerTest$2 failed on invocation of onPartitionsRevoked for partitions [test-0] (org.apache.kafka.clients.consumer.internals.ConsumerCoordinator:317)
 java.lang.RuntimeException: Hit partition revoke [test-0]
 	at org.apache.kafka.clients.consumer.KafkaConsumerTest$2.onPartitionsRevoked(KafkaConsumerTest.java:2069)
 	at org.apache.kafka.clients.consumer.internals.ConsumerCoordinator.invokePartitionsRevoked(ConsumerCoordinator.java:312)
@@ -205,7 +205,7 @@ java.lang.RuntimeException: Hit partition revoke [test-0]
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:56)
 	at java.lang.Thread.run(Thread.java:748)
-[2020-10-29 10:32:43,818] ERROR Failed to close coordinator (org.apache.kafka.clients.consumer.KafkaConsumer:2374)
+[2022-09-03 18:38:18,218] ERROR Failed to close coordinator (org.apache.kafka.clients.consumer.KafkaConsumer:2374)
 org.apache.kafka.common.errors.InterruptException: java.lang.InterruptedException
 	at org.apache.kafka.clients.consumer.internals.ConsumerNetworkClient.maybeThrowInterruptException(ConsumerNetworkClient.java:520)
 	at org.apache.kafka.clients.consumer.internals.ConsumerNetworkClient.poll(ConsumerNetworkClient.java:281)
@@ -224,7 +224,7 @@ org.apache.kafka.common.errors.InterruptException: java.lang.InterruptedExceptio
 	at java.lang.Thread.run(Thread.java:748)
 Caused by: java.lang.InterruptedException
 	... 15 more
-[2020-10-29 10:32:44,978] ERROR User provided listener org.apache.kafka.clients.consumer.KafkaConsumerTest$2 failed on invocation of onPartitionsAssigned for partitions [test-0] (org.apache.kafka.clients.consumer.internals.ConsumerCoordinator:298)
+[2022-09-03 18:38:19,366] ERROR User provided listener org.apache.kafka.clients.consumer.KafkaConsumerTest$2 failed on invocation of onPartitionsAssigned for partitions [test-0] (org.apache.kafka.clients.consumer.internals.ConsumerCoordinator:298)
 java.lang.RuntimeException: Hit partition assign [test-0]
 	at org.apache.kafka.clients.consumer.KafkaConsumerTest$2.onPartitionsAssigned(KafkaConsumerTest.java:2074)
 	at org.apache.kafka.clients.consumer.internals.ConsumerCoordinator.invokePartitionsAssigned(ConsumerCoordinator.java:293)
@@ -285,7 +285,7 @@ java.lang.RuntimeException: Hit partition assign [test-0]
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:56)
 	at java.lang.Thread.run(Thread.java:748)
-[2020-10-29 10:32:44,979] ERROR User provided listener org.apache.kafka.clients.consumer.KafkaConsumerTest$2 failed on invocation of onPartitionsRevoked for partitions [test-0] (org.apache.kafka.clients.consumer.internals.ConsumerCoordinator:317)
+[2022-09-03 18:38:19,368] ERROR User provided listener org.apache.kafka.clients.consumer.KafkaConsumerTest$2 failed on invocation of onPartitionsRevoked for partitions [test-0] (org.apache.kafka.clients.consumer.internals.ConsumerCoordinator:317)
 java.lang.RuntimeException: Hit partition revoke [test-0]
 	at org.apache.kafka.clients.consumer.KafkaConsumerTest$2.onPartitionsRevoked(KafkaConsumerTest.java:2069)
 	at org.apache.kafka.clients.consumer.internals.ConsumerCoordinator.invokePartitionsRevoked(ConsumerCoordinator.java:312)
@@ -345,7 +345,7 @@ java.lang.RuntimeException: Hit partition revoke [test-0]
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:56)
 	at java.lang.Thread.run(Thread.java:748)
-[2020-10-29 10:32:44,979] ERROR Failed to close coordinator (org.apache.kafka.clients.consumer.KafkaConsumer:2374)
+[2022-09-03 18:38:19,370] ERROR Failed to close coordinator (org.apache.kafka.clients.consumer.KafkaConsumer:2374)
 org.apache.kafka.common.KafkaException: User rebalance callback throws an error
 	at org.apache.kafka.clients.consumer.internals.ConsumerCoordinator.onLeavePrepare(ConsumerCoordinator.java:756)
 	at org.apache.kafka.clients.consumer.internals.AbstractCoordinator.close(AbstractCoordinator.java:987)
@@ -408,8 +408,8 @@ Caused by: java.lang.RuntimeException: Hit partition revoke [test-0]
 	at org.apache.kafka.clients.consumer.internals.ConsumerCoordinator.invokePartitionsRevoked(ConsumerCoordinator.java:312)
 	at org.apache.kafka.clients.consumer.internals.ConsumerCoordinator.onLeavePrepare(ConsumerCoordinator.java:750)
 	... 55 more
-[2020-10-29 10:32:44,983] ERROR Metadata response reported invalid topics [topic abc] (org.apache.kafka.clients.Metadata:294)
-[2020-10-29 10:32:48,043] ERROR User provided listener org.apache.kafka.clients.consumer.KafkaConsumerTest$2 failed on invocation of onPartitionsAssigned for partitions [test-0] (org.apache.kafka.clients.consumer.internals.ConsumerCoordinator:298)
+[2022-09-03 18:38:19,374] ERROR Metadata response reported invalid topics [topic abc] (org.apache.kafka.clients.Metadata:294)
+[2022-09-03 18:38:22,447] ERROR User provided listener org.apache.kafka.clients.consumer.KafkaConsumerTest$2 failed on invocation of onPartitionsAssigned for partitions [test-0] (org.apache.kafka.clients.consumer.internals.ConsumerCoordinator:298)
 java.lang.RuntimeException: Hit partition assign [test-0]
 	at org.apache.kafka.clients.consumer.KafkaConsumerTest$2.onPartitionsAssigned(KafkaConsumerTest.java:2074)
 	at org.apache.kafka.clients.consumer.internals.ConsumerCoordinator.invokePartitionsAssigned(ConsumerCoordinator.java:293)
@@ -473,7 +473,7 @@ java.lang.RuntimeException: Hit partition assign [test-0]
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:56)
 	at java.lang.Thread.run(Thread.java:748)
-[2020-10-29 10:32:48,150] ERROR User provided listener org.apache.kafka.clients.consumer.KafkaConsumerTest$2 failed on invocation of onPartitionsLost for partitions [test-0] (org.apache.kafka.clients.consumer.internals.ConsumerCoordinator:336)
+[2022-09-03 18:38:22,672] ERROR User provided listener org.apache.kafka.clients.consumer.KafkaConsumerTest$2 failed on invocation of onPartitionsLost for partitions [test-0] (org.apache.kafka.clients.consumer.internals.ConsumerCoordinator:336)
 java.lang.RuntimeException: Hit partition lost [test-0]
 	at org.apache.kafka.clients.consumer.KafkaConsumerTest$2.onPartitionsLost(KafkaConsumerTest.java:2079)
 	at org.apache.kafka.clients.consumer.internals.ConsumerCoordinator.invokePartitionsLost(ConsumerCoordinator.java:331)
@@ -533,7 +533,7 @@ java.lang.RuntimeException: Hit partition lost [test-0]
 	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:56)
 	at java.lang.Thread.run(Thread.java:748)
 ]]></system-out>
-  <system-err><![CDATA[Exception in thread "pool-10-thread-1" org.apache.kafka.common.errors.WakeupException
+  <system-err><![CDATA[Exception in thread "pool-5-thread-1" org.apache.kafka.common.errors.WakeupException
 	at org.apache.kafka.clients.consumer.internals.ConsumerNetworkClient.maybeTriggerWakeup(ConsumerNetworkClient.java:514)
 	at org.apache.kafka.clients.consumer.internals.ConsumerNetworkClient.poll(ConsumerNetworkClient.java:278)
 	at org.apache.kafka.clients.consumer.internals.ConsumerNetworkClient.poll(ConsumerNetworkClient.java:236)

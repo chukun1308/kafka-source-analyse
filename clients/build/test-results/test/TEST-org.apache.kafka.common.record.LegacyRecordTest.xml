@@ -1,78 +1,78 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.apache.kafka.common.record.LegacyRecordTest" tests="1440" skipped="0" failures="0" errors="0" timestamp="2020-10-29T02:32:11" hostname="chukun-mac" time="4.277">
+<testsuite name="org.apache.kafka.common.record.LegacyRecordTest" tests="1440" skipped="0" failures="0" errors="0" timestamp="2022-09-03T10:40:16" hostname="LAPTOP-FH01OFOM" time="1.061">
   <properties/>
-  <testcase name="testChecksum[0]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.004"/>
-  <testcase name="testEquality[0]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.001"/>
+  <testcase name="testChecksum[0]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.003"/>
+  <testcase name="testEquality[0]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testFields[0]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testChecksum[1]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testEquality[1]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testFields[1]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testChecksum[2]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.001"/>
-  <testcase name="testEquality[2]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.001"/>
+  <testcase name="testEquality[2]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testFields[2]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
-  <testcase name="testChecksum[3]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.001"/>
+  <testcase name="testChecksum[3]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testEquality[3]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
-  <testcase name="testFields[3]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.001"/>
-  <testcase name="testChecksum[4]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.001"/>
+  <testcase name="testFields[3]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
+  <testcase name="testChecksum[4]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testEquality[4]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testFields[4]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testChecksum[5]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.001"/>
   <testcase name="testEquality[5]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testFields[5]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testChecksum[6]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
-  <testcase name="testEquality[6]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
+  <testcase name="testEquality[6]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.001"/>
   <testcase name="testFields[6]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testChecksum[7]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testEquality[7]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testFields[7]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
-  <testcase name="testChecksum[8]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
-  <testcase name="testEquality[8]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.001"/>
+  <testcase name="testChecksum[8]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.001"/>
+  <testcase name="testEquality[8]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testFields[8]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testChecksum[9]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
-  <testcase name="testEquality[9]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.001"/>
+  <testcase name="testEquality[9]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testFields[9]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
-  <testcase name="testChecksum[10]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
+  <testcase name="testChecksum[10]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.001"/>
   <testcase name="testEquality[10]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testFields[10]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testChecksum[11]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
-  <testcase name="testEquality[11]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.001"/>
+  <testcase name="testEquality[11]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testFields[11]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
-  <testcase name="testChecksum[12]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
+  <testcase name="testChecksum[12]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.001"/>
   <testcase name="testEquality[12]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testFields[12]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
-  <testcase name="testChecksum[13]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.001"/>
+  <testcase name="testChecksum[13]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testEquality[13]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testFields[13]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
-  <testcase name="testChecksum[14]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
+  <testcase name="testChecksum[14]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.001"/>
   <testcase name="testEquality[14]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
-  <testcase name="testFields[14]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.001"/>
-  <testcase name="testChecksum[15]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.014"/>
+  <testcase name="testFields[14]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
+  <testcase name="testChecksum[15]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.012"/>
   <testcase name="testEquality[15]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.001"/>
-  <testcase name="testFields[15]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.001"/>
-  <testcase name="testChecksum[16]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.009"/>
+  <testcase name="testFields[15]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
+  <testcase name="testChecksum[16]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.011"/>
   <testcase name="testEquality[16]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
-  <testcase name="testFields[16]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.001"/>
-  <testcase name="testChecksum[17]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.033"/>
-  <testcase name="testEquality[17]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.001"/>
+  <testcase name="testFields[16]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
+  <testcase name="testChecksum[17]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.011"/>
+  <testcase name="testEquality[17]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testFields[17]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
-  <testcase name="testChecksum[18]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.013"/>
+  <testcase name="testChecksum[18]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.009"/>
   <testcase name="testEquality[18]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testFields[18]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
-  <testcase name="testChecksum[19]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.01"/>
+  <testcase name="testChecksum[19]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.009"/>
   <testcase name="testEquality[19]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testFields[19]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testChecksum[20]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testEquality[20]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testFields[20]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
-  <testcase name="testChecksum[21]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
+  <testcase name="testChecksum[21]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.001"/>
   <testcase name="testEquality[21]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testFields[21]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
-  <testcase name="testChecksum[22]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.001"/>
+  <testcase name="testChecksum[22]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testEquality[22]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testFields[22]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
-  <testcase name="testChecksum[23]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
+  <testcase name="testChecksum[23]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.001"/>
   <testcase name="testEquality[23]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
-  <testcase name="testFields[23]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
+  <testcase name="testFields[23]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.001"/>
   <testcase name="testChecksum[24]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testEquality[24]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testFields[24]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
@@ -81,22 +81,22 @@
   <testcase name="testFields[25]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testChecksum[26]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testEquality[26]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
-  <testcase name="testFields[26]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
+  <testcase name="testFields[26]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.001"/>
   <testcase name="testChecksum[27]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testEquality[27]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
-  <testcase name="testFields[27]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
+  <testcase name="testFields[27]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.001"/>
   <testcase name="testChecksum[28]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
-  <testcase name="testEquality[28]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
+  <testcase name="testEquality[28]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.001"/>
   <testcase name="testFields[28]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testChecksum[29]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testEquality[29]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testFields[29]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.001"/>
   <testcase name="testChecksum[30]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testEquality[30]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
-  <testcase name="testFields[30]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
+  <testcase name="testFields[30]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.001"/>
   <testcase name="testChecksum[31]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testEquality[31]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
-  <testcase name="testFields[31]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
+  <testcase name="testFields[31]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.001"/>
   <testcase name="testChecksum[32]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testEquality[32]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testFields[32]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
@@ -106,27 +106,27 @@
   <testcase name="testChecksum[34]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testEquality[34]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testFields[34]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
-  <testcase name="testChecksum[35]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.014"/>
+  <testcase name="testChecksum[35]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.005"/>
   <testcase name="testEquality[35]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testFields[35]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
-  <testcase name="testChecksum[36]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.042"/>
+  <testcase name="testChecksum[36]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.004"/>
   <testcase name="testEquality[36]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testFields[36]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
-  <testcase name="testChecksum[37]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.024"/>
+  <testcase name="testChecksum[37]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.005"/>
   <testcase name="testEquality[37]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
-  <testcase name="testFields[37]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.001"/>
-  <testcase name="testChecksum[38]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.052"/>
+  <testcase name="testFields[37]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
+  <testcase name="testChecksum[38]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.005"/>
   <testcase name="testEquality[38]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testFields[38]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
-  <testcase name="testChecksum[39]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.029"/>
-  <testcase name="testEquality[39]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.01"/>
-  <testcase name="testFields[39]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.007"/>
-  <testcase name="testChecksum[40]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.013"/>
+  <testcase name="testChecksum[39]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.006"/>
+  <testcase name="testEquality[39]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
+  <testcase name="testFields[39]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
+  <testcase name="testChecksum[40]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testEquality[40]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testFields[40]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testChecksum[41]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testEquality[41]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
-  <testcase name="testFields[41]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.001"/>
+  <testcase name="testFields[41]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testChecksum[42]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testEquality[42]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testFields[42]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
@@ -137,168 +137,168 @@
   <testcase name="testEquality[44]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testFields[44]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testChecksum[45]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
-  <testcase name="testEquality[45]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.001"/>
-  <testcase name="testFields[45]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
+  <testcase name="testEquality[45]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
+  <testcase name="testFields[45]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.001"/>
   <testcase name="testChecksum[46]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
-  <testcase name="testEquality[46]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.001"/>
+  <testcase name="testEquality[46]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testFields[46]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testChecksum[47]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
-  <testcase name="testEquality[47]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.001"/>
+  <testcase name="testEquality[47]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testFields[47]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testChecksum[48]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
-  <testcase name="testEquality[48]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
+  <testcase name="testEquality[48]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.001"/>
   <testcase name="testFields[48]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
-  <testcase name="testChecksum[49]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.001"/>
+  <testcase name="testChecksum[49]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testEquality[49]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
-  <testcase name="testFields[49]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.001"/>
+  <testcase name="testFields[49]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testChecksum[50]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testEquality[50]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testFields[50]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testChecksum[51]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testEquality[51]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
-  <testcase name="testFields[51]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
+  <testcase name="testFields[51]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.001"/>
   <testcase name="testChecksum[52]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testEquality[52]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testFields[52]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testChecksum[53]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testEquality[53]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testFields[53]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
-  <testcase name="testChecksum[54]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.001"/>
+  <testcase name="testChecksum[54]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testEquality[54]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testFields[54]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
-  <testcase name="testChecksum[55]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.058"/>
+  <testcase name="testChecksum[55]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.005"/>
   <testcase name="testEquality[55]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
-  <testcase name="testFields[55]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
-  <testcase name="testChecksum[56]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.025"/>
-  <testcase name="testEquality[56]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
+  <testcase name="testFields[55]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.001"/>
+  <testcase name="testChecksum[56]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.004"/>
+  <testcase name="testEquality[56]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.001"/>
   <testcase name="testFields[56]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
-  <testcase name="testChecksum[57]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.045"/>
+  <testcase name="testChecksum[57]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.005"/>
   <testcase name="testEquality[57]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
-  <testcase name="testFields[57]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.001"/>
-  <testcase name="testChecksum[58]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.092"/>
+  <testcase name="testFields[57]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
+  <testcase name="testChecksum[58]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.005"/>
   <testcase name="testEquality[58]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testFields[58]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
-  <testcase name="testChecksum[59]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.02"/>
-  <testcase name="testEquality[59]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
-  <testcase name="testFields[59]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.001"/>
-  <testcase name="testChecksum[60]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.034"/>
+  <testcase name="testChecksum[59]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.005"/>
+  <testcase name="testEquality[59]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.001"/>
+  <testcase name="testFields[59]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
+  <testcase name="testChecksum[60]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.005"/>
   <testcase name="testEquality[60]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.001"/>
-  <testcase name="testFields[60]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.001"/>
-  <testcase name="testChecksum[61]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.118"/>
-  <testcase name="testEquality[61]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
+  <testcase name="testFields[60]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
+  <testcase name="testChecksum[61]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.004"/>
+  <testcase name="testEquality[61]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.001"/>
   <testcase name="testFields[61]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
-  <testcase name="testChecksum[62]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.019"/>
-  <testcase name="testEquality[62]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.001"/>
+  <testcase name="testChecksum[62]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.004"/>
+  <testcase name="testEquality[62]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testFields[62]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
-  <testcase name="testChecksum[63]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.026"/>
+  <testcase name="testChecksum[63]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.004"/>
   <testcase name="testEquality[63]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testFields[63]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
-  <testcase name="testChecksum[64]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.025"/>
+  <testcase name="testChecksum[64]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.004"/>
   <testcase name="testEquality[64]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
-  <testcase name="testFields[64]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.001"/>
-  <testcase name="testChecksum[65]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.075"/>
-  <testcase name="testEquality[65]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.001"/>
-  <testcase name="testFields[65]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.001"/>
-  <testcase name="testChecksum[66]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.024"/>
+  <testcase name="testFields[64]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
+  <testcase name="testChecksum[65]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.004"/>
+  <testcase name="testEquality[65]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
+  <testcase name="testFields[65]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
+  <testcase name="testChecksum[66]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.003"/>
   <testcase name="testEquality[66]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testFields[66]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
-  <testcase name="testChecksum[67]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.058"/>
-  <testcase name="testEquality[67]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.001"/>
-  <testcase name="testFields[67]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.001"/>
-  <testcase name="testChecksum[68]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.026"/>
-  <testcase name="testEquality[68]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.002"/>
-  <testcase name="testFields[68]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.001"/>
-  <testcase name="testChecksum[69]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.042"/>
-  <testcase name="testEquality[69]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.001"/>
+  <testcase name="testChecksum[67]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.004"/>
+  <testcase name="testEquality[67]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
+  <testcase name="testFields[67]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
+  <testcase name="testChecksum[68]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.004"/>
+  <testcase name="testEquality[68]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
+  <testcase name="testFields[68]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
+  <testcase name="testChecksum[69]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.004"/>
+  <testcase name="testEquality[69]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testFields[69]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
-  <testcase name="testChecksum[70]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.02"/>
-  <testcase name="testEquality[70]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.002"/>
+  <testcase name="testChecksum[70]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.004"/>
+  <testcase name="testEquality[70]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testFields[70]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
-  <testcase name="testChecksum[71]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.109"/>
+  <testcase name="testChecksum[71]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.004"/>
   <testcase name="testEquality[71]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
-  <testcase name="testFields[71]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
-  <testcase name="testChecksum[72]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.049"/>
+  <testcase name="testFields[71]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.001"/>
+  <testcase name="testChecksum[72]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.005"/>
   <testcase name="testEquality[72]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
-  <testcase name="testFields[72]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
-  <testcase name="testChecksum[73]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.025"/>
-  <testcase name="testEquality[73]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.001"/>
-  <testcase name="testFields[73]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.001"/>
-  <testcase name="testChecksum[74]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.088"/>
+  <testcase name="testFields[72]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.001"/>
+  <testcase name="testChecksum[73]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.005"/>
+  <testcase name="testEquality[73]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
+  <testcase name="testFields[73]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
+  <testcase name="testChecksum[74]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.005"/>
   <testcase name="testEquality[74]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testFields[74]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
-  <testcase name="testChecksum[75]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.107"/>
+  <testcase name="testChecksum[75]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.011"/>
   <testcase name="testEquality[75]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
-  <testcase name="testFields[75]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.001"/>
-  <testcase name="testChecksum[76]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.121"/>
-  <testcase name="testEquality[76]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.001"/>
-  <testcase name="testFields[76]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.002"/>
-  <testcase name="testChecksum[77]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.092"/>
+  <testcase name="testFields[75]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
+  <testcase name="testChecksum[76]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.009"/>
+  <testcase name="testEquality[76]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
+  <testcase name="testFields[76]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
+  <testcase name="testChecksum[77]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.01"/>
   <testcase name="testEquality[77]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testFields[77]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
-  <testcase name="testChecksum[78]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.218"/>
-  <testcase name="testEquality[78]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.003"/>
-  <testcase name="testFields[78]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.001"/>
-  <testcase name="testChecksum[79]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.175"/>
-  <testcase name="testEquality[79]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.001"/>
-  <testcase name="testFields[79]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.001"/>
+  <testcase name="testChecksum[78]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.009"/>
+  <testcase name="testEquality[78]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
+  <testcase name="testFields[78]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
+  <testcase name="testChecksum[79]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.009"/>
+  <testcase name="testEquality[79]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
+  <testcase name="testFields[79]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testChecksum[80]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
-  <testcase name="testEquality[80]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.001"/>
+  <testcase name="testEquality[80]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testFields[80]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
-  <testcase name="testChecksum[81]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.001"/>
+  <testcase name="testChecksum[81]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testEquality[81]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testFields[81]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
-  <testcase name="testChecksum[82]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.001"/>
-  <testcase name="testEquality[82]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.001"/>
+  <testcase name="testChecksum[82]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
+  <testcase name="testEquality[82]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testFields[82]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
-  <testcase name="testChecksum[83]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.001"/>
-  <testcase name="testEquality[83]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.001"/>
-  <testcase name="testFields[83]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.001"/>
+  <testcase name="testChecksum[83]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
+  <testcase name="testEquality[83]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
+  <testcase name="testFields[83]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testChecksum[84]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
-  <testcase name="testEquality[84]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.001"/>
-  <testcase name="testFields[84]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.001"/>
-  <testcase name="testChecksum[85]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.001"/>
+  <testcase name="testEquality[84]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
+  <testcase name="testFields[84]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
+  <testcase name="testChecksum[85]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testEquality[85]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
-  <testcase name="testFields[85]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.003"/>
-  <testcase name="testChecksum[86]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.001"/>
-  <testcase name="testEquality[86]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
+  <testcase name="testFields[85]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
+  <testcase name="testChecksum[86]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
+  <testcase name="testEquality[86]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.001"/>
   <testcase name="testFields[86]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testChecksum[87]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testEquality[87]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
-  <testcase name="testFields[87]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.001"/>
-  <testcase name="testChecksum[88]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.002"/>
+  <testcase name="testFields[87]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
+  <testcase name="testChecksum[88]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testEquality[88]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testFields[88]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
-  <testcase name="testChecksum[89]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.001"/>
+  <testcase name="testChecksum[89]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testEquality[89]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testFields[89]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testChecksum[90]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.001"/>
-  <testcase name="testEquality[90]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.002"/>
+  <testcase name="testEquality[90]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testFields[90]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
-  <testcase name="testChecksum[91]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.001"/>
+  <testcase name="testChecksum[91]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testEquality[91]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
-  <testcase name="testFields[91]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.003"/>
-  <testcase name="testChecksum[92]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.002"/>
+  <testcase name="testFields[91]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
+  <testcase name="testChecksum[92]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testEquality[92]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testFields[92]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testChecksum[93]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testEquality[93]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testFields[93]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
-  <testcase name="testChecksum[94]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
+  <testcase name="testChecksum[94]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.001"/>
   <testcase name="testEquality[94]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testFields[94]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
-  <testcase name="testChecksum[95]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.028"/>
+  <testcase name="testChecksum[95]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.004"/>
   <testcase name="testEquality[95]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
-  <testcase name="testFields[95]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.001"/>
-  <testcase name="testChecksum[96]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.049"/>
+  <testcase name="testFields[95]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
+  <testcase name="testChecksum[96]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.003"/>
   <testcase name="testEquality[96]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testFields[96]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
-  <testcase name="testChecksum[97]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.051"/>
-  <testcase name="testEquality[97]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
+  <testcase name="testChecksum[97]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.003"/>
+  <testcase name="testEquality[97]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.001"/>
   <testcase name="testFields[97]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
-  <testcase name="testChecksum[98]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.01"/>
+  <testcase name="testChecksum[98]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.005"/>
   <testcase name="testEquality[98]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testFields[98]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
-  <testcase name="testChecksum[99]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.08"/>
+  <testcase name="testChecksum[99]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.005"/>
   <testcase name="testEquality[99]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testFields[99]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testChecksum[100]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
@@ -316,7 +316,7 @@
   <testcase name="testChecksum[104]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testEquality[104]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testFields[104]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
-  <testcase name="testChecksum[105]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.001"/>
+  <testcase name="testChecksum[105]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testEquality[105]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testFields[105]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testChecksum[106]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
@@ -328,7 +328,7 @@
   <testcase name="testChecksum[108]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testEquality[108]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testFields[108]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
-  <testcase name="testChecksum[109]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
+  <testcase name="testChecksum[109]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.001"/>
   <testcase name="testEquality[109]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testFields[109]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testChecksum[110]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
@@ -344,29 +344,29 @@
   <testcase name="testEquality[113]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testFields[113]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testChecksum[114]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
-  <testcase name="testEquality[114]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.001"/>
+  <testcase name="testEquality[114]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testFields[114]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
-  <testcase name="testChecksum[115]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.02"/>
-  <testcase name="testEquality[115]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.001"/>
+  <testcase name="testChecksum[115]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.002"/>
+  <testcase name="testEquality[115]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testFields[115]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
-  <testcase name="testChecksum[116]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.063"/>
-  <testcase name="testEquality[116]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
+  <testcase name="testChecksum[116]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.005"/>
+  <testcase name="testEquality[116]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.001"/>
   <testcase name="testFields[116]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
-  <testcase name="testChecksum[117]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.021"/>
+  <testcase name="testChecksum[117]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.004"/>
   <testcase name="testEquality[117]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testFields[117]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
-  <testcase name="testChecksum[118]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.067"/>
+  <testcase name="testChecksum[118]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.002"/>
   <testcase name="testEquality[118]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testFields[118]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
-  <testcase name="testChecksum[119]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.025"/>
-  <testcase name="testEquality[119]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.001"/>
+  <testcase name="testChecksum[119]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.003"/>
+  <testcase name="testEquality[119]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testFields[119]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testChecksum[120]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testEquality[120]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testFields[120]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testChecksum[121]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testEquality[121]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
-  <testcase name="testFields[121]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.001"/>
+  <testcase name="testFields[121]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testChecksum[122]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testEquality[122]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testFields[122]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
@@ -374,7 +374,7 @@
   <testcase name="testEquality[123]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testFields[123]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testChecksum[124]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
-  <testcase name="testEquality[124]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.001"/>
+  <testcase name="testEquality[124]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testFields[124]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testChecksum[125]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testEquality[125]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
@@ -401,99 +401,99 @@
   <testcase name="testEquality[132]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testFields[132]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testChecksum[133]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
-  <testcase name="testEquality[133]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
+  <testcase name="testEquality[133]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.001"/>
   <testcase name="testFields[133]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
-  <testcase name="testChecksum[134]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.001"/>
+  <testcase name="testChecksum[134]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testEquality[134]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testFields[134]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
-  <testcase name="testChecksum[135]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.011"/>
+  <testcase name="testChecksum[135]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.003"/>
   <testcase name="testEquality[135]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testFields[135]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
-  <testcase name="testChecksum[136]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.069"/>
+  <testcase name="testChecksum[136]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.003"/>
   <testcase name="testEquality[136]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testFields[136]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
-  <testcase name="testChecksum[137]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.052"/>
+  <testcase name="testChecksum[137]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.004"/>
   <testcase name="testEquality[137]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testFields[137]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
-  <testcase name="testChecksum[138]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.027"/>
-  <testcase name="testEquality[138]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.001"/>
+  <testcase name="testChecksum[138]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.003"/>
+  <testcase name="testEquality[138]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testFields[138]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
-  <testcase name="testChecksum[139]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.044"/>
-  <testcase name="testEquality[139]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
-  <testcase name="testFields[139]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.001"/>
-  <testcase name="testChecksum[140]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.019"/>
+  <testcase name="testChecksum[139]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.003"/>
+  <testcase name="testEquality[139]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.001"/>
+  <testcase name="testFields[139]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
+  <testcase name="testChecksum[140]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.002"/>
   <testcase name="testEquality[140]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testFields[140]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
-  <testcase name="testChecksum[141]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.005"/>
-  <testcase name="testEquality[141]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
+  <testcase name="testChecksum[141]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.002"/>
+  <testcase name="testEquality[141]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.001"/>
   <testcase name="testFields[141]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
-  <testcase name="testChecksum[142]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.024"/>
+  <testcase name="testChecksum[142]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.002"/>
   <testcase name="testEquality[142]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testFields[142]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testChecksum[143]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.004"/>
   <testcase name="testEquality[143]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testFields[143]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
-  <testcase name="testChecksum[144]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.029"/>
-  <testcase name="testEquality[144]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.001"/>
+  <testcase name="testChecksum[144]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.004"/>
+  <testcase name="testEquality[144]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testFields[144]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
-  <testcase name="testChecksum[145]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.006"/>
+  <testcase name="testChecksum[145]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.004"/>
   <testcase name="testEquality[145]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
-  <testcase name="testFields[145]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.001"/>
-  <testcase name="testChecksum[146]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.022"/>
-  <testcase name="testEquality[146]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.001"/>
+  <testcase name="testFields[145]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
+  <testcase name="testChecksum[146]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.004"/>
+  <testcase name="testEquality[146]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testFields[146]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
-  <testcase name="testChecksum[147]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.006"/>
+  <testcase name="testChecksum[147]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.003"/>
   <testcase name="testEquality[147]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
-  <testcase name="testFields[147]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.003"/>
-  <testcase name="testChecksum[148]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.005"/>
+  <testcase name="testFields[147]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
+  <testcase name="testChecksum[148]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.004"/>
   <testcase name="testEquality[148]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testFields[148]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
-  <testcase name="testChecksum[149]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.018"/>
+  <testcase name="testChecksum[149]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.004"/>
   <testcase name="testEquality[149]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
-  <testcase name="testFields[149]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.001"/>
-  <testcase name="testChecksum[150]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.005"/>
-  <testcase name="testEquality[150]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.007"/>
-  <testcase name="testFields[150]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.001"/>
-  <testcase name="testChecksum[151]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.017"/>
+  <testcase name="testFields[149]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
+  <testcase name="testChecksum[150]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.003"/>
+  <testcase name="testEquality[150]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
+  <testcase name="testFields[150]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
+  <testcase name="testChecksum[151]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.003"/>
   <testcase name="testEquality[151]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testFields[151]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
-  <testcase name="testChecksum[152]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.004"/>
-  <testcase name="testEquality[152]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.001"/>
+  <testcase name="testChecksum[152]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.002"/>
+  <testcase name="testEquality[152]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testFields[152]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
-  <testcase name="testChecksum[153]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.019"/>
+  <testcase name="testChecksum[153]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.002"/>
   <testcase name="testEquality[153]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testFields[153]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
-  <testcase name="testChecksum[154]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.004"/>
+  <testcase name="testChecksum[154]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.003"/>
   <testcase name="testEquality[154]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testFields[154]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
-  <testcase name="testChecksum[155]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.016"/>
+  <testcase name="testChecksum[155]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.008"/>
   <testcase name="testEquality[155]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.001"/>
   <testcase name="testFields[155]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
-  <testcase name="testChecksum[156]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.013"/>
+  <testcase name="testChecksum[156]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.008"/>
   <testcase name="testEquality[156]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testFields[156]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
-  <testcase name="testChecksum[157]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.044"/>
+  <testcase name="testChecksum[157]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.012"/>
   <testcase name="testEquality[157]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testFields[157]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
-  <testcase name="testChecksum[158]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.02"/>
+  <testcase name="testChecksum[158]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.012"/>
   <testcase name="testEquality[158]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
-  <testcase name="testFields[158]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.001"/>
-  <testcase name="testChecksum[159]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.025"/>
+  <testcase name="testFields[158]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
+  <testcase name="testChecksum[159]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.014"/>
   <testcase name="testEquality[159]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testFields[159]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testChecksum[160]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testEquality[160]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
-  <testcase name="testFields[160]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.001"/>
+  <testcase name="testFields[160]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testChecksum[161]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testEquality[161]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
-  <testcase name="testFields[161]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.001"/>
+  <testcase name="testFields[161]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testChecksum[162]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
-  <testcase name="testEquality[162]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.001"/>
+  <testcase name="testEquality[162]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testFields[162]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
-  <testcase name="testChecksum[163]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.001"/>
-  <testcase name="testEquality[163]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.001"/>
+  <testcase name="testChecksum[163]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
+  <testcase name="testEquality[163]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testFields[163]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
-  <testcase name="testChecksum[164]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.002"/>
+  <testcase name="testChecksum[164]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testEquality[164]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testFields[164]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testChecksum[165]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
@@ -507,7 +507,7 @@
   <testcase name="testFields[167]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testChecksum[168]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testEquality[168]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
-  <testcase name="testFields[168]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.001"/>
+  <testcase name="testFields[168]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testChecksum[169]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testEquality[169]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testFields[169]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
@@ -517,7 +517,7 @@
   <testcase name="testChecksum[171]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testEquality[171]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testFields[171]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
-  <testcase name="testChecksum[172]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.001"/>
+  <testcase name="testChecksum[172]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testEquality[172]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testFields[172]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testChecksum[173]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
@@ -526,19 +526,19 @@
   <testcase name="testChecksum[174]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testEquality[174]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testFields[174]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
-  <testcase name="testChecksum[175]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.007"/>
+  <testcase name="testChecksum[175]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.004"/>
   <testcase name="testEquality[175]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
-  <testcase name="testFields[175]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
-  <testcase name="testChecksum[176]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.013"/>
+  <testcase name="testFields[175]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.001"/>
+  <testcase name="testChecksum[176]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.002"/>
   <testcase name="testEquality[176]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testFields[176]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
-  <testcase name="testChecksum[177]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.003"/>
+  <testcase name="testChecksum[177]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.002"/>
   <testcase name="testEquality[177]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
-  <testcase name="testFields[177]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.001"/>
-  <testcase name="testChecksum[178]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.005"/>
+  <testcase name="testFields[177]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
+  <testcase name="testChecksum[178]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.003"/>
   <testcase name="testEquality[178]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testFields[178]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
-  <testcase name="testChecksum[179]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.004"/>
+  <testcase name="testChecksum[179]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.003"/>
   <testcase name="testEquality[179]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testFields[179]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testChecksum[180]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
@@ -549,7 +549,7 @@
   <testcase name="testFields[181]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testChecksum[182]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testEquality[182]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
-  <testcase name="testFields[182]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
+  <testcase name="testFields[182]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.001"/>
   <testcase name="testChecksum[183]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testEquality[183]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testFields[183]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
@@ -567,9 +567,9 @@
   <testcase name="testFields[187]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testChecksum[188]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testEquality[188]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
-  <testcase name="testFields[188]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.001"/>
+  <testcase name="testFields[188]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testChecksum[189]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
-  <testcase name="testEquality[189]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
+  <testcase name="testEquality[189]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.001"/>
   <testcase name="testFields[189]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testChecksum[190]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testEquality[190]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
@@ -586,19 +586,19 @@
   <testcase name="testChecksum[194]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testEquality[194]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testFields[194]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
-  <testcase name="testChecksum[195]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.005"/>
+  <testcase name="testChecksum[195]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.004"/>
   <testcase name="testEquality[195]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
-  <testcase name="testFields[195]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.001"/>
-  <testcase name="testChecksum[196]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.005"/>
+  <testcase name="testFields[195]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
+  <testcase name="testChecksum[196]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.003"/>
   <testcase name="testEquality[196]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testFields[196]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
-  <testcase name="testChecksum[197]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.005"/>
+  <testcase name="testChecksum[197]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.003"/>
   <testcase name="testEquality[197]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testFields[197]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
-  <testcase name="testChecksum[198]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.006"/>
+  <testcase name="testChecksum[198]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.004"/>
   <testcase name="testEquality[198]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testFields[198]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
-  <testcase name="testChecksum[199]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.004"/>
+  <testcase name="testChecksum[199]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.005"/>
   <testcase name="testEquality[199]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testFields[199]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testChecksum[200]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
@@ -607,7 +607,7 @@
   <testcase name="testChecksum[201]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testEquality[201]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testFields[201]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
-  <testcase name="testChecksum[202]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
+  <testcase name="testChecksum[202]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.001"/>
   <testcase name="testEquality[202]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testFields[202]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testChecksum[203]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
@@ -633,7 +633,7 @@
   <testcase name="testFields[209]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testChecksum[210]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testEquality[210]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
-  <testcase name="testFields[210]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
+  <testcase name="testFields[210]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.001"/>
   <testcase name="testChecksum[211]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testEquality[211]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testFields[211]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
@@ -646,79 +646,79 @@
   <testcase name="testChecksum[214]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testEquality[214]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testFields[214]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
-  <testcase name="testChecksum[215]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.009"/>
+  <testcase name="testChecksum[215]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.004"/>
   <testcase name="testEquality[215]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testFields[215]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
-  <testcase name="testChecksum[216]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.007"/>
+  <testcase name="testChecksum[216]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.004"/>
   <testcase name="testEquality[216]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testFields[216]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
-  <testcase name="testChecksum[217]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.009"/>
+  <testcase name="testChecksum[217]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.002"/>
   <testcase name="testEquality[217]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testFields[217]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
-  <testcase name="testChecksum[218]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.004"/>
+  <testcase name="testChecksum[218]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.002"/>
   <testcase name="testEquality[218]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testFields[218]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
-  <testcase name="testChecksum[219]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.004"/>
+  <testcase name="testChecksum[219]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.003"/>
   <testcase name="testEquality[219]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testFields[219]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
-  <testcase name="testChecksum[220]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.005"/>
+  <testcase name="testChecksum[220]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.004"/>
   <testcase name="testEquality[220]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testFields[220]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
-  <testcase name="testChecksum[221]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.005"/>
+  <testcase name="testChecksum[221]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.003"/>
   <testcase name="testEquality[221]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testFields[221]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
-  <testcase name="testChecksum[222]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.005"/>
+  <testcase name="testChecksum[222]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.003"/>
   <testcase name="testEquality[222]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testFields[222]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
-  <testcase name="testChecksum[223]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.005"/>
+  <testcase name="testChecksum[223]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.004"/>
   <testcase name="testEquality[223]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testFields[223]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
-  <testcase name="testChecksum[224]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.004"/>
-  <testcase name="testEquality[224]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.001"/>
+  <testcase name="testChecksum[224]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.002"/>
+  <testcase name="testEquality[224]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testFields[224]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
-  <testcase name="testChecksum[225]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.014"/>
+  <testcase name="testChecksum[225]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.002"/>
   <testcase name="testEquality[225]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testFields[225]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
-  <testcase name="testChecksum[226]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.005"/>
+  <testcase name="testChecksum[226]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.003"/>
   <testcase name="testEquality[226]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testFields[226]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
-  <testcase name="testChecksum[227]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.005"/>
+  <testcase name="testChecksum[227]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.004"/>
   <testcase name="testEquality[227]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
-  <testcase name="testFields[227]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.001"/>
-  <testcase name="testChecksum[228]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.009"/>
+  <testcase name="testFields[227]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
+  <testcase name="testChecksum[228]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.004"/>
   <testcase name="testEquality[228]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
-  <testcase name="testFields[228]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.008"/>
-  <testcase name="testChecksum[229]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.015"/>
+  <testcase name="testFields[228]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
+  <testcase name="testChecksum[229]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.003"/>
   <testcase name="testEquality[229]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
-  <testcase name="testFields[229]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.002"/>
-  <testcase name="testChecksum[230]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.006"/>
+  <testcase name="testFields[229]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
+  <testcase name="testChecksum[230]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.004"/>
   <testcase name="testEquality[230]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
-  <testcase name="testFields[230]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.001"/>
+  <testcase name="testFields[230]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testChecksum[231]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.004"/>
   <testcase name="testEquality[231]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
-  <testcase name="testFields[231]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.001"/>
+  <testcase name="testFields[231]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testChecksum[232]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.003"/>
   <testcase name="testEquality[232]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testFields[232]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
-  <testcase name="testChecksum[233]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.004"/>
+  <testcase name="testChecksum[233]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.003"/>
   <testcase name="testEquality[233]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testFields[233]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testChecksum[234]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.003"/>
   <testcase name="testEquality[234]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
-  <testcase name="testFields[234]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.001"/>
-  <testcase name="testChecksum[235]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.017"/>
+  <testcase name="testFields[234]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
+  <testcase name="testChecksum[235]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.009"/>
   <testcase name="testEquality[235]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testFields[235]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
-  <testcase name="testChecksum[236]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.012"/>
+  <testcase name="testChecksum[236]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.009"/>
   <testcase name="testEquality[236]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testFields[236]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
-  <testcase name="testChecksum[237]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.01"/>
+  <testcase name="testChecksum[237]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.008"/>
   <testcase name="testEquality[237]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testFields[237]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
-  <testcase name="testChecksum[238]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.013"/>
+  <testcase name="testChecksum[238]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.009"/>
   <testcase name="testEquality[238]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testFields[238]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
-  <testcase name="testChecksum[239]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.009"/>
+  <testcase name="testChecksum[239]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.011"/>
   <testcase name="testEquality[239]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testFields[239]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testChecksum[240]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
@@ -740,7 +740,7 @@
   <testcase name="testEquality[245]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testFields[245]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testChecksum[246]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
-  <testcase name="testEquality[246]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
+  <testcase name="testEquality[246]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.001"/>
   <testcase name="testFields[246]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testChecksum[247]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testEquality[247]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
@@ -763,27 +763,27 @@
   <testcase name="testChecksum[253]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testEquality[253]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testFields[253]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
-  <testcase name="testChecksum[254]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
+  <testcase name="testChecksum[254]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.001"/>
   <testcase name="testEquality[254]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testFields[254]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
-  <testcase name="testChecksum[255]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.005"/>
+  <testcase name="testChecksum[255]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.003"/>
   <testcase name="testEquality[255]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
-  <testcase name="testFields[255]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.001"/>
-  <testcase name="testChecksum[256]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.007"/>
+  <testcase name="testFields[255]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
+  <testcase name="testChecksum[256]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.004"/>
   <testcase name="testEquality[256]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testFields[256]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
-  <testcase name="testChecksum[257]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.004"/>
+  <testcase name="testChecksum[257]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.002"/>
   <testcase name="testEquality[257]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testFields[257]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testChecksum[258]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.003"/>
   <testcase name="testEquality[258]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testFields[258]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
-  <testcase name="testChecksum[259]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.004"/>
+  <testcase name="testChecksum[259]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.003"/>
   <testcase name="testEquality[259]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testFields[259]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
-  <testcase name="testChecksum[260]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.001"/>
+  <testcase name="testChecksum[260]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testEquality[260]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
-  <testcase name="testFields[260]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.001"/>
+  <testcase name="testFields[260]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testChecksum[261]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testEquality[261]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testFields[261]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
@@ -803,7 +803,7 @@
   <testcase name="testEquality[266]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testFields[266]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testChecksum[267]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
-  <testcase name="testEquality[267]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.001"/>
+  <testcase name="testEquality[267]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testFields[267]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testChecksum[268]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testEquality[268]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
@@ -821,37 +821,37 @@
   <testcase name="testEquality[272]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testFields[272]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testChecksum[273]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
-  <testcase name="testEquality[273]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.001"/>
+  <testcase name="testEquality[273]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testFields[273]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testChecksum[274]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testEquality[274]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testFields[274]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
-  <testcase name="testChecksum[275]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.003"/>
+  <testcase name="testChecksum[275]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.004"/>
   <testcase name="testEquality[275]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testFields[275]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
-  <testcase name="testChecksum[276]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.003"/>
+  <testcase name="testChecksum[276]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.004"/>
   <testcase name="testEquality[276]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testFields[276]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testChecksum[277]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.004"/>
   <testcase name="testEquality[277]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
-  <testcase name="testFields[277]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.001"/>
+  <testcase name="testFields[277]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testChecksum[278]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.003"/>
   <testcase name="testEquality[278]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
-  <testcase name="testFields[278]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
-  <testcase name="testChecksum[279]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.003"/>
+  <testcase name="testFields[278]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.001"/>
+  <testcase name="testChecksum[279]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.002"/>
   <testcase name="testEquality[279]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testFields[279]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testChecksum[280]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testEquality[280]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
-  <testcase name="testFields[280]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.001"/>
+  <testcase name="testFields[280]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testChecksum[281]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testEquality[281]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testFields[281]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
-  <testcase name="testChecksum[282]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.001"/>
+  <testcase name="testChecksum[282]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testEquality[282]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testFields[282]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testChecksum[283]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
-  <testcase name="testEquality[283]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.001"/>
+  <testcase name="testEquality[283]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testFields[283]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testChecksum[284]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testEquality[284]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
@@ -868,7 +868,7 @@
   <testcase name="testChecksum[288]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testEquality[288]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testFields[288]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
-  <testcase name="testChecksum[289]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.001"/>
+  <testcase name="testChecksum[289]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testEquality[289]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testFields[289]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testChecksum[290]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.001"/>
@@ -877,22 +877,22 @@
   <testcase name="testChecksum[291]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testEquality[291]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testFields[291]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
-  <testcase name="testChecksum[292]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.001"/>
+  <testcase name="testChecksum[292]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testEquality[292]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testFields[292]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testChecksum[293]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testEquality[293]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testFields[293]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
-  <testcase name="testChecksum[294]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.001"/>
+  <testcase name="testChecksum[294]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testEquality[294]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testFields[294]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
-  <testcase name="testChecksum[295]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.005"/>
+  <testcase name="testChecksum[295]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.003"/>
   <testcase name="testEquality[295]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
-  <testcase name="testFields[295]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.001"/>
-  <testcase name="testChecksum[296]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.004"/>
+  <testcase name="testFields[295]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
+  <testcase name="testChecksum[296]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.002"/>
   <testcase name="testEquality[296]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testFields[296]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
-  <testcase name="testChecksum[297]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.004"/>
+  <testcase name="testChecksum[297]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.003"/>
   <testcase name="testEquality[297]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testFields[297]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testChecksum[298]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.004"/>
@@ -901,67 +901,67 @@
   <testcase name="testChecksum[299]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.003"/>
   <testcase name="testEquality[299]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testFields[299]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
-  <testcase name="testChecksum[300]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.003"/>
+  <testcase name="testChecksum[300]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.004"/>
   <testcase name="testEquality[300]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testFields[300]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
-  <testcase name="testChecksum[301]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.005"/>
+  <testcase name="testChecksum[301]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.004"/>
   <testcase name="testEquality[301]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testFields[301]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testChecksum[302]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.004"/>
   <testcase name="testEquality[302]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testFields[302]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
-  <testcase name="testChecksum[303]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.004"/>
+  <testcase name="testChecksum[303]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.003"/>
   <testcase name="testEquality[303]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testFields[303]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
-  <testcase name="testChecksum[304]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.002"/>
+  <testcase name="testChecksum[304]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.003"/>
   <testcase name="testEquality[304]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testFields[304]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
-  <testcase name="testChecksum[305]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.003"/>
+  <testcase name="testChecksum[305]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.002"/>
   <testcase name="testEquality[305]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
-  <testcase name="testFields[305]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.001"/>
-  <testcase name="testChecksum[306]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.004"/>
+  <testcase name="testFields[305]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
+  <testcase name="testChecksum[306]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.002"/>
   <testcase name="testEquality[306]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testFields[306]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testChecksum[307]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.003"/>
   <testcase name="testEquality[307]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testFields[307]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
-  <testcase name="testChecksum[308]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.003"/>
+  <testcase name="testChecksum[308]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.002"/>
   <testcase name="testEquality[308]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testFields[308]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testChecksum[309]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.003"/>
   <testcase name="testEquality[309]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testFields[309]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
-  <testcase name="testChecksum[310]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.009"/>
+  <testcase name="testChecksum[310]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.002"/>
   <testcase name="testEquality[310]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
-  <testcase name="testFields[310]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.001"/>
+  <testcase name="testFields[310]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testChecksum[311]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.002"/>
-  <testcase name="testEquality[311]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.001"/>
+  <testcase name="testEquality[311]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testFields[311]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testChecksum[312]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.003"/>
   <testcase name="testEquality[312]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testFields[312]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
-  <testcase name="testChecksum[313]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.005"/>
+  <testcase name="testChecksum[313]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.002"/>
   <testcase name="testEquality[313]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
-  <testcase name="testFields[313]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
-  <testcase name="testChecksum[314]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.004"/>
+  <testcase name="testFields[313]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.001"/>
+  <testcase name="testChecksum[314]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.003"/>
   <testcase name="testEquality[314]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testFields[314]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
-  <testcase name="testChecksum[315]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.01"/>
-  <testcase name="testEquality[315]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.001"/>
+  <testcase name="testChecksum[315]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.013"/>
+  <testcase name="testEquality[315]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testFields[315]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
-  <testcase name="testChecksum[316]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.008"/>
+  <testcase name="testChecksum[316]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.013"/>
   <testcase name="testEquality[316]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testFields[316]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testChecksum[317]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.014"/>
   <testcase name="testEquality[317]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testFields[317]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
-  <testcase name="testChecksum[318]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.01"/>
+  <testcase name="testChecksum[318]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.009"/>
   <testcase name="testEquality[318]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testFields[318]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
-  <testcase name="testChecksum[319]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.01"/>
+  <testcase name="testChecksum[319]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.008"/>
   <testcase name="testEquality[319]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testFields[319]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
-  <testcase name="testChecksum[320]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.001"/>
+  <testcase name="testChecksum[320]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testEquality[320]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testFields[320]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testChecksum[321]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
@@ -970,7 +970,7 @@
   <testcase name="testChecksum[322]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testEquality[322]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testFields[322]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
-  <testcase name="testChecksum[323]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.001"/>
+  <testcase name="testChecksum[323]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testEquality[323]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testFields[323]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testChecksum[324]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
@@ -982,13 +982,13 @@
   <testcase name="testChecksum[326]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testEquality[326]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testFields[326]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
-  <testcase name="testChecksum[327]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.001"/>
+  <testcase name="testChecksum[327]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testEquality[327]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testFields[327]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
-  <testcase name="testChecksum[328]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.005"/>
+  <testcase name="testChecksum[328]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testEquality[328]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testFields[328]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
-  <testcase name="testChecksum[329]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.001"/>
+  <testcase name="testChecksum[329]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testEquality[329]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testFields[329]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testChecksum[330]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
@@ -1003,23 +1003,23 @@
   <testcase name="testChecksum[333]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testEquality[333]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testFields[333]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
-  <testcase name="testChecksum[334]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.001"/>
+  <testcase name="testChecksum[334]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testEquality[334]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testFields[334]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testChecksum[335]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.004"/>
   <testcase name="testEquality[335]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
-  <testcase name="testFields[335]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
-  <testcase name="testChecksum[336]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.004"/>
+  <testcase name="testFields[335]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.001"/>
+  <testcase name="testChecksum[336]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.002"/>
   <testcase name="testEquality[336]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testFields[336]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
-  <testcase name="testChecksum[337]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.003"/>
+  <testcase name="testChecksum[337]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.002"/>
   <testcase name="testEquality[337]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testFields[337]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testChecksum[338]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.002"/>
   <testcase name="testEquality[338]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testFields[338]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
-  <testcase name="testChecksum[339]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.003"/>
-  <testcase name="testEquality[339]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
+  <testcase name="testChecksum[339]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.002"/>
+  <testcase name="testEquality[339]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.001"/>
   <testcase name="testFields[339]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testChecksum[340]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testEquality[340]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
@@ -1041,14 +1041,14 @@
   <testcase name="testFields[345]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testChecksum[346]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testEquality[346]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
-  <testcase name="testFields[346]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
+  <testcase name="testFields[346]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.001"/>
   <testcase name="testChecksum[347]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
-  <testcase name="testEquality[347]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.001"/>
+  <testcase name="testEquality[347]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testFields[347]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testChecksum[348]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testEquality[348]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testFields[348]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
-  <testcase name="testChecksum[349]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.001"/>
+  <testcase name="testChecksum[349]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testEquality[349]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testFields[349]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testChecksum[350]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
@@ -1062,26 +1062,26 @@
   <testcase name="testFields[352]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testChecksum[353]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testEquality[353]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
-  <testcase name="testFields[353]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.001"/>
+  <testcase name="testFields[353]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testChecksum[354]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testEquality[354]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testFields[354]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
-  <testcase name="testChecksum[355]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.004"/>
+  <testcase name="testChecksum[355]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.003"/>
   <testcase name="testEquality[355]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testFields[355]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
-  <testcase name="testChecksum[356]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.003"/>
+  <testcase name="testChecksum[356]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.004"/>
   <testcase name="testEquality[356]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
-  <testcase name="testFields[356]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
-  <testcase name="testChecksum[357]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.004"/>
+  <testcase name="testFields[356]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.001"/>
+  <testcase name="testChecksum[357]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.002"/>
   <testcase name="testEquality[357]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testFields[357]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
-  <testcase name="testChecksum[358]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.004"/>
+  <testcase name="testChecksum[358]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.003"/>
   <testcase name="testEquality[358]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testFields[358]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
-  <testcase name="testChecksum[359]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.005"/>
+  <testcase name="testChecksum[359]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.002"/>
   <testcase name="testEquality[359]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testFields[359]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
-  <testcase name="testChecksum[360]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.001"/>
+  <testcase name="testChecksum[360]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testEquality[360]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testFields[360]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testChecksum[361]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
@@ -1091,10 +1091,10 @@
   <testcase name="testEquality[362]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testFields[362]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testChecksum[363]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
-  <testcase name="testEquality[363]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.006"/>
+  <testcase name="testEquality[363]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testFields[363]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testChecksum[364]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
-  <testcase name="testEquality[364]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.001"/>
+  <testcase name="testEquality[364]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testFields[364]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testChecksum[365]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testEquality[365]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
@@ -1108,17 +1108,17 @@
   <testcase name="testChecksum[368]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testEquality[368]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testFields[368]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
-  <testcase name="testChecksum[369]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.001"/>
+  <testcase name="testChecksum[369]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testEquality[369]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testFields[369]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.001"/>
   <testcase name="testChecksum[370]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
-  <testcase name="testEquality[370]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.001"/>
+  <testcase name="testEquality[370]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testFields[370]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testChecksum[371]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testEquality[371]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testFields[371]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testChecksum[372]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
-  <testcase name="testEquality[372]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.001"/>
+  <testcase name="testEquality[372]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testFields[372]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testChecksum[373]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testEquality[373]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
@@ -1126,55 +1126,55 @@
   <testcase name="testChecksum[374]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testEquality[374]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testFields[374]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
-  <testcase name="testChecksum[375]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.004"/>
+  <testcase name="testChecksum[375]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.003"/>
   <testcase name="testEquality[375]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testFields[375]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
-  <testcase name="testChecksum[376]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.004"/>
+  <testcase name="testChecksum[376]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.002"/>
   <testcase name="testEquality[376]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testFields[376]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
-  <testcase name="testChecksum[377]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.005"/>
+  <testcase name="testChecksum[377]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.003"/>
   <testcase name="testEquality[377]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testFields[377]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
-  <testcase name="testChecksum[378]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.014"/>
-  <testcase name="testEquality[378]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
+  <testcase name="testChecksum[378]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.003"/>
+  <testcase name="testEquality[378]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.001"/>
   <testcase name="testFields[378]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
-  <testcase name="testChecksum[379]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.004"/>
+  <testcase name="testChecksum[379]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.003"/>
   <testcase name="testEquality[379]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testFields[379]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
-  <testcase name="testChecksum[380]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.014"/>
+  <testcase name="testChecksum[380]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.004"/>
   <testcase name="testEquality[380]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testFields[380]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
-  <testcase name="testChecksum[381]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.01"/>
+  <testcase name="testChecksum[381]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.004"/>
   <testcase name="testEquality[381]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testFields[381]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
-  <testcase name="testChecksum[382]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.006"/>
+  <testcase name="testChecksum[382]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.004"/>
   <testcase name="testEquality[382]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testFields[382]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
-  <testcase name="testChecksum[383]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.005"/>
+  <testcase name="testChecksum[383]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.004"/>
   <testcase name="testEquality[383]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testFields[383]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
-  <testcase name="testChecksum[384]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.005"/>
-  <testcase name="testEquality[384]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
+  <testcase name="testChecksum[384]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.004"/>
+  <testcase name="testEquality[384]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.001"/>
   <testcase name="testFields[384]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
-  <testcase name="testChecksum[385]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.005"/>
+  <testcase name="testChecksum[385]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.004"/>
   <testcase name="testEquality[385]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testFields[385]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
-  <testcase name="testChecksum[386]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.009"/>
+  <testcase name="testChecksum[386]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.003"/>
   <testcase name="testEquality[386]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testFields[386]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
-  <testcase name="testChecksum[387]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.005"/>
+  <testcase name="testChecksum[387]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.004"/>
   <testcase name="testEquality[387]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testFields[387]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
-  <testcase name="testChecksum[388]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.007"/>
+  <testcase name="testChecksum[388]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.004"/>
   <testcase name="testEquality[388]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testFields[388]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
-  <testcase name="testChecksum[389]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.004"/>
+  <testcase name="testChecksum[389]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.003"/>
   <testcase name="testEquality[389]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testFields[389]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
-  <testcase name="testChecksum[390]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.004"/>
+  <testcase name="testChecksum[390]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.002"/>
   <testcase name="testEquality[390]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testFields[390]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
-  <testcase name="testChecksum[391]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.012"/>
+  <testcase name="testChecksum[391]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.004"/>
   <testcase name="testEquality[391]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testFields[391]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testChecksum[392]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.004"/>
@@ -1183,19 +1183,19 @@
   <testcase name="testChecksum[393]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.004"/>
   <testcase name="testEquality[393]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testFields[393]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
-  <testcase name="testChecksum[394]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.006"/>
-  <testcase name="testEquality[394]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.001"/>
+  <testcase name="testChecksum[394]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.004"/>
+  <testcase name="testEquality[394]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testFields[394]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
-  <testcase name="testChecksum[395]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.014"/>
+  <testcase name="testChecksum[395]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.008"/>
   <testcase name="testEquality[395]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testFields[395]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
-  <testcase name="testChecksum[396]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.018"/>
+  <testcase name="testChecksum[396]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.009"/>
   <testcase name="testEquality[396]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testFields[396]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
-  <testcase name="testChecksum[397]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.02"/>
+  <testcase name="testChecksum[397]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.009"/>
   <testcase name="testEquality[397]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testFields[397]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
-  <testcase name="testChecksum[398]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.015"/>
+  <testcase name="testChecksum[398]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.011"/>
   <testcase name="testEquality[398]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testFields[398]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testChecksum[399]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.013"/>
@@ -1218,25 +1218,25 @@
   <testcase name="testFields[404]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testChecksum[405]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testEquality[405]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
-  <testcase name="testFields[405]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.001"/>
+  <testcase name="testFields[405]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testChecksum[406]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testEquality[406]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testFields[406]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testChecksum[407]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
-  <testcase name="testEquality[407]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.001"/>
+  <testcase name="testEquality[407]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testFields[407]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testChecksum[408]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testEquality[408]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testFields[408]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testChecksum[409]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
-  <testcase name="testEquality[409]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
+  <testcase name="testEquality[409]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.001"/>
   <testcase name="testFields[409]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testChecksum[410]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testEquality[410]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testFields[410]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testChecksum[411]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testEquality[411]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
-  <testcase name="testFields[411]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.001"/>
+  <testcase name="testFields[411]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testChecksum[412]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testEquality[412]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testFields[412]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
@@ -1244,24 +1244,24 @@
   <testcase name="testEquality[413]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testFields[413]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testChecksum[414]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
-  <testcase name="testEquality[414]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.001"/>
+  <testcase name="testEquality[414]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testFields[414]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
-  <testcase name="testChecksum[415]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.004"/>
-  <testcase name="testEquality[415]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.001"/>
+  <testcase name="testChecksum[415]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.003"/>
+  <testcase name="testEquality[415]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testFields[415]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
-  <testcase name="testChecksum[416]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.004"/>
+  <testcase name="testChecksum[416]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.002"/>
   <testcase name="testEquality[416]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testFields[416]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
-  <testcase name="testChecksum[417]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.004"/>
+  <testcase name="testChecksum[417]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.003"/>
   <testcase name="testEquality[417]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testFields[417]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
-  <testcase name="testChecksum[418]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.005"/>
+  <testcase name="testChecksum[418]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.002"/>
   <testcase name="testEquality[418]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testFields[418]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
-  <testcase name="testChecksum[419]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.004"/>
+  <testcase name="testChecksum[419]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.003"/>
   <testcase name="testEquality[419]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testFields[419]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
-  <testcase name="testChecksum[420]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.001"/>
+  <testcase name="testChecksum[420]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testEquality[420]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testFields[420]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testChecksum[421]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
@@ -1292,7 +1292,7 @@
   <testcase name="testEquality[429]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testFields[429]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testChecksum[430]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
-  <testcase name="testEquality[430]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.001"/>
+  <testcase name="testEquality[430]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testFields[430]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testChecksum[431]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testEquality[431]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
@@ -1306,26 +1306,26 @@
   <testcase name="testChecksum[434]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testEquality[434]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testFields[434]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
-  <testcase name="testChecksum[435]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.009"/>
+  <testcase name="testChecksum[435]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.003"/>
   <testcase name="testEquality[435]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testFields[435]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
-  <testcase name="testChecksum[436]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.01"/>
+  <testcase name="testChecksum[436]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.003"/>
   <testcase name="testEquality[436]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testFields[436]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
-  <testcase name="testChecksum[437]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.005"/>
+  <testcase name="testChecksum[437]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.002"/>
   <testcase name="testEquality[437]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testFields[437]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
-  <testcase name="testChecksum[438]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.005"/>
+  <testcase name="testChecksum[438]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.004"/>
   <testcase name="testEquality[438]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
-  <testcase name="testFields[438]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.01"/>
-  <testcase name="testChecksum[439]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.005"/>
+  <testcase name="testFields[438]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
+  <testcase name="testChecksum[439]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.004"/>
   <testcase name="testEquality[439]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testFields[439]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testChecksum[440]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testEquality[440]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testFields[440]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testChecksum[441]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
-  <testcase name="testEquality[441]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.001"/>
+  <testcase name="testEquality[441]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testFields[441]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testChecksum[442]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testEquality[442]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
@@ -1343,7 +1343,7 @@
   <testcase name="testEquality[446]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testFields[446]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testChecksum[447]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
-  <testcase name="testEquality[447]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.001"/>
+  <testcase name="testEquality[447]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testFields[447]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testChecksum[448]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testEquality[448]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
@@ -1352,11 +1352,11 @@
   <testcase name="testEquality[449]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testFields[449]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testChecksum[450]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
-  <testcase name="testEquality[450]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.001"/>
+  <testcase name="testEquality[450]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testFields[450]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testChecksum[451]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.001"/>
-  <testcase name="testEquality[451]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.001"/>
-  <testcase name="testFields[451]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.001"/>
+  <testcase name="testEquality[451]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
+  <testcase name="testFields[451]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testChecksum[452]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testEquality[452]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testFields[452]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
@@ -1365,33 +1365,33 @@
   <testcase name="testFields[453]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testChecksum[454]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testEquality[454]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
-  <testcase name="testFields[454]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.001"/>
-  <testcase name="testChecksum[455]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.004"/>
+  <testcase name="testFields[454]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
+  <testcase name="testChecksum[455]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.003"/>
   <testcase name="testEquality[455]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testFields[455]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
-  <testcase name="testChecksum[456]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.004"/>
+  <testcase name="testChecksum[456]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.003"/>
   <testcase name="testEquality[456]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testFields[456]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
-  <testcase name="testChecksum[457]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.004"/>
+  <testcase name="testChecksum[457]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.003"/>
   <testcase name="testEquality[457]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testFields[457]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
-  <testcase name="testChecksum[458]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.004"/>
+  <testcase name="testChecksum[458]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.002"/>
   <testcase name="testEquality[458]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testFields[458]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
-  <testcase name="testChecksum[459]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.004"/>
-  <testcase name="testEquality[459]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.001"/>
+  <testcase name="testChecksum[459]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.002"/>
+  <testcase name="testEquality[459]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testFields[459]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
-  <testcase name="testChecksum[460]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.004"/>
+  <testcase name="testChecksum[460]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.002"/>
   <testcase name="testEquality[460]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testFields[460]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
-  <testcase name="testChecksum[461]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.004"/>
+  <testcase name="testChecksum[461]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.002"/>
   <testcase name="testEquality[461]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testFields[461]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
-  <testcase name="testChecksum[462]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.004"/>
+  <testcase name="testChecksum[462]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.002"/>
   <testcase name="testEquality[462]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testFields[462]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
-  <testcase name="testChecksum[463]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.006"/>
-  <testcase name="testEquality[463]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.001"/>
+  <testcase name="testChecksum[463]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.002"/>
+  <testcase name="testEquality[463]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testFields[463]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testChecksum[464]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.004"/>
   <testcase name="testEquality[464]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
@@ -1404,41 +1404,41 @@
   <testcase name="testFields[466]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testChecksum[467]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.004"/>
   <testcase name="testEquality[467]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
-  <testcase name="testFields[467]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.001"/>
-  <testcase name="testChecksum[468]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.006"/>
-  <testcase name="testEquality[468]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.001"/>
+  <testcase name="testFields[467]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
+  <testcase name="testChecksum[468]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.003"/>
+  <testcase name="testEquality[468]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testFields[468]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
-  <testcase name="testChecksum[469]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.005"/>
+  <testcase name="testChecksum[469]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.004"/>
   <testcase name="testEquality[469]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testFields[469]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
-  <testcase name="testChecksum[470]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.01"/>
+  <testcase name="testChecksum[470]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.004"/>
   <testcase name="testEquality[470]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testFields[470]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
-  <testcase name="testChecksum[471]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.006"/>
+  <testcase name="testChecksum[471]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.004"/>
   <testcase name="testEquality[471]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testFields[471]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
-  <testcase name="testChecksum[472]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.005"/>
+  <testcase name="testChecksum[472]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.004"/>
   <testcase name="testEquality[472]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testFields[472]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
-  <testcase name="testChecksum[473]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.007"/>
+  <testcase name="testChecksum[473]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.004"/>
   <testcase name="testEquality[473]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testFields[473]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
-  <testcase name="testChecksum[474]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.004"/>
+  <testcase name="testChecksum[474]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.002"/>
   <testcase name="testEquality[474]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testFields[474]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testChecksum[475]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.012"/>
   <testcase name="testEquality[475]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testFields[475]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
-  <testcase name="testChecksum[476]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.009"/>
+  <testcase name="testChecksum[476]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.013"/>
   <testcase name="testEquality[476]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testFields[476]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
-  <testcase name="testChecksum[477]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.015"/>
-  <testcase name="testEquality[477]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.001"/>
+  <testcase name="testChecksum[477]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.013"/>
+  <testcase name="testEquality[477]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testFields[477]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
-  <testcase name="testChecksum[478]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.014"/>
+  <testcase name="testChecksum[478]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.009"/>
   <testcase name="testEquality[478]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testFields[478]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
-  <testcase name="testChecksum[479]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.013"/>
+  <testcase name="testChecksum[479]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.01"/>
   <testcase name="testEquality[479]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <testcase name="testFields[479]" classname="org.apache.kafka.common.record.LegacyRecordTest" time="0.0"/>
   <system-out><![CDATA[]]></system-out>

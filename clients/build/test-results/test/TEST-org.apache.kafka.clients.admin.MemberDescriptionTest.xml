@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.apache.kafka.clients.admin.MemberDescriptionTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-10-29T02:31:30" hostname="chukun-mac" time="0.001">
+<testsuite name="org.apache.kafka.clients.admin.MemberDescriptionTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2022-09-03T10:40:13" hostname="LAPTOP-FH01OFOM" time="0.001">
   <properties/>
   <testcase name="testEqualsWithoutGroupInstanceId" classname="org.apache.kafka.clients.admin.MemberDescriptionTest" time="0.001"/>
   <testcase name="testEqualsWithGroupInstanceId" classname="org.apache.kafka.clients.admin.MemberDescriptionTest" time="0.0"/>

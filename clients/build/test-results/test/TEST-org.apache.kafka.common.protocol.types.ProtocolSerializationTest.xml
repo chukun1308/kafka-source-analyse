@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.apache.kafka.common.protocol.types.ProtocolSerializationTest" tests="18" skipped="0" failures="0" errors="0" timestamp="2020-10-29T02:32:19" hostname="chukun-mac" time="0.015">
+<testsuite name="org.apache.kafka.common.protocol.types.ProtocolSerializationTest" tests="18" skipped="0" failures="0" errors="0" timestamp="2022-09-03T10:41:16" hostname="LAPTOP-FH01OFOM" time="0.003">
   <properties/>
-  <testcase name="testReadWithMissingNonOptionalExtraDataAtTheEnd" classname="org.apache.kafka.common.protocol.types.ProtocolSerializationTest" time="0.001"/>
+  <testcase name="testReadWithMissingNonOptionalExtraDataAtTheEnd" classname="org.apache.kafka.common.protocol.types.ProtocolSerializationTest" time="0.0"/>
   <testcase name="testNulls" classname="org.apache.kafka.common.protocol.types.ProtocolSerializationTest" time="0.001"/>
-  <testcase name="testToString" classname="org.apache.kafka.common.protocol.types.ProtocolSerializationTest" time="0.001"/>
+  <testcase name="testToString" classname="org.apache.kafka.common.protocol.types.ProtocolSerializationTest" time="0.0"/>
   <testcase name="testReadStringSizeTooLarge" classname="org.apache.kafka.common.protocol.types.ProtocolSerializationTest" time="0.0"/>
   <testcase name="testReadCompactArraySizeTooLarge" classname="org.apache.kafka.common.protocol.types.ProtocolSerializationTest" time="0.0"/>
   <testcase name="testNullableDefault" classname="org.apache.kafka.common.protocol.types.ProtocolSerializationTest" time="0.0"/>
-  <testcase name="testReadIgnoringExtraDataAtTheEnd" classname="org.apache.kafka.common.protocol.types.ProtocolSerializationTest" time="0.001"/>
+  <testcase name="testReadIgnoringExtraDataAtTheEnd" classname="org.apache.kafka.common.protocol.types.ProtocolSerializationTest" time="0.0"/>
   <testcase name="testReadNegativeStringSize" classname="org.apache.kafka.common.protocol.types.ProtocolSerializationTest" time="0.0"/>
   <testcase name="testReadWhenOptionalDataMissingAtTheEndIsTolerated" classname="org.apache.kafka.common.protocol.types.ProtocolSerializationTest" time="0.0"/>
-  <testcase name="testReadWhenOptionalDataMissingAtTheEndIsNotTolerated" classname="org.apache.kafka.common.protocol.types.ProtocolSerializationTest" time="0.003"/>
+  <testcase name="testReadWhenOptionalDataMissingAtTheEndIsNotTolerated" classname="org.apache.kafka.common.protocol.types.ProtocolSerializationTest" time="0.001"/>
   <testcase name="testReadArraySizeTooLarge" classname="org.apache.kafka.common.protocol.types.ProtocolSerializationTest" time="0.0"/>
   <testcase name="testDefault" classname="org.apache.kafka.common.protocol.types.ProtocolSerializationTest" time="0.0"/>
   <testcase name="testReadZeroCompactArraySize" classname="org.apache.kafka.common.protocol.types.ProtocolSerializationTest" time="0.0"/>
   <testcase name="testReadNegativeBytesSize" classname="org.apache.kafka.common.protocol.types.ProtocolSerializationTest" time="0.0"/>
   <testcase name="testStructEquals" classname="org.apache.kafka.common.protocol.types.ProtocolSerializationTest" time="0.0"/>
-  <testcase name="testReadBytesSizeTooLarge" classname="org.apache.kafka.common.protocol.types.ProtocolSerializationTest" time="0.004"/>
-  <testcase name="testSimple" classname="org.apache.kafka.common.protocol.types.ProtocolSerializationTest" time="0.001"/>
-  <testcase name="testReadNegativeArraySize" classname="org.apache.kafka.common.protocol.types.ProtocolSerializationTest" time="0.001"/>
+  <testcase name="testReadBytesSizeTooLarge" classname="org.apache.kafka.common.protocol.types.ProtocolSerializationTest" time="0.001"/>
+  <testcase name="testSimple" classname="org.apache.kafka.common.protocol.types.ProtocolSerializationTest" time="0.0"/>
+  <testcase name="testReadNegativeArraySize" classname="org.apache.kafka.common.protocol.types.ProtocolSerializationTest" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

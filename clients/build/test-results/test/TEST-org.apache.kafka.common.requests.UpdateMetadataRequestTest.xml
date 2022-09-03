@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.apache.kafka.common.requests.UpdateMetadataRequestTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2020-10-29T02:36:12" hostname="chukun-mac" time="0.007">
+<testsuite name="org.apache.kafka.common.requests.UpdateMetadataRequestTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2022-09-03T10:38:33" hostname="LAPTOP-FH01OFOM" time="0.005">
   <properties/>
-  <testcase name="testUnsupportedVersion" classname="org.apache.kafka.common.requests.UpdateMetadataRequestTest" time="0.0"/>
-  <testcase name="testTopicPartitionGroupingSizeReduction" classname="org.apache.kafka.common.requests.UpdateMetadataRequestTest" time="0.002"/>
+  <testcase name="testUnsupportedVersion" classname="org.apache.kafka.common.requests.UpdateMetadataRequestTest" time="0.001"/>
+  <testcase name="testTopicPartitionGroupingSizeReduction" classname="org.apache.kafka.common.requests.UpdateMetadataRequestTest" time="0.001"/>
   <testcase name="testGetErrorResponse" classname="org.apache.kafka.common.requests.UpdateMetadataRequestTest" time="0.0"/>
-  <testcase name="testVersionLogic" classname="org.apache.kafka.common.requests.UpdateMetadataRequestTest" time="0.004"/>
+  <testcase name="testVersionLogic" classname="org.apache.kafka.common.requests.UpdateMetadataRequestTest" time="0.003"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

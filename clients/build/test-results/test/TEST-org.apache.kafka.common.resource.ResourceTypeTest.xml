@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.apache.kafka.common.resource.ResourceTypeTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2020-10-29T02:31:48" hostname="chukun-mac" time="0.001">
+<testsuite name="org.apache.kafka.common.resource.ResourceTypeTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2022-09-03T10:40:17" hostname="LAPTOP-FH01OFOM" time="0.001">
   <properties/>
-  <testcase name="testCode" classname="org.apache.kafka.common.resource.ResourceTypeTest" time="0.001"/>
-  <testcase name="testName" classname="org.apache.kafka.common.resource.ResourceTypeTest" time="0.0"/>
+  <testcase name="testCode" classname="org.apache.kafka.common.resource.ResourceTypeTest" time="0.0"/>
+  <testcase name="testName" classname="org.apache.kafka.common.resource.ResourceTypeTest" time="0.001"/>
   <testcase name="testExhaustive" classname="org.apache.kafka.common.resource.ResourceTypeTest" time="0.0"/>
   <testcase name="testIsUnknown" classname="org.apache.kafka.common.resource.ResourceTypeTest" time="0.0"/>
   <system-out><![CDATA[]]></system-out>

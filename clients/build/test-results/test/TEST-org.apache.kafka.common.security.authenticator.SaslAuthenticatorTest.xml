@@ -1,76 +1,325 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.apache.kafka.common.security.authenticator.SaslAuthenticatorTest" tests="69" skipped="0" failures="0" errors="0" timestamp="2020-10-29T02:32:53" hostname="chukun-mac" time="60.123">
+<testsuite name="org.apache.kafka.common.security.authenticator.SaslAuthenticatorTest" tests="69" skipped="0" failures="4" errors="0" timestamp="2022-09-03T10:37:46" hostname="LAPTOP-FH01OFOM" time="146.709">
   <properties/>
-  <testcase name="testMissingUsernameSaslPlain" classname="org.apache.kafka.common.security.authenticator.SaslAuthenticatorTest" time="1.554"/>
-  <testcase name="testValidSaslScramMechanisms" classname="org.apache.kafka.common.security.authenticator.SaslAuthenticatorTest" time="1.38"/>
-  <testcase name="testValidSaslOauthBearerMechanism" classname="org.apache.kafka.common.security.authenticator.SaslAuthenticatorTest" time="0.637"/>
-  <testcase name="testValidApiVersionsRequest" classname="org.apache.kafka.common.security.authenticator.SaslAuthenticatorTest" time="0.73"/>
-  <testcase name="oldSaslScramSslServerWithoutSaslAuthenticateHeaderFailure" classname="org.apache.kafka.common.security.authenticator.SaslAuthenticatorTest" time="0.553"/>
-  <testcase name="oldSaslScramPlaintextServerWithoutSaslAuthenticateHeaderFailure" classname="org.apache.kafka.common.security.authenticator.SaslAuthenticatorTest" time="0.577"/>
-  <testcase name="oldSaslScramPlaintextServerWithoutSaslAuthenticateHeader" classname="org.apache.kafka.common.security.authenticator.SaslAuthenticatorTest" time="0.728"/>
-  <testcase name="testServerLoginOverride" classname="org.apache.kafka.common.security.authenticator.SaslAuthenticatorTest" time="0.868"/>
-  <testcase name="testAuthenticateCallbackHandlerMechanisms" classname="org.apache.kafka.common.security.authenticator.SaslAuthenticatorTest" time="0.7"/>
-  <testcase name="testMechanismPluggability" classname="org.apache.kafka.common.security.authenticator.SaslAuthenticatorTest" time="0.5"/>
-  <testcase name="testScramUsernameWithSpecialCharacters" classname="org.apache.kafka.common.security.authenticator.SaslAuthenticatorTest" time="1.423"/>
-  <testcase name="testConvertListOffsetResponseToSaslHandshakeResponse" classname="org.apache.kafka.common.security.authenticator.SaslAuthenticatorTest" time="0.418"/>
-  <testcase name="testMissingPasswordSaslPlain" classname="org.apache.kafka.common.security.authenticator.SaslAuthenticatorTest" time="0.925"/>
-  <testcase name="testClientAuthenticateCallbackHandler" classname="org.apache.kafka.common.security.authenticator.SaslAuthenticatorTest" time="0.66"/>
-  <testcase name="testValidSaslOauthBearerMechanismWithoutServerTokens" classname="org.apache.kafka.common.security.authenticator.SaslAuthenticatorTest" time="0.382"/>
-  <testcase name="testCannotReauthenticateWithDifferentPrincipal" classname="org.apache.kafka.common.security.authenticator.SaslAuthenticatorTest" time="1.325"/>
-  <testcase name="testInvalidLoginModule" classname="org.apache.kafka.common.security.authenticator.SaslAuthenticatorTest" time="0.378"/>
-  <testcase name="testTokenAuthenticationOverSaslScram" classname="org.apache.kafka.common.security.authenticator.SaslAuthenticatorTest" time="1.068"/>
-  <testcase name="oldSaslPlainPlaintextClientWithoutSaslAuthenticateHeader" classname="org.apache.kafka.common.security.authenticator.SaslAuthenticatorTest" time="2.178"/>
-  <testcase name="oldSaslPlainSslClientWithoutSaslAuthenticateHeader" classname="org.apache.kafka.common.security.authenticator.SaslAuthenticatorTest" time="0.986"/>
-  <testcase name="testClientExceptionDoesNotContainSensitiveData" classname="org.apache.kafka.common.security.authenticator.SaslAuthenticatorTest" time="0.726"/>
-  <testcase name="oldSaslPlainSslClientWithoutSaslAuthenticateHeaderFailure" classname="org.apache.kafka.common.security.authenticator.SaslAuthenticatorTest" time="0.498"/>
-  <testcase name="testValidSaslScramSha256" classname="org.apache.kafka.common.security.authenticator.SaslAuthenticatorTest" time="1.131"/>
-  <testcase name="testInvalidApiVersionsRequest" classname="org.apache.kafka.common.security.authenticator.SaslAuthenticatorTest" time="0.516"/>
-  <testcase name="testClientLoginCallbackOverride" classname="org.apache.kafka.common.security.authenticator.SaslAuthenticatorTest" time="0.472"/>
-  <testcase name="oldSaslPlainPlaintextServerWithoutSaslAuthenticateHeaderFailure" classname="org.apache.kafka.common.security.authenticator.SaslAuthenticatorTest" time="0.694"/>
-  <testcase name="testInvalidMechanism" classname="org.apache.kafka.common.security.authenticator.SaslAuthenticatorTest" time="0.718"/>
-  <testcase name="testInsufficientScopeSaslOauthBearerMechanism" classname="org.apache.kafka.common.security.authenticator.SaslAuthenticatorTest" time="0.699"/>
-  <testcase name="testDisabledMechanism" classname="org.apache.kafka.common.security.authenticator.SaslAuthenticatorTest" time="0.474"/>
-  <testcase name="oldSaslScramSslClientWithoutSaslAuthenticateHeader" classname="org.apache.kafka.common.security.authenticator.SaslAuthenticatorTest" time="1.043"/>
-  <testcase name="testUnauthenticatedApiVersionsRequestOverPlaintextHandshakeVersion0" classname="org.apache.kafka.common.security.authenticator.SaslAuthenticatorTest" time="0.522"/>
-  <testcase name="testUnauthenticatedApiVersionsRequestOverPlaintextHandshakeVersion1" classname="org.apache.kafka.common.security.authenticator.SaslAuthenticatorTest" time="0.6"/>
-  <testcase name="testPacketSizeTooBig" classname="org.apache.kafka.common.security.authenticator.SaslAuthenticatorTest" time="0.423"/>
-  <testcase name="testServerLoginCallbackOverride" classname="org.apache.kafka.common.security.authenticator.SaslAuthenticatorTest" time="0.411"/>
-  <testcase name="oldSaslScramPlaintextClientWithoutSaslAuthenticateHeader" classname="org.apache.kafka.common.security.authenticator.SaslAuthenticatorTest" time="0.591"/>
-  <testcase name="oldSaslScramSslClientWithoutSaslAuthenticateHeaderFailure" classname="org.apache.kafka.common.security.authenticator.SaslAuthenticatorTest" time="0.384"/>
-  <testcase name="oldSaslScramPlaintextClientWithoutSaslAuthenticateHeaderFailure" classname="org.apache.kafka.common.security.authenticator.SaslAuthenticatorTest" time="0.979"/>
+  <testcase name="testMissingUsernameSaslPlain" classname="org.apache.kafka.common.security.authenticator.SaslAuthenticatorTest" time="4.453"/>
+  <testcase name="testValidSaslScramMechanisms" classname="org.apache.kafka.common.security.authenticator.SaslAuthenticatorTest" time="1.593"/>
+  <testcase name="testValidSaslOauthBearerMechanism" classname="org.apache.kafka.common.security.authenticator.SaslAuthenticatorTest" time="2.478"/>
+  <testcase name="testValidApiVersionsRequest" classname="org.apache.kafka.common.security.authenticator.SaslAuthenticatorTest" time="1.087"/>
+  <testcase name="oldSaslScramSslServerWithoutSaslAuthenticateHeaderFailure" classname="org.apache.kafka.common.security.authenticator.SaslAuthenticatorTest" time="1.018"/>
+  <testcase name="oldSaslScramPlaintextServerWithoutSaslAuthenticateHeaderFailure" classname="org.apache.kafka.common.security.authenticator.SaslAuthenticatorTest" time="1.145"/>
+  <testcase name="oldSaslScramPlaintextServerWithoutSaslAuthenticateHeader" classname="org.apache.kafka.common.security.authenticator.SaslAuthenticatorTest" time="0.461"/>
+  <testcase name="testServerLoginOverride" classname="org.apache.kafka.common.security.authenticator.SaslAuthenticatorTest" time="0.925"/>
+  <testcase name="testAuthenticateCallbackHandlerMechanisms" classname="org.apache.kafka.common.security.authenticator.SaslAuthenticatorTest" time="25.969">
+    <failure message="java.lang.AssertionError" type="java.lang.AssertionError">java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.apache.kafka.common.network.NetworkTestUtils.waitForChannelReady(NetworkTestUtils.java:96)
+	at org.apache.kafka.common.network.NetworkTestUtils.checkClientConnection(NetworkTestUtils.java:69)
+	at org.apache.kafka.common.security.authenticator.SaslAuthenticatorTest.checkClientConnection(SaslAuthenticatorTest.java:2105)
+	at org.apache.kafka.common.security.authenticator.SaslAuthenticatorTest.createAndCheckClientConnection(SaslAuthenticatorTest.java:2121)
+	at org.apache.kafka.common.security.authenticator.SaslAuthenticatorTest.testAuthenticateCallbackHandlerMechanisms(SaslAuthenticatorTest.java:1085)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.runTestClass(JUnitTestClassExecutor.java:110)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:58)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:38)
+	at org.gradle.api.internal.tasks.testing.junit.AbstractJUnitTestClassProcessor.processTestClass(AbstractJUnitTestClassProcessor.java:62)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.processTestClass(SuiteTestClassProcessor.java:51)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:94)
+	at com.sun.proxy.$Proxy2.processTestClass(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.processTestClass(TestWorker.java:119)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:182)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:164)
+	at org.gradle.internal.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:414)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:64)
+	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:48)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:56)
+	at java.lang.Thread.run(Thread.java:748)
+</failure>
+  </testcase>
+  <testcase name="testMechanismPluggability" classname="org.apache.kafka.common.security.authenticator.SaslAuthenticatorTest" time="19.556">
+    <failure message="java.lang.AssertionError" type="java.lang.AssertionError">java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.apache.kafka.common.network.NetworkTestUtils.waitForChannelReady(NetworkTestUtils.java:96)
+	at org.apache.kafka.common.network.NetworkTestUtils.checkClientConnection(NetworkTestUtils.java:69)
+	at org.apache.kafka.common.security.authenticator.SaslAuthenticatorTest.checkClientConnection(SaslAuthenticatorTest.java:2105)
+	at org.apache.kafka.common.security.authenticator.SaslAuthenticatorTest.createAndCheckClientConnection(SaslAuthenticatorTest.java:2121)
+	at org.apache.kafka.common.security.authenticator.SaslAuthenticatorTest.testMechanismPluggability(SaslAuthenticatorTest.java:364)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.runTestClass(JUnitTestClassExecutor.java:110)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:58)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:38)
+	at org.gradle.api.internal.tasks.testing.junit.AbstractJUnitTestClassProcessor.processTestClass(AbstractJUnitTestClassProcessor.java:62)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.processTestClass(SuiteTestClassProcessor.java:51)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:94)
+	at com.sun.proxy.$Proxy2.processTestClass(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.processTestClass(TestWorker.java:119)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:182)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:164)
+	at org.gradle.internal.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:414)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:64)
+	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:48)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:56)
+	at java.lang.Thread.run(Thread.java:748)
+</failure>
+  </testcase>
+  <testcase name="testScramUsernameWithSpecialCharacters" classname="org.apache.kafka.common.security.authenticator.SaslAuthenticatorTest" time="1.051"/>
+  <testcase name="testConvertListOffsetResponseToSaslHandshakeResponse" classname="org.apache.kafka.common.security.authenticator.SaslAuthenticatorTest" time="0.453"/>
+  <testcase name="testMissingPasswordSaslPlain" classname="org.apache.kafka.common.security.authenticator.SaslAuthenticatorTest" time="0.421"/>
+  <testcase name="testClientAuthenticateCallbackHandler" classname="org.apache.kafka.common.security.authenticator.SaslAuthenticatorTest" time="0.533"/>
+  <testcase name="testValidSaslOauthBearerMechanismWithoutServerTokens" classname="org.apache.kafka.common.security.authenticator.SaslAuthenticatorTest" time="0.521"/>
+  <testcase name="testCannotReauthenticateWithDifferentPrincipal" classname="org.apache.kafka.common.security.authenticator.SaslAuthenticatorTest" time="1.85"/>
+  <testcase name="testInvalidLoginModule" classname="org.apache.kafka.common.security.authenticator.SaslAuthenticatorTest" time="0.339"/>
+  <testcase name="testTokenAuthenticationOverSaslScram" classname="org.apache.kafka.common.security.authenticator.SaslAuthenticatorTest" time="0.795"/>
+  <testcase name="oldSaslPlainPlaintextClientWithoutSaslAuthenticateHeader" classname="org.apache.kafka.common.security.authenticator.SaslAuthenticatorTest" time="0.231"/>
+  <testcase name="oldSaslPlainSslClientWithoutSaslAuthenticateHeader" classname="org.apache.kafka.common.security.authenticator.SaslAuthenticatorTest" time="0.417"/>
+  <testcase name="testClientExceptionDoesNotContainSensitiveData" classname="org.apache.kafka.common.security.authenticator.SaslAuthenticatorTest" time="0.662"/>
+  <testcase name="oldSaslPlainSslClientWithoutSaslAuthenticateHeaderFailure" classname="org.apache.kafka.common.security.authenticator.SaslAuthenticatorTest" time="0.445"/>
+  <testcase name="testValidSaslScramSha256" classname="org.apache.kafka.common.security.authenticator.SaslAuthenticatorTest" time="0.472"/>
+  <testcase name="testInvalidApiVersionsRequest" classname="org.apache.kafka.common.security.authenticator.SaslAuthenticatorTest" time="0.379"/>
+  <testcase name="testClientLoginCallbackOverride" classname="org.apache.kafka.common.security.authenticator.SaslAuthenticatorTest" time="0.219"/>
+  <testcase name="oldSaslPlainPlaintextServerWithoutSaslAuthenticateHeaderFailure" classname="org.apache.kafka.common.security.authenticator.SaslAuthenticatorTest" time="0.494"/>
+  <testcase name="testInvalidMechanism" classname="org.apache.kafka.common.security.authenticator.SaslAuthenticatorTest" time="0.306"/>
+  <testcase name="testInsufficientScopeSaslOauthBearerMechanism" classname="org.apache.kafka.common.security.authenticator.SaslAuthenticatorTest" time="0.61"/>
+  <testcase name="testDisabledMechanism" classname="org.apache.kafka.common.security.authenticator.SaslAuthenticatorTest" time="0.366"/>
+  <testcase name="oldSaslScramSslClientWithoutSaslAuthenticateHeader" classname="org.apache.kafka.common.security.authenticator.SaslAuthenticatorTest" time="0.824"/>
+  <testcase name="testUnauthenticatedApiVersionsRequestOverPlaintextHandshakeVersion0" classname="org.apache.kafka.common.security.authenticator.SaslAuthenticatorTest" time="1.124"/>
+  <testcase name="testUnauthenticatedApiVersionsRequestOverPlaintextHandshakeVersion1" classname="org.apache.kafka.common.security.authenticator.SaslAuthenticatorTest" time="0.454"/>
+  <testcase name="testPacketSizeTooBig" classname="org.apache.kafka.common.security.authenticator.SaslAuthenticatorTest" time="0.922"/>
+  <testcase name="testServerLoginCallbackOverride" classname="org.apache.kafka.common.security.authenticator.SaslAuthenticatorTest" time="0.532"/>
+  <testcase name="oldSaslScramPlaintextClientWithoutSaslAuthenticateHeader" classname="org.apache.kafka.common.security.authenticator.SaslAuthenticatorTest" time="0.262"/>
+  <testcase name="oldSaslScramSslClientWithoutSaslAuthenticateHeaderFailure" classname="org.apache.kafka.common.security.authenticator.SaslAuthenticatorTest" time="0.783"/>
+  <testcase name="oldSaslScramPlaintextClientWithoutSaslAuthenticateHeaderFailure" classname="org.apache.kafka.common.security.authenticator.SaslAuthenticatorTest" time="0.906"/>
   <testcase name="testInvalidUsernameSaslPlain" classname="org.apache.kafka.common.security.authenticator.SaslAuthenticatorTest" time="0.477"/>
-  <testcase name="testUserCredentialsUnavailableForScramMechanism" classname="org.apache.kafka.common.security.authenticator.SaslAuthenticatorTest" time="0.567"/>
-  <testcase name="testUnauthenticatedApiVersionsRequestOverSslHandshakeVersion0" classname="org.apache.kafka.common.security.authenticator.SaslAuthenticatorTest" time="0.607"/>
-  <testcase name="testUnauthenticatedApiVersionsRequestOverSslHandshakeVersion1" classname="org.apache.kafka.common.security.authenticator.SaslAuthenticatorTest" time="0.638"/>
-  <testcase name="testMultipleServerMechanisms" classname="org.apache.kafka.common.security.authenticator.SaslAuthenticatorTest" time="0.715"/>
-  <testcase name="testRepeatedValidSaslPlainOverSsl" classname="org.apache.kafka.common.security.authenticator.SaslAuthenticatorTest" time="6.592"/>
-  <testcase name="testValidSaslPlainOverPlaintext" classname="org.apache.kafka.common.security.authenticator.SaslAuthenticatorTest" time="0.567"/>
-  <testcase name="testValidSaslPlainOverSsl" classname="org.apache.kafka.common.security.authenticator.SaslAuthenticatorTest" time="0.529"/>
-  <testcase name="testInvalidApiVersionsRequestSequence" classname="org.apache.kafka.common.security.authenticator.SaslAuthenticatorTest" time="0.623"/>
-  <testcase name="testSaslUnsupportedClientVersions" classname="org.apache.kafka.common.security.authenticator.SaslAuthenticatorTest" time="0.216"/>
-  <testcase name="testCannotReauthenticateAgainFasterThanOneSecond" classname="org.apache.kafka.common.security.authenticator.SaslAuthenticatorTest" time="0.723"/>
-  <testcase name="testDisallowedKafkaRequestsBeforeAuthentication" classname="org.apache.kafka.common.security.authenticator.SaslAuthenticatorTest" time="0.697"/>
-  <testcase name="testClientLoginOverride" classname="org.apache.kafka.common.security.authenticator.SaslAuthenticatorTest" time="0.553"/>
-  <testcase name="testClientDynamicJaasConfiguration" classname="org.apache.kafka.common.security.authenticator.SaslAuthenticatorTest" time="0.863"/>
-  <testcase name="oldSaslPlainPlaintextServerWithoutSaslAuthenticateHeader" classname="org.apache.kafka.common.security.authenticator.SaslAuthenticatorTest" time="0.443"/>
-  <testcase name="oldSaslPlainSslServerWithoutSaslAuthenticateHeader" classname="org.apache.kafka.common.security.authenticator.SaslAuthenticatorTest" time="0.227"/>
-  <testcase name="testForBrokenSaslHandshakeVersionBump" classname="org.apache.kafka.common.security.authenticator.SaslAuthenticatorTest" time="0.384"/>
-  <testcase name="testServerAuthenticateCallbackHandler" classname="org.apache.kafka.common.security.authenticator.SaslAuthenticatorTest" time="0.719"/>
-  <testcase name="testInvalidPasswordSaslPlain" classname="org.apache.kafka.common.security.authenticator.SaslAuthenticatorTest" time="0.367"/>
-  <testcase name="testInvalidPasswordSaslScram" classname="org.apache.kafka.common.security.authenticator.SaslAuthenticatorTest" time="0.707"/>
-  <testcase name="testApiVersionsRequestWithServerUnsupportedVersion" classname="org.apache.kafka.common.security.authenticator.SaslAuthenticatorTest" time="0.364"/>
-  <testcase name="oldSaslPlainSslServerWithoutSaslAuthenticateHeaderFailure" classname="org.apache.kafka.common.security.authenticator.SaslAuthenticatorTest" time="0.825"/>
-  <testcase name="testCorrelationId" classname="org.apache.kafka.common.security.authenticator.SaslAuthenticatorTest" time="1.422"/>
-  <testcase name="testServerDynamicJaasConfiguration" classname="org.apache.kafka.common.security.authenticator.SaslAuthenticatorTest" time="1.455"/>
-  <testcase name="testTokenReauthenticationOverSaslScram" classname="org.apache.kafka.common.security.authenticator.SaslAuthenticatorTest" time="2.462"/>
-  <testcase name="testInvalidSaslPacket" classname="org.apache.kafka.common.security.authenticator.SaslAuthenticatorTest" time="1.177"/>
-  <testcase name="testSaslHandshakeRequestWithUnsupportedVersion" classname="org.apache.kafka.common.security.authenticator.SaslAuthenticatorTest" time="0.901"/>
-  <testcase name="testCannotReauthenticateWithDifferentMechanism" classname="org.apache.kafka.common.security.authenticator.SaslAuthenticatorTest" time="1.221"/>
-  <testcase name="testJaasConfigurationForListener" classname="org.apache.kafka.common.security.authenticator.SaslAuthenticatorTest" time="0.605"/>
-  <testcase name="oldSaslPlainPlaintextClientWithoutSaslAuthenticateHeaderFailure" classname="org.apache.kafka.common.security.authenticator.SaslAuthenticatorTest" time="1.786"/>
-  <testcase name="testUnknownUserSaslScram" classname="org.apache.kafka.common.security.authenticator.SaslAuthenticatorTest" time="0.789"/>
-  <testcase name="oldSaslScramSslServerWithoutSaslAuthenticateHeader" classname="org.apache.kafka.common.security.authenticator.SaslAuthenticatorTest" time="1.03"/>
-  <system-out><![CDATA[[2020-10-29 10:33:05,038] ERROR Extensions provided in login context without a token (org.apache.kafka.common.security.oauthbearer.OAuthBearerLoginModule:318)
+  <testcase name="testUserCredentialsUnavailableForScramMechanism" classname="org.apache.kafka.common.security.authenticator.SaslAuthenticatorTest" time="0.631"/>
+  <testcase name="testUnauthenticatedApiVersionsRequestOverSslHandshakeVersion0" classname="org.apache.kafka.common.security.authenticator.SaslAuthenticatorTest" time="0.584"/>
+  <testcase name="testUnauthenticatedApiVersionsRequestOverSslHandshakeVersion1" classname="org.apache.kafka.common.security.authenticator.SaslAuthenticatorTest" time="0.609"/>
+  <testcase name="testMultipleServerMechanisms" classname="org.apache.kafka.common.security.authenticator.SaslAuthenticatorTest" time="27.747">
+    <failure message="java.lang.AssertionError" type="java.lang.AssertionError">java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.apache.kafka.common.network.NetworkTestUtils.waitForChannelReady(NetworkTestUtils.java:96)
+	at org.apache.kafka.common.network.NetworkTestUtils.checkClientConnection(NetworkTestUtils.java:69)
+	at org.apache.kafka.common.security.authenticator.SaslAuthenticatorTest.testMultipleServerMechanisms(SaslAuthenticatorTest.java:394)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.runTestClass(JUnitTestClassExecutor.java:110)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:58)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:38)
+	at org.gradle.api.internal.tasks.testing.junit.AbstractJUnitTestClassProcessor.processTestClass(AbstractJUnitTestClassProcessor.java:62)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.processTestClass(SuiteTestClassProcessor.java:51)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:94)
+	at com.sun.proxy.$Proxy2.processTestClass(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.processTestClass(TestWorker.java:119)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:182)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:164)
+	at org.gradle.internal.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:414)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:64)
+	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:48)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:56)
+	at java.lang.Thread.run(Thread.java:748)
+</failure>
+  </testcase>
+  <testcase name="testRepeatedValidSaslPlainOverSsl" classname="org.apache.kafka.common.security.authenticator.SaslAuthenticatorTest" time="7.046"/>
+  <testcase name="testValidSaslPlainOverPlaintext" classname="org.apache.kafka.common.security.authenticator.SaslAuthenticatorTest" time="0.694"/>
+  <testcase name="testValidSaslPlainOverSsl" classname="org.apache.kafka.common.security.authenticator.SaslAuthenticatorTest" time="1.368"/>
+  <testcase name="testInvalidApiVersionsRequestSequence" classname="org.apache.kafka.common.security.authenticator.SaslAuthenticatorTest" time="0.422"/>
+  <testcase name="testSaslUnsupportedClientVersions" classname="org.apache.kafka.common.security.authenticator.SaslAuthenticatorTest" time="0.455"/>
+  <testcase name="testCannotReauthenticateAgainFasterThanOneSecond" classname="org.apache.kafka.common.security.authenticator.SaslAuthenticatorTest" time="1.092"/>
+  <testcase name="testDisallowedKafkaRequestsBeforeAuthentication" classname="org.apache.kafka.common.security.authenticator.SaslAuthenticatorTest" time="0.75"/>
+  <testcase name="testClientLoginOverride" classname="org.apache.kafka.common.security.authenticator.SaslAuthenticatorTest" time="0.515"/>
+  <testcase name="testClientDynamicJaasConfiguration" classname="org.apache.kafka.common.security.authenticator.SaslAuthenticatorTest" time="1.141"/>
+  <testcase name="oldSaslPlainPlaintextServerWithoutSaslAuthenticateHeader" classname="org.apache.kafka.common.security.authenticator.SaslAuthenticatorTest" time="0.22"/>
+  <testcase name="oldSaslPlainSslServerWithoutSaslAuthenticateHeader" classname="org.apache.kafka.common.security.authenticator.SaslAuthenticatorTest" time="0.749"/>
+  <testcase name="testForBrokenSaslHandshakeVersionBump" classname="org.apache.kafka.common.security.authenticator.SaslAuthenticatorTest" time="0.125"/>
+  <testcase name="testServerAuthenticateCallbackHandler" classname="org.apache.kafka.common.security.authenticator.SaslAuthenticatorTest" time="0.392"/>
+  <testcase name="testInvalidPasswordSaslPlain" classname="org.apache.kafka.common.security.authenticator.SaslAuthenticatorTest" time="0.378"/>
+  <testcase name="testInvalidPasswordSaslScram" classname="org.apache.kafka.common.security.authenticator.SaslAuthenticatorTest" time="0.637"/>
+  <testcase name="testApiVersionsRequestWithServerUnsupportedVersion" classname="org.apache.kafka.common.security.authenticator.SaslAuthenticatorTest" time="0.316"/>
+  <testcase name="oldSaslPlainSslServerWithoutSaslAuthenticateHeaderFailure" classname="org.apache.kafka.common.security.authenticator.SaslAuthenticatorTest" time="0.684"/>
+  <testcase name="testCorrelationId" classname="org.apache.kafka.common.security.authenticator.SaslAuthenticatorTest" time="0.459"/>
+  <testcase name="testServerDynamicJaasConfiguration" classname="org.apache.kafka.common.security.authenticator.SaslAuthenticatorTest" time="0.672"/>
+  <testcase name="testTokenReauthenticationOverSaslScram" classname="org.apache.kafka.common.security.authenticator.SaslAuthenticatorTest" time="1.654"/>
+  <testcase name="testInvalidSaslPacket" classname="org.apache.kafka.common.security.authenticator.SaslAuthenticatorTest" time="0.559"/>
+  <testcase name="testSaslHandshakeRequestWithUnsupportedVersion" classname="org.apache.kafka.common.security.authenticator.SaslAuthenticatorTest" time="0.291"/>
+  <testcase name="testCannotReauthenticateWithDifferentMechanism" classname="org.apache.kafka.common.security.authenticator.SaslAuthenticatorTest" time="18.493">
+    <failure message="java.lang.AssertionError" type="java.lang.AssertionError">java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.apache.kafka.common.network.NetworkTestUtils.waitForChannelReady(NetworkTestUtils.java:96)
+	at org.apache.kafka.common.network.NetworkTestUtils.checkClientConnection(NetworkTestUtils.java:69)
+	at org.apache.kafka.common.security.authenticator.SaslAuthenticatorTest.checkClientConnection(SaslAuthenticatorTest.java:2105)
+	at org.apache.kafka.common.security.authenticator.SaslAuthenticatorTest.testCannotReauthenticateWithDifferentMechanism(SaslAuthenticatorTest.java:1633)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.runTestClass(JUnitTestClassExecutor.java:110)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:58)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:38)
+	at org.gradle.api.internal.tasks.testing.junit.AbstractJUnitTestClassProcessor.processTestClass(AbstractJUnitTestClassProcessor.java:62)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.processTestClass(SuiteTestClassProcessor.java:51)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:94)
+	at com.sun.proxy.$Proxy2.processTestClass(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.processTestClass(TestWorker.java:119)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:182)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:164)
+	at org.gradle.internal.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:414)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:64)
+	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:48)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:56)
+	at java.lang.Thread.run(Thread.java:748)
+</failure>
+  </testcase>
+  <testcase name="testJaasConfigurationForListener" classname="org.apache.kafka.common.security.authenticator.SaslAuthenticatorTest" time="0.71"/>
+  <testcase name="oldSaslPlainPlaintextClientWithoutSaslAuthenticateHeaderFailure" classname="org.apache.kafka.common.security.authenticator.SaslAuthenticatorTest" time="0.584"/>
+  <testcase name="testUnknownUserSaslScram" classname="org.apache.kafka.common.security.authenticator.SaslAuthenticatorTest" time="0.587"/>
+  <testcase name="oldSaslScramSslServerWithoutSaslAuthenticateHeader" classname="org.apache.kafka.common.security.authenticator.SaslAuthenticatorTest" time="0.605"/>
+  <system-out><![CDATA[[2022-09-03 18:38:48,380] ERROR Extensions provided in login context without a token (org.apache.kafka.common.security.oauthbearer.OAuthBearerLoginModule:318)
 java.io.IOException: Extensions provided in login context without a token
 	at org.apache.kafka.common.security.oauthbearer.internals.unsecured.OAuthBearerUnsecuredLoginCallbackHandler.handle(OAuthBearerUnsecuredLoginCallbackHandler.java:164)
 	at org.apache.kafka.common.security.oauthbearer.OAuthBearerLoginModule.identifyToken(OAuthBearerLoginModule.java:316)
@@ -126,7 +375,8 @@ java.io.IOException: Extensions provided in login context without a token
 	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:38)
 	at org.gradle.api.internal.tasks.testing.junit.AbstractJUnitTestClassProcessor.processTestClass(AbstractJUnitTestClassProcessor.java:62)
 	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.processTestClass(SuiteTestClassProcessor.java:51)
-	at sun.reflect.GeneratedMethodAccessor35.invoke(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
@@ -135,7 +385,8 @@ java.io.IOException: Extensions provided in login context without a token
 	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:94)
 	at com.sun.proxy.$Proxy2.processTestClass(Unknown Source)
 	at org.gradle.api.internal.tasks.testing.worker.TestWorker.processTestClass(TestWorker.java:119)
-	at sun.reflect.GeneratedMethodAccessor34.invoke(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
@@ -152,7 +403,7 @@ java.io.IOException: Extensions provided in login context without a token
 Caused by: org.apache.kafka.common.security.oauthbearer.internals.unsecured.OAuthBearerConfigException: Extensions provided in login context without a token
 	at org.apache.kafka.common.security.oauthbearer.internals.unsecured.OAuthBearerUnsecuredLoginCallbackHandler.handleTokenCallback(OAuthBearerUnsecuredLoginCallbackHandler.java:191)
 	at org.apache.kafka.common.security.oauthbearer.internals.unsecured.OAuthBearerUnsecuredLoginCallbackHandler.handle(OAuthBearerUnsecuredLoginCallbackHandler.java:162)
-	... 76 more
+	... 78 more
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

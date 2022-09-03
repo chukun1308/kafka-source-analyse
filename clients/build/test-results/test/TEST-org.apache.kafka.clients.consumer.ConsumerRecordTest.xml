@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.apache.kafka.clients.consumer.ConsumerRecordTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2020-10-29T02:32:42" hostname="chukun-mac" time="0.001">
+<testsuite name="org.apache.kafka.clients.consumer.ConsumerRecordTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2022-09-03T10:40:13" hostname="LAPTOP-FH01OFOM" time="0.005">
   <properties/>
-  <testcase name="testNullChecksumInConstructor" classname="org.apache.kafka.clients.consumer.ConsumerRecordTest" time="0.001"/>
+  <testcase name="testNullChecksumInConstructor" classname="org.apache.kafka.clients.consumer.ConsumerRecordTest" time="0.005"/>
   <testcase name="testOldConstructor" classname="org.apache.kafka.clients.consumer.ConsumerRecordTest" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>

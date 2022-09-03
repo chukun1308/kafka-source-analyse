@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.apache.kafka.common.message.ApiMessageTypeTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2020-10-29T02:36:11" hostname="chukun-mac" time="0.029">
+<testsuite name="org.apache.kafka.common.message.ApiMessageTypeTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2022-09-03T10:37:53" hostname="LAPTOP-FH01OFOM" time="0.075">
   <properties/>
-  <testcase name="testUniqueness" classname="org.apache.kafka.common.message.ApiMessageTypeTest" time="0.027"/>
-  <testcase name="testFromApiKey" classname="org.apache.kafka.common.message.ApiMessageTypeTest" time="0.001"/>
-  <testcase name="testInvalidFromApiKey" classname="org.apache.kafka.common.message.ApiMessageTypeTest" time="0.0"/>
-  <testcase name="testHeaderVersion" classname="org.apache.kafka.common.message.ApiMessageTypeTest" time="0.001"/>
+  <testcase name="testUniqueness" classname="org.apache.kafka.common.message.ApiMessageTypeTest" time="0.014"/>
+  <testcase name="testFromApiKey" classname="org.apache.kafka.common.message.ApiMessageTypeTest" time="0.016"/>
+  <testcase name="testInvalidFromApiKey" classname="org.apache.kafka.common.message.ApiMessageTypeTest" time="0.031"/>
+  <testcase name="testHeaderVersion" classname="org.apache.kafka.common.message.ApiMessageTypeTest" time="0.014"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

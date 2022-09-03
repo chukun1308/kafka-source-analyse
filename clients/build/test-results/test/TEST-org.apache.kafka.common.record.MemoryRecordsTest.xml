@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.apache.kafka.common.record.MemoryRecordsTest" tests="540" skipped="36" failures="0" errors="0" timestamp="2020-10-29T02:31:33" hostname="chukun-mac" time="2.643">
+<testsuite name="org.apache.kafka.common.record.MemoryRecordsTest" tests="540" skipped="36" failures="0" errors="0" timestamp="2022-09-03T10:37:55" hostname="LAPTOP-FH01OFOM" time="0.764">
   <properties/>
-  <testcase name="testChecksum[0 magic=0, firstOffset=0, compressionType=NONE]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.011"/>
-  <testcase name="testNextBatchSize[0 magic=0, firstOffset=0, compressionType=NONE]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.004"/>
-  <testcase name="testFilterToAlreadyCompactedLog[0 magic=0, firstOffset=0, compressionType=NONE]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.005"/>
+  <testcase name="testChecksum[0 magic=0, firstOffset=0, compressionType=NONE]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.003"/>
+  <testcase name="testNextBatchSize[0 magic=0, firstOffset=0, compressionType=NONE]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.003"/>
+  <testcase name="testFilterToAlreadyCompactedLog[0 magic=0, firstOffset=0, compressionType=NONE]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.003"/>
   <testcase name="testFilterToEmptyBatchRetention[0 magic=0, firstOffset=0, compressionType=NONE]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
-  <testcase name="testFilterToBatchDiscard[0 magic=0, firstOffset=0, compressionType=NONE]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.002">
+  <testcase name="testFilterToBatchDiscard[0 magic=0, firstOffset=0, compressionType=NONE]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.006">
     <skipped/>
   </testcase>
   <testcase name="testBuildLeaderChangeMessage[0 magic=0, firstOffset=0, compressionType=NONE]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
@@ -13,66 +13,66 @@
   <testcase name="testHasRoomForMethod[0 magic=0, firstOffset=0, compressionType=NONE]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
   <testcase name="testFilterToPreservesLogAppendTime[0 magic=0, firstOffset=0, compressionType=NONE]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.001"/>
   <testcase name="testFilterToPreservesPartitionLeaderEpoch[0 magic=0, firstOffset=0, compressionType=NONE]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
-  <testcase name="testFilterTo[0 magic=0, firstOffset=0, compressionType=NONE]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.002"/>
+  <testcase name="testFilterTo[0 magic=0, firstOffset=0, compressionType=NONE]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.006"/>
   <testcase name="testFilterToWithUndersizedBuffer[0 magic=0, firstOffset=0, compressionType=NONE]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.001"/>
   <testcase name="testHasRoomForMethodWithHeaders[0 magic=0, firstOffset=0, compressionType=NONE]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
   <testcase name="testFilterToPreservesProducerInfo[0 magic=0, firstOffset=0, compressionType=NONE]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
   <testcase name="testWithRecords[0 magic=0, firstOffset=0, compressionType=NONE]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.001"/>
-  <testcase name="testIterator[0 magic=0, firstOffset=0, compressionType=NONE]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.002"/>
+  <testcase name="testIterator[0 magic=0, firstOffset=0, compressionType=NONE]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.013"/>
   <testcase name="testEmptyBatchDeletion[0 magic=0, firstOffset=0, compressionType=NONE]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
   <testcase name="testEmptyBatchRetention[0 magic=0, firstOffset=0, compressionType=NONE]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
-  <testcase name="testChecksum[1 magic=0, firstOffset=0, compressionType=GZIP]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.001"/>
-  <testcase name="testNextBatchSize[1 magic=0, firstOffset=0, compressionType=GZIP]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.002"/>
-  <testcase name="testFilterToAlreadyCompactedLog[1 magic=0, firstOffset=0, compressionType=GZIP]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.007"/>
+  <testcase name="testChecksum[1 magic=0, firstOffset=0, compressionType=GZIP]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
+  <testcase name="testNextBatchSize[1 magic=0, firstOffset=0, compressionType=GZIP]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.001"/>
+  <testcase name="testFilterToAlreadyCompactedLog[1 magic=0, firstOffset=0, compressionType=GZIP]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.062"/>
   <testcase name="testFilterToEmptyBatchRetention[1 magic=0, firstOffset=0, compressionType=GZIP]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
-  <testcase name="testFilterToBatchDiscard[1 magic=0, firstOffset=0, compressionType=GZIP]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.001"/>
+  <testcase name="testFilterToBatchDiscard[1 magic=0, firstOffset=0, compressionType=GZIP]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.002"/>
   <testcase name="testBuildLeaderChangeMessage[1 magic=0, firstOffset=0, compressionType=GZIP]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
-  <testcase name="testBuildEndTxnMarker[1 magic=0, firstOffset=0, compressionType=GZIP]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.001"/>
-  <testcase name="testHasRoomForMethod[1 magic=0, firstOffset=0, compressionType=GZIP]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
-  <testcase name="testFilterToPreservesLogAppendTime[1 magic=0, firstOffset=0, compressionType=GZIP]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.002"/>
+  <testcase name="testBuildEndTxnMarker[1 magic=0, firstOffset=0, compressionType=GZIP]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
+  <testcase name="testHasRoomForMethod[1 magic=0, firstOffset=0, compressionType=GZIP]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.006"/>
+  <testcase name="testFilterToPreservesLogAppendTime[1 magic=0, firstOffset=0, compressionType=GZIP]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.001"/>
   <testcase name="testFilterToPreservesPartitionLeaderEpoch[1 magic=0, firstOffset=0, compressionType=GZIP]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
-  <testcase name="testFilterTo[1 magic=0, firstOffset=0, compressionType=GZIP]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.003"/>
-  <testcase name="testFilterToWithUndersizedBuffer[1 magic=0, firstOffset=0, compressionType=GZIP]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.005"/>
-  <testcase name="testHasRoomForMethodWithHeaders[1 magic=0, firstOffset=0, compressionType=GZIP]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.001"/>
+  <testcase name="testFilterTo[1 magic=0, firstOffset=0, compressionType=GZIP]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.004"/>
+  <testcase name="testFilterToWithUndersizedBuffer[1 magic=0, firstOffset=0, compressionType=GZIP]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.004"/>
+  <testcase name="testHasRoomForMethodWithHeaders[1 magic=0, firstOffset=0, compressionType=GZIP]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
   <testcase name="testFilterToPreservesProducerInfo[1 magic=0, firstOffset=0, compressionType=GZIP]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
   <testcase name="testWithRecords[1 magic=0, firstOffset=0, compressionType=GZIP]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
   <testcase name="testIterator[1 magic=0, firstOffset=0, compressionType=GZIP]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.003"/>
-  <testcase name="testEmptyBatchDeletion[1 magic=0, firstOffset=0, compressionType=GZIP]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
+  <testcase name="testEmptyBatchDeletion[1 magic=0, firstOffset=0, compressionType=GZIP]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.001"/>
   <testcase name="testEmptyBatchRetention[1 magic=0, firstOffset=0, compressionType=GZIP]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
-  <testcase name="testChecksum[2 magic=0, firstOffset=0, compressionType=SNAPPY]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.001"/>
-  <testcase name="testNextBatchSize[2 magic=0, firstOffset=0, compressionType=SNAPPY]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.954"/>
+  <testcase name="testChecksum[2 magic=0, firstOffset=0, compressionType=SNAPPY]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
+  <testcase name="testNextBatchSize[2 magic=0, firstOffset=0, compressionType=SNAPPY]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.129"/>
   <testcase name="testFilterToAlreadyCompactedLog[2 magic=0, firstOffset=0, compressionType=SNAPPY]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.001"/>
   <testcase name="testFilterToEmptyBatchRetention[2 magic=0, firstOffset=0, compressionType=SNAPPY]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
   <testcase name="testFilterToBatchDiscard[2 magic=0, firstOffset=0, compressionType=SNAPPY]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.001"/>
   <testcase name="testBuildLeaderChangeMessage[2 magic=0, firstOffset=0, compressionType=SNAPPY]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
   <testcase name="testBuildEndTxnMarker[2 magic=0, firstOffset=0, compressionType=SNAPPY]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
   <testcase name="testHasRoomForMethod[2 magic=0, firstOffset=0, compressionType=SNAPPY]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
-  <testcase name="testFilterToPreservesLogAppendTime[2 magic=0, firstOffset=0, compressionType=SNAPPY]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.001"/>
+  <testcase name="testFilterToPreservesLogAppendTime[2 magic=0, firstOffset=0, compressionType=SNAPPY]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.005"/>
   <testcase name="testFilterToPreservesPartitionLeaderEpoch[2 magic=0, firstOffset=0, compressionType=SNAPPY]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
-  <testcase name="testFilterTo[2 magic=0, firstOffset=0, compressionType=SNAPPY]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.001"/>
-  <testcase name="testFilterToWithUndersizedBuffer[2 magic=0, firstOffset=0, compressionType=SNAPPY]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.001"/>
+  <testcase name="testFilterTo[2 magic=0, firstOffset=0, compressionType=SNAPPY]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.003"/>
+  <testcase name="testFilterToWithUndersizedBuffer[2 magic=0, firstOffset=0, compressionType=SNAPPY]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.002"/>
   <testcase name="testHasRoomForMethodWithHeaders[2 magic=0, firstOffset=0, compressionType=SNAPPY]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
   <testcase name="testFilterToPreservesProducerInfo[2 magic=0, firstOffset=0, compressionType=SNAPPY]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
-  <testcase name="testWithRecords[2 magic=0, firstOffset=0, compressionType=SNAPPY]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
-  <testcase name="testIterator[2 magic=0, firstOffset=0, compressionType=SNAPPY]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.001"/>
-  <testcase name="testEmptyBatchDeletion[2 magic=0, firstOffset=0, compressionType=SNAPPY]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
+  <testcase name="testWithRecords[2 magic=0, firstOffset=0, compressionType=SNAPPY]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.001"/>
+  <testcase name="testIterator[2 magic=0, firstOffset=0, compressionType=SNAPPY]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
+  <testcase name="testEmptyBatchDeletion[2 magic=0, firstOffset=0, compressionType=SNAPPY]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.001"/>
   <testcase name="testEmptyBatchRetention[2 magic=0, firstOffset=0, compressionType=SNAPPY]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
-  <testcase name="testChecksum[3 magic=0, firstOffset=0, compressionType=LZ4]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.269"/>
-  <testcase name="testNextBatchSize[3 magic=0, firstOffset=0, compressionType=LZ4]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.001"/>
+  <testcase name="testChecksum[3 magic=0, firstOffset=0, compressionType=LZ4]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.106"/>
+  <testcase name="testNextBatchSize[3 magic=0, firstOffset=0, compressionType=LZ4]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
   <testcase name="testFilterToAlreadyCompactedLog[3 magic=0, firstOffset=0, compressionType=LZ4]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.001"/>
-  <testcase name="testFilterToEmptyBatchRetention[3 magic=0, firstOffset=0, compressionType=LZ4]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
-  <testcase name="testFilterToBatchDiscard[3 magic=0, firstOffset=0, compressionType=LZ4]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.002"/>
+  <testcase name="testFilterToEmptyBatchRetention[3 magic=0, firstOffset=0, compressionType=LZ4]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.001"/>
+  <testcase name="testFilterToBatchDiscard[3 magic=0, firstOffset=0, compressionType=LZ4]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
   <testcase name="testBuildLeaderChangeMessage[3 magic=0, firstOffset=0, compressionType=LZ4]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
   <testcase name="testBuildEndTxnMarker[3 magic=0, firstOffset=0, compressionType=LZ4]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
   <testcase name="testHasRoomForMethod[3 magic=0, firstOffset=0, compressionType=LZ4]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
-  <testcase name="testFilterToPreservesLogAppendTime[3 magic=0, firstOffset=0, compressionType=LZ4]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.003"/>
+  <testcase name="testFilterToPreservesLogAppendTime[3 magic=0, firstOffset=0, compressionType=LZ4]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.001"/>
   <testcase name="testFilterToPreservesPartitionLeaderEpoch[3 magic=0, firstOffset=0, compressionType=LZ4]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
-  <testcase name="testFilterTo[3 magic=0, firstOffset=0, compressionType=LZ4]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.003"/>
+  <testcase name="testFilterTo[3 magic=0, firstOffset=0, compressionType=LZ4]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.001"/>
   <testcase name="testFilterToWithUndersizedBuffer[3 magic=0, firstOffset=0, compressionType=LZ4]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.002"/>
   <testcase name="testHasRoomForMethodWithHeaders[3 magic=0, firstOffset=0, compressionType=LZ4]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
   <testcase name="testFilterToPreservesProducerInfo[3 magic=0, firstOffset=0, compressionType=LZ4]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
-  <testcase name="testWithRecords[3 magic=0, firstOffset=0, compressionType=LZ4]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.001"/>
-  <testcase name="testIterator[3 magic=0, firstOffset=0, compressionType=LZ4]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.001"/>
+  <testcase name="testWithRecords[3 magic=0, firstOffset=0, compressionType=LZ4]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
+  <testcase name="testIterator[3 magic=0, firstOffset=0, compressionType=LZ4]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
   <testcase name="testEmptyBatchDeletion[3 magic=0, firstOffset=0, compressionType=LZ4]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
   <testcase name="testEmptyBatchRetention[3 magic=0, firstOffset=0, compressionType=LZ4]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
   <testcase name="testChecksum[4 magic=0, firstOffset=0, compressionType=ZSTD]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
@@ -83,7 +83,7 @@
     <skipped/>
   </testcase>
   <testcase name="testFilterToEmptyBatchRetention[4 magic=0, firstOffset=0, compressionType=ZSTD]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
-  <testcase name="testFilterToBatchDiscard[4 magic=0, firstOffset=0, compressionType=ZSTD]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.001">
+  <testcase name="testFilterToBatchDiscard[4 magic=0, firstOffset=0, compressionType=ZSTD]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0">
     <skipped/>
   </testcase>
   <testcase name="testBuildLeaderChangeMessage[4 magic=0, firstOffset=0, compressionType=ZSTD]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
@@ -94,8 +94,8 @@
   <testcase name="testFilterToPreservesLogAppendTime[4 magic=0, firstOffset=0, compressionType=ZSTD]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0">
     <skipped/>
   </testcase>
-  <testcase name="testFilterToPreservesPartitionLeaderEpoch[4 magic=0, firstOffset=0, compressionType=ZSTD]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.001"/>
-  <testcase name="testFilterTo[4 magic=0, firstOffset=0, compressionType=ZSTD]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0">
+  <testcase name="testFilterToPreservesPartitionLeaderEpoch[4 magic=0, firstOffset=0, compressionType=ZSTD]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
+  <testcase name="testFilterTo[4 magic=0, firstOffset=0, compressionType=ZSTD]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.001">
     <skipped/>
   </testcase>
   <testcase name="testFilterToWithUndersizedBuffer[4 magic=0, firstOffset=0, compressionType=ZSTD]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0">
@@ -104,13 +104,13 @@
   <testcase name="testHasRoomForMethodWithHeaders[4 magic=0, firstOffset=0, compressionType=ZSTD]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
   <testcase name="testFilterToPreservesProducerInfo[4 magic=0, firstOffset=0, compressionType=ZSTD]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
   <testcase name="testWithRecords[4 magic=0, firstOffset=0, compressionType=ZSTD]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.001"/>
-  <testcase name="testIterator[4 magic=0, firstOffset=0, compressionType=ZSTD]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.001">
+  <testcase name="testIterator[4 magic=0, firstOffset=0, compressionType=ZSTD]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0">
     <skipped/>
   </testcase>
   <testcase name="testEmptyBatchDeletion[4 magic=0, firstOffset=0, compressionType=ZSTD]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
   <testcase name="testEmptyBatchRetention[4 magic=0, firstOffset=0, compressionType=ZSTD]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
   <testcase name="testChecksum[5 magic=1, firstOffset=0, compressionType=NONE]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
-  <testcase name="testNextBatchSize[5 magic=1, firstOffset=0, compressionType=NONE]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.001"/>
+  <testcase name="testNextBatchSize[5 magic=1, firstOffset=0, compressionType=NONE]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
   <testcase name="testFilterToAlreadyCompactedLog[5 magic=1, firstOffset=0, compressionType=NONE]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
   <testcase name="testFilterToEmptyBatchRetention[5 magic=1, firstOffset=0, compressionType=NONE]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
   <testcase name="testFilterToBatchDiscard[5 magic=1, firstOffset=0, compressionType=NONE]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.001">
@@ -126,31 +126,31 @@
   <testcase name="testHasRoomForMethodWithHeaders[5 magic=1, firstOffset=0, compressionType=NONE]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
   <testcase name="testFilterToPreservesProducerInfo[5 magic=1, firstOffset=0, compressionType=NONE]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
   <testcase name="testWithRecords[5 magic=1, firstOffset=0, compressionType=NONE]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
-  <testcase name="testIterator[5 magic=1, firstOffset=0, compressionType=NONE]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.004"/>
-  <testcase name="testEmptyBatchDeletion[5 magic=1, firstOffset=0, compressionType=NONE]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.001"/>
-  <testcase name="testEmptyBatchRetention[5 magic=1, firstOffset=0, compressionType=NONE]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
+  <testcase name="testIterator[5 magic=1, firstOffset=0, compressionType=NONE]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.002"/>
+  <testcase name="testEmptyBatchDeletion[5 magic=1, firstOffset=0, compressionType=NONE]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
+  <testcase name="testEmptyBatchRetention[5 magic=1, firstOffset=0, compressionType=NONE]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.001"/>
   <testcase name="testChecksum[6 magic=1, firstOffset=0, compressionType=GZIP]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
-  <testcase name="testNextBatchSize[6 magic=1, firstOffset=0, compressionType=GZIP]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.001"/>
+  <testcase name="testNextBatchSize[6 magic=1, firstOffset=0, compressionType=GZIP]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
   <testcase name="testFilterToAlreadyCompactedLog[6 magic=1, firstOffset=0, compressionType=GZIP]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.001"/>
   <testcase name="testFilterToEmptyBatchRetention[6 magic=1, firstOffset=0, compressionType=GZIP]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
   <testcase name="testFilterToBatchDiscard[6 magic=1, firstOffset=0, compressionType=GZIP]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.001"/>
   <testcase name="testBuildLeaderChangeMessage[6 magic=1, firstOffset=0, compressionType=GZIP]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
-  <testcase name="testBuildEndTxnMarker[6 magic=1, firstOffset=0, compressionType=GZIP]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.001"/>
+  <testcase name="testBuildEndTxnMarker[6 magic=1, firstOffset=0, compressionType=GZIP]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
   <testcase name="testHasRoomForMethod[6 magic=1, firstOffset=0, compressionType=GZIP]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
-  <testcase name="testFilterToPreservesLogAppendTime[6 magic=1, firstOffset=0, compressionType=GZIP]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.001"/>
+  <testcase name="testFilterToPreservesLogAppendTime[6 magic=1, firstOffset=0, compressionType=GZIP]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
   <testcase name="testFilterToPreservesPartitionLeaderEpoch[6 magic=1, firstOffset=0, compressionType=GZIP]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
-  <testcase name="testFilterTo[6 magic=1, firstOffset=0, compressionType=GZIP]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.002"/>
-  <testcase name="testFilterToWithUndersizedBuffer[6 magic=1, firstOffset=0, compressionType=GZIP]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.003"/>
+  <testcase name="testFilterTo[6 magic=1, firstOffset=0, compressionType=GZIP]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.001"/>
+  <testcase name="testFilterToWithUndersizedBuffer[6 magic=1, firstOffset=0, compressionType=GZIP]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.001"/>
   <testcase name="testHasRoomForMethodWithHeaders[6 magic=1, firstOffset=0, compressionType=GZIP]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
   <testcase name="testFilterToPreservesProducerInfo[6 magic=1, firstOffset=0, compressionType=GZIP]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
   <testcase name="testWithRecords[6 magic=1, firstOffset=0, compressionType=GZIP]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.001"/>
-  <testcase name="testIterator[6 magic=1, firstOffset=0, compressionType=GZIP]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.002"/>
+  <testcase name="testIterator[6 magic=1, firstOffset=0, compressionType=GZIP]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.003"/>
   <testcase name="testEmptyBatchDeletion[6 magic=1, firstOffset=0, compressionType=GZIP]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
   <testcase name="testEmptyBatchRetention[6 magic=1, firstOffset=0, compressionType=GZIP]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
   <testcase name="testChecksum[7 magic=1, firstOffset=0, compressionType=SNAPPY]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
-  <testcase name="testNextBatchSize[7 magic=1, firstOffset=0, compressionType=SNAPPY]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.001"/>
-  <testcase name="testFilterToAlreadyCompactedLog[7 magic=1, firstOffset=0, compressionType=SNAPPY]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.001"/>
-  <testcase name="testFilterToEmptyBatchRetention[7 magic=1, firstOffset=0, compressionType=SNAPPY]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
+  <testcase name="testNextBatchSize[7 magic=1, firstOffset=0, compressionType=SNAPPY]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
+  <testcase name="testFilterToAlreadyCompactedLog[7 magic=1, firstOffset=0, compressionType=SNAPPY]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
+  <testcase name="testFilterToEmptyBatchRetention[7 magic=1, firstOffset=0, compressionType=SNAPPY]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.001"/>
   <testcase name="testFilterToBatchDiscard[7 magic=1, firstOffset=0, compressionType=SNAPPY]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.001"/>
   <testcase name="testBuildLeaderChangeMessage[7 magic=1, firstOffset=0, compressionType=SNAPPY]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
   <testcase name="testBuildEndTxnMarker[7 magic=1, firstOffset=0, compressionType=SNAPPY]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
@@ -160,28 +160,28 @@
   <testcase name="testFilterTo[7 magic=1, firstOffset=0, compressionType=SNAPPY]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.001"/>
   <testcase name="testFilterToWithUndersizedBuffer[7 magic=1, firstOffset=0, compressionType=SNAPPY]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.002"/>
   <testcase name="testHasRoomForMethodWithHeaders[7 magic=1, firstOffset=0, compressionType=SNAPPY]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
-  <testcase name="testFilterToPreservesProducerInfo[7 magic=1, firstOffset=0, compressionType=SNAPPY]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
+  <testcase name="testFilterToPreservesProducerInfo[7 magic=1, firstOffset=0, compressionType=SNAPPY]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.036"/>
   <testcase name="testWithRecords[7 magic=1, firstOffset=0, compressionType=SNAPPY]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
   <testcase name="testIterator[7 magic=1, firstOffset=0, compressionType=SNAPPY]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.001"/>
   <testcase name="testEmptyBatchDeletion[7 magic=1, firstOffset=0, compressionType=SNAPPY]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
   <testcase name="testEmptyBatchRetention[7 magic=1, firstOffset=0, compressionType=SNAPPY]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
   <testcase name="testChecksum[8 magic=1, firstOffset=0, compressionType=LZ4]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
   <testcase name="testNextBatchSize[8 magic=1, firstOffset=0, compressionType=LZ4]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
-  <testcase name="testFilterToAlreadyCompactedLog[8 magic=1, firstOffset=0, compressionType=LZ4]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.001"/>
+  <testcase name="testFilterToAlreadyCompactedLog[8 magic=1, firstOffset=0, compressionType=LZ4]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
   <testcase name="testFilterToEmptyBatchRetention[8 magic=1, firstOffset=0, compressionType=LZ4]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
-  <testcase name="testFilterToBatchDiscard[8 magic=1, firstOffset=0, compressionType=LZ4]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.002"/>
+  <testcase name="testFilterToBatchDiscard[8 magic=1, firstOffset=0, compressionType=LZ4]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
   <testcase name="testBuildLeaderChangeMessage[8 magic=1, firstOffset=0, compressionType=LZ4]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
-  <testcase name="testBuildEndTxnMarker[8 magic=1, firstOffset=0, compressionType=LZ4]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
-  <testcase name="testHasRoomForMethod[8 magic=1, firstOffset=0, compressionType=LZ4]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
-  <testcase name="testFilterToPreservesLogAppendTime[8 magic=1, firstOffset=0, compressionType=LZ4]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.002"/>
-  <testcase name="testFilterToPreservesPartitionLeaderEpoch[8 magic=1, firstOffset=0, compressionType=LZ4]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
-  <testcase name="testFilterTo[8 magic=1, firstOffset=0, compressionType=LZ4]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.003"/>
+  <testcase name="testBuildEndTxnMarker[8 magic=1, firstOffset=0, compressionType=LZ4]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.001"/>
+  <testcase name="testHasRoomForMethod[8 magic=1, firstOffset=0, compressionType=LZ4]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.001"/>
+  <testcase name="testFilterToPreservesLogAppendTime[8 magic=1, firstOffset=0, compressionType=LZ4]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
+  <testcase name="testFilterToPreservesPartitionLeaderEpoch[8 magic=1, firstOffset=0, compressionType=LZ4]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.001"/>
+  <testcase name="testFilterTo[8 magic=1, firstOffset=0, compressionType=LZ4]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.001"/>
   <testcase name="testFilterToWithUndersizedBuffer[8 magic=1, firstOffset=0, compressionType=LZ4]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.001"/>
   <testcase name="testHasRoomForMethodWithHeaders[8 magic=1, firstOffset=0, compressionType=LZ4]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
   <testcase name="testFilterToPreservesProducerInfo[8 magic=1, firstOffset=0, compressionType=LZ4]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
   <testcase name="testWithRecords[8 magic=1, firstOffset=0, compressionType=LZ4]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
-  <testcase name="testIterator[8 magic=1, firstOffset=0, compressionType=LZ4]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.001"/>
-  <testcase name="testEmptyBatchDeletion[8 magic=1, firstOffset=0, compressionType=LZ4]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
+  <testcase name="testIterator[8 magic=1, firstOffset=0, compressionType=LZ4]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
+  <testcase name="testEmptyBatchDeletion[8 magic=1, firstOffset=0, compressionType=LZ4]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.001"/>
   <testcase name="testEmptyBatchRetention[8 magic=1, firstOffset=0, compressionType=LZ4]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
   <testcase name="testChecksum[9 magic=1, firstOffset=0, compressionType=ZSTD]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
   <testcase name="testNextBatchSize[9 magic=1, firstOffset=0, compressionType=ZSTD]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0">
@@ -191,7 +191,7 @@
     <skipped/>
   </testcase>
   <testcase name="testFilterToEmptyBatchRetention[9 magic=1, firstOffset=0, compressionType=ZSTD]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
-  <testcase name="testFilterToBatchDiscard[9 magic=1, firstOffset=0, compressionType=ZSTD]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0">
+  <testcase name="testFilterToBatchDiscard[9 magic=1, firstOffset=0, compressionType=ZSTD]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.001">
     <skipped/>
   </testcase>
   <testcase name="testBuildLeaderChangeMessage[9 magic=1, firstOffset=0, compressionType=ZSTD]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
@@ -199,14 +199,14 @@
   <testcase name="testHasRoomForMethod[9 magic=1, firstOffset=0, compressionType=ZSTD]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0">
     <skipped/>
   </testcase>
-  <testcase name="testFilterToPreservesLogAppendTime[9 magic=1, firstOffset=0, compressionType=ZSTD]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.001">
+  <testcase name="testFilterToPreservesLogAppendTime[9 magic=1, firstOffset=0, compressionType=ZSTD]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0">
     <skipped/>
   </testcase>
   <testcase name="testFilterToPreservesPartitionLeaderEpoch[9 magic=1, firstOffset=0, compressionType=ZSTD]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
   <testcase name="testFilterTo[9 magic=1, firstOffset=0, compressionType=ZSTD]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0">
     <skipped/>
   </testcase>
-  <testcase name="testFilterToWithUndersizedBuffer[9 magic=1, firstOffset=0, compressionType=ZSTD]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0">
+  <testcase name="testFilterToWithUndersizedBuffer[9 magic=1, firstOffset=0, compressionType=ZSTD]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.001">
     <skipped/>
   </testcase>
   <testcase name="testHasRoomForMethodWithHeaders[9 magic=1, firstOffset=0, compressionType=ZSTD]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
@@ -218,27 +218,27 @@
   <testcase name="testEmptyBatchDeletion[9 magic=1, firstOffset=0, compressionType=ZSTD]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
   <testcase name="testEmptyBatchRetention[9 magic=1, firstOffset=0, compressionType=ZSTD]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
   <testcase name="testChecksum[10 magic=2, firstOffset=0, compressionType=NONE]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.001"/>
-  <testcase name="testNextBatchSize[10 magic=2, firstOffset=0, compressionType=NONE]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.001"/>
-  <testcase name="testFilterToAlreadyCompactedLog[10 magic=2, firstOffset=0, compressionType=NONE]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.002"/>
+  <testcase name="testNextBatchSize[10 magic=2, firstOffset=0, compressionType=NONE]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
+  <testcase name="testFilterToAlreadyCompactedLog[10 magic=2, firstOffset=0, compressionType=NONE]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
   <testcase name="testFilterToEmptyBatchRetention[10 magic=2, firstOffset=0, compressionType=NONE]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
-  <testcase name="testFilterToBatchDiscard[10 magic=2, firstOffset=0, compressionType=NONE]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.001"/>
+  <testcase name="testFilterToBatchDiscard[10 magic=2, firstOffset=0, compressionType=NONE]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
   <testcase name="testBuildLeaderChangeMessage[10 magic=2, firstOffset=0, compressionType=NONE]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.003"/>
-  <testcase name="testBuildEndTxnMarker[10 magic=2, firstOffset=0, compressionType=NONE]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.001"/>
+  <testcase name="testBuildEndTxnMarker[10 magic=2, firstOffset=0, compressionType=NONE]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
   <testcase name="testHasRoomForMethod[10 magic=2, firstOffset=0, compressionType=NONE]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
   <testcase name="testFilterToPreservesLogAppendTime[10 magic=2, firstOffset=0, compressionType=NONE]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
-  <testcase name="testFilterToPreservesPartitionLeaderEpoch[10 magic=2, firstOffset=0, compressionType=NONE]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.001"/>
-  <testcase name="testFilterTo[10 magic=2, firstOffset=0, compressionType=NONE]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.001"/>
+  <testcase name="testFilterToPreservesPartitionLeaderEpoch[10 magic=2, firstOffset=0, compressionType=NONE]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
+  <testcase name="testFilterTo[10 magic=2, firstOffset=0, compressionType=NONE]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
   <testcase name="testFilterToWithUndersizedBuffer[10 magic=2, firstOffset=0, compressionType=NONE]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.001"/>
-  <testcase name="testHasRoomForMethodWithHeaders[10 magic=2, firstOffset=0, compressionType=NONE]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.005"/>
-  <testcase name="testFilterToPreservesProducerInfo[10 magic=2, firstOffset=0, compressionType=NONE]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
+  <testcase name="testHasRoomForMethodWithHeaders[10 magic=2, firstOffset=0, compressionType=NONE]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.003"/>
+  <testcase name="testFilterToPreservesProducerInfo[10 magic=2, firstOffset=0, compressionType=NONE]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.002"/>
   <testcase name="testWithRecords[10 magic=2, firstOffset=0, compressionType=NONE]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
   <testcase name="testIterator[10 magic=2, firstOffset=0, compressionType=NONE]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
-  <testcase name="testEmptyBatchDeletion[10 magic=2, firstOffset=0, compressionType=NONE]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
-  <testcase name="testEmptyBatchRetention[10 magic=2, firstOffset=0, compressionType=NONE]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.001"/>
+  <testcase name="testEmptyBatchDeletion[10 magic=2, firstOffset=0, compressionType=NONE]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.001"/>
+  <testcase name="testEmptyBatchRetention[10 magic=2, firstOffset=0, compressionType=NONE]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
   <testcase name="testChecksum[11 magic=2, firstOffset=0, compressionType=GZIP]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
   <testcase name="testNextBatchSize[11 magic=2, firstOffset=0, compressionType=GZIP]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
-  <testcase name="testFilterToAlreadyCompactedLog[11 magic=2, firstOffset=0, compressionType=GZIP]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.002"/>
-  <testcase name="testFilterToEmptyBatchRetention[11 magic=2, firstOffset=0, compressionType=GZIP]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.001"/>
+  <testcase name="testFilterToAlreadyCompactedLog[11 magic=2, firstOffset=0, compressionType=GZIP]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.001"/>
+  <testcase name="testFilterToEmptyBatchRetention[11 magic=2, firstOffset=0, compressionType=GZIP]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
   <testcase name="testFilterToBatchDiscard[11 magic=2, firstOffset=0, compressionType=GZIP]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.001"/>
   <testcase name="testBuildLeaderChangeMessage[11 magic=2, firstOffset=0, compressionType=GZIP]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
   <testcase name="testBuildEndTxnMarker[11 magic=2, firstOffset=0, compressionType=GZIP]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
@@ -246,143 +246,143 @@
   <testcase name="testFilterToPreservesLogAppendTime[11 magic=2, firstOffset=0, compressionType=GZIP]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.001"/>
   <testcase name="testFilterToPreservesPartitionLeaderEpoch[11 magic=2, firstOffset=0, compressionType=GZIP]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
   <testcase name="testFilterTo[11 magic=2, firstOffset=0, compressionType=GZIP]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.002"/>
-  <testcase name="testFilterToWithUndersizedBuffer[11 magic=2, firstOffset=0, compressionType=GZIP]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.005"/>
+  <testcase name="testFilterToWithUndersizedBuffer[11 magic=2, firstOffset=0, compressionType=GZIP]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.001"/>
   <testcase name="testHasRoomForMethodWithHeaders[11 magic=2, firstOffset=0, compressionType=GZIP]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
-  <testcase name="testFilterToPreservesProducerInfo[11 magic=2, firstOffset=0, compressionType=GZIP]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.002"/>
+  <testcase name="testFilterToPreservesProducerInfo[11 magic=2, firstOffset=0, compressionType=GZIP]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.001"/>
   <testcase name="testWithRecords[11 magic=2, firstOffset=0, compressionType=GZIP]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.001"/>
   <testcase name="testIterator[11 magic=2, firstOffset=0, compressionType=GZIP]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
-  <testcase name="testEmptyBatchDeletion[11 magic=2, firstOffset=0, compressionType=GZIP]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.001"/>
-  <testcase name="testEmptyBatchRetention[11 magic=2, firstOffset=0, compressionType=GZIP]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
+  <testcase name="testEmptyBatchDeletion[11 magic=2, firstOffset=0, compressionType=GZIP]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
+  <testcase name="testEmptyBatchRetention[11 magic=2, firstOffset=0, compressionType=GZIP]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.001"/>
   <testcase name="testChecksum[12 magic=2, firstOffset=0, compressionType=SNAPPY]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
   <testcase name="testNextBatchSize[12 magic=2, firstOffset=0, compressionType=SNAPPY]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
-  <testcase name="testFilterToAlreadyCompactedLog[12 magic=2, firstOffset=0, compressionType=SNAPPY]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.001"/>
-  <testcase name="testFilterToEmptyBatchRetention[12 magic=2, firstOffset=0, compressionType=SNAPPY]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
-  <testcase name="testFilterToBatchDiscard[12 magic=2, firstOffset=0, compressionType=SNAPPY]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
-  <testcase name="testBuildLeaderChangeMessage[12 magic=2, firstOffset=0, compressionType=SNAPPY]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.001"/>
+  <testcase name="testFilterToAlreadyCompactedLog[12 magic=2, firstOffset=0, compressionType=SNAPPY]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
+  <testcase name="testFilterToEmptyBatchRetention[12 magic=2, firstOffset=0, compressionType=SNAPPY]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.001"/>
+  <testcase name="testFilterToBatchDiscard[12 magic=2, firstOffset=0, compressionType=SNAPPY]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.001"/>
+  <testcase name="testBuildLeaderChangeMessage[12 magic=2, firstOffset=0, compressionType=SNAPPY]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
   <testcase name="testBuildEndTxnMarker[12 magic=2, firstOffset=0, compressionType=SNAPPY]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
   <testcase name="testHasRoomForMethod[12 magic=2, firstOffset=0, compressionType=SNAPPY]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
-  <testcase name="testFilterToPreservesLogAppendTime[12 magic=2, firstOffset=0, compressionType=SNAPPY]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
+  <testcase name="testFilterToPreservesLogAppendTime[12 magic=2, firstOffset=0, compressionType=SNAPPY]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.001"/>
   <testcase name="testFilterToPreservesPartitionLeaderEpoch[12 magic=2, firstOffset=0, compressionType=SNAPPY]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
-  <testcase name="testFilterTo[12 magic=2, firstOffset=0, compressionType=SNAPPY]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
+  <testcase name="testFilterTo[12 magic=2, firstOffset=0, compressionType=SNAPPY]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.001"/>
   <testcase name="testFilterToWithUndersizedBuffer[12 magic=2, firstOffset=0, compressionType=SNAPPY]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.001"/>
   <testcase name="testHasRoomForMethodWithHeaders[12 magic=2, firstOffset=0, compressionType=SNAPPY]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
-  <testcase name="testFilterToPreservesProducerInfo[12 magic=2, firstOffset=0, compressionType=SNAPPY]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.001"/>
-  <testcase name="testWithRecords[12 magic=2, firstOffset=0, compressionType=SNAPPY]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
-  <testcase name="testIterator[12 magic=2, firstOffset=0, compressionType=SNAPPY]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.001"/>
+  <testcase name="testFilterToPreservesProducerInfo[12 magic=2, firstOffset=0, compressionType=SNAPPY]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
+  <testcase name="testWithRecords[12 magic=2, firstOffset=0, compressionType=SNAPPY]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.001"/>
+  <testcase name="testIterator[12 magic=2, firstOffset=0, compressionType=SNAPPY]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
   <testcase name="testEmptyBatchDeletion[12 magic=2, firstOffset=0, compressionType=SNAPPY]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
   <testcase name="testEmptyBatchRetention[12 magic=2, firstOffset=0, compressionType=SNAPPY]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
   <testcase name="testChecksum[13 magic=2, firstOffset=0, compressionType=LZ4]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
   <testcase name="testNextBatchSize[13 magic=2, firstOffset=0, compressionType=LZ4]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.001"/>
   <testcase name="testFilterToAlreadyCompactedLog[13 magic=2, firstOffset=0, compressionType=LZ4]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
-  <testcase name="testFilterToEmptyBatchRetention[13 magic=2, firstOffset=0, compressionType=LZ4]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.001"/>
-  <testcase name="testFilterToBatchDiscard[13 magic=2, firstOffset=0, compressionType=LZ4]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.001"/>
+  <testcase name="testFilterToEmptyBatchRetention[13 magic=2, firstOffset=0, compressionType=LZ4]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.003"/>
+  <testcase name="testFilterToBatchDiscard[13 magic=2, firstOffset=0, compressionType=LZ4]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
   <testcase name="testBuildLeaderChangeMessage[13 magic=2, firstOffset=0, compressionType=LZ4]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.001"/>
   <testcase name="testBuildEndTxnMarker[13 magic=2, firstOffset=0, compressionType=LZ4]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
   <testcase name="testHasRoomForMethod[13 magic=2, firstOffset=0, compressionType=LZ4]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
-  <testcase name="testFilterToPreservesLogAppendTime[13 magic=2, firstOffset=0, compressionType=LZ4]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.001"/>
+  <testcase name="testFilterToPreservesLogAppendTime[13 magic=2, firstOffset=0, compressionType=LZ4]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.002"/>
   <testcase name="testFilterToPreservesPartitionLeaderEpoch[13 magic=2, firstOffset=0, compressionType=LZ4]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
   <testcase name="testFilterTo[13 magic=2, firstOffset=0, compressionType=LZ4]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.001"/>
-  <testcase name="testFilterToWithUndersizedBuffer[13 magic=2, firstOffset=0, compressionType=LZ4]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.001"/>
-  <testcase name="testHasRoomForMethodWithHeaders[13 magic=2, firstOffset=0, compressionType=LZ4]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.001"/>
+  <testcase name="testFilterToWithUndersizedBuffer[13 magic=2, firstOffset=0, compressionType=LZ4]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.004"/>
+  <testcase name="testHasRoomForMethodWithHeaders[13 magic=2, firstOffset=0, compressionType=LZ4]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
   <testcase name="testFilterToPreservesProducerInfo[13 magic=2, firstOffset=0, compressionType=LZ4]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.001"/>
-  <testcase name="testWithRecords[13 magic=2, firstOffset=0, compressionType=LZ4]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.001"/>
-  <testcase name="testIterator[13 magic=2, firstOffset=0, compressionType=LZ4]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.174"/>
+  <testcase name="testWithRecords[13 magic=2, firstOffset=0, compressionType=LZ4]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
+  <testcase name="testIterator[13 magic=2, firstOffset=0, compressionType=LZ4]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
   <testcase name="testEmptyBatchDeletion[13 magic=2, firstOffset=0, compressionType=LZ4]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
-  <testcase name="testEmptyBatchRetention[13 magic=2, firstOffset=0, compressionType=LZ4]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
+  <testcase name="testEmptyBatchRetention[13 magic=2, firstOffset=0, compressionType=LZ4]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.001"/>
   <testcase name="testChecksum[14 magic=2, firstOffset=0, compressionType=ZSTD]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
-  <testcase name="testNextBatchSize[14 magic=2, firstOffset=0, compressionType=ZSTD]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.422"/>
-  <testcase name="testFilterToAlreadyCompactedLog[14 magic=2, firstOffset=0, compressionType=ZSTD]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.001"/>
-  <testcase name="testFilterToEmptyBatchRetention[14 magic=2, firstOffset=0, compressionType=ZSTD]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.001"/>
-  <testcase name="testFilterToBatchDiscard[14 magic=2, firstOffset=0, compressionType=ZSTD]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.001"/>
-  <testcase name="testBuildLeaderChangeMessage[14 magic=2, firstOffset=0, compressionType=ZSTD]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.001"/>
+  <testcase name="testNextBatchSize[14 magic=2, firstOffset=0, compressionType=ZSTD]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.116"/>
+  <testcase name="testFilterToAlreadyCompactedLog[14 magic=2, firstOffset=0, compressionType=ZSTD]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.002"/>
+  <testcase name="testFilterToEmptyBatchRetention[14 magic=2, firstOffset=0, compressionType=ZSTD]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.002"/>
+  <testcase name="testFilterToBatchDiscard[14 magic=2, firstOffset=0, compressionType=ZSTD]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.003"/>
+  <testcase name="testBuildLeaderChangeMessage[14 magic=2, firstOffset=0, compressionType=ZSTD]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
   <testcase name="testBuildEndTxnMarker[14 magic=2, firstOffset=0, compressionType=ZSTD]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
-  <testcase name="testHasRoomForMethod[14 magic=2, firstOffset=0, compressionType=ZSTD]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
-  <testcase name="testFilterToPreservesLogAppendTime[14 magic=2, firstOffset=0, compressionType=ZSTD]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.005"/>
-  <testcase name="testFilterToPreservesPartitionLeaderEpoch[14 magic=2, firstOffset=0, compressionType=ZSTD]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
-  <testcase name="testFilterTo[14 magic=2, firstOffset=0, compressionType=ZSTD]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.002"/>
+  <testcase name="testHasRoomForMethod[14 magic=2, firstOffset=0, compressionType=ZSTD]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.001"/>
+  <testcase name="testFilterToPreservesLogAppendTime[14 magic=2, firstOffset=0, compressionType=ZSTD]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.019"/>
+  <testcase name="testFilterToPreservesPartitionLeaderEpoch[14 magic=2, firstOffset=0, compressionType=ZSTD]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.004"/>
+  <testcase name="testFilterTo[14 magic=2, firstOffset=0, compressionType=ZSTD]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.004"/>
   <testcase name="testFilterToWithUndersizedBuffer[14 magic=2, firstOffset=0, compressionType=ZSTD]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.004"/>
   <testcase name="testHasRoomForMethodWithHeaders[14 magic=2, firstOffset=0, compressionType=ZSTD]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
   <testcase name="testFilterToPreservesProducerInfo[14 magic=2, firstOffset=0, compressionType=ZSTD]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.003"/>
   <testcase name="testWithRecords[14 magic=2, firstOffset=0, compressionType=ZSTD]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
-  <testcase name="testIterator[14 magic=2, firstOffset=0, compressionType=ZSTD]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.002"/>
+  <testcase name="testIterator[14 magic=2, firstOffset=0, compressionType=ZSTD]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.001"/>
   <testcase name="testEmptyBatchDeletion[14 magic=2, firstOffset=0, compressionType=ZSTD]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
-  <testcase name="testEmptyBatchRetention[14 magic=2, firstOffset=0, compressionType=ZSTD]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.001"/>
-  <testcase name="testChecksum[15 magic=0, firstOffset=57, compressionType=NONE]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
-  <testcase name="testNextBatchSize[15 magic=0, firstOffset=57, compressionType=NONE]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.008"/>
-  <testcase name="testFilterToAlreadyCompactedLog[15 magic=0, firstOffset=57, compressionType=NONE]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.002"/>
+  <testcase name="testEmptyBatchRetention[14 magic=2, firstOffset=0, compressionType=ZSTD]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
+  <testcase name="testChecksum[15 magic=0, firstOffset=57, compressionType=NONE]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.001"/>
+  <testcase name="testNextBatchSize[15 magic=0, firstOffset=57, compressionType=NONE]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
+  <testcase name="testFilterToAlreadyCompactedLog[15 magic=0, firstOffset=57, compressionType=NONE]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
   <testcase name="testFilterToEmptyBatchRetention[15 magic=0, firstOffset=57, compressionType=NONE]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.001"/>
-  <testcase name="testFilterToBatchDiscard[15 magic=0, firstOffset=57, compressionType=NONE]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.002">
+  <testcase name="testFilterToBatchDiscard[15 magic=0, firstOffset=57, compressionType=NONE]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0">
     <skipped/>
   </testcase>
   <testcase name="testBuildLeaderChangeMessage[15 magic=0, firstOffset=57, compressionType=NONE]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
-  <testcase name="testBuildEndTxnMarker[15 magic=0, firstOffset=57, compressionType=NONE]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
-  <testcase name="testHasRoomForMethod[15 magic=0, firstOffset=57, compressionType=NONE]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.006"/>
-  <testcase name="testFilterToPreservesLogAppendTime[15 magic=0, firstOffset=57, compressionType=NONE]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.001"/>
-  <testcase name="testFilterToPreservesPartitionLeaderEpoch[15 magic=0, firstOffset=57, compressionType=NONE]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.001"/>
-  <testcase name="testFilterTo[15 magic=0, firstOffset=57, compressionType=NONE]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.003"/>
-  <testcase name="testFilterToWithUndersizedBuffer[15 magic=0, firstOffset=57, compressionType=NONE]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.002"/>
+  <testcase name="testBuildEndTxnMarker[15 magic=0, firstOffset=57, compressionType=NONE]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.001"/>
+  <testcase name="testHasRoomForMethod[15 magic=0, firstOffset=57, compressionType=NONE]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
+  <testcase name="testFilterToPreservesLogAppendTime[15 magic=0, firstOffset=57, compressionType=NONE]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
+  <testcase name="testFilterToPreservesPartitionLeaderEpoch[15 magic=0, firstOffset=57, compressionType=NONE]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
+  <testcase name="testFilterTo[15 magic=0, firstOffset=57, compressionType=NONE]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.001"/>
+  <testcase name="testFilterToWithUndersizedBuffer[15 magic=0, firstOffset=57, compressionType=NONE]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
   <testcase name="testHasRoomForMethodWithHeaders[15 magic=0, firstOffset=57, compressionType=NONE]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.001"/>
-  <testcase name="testFilterToPreservesProducerInfo[15 magic=0, firstOffset=57, compressionType=NONE]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.001"/>
+  <testcase name="testFilterToPreservesProducerInfo[15 magic=0, firstOffset=57, compressionType=NONE]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
   <testcase name="testWithRecords[15 magic=0, firstOffset=57, compressionType=NONE]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
   <testcase name="testIterator[15 magic=0, firstOffset=57, compressionType=NONE]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.001"/>
   <testcase name="testEmptyBatchDeletion[15 magic=0, firstOffset=57, compressionType=NONE]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
-  <testcase name="testEmptyBatchRetention[15 magic=0, firstOffset=57, compressionType=NONE]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.001"/>
+  <testcase name="testEmptyBatchRetention[15 magic=0, firstOffset=57, compressionType=NONE]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
   <testcase name="testChecksum[16 magic=0, firstOffset=57, compressionType=GZIP]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
   <testcase name="testNextBatchSize[16 magic=0, firstOffset=57, compressionType=GZIP]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
   <testcase name="testFilterToAlreadyCompactedLog[16 magic=0, firstOffset=57, compressionType=GZIP]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.001"/>
   <testcase name="testFilterToEmptyBatchRetention[16 magic=0, firstOffset=57, compressionType=GZIP]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
-  <testcase name="testFilterToBatchDiscard[16 magic=0, firstOffset=57, compressionType=GZIP]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.001"/>
+  <testcase name="testFilterToBatchDiscard[16 magic=0, firstOffset=57, compressionType=GZIP]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
   <testcase name="testBuildLeaderChangeMessage[16 magic=0, firstOffset=57, compressionType=GZIP]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
   <testcase name="testBuildEndTxnMarker[16 magic=0, firstOffset=57, compressionType=GZIP]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
-  <testcase name="testHasRoomForMethod[16 magic=0, firstOffset=57, compressionType=GZIP]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
-  <testcase name="testFilterToPreservesLogAppendTime[16 magic=0, firstOffset=57, compressionType=GZIP]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.001"/>
+  <testcase name="testHasRoomForMethod[16 magic=0, firstOffset=57, compressionType=GZIP]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.001"/>
+  <testcase name="testFilterToPreservesLogAppendTime[16 magic=0, firstOffset=57, compressionType=GZIP]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
   <testcase name="testFilterToPreservesPartitionLeaderEpoch[16 magic=0, firstOffset=57, compressionType=GZIP]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
-  <testcase name="testFilterTo[16 magic=0, firstOffset=57, compressionType=GZIP]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.005"/>
-  <testcase name="testFilterToWithUndersizedBuffer[16 magic=0, firstOffset=57, compressionType=GZIP]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.006"/>
+  <testcase name="testFilterTo[16 magic=0, firstOffset=57, compressionType=GZIP]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.001"/>
+  <testcase name="testFilterToWithUndersizedBuffer[16 magic=0, firstOffset=57, compressionType=GZIP]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.001"/>
   <testcase name="testHasRoomForMethodWithHeaders[16 magic=0, firstOffset=57, compressionType=GZIP]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
   <testcase name="testFilterToPreservesProducerInfo[16 magic=0, firstOffset=57, compressionType=GZIP]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
   <testcase name="testWithRecords[16 magic=0, firstOffset=57, compressionType=GZIP]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
-  <testcase name="testIterator[16 magic=0, firstOffset=57, compressionType=GZIP]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.003"/>
-  <testcase name="testEmptyBatchDeletion[16 magic=0, firstOffset=57, compressionType=GZIP]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.001"/>
+  <testcase name="testIterator[16 magic=0, firstOffset=57, compressionType=GZIP]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.001"/>
+  <testcase name="testEmptyBatchDeletion[16 magic=0, firstOffset=57, compressionType=GZIP]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
   <testcase name="testEmptyBatchRetention[16 magic=0, firstOffset=57, compressionType=GZIP]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
   <testcase name="testChecksum[17 magic=0, firstOffset=57, compressionType=SNAPPY]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
-  <testcase name="testNextBatchSize[17 magic=0, firstOffset=57, compressionType=SNAPPY]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.001"/>
-  <testcase name="testFilterToAlreadyCompactedLog[17 magic=0, firstOffset=57, compressionType=SNAPPY]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.001"/>
+  <testcase name="testNextBatchSize[17 magic=0, firstOffset=57, compressionType=SNAPPY]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
+  <testcase name="testFilterToAlreadyCompactedLog[17 magic=0, firstOffset=57, compressionType=SNAPPY]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
   <testcase name="testFilterToEmptyBatchRetention[17 magic=0, firstOffset=57, compressionType=SNAPPY]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
-  <testcase name="testFilterToBatchDiscard[17 magic=0, firstOffset=57, compressionType=SNAPPY]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
+  <testcase name="testFilterToBatchDiscard[17 magic=0, firstOffset=57, compressionType=SNAPPY]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.001"/>
   <testcase name="testBuildLeaderChangeMessage[17 magic=0, firstOffset=57, compressionType=SNAPPY]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
   <testcase name="testBuildEndTxnMarker[17 magic=0, firstOffset=57, compressionType=SNAPPY]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
   <testcase name="testHasRoomForMethod[17 magic=0, firstOffset=57, compressionType=SNAPPY]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
-  <testcase name="testFilterToPreservesLogAppendTime[17 magic=0, firstOffset=57, compressionType=SNAPPY]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.005"/>
-  <testcase name="testFilterToPreservesPartitionLeaderEpoch[17 magic=0, firstOffset=57, compressionType=SNAPPY]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.001"/>
-  <testcase name="testFilterTo[17 magic=0, firstOffset=57, compressionType=SNAPPY]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.003"/>
-  <testcase name="testFilterToWithUndersizedBuffer[17 magic=0, firstOffset=57, compressionType=SNAPPY]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.002"/>
+  <testcase name="testFilterToPreservesLogAppendTime[17 magic=0, firstOffset=57, compressionType=SNAPPY]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
+  <testcase name="testFilterToPreservesPartitionLeaderEpoch[17 magic=0, firstOffset=57, compressionType=SNAPPY]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
+  <testcase name="testFilterTo[17 magic=0, firstOffset=57, compressionType=SNAPPY]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.001"/>
+  <testcase name="testFilterToWithUndersizedBuffer[17 magic=0, firstOffset=57, compressionType=SNAPPY]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
   <testcase name="testHasRoomForMethodWithHeaders[17 magic=0, firstOffset=57, compressionType=SNAPPY]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
   <testcase name="testFilterToPreservesProducerInfo[17 magic=0, firstOffset=57, compressionType=SNAPPY]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
   <testcase name="testWithRecords[17 magic=0, firstOffset=57, compressionType=SNAPPY]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
   <testcase name="testIterator[17 magic=0, firstOffset=57, compressionType=SNAPPY]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.001"/>
   <testcase name="testEmptyBatchDeletion[17 magic=0, firstOffset=57, compressionType=SNAPPY]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
   <testcase name="testEmptyBatchRetention[17 magic=0, firstOffset=57, compressionType=SNAPPY]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
-  <testcase name="testChecksum[18 magic=0, firstOffset=57, compressionType=LZ4]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.001"/>
-  <testcase name="testNextBatchSize[18 magic=0, firstOffset=57, compressionType=LZ4]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.001"/>
+  <testcase name="testChecksum[18 magic=0, firstOffset=57, compressionType=LZ4]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
+  <testcase name="testNextBatchSize[18 magic=0, firstOffset=57, compressionType=LZ4]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
   <testcase name="testFilterToAlreadyCompactedLog[18 magic=0, firstOffset=57, compressionType=LZ4]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.001"/>
   <testcase name="testFilterToEmptyBatchRetention[18 magic=0, firstOffset=57, compressionType=LZ4]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
-  <testcase name="testFilterToBatchDiscard[18 magic=0, firstOffset=57, compressionType=LZ4]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.002"/>
+  <testcase name="testFilterToBatchDiscard[18 magic=0, firstOffset=57, compressionType=LZ4]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
   <testcase name="testBuildLeaderChangeMessage[18 magic=0, firstOffset=57, compressionType=LZ4]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
   <testcase name="testBuildEndTxnMarker[18 magic=0, firstOffset=57, compressionType=LZ4]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
   <testcase name="testHasRoomForMethod[18 magic=0, firstOffset=57, compressionType=LZ4]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
-  <testcase name="testFilterToPreservesLogAppendTime[18 magic=0, firstOffset=57, compressionType=LZ4]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.001"/>
-  <testcase name="testFilterToPreservesPartitionLeaderEpoch[18 magic=0, firstOffset=57, compressionType=LZ4]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.001"/>
-  <testcase name="testFilterTo[18 magic=0, firstOffset=57, compressionType=LZ4]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.003"/>
-  <testcase name="testFilterToWithUndersizedBuffer[18 magic=0, firstOffset=57, compressionType=LZ4]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.002"/>
+  <testcase name="testFilterToPreservesLogAppendTime[18 magic=0, firstOffset=57, compressionType=LZ4]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
+  <testcase name="testFilterToPreservesPartitionLeaderEpoch[18 magic=0, firstOffset=57, compressionType=LZ4]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
+  <testcase name="testFilterTo[18 magic=0, firstOffset=57, compressionType=LZ4]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.001"/>
+  <testcase name="testFilterToWithUndersizedBuffer[18 magic=0, firstOffset=57, compressionType=LZ4]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.001"/>
   <testcase name="testHasRoomForMethodWithHeaders[18 magic=0, firstOffset=57, compressionType=LZ4]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
   <testcase name="testFilterToPreservesProducerInfo[18 magic=0, firstOffset=57, compressionType=LZ4]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
-  <testcase name="testWithRecords[18 magic=0, firstOffset=57, compressionType=LZ4]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.001"/>
-  <testcase name="testIterator[18 magic=0, firstOffset=57, compressionType=LZ4]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.001"/>
+  <testcase name="testWithRecords[18 magic=0, firstOffset=57, compressionType=LZ4]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
+  <testcase name="testIterator[18 magic=0, firstOffset=57, compressionType=LZ4]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
   <testcase name="testEmptyBatchDeletion[18 magic=0, firstOffset=57, compressionType=LZ4]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
   <testcase name="testEmptyBatchRetention[18 magic=0, firstOffset=57, compressionType=LZ4]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
   <testcase name="testChecksum[19 magic=0, firstOffset=57, compressionType=ZSTD]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
-  <testcase name="testNextBatchSize[19 magic=0, firstOffset=57, compressionType=ZSTD]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.001">
+  <testcase name="testNextBatchSize[19 magic=0, firstOffset=57, compressionType=ZSTD]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0">
     <skipped/>
   </testcase>
   <testcase name="testFilterToAlreadyCompactedLog[19 magic=0, firstOffset=57, compressionType=ZSTD]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0">
@@ -397,7 +397,7 @@
   <testcase name="testHasRoomForMethod[19 magic=0, firstOffset=57, compressionType=ZSTD]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0">
     <skipped/>
   </testcase>
-  <testcase name="testFilterToPreservesLogAppendTime[19 magic=0, firstOffset=57, compressionType=ZSTD]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.001">
+  <testcase name="testFilterToPreservesLogAppendTime[19 magic=0, firstOffset=57, compressionType=ZSTD]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0">
     <skipped/>
   </testcase>
   <testcase name="testFilterToPreservesPartitionLeaderEpoch[19 magic=0, firstOffset=57, compressionType=ZSTD]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
@@ -409,59 +409,59 @@
   </testcase>
   <testcase name="testHasRoomForMethodWithHeaders[19 magic=0, firstOffset=57, compressionType=ZSTD]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
   <testcase name="testFilterToPreservesProducerInfo[19 magic=0, firstOffset=57, compressionType=ZSTD]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
-  <testcase name="testWithRecords[19 magic=0, firstOffset=57, compressionType=ZSTD]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.002"/>
+  <testcase name="testWithRecords[19 magic=0, firstOffset=57, compressionType=ZSTD]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.001"/>
   <testcase name="testIterator[19 magic=0, firstOffset=57, compressionType=ZSTD]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0">
     <skipped/>
   </testcase>
   <testcase name="testEmptyBatchDeletion[19 magic=0, firstOffset=57, compressionType=ZSTD]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
   <testcase name="testEmptyBatchRetention[19 magic=0, firstOffset=57, compressionType=ZSTD]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
-  <testcase name="testChecksum[20 magic=1, firstOffset=57, compressionType=NONE]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.001"/>
+  <testcase name="testChecksum[20 magic=1, firstOffset=57, compressionType=NONE]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
   <testcase name="testNextBatchSize[20 magic=1, firstOffset=57, compressionType=NONE]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
   <testcase name="testFilterToAlreadyCompactedLog[20 magic=1, firstOffset=57, compressionType=NONE]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
   <testcase name="testFilterToEmptyBatchRetention[20 magic=1, firstOffset=57, compressionType=NONE]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
   <testcase name="testFilterToBatchDiscard[20 magic=1, firstOffset=57, compressionType=NONE]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0">
     <skipped/>
   </testcase>
-  <testcase name="testBuildLeaderChangeMessage[20 magic=1, firstOffset=57, compressionType=NONE]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
+  <testcase name="testBuildLeaderChangeMessage[20 magic=1, firstOffset=57, compressionType=NONE]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.001"/>
   <testcase name="testBuildEndTxnMarker[20 magic=1, firstOffset=57, compressionType=NONE]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
   <testcase name="testHasRoomForMethod[20 magic=1, firstOffset=57, compressionType=NONE]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
-  <testcase name="testFilterToPreservesLogAppendTime[20 magic=1, firstOffset=57, compressionType=NONE]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.001"/>
+  <testcase name="testFilterToPreservesLogAppendTime[20 magic=1, firstOffset=57, compressionType=NONE]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
   <testcase name="testFilterToPreservesPartitionLeaderEpoch[20 magic=1, firstOffset=57, compressionType=NONE]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
   <testcase name="testFilterTo[20 magic=1, firstOffset=57, compressionType=NONE]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
-  <testcase name="testFilterToWithUndersizedBuffer[20 magic=1, firstOffset=57, compressionType=NONE]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
+  <testcase name="testFilterToWithUndersizedBuffer[20 magic=1, firstOffset=57, compressionType=NONE]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.001"/>
   <testcase name="testHasRoomForMethodWithHeaders[20 magic=1, firstOffset=57, compressionType=NONE]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
   <testcase name="testFilterToPreservesProducerInfo[20 magic=1, firstOffset=57, compressionType=NONE]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
   <testcase name="testWithRecords[20 magic=1, firstOffset=57, compressionType=NONE]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
-  <testcase name="testIterator[20 magic=1, firstOffset=57, compressionType=NONE]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
+  <testcase name="testIterator[20 magic=1, firstOffset=57, compressionType=NONE]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.001"/>
   <testcase name="testEmptyBatchDeletion[20 magic=1, firstOffset=57, compressionType=NONE]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
-  <testcase name="testEmptyBatchRetention[20 magic=1, firstOffset=57, compressionType=NONE]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.001"/>
+  <testcase name="testEmptyBatchRetention[20 magic=1, firstOffset=57, compressionType=NONE]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
   <testcase name="testChecksum[21 magic=1, firstOffset=57, compressionType=GZIP]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
-  <testcase name="testNextBatchSize[21 magic=1, firstOffset=57, compressionType=GZIP]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
+  <testcase name="testNextBatchSize[21 magic=1, firstOffset=57, compressionType=GZIP]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.001"/>
   <testcase name="testFilterToAlreadyCompactedLog[21 magic=1, firstOffset=57, compressionType=GZIP]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.001"/>
   <testcase name="testFilterToEmptyBatchRetention[21 magic=1, firstOffset=57, compressionType=GZIP]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
-  <testcase name="testFilterToBatchDiscard[21 magic=1, firstOffset=57, compressionType=GZIP]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.001"/>
+  <testcase name="testFilterToBatchDiscard[21 magic=1, firstOffset=57, compressionType=GZIP]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
   <testcase name="testBuildLeaderChangeMessage[21 magic=1, firstOffset=57, compressionType=GZIP]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
-  <testcase name="testBuildEndTxnMarker[21 magic=1, firstOffset=57, compressionType=GZIP]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
+  <testcase name="testBuildEndTxnMarker[21 magic=1, firstOffset=57, compressionType=GZIP]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.001"/>
   <testcase name="testHasRoomForMethod[21 magic=1, firstOffset=57, compressionType=GZIP]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
   <testcase name="testFilterToPreservesLogAppendTime[21 magic=1, firstOffset=57, compressionType=GZIP]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.001"/>
   <testcase name="testFilterToPreservesPartitionLeaderEpoch[21 magic=1, firstOffset=57, compressionType=GZIP]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
-  <testcase name="testFilterTo[21 magic=1, firstOffset=57, compressionType=GZIP]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.006"/>
-  <testcase name="testFilterToWithUndersizedBuffer[21 magic=1, firstOffset=57, compressionType=GZIP]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.004"/>
+  <testcase name="testFilterTo[21 magic=1, firstOffset=57, compressionType=GZIP]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.001"/>
+  <testcase name="testFilterToWithUndersizedBuffer[21 magic=1, firstOffset=57, compressionType=GZIP]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
   <testcase name="testHasRoomForMethodWithHeaders[21 magic=1, firstOffset=57, compressionType=GZIP]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
   <testcase name="testFilterToPreservesProducerInfo[21 magic=1, firstOffset=57, compressionType=GZIP]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
-  <testcase name="testWithRecords[21 magic=1, firstOffset=57, compressionType=GZIP]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
-  <testcase name="testIterator[21 magic=1, firstOffset=57, compressionType=GZIP]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.001"/>
+  <testcase name="testWithRecords[21 magic=1, firstOffset=57, compressionType=GZIP]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.001"/>
+  <testcase name="testIterator[21 magic=1, firstOffset=57, compressionType=GZIP]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
   <testcase name="testEmptyBatchDeletion[21 magic=1, firstOffset=57, compressionType=GZIP]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
   <testcase name="testEmptyBatchRetention[21 magic=1, firstOffset=57, compressionType=GZIP]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
   <testcase name="testChecksum[22 magic=1, firstOffset=57, compressionType=SNAPPY]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
-  <testcase name="testNextBatchSize[22 magic=1, firstOffset=57, compressionType=SNAPPY]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.001"/>
-  <testcase name="testFilterToAlreadyCompactedLog[22 magic=1, firstOffset=57, compressionType=SNAPPY]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
+  <testcase name="testNextBatchSize[22 magic=1, firstOffset=57, compressionType=SNAPPY]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
+  <testcase name="testFilterToAlreadyCompactedLog[22 magic=1, firstOffset=57, compressionType=SNAPPY]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.001"/>
   <testcase name="testFilterToEmptyBatchRetention[22 magic=1, firstOffset=57, compressionType=SNAPPY]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
   <testcase name="testFilterToBatchDiscard[22 magic=1, firstOffset=57, compressionType=SNAPPY]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
   <testcase name="testBuildLeaderChangeMessage[22 magic=1, firstOffset=57, compressionType=SNAPPY]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
   <testcase name="testBuildEndTxnMarker[22 magic=1, firstOffset=57, compressionType=SNAPPY]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
   <testcase name="testHasRoomForMethod[22 magic=1, firstOffset=57, compressionType=SNAPPY]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
-  <testcase name="testFilterToPreservesLogAppendTime[22 magic=1, firstOffset=57, compressionType=SNAPPY]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.002"/>
+  <testcase name="testFilterToPreservesLogAppendTime[22 magic=1, firstOffset=57, compressionType=SNAPPY]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.001"/>
   <testcase name="testFilterToPreservesPartitionLeaderEpoch[22 magic=1, firstOffset=57, compressionType=SNAPPY]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
   <testcase name="testFilterTo[22 magic=1, firstOffset=57, compressionType=SNAPPY]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
   <testcase name="testFilterToWithUndersizedBuffer[22 magic=1, firstOffset=57, compressionType=SNAPPY]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
@@ -472,21 +472,21 @@
   <testcase name="testEmptyBatchDeletion[22 magic=1, firstOffset=57, compressionType=SNAPPY]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
   <testcase name="testEmptyBatchRetention[22 magic=1, firstOffset=57, compressionType=SNAPPY]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
   <testcase name="testChecksum[23 magic=1, firstOffset=57, compressionType=LZ4]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
-  <testcase name="testNextBatchSize[23 magic=1, firstOffset=57, compressionType=LZ4]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.001"/>
+  <testcase name="testNextBatchSize[23 magic=1, firstOffset=57, compressionType=LZ4]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
   <testcase name="testFilterToAlreadyCompactedLog[23 magic=1, firstOffset=57, compressionType=LZ4]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
-  <testcase name="testFilterToEmptyBatchRetention[23 magic=1, firstOffset=57, compressionType=LZ4]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
-  <testcase name="testFilterToBatchDiscard[23 magic=1, firstOffset=57, compressionType=LZ4]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.001"/>
+  <testcase name="testFilterToEmptyBatchRetention[23 magic=1, firstOffset=57, compressionType=LZ4]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.001"/>
+  <testcase name="testFilterToBatchDiscard[23 magic=1, firstOffset=57, compressionType=LZ4]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
   <testcase name="testBuildLeaderChangeMessage[23 magic=1, firstOffset=57, compressionType=LZ4]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
   <testcase name="testBuildEndTxnMarker[23 magic=1, firstOffset=57, compressionType=LZ4]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
   <testcase name="testHasRoomForMethod[23 magic=1, firstOffset=57, compressionType=LZ4]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
-  <testcase name="testFilterToPreservesLogAppendTime[23 magic=1, firstOffset=57, compressionType=LZ4]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.001"/>
+  <testcase name="testFilterToPreservesLogAppendTime[23 magic=1, firstOffset=57, compressionType=LZ4]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
   <testcase name="testFilterToPreservesPartitionLeaderEpoch[23 magic=1, firstOffset=57, compressionType=LZ4]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
-  <testcase name="testFilterTo[23 magic=1, firstOffset=57, compressionType=LZ4]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.007"/>
-  <testcase name="testFilterToWithUndersizedBuffer[23 magic=1, firstOffset=57, compressionType=LZ4]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.004"/>
-  <testcase name="testHasRoomForMethodWithHeaders[23 magic=1, firstOffset=57, compressionType=LZ4]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.166"/>
+  <testcase name="testFilterTo[23 magic=1, firstOffset=57, compressionType=LZ4]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
+  <testcase name="testFilterToWithUndersizedBuffer[23 magic=1, firstOffset=57, compressionType=LZ4]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.001"/>
+  <testcase name="testHasRoomForMethodWithHeaders[23 magic=1, firstOffset=57, compressionType=LZ4]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
   <testcase name="testFilterToPreservesProducerInfo[23 magic=1, firstOffset=57, compressionType=LZ4]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
   <testcase name="testWithRecords[23 magic=1, firstOffset=57, compressionType=LZ4]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
-  <testcase name="testIterator[23 magic=1, firstOffset=57, compressionType=LZ4]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.004"/>
+  <testcase name="testIterator[23 magic=1, firstOffset=57, compressionType=LZ4]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
   <testcase name="testEmptyBatchDeletion[23 magic=1, firstOffset=57, compressionType=LZ4]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
   <testcase name="testEmptyBatchRetention[23 magic=1, firstOffset=57, compressionType=LZ4]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
   <testcase name="testChecksum[24 magic=1, firstOffset=57, compressionType=ZSTD]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
@@ -500,7 +500,7 @@
   <testcase name="testFilterToBatchDiscard[24 magic=1, firstOffset=57, compressionType=ZSTD]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0">
     <skipped/>
   </testcase>
-  <testcase name="testBuildLeaderChangeMessage[24 magic=1, firstOffset=57, compressionType=ZSTD]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.001"/>
+  <testcase name="testBuildLeaderChangeMessage[24 magic=1, firstOffset=57, compressionType=ZSTD]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
   <testcase name="testBuildEndTxnMarker[24 magic=1, firstOffset=57, compressionType=ZSTD]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
   <testcase name="testHasRoomForMethod[24 magic=1, firstOffset=57, compressionType=ZSTD]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0">
     <skipped/>
@@ -508,11 +508,11 @@
   <testcase name="testFilterToPreservesLogAppendTime[24 magic=1, firstOffset=57, compressionType=ZSTD]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0">
     <skipped/>
   </testcase>
-  <testcase name="testFilterToPreservesPartitionLeaderEpoch[24 magic=1, firstOffset=57, compressionType=ZSTD]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.001"/>
+  <testcase name="testFilterToPreservesPartitionLeaderEpoch[24 magic=1, firstOffset=57, compressionType=ZSTD]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
   <testcase name="testFilterTo[24 magic=1, firstOffset=57, compressionType=ZSTD]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0">
     <skipped/>
   </testcase>
-  <testcase name="testFilterToWithUndersizedBuffer[24 magic=1, firstOffset=57, compressionType=ZSTD]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.001">
+  <testcase name="testFilterToWithUndersizedBuffer[24 magic=1, firstOffset=57, compressionType=ZSTD]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0">
     <skipped/>
   </testcase>
   <testcase name="testHasRoomForMethodWithHeaders[24 magic=1, firstOffset=57, compressionType=ZSTD]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
@@ -521,95 +521,95 @@
   <testcase name="testIterator[24 magic=1, firstOffset=57, compressionType=ZSTD]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0">
     <skipped/>
   </testcase>
-  <testcase name="testEmptyBatchDeletion[24 magic=1, firstOffset=57, compressionType=ZSTD]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.001"/>
+  <testcase name="testEmptyBatchDeletion[24 magic=1, firstOffset=57, compressionType=ZSTD]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
   <testcase name="testEmptyBatchRetention[24 magic=1, firstOffset=57, compressionType=ZSTD]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
   <testcase name="testChecksum[25 magic=2, firstOffset=57, compressionType=NONE]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
   <testcase name="testNextBatchSize[25 magic=2, firstOffset=57, compressionType=NONE]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
-  <testcase name="testFilterToAlreadyCompactedLog[25 magic=2, firstOffset=57, compressionType=NONE]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
-  <testcase name="testFilterToEmptyBatchRetention[25 magic=2, firstOffset=57, compressionType=NONE]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.001"/>
+  <testcase name="testFilterToAlreadyCompactedLog[25 magic=2, firstOffset=57, compressionType=NONE]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.001"/>
+  <testcase name="testFilterToEmptyBatchRetention[25 magic=2, firstOffset=57, compressionType=NONE]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
   <testcase name="testFilterToBatchDiscard[25 magic=2, firstOffset=57, compressionType=NONE]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
   <testcase name="testBuildLeaderChangeMessage[25 magic=2, firstOffset=57, compressionType=NONE]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
-  <testcase name="testBuildEndTxnMarker[25 magic=2, firstOffset=57, compressionType=NONE]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.001"/>
+  <testcase name="testBuildEndTxnMarker[25 magic=2, firstOffset=57, compressionType=NONE]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
   <testcase name="testHasRoomForMethod[25 magic=2, firstOffset=57, compressionType=NONE]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
   <testcase name="testFilterToPreservesLogAppendTime[25 magic=2, firstOffset=57, compressionType=NONE]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
   <testcase name="testFilterToPreservesPartitionLeaderEpoch[25 magic=2, firstOffset=57, compressionType=NONE]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
-  <testcase name="testFilterTo[25 magic=2, firstOffset=57, compressionType=NONE]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.012"/>
-  <testcase name="testFilterToWithUndersizedBuffer[25 magic=2, firstOffset=57, compressionType=NONE]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
-  <testcase name="testHasRoomForMethodWithHeaders[25 magic=2, firstOffset=57, compressionType=NONE]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.001"/>
-  <testcase name="testFilterToPreservesProducerInfo[25 magic=2, firstOffset=57, compressionType=NONE]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.005"/>
+  <testcase name="testFilterTo[25 magic=2, firstOffset=57, compressionType=NONE]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
+  <testcase name="testFilterToWithUndersizedBuffer[25 magic=2, firstOffset=57, compressionType=NONE]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.001"/>
+  <testcase name="testHasRoomForMethodWithHeaders[25 magic=2, firstOffset=57, compressionType=NONE]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
+  <testcase name="testFilterToPreservesProducerInfo[25 magic=2, firstOffset=57, compressionType=NONE]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
   <testcase name="testWithRecords[25 magic=2, firstOffset=57, compressionType=NONE]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
-  <testcase name="testIterator[25 magic=2, firstOffset=57, compressionType=NONE]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.001"/>
+  <testcase name="testIterator[25 magic=2, firstOffset=57, compressionType=NONE]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
   <testcase name="testEmptyBatchDeletion[25 magic=2, firstOffset=57, compressionType=NONE]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
   <testcase name="testEmptyBatchRetention[25 magic=2, firstOffset=57, compressionType=NONE]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
   <testcase name="testChecksum[26 magic=2, firstOffset=57, compressionType=GZIP]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
   <testcase name="testNextBatchSize[26 magic=2, firstOffset=57, compressionType=GZIP]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.001"/>
-  <testcase name="testFilterToAlreadyCompactedLog[26 magic=2, firstOffset=57, compressionType=GZIP]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.001"/>
-  <testcase name="testFilterToEmptyBatchRetention[26 magic=2, firstOffset=57, compressionType=GZIP]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.001"/>
-  <testcase name="testFilterToBatchDiscard[26 magic=2, firstOffset=57, compressionType=GZIP]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.004"/>
-  <testcase name="testBuildLeaderChangeMessage[26 magic=2, firstOffset=57, compressionType=GZIP]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.001"/>
-  <testcase name="testBuildEndTxnMarker[26 magic=2, firstOffset=57, compressionType=GZIP]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
-  <testcase name="testHasRoomForMethod[26 magic=2, firstOffset=57, compressionType=GZIP]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.001"/>
-  <testcase name="testFilterToPreservesLogAppendTime[26 magic=2, firstOffset=57, compressionType=GZIP]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.005"/>
-  <testcase name="testFilterToPreservesPartitionLeaderEpoch[26 magic=2, firstOffset=57, compressionType=GZIP]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.001"/>
-  <testcase name="testFilterTo[26 magic=2, firstOffset=57, compressionType=GZIP]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.003"/>
+  <testcase name="testFilterToAlreadyCompactedLog[26 magic=2, firstOffset=57, compressionType=GZIP]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
+  <testcase name="testFilterToEmptyBatchRetention[26 magic=2, firstOffset=57, compressionType=GZIP]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
+  <testcase name="testFilterToBatchDiscard[26 magic=2, firstOffset=57, compressionType=GZIP]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
+  <testcase name="testBuildLeaderChangeMessage[26 magic=2, firstOffset=57, compressionType=GZIP]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
+  <testcase name="testBuildEndTxnMarker[26 magic=2, firstOffset=57, compressionType=GZIP]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.001"/>
+  <testcase name="testHasRoomForMethod[26 magic=2, firstOffset=57, compressionType=GZIP]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
+  <testcase name="testFilterToPreservesLogAppendTime[26 magic=2, firstOffset=57, compressionType=GZIP]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
+  <testcase name="testFilterToPreservesPartitionLeaderEpoch[26 magic=2, firstOffset=57, compressionType=GZIP]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
+  <testcase name="testFilterTo[26 magic=2, firstOffset=57, compressionType=GZIP]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.001"/>
   <testcase name="testFilterToWithUndersizedBuffer[26 magic=2, firstOffset=57, compressionType=GZIP]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.001"/>
   <testcase name="testHasRoomForMethodWithHeaders[26 magic=2, firstOffset=57, compressionType=GZIP]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
-  <testcase name="testFilterToPreservesProducerInfo[26 magic=2, firstOffset=57, compressionType=GZIP]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.007"/>
-  <testcase name="testWithRecords[26 magic=2, firstOffset=57, compressionType=GZIP]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
+  <testcase name="testFilterToPreservesProducerInfo[26 magic=2, firstOffset=57, compressionType=GZIP]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.001"/>
+  <testcase name="testWithRecords[26 magic=2, firstOffset=57, compressionType=GZIP]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.001"/>
   <testcase name="testIterator[26 magic=2, firstOffset=57, compressionType=GZIP]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
   <testcase name="testEmptyBatchDeletion[26 magic=2, firstOffset=57, compressionType=GZIP]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
-  <testcase name="testEmptyBatchRetention[26 magic=2, firstOffset=57, compressionType=GZIP]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.001"/>
+  <testcase name="testEmptyBatchRetention[26 magic=2, firstOffset=57, compressionType=GZIP]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
   <testcase name="testChecksum[27 magic=2, firstOffset=57, compressionType=SNAPPY]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
-  <testcase name="testNextBatchSize[27 magic=2, firstOffset=57, compressionType=SNAPPY]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
-  <testcase name="testFilterToAlreadyCompactedLog[27 magic=2, firstOffset=57, compressionType=SNAPPY]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.001"/>
-  <testcase name="testFilterToEmptyBatchRetention[27 magic=2, firstOffset=57, compressionType=SNAPPY]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.003"/>
-  <testcase name="testFilterToBatchDiscard[27 magic=2, firstOffset=57, compressionType=SNAPPY]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.001"/>
-  <testcase name="testBuildLeaderChangeMessage[27 magic=2, firstOffset=57, compressionType=SNAPPY]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.001"/>
-  <testcase name="testBuildEndTxnMarker[27 magic=2, firstOffset=57, compressionType=SNAPPY]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.003"/>
+  <testcase name="testNextBatchSize[27 magic=2, firstOffset=57, compressionType=SNAPPY]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.001"/>
+  <testcase name="testFilterToAlreadyCompactedLog[27 magic=2, firstOffset=57, compressionType=SNAPPY]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
+  <testcase name="testFilterToEmptyBatchRetention[27 magic=2, firstOffset=57, compressionType=SNAPPY]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
+  <testcase name="testFilterToBatchDiscard[27 magic=2, firstOffset=57, compressionType=SNAPPY]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
+  <testcase name="testBuildLeaderChangeMessage[27 magic=2, firstOffset=57, compressionType=SNAPPY]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
+  <testcase name="testBuildEndTxnMarker[27 magic=2, firstOffset=57, compressionType=SNAPPY]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
   <testcase name="testHasRoomForMethod[27 magic=2, firstOffset=57, compressionType=SNAPPY]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
   <testcase name="testFilterToPreservesLogAppendTime[27 magic=2, firstOffset=57, compressionType=SNAPPY]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.001"/>
-  <testcase name="testFilterToPreservesPartitionLeaderEpoch[27 magic=2, firstOffset=57, compressionType=SNAPPY]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.001"/>
-  <testcase name="testFilterTo[27 magic=2, firstOffset=57, compressionType=SNAPPY]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
+  <testcase name="testFilterToPreservesPartitionLeaderEpoch[27 magic=2, firstOffset=57, compressionType=SNAPPY]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
+  <testcase name="testFilterTo[27 magic=2, firstOffset=57, compressionType=SNAPPY]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.001"/>
   <testcase name="testFilterToWithUndersizedBuffer[27 magic=2, firstOffset=57, compressionType=SNAPPY]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
   <testcase name="testHasRoomForMethodWithHeaders[27 magic=2, firstOffset=57, compressionType=SNAPPY]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
-  <testcase name="testFilterToPreservesProducerInfo[27 magic=2, firstOffset=57, compressionType=SNAPPY]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
+  <testcase name="testFilterToPreservesProducerInfo[27 magic=2, firstOffset=57, compressionType=SNAPPY]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.001"/>
   <testcase name="testWithRecords[27 magic=2, firstOffset=57, compressionType=SNAPPY]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
-  <testcase name="testIterator[27 magic=2, firstOffset=57, compressionType=SNAPPY]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.001"/>
-  <testcase name="testEmptyBatchDeletion[27 magic=2, firstOffset=57, compressionType=SNAPPY]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
-  <testcase name="testEmptyBatchRetention[27 magic=2, firstOffset=57, compressionType=SNAPPY]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.001"/>
+  <testcase name="testIterator[27 magic=2, firstOffset=57, compressionType=SNAPPY]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
+  <testcase name="testEmptyBatchDeletion[27 magic=2, firstOffset=57, compressionType=SNAPPY]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.001"/>
+  <testcase name="testEmptyBatchRetention[27 magic=2, firstOffset=57, compressionType=SNAPPY]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
   <testcase name="testChecksum[28 magic=2, firstOffset=57, compressionType=LZ4]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
-  <testcase name="testNextBatchSize[28 magic=2, firstOffset=57, compressionType=LZ4]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.001"/>
-  <testcase name="testFilterToAlreadyCompactedLog[28 magic=2, firstOffset=57, compressionType=LZ4]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.001"/>
-  <testcase name="testFilterToEmptyBatchRetention[28 magic=2, firstOffset=57, compressionType=LZ4]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.14"/>
+  <testcase name="testNextBatchSize[28 magic=2, firstOffset=57, compressionType=LZ4]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
+  <testcase name="testFilterToAlreadyCompactedLog[28 magic=2, firstOffset=57, compressionType=LZ4]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
+  <testcase name="testFilterToEmptyBatchRetention[28 magic=2, firstOffset=57, compressionType=LZ4]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
   <testcase name="testFilterToBatchDiscard[28 magic=2, firstOffset=57, compressionType=LZ4]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.001"/>
   <testcase name="testBuildLeaderChangeMessage[28 magic=2, firstOffset=57, compressionType=LZ4]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
   <testcase name="testBuildEndTxnMarker[28 magic=2, firstOffset=57, compressionType=LZ4]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
-  <testcase name="testHasRoomForMethod[28 magic=2, firstOffset=57, compressionType=LZ4]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.001"/>
+  <testcase name="testHasRoomForMethod[28 magic=2, firstOffset=57, compressionType=LZ4]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
   <testcase name="testFilterToPreservesLogAppendTime[28 magic=2, firstOffset=57, compressionType=LZ4]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
-  <testcase name="testFilterToPreservesPartitionLeaderEpoch[28 magic=2, firstOffset=57, compressionType=LZ4]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.001"/>
+  <testcase name="testFilterToPreservesPartitionLeaderEpoch[28 magic=2, firstOffset=57, compressionType=LZ4]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
   <testcase name="testFilterTo[28 magic=2, firstOffset=57, compressionType=LZ4]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.001"/>
   <testcase name="testFilterToWithUndersizedBuffer[28 magic=2, firstOffset=57, compressionType=LZ4]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.001"/>
   <testcase name="testHasRoomForMethodWithHeaders[28 magic=2, firstOffset=57, compressionType=LZ4]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
-  <testcase name="testFilterToPreservesProducerInfo[28 magic=2, firstOffset=57, compressionType=LZ4]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.001"/>
+  <testcase name="testFilterToPreservesProducerInfo[28 magic=2, firstOffset=57, compressionType=LZ4]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
   <testcase name="testWithRecords[28 magic=2, firstOffset=57, compressionType=LZ4]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.001"/>
   <testcase name="testIterator[28 magic=2, firstOffset=57, compressionType=LZ4]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
   <testcase name="testEmptyBatchDeletion[28 magic=2, firstOffset=57, compressionType=LZ4]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
   <testcase name="testEmptyBatchRetention[28 magic=2, firstOffset=57, compressionType=LZ4]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
   <testcase name="testChecksum[29 magic=2, firstOffset=57, compressionType=ZSTD]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
   <testcase name="testNextBatchSize[29 magic=2, firstOffset=57, compressionType=ZSTD]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.001"/>
-  <testcase name="testFilterToAlreadyCompactedLog[29 magic=2, firstOffset=57, compressionType=ZSTD]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.043"/>
-  <testcase name="testFilterToEmptyBatchRetention[29 magic=2, firstOffset=57, compressionType=ZSTD]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.001"/>
-  <testcase name="testFilterToBatchDiscard[29 magic=2, firstOffset=57, compressionType=ZSTD]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.002"/>
-  <testcase name="testBuildLeaderChangeMessage[29 magic=2, firstOffset=57, compressionType=ZSTD]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.002"/>
+  <testcase name="testFilterToAlreadyCompactedLog[29 magic=2, firstOffset=57, compressionType=ZSTD]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.008"/>
+  <testcase name="testFilterToEmptyBatchRetention[29 magic=2, firstOffset=57, compressionType=ZSTD]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.002"/>
+  <testcase name="testFilterToBatchDiscard[29 magic=2, firstOffset=57, compressionType=ZSTD]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.004"/>
+  <testcase name="testBuildLeaderChangeMessage[29 magic=2, firstOffset=57, compressionType=ZSTD]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
   <testcase name="testBuildEndTxnMarker[29 magic=2, firstOffset=57, compressionType=ZSTD]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
   <testcase name="testHasRoomForMethod[29 magic=2, firstOffset=57, compressionType=ZSTD]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.001"/>
-  <testcase name="testFilterToPreservesLogAppendTime[29 magic=2, firstOffset=57, compressionType=ZSTD]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.002"/>
-  <testcase name="testFilterToPreservesPartitionLeaderEpoch[29 magic=2, firstOffset=57, compressionType=ZSTD]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
-  <testcase name="testFilterTo[29 magic=2, firstOffset=57, compressionType=ZSTD]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.002"/>
-  <testcase name="testFilterToWithUndersizedBuffer[29 magic=2, firstOffset=57, compressionType=ZSTD]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.005"/>
-  <testcase name="testHasRoomForMethodWithHeaders[29 magic=2, firstOffset=57, compressionType=ZSTD]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
-  <testcase name="testFilterToPreservesProducerInfo[29 magic=2, firstOffset=57, compressionType=ZSTD]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.003"/>
-  <testcase name="testWithRecords[29 magic=2, firstOffset=57, compressionType=ZSTD]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.002"/>
+  <testcase name="testFilterToPreservesLogAppendTime[29 magic=2, firstOffset=57, compressionType=ZSTD]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.005"/>
+  <testcase name="testFilterToPreservesPartitionLeaderEpoch[29 magic=2, firstOffset=57, compressionType=ZSTD]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.001"/>
+  <testcase name="testFilterTo[29 magic=2, firstOffset=57, compressionType=ZSTD]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.006"/>
+  <testcase name="testFilterToWithUndersizedBuffer[29 magic=2, firstOffset=57, compressionType=ZSTD]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.004"/>
+  <testcase name="testHasRoomForMethodWithHeaders[29 magic=2, firstOffset=57, compressionType=ZSTD]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.001"/>
+  <testcase name="testFilterToPreservesProducerInfo[29 magic=2, firstOffset=57, compressionType=ZSTD]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.005"/>
+  <testcase name="testWithRecords[29 magic=2, firstOffset=57, compressionType=ZSTD]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.001"/>
   <testcase name="testIterator[29 magic=2, firstOffset=57, compressionType=ZSTD]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.001"/>
   <testcase name="testEmptyBatchDeletion[29 magic=2, firstOffset=57, compressionType=ZSTD]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>
   <testcase name="testEmptyBatchRetention[29 magic=2, firstOffset=57, compressionType=ZSTD]" classname="org.apache.kafka.common.record.MemoryRecordsTest" time="0.0"/>

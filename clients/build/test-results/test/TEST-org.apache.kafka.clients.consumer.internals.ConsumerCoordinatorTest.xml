@@ -1,248 +1,248 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" tests="238" skipped="0" failures="0" errors="0" timestamp="2020-10-29T02:31:41" hostname="chukun-mac" time="11.804">
+<testsuite name="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" tests="238" skipped="0" failures="0" errors="0" timestamp="2022-09-03T10:37:48" hostname="LAPTOP-FH01OFOM" time="13.891">
   <properties/>
-  <testcase name="testSubscriptionChangeWithAuthorizationFailure[rebalance protocol = EAGER]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.091"/>
-  <testcase name="testRefreshOffsetUnknownTopicOrPartition[rebalance protocol = EAGER]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.006"/>
-  <testcase name="testInvalidSessionTimeout[rebalance protocol = EAGER]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.005"/>
-  <testcase name="testFetchCommittedOffsets[rebalance protocol = EAGER]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.002"/>
-  <testcase name="testExcludeInternalTopicsConfigOption[rebalance protocol = EAGER]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.002"/>
-  <testcase name="testNoCoordinatorDiscoveryIfPartitionAwaitingReset[rebalance protocol = EAGER]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.002"/>
-  <testcase name="testCoordinatorDisconnect[rebalance protocol = EAGER]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.003"/>
-  <testcase name="testCommitAfterLeaveGroup[rebalance protocol = EAGER]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.006"/>
-  <testcase name="testGroupDescribeUnauthorized[rebalance protocol = EAGER]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.001"/>
+  <testcase name="testSubscriptionChangeWithAuthorizationFailure[rebalance protocol = EAGER]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.968"/>
+  <testcase name="testRefreshOffsetUnknownTopicOrPartition[rebalance protocol = EAGER]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.01"/>
+  <testcase name="testInvalidSessionTimeout[rebalance protocol = EAGER]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.008"/>
+  <testcase name="testFetchCommittedOffsets[rebalance protocol = EAGER]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.033"/>
+  <testcase name="testExcludeInternalTopicsConfigOption[rebalance protocol = EAGER]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.004"/>
+  <testcase name="testNoCoordinatorDiscoveryIfPartitionAwaitingReset[rebalance protocol = EAGER]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.004"/>
+  <testcase name="testCoordinatorDisconnect[rebalance protocol = EAGER]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.002"/>
+  <testcase name="testCommitAfterLeaveGroup[rebalance protocol = EAGER]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.008"/>
+  <testcase name="testGroupDescribeUnauthorized[rebalance protocol = EAGER]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.004"/>
   <testcase name="testOnPartitionsAssignExceptionThrownWhenNoPreviousThrownCallbacks[rebalance protocol = EAGER]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.016"/>
-  <testcase name="testCloseNoResponseForCommit[rebalance protocol = EAGER]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.721"/>
-  <testcase name="testThreadSafeAssignedPartitionsMetric[rebalance protocol = EAGER]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.004"/>
-  <testcase name="testRefreshOffsetLoadInProgress[rebalance protocol = EAGER]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.004"/>
+  <testcase name="testCloseNoResponseForCommit[rebalance protocol = EAGER]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.745"/>
+  <testcase name="testThreadSafeAssignedPartitionsMetric[rebalance protocol = EAGER]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.177"/>
+  <testcase name="testRefreshOffsetLoadInProgress[rebalance protocol = EAGER]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.006"/>
   <testcase name="testCommitOffsetOnly[rebalance protocol = EAGER]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.002"/>
-  <testcase name="testAuthenticationFailureInEnsureActiveGroup[rebalance protocol = EAGER]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.001"/>
+  <testcase name="testAuthenticationFailureInEnsureActiveGroup[rebalance protocol = EAGER]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.002"/>
   <testcase name="testAutoCommitRetryBackoff[rebalance protocol = EAGER]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.004"/>
-  <testcase name="testCoordinatorUnknownInUnsentCallbacksAfterCoordinatorDead[rebalance protocol = EAGER]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.001"/>
-  <testcase name="testSelectRebalanceProtcol[rebalance protocol = EAGER]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.003"/>
-  <testcase name="testCloseCoordinatorNotKnownWithCommits[rebalance protocol = EAGER]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.732"/>
-  <testcase name="testMaybeLeaveGroup[rebalance protocol = EAGER]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.003"/>
-  <testcase name="testRebalanceAfterTopicUnavailableWithPatternSubscribe[rebalance protocol = EAGER]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.005"/>
-  <testcase name="testHeartbeatThreadClose[rebalance protocol = EAGER]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.629"/>
+  <testcase name="testCoordinatorUnknownInUnsentCallbacksAfterCoordinatorDead[rebalance protocol = EAGER]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.002"/>
+  <testcase name="testSelectRebalanceProtcol[rebalance protocol = EAGER]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.002"/>
+  <testcase name="testCloseCoordinatorNotKnownWithCommits[rebalance protocol = EAGER]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.736"/>
+  <testcase name="testMaybeLeaveGroup[rebalance protocol = EAGER]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.005"/>
+  <testcase name="testRebalanceAfterTopicUnavailableWithPatternSubscribe[rebalance protocol = EAGER]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.008"/>
+  <testcase name="testHeartbeatThreadClose[rebalance protocol = EAGER]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.654"/>
   <testcase name="testRebalanceAfterTopicUnavailableWithSubscribe[rebalance protocol = EAGER]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.005"/>
-  <testcase name="testMetadataChangeTriggersRebalance[rebalance protocol = EAGER]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.002"/>
-  <testcase name="testCommitOffsetAsyncCoordinatorNotAvailable[rebalance protocol = EAGER]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.0"/>
-  <testcase name="testRebalanceWithMetadataChange[rebalance protocol = EAGER]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.006"/>
-  <testcase name="testPatternJoinGroupLeader[rebalance protocol = EAGER]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.003"/>
-  <testcase name="testThrowOnUnsupportedStableFlag[rebalance protocol = EAGER]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.002"/>
-  <testcase name="testCloseCoordinatorNotKnownManualAssignment[rebalance protocol = EAGER]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.75"/>
-  <testcase name="testUnknownMemberIdOnSyncGroup[rebalance protocol = EAGER]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.002"/>
+  <testcase name="testMetadataChangeTriggersRebalance[rebalance protocol = EAGER]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.009"/>
+  <testcase name="testCommitOffsetAsyncCoordinatorNotAvailable[rebalance protocol = EAGER]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.002"/>
+  <testcase name="testRebalanceWithMetadataChange[rebalance protocol = EAGER]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.027"/>
+  <testcase name="testPatternJoinGroupLeader[rebalance protocol = EAGER]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.008"/>
+  <testcase name="testThrowOnUnsupportedStableFlag[rebalance protocol = EAGER]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.005"/>
+  <testcase name="testCloseCoordinatorNotKnownManualAssignment[rebalance protocol = EAGER]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.736"/>
+  <testcase name="testUnknownMemberIdOnSyncGroup[rebalance protocol = EAGER]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.003"/>
   <testcase name="testUnexpectedErrorOnSyncGroup[rebalance protocol = EAGER]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.002"/>
-  <testcase name="testUnknownMemberId[rebalance protocol = EAGER]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.001"/>
-  <testcase name="testCommitOffsetIllegalGenerationWithResetGenearion[rebalance protocol = EAGER]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.003"/>
-  <testcase name="testUpdateMetadataDuringRebalance[rebalance protocol = EAGER]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.005"/>
-  <testcase name="testPendingMemberShouldLeaveGroup[rebalance protocol = EAGER]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.001"/>
-  <testcase name="testCloseCoordinatorUnavailableNoCommits[rebalance protocol = EAGER]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.203"/>
+  <testcase name="testUnknownMemberId[rebalance protocol = EAGER]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.003"/>
+  <testcase name="testCommitOffsetIllegalGenerationWithResetGenearion[rebalance protocol = EAGER]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.002"/>
+  <testcase name="testUpdateMetadataDuringRebalance[rebalance protocol = EAGER]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.004"/>
+  <testcase name="testPendingMemberShouldLeaveGroup[rebalance protocol = EAGER]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.002"/>
+  <testcase name="testCloseCoordinatorUnavailableNoCommits[rebalance protocol = EAGER]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.208"/>
   <testcase name="testRevokeExceptionThrownFirstNonBlockingSubCallbacks[rebalance protocol = EAGER]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.001"/>
-  <testcase name="testIllegalGenerationOnSyncGroup[rebalance protocol = EAGER]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.002"/>
-  <testcase name="testOnAssignmentExceptionShouldBeRenderedIfNotKafkaException[rebalance protocol = EAGER]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.005"/>
+  <testcase name="testIllegalGenerationOnSyncGroup[rebalance protocol = EAGER]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.004"/>
+  <testcase name="testOnAssignmentExceptionShouldBeRenderedIfNotKafkaException[rebalance protocol = EAGER]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.008"/>
   <testcase name="testCommitOffsetSyncWithoutFutureGetsCompleted[rebalance protocol = EAGER]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.001"/>
-  <testcase name="testUpdateLastHeartbeatPollWhenCoordinatorUnknown[rebalance protocol = EAGER]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.205"/>
+  <testcase name="testUpdateLastHeartbeatPollWhenCoordinatorUnknown[rebalance protocol = EAGER]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.14"/>
   <testcase name="testCommitOffsetSyncCallbackWithNonRetriableException[rebalance protocol = EAGER]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.002"/>
   <testcase name="testCommitOffsetMetadata[rebalance protocol = EAGER]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.001"/>
-  <testcase name="testNoThrowWhenStableFlagIsSupported[rebalance protocol = EAGER]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.001"/>
-  <testcase name="testCloseNoWait[rebalance protocol = EAGER]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.103"/>
-  <testcase name="testDisconnectInJoin[rebalance protocol = EAGER]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.002"/>
+  <testcase name="testNoThrowWhenStableFlagIsSupported[rebalance protocol = EAGER]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.002"/>
+  <testcase name="testCloseNoWait[rebalance protocol = EAGER]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.106"/>
+  <testcase name="testDisconnectInJoin[rebalance protocol = EAGER]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.004"/>
   <testcase name="testNoCoordinatorDiscoveryIfPositionsKnown[rebalance protocol = EAGER]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.001"/>
-  <testcase name="testGetGroupMetadata[rebalance protocol = EAGER]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.002"/>
-  <testcase name="testRefreshOffsetWithPendingTransactions[rebalance protocol = EAGER]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.001"/>
+  <testcase name="testGetGroupMetadata[rebalance protocol = EAGER]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.012"/>
+  <testcase name="testRefreshOffsetWithPendingTransactions[rebalance protocol = EAGER]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.002"/>
   <testcase name="testCommitOffsetSyncCoordinatorDisconnected[rebalance protocol = EAGER]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.001"/>
-  <testcase name="testRetryCommitUnknownTopicOrPartition[rebalance protocol = EAGER]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.001"/>
+  <testcase name="testRetryCommitUnknownTopicOrPartition[rebalance protocol = EAGER]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.002"/>
   <testcase name="testCommitOffsetAsyncFailedWithDefaultCallback[rebalance protocol = EAGER]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.001"/>
   <testcase name="testTopicAuthorizationFailedInOffsetFetch[rebalance protocol = EAGER]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.002"/>
-  <testcase name="testRefreshOffsetWithValidation[rebalance protocol = EAGER]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.004"/>
-  <testcase name="testCommitOffsetSyncNotCoordinator[rebalance protocol = EAGER]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.001"/>
+  <testcase name="testRefreshOffsetWithValidation[rebalance protocol = EAGER]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.003"/>
+  <testcase name="testCommitOffsetSyncNotCoordinator[rebalance protocol = EAGER]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.002"/>
   <testcase name="testMetadataRefreshDuringRebalance[rebalance protocol = EAGER]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.007"/>
-  <testcase name="testCommitOffsetRebalanceInProgress[rebalance protocol = EAGER]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.005"/>
+  <testcase name="testCommitOffsetRebalanceInProgress[rebalance protocol = EAGER]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.008"/>
   <testcase name="testCloseDynamicAssignment[rebalance protocol = EAGER]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.002"/>
-  <testcase name="testCloseMaxWaitCoordinatorUnavailableForCommit[rebalance protocol = EAGER]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.744"/>
+  <testcase name="testCloseMaxWaitCoordinatorUnavailableForCommit[rebalance protocol = EAGER]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.752"/>
   <testcase name="testIllegalGeneration[rebalance protocol = EAGER]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.002"/>
   <testcase name="testOnRevokeExceptionShouldBeRenderedIfNotKafkaException[rebalance protocol = EAGER]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.001"/>
   <testcase name="testNormalHeartbeat[rebalance protocol = EAGER]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.001"/>
-  <testcase name="testRefreshOffset[rebalance protocol = EAGER]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.0"/>
+  <testcase name="testRefreshOffset[rebalance protocol = EAGER]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.001"/>
   <testcase name="testRefreshOffsetsGroupNotAuthorized[rebalance protocol = EAGER]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.001"/>
   <testcase name="testCommitOffsetRequestSyncWithFencedInstanceIdException[rebalance protocol = EAGER]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.002"/>
-  <testcase name="testAutoCommitDynamicAssignmentRebalance[rebalance protocol = EAGER]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.001"/>
-  <testcase name="testNormalJoinGroupFollower[rebalance protocol = EAGER]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.001"/>
+  <testcase name="testAutoCommitDynamicAssignmentRebalance[rebalance protocol = EAGER]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.002"/>
+  <testcase name="testNormalJoinGroupFollower[rebalance protocol = EAGER]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.002"/>
   <testcase name="testCommitOffsetSyncCoordinatorNotAvailable[rebalance protocol = EAGER]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.001"/>
   <testcase name="testRefreshOffsetWithNoFetchableOffsets[rebalance protocol = EAGER]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.001"/>
   <testcase name="testCommitOffsetUnknownMemberWithNewGenearion[rebalance protocol = EAGER]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.002"/>
-  <testcase name="testCloseTimeoutCoordinatorUnavailableForCommit[rebalance protocol = EAGER]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.708"/>
-  <testcase name="testConsumerRejoinAfterRebalance[rebalance protocol = EAGER]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.004"/>
-  <testcase name="testCommitOffsetFencedInstanceWithNewGenearion[rebalance protocol = EAGER]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.001"/>
-  <testcase name="testMetadataTopicsDuringSubscriptionChange[rebalance protocol = EAGER]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.004"/>
-  <testcase name="testMetrics[rebalance protocol = EAGER]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.002"/>
-  <testcase name="testOutdatedCoordinatorAssignment[rebalance protocol = EAGER]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.004"/>
-  <testcase name="testCommitOffsetAsyncWithDefaultCallback[rebalance protocol = EAGER]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.001"/>
-  <testcase name="testAutoCommitManualAssignmentCoordinatorUnknown[rebalance protocol = EAGER]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.002"/>
-  <testcase name="testCoordinatorDisconnectAfterNotCoordinatorError[rebalance protocol = EAGER]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.001"/>
-  <testcase name="testWakeupDuringJoin[rebalance protocol = EAGER]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.002"/>
-  <testcase name="testCommitOffsetAsyncNotCoordinator[rebalance protocol = EAGER]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.002"/>
+  <testcase name="testCloseTimeoutCoordinatorUnavailableForCommit[rebalance protocol = EAGER]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.757"/>
+  <testcase name="testConsumerRejoinAfterRebalance[rebalance protocol = EAGER]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.013"/>
+  <testcase name="testCommitOffsetFencedInstanceWithNewGenearion[rebalance protocol = EAGER]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.002"/>
+  <testcase name="testMetadataTopicsDuringSubscriptionChange[rebalance protocol = EAGER]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.007"/>
+  <testcase name="testMetrics[rebalance protocol = EAGER]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.003"/>
+  <testcase name="testOutdatedCoordinatorAssignment[rebalance protocol = EAGER]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.042"/>
+  <testcase name="testCommitOffsetAsyncWithDefaultCallback[rebalance protocol = EAGER]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.002"/>
+  <testcase name="testAutoCommitManualAssignmentCoordinatorUnknown[rebalance protocol = EAGER]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.003"/>
+  <testcase name="testCoordinatorDisconnectAfterNotCoordinatorError[rebalance protocol = EAGER]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.002"/>
+  <testcase name="testWakeupDuringJoin[rebalance protocol = EAGER]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.028"/>
+  <testcase name="testCommitOffsetAsyncNotCoordinator[rebalance protocol = EAGER]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.001"/>
   <testcase name="testCommitOffsetUnknownMemberWithResetGenearion[rebalance protocol = EAGER]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.002"/>
-  <testcase name="testPatternJoinGroupFollower[rebalance protocol = EAGER]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.002"/>
-  <testcase name="testGroupReadUnauthorized[rebalance protocol = EAGER]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.004"/>
-  <testcase name="testOnAssignmentExceptionThrownFirstNonBlockingSubCallbacks[rebalance protocol = EAGER]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.004"/>
+  <testcase name="testPatternJoinGroupFollower[rebalance protocol = EAGER]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.003"/>
+  <testcase name="testGroupReadUnauthorized[rebalance protocol = EAGER]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.003"/>
+  <testcase name="testOnAssignmentExceptionThrownFirstNonBlockingSubCallbacks[rebalance protocol = EAGER]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.005"/>
   <testcase name="testIncludeInternalTopicsConfigOption[rebalance protocol = EAGER]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.001"/>
-  <testcase name="testUnsubscribeWithInvalidGeneration[rebalance protocol = EAGER]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.0"/>
-  <testcase name="testRebalanceInProgressOnSyncGroup[rebalance protocol = EAGER]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.002"/>
-  <testcase name="testCommitOffsetUnknownMemberId[rebalance protocol = EAGER]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.001"/>
-  <testcase name="testCloseNoResponseForLeaveGroup[rebalance protocol = EAGER]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.639"/>
-  <testcase name="testCommitOffsetRequestAsyncAlwaysReceiveFencedException[rebalance protocol = EAGER]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.002"/>
-  <testcase name="shouldUpdateConsumerGroupMetadataBeforeCallbacks[rebalance protocol = EAGER]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.01"/>
-  <testcase name="testOnPartitionsAssignExceptionShouldBeRenderedIfNotKafkaException[rebalance protocol = EAGER]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.003"/>
-  <testcase name="testForceMetadataRefreshForPatternSubscriptionDuringRebalance[rebalance protocol = EAGER]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.003"/>
+  <testcase name="testUnsubscribeWithInvalidGeneration[rebalance protocol = EAGER]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.008"/>
+  <testcase name="testRebalanceInProgressOnSyncGroup[rebalance protocol = EAGER]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.004"/>
+  <testcase name="testCommitOffsetUnknownMemberId[rebalance protocol = EAGER]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.002"/>
+  <testcase name="testCloseNoResponseForLeaveGroup[rebalance protocol = EAGER]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.766"/>
+  <testcase name="testCommitOffsetRequestAsyncAlwaysReceiveFencedException[rebalance protocol = EAGER]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.008"/>
+  <testcase name="shouldUpdateConsumerGroupMetadataBeforeCallbacks[rebalance protocol = EAGER]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.001"/>
+  <testcase name="testOnPartitionsAssignExceptionShouldBeRenderedIfNotKafkaException[rebalance protocol = EAGER]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.005"/>
+  <testcase name="testForceMetadataRefreshForPatternSubscriptionDuringRebalance[rebalance protocol = EAGER]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.063"/>
   <testcase name="testUnsubscribeWithValidGeneration[rebalance protocol = EAGER]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.001"/>
   <testcase name="testRefreshOffsetNotCoordinatorForConsumer[rebalance protocol = EAGER]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.001"/>
   <testcase name="testCloseManualAssignment[rebalance protocol = EAGER]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.001"/>
   <testcase name="testCommitOffsetFencedInstanceWithRebalancingGenearion[rebalance protocol = EAGER]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.001"/>
-  <testcase name="testCommitOffsetMetadataTooLarge[rebalance protocol = EAGER]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.001"/>
-  <testcase name="testCommitOffsetIllegalGenerationWithNewGeneration[rebalance protocol = EAGER]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.002"/>
-  <testcase name="testWakeupFromAssignmentCallback[rebalance protocol = EAGER]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.002"/>
+  <testcase name="testCommitOffsetMetadataTooLarge[rebalance protocol = EAGER]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.002"/>
+  <testcase name="testCommitOffsetIllegalGenerationWithNewGeneration[rebalance protocol = EAGER]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.001"/>
+  <testcase name="testWakeupFromAssignmentCallback[rebalance protocol = EAGER]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.057"/>
   <testcase name="testCommitOffsetAsyncDisconnected[rebalance protocol = EAGER]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.001"/>
   <testcase name="testCoordinatorDisconnectAfterCoordinatorNotAvailableError[rebalance protocol = EAGER]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.001"/>
-  <testcase name="testAutoCommitDynamicAssignment[rebalance protocol = EAGER]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.001"/>
+  <testcase name="testAutoCommitDynamicAssignment[rebalance protocol = EAGER]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.002"/>
   <testcase name="testLeaveGroupOnClose[rebalance protocol = EAGER]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.002"/>
-  <testcase name="testRebalanceAfterNotMatchingTopicUnavailableWithPatternSubscribe[rebalance protocol = EAGER]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.005"/>
-  <testcase name="testManyInFlightAsyncCommitsWithCoordinatorDisconnect[rebalance protocol = EAGER]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.033"/>
-  <testcase name="testRejoinGroup[rebalance protocol = EAGER]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.002"/>
-  <testcase name="testAutoCommitManualAssignment[rebalance protocol = EAGER]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.002"/>
-  <testcase name="testAsyncCommitCallbacksInvokedPriorToSyncCommitCompletion[rebalance protocol = EAGER]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.107"/>
-  <testcase name="testNormalJoinGroupLeader[rebalance protocol = EAGER]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.003"/>
+  <testcase name="testRebalanceAfterNotMatchingTopicUnavailableWithPatternSubscribe[rebalance protocol = EAGER]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.004"/>
+  <testcase name="testManyInFlightAsyncCommitsWithCoordinatorDisconnect[rebalance protocol = EAGER]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.035"/>
+  <testcase name="testRejoinGroup[rebalance protocol = EAGER]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.001"/>
+  <testcase name="testAutoCommitManualAssignment[rebalance protocol = EAGER]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.001"/>
+  <testcase name="testAsyncCommitCallbacksInvokedPriorToSyncCommitCompletion[rebalance protocol = EAGER]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.171"/>
+  <testcase name="testNormalJoinGroupLeader[rebalance protocol = EAGER]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.05"/>
   <testcase name="testCommitOffsetRequestAsyncWithFencedInstanceIdException[rebalance protocol = EAGER]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.002"/>
-  <testcase name="testAutoCommitAfterCoordinatorBackToService[rebalance protocol = EAGER]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.008"/>
-  <testcase name="testJoinGroupInvalidGroupId[rebalance protocol = EAGER]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.002"/>
-  <testcase name="testCommitOffsetIllegalGeneration[rebalance protocol = EAGER]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.001"/>
+  <testcase name="testAutoCommitAfterCoordinatorBackToService[rebalance protocol = EAGER]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.002"/>
+  <testcase name="testJoinGroupInvalidGroupId[rebalance protocol = EAGER]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.136"/>
+  <testcase name="testCommitOffsetIllegalGeneration[rebalance protocol = EAGER]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.003"/>
   <testcase name="testCoordinatorNotAvailable[rebalance protocol = EAGER]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.001"/>
-  <testcase name="testCloseCoordinatorNotKnownNoCommits[rebalance protocol = EAGER]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.206"/>
+  <testcase name="testCloseCoordinatorNotKnownNoCommits[rebalance protocol = EAGER]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.209"/>
   <testcase name="testNotCoordinator[rebalance protocol = EAGER]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.001"/>
-  <testcase name="testAutoCommitAwaitsInterval[rebalance protocol = EAGER]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.001"/>
-  <testcase name="testSubscriptionChangeWithAuthorizationFailure[rebalance protocol = COOPERATIVE]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.003"/>
+  <testcase name="testAutoCommitAwaitsInterval[rebalance protocol = EAGER]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.002"/>
+  <testcase name="testSubscriptionChangeWithAuthorizationFailure[rebalance protocol = COOPERATIVE]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.013"/>
   <testcase name="testRefreshOffsetUnknownTopicOrPartition[rebalance protocol = COOPERATIVE]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.001"/>
   <testcase name="testInvalidSessionTimeout[rebalance protocol = COOPERATIVE]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.001"/>
   <testcase name="testFetchCommittedOffsets[rebalance protocol = COOPERATIVE]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.001"/>
   <testcase name="testExcludeInternalTopicsConfigOption[rebalance protocol = COOPERATIVE]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.001"/>
   <testcase name="testNoCoordinatorDiscoveryIfPartitionAwaitingReset[rebalance protocol = COOPERATIVE]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.0"/>
-  <testcase name="testCoordinatorDisconnect[rebalance protocol = COOPERATIVE]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.0"/>
-  <testcase name="testCommitAfterLeaveGroup[rebalance protocol = COOPERATIVE]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.002"/>
-  <testcase name="testGroupDescribeUnauthorized[rebalance protocol = COOPERATIVE]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.0"/>
-  <testcase name="testOnPartitionsAssignExceptionThrownWhenNoPreviousThrownCallbacks[rebalance protocol = COOPERATIVE]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.005"/>
-  <testcase name="testCloseNoResponseForCommit[rebalance protocol = COOPERATIVE]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.627"/>
-  <testcase name="testThreadSafeAssignedPartitionsMetric[rebalance protocol = COOPERATIVE]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.002"/>
-  <testcase name="testRefreshOffsetLoadInProgress[rebalance protocol = COOPERATIVE]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.0"/>
-  <testcase name="testCommitOffsetOnly[rebalance protocol = COOPERATIVE]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.001"/>
+  <testcase name="testCoordinatorDisconnect[rebalance protocol = COOPERATIVE]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.001"/>
+  <testcase name="testCommitAfterLeaveGroup[rebalance protocol = COOPERATIVE]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.001"/>
+  <testcase name="testGroupDescribeUnauthorized[rebalance protocol = COOPERATIVE]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.001"/>
+  <testcase name="testOnPartitionsAssignExceptionThrownWhenNoPreviousThrownCallbacks[rebalance protocol = COOPERATIVE]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.002"/>
+  <testcase name="testCloseNoResponseForCommit[rebalance protocol = COOPERATIVE]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.677"/>
+  <testcase name="testThreadSafeAssignedPartitionsMetric[rebalance protocol = COOPERATIVE]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.133"/>
+  <testcase name="testRefreshOffsetLoadInProgress[rebalance protocol = COOPERATIVE]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.001"/>
+  <testcase name="testCommitOffsetOnly[rebalance protocol = COOPERATIVE]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.002"/>
   <testcase name="testAuthenticationFailureInEnsureActiveGroup[rebalance protocol = COOPERATIVE]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.001"/>
   <testcase name="testAutoCommitRetryBackoff[rebalance protocol = COOPERATIVE]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.001"/>
-  <testcase name="testCoordinatorUnknownInUnsentCallbacksAfterCoordinatorDead[rebalance protocol = COOPERATIVE]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.001"/>
-  <testcase name="testSelectRebalanceProtcol[rebalance protocol = COOPERATIVE]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.001"/>
-  <testcase name="testCloseCoordinatorNotKnownWithCommits[rebalance protocol = COOPERATIVE]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.745"/>
+  <testcase name="testCoordinatorUnknownInUnsentCallbacksAfterCoordinatorDead[rebalance protocol = COOPERATIVE]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.0"/>
+  <testcase name="testSelectRebalanceProtcol[rebalance protocol = COOPERATIVE]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.0"/>
+  <testcase name="testCloseCoordinatorNotKnownWithCommits[rebalance protocol = COOPERATIVE]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.746"/>
   <testcase name="testMaybeLeaveGroup[rebalance protocol = COOPERATIVE]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.002"/>
-  <testcase name="testRebalanceAfterTopicUnavailableWithPatternSubscribe[rebalance protocol = COOPERATIVE]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.003"/>
-  <testcase name="testHeartbeatThreadClose[rebalance protocol = COOPERATIVE]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.621"/>
-  <testcase name="testRebalanceAfterTopicUnavailableWithSubscribe[rebalance protocol = COOPERATIVE]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.002"/>
+  <testcase name="testRebalanceAfterTopicUnavailableWithPatternSubscribe[rebalance protocol = COOPERATIVE]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.006"/>
+  <testcase name="testHeartbeatThreadClose[rebalance protocol = COOPERATIVE]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.641"/>
+  <testcase name="testRebalanceAfterTopicUnavailableWithSubscribe[rebalance protocol = COOPERATIVE]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.004"/>
   <testcase name="testMetadataChangeTriggersRebalance[rebalance protocol = COOPERATIVE]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.002"/>
   <testcase name="testCommitOffsetAsyncCoordinatorNotAvailable[rebalance protocol = COOPERATIVE]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.001"/>
-  <testcase name="testRebalanceWithMetadataChange[rebalance protocol = COOPERATIVE]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.003"/>
-  <testcase name="testPatternJoinGroupLeader[rebalance protocol = COOPERATIVE]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.002"/>
+  <testcase name="testRebalanceWithMetadataChange[rebalance protocol = COOPERATIVE]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.004"/>
+  <testcase name="testPatternJoinGroupLeader[rebalance protocol = COOPERATIVE]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.003"/>
   <testcase name="testThrowOnUnsupportedStableFlag[rebalance protocol = COOPERATIVE]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.001"/>
-  <testcase name="testCloseCoordinatorNotKnownManualAssignment[rebalance protocol = COOPERATIVE]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.707"/>
-  <testcase name="testUnknownMemberIdOnSyncGroup[rebalance protocol = COOPERATIVE]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.002"/>
+  <testcase name="testCloseCoordinatorNotKnownManualAssignment[rebalance protocol = COOPERATIVE]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.725"/>
+  <testcase name="testUnknownMemberIdOnSyncGroup[rebalance protocol = COOPERATIVE]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.001"/>
   <testcase name="testUnexpectedErrorOnSyncGroup[rebalance protocol = COOPERATIVE]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.001"/>
   <testcase name="testUnknownMemberId[rebalance protocol = COOPERATIVE]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.002"/>
-  <testcase name="testCommitOffsetIllegalGenerationWithResetGenearion[rebalance protocol = COOPERATIVE]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.004"/>
+  <testcase name="testCommitOffsetIllegalGenerationWithResetGenearion[rebalance protocol = COOPERATIVE]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.001"/>
   <testcase name="testUpdateMetadataDuringRebalance[rebalance protocol = COOPERATIVE]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.006"/>
   <testcase name="testPendingMemberShouldLeaveGroup[rebalance protocol = COOPERATIVE]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.001"/>
-  <testcase name="testCloseCoordinatorUnavailableNoCommits[rebalance protocol = COOPERATIVE]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.202"/>
+  <testcase name="testCloseCoordinatorUnavailableNoCommits[rebalance protocol = COOPERATIVE]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.207"/>
   <testcase name="testRevokeExceptionThrownFirstNonBlockingSubCallbacks[rebalance protocol = COOPERATIVE]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.003"/>
-  <testcase name="testIllegalGenerationOnSyncGroup[rebalance protocol = COOPERATIVE]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.001"/>
-  <testcase name="testOnAssignmentExceptionShouldBeRenderedIfNotKafkaException[rebalance protocol = COOPERATIVE]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.003"/>
-  <testcase name="testCommitOffsetSyncWithoutFutureGetsCompleted[rebalance protocol = COOPERATIVE]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.0"/>
-  <testcase name="testUpdateLastHeartbeatPollWhenCoordinatorUnknown[rebalance protocol = COOPERATIVE]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.108"/>
+  <testcase name="testIllegalGenerationOnSyncGroup[rebalance protocol = COOPERATIVE]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.003"/>
+  <testcase name="testOnAssignmentExceptionShouldBeRenderedIfNotKafkaException[rebalance protocol = COOPERATIVE]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.004"/>
+  <testcase name="testCommitOffsetSyncWithoutFutureGetsCompleted[rebalance protocol = COOPERATIVE]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.001"/>
+  <testcase name="testUpdateLastHeartbeatPollWhenCoordinatorUnknown[rebalance protocol = COOPERATIVE]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.141"/>
   <testcase name="testCommitOffsetSyncCallbackWithNonRetriableException[rebalance protocol = COOPERATIVE]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.001"/>
   <testcase name="testCommitOffsetMetadata[rebalance protocol = COOPERATIVE]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.001"/>
-  <testcase name="testNoThrowWhenStableFlagIsSupported[rebalance protocol = COOPERATIVE]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.001"/>
-  <testcase name="testCloseNoWait[rebalance protocol = COOPERATIVE]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.104"/>
+  <testcase name="testNoThrowWhenStableFlagIsSupported[rebalance protocol = COOPERATIVE]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.0"/>
+  <testcase name="testCloseNoWait[rebalance protocol = COOPERATIVE]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.115"/>
   <testcase name="testDisconnectInJoin[rebalance protocol = COOPERATIVE]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.001"/>
   <testcase name="testNoCoordinatorDiscoveryIfPositionsKnown[rebalance protocol = COOPERATIVE]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.001"/>
   <testcase name="testGetGroupMetadata[rebalance protocol = COOPERATIVE]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.002"/>
   <testcase name="testRefreshOffsetWithPendingTransactions[rebalance protocol = COOPERATIVE]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.001"/>
   <testcase name="testCommitOffsetSyncCoordinatorDisconnected[rebalance protocol = COOPERATIVE]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.001"/>
-  <testcase name="testRetryCommitUnknownTopicOrPartition[rebalance protocol = COOPERATIVE]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.001"/>
-  <testcase name="testCommitOffsetAsyncFailedWithDefaultCallback[rebalance protocol = COOPERATIVE]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.0"/>
-  <testcase name="testTopicAuthorizationFailedInOffsetFetch[rebalance protocol = COOPERATIVE]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.001"/>
+  <testcase name="testRetryCommitUnknownTopicOrPartition[rebalance protocol = COOPERATIVE]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.0"/>
+  <testcase name="testCommitOffsetAsyncFailedWithDefaultCallback[rebalance protocol = COOPERATIVE]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.001"/>
+  <testcase name="testTopicAuthorizationFailedInOffsetFetch[rebalance protocol = COOPERATIVE]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.002"/>
   <testcase name="testRefreshOffsetWithValidation[rebalance protocol = COOPERATIVE]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.001"/>
-  <testcase name="testCommitOffsetSyncNotCoordinator[rebalance protocol = COOPERATIVE]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.001"/>
-  <testcase name="testMetadataRefreshDuringRebalance[rebalance protocol = COOPERATIVE]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.004"/>
-  <testcase name="testCommitOffsetRebalanceInProgress[rebalance protocol = COOPERATIVE]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.002"/>
-  <testcase name="testCloseDynamicAssignment[rebalance protocol = COOPERATIVE]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.001"/>
-  <testcase name="testCloseMaxWaitCoordinatorUnavailableForCommit[rebalance protocol = COOPERATIVE]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.702"/>
-  <testcase name="testIllegalGeneration[rebalance protocol = COOPERATIVE]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.001"/>
-  <testcase name="testOnRevokeExceptionShouldBeRenderedIfNotKafkaException[rebalance protocol = COOPERATIVE]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.003"/>
+  <testcase name="testCommitOffsetSyncNotCoordinator[rebalance protocol = COOPERATIVE]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.0"/>
+  <testcase name="testMetadataRefreshDuringRebalance[rebalance protocol = COOPERATIVE]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.009"/>
+  <testcase name="testCommitOffsetRebalanceInProgress[rebalance protocol = COOPERATIVE]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.006"/>
+  <testcase name="testCloseDynamicAssignment[rebalance protocol = COOPERATIVE]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.002"/>
+  <testcase name="testCloseMaxWaitCoordinatorUnavailableForCommit[rebalance protocol = COOPERATIVE]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.736"/>
+  <testcase name="testIllegalGeneration[rebalance protocol = COOPERATIVE]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.006"/>
+  <testcase name="testOnRevokeExceptionShouldBeRenderedIfNotKafkaException[rebalance protocol = COOPERATIVE]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.004"/>
   <testcase name="testNormalHeartbeat[rebalance protocol = COOPERATIVE]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.001"/>
   <testcase name="testRefreshOffset[rebalance protocol = COOPERATIVE]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.0"/>
   <testcase name="testRefreshOffsetsGroupNotAuthorized[rebalance protocol = COOPERATIVE]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.001"/>
-  <testcase name="testCommitOffsetRequestSyncWithFencedInstanceIdException[rebalance protocol = COOPERATIVE]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.003"/>
+  <testcase name="testCommitOffsetRequestSyncWithFencedInstanceIdException[rebalance protocol = COOPERATIVE]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.001"/>
   <testcase name="testAutoCommitDynamicAssignmentRebalance[rebalance protocol = COOPERATIVE]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.002"/>
-  <testcase name="testNormalJoinGroupFollower[rebalance protocol = COOPERATIVE]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.002"/>
-  <testcase name="testCommitOffsetSyncCoordinatorNotAvailable[rebalance protocol = COOPERATIVE]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.001"/>
+  <testcase name="testNormalJoinGroupFollower[rebalance protocol = COOPERATIVE]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.001"/>
+  <testcase name="testCommitOffsetSyncCoordinatorNotAvailable[rebalance protocol = COOPERATIVE]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.0"/>
   <testcase name="testRefreshOffsetWithNoFetchableOffsets[rebalance protocol = COOPERATIVE]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.001"/>
   <testcase name="testCommitOffsetUnknownMemberWithNewGenearion[rebalance protocol = COOPERATIVE]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.001"/>
-  <testcase name="testCloseTimeoutCoordinatorUnavailableForCommit[rebalance protocol = COOPERATIVE]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.738"/>
-  <testcase name="testConsumerRejoinAfterRebalance[rebalance protocol = COOPERATIVE]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.002"/>
+  <testcase name="testCloseTimeoutCoordinatorUnavailableForCommit[rebalance protocol = COOPERATIVE]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.722"/>
+  <testcase name="testConsumerRejoinAfterRebalance[rebalance protocol = COOPERATIVE]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.003"/>
   <testcase name="testCommitOffsetFencedInstanceWithNewGenearion[rebalance protocol = COOPERATIVE]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.001"/>
-  <testcase name="testMetadataTopicsDuringSubscriptionChange[rebalance protocol = COOPERATIVE]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.002"/>
-  <testcase name="testMetrics[rebalance protocol = COOPERATIVE]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.001"/>
+  <testcase name="testMetadataTopicsDuringSubscriptionChange[rebalance protocol = COOPERATIVE]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.001"/>
+  <testcase name="testMetrics[rebalance protocol = COOPERATIVE]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.0"/>
   <testcase name="testOutdatedCoordinatorAssignment[rebalance protocol = COOPERATIVE]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.002"/>
   <testcase name="testCommitOffsetAsyncWithDefaultCallback[rebalance protocol = COOPERATIVE]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.001"/>
   <testcase name="testAutoCommitManualAssignmentCoordinatorUnknown[rebalance protocol = COOPERATIVE]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.0"/>
-  <testcase name="testCoordinatorDisconnectAfterNotCoordinatorError[rebalance protocol = COOPERATIVE]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.0"/>
-  <testcase name="testWakeupDuringJoin[rebalance protocol = COOPERATIVE]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.002"/>
+  <testcase name="testCoordinatorDisconnectAfterNotCoordinatorError[rebalance protocol = COOPERATIVE]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.001"/>
+  <testcase name="testWakeupDuringJoin[rebalance protocol = COOPERATIVE]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.001"/>
   <testcase name="testCommitOffsetAsyncNotCoordinator[rebalance protocol = COOPERATIVE]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.001"/>
   <testcase name="testCommitOffsetUnknownMemberWithResetGenearion[rebalance protocol = COOPERATIVE]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.001"/>
-  <testcase name="testPatternJoinGroupFollower[rebalance protocol = COOPERATIVE]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.001"/>
-  <testcase name="testGroupReadUnauthorized[rebalance protocol = COOPERATIVE]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.002"/>
+  <testcase name="testPatternJoinGroupFollower[rebalance protocol = COOPERATIVE]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.0"/>
+  <testcase name="testGroupReadUnauthorized[rebalance protocol = COOPERATIVE]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.001"/>
   <testcase name="testOnAssignmentExceptionThrownFirstNonBlockingSubCallbacks[rebalance protocol = COOPERATIVE]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.003"/>
-  <testcase name="testIncludeInternalTopicsConfigOption[rebalance protocol = COOPERATIVE]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.0"/>
-  <testcase name="testUnsubscribeWithInvalidGeneration[rebalance protocol = COOPERATIVE]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.001"/>
+  <testcase name="testIncludeInternalTopicsConfigOption[rebalance protocol = COOPERATIVE]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.001"/>
+  <testcase name="testUnsubscribeWithInvalidGeneration[rebalance protocol = COOPERATIVE]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.0"/>
   <testcase name="testRebalanceInProgressOnSyncGroup[rebalance protocol = COOPERATIVE]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.001"/>
   <testcase name="testCommitOffsetUnknownMemberId[rebalance protocol = COOPERATIVE]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.001"/>
   <testcase name="testCloseNoResponseForLeaveGroup[rebalance protocol = COOPERATIVE]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.614"/>
-  <testcase name="testCommitOffsetRequestAsyncAlwaysReceiveFencedException[rebalance protocol = COOPERATIVE]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.002"/>
-  <testcase name="shouldUpdateConsumerGroupMetadataBeforeCallbacks[rebalance protocol = COOPERATIVE]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.001"/>
-  <testcase name="testOnPartitionsAssignExceptionShouldBeRenderedIfNotKafkaException[rebalance protocol = COOPERATIVE]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.002"/>
-  <testcase name="testForceMetadataRefreshForPatternSubscriptionDuringRebalance[rebalance protocol = COOPERATIVE]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.002"/>
-  <testcase name="testUnsubscribeWithValidGeneration[rebalance protocol = COOPERATIVE]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.001"/>
-  <testcase name="testRefreshOffsetNotCoordinatorForConsumer[rebalance protocol = COOPERATIVE]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.0"/>
+  <testcase name="testCommitOffsetRequestAsyncAlwaysReceiveFencedException[rebalance protocol = COOPERATIVE]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.001"/>
+  <testcase name="shouldUpdateConsumerGroupMetadataBeforeCallbacks[rebalance protocol = COOPERATIVE]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.0"/>
+  <testcase name="testOnPartitionsAssignExceptionShouldBeRenderedIfNotKafkaException[rebalance protocol = COOPERATIVE]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.001"/>
+  <testcase name="testForceMetadataRefreshForPatternSubscriptionDuringRebalance[rebalance protocol = COOPERATIVE]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.001"/>
+  <testcase name="testUnsubscribeWithValidGeneration[rebalance protocol = COOPERATIVE]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.0"/>
+  <testcase name="testRefreshOffsetNotCoordinatorForConsumer[rebalance protocol = COOPERATIVE]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.001"/>
   <testcase name="testCloseManualAssignment[rebalance protocol = COOPERATIVE]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.0"/>
-  <testcase name="testCommitOffsetFencedInstanceWithRebalancingGenearion[rebalance protocol = COOPERATIVE]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.002"/>
+  <testcase name="testCommitOffsetFencedInstanceWithRebalancingGenearion[rebalance protocol = COOPERATIVE]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.001"/>
   <testcase name="testCommitOffsetMetadataTooLarge[rebalance protocol = COOPERATIVE]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.001"/>
   <testcase name="testCommitOffsetIllegalGenerationWithNewGeneration[rebalance protocol = COOPERATIVE]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.001"/>
-  <testcase name="testWakeupFromAssignmentCallback[rebalance protocol = COOPERATIVE]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.002"/>
-  <testcase name="testCommitOffsetAsyncDisconnected[rebalance protocol = COOPERATIVE]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.001"/>
+  <testcase name="testWakeupFromAssignmentCallback[rebalance protocol = COOPERATIVE]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.001"/>
+  <testcase name="testCommitOffsetAsyncDisconnected[rebalance protocol = COOPERATIVE]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.0"/>
   <testcase name="testCoordinatorDisconnectAfterCoordinatorNotAvailableError[rebalance protocol = COOPERATIVE]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.001"/>
   <testcase name="testAutoCommitDynamicAssignment[rebalance protocol = COOPERATIVE]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.001"/>
-  <testcase name="testLeaveGroupOnClose[rebalance protocol = COOPERATIVE]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.001"/>
-  <testcase name="testRebalanceAfterNotMatchingTopicUnavailableWithPatternSubscribe[rebalance protocol = COOPERATIVE]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.004"/>
-  <testcase name="testManyInFlightAsyncCommitsWithCoordinatorDisconnect[rebalance protocol = COOPERATIVE]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.014"/>
-  <testcase name="testRejoinGroup[rebalance protocol = COOPERATIVE]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.002"/>
-  <testcase name="testAutoCommitManualAssignment[rebalance protocol = COOPERATIVE]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.004"/>
-  <testcase name="testAsyncCommitCallbacksInvokedPriorToSyncCommitCompletion[rebalance protocol = COOPERATIVE]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.102"/>
+  <testcase name="testLeaveGroupOnClose[rebalance protocol = COOPERATIVE]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.0"/>
+  <testcase name="testRebalanceAfterNotMatchingTopicUnavailableWithPatternSubscribe[rebalance protocol = COOPERATIVE]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.003"/>
+  <testcase name="testManyInFlightAsyncCommitsWithCoordinatorDisconnect[rebalance protocol = COOPERATIVE]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.011"/>
+  <testcase name="testRejoinGroup[rebalance protocol = COOPERATIVE]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.001"/>
+  <testcase name="testAutoCommitManualAssignment[rebalance protocol = COOPERATIVE]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.0"/>
+  <testcase name="testAsyncCommitCallbacksInvokedPriorToSyncCommitCompletion[rebalance protocol = COOPERATIVE]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.114"/>
   <testcase name="testNormalJoinGroupLeader[rebalance protocol = COOPERATIVE]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.002"/>
-  <testcase name="testCommitOffsetRequestAsyncWithFencedInstanceIdException[rebalance protocol = COOPERATIVE]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.002"/>
-  <testcase name="testAutoCommitAfterCoordinatorBackToService[rebalance protocol = COOPERATIVE]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.004"/>
-  <testcase name="testJoinGroupInvalidGroupId[rebalance protocol = COOPERATIVE]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.002"/>
+  <testcase name="testCommitOffsetRequestAsyncWithFencedInstanceIdException[rebalance protocol = COOPERATIVE]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.001"/>
+  <testcase name="testAutoCommitAfterCoordinatorBackToService[rebalance protocol = COOPERATIVE]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.0"/>
+  <testcase name="testJoinGroupInvalidGroupId[rebalance protocol = COOPERATIVE]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.001"/>
   <testcase name="testCommitOffsetIllegalGeneration[rebalance protocol = COOPERATIVE]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.001"/>
   <testcase name="testCoordinatorNotAvailable[rebalance protocol = COOPERATIVE]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.001"/>
-  <testcase name="testCloseCoordinatorNotKnownNoCommits[rebalance protocol = COOPERATIVE]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.204"/>
-  <testcase name="testNotCoordinator[rebalance protocol = COOPERATIVE]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.001"/>
-  <testcase name="testAutoCommitAwaitsInterval[rebalance protocol = COOPERATIVE]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.002"/>
-  <system-out><![CDATA[[2020-10-29 10:31:41,113] ERROR Topic authorization failed for topics [test2] (org.apache.kafka.clients.Metadata:301)
-[2020-10-29 10:31:41,128] ERROR JoinGroup failed due to fatal error: Group authorization failed. (org.apache.kafka.clients.consumer.internals.AbstractCoordinator:632)
-[2020-10-29 10:31:41,145] ERROR JoinGroup failed due to fatal error: The session timeout is not within the range allowed by the broker (as configured by group.min.session.timeout.ms and group.max.session.timeout.ms). (org.apache.kafka.clients.consumer.internals.AbstractCoordinator:632)
-[2020-10-29 10:31:41,167] ERROR User provided listener org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest$5 failed on invocation of onPartitionsAssigned for partitions [test1-0] (org.apache.kafka.clients.consumer.internals.ConsumerCoordinator:298)
+  <testcase name="testCloseCoordinatorNotKnownNoCommits[rebalance protocol = COOPERATIVE]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.214"/>
+  <testcase name="testNotCoordinator[rebalance protocol = COOPERATIVE]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.0"/>
+  <testcase name="testAutoCommitAwaitsInterval[rebalance protocol = COOPERATIVE]" classname="org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest" time="0.001"/>
+  <system-out><![CDATA[[2022-09-03 18:37:48,900] ERROR Topic authorization failed for topics [test2] (org.apache.kafka.clients.Metadata:301)
+[2022-09-03 18:37:49,019] ERROR JoinGroup failed due to fatal error: Group authorization failed. (org.apache.kafka.clients.consumer.internals.AbstractCoordinator:632)
+[2022-09-03 18:37:49,053] ERROR JoinGroup failed due to fatal error: The session timeout is not within the range allowed by the broker (as configured by group.min.session.timeout.ms and group.max.session.timeout.ms). (org.apache.kafka.clients.consumer.internals.AbstractCoordinator:632)
+[2022-09-03 18:37:49,116] ERROR User provided listener org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest$5 failed on invocation of onPartitionsAssigned for partitions [test1-0] (org.apache.kafka.clients.consumer.internals.ConsumerCoordinator:298)
 org.apache.kafka.common.KafkaException: Kaboom on partition assign!
 	at org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest$5.onPartitionsAssigned(ConsumerCoordinatorTest.java:522)
 	at org.apache.kafka.clients.consumer.internals.ConsumerCoordinator.invokePartitionsAssigned(ConsumerCoordinator.java:293)
@@ -312,8 +312,8 @@ org.apache.kafka.common.KafkaException: Kaboom on partition assign!
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:56)
 	at java.lang.Thread.run(Thread.java:748)
-[2020-10-29 10:31:44,067] ERROR Offset commit failed on partition test1-0 at offset 100: Specified group generation id is not valid. (org.apache.kafka.clients.consumer.internals.ConsumerCoordinator:1190)
-[2020-10-29 10:31:44,282] ERROR User provided listener org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest$7 failed on invocation of onPartitionsAssigned for partitions [test1-0] (org.apache.kafka.clients.consumer.internals.ConsumerCoordinator:298)
+[2022-09-03 18:37:52,275] ERROR Offset commit failed on partition test1-0 at offset 100: Specified group generation id is not valid. (org.apache.kafka.clients.consumer.internals.ConsumerCoordinator:1190)
+[2022-09-03 18:37:52,501] ERROR User provided listener org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest$7 failed on invocation of onPartitionsAssigned for partitions [test1-0] (org.apache.kafka.clients.consumer.internals.ConsumerCoordinator:298)
 org.apache.kafka.common.KafkaException: Kaboom on partition assign!
 	at org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest$7.onPartitionsAssigned(ConsumerCoordinatorTest.java:557)
 	at org.apache.kafka.clients.consumer.internals.ConsumerCoordinator.invokePartitionsAssigned(ConsumerCoordinator.java:293)
@@ -383,16 +383,16 @@ org.apache.kafka.common.KafkaException: Kaboom on partition assign!
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:56)
 	at java.lang.Thread.run(Thread.java:748)
-[2020-10-29 10:31:44,493] ERROR Offset commit failed on partition test1-0 at offset 100: The server experienced an unexpected error when processing the request. (org.apache.kafka.clients.consumer.internals.ConsumerCoordinator:1190)
-[2020-10-29 10:31:44,628] ERROR Offset commit failed on partition test1-0 at offset 100: The group is rebalancing, so a rejoin is needed. (org.apache.kafka.clients.consumer.internals.ConsumerCoordinator:1190)
-[2020-10-29 10:31:45,381] ERROR Offset commit failed on partition test1-0 at offset 100: The broker rejected this static consumer since another consumer with the same group.instance.id has registered with a different member.id. (org.apache.kafka.clients.consumer.internals.ConsumerCoordinator:1190)
-[2020-10-29 10:31:45,387] ERROR Offset commit failed on partition test1-0 at offset 100: The coordinator is not aware of this member. (org.apache.kafka.clients.consumer.internals.ConsumerCoordinator:1190)
-[2020-10-29 10:31:46,098] ERROR Offset commit failed on partition test1-0 at offset 100: The group is rebalancing, so a rejoin is needed. (org.apache.kafka.clients.consumer.internals.ConsumerCoordinator:1190)
-[ClientRequest(expectResponse=true, callback=org.apache.kafka.clients.consumer.internals.ConsumerNetworkClient$RequestFutureCompletionHandler@55dd6ac5, destination=2147483647, correlationId=6, clientId=mockClientId, createdTimeMs=1603938706096, requestBuilder=JoinGroupRequestData(groupId='test-group', sessionTimeoutMs=10000, rebalanceTimeoutMs=60000, memberId='', groupInstanceId='group-id', protocolType='consumer', protocols=[JoinGroupRequestProtocol(name='consumer-mock-assignor', metadata=[0, 1, 0, 0, 0, 1, 0, 5, 116, 101, 115, 116, 49, -1, -1, -1, -1, 0, 0, 0, 0]), JoinGroupRequestProtocol(name='throw-on-assignment-assignor', metadata=[0, 1, 0, 0, 0, 1, 0, 5, 116, 101, 115, 116, 49, -1, -1, -1, -1, 0, 0, 0, 0]), JoinGroupRequestProtocol(name='throw-fatal-error-on-assignment-assignor', metadata=[0, 1, 0, 0, 0, 1, 0, 5, 116, 101, 115, 116, 49, -1, -1, -1, -1, 0, 0, 0, 0])]))]
-[2020-10-29 10:31:46,101] ERROR Offset commit failed on partition test1-0 at offset 100: The broker rejected this static consumer since another consumer with the same group.instance.id has registered with a different member.id. (org.apache.kafka.clients.consumer.internals.ConsumerCoordinator:1190)
-[2020-10-29 10:31:46,121] ERROR Offset commit failed on partition test1-0 at offset 100: The coordinator is not aware of this member. (org.apache.kafka.clients.consumer.internals.ConsumerCoordinator:1190)
-[2020-10-29 10:31:46,126] ERROR JoinGroup failed due to fatal error: Group authorization failed. (org.apache.kafka.clients.consumer.internals.AbstractCoordinator:632)
-[2020-10-29 10:31:46,129] ERROR User provided listener org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest$4 failed on invocation of onPartitionsAssigned for partitions [test1-0] (org.apache.kafka.clients.consumer.internals.ConsumerCoordinator:298)
+[2022-09-03 18:37:52,647] ERROR Offset commit failed on partition test1-0 at offset 100: The server experienced an unexpected error when processing the request. (org.apache.kafka.clients.consumer.internals.ConsumerCoordinator:1190)
+[2022-09-03 18:37:52,796] ERROR Offset commit failed on partition test1-0 at offset 100: The group is rebalancing, so a rejoin is needed. (org.apache.kafka.clients.consumer.internals.ConsumerCoordinator:1190)
+[2022-09-03 18:37:53,562] ERROR Offset commit failed on partition test1-0 at offset 100: The broker rejected this static consumer since another consumer with the same group.instance.id has registered with a different member.id. (org.apache.kafka.clients.consumer.internals.ConsumerCoordinator:1190)
+[2022-09-03 18:37:53,571] ERROR Offset commit failed on partition test1-0 at offset 100: The coordinator is not aware of this member. (org.apache.kafka.clients.consumer.internals.ConsumerCoordinator:1190)
+[2022-09-03 18:37:54,332] ERROR Offset commit failed on partition test1-0 at offset 100: The group is rebalancing, so a rejoin is needed. (org.apache.kafka.clients.consumer.internals.ConsumerCoordinator:1190)
+[ClientRequest(expectResponse=true, callback=org.apache.kafka.clients.consumer.internals.ConsumerNetworkClient$RequestFutureCompletionHandler@657076f9, destination=2147483647, correlationId=6, clientId=mockClientId, createdTimeMs=1662201474328, requestBuilder=JoinGroupRequestData(groupId='test-group', sessionTimeoutMs=10000, rebalanceTimeoutMs=60000, memberId='', groupInstanceId='group-id', protocolType='consumer', protocols=[JoinGroupRequestProtocol(name='consumer-mock-assignor', metadata=[0, 1, 0, 0, 0, 1, 0, 5, 116, 101, 115, 116, 49, -1, -1, -1, -1, 0, 0, 0, 0]), JoinGroupRequestProtocol(name='throw-on-assignment-assignor', metadata=[0, 1, 0, 0, 0, 1, 0, 5, 116, 101, 115, 116, 49, -1, -1, -1, -1, 0, 0, 0, 0]), JoinGroupRequestProtocol(name='throw-fatal-error-on-assignment-assignor', metadata=[0, 1, 0, 0, 0, 1, 0, 5, 116, 101, 115, 116, 49, -1, -1, -1, -1, 0, 0, 0, 0])]))]
+[2022-09-03 18:37:54,343] ERROR Offset commit failed on partition test1-0 at offset 100: The broker rejected this static consumer since another consumer with the same group.instance.id has registered with a different member.id. (org.apache.kafka.clients.consumer.internals.ConsumerCoordinator:1190)
+[2022-09-03 18:37:54,433] ERROR Offset commit failed on partition test1-0 at offset 100: The coordinator is not aware of this member. (org.apache.kafka.clients.consumer.internals.ConsumerCoordinator:1190)
+[2022-09-03 18:37:54,438] ERROR JoinGroup failed due to fatal error: Group authorization failed. (org.apache.kafka.clients.consumer.internals.AbstractCoordinator:632)
+[2022-09-03 18:37:54,442] ERROR User provided listener org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest$4 failed on invocation of onPartitionsAssigned for partitions [test1-0] (org.apache.kafka.clients.consumer.internals.ConsumerCoordinator:298)
 org.apache.kafka.common.KafkaException: Kaboom on partition assign!
 	at org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest$4.onPartitionsAssigned(ConsumerCoordinatorTest.java:508)
 	at org.apache.kafka.clients.consumer.internals.ConsumerCoordinator.invokePartitionsAssigned(ConsumerCoordinator.java:293)
@@ -462,9 +462,9 @@ org.apache.kafka.common.KafkaException: Kaboom on partition assign!
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:56)
 	at java.lang.Thread.run(Thread.java:748)
-[2020-10-29 10:31:46,136] ERROR Offset commit failed on partition test1-0 at offset 100: The coordinator is not aware of this member. (org.apache.kafka.clients.consumer.internals.ConsumerCoordinator:1190)
-[2020-10-29 10:31:46,778] ERROR Offset commit failed on partition test1-0 at offset 100: The broker rejected this static consumer since another consumer with the same group.instance.id has registered with a different member.id. (org.apache.kafka.clients.consumer.internals.ConsumerCoordinator:1190)
-[2020-10-29 10:31:46,789] ERROR User provided listener org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest$8 failed on invocation of onPartitionsAssigned for partitions [test1-0] (org.apache.kafka.clients.consumer.internals.ConsumerCoordinator:298)
+[2022-09-03 18:37:54,458] ERROR Offset commit failed on partition test1-0 at offset 100: The coordinator is not aware of this member. (org.apache.kafka.clients.consumer.internals.ConsumerCoordinator:1190)
+[2022-09-03 18:37:55,232] ERROR Offset commit failed on partition test1-0 at offset 100: The broker rejected this static consumer since another consumer with the same group.instance.id has registered with a different member.id. (org.apache.kafka.clients.consumer.internals.ConsumerCoordinator:1190)
+[2022-09-03 18:37:55,236] ERROR User provided listener org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest$8 failed on invocation of onPartitionsAssigned for partitions [test1-0] (org.apache.kafka.clients.consumer.internals.ConsumerCoordinator:298)
 java.lang.IllegalStateException: Illegal state on partition assign!
 	at org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest$8.onPartitionsAssigned(ConsumerCoordinatorTest.java:571)
 	at org.apache.kafka.clients.consumer.internals.ConsumerCoordinator.invokePartitionsAssigned(ConsumerCoordinator.java:293)
@@ -534,16 +534,16 @@ java.lang.IllegalStateException: Illegal state on partition assign!
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:56)
 	at java.lang.Thread.run(Thread.java:748)
-[2020-10-29 10:31:46,798] ERROR Offset commit failed on partition test1-0 at offset 100: The broker rejected this static consumer since another consumer with the same group.instance.id has registered with a different member.id. (org.apache.kafka.clients.consumer.internals.ConsumerCoordinator:1190)
-[2020-10-29 10:31:46,799] ERROR Offset commit failed on partition test1-0 at offset 100: The metadata field of the offset request was too large. (org.apache.kafka.clients.consumer.internals.ConsumerCoordinator:1190)
-[2020-10-29 10:31:46,801] ERROR Offset commit failed on partition test1-0 at offset 100: Specified group generation id is not valid. (org.apache.kafka.clients.consumer.internals.ConsumerCoordinator:1190)
-[2020-10-29 10:31:46,962] ERROR Offset commit failed on partition test1-0 at offset 100: The broker rejected this static consumer since another consumer with the same group.instance.id has registered with a different member.id. (org.apache.kafka.clients.consumer.internals.ConsumerCoordinator:1190)
-[2020-10-29 10:31:46,971] ERROR JoinGroup failed due to fatal error: The configured groupId is invalid. (org.apache.kafka.clients.consumer.internals.AbstractCoordinator:632)
-[2020-10-29 10:31:46,973] ERROR Offset commit failed on partition test1-0 at offset 100: Specified group generation id is not valid. (org.apache.kafka.clients.consumer.internals.ConsumerCoordinator:1190)
-[2020-10-29 10:31:47,184] ERROR Topic authorization failed for topics [test2] (org.apache.kafka.clients.Metadata:301)
-[2020-10-29 10:31:47,185] ERROR JoinGroup failed due to fatal error: Group authorization failed. (org.apache.kafka.clients.consumer.internals.AbstractCoordinator:632)
-[2020-10-29 10:31:47,188] ERROR JoinGroup failed due to fatal error: The session timeout is not within the range allowed by the broker (as configured by group.min.session.timeout.ms and group.max.session.timeout.ms). (org.apache.kafka.clients.consumer.internals.AbstractCoordinator:632)
-[2020-10-29 10:31:47,195] ERROR User provided listener org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest$5 failed on invocation of onPartitionsAssigned for partitions [test1-0] (org.apache.kafka.clients.consumer.internals.ConsumerCoordinator:298)
+[2022-09-03 18:37:55,308] ERROR Offset commit failed on partition test1-0 at offset 100: The broker rejected this static consumer since another consumer with the same group.instance.id has registered with a different member.id. (org.apache.kafka.clients.consumer.internals.ConsumerCoordinator:1190)
+[2022-09-03 18:37:55,309] ERROR Offset commit failed on partition test1-0 at offset 100: The metadata field of the offset request was too large. (org.apache.kafka.clients.consumer.internals.ConsumerCoordinator:1190)
+[2022-09-03 18:37:55,310] ERROR Offset commit failed on partition test1-0 at offset 100: Specified group generation id is not valid. (org.apache.kafka.clients.consumer.internals.ConsumerCoordinator:1190)
+[2022-09-03 18:37:55,639] ERROR Offset commit failed on partition test1-0 at offset 100: The broker rejected this static consumer since another consumer with the same group.instance.id has registered with a different member.id. (org.apache.kafka.clients.consumer.internals.ConsumerCoordinator:1190)
+[2022-09-03 18:37:55,643] ERROR JoinGroup failed due to fatal error: The configured groupId is invalid. (org.apache.kafka.clients.consumer.internals.AbstractCoordinator:632)
+[2022-09-03 18:37:55,780] ERROR Offset commit failed on partition test1-0 at offset 100: Specified group generation id is not valid. (org.apache.kafka.clients.consumer.internals.ConsumerCoordinator:1190)
+[2022-09-03 18:37:55,994] ERROR Topic authorization failed for topics [test2] (org.apache.kafka.clients.Metadata:301)
+[2022-09-03 18:37:55,995] ERROR JoinGroup failed due to fatal error: Group authorization failed. (org.apache.kafka.clients.consumer.internals.AbstractCoordinator:632)
+[2022-09-03 18:37:56,009] ERROR JoinGroup failed due to fatal error: The session timeout is not within the range allowed by the broker (as configured by group.min.session.timeout.ms and group.max.session.timeout.ms). (org.apache.kafka.clients.consumer.internals.AbstractCoordinator:632)
+[2022-09-03 18:37:56,016] ERROR User provided listener org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest$5 failed on invocation of onPartitionsAssigned for partitions [test1-0] (org.apache.kafka.clients.consumer.internals.ConsumerCoordinator:298)
 org.apache.kafka.common.KafkaException: Kaboom on partition assign!
 	at org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest$5.onPartitionsAssigned(ConsumerCoordinatorTest.java:522)
 	at org.apache.kafka.clients.consumer.internals.ConsumerCoordinator.invokePartitionsAssigned(ConsumerCoordinator.java:293)
@@ -613,8 +613,8 @@ org.apache.kafka.common.KafkaException: Kaboom on partition assign!
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:56)
 	at java.lang.Thread.run(Thread.java:748)
-[2020-10-29 10:31:49,929] ERROR Offset commit failed on partition test1-0 at offset 100: Specified group generation id is not valid. (org.apache.kafka.clients.consumer.internals.ConsumerCoordinator:1190)
-[2020-10-29 10:31:50,142] ERROR User provided listener org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest$3 failed on invocation of onPartitionsRevoked for partitions [test2-0] (org.apache.kafka.clients.consumer.internals.ConsumerCoordinator:317)
+[2022-09-03 18:37:58,974] ERROR Offset commit failed on partition test1-0 at offset 100: Specified group generation id is not valid. (org.apache.kafka.clients.consumer.internals.ConsumerCoordinator:1190)
+[2022-09-03 18:37:59,188] ERROR User provided listener org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest$3 failed on invocation of onPartitionsRevoked for partitions [test2-0] (org.apache.kafka.clients.consumer.internals.ConsumerCoordinator:317)
 org.apache.kafka.common.KafkaException: Kaboom on revoke!
 	at org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest$3.onPartitionsRevoked(ConsumerCoordinatorTest.java:488)
 	at org.apache.kafka.clients.consumer.internals.ConsumerCoordinator.invokePartitionsRevoked(ConsumerCoordinator.java:312)
@@ -684,7 +684,7 @@ org.apache.kafka.common.KafkaException: Kaboom on revoke!
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:56)
 	at java.lang.Thread.run(Thread.java:748)
-[2020-10-29 10:31:50,146] ERROR User provided listener org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest$7 failed on invocation of onPartitionsAssigned for partitions [test1-0] (org.apache.kafka.clients.consumer.internals.ConsumerCoordinator:298)
+[2022-09-03 18:37:59,194] ERROR User provided listener org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest$7 failed on invocation of onPartitionsAssigned for partitions [test1-0] (org.apache.kafka.clients.consumer.internals.ConsumerCoordinator:298)
 org.apache.kafka.common.KafkaException: Kaboom on partition assign!
 	at org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest$7.onPartitionsAssigned(ConsumerCoordinatorTest.java:557)
 	at org.apache.kafka.clients.consumer.internals.ConsumerCoordinator.invokePartitionsAssigned(ConsumerCoordinator.java:293)
@@ -754,9 +754,9 @@ org.apache.kafka.common.KafkaException: Kaboom on partition assign!
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:56)
 	at java.lang.Thread.run(Thread.java:748)
-[2020-10-29 10:31:50,256] ERROR Offset commit failed on partition test1-0 at offset 100: The server experienced an unexpected error when processing the request. (org.apache.kafka.clients.consumer.internals.ConsumerCoordinator:1190)
-[2020-10-29 10:31:50,379] ERROR Offset commit failed on partition test1-0 at offset 100: The group is rebalancing, so a rejoin is needed. (org.apache.kafka.clients.consumer.internals.ConsumerCoordinator:1190)
-[2020-10-29 10:31:51,085] ERROR User provided listener org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest$6 failed on invocation of onPartitionsRevoked for partitions [test2-0] (org.apache.kafka.clients.consumer.internals.ConsumerCoordinator:317)
+[2022-09-03 18:37:59,342] ERROR Offset commit failed on partition test1-0 at offset 100: The server experienced an unexpected error when processing the request. (org.apache.kafka.clients.consumer.internals.ConsumerCoordinator:1190)
+[2022-09-03 18:37:59,480] ERROR Offset commit failed on partition test1-0 at offset 100: The group is rebalancing, so a rejoin is needed. (org.apache.kafka.clients.consumer.internals.ConsumerCoordinator:1190)
+[2022-09-03 18:38:00,229] ERROR User provided listener org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest$6 failed on invocation of onPartitionsRevoked for partitions [test2-0] (org.apache.kafka.clients.consumer.internals.ConsumerCoordinator:317)
 java.lang.IllegalStateException: Illegal state on partition revoke!
 	at org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest$6.onPartitionsRevoked(ConsumerCoordinatorTest.java:536)
 	at org.apache.kafka.clients.consumer.internals.ConsumerCoordinator.invokePartitionsRevoked(ConsumerCoordinator.java:312)
@@ -826,14 +826,14 @@ java.lang.IllegalStateException: Illegal state on partition revoke!
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:56)
 	at java.lang.Thread.run(Thread.java:748)
-[2020-10-29 10:31:51,091] ERROR Offset commit failed on partition test1-0 at offset 100: The broker rejected this static consumer since another consumer with the same group.instance.id has registered with a different member.id. (org.apache.kafka.clients.consumer.internals.ConsumerCoordinator:1190)
-[2020-10-29 10:31:51,098] ERROR Offset commit failed on partition test1-0 at offset 100: The coordinator is not aware of this member. (org.apache.kafka.clients.consumer.internals.ConsumerCoordinator:1190)
-[2020-10-29 10:31:51,838] ERROR Offset commit failed on partition test1-0 at offset 100: The group is rebalancing, so a rejoin is needed. (org.apache.kafka.clients.consumer.internals.ConsumerCoordinator:1190)
-[ClientRequest(expectResponse=true, callback=org.apache.kafka.clients.consumer.internals.ConsumerNetworkClient$RequestFutureCompletionHandler@617bfdc, destination=2147483647, correlationId=6, clientId=mockClientId, createdTimeMs=1603938711837, requestBuilder=JoinGroupRequestData(groupId='test-group', sessionTimeoutMs=10000, rebalanceTimeoutMs=60000, memberId='', groupInstanceId='group-id', protocolType='consumer', protocols=[JoinGroupRequestProtocol(name='consumer-mock-assignor', metadata=[0, 1, 0, 0, 0, 1, 0, 5, 116, 101, 115, 116, 49, -1, -1, -1, -1, 0, 0, 0, 1, 0, 5, 116, 101, 115, 116, 49, 0, 0, 0, 1, 0, 0, 0, 0]), JoinGroupRequestProtocol(name='throw-on-assignment-assignor', metadata=[0, 1, 0, 0, 0, 1, 0, 5, 116, 101, 115, 116, 49, -1, -1, -1, -1, 0, 0, 0, 1, 0, 5, 116, 101, 115, 116, 49, 0, 0, 0, 1, 0, 0, 0, 0]), JoinGroupRequestProtocol(name='throw-fatal-error-on-assignment-assignor', metadata=[0, 1, 0, 0, 0, 1, 0, 5, 116, 101, 115, 116, 49, -1, -1, -1, -1, 0, 0, 0, 1, 0, 5, 116, 101, 115, 116, 49, 0, 0, 0, 1, 0, 0, 0, 0])]))]
-[2020-10-29 10:31:51,840] ERROR Offset commit failed on partition test1-0 at offset 100: The broker rejected this static consumer since another consumer with the same group.instance.id has registered with a different member.id. (org.apache.kafka.clients.consumer.internals.ConsumerCoordinator:1190)
-[2020-10-29 10:31:51,850] ERROR Offset commit failed on partition test1-0 at offset 100: The coordinator is not aware of this member. (org.apache.kafka.clients.consumer.internals.ConsumerCoordinator:1190)
-[2020-10-29 10:31:51,853] ERROR JoinGroup failed due to fatal error: Group authorization failed. (org.apache.kafka.clients.consumer.internals.AbstractCoordinator:632)
-[2020-10-29 10:31:51,855] ERROR User provided listener org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest$4 failed on invocation of onPartitionsAssigned for partitions [test1-0] (org.apache.kafka.clients.consumer.internals.ConsumerCoordinator:298)
+[2022-09-03 18:38:00,234] ERROR Offset commit failed on partition test1-0 at offset 100: The broker rejected this static consumer since another consumer with the same group.instance.id has registered with a different member.id. (org.apache.kafka.clients.consumer.internals.ConsumerCoordinator:1190)
+[2022-09-03 18:38:00,239] ERROR Offset commit failed on partition test1-0 at offset 100: The coordinator is not aware of this member. (org.apache.kafka.clients.consumer.internals.ConsumerCoordinator:1190)
+[2022-09-03 18:38:00,962] ERROR Offset commit failed on partition test1-0 at offset 100: The group is rebalancing, so a rejoin is needed. (org.apache.kafka.clients.consumer.internals.ConsumerCoordinator:1190)
+[ClientRequest(expectResponse=true, callback=org.apache.kafka.clients.consumer.internals.ConsumerNetworkClient$RequestFutureCompletionHandler@45b60e6e, destination=2147483647, correlationId=6, clientId=mockClientId, createdTimeMs=1662201480961, requestBuilder=JoinGroupRequestData(groupId='test-group', sessionTimeoutMs=10000, rebalanceTimeoutMs=60000, memberId='', groupInstanceId='group-id', protocolType='consumer', protocols=[JoinGroupRequestProtocol(name='consumer-mock-assignor', metadata=[0, 1, 0, 0, 0, 1, 0, 5, 116, 101, 115, 116, 49, -1, -1, -1, -1, 0, 0, 0, 1, 0, 5, 116, 101, 115, 116, 49, 0, 0, 0, 1, 0, 0, 0, 0]), JoinGroupRequestProtocol(name='throw-on-assignment-assignor', metadata=[0, 1, 0, 0, 0, 1, 0, 5, 116, 101, 115, 116, 49, -1, -1, -1, -1, 0, 0, 0, 1, 0, 5, 116, 101, 115, 116, 49, 0, 0, 0, 1, 0, 0, 0, 0]), JoinGroupRequestProtocol(name='throw-fatal-error-on-assignment-assignor', metadata=[0, 1, 0, 0, 0, 1, 0, 5, 116, 101, 115, 116, 49, -1, -1, -1, -1, 0, 0, 0, 1, 0, 5, 116, 101, 115, 116, 49, 0, 0, 0, 1, 0, 0, 0, 0])]))]
+[2022-09-03 18:38:00,965] ERROR Offset commit failed on partition test1-0 at offset 100: The broker rejected this static consumer since another consumer with the same group.instance.id has registered with a different member.id. (org.apache.kafka.clients.consumer.internals.ConsumerCoordinator:1190)
+[2022-09-03 18:38:00,973] ERROR Offset commit failed on partition test1-0 at offset 100: The coordinator is not aware of this member. (org.apache.kafka.clients.consumer.internals.ConsumerCoordinator:1190)
+[2022-09-03 18:38:00,975] ERROR JoinGroup failed due to fatal error: Group authorization failed. (org.apache.kafka.clients.consumer.internals.AbstractCoordinator:632)
+[2022-09-03 18:38:00,976] ERROR User provided listener org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest$4 failed on invocation of onPartitionsAssigned for partitions [test1-0] (org.apache.kafka.clients.consumer.internals.ConsumerCoordinator:298)
 org.apache.kafka.common.KafkaException: Kaboom on partition assign!
 	at org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest$4.onPartitionsAssigned(ConsumerCoordinatorTest.java:508)
 	at org.apache.kafka.clients.consumer.internals.ConsumerCoordinator.invokePartitionsAssigned(ConsumerCoordinator.java:293)
@@ -903,9 +903,9 @@ org.apache.kafka.common.KafkaException: Kaboom on partition assign!
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:56)
 	at java.lang.Thread.run(Thread.java:748)
-[2020-10-29 10:31:51,859] ERROR Offset commit failed on partition test1-0 at offset 100: The coordinator is not aware of this member. (org.apache.kafka.clients.consumer.internals.ConsumerCoordinator:1190)
-[2020-10-29 10:31:52,474] ERROR Offset commit failed on partition test1-0 at offset 100: The broker rejected this static consumer since another consumer with the same group.instance.id has registered with a different member.id. (org.apache.kafka.clients.consumer.internals.ConsumerCoordinator:1190)
-[2020-10-29 10:31:52,476] ERROR User provided listener org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest$8 failed on invocation of onPartitionsAssigned for partitions [test1-0] (org.apache.kafka.clients.consumer.internals.ConsumerCoordinator:298)
+[2022-09-03 18:38:00,981] ERROR Offset commit failed on partition test1-0 at offset 100: The coordinator is not aware of this member. (org.apache.kafka.clients.consumer.internals.ConsumerCoordinator:1190)
+[2022-09-03 18:38:01,595] ERROR Offset commit failed on partition test1-0 at offset 100: The broker rejected this static consumer since another consumer with the same group.instance.id has registered with a different member.id. (org.apache.kafka.clients.consumer.internals.ConsumerCoordinator:1190)
+[2022-09-03 18:38:01,596] ERROR User provided listener org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest$8 failed on invocation of onPartitionsAssigned for partitions [test1-0] (org.apache.kafka.clients.consumer.internals.ConsumerCoordinator:298)
 java.lang.IllegalStateException: Illegal state on partition assign!
 	at org.apache.kafka.clients.consumer.internals.ConsumerCoordinatorTest$8.onPartitionsAssigned(ConsumerCoordinatorTest.java:571)
 	at org.apache.kafka.clients.consumer.internals.ConsumerCoordinator.invokePartitionsAssigned(ConsumerCoordinator.java:293)
@@ -975,12 +975,12 @@ java.lang.IllegalStateException: Illegal state on partition assign!
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:56)
 	at java.lang.Thread.run(Thread.java:748)
-[2020-10-29 10:31:52,483] ERROR Offset commit failed on partition test1-0 at offset 100: The broker rejected this static consumer since another consumer with the same group.instance.id has registered with a different member.id. (org.apache.kafka.clients.consumer.internals.ConsumerCoordinator:1190)
-[2020-10-29 10:31:52,485] ERROR Offset commit failed on partition test1-0 at offset 100: The metadata field of the offset request was too large. (org.apache.kafka.clients.consumer.internals.ConsumerCoordinator:1190)
-[2020-10-29 10:31:52,486] ERROR Offset commit failed on partition test1-0 at offset 100: Specified group generation id is not valid. (org.apache.kafka.clients.consumer.internals.ConsumerCoordinator:1190)
-[2020-10-29 10:31:52,631] ERROR Offset commit failed on partition test1-0 at offset 100: The broker rejected this static consumer since another consumer with the same group.instance.id has registered with a different member.id. (org.apache.kafka.clients.consumer.internals.ConsumerCoordinator:1190)
-[2020-10-29 10:31:52,637] ERROR JoinGroup failed due to fatal error: The configured groupId is invalid. (org.apache.kafka.clients.consumer.internals.AbstractCoordinator:632)
-[2020-10-29 10:31:52,639] ERROR Offset commit failed on partition test1-0 at offset 100: Specified group generation id is not valid. (org.apache.kafka.clients.consumer.internals.ConsumerCoordinator:1190)
+[2022-09-03 18:38:01,601] ERROR Offset commit failed on partition test1-0 at offset 100: The broker rejected this static consumer since another consumer with the same group.instance.id has registered with a different member.id. (org.apache.kafka.clients.consumer.internals.ConsumerCoordinator:1190)
+[2022-09-03 18:38:01,602] ERROR Offset commit failed on partition test1-0 at offset 100: The metadata field of the offset request was too large. (org.apache.kafka.clients.consumer.internals.ConsumerCoordinator:1190)
+[2022-09-03 18:38:01,603] ERROR Offset commit failed on partition test1-0 at offset 100: Specified group generation id is not valid. (org.apache.kafka.clients.consumer.internals.ConsumerCoordinator:1190)
+[2022-09-03 18:38:01,738] ERROR Offset commit failed on partition test1-0 at offset 100: The broker rejected this static consumer since another consumer with the same group.instance.id has registered with a different member.id. (org.apache.kafka.clients.consumer.internals.ConsumerCoordinator:1190)
+[2022-09-03 18:38:01,740] ERROR JoinGroup failed due to fatal error: The configured groupId is invalid. (org.apache.kafka.clients.consumer.internals.AbstractCoordinator:632)
+[2022-09-03 18:38:01,741] ERROR Offset commit failed on partition test1-0 at offset 100: Specified group generation id is not valid. (org.apache.kafka.clients.consumer.internals.ConsumerCoordinator:1190)
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

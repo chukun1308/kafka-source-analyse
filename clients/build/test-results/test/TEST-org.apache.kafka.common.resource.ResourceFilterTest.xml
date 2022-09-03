@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.apache.kafka.common.resource.ResourceFilterTest" tests="9" skipped="0" failures="0" errors="0" timestamp="2020-10-29T02:34:18" hostname="chukun-mac" time="0.008">
+<testsuite name="org.apache.kafka.common.resource.ResourceFilterTest" tests="9" skipped="0" failures="0" errors="0" timestamp="2022-09-03T10:38:23" hostname="LAPTOP-FH01OFOM" time="0.001">
   <properties/>
-  <testcase name="shouldMatchWildcardIfExactMatch" classname="org.apache.kafka.common.resource.ResourceFilterTest" time="0.007"/>
+  <testcase name="shouldMatchWildcardIfExactMatch" classname="org.apache.kafka.common.resource.ResourceFilterTest" time="0.001"/>
   <testcase name="shouldNotMatchIfDifferentName" classname="org.apache.kafka.common.resource.ResourceFilterTest" time="0.0"/>
   <testcase name="shouldMatchWhereResourceTypeIsAny" classname="org.apache.kafka.common.resource.ResourceFilterTest" time="0.0"/>
   <testcase name="shouldMatchWhereResourceNameIsAny" classname="org.apache.kafka.common.resource.ResourceFilterTest" time="0.0"/>

@@ -86,3 +86,5 @@ jenkins.sh
 LICENSE
 NOTICE
 checkstyle
+build/libs/kafka-source-analyse-2.8.0-SNAPSHOT.jar
+clients/build

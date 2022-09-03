@@ -41,7 +41,7 @@
 </td>
 <td>
 <div class="infoBox" id="duration">
-<div class="counter">2.209s</div>
+<div class="counter">1.676s</div>
 <p>duration</p>
 </div>
 </td>
@@ -63,6 +63,9 @@
 <li>
 <a href="#tab0">Tests</a>
 </li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
 </ul>
 <div id="tab0" class="tab">
 <h2>Tests</h2>
@@ -76,7 +79,7 @@
 </thead>
 <tr>
 <td class="success">buildUsingCreateTime[bufferOffset=0, compression=GZIP]</td>
-<td class="success">0.001s</td>
+<td class="success">0s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
@@ -86,12 +89,12 @@
 </tr>
 <tr>
 <td class="success">buildUsingCreateTime[bufferOffset=0, compression=NONE]</td>
-<td class="success">0.002s</td>
+<td class="success">0s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">buildUsingCreateTime[bufferOffset=0, compression=SNAPPY]</td>
-<td class="success">0.001s</td>
+<td class="success">0s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
@@ -116,7 +119,7 @@
 </tr>
 <tr>
 <td class="success">buildUsingCreateTime[bufferOffset=15, compression=SNAPPY]</td>
-<td class="success">0.001s</td>
+<td class="success">0s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
@@ -136,12 +139,12 @@
 </tr>
 <tr>
 <td class="success">buildUsingLogAppendTime[bufferOffset=0, compression=NONE]</td>
-<td class="success">0.001s</td>
+<td class="success">0s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">buildUsingLogAppendTime[bufferOffset=0, compression=SNAPPY]</td>
-<td class="success">0.001s</td>
+<td class="success">0s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
@@ -151,22 +154,22 @@
 </tr>
 <tr>
 <td class="success">buildUsingLogAppendTime[bufferOffset=15, compression=GZIP]</td>
-<td class="success">0.001s</td>
+<td class="success">0s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">buildUsingLogAppendTime[bufferOffset=15, compression=LZ4]</td>
-<td class="success">0.001s</td>
+<td class="success">0s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">buildUsingLogAppendTime[bufferOffset=15, compression=NONE]</td>
-<td class="success">0.001s</td>
+<td class="success">0s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">buildUsingLogAppendTime[bufferOffset=15, compression=SNAPPY]</td>
-<td class="success">0.001s</td>
+<td class="success">0s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
@@ -186,7 +189,7 @@
 </tr>
 <tr>
 <td class="success">convertToV1WithMixedV0AndV2Data[bufferOffset=0, compression=NONE]</td>
-<td class="success">0.002s</td>
+<td class="success">0s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
@@ -206,7 +209,7 @@
 </tr>
 <tr>
 <td class="success">convertToV1WithMixedV0AndV2Data[bufferOffset=15, compression=LZ4]</td>
-<td class="success">0s</td>
+<td class="success">0.001s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
@@ -216,7 +219,7 @@
 </tr>
 <tr>
 <td class="success">convertToV1WithMixedV0AndV2Data[bufferOffset=15, compression=SNAPPY]</td>
-<td class="success">0.002s</td>
+<td class="success">0s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
@@ -231,12 +234,12 @@
 </tr>
 <tr>
 <td class="success">convertV2ToV1UsingMixedCreateAndLogAppendTime[bufferOffset=0, compression=LZ4]</td>
-<td class="success">0s</td>
+<td class="success">0.001s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">convertV2ToV1UsingMixedCreateAndLogAppendTime[bufferOffset=0, compression=NONE]</td>
-<td class="success">0.005s</td>
+<td class="success">0.002s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
@@ -246,22 +249,22 @@
 </tr>
 <tr>
 <td class="success">convertV2ToV1UsingMixedCreateAndLogAppendTime[bufferOffset=0, compression=ZSTD]</td>
-<td class="success">0.001s</td>
+<td class="success">0.003s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">convertV2ToV1UsingMixedCreateAndLogAppendTime[bufferOffset=15, compression=GZIP]</td>
-<td class="success">0.002s</td>
-<td class="success">passed</td>
-</tr>
-<tr>
-<td class="success">convertV2ToV1UsingMixedCreateAndLogAppendTime[bufferOffset=15, compression=LZ4]</td>
 <td class="success">0.001s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
-<td class="success">convertV2ToV1UsingMixedCreateAndLogAppendTime[bufferOffset=15, compression=NONE]</td>
+<td class="success">convertV2ToV1UsingMixedCreateAndLogAppendTime[bufferOffset=15, compression=LZ4]</td>
 <td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">convertV2ToV1UsingMixedCreateAndLogAppendTime[bufferOffset=15, compression=NONE]</td>
+<td class="success">0.001s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
@@ -271,7 +274,7 @@
 </tr>
 <tr>
 <td class="success">convertV2ToV1UsingMixedCreateAndLogAppendTime[bufferOffset=15, compression=ZSTD]</td>
-<td class="success">0s</td>
+<td class="success">0.013s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
@@ -281,7 +284,7 @@
 </tr>
 <tr>
 <td class="success">shouldResetBufferToInitialPositionOnAbort[bufferOffset=0, compression=LZ4]</td>
-<td class="success">0.001s</td>
+<td class="success">0s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
@@ -301,7 +304,7 @@
 </tr>
 <tr>
 <td class="success">shouldResetBufferToInitialPositionOnAbort[bufferOffset=15, compression=GZIP]</td>
-<td class="success">0.001s</td>
+<td class="success">0s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
@@ -311,12 +314,12 @@
 </tr>
 <tr>
 <td class="success">shouldResetBufferToInitialPositionOnAbort[bufferOffset=15, compression=NONE]</td>
-<td class="success">0s</td>
+<td class="success">0.001s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">shouldResetBufferToInitialPositionOnAbort[bufferOffset=15, compression=SNAPPY]</td>
-<td class="success">0s</td>
+<td class="success">0.001s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
@@ -336,12 +339,12 @@
 </tr>
 <tr>
 <td class="success">shouldThrowIllegalStateExceptionOnAppendWhenAborted[bufferOffset=0, compression=NONE]</td>
-<td class="success">0.001s</td>
+<td class="success">0s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">shouldThrowIllegalStateExceptionOnAppendWhenAborted[bufferOffset=0, compression=SNAPPY]</td>
-<td class="success">0.001s</td>
+<td class="success">0s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
@@ -381,7 +384,7 @@
 </tr>
 <tr>
 <td class="success">shouldThrowIllegalStateExceptionOnBuildWhenAborted[bufferOffset=0, compression=LZ4]</td>
-<td class="success">0.001s</td>
+<td class="success">0s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
@@ -411,12 +414,12 @@
 </tr>
 <tr>
 <td class="success">shouldThrowIllegalStateExceptionOnBuildWhenAborted[bufferOffset=15, compression=NONE]</td>
-<td class="success">0.001s</td>
+<td class="success">0s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">shouldThrowIllegalStateExceptionOnBuildWhenAborted[bufferOffset=15, compression=SNAPPY]</td>
-<td class="success">0.001s</td>
+<td class="success">0s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
@@ -461,12 +464,12 @@
 </tr>
 <tr>
 <td class="success">shouldThrowIllegalStateExceptionOnCloseWhenAborted[bufferOffset=15, compression=NONE]</td>
-<td class="success">0.001s</td>
+<td class="success">0s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">shouldThrowIllegalStateExceptionOnCloseWhenAborted[bufferOffset=15, compression=SNAPPY]</td>
-<td class="success">0.001s</td>
+<td class="success">0s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
@@ -481,22 +484,22 @@
 </tr>
 <tr>
 <td class="success">testAppendAtInvalidOffset[bufferOffset=0, compression=LZ4]</td>
-<td class="success">0s</td>
+<td class="success">0.001s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">testAppendAtInvalidOffset[bufferOffset=0, compression=NONE]</td>
-<td class="success">0s</td>
+<td class="success">0.001s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">testAppendAtInvalidOffset[bufferOffset=0, compression=SNAPPY]</td>
-<td class="success">0.001s</td>
+<td class="success">0s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">testAppendAtInvalidOffset[bufferOffset=0, compression=ZSTD]</td>
-<td class="success">0.001s</td>
+<td class="success">0s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
@@ -516,7 +519,7 @@
 </tr>
 <tr>
 <td class="success">testAppendAtInvalidOffset[bufferOffset=15, compression=SNAPPY]</td>
-<td class="success">0.001s</td>
+<td class="success">0s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
@@ -536,12 +539,12 @@
 </tr>
 <tr>
 <td class="success">testAppendedChecksumConsistency[bufferOffset=0, compression=NONE]</td>
-<td class="success">0.001s</td>
+<td class="success">0s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">testAppendedChecksumConsistency[bufferOffset=0, compression=SNAPPY]</td>
-<td class="success">0.004s</td>
+<td class="success">0s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
@@ -551,7 +554,7 @@
 </tr>
 <tr>
 <td class="success">testAppendedChecksumConsistency[bufferOffset=15, compression=GZIP]</td>
-<td class="success">0.001s</td>
+<td class="success">0s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
@@ -566,7 +569,7 @@
 </tr>
 <tr>
 <td class="success">testAppendedChecksumConsistency[bufferOffset=15, compression=SNAPPY]</td>
-<td class="success">0s</td>
+<td class="success">0.001s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
@@ -576,52 +579,52 @@
 </tr>
 <tr>
 <td class="success">testBuffersDereferencedOnClose[bufferOffset=0, compression=GZIP]</td>
-<td class="success">0.315s</td>
+<td class="success">0.183s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">testBuffersDereferencedOnClose[bufferOffset=0, compression=LZ4]</td>
-<td class="success">0.145s</td>
+<td class="success">0.098s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">testBuffersDereferencedOnClose[bufferOffset=0, compression=NONE]</td>
-<td class="success">0.283s</td>
+<td class="success">0.102s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">testBuffersDereferencedOnClose[bufferOffset=0, compression=SNAPPY]</td>
-<td class="success">0.137s</td>
+<td class="success">0.096s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">testBuffersDereferencedOnClose[bufferOffset=0, compression=ZSTD]</td>
-<td class="success">0.229s</td>
+<td class="success">0.102s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">testBuffersDereferencedOnClose[bufferOffset=15, compression=GZIP]</td>
-<td class="success">0.400s</td>
+<td class="success">0.320s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">testBuffersDereferencedOnClose[bufferOffset=15, compression=LZ4]</td>
-<td class="success">0.110s</td>
+<td class="success">0.148s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">testBuffersDereferencedOnClose[bufferOffset=15, compression=NONE]</td>
-<td class="success">0.155s</td>
+<td class="success">0.084s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">testBuffersDereferencedOnClose[bufferOffset=15, compression=SNAPPY]</td>
-<td class="success">0.175s</td>
+<td class="success">0.135s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">testBuffersDereferencedOnClose[bufferOffset=15, compression=ZSTD]</td>
-<td class="success">0.139s</td>
+<td class="success">0.156s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
@@ -631,17 +634,17 @@
 </tr>
 <tr>
 <td class="success">testCompressionRateV0[bufferOffset=0, compression=LZ4]</td>
-<td class="success">0s</td>
+<td class="success">0.001s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">testCompressionRateV0[bufferOffset=0, compression=NONE]</td>
-<td class="success">0.001s</td>
+<td class="success">0s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">testCompressionRateV0[bufferOffset=0, compression=SNAPPY]</td>
-<td class="success">0.001s</td>
+<td class="success">0s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
@@ -651,7 +654,7 @@
 </tr>
 <tr>
 <td class="success">testCompressionRateV0[bufferOffset=15, compression=GZIP]</td>
-<td class="success">0.001s</td>
+<td class="success">0s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
@@ -661,7 +664,7 @@
 </tr>
 <tr>
 <td class="success">testCompressionRateV0[bufferOffset=15, compression=NONE]</td>
-<td class="success">0.001s</td>
+<td class="success">0s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
@@ -726,12 +729,12 @@
 </tr>
 <tr>
 <td class="success">testEstimatedSizeInBytes[bufferOffset=0, compression=GZIP]</td>
-<td class="success">0.001s</td>
+<td class="success">0s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">testEstimatedSizeInBytes[bufferOffset=0, compression=LZ4]</td>
-<td class="success">0.001s</td>
+<td class="success">0s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
@@ -741,12 +744,12 @@
 </tr>
 <tr>
 <td class="success">testEstimatedSizeInBytes[bufferOffset=0, compression=SNAPPY]</td>
-<td class="success">0.001s</td>
+<td class="success">0s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">testEstimatedSizeInBytes[bufferOffset=0, compression=ZSTD]</td>
-<td class="success">0s</td>
+<td class="success">0.001s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
@@ -756,7 +759,7 @@
 </tr>
 <tr>
 <td class="success">testEstimatedSizeInBytes[bufferOffset=15, compression=LZ4]</td>
-<td class="success">0.001s</td>
+<td class="success">0s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
@@ -766,7 +769,7 @@
 </tr>
 <tr>
 <td class="success">testEstimatedSizeInBytes[bufferOffset=15, compression=SNAPPY]</td>
-<td class="success">0.001s</td>
+<td class="success">0s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
@@ -781,12 +784,12 @@
 </tr>
 <tr>
 <td class="success">testSmallWriteLimit[bufferOffset=0, compression=LZ4]</td>
-<td class="success">0s</td>
+<td class="success">0.001s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">testSmallWriteLimit[bufferOffset=0, compression=NONE]</td>
-<td class="success">0s</td>
+<td class="success">0.001s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
@@ -801,7 +804,7 @@
 </tr>
 <tr>
 <td class="success">testSmallWriteLimit[bufferOffset=15, compression=GZIP]</td>
-<td class="success">0.002s</td>
+<td class="success">0.001s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
@@ -821,7 +824,7 @@
 </tr>
 <tr>
 <td class="success">testSmallWriteLimit[bufferOffset=15, compression=ZSTD]</td>
-<td class="success">0s</td>
+<td class="success">0.001s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
@@ -841,7 +844,7 @@
 </tr>
 <tr>
 <td class="success">testWriteControlBatchNotAllowedMagicV0[bufferOffset=0, compression=SNAPPY]</td>
-<td class="success">0.001s</td>
+<td class="success">0s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
@@ -856,7 +859,7 @@
 </tr>
 <tr>
 <td class="success">testWriteControlBatchNotAllowedMagicV0[bufferOffset=15, compression=LZ4]</td>
-<td class="success">0.001s</td>
+<td class="success">0s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
@@ -876,7 +879,7 @@
 </tr>
 <tr>
 <td class="success">testWriteControlBatchNotAllowedMagicV1[bufferOffset=0, compression=GZIP]</td>
-<td class="success">0.001s</td>
+<td class="success">0s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
@@ -896,7 +899,7 @@
 </tr>
 <tr>
 <td class="success">testWriteControlBatchNotAllowedMagicV1[bufferOffset=0, compression=ZSTD]</td>
-<td class="success">0s</td>
+<td class="success">0.001s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
@@ -926,7 +929,7 @@
 </tr>
 <tr>
 <td class="success">testWriteEmptyRecordSet[bufferOffset=0, compression=GZIP]</td>
-<td class="success">0s</td>
+<td class="success">0.001s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
@@ -976,27 +979,27 @@
 </tr>
 <tr>
 <td class="success">testWriteEndTxnMarkerNonControlBatch[bufferOffset=0, compression=GZIP]</td>
-<td class="success">0.001s</td>
+<td class="success">0s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">testWriteEndTxnMarkerNonControlBatch[bufferOffset=0, compression=LZ4]</td>
-<td class="success">0s</td>
+<td class="success">0.058s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">testWriteEndTxnMarkerNonControlBatch[bufferOffset=0, compression=NONE]</td>
-<td class="success">0.003s</td>
+<td class="success">0s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">testWriteEndTxnMarkerNonControlBatch[bufferOffset=0, compression=SNAPPY]</td>
-<td class="success">0s</td>
+<td class="success">0.069s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">testWriteEndTxnMarkerNonControlBatch[bufferOffset=0, compression=ZSTD]</td>
-<td class="success">0s</td>
+<td class="success">0.049s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
@@ -1031,7 +1034,7 @@
 </tr>
 <tr>
 <td class="success">testWriteEndTxnMarkerNonTransactionalBatch[bufferOffset=0, compression=LZ4]</td>
-<td class="success">0.001s</td>
+<td class="success">0s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
@@ -1041,7 +1044,7 @@
 </tr>
 <tr>
 <td class="success">testWriteEndTxnMarkerNonTransactionalBatch[bufferOffset=0, compression=SNAPPY]</td>
-<td class="success">0.001s</td>
+<td class="success">0s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
@@ -1051,7 +1054,7 @@
 </tr>
 <tr>
 <td class="success">testWriteEndTxnMarkerNonTransactionalBatch[bufferOffset=15, compression=GZIP]</td>
-<td class="success">0s</td>
+<td class="success">0.001s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
@@ -1076,7 +1079,7 @@
 </tr>
 <tr>
 <td class="success">testWriteIdempotentWithInvalidBaseSequence[bufferOffset=0, compression=GZIP]</td>
-<td class="success">0.001s</td>
+<td class="success">0s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
@@ -1091,7 +1094,7 @@
 </tr>
 <tr>
 <td class="success">testWriteIdempotentWithInvalidBaseSequence[bufferOffset=0, compression=SNAPPY]</td>
-<td class="success">0.001s</td>
+<td class="success">0s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
@@ -1101,7 +1104,7 @@
 </tr>
 <tr>
 <td class="success">testWriteIdempotentWithInvalidBaseSequence[bufferOffset=15, compression=GZIP]</td>
-<td class="success">0.001s</td>
+<td class="success">0s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
@@ -1116,7 +1119,7 @@
 </tr>
 <tr>
 <td class="success">testWriteIdempotentWithInvalidBaseSequence[bufferOffset=15, compression=SNAPPY]</td>
-<td class="success">0.001s</td>
+<td class="success">0s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
@@ -1141,7 +1144,7 @@
 </tr>
 <tr>
 <td class="success">testWriteIdempotentWithInvalidEpoch[bufferOffset=0, compression=SNAPPY]</td>
-<td class="success">0s</td>
+<td class="success">0.001s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
@@ -1166,7 +1169,7 @@
 </tr>
 <tr>
 <td class="success">testWriteIdempotentWithInvalidEpoch[bufferOffset=15, compression=SNAPPY]</td>
-<td class="success">0.001s</td>
+<td class="success">0s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
@@ -1201,7 +1204,7 @@
 </tr>
 <tr>
 <td class="success">testWriteLeaderChangeControlBatchWithoutLeaderEpoch[bufferOffset=15, compression=GZIP]</td>
-<td class="success">0.001s</td>
+<td class="success">0s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
@@ -1236,7 +1239,7 @@
 </tr>
 <tr>
 <td class="success">testWriteLeaderChangeControlBatch[bufferOffset=0, compression=NONE]</td>
-<td class="success">0.005s</td>
+<td class="success">0.003s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
@@ -1251,7 +1254,7 @@
 </tr>
 <tr>
 <td class="success">testWriteLeaderChangeControlBatch[bufferOffset=15, compression=GZIP]</td>
-<td class="success">0.001s</td>
+<td class="success">0s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
@@ -1286,7 +1289,7 @@
 </tr>
 <tr>
 <td class="success">testWriteTransactionalNotAllowedMagicV0[bufferOffset=0, compression=NONE]</td>
-<td class="success">0s</td>
+<td class="success">0.001s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
@@ -1301,12 +1304,12 @@
 </tr>
 <tr>
 <td class="success">testWriteTransactionalNotAllowedMagicV0[bufferOffset=15, compression=GZIP]</td>
-<td class="success">0.001s</td>
+<td class="success">0s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">testWriteTransactionalNotAllowedMagicV0[bufferOffset=15, compression=LZ4]</td>
-<td class="success">0.001s</td>
+<td class="success">0s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
@@ -1316,7 +1319,7 @@
 </tr>
 <tr>
 <td class="success">testWriteTransactionalNotAllowedMagicV0[bufferOffset=15, compression=SNAPPY]</td>
-<td class="success">0.001s</td>
+<td class="success">0s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
@@ -1336,7 +1339,7 @@
 </tr>
 <tr>
 <td class="success">testWriteTransactionalNotAllowedMagicV1[bufferOffset=0, compression=NONE]</td>
-<td class="success">0.001s</td>
+<td class="success">0s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
@@ -1346,7 +1349,7 @@
 </tr>
 <tr>
 <td class="success">testWriteTransactionalNotAllowedMagicV1[bufferOffset=0, compression=ZSTD]</td>
-<td class="success">0.001s</td>
+<td class="success">0s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
@@ -1361,7 +1364,7 @@
 </tr>
 <tr>
 <td class="success">testWriteTransactionalNotAllowedMagicV1[bufferOffset=15, compression=NONE]</td>
-<td class="success">0.001s</td>
+<td class="success">0s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
@@ -1371,7 +1374,7 @@
 </tr>
 <tr>
 <td class="success">testWriteTransactionalNotAllowedMagicV1[bufferOffset=15, compression=ZSTD]</td>
-<td class="success">0.001s</td>
+<td class="success">0s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
@@ -1386,12 +1389,12 @@
 </tr>
 <tr>
 <td class="success">testWriteTransactionalRecordSet[bufferOffset=0, compression=NONE]</td>
-<td class="success">0.001s</td>
+<td class="success">0s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">testWriteTransactionalRecordSet[bufferOffset=0, compression=SNAPPY]</td>
-<td class="success">0.001s</td>
+<td class="success">0s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
@@ -1416,17 +1419,17 @@
 </tr>
 <tr>
 <td class="success">testWriteTransactionalRecordSet[bufferOffset=15, compression=SNAPPY]</td>
-<td class="success">0.002s</td>
-<td class="success">passed</td>
-</tr>
-<tr>
-<td class="success">testWriteTransactionalRecordSet[bufferOffset=15, compression=ZSTD]</td>
 <td class="success">0s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
-<td class="success">testWriteTransactionalWithInvalidPID[bufferOffset=0, compression=GZIP]</td>
+<td class="success">testWriteTransactionalRecordSet[bufferOffset=15, compression=ZSTD]</td>
 <td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testWriteTransactionalWithInvalidPID[bufferOffset=0, compression=GZIP]</td>
+<td class="success">0s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
@@ -1441,7 +1444,7 @@
 </tr>
 <tr>
 <td class="success">testWriteTransactionalWithInvalidPID[bufferOffset=0, compression=SNAPPY]</td>
-<td class="success">0s</td>
+<td class="success">0.001s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
@@ -1456,17 +1459,17 @@
 </tr>
 <tr>
 <td class="success">testWriteTransactionalWithInvalidPID[bufferOffset=15, compression=LZ4]</td>
-<td class="success">0s</td>
+<td class="success">0.001s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">testWriteTransactionalWithInvalidPID[bufferOffset=15, compression=NONE]</td>
-<td class="success">0s</td>
+<td class="success">0.001s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">testWriteTransactionalWithInvalidPID[bufferOffset=15, compression=SNAPPY]</td>
-<td class="success">0.001s</td>
+<td class="success">0s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
@@ -1476,7 +1479,7 @@
 </tr>
 <tr>
 <td class="success">writePastLimit[bufferOffset=0, compression=GZIP]</td>
-<td class="success">0.002s</td>
+<td class="success">0s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
@@ -1491,7 +1494,7 @@
 </tr>
 <tr>
 <td class="success">writePastLimit[bufferOffset=0, compression=SNAPPY]</td>
-<td class="success">0s</td>
+<td class="success">0.001s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
@@ -1501,12 +1504,12 @@
 </tr>
 <tr>
 <td class="success">writePastLimit[bufferOffset=15, compression=GZIP]</td>
-<td class="success">0s</td>
+<td class="success">0.001s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">writePastLimit[bufferOffset=15, compression=LZ4]</td>
-<td class="success">0s</td>
+<td class="success">0.001s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
@@ -1526,6 +1529,21 @@
 </tr>
 </table>
 </div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>[2022-09-03 18:38:11,529] ERROR Reclaimed buffer of size 95446630 and identity 354543734 that was not properly release()ed. This is a bug. (org.apache.kafka.common.memory.GarbageCollectedMemoryPool:106)
+[2022-09-03 18:38:11,529] ERROR Reclaimed buffer of size 10 and identity 1163478743 that was not properly release()ed. This is a bug. (org.apache.kafka.common.memory.GarbageCollectedMemoryPool:106)
+[2022-09-03 18:38:11,548] ERROR Reclaimed buffer of size 95446630 and identity 1621088445 that was not properly release()ed. This is a bug. (org.apache.kafka.common.memory.GarbageCollectedMemoryPool:106)
+[2022-09-03 18:38:11,549] ERROR Reclaimed buffer of size 95446630 and identity 998091105 that was not properly release()ed. This is a bug. (org.apache.kafka.common.memory.GarbageCollectedMemoryPool:106)
+[2022-09-03 18:38:11,549] ERROR Reclaimed buffer of size 95446630 and identity 1824072807 that was not properly release()ed. This is a bug. (org.apache.kafka.common.memory.GarbageCollectedMemoryPool:106)
+[2022-09-03 18:38:11,549] ERROR Reclaimed buffer of size 10 and identity 807304361 that was not properly release()ed. This is a bug. (org.apache.kafka.common.memory.GarbageCollectedMemoryPool:106)
+[2022-09-03 18:38:11,550] ERROR Reclaimed buffer of size 95446630 and identity 1128359902 that was not properly release()ed. This is a bug. (org.apache.kafka.common.memory.GarbageCollectedMemoryPool:106)
+[2022-09-03 18:38:11,550] ERROR Reclaimed buffer of size 95446630 and identity 1560614643 that was not properly release()ed. This is a bug. (org.apache.kafka.common.memory.GarbageCollectedMemoryPool:106)
+[2022-09-03 18:38:11,550] ERROR Reclaimed buffer of size 10 and identity 387354022 that was not properly release()ed. This is a bug. (org.apache.kafka.common.memory.GarbageCollectedMemoryPool:106)
+</pre>
+</span>
+</div>
 </div>
 <div id="footer">
 <p>
@@ -1534,7 +1552,7 @@
 <input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
 </label>
 </div>Generated by 
-<a href="http://www.gradle.org">Gradle 6.7</a> at 2020-10-29 10:36:13</p>
+<a href="http://www.gradle.org">Gradle 6.7</a> at 2022-9-3 18:41:18</p>
 </div>
 </div>
 </body>

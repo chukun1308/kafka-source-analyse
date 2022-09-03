@@ -1,10 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.apache.kafka.common.utils.ShellTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2020-10-29T02:31:48" hostname="chukun-mac" time="0.075">
+<testsuite name="org.apache.kafka.common.utils.ShellTest" tests="4" skipped="4" failures="0" errors="0" timestamp="2022-09-03T10:37:57" hostname="LAPTOP-FH01OFOM" time="0.133">
   <properties/>
-  <testcase name="testEchoHello" classname="org.apache.kafka.common.utils.ShellTest" time="0.026"/>
-  <testcase name="testRunProgramWithErrorReturn" classname="org.apache.kafka.common.utils.ShellTest" time="0.016"/>
-  <testcase name="testHeadDevZero" classname="org.apache.kafka.common.utils.ShellTest" time="0.024"/>
-  <testcase name="testAttemptToRunNonExistentProgram" classname="org.apache.kafka.common.utils.ShellTest" time="0.009"/>
+  <testcase name="testEchoHello" classname="org.apache.kafka.common.utils.ShellTest" time="0.004">
+    <skipped/>
+  </testcase>
+  <testcase name="testRunProgramWithErrorReturn" classname="org.apache.kafka.common.utils.ShellTest" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase name="testHeadDevZero" classname="org.apache.kafka.common.utils.ShellTest" time="0.042">
+    <skipped/>
+  </testcase>
+  <testcase name="testAttemptToRunNonExistentProgram" classname="org.apache.kafka.common.utils.ShellTest" time="0.086">
+    <skipped/>
+  </testcase>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

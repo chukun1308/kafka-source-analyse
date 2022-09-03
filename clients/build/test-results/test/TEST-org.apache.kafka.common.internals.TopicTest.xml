@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.apache.kafka.common.internals.TopicTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2020-10-29T02:31:48" hostname="chukun-mac" time="0.003">
+<testsuite name="org.apache.kafka.common.internals.TopicTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2022-09-03T10:38:22" hostname="LAPTOP-FH01OFOM" time="0.001">
   <properties/>
-  <testcase name="shouldThrowOnInvalidTopicNames" classname="org.apache.kafka.common.internals.TopicTest" time="0.001"/>
+  <testcase name="shouldThrowOnInvalidTopicNames" classname="org.apache.kafka.common.internals.TopicTest" time="0.0"/>
   <testcase name="shouldAcceptValidTopicNames" classname="org.apache.kafka.common.internals.TopicTest" time="0.0"/>
   <testcase name="testTopicHasCollision" classname="org.apache.kafka.common.internals.TopicTest" time="0.0"/>
   <testcase name="testTopicHasCollisionChars" classname="org.apache.kafka.common.internals.TopicTest" time="0.0"/>
-  <testcase name="shouldRecognizeInvalidCharactersInTopicNames" classname="org.apache.kafka.common.internals.TopicTest" time="0.001"/>
+  <testcase name="shouldRecognizeInvalidCharactersInTopicNames" classname="org.apache.kafka.common.internals.TopicTest" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

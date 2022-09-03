@@ -26,28 +26,28 @@ org/apache/kafka/raft/ElectionState.java
  org.apache.kafka.raft.ElectionState
 org/apache/kafka/raft/FollowerState.java
  org.apache.kafka.raft.FollowerState
-org/apache/kafka/raft/RequestManager.java
- org.apache.kafka.raft.RequestManager
- org.apache.kafka.raft.RequestManager$ConnectionState
- org.apache.kafka.raft.RequestManager$State
 org/apache/kafka/raft/internals/BatchAccumulator.java
  org.apache.kafka.raft.internals.BatchAccumulator
  org.apache.kafka.raft.internals.BatchAccumulator$1
  org.apache.kafka.raft.internals.BatchAccumulator$CompletedBatch
  org.apache.kafka.raft.internals.BatchAccumulator$DrainStatus
  org.apache.kafka.raft.internals.BatchAccumulator$SimpleTimer
+org/apache/kafka/raft/RequestManager.java
+ org.apache.kafka.raft.RequestManager
+ org.apache.kafka.raft.RequestManager$ConnectionState
+ org.apache.kafka.raft.RequestManager$State
 org/apache/kafka/raft/internals/LogOffset.java
  org.apache.kafka.raft.internals.LogOffset
 org/apache/kafka/raft/QuorumState.java
  org.apache.kafka.raft.QuorumState
 org/apache/kafka/raft/LogOffsetMetadata.java
  org.apache.kafka.raft.LogOffsetMetadata
+org/apache/kafka/raft/internals/BatchMemoryPool.java
+ org.apache.kafka.raft.internals.BatchMemoryPool
 org/apache/kafka/raft/RaftResponse.java
  org.apache.kafka.raft.RaftResponse
  org.apache.kafka.raft.RaftResponse$Inbound
  org.apache.kafka.raft.RaftResponse$Outbound
-org/apache/kafka/raft/internals/BatchMemoryPool.java
- org.apache.kafka.raft.internals.BatchMemoryPool
 org/apache/kafka/raft/internals/KafkaRaftMetrics.java
  org.apache.kafka.raft.internals.KafkaRaftMetrics
 org/apache/kafka/raft/LogFetchInfo.java
@@ -55,10 +55,10 @@ org/apache/kafka/raft/LogFetchInfo.java
 org/apache/kafka/raft/CandidateState.java
  org.apache.kafka.raft.CandidateState
  org.apache.kafka.raft.CandidateState$State
-org/apache/kafka/raft/NetworkChannel.java
- org.apache.kafka.raft.NetworkChannel
 org/apache/kafka/raft/Isolation.java
  org.apache.kafka.raft.Isolation
+org/apache/kafka/raft/NetworkChannel.java
+ org.apache.kafka.raft.NetworkChannel
 org/apache/kafka/raft/AckMode.java
  org.apache.kafka.raft.AckMode
 org/apache/kafka/raft/LeaderState.java
@@ -71,10 +71,10 @@ org/apache/kafka/raft/KafkaRaftClient.java
  org.apache.kafka.raft.KafkaRaftClient$GracefulShutdown
 org/apache/kafka/raft/EpochState.java
  org.apache.kafka.raft.EpochState
-org/apache/kafka/raft/ReplicatedCounter.java
- org.apache.kafka.raft.ReplicatedCounter
 org/apache/kafka/raft/FileBasedStateStore.java
  org.apache.kafka.raft.FileBasedStateStore
+org/apache/kafka/raft/ReplicatedCounter.java
+ org.apache.kafka.raft.ReplicatedCounter
 org/apache/kafka/raft/OffsetMetadata.java
  org.apache.kafka.raft.OffsetMetadata
 org/apache/kafka/raft/generated/QuorumStateDataJsonConverter.java

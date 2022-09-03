@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.apache.kafka.common.record.DefaultRecordBatchTest" tests="20" skipped="0" failures="0" errors="0" timestamp="2020-10-29T02:31:36" hostname="chukun-mac" time="0.011">
+<testsuite name="org.apache.kafka.common.record.DefaultRecordBatchTest" tests="20" skipped="0" failures="0" errors="0" timestamp="2022-09-03T10:40:16" hostname="LAPTOP-FH01OFOM" time="0.172">
   <properties/>
-  <testcase name="testSetNoTimestampTypeNotAllowed" classname="org.apache.kafka.common.record.DefaultRecordBatchTest" time="0.001"/>
-  <testcase name="testInvalidRecordCountTooLittleCompressedV2" classname="org.apache.kafka.common.record.DefaultRecordBatchTest" time="0.001"/>
-  <testcase name="testInvalidRecordCountTooLittleNonCompressedV2" classname="org.apache.kafka.common.record.DefaultRecordBatchTest" time="0.0"/>
-  <testcase name="testStreamingIteratorConsistency" classname="org.apache.kafka.common.record.DefaultRecordBatchTest" time="0.0"/>
+  <testcase name="testSetNoTimestampTypeNotAllowed" classname="org.apache.kafka.common.record.DefaultRecordBatchTest" time="0.0"/>
+  <testcase name="testInvalidRecordCountTooLittleCompressedV2" classname="org.apache.kafka.common.record.DefaultRecordBatchTest" time="0.004"/>
+  <testcase name="testInvalidRecordCountTooLittleNonCompressedV2" classname="org.apache.kafka.common.record.DefaultRecordBatchTest" time="0.001"/>
+  <testcase name="testStreamingIteratorConsistency" classname="org.apache.kafka.common.record.DefaultRecordBatchTest" time="0.109"/>
   <testcase name="testSetLogAppendTime" classname="org.apache.kafka.common.record.DefaultRecordBatchTest" time="0.001"/>
-  <testcase name="testDecrementSequence" classname="org.apache.kafka.common.record.DefaultRecordBatchTest" time="0.0"/>
-  <testcase name="testSkipKeyValueIteratorCorrectness" classname="org.apache.kafka.common.record.DefaultRecordBatchTest" time="0.005"/>
+  <testcase name="testDecrementSequence" classname="org.apache.kafka.common.record.DefaultRecordBatchTest" time="0.001"/>
+  <testcase name="testSkipKeyValueIteratorCorrectness" classname="org.apache.kafka.common.record.DefaultRecordBatchTest" time="0.052"/>
   <testcase name="testWriteEmptyHeader" classname="org.apache.kafka.common.record.DefaultRecordBatchTest" time="0.0"/>
   <testcase name="testSetLastOffset" classname="org.apache.kafka.common.record.DefaultRecordBatchTest" time="0.0"/>
   <testcase name="buildDefaultRecordBatchWithSequenceWrapAround" classname="org.apache.kafka.common.record.DefaultRecordBatchTest" time="0.0"/>
-  <testcase name="testInvalidRecordSize" classname="org.apache.kafka.common.record.DefaultRecordBatchTest" time="0.0"/>
+  <testcase name="testInvalidRecordSize" classname="org.apache.kafka.common.record.DefaultRecordBatchTest" time="0.001"/>
   <testcase name="testSetPartitionLeaderEpoch" classname="org.apache.kafka.common.record.DefaultRecordBatchTest" time="0.0"/>
   <testcase name="buildDefaultRecordBatch" classname="org.apache.kafka.common.record.DefaultRecordBatchTest" time="0.0"/>
   <testcase name="testReadAndWriteControlBatch" classname="org.apache.kafka.common.record.DefaultRecordBatchTest" time="0.001"/>
-  <testcase name="testInvalidRecordCountTooManyNonCompressedV2" classname="org.apache.kafka.common.record.DefaultRecordBatchTest" time="0.0"/>
-  <testcase name="buildDefaultRecordBatchWithProducerId" classname="org.apache.kafka.common.record.DefaultRecordBatchTest" time="0.001"/>
+  <testcase name="testInvalidRecordCountTooManyNonCompressedV2" classname="org.apache.kafka.common.record.DefaultRecordBatchTest" time="0.001"/>
+  <testcase name="buildDefaultRecordBatchWithProducerId" classname="org.apache.kafka.common.record.DefaultRecordBatchTest" time="0.0"/>
   <testcase name="testInvalidRecordCountTooManyCompressedV2" classname="org.apache.kafka.common.record.DefaultRecordBatchTest" time="0.0"/>
-  <testcase name="testSizeInBytes" classname="org.apache.kafka.common.record.DefaultRecordBatchTest" time="0.0"/>
+  <testcase name="testSizeInBytes" classname="org.apache.kafka.common.record.DefaultRecordBatchTest" time="0.001"/>
   <testcase name="testInvalidCrc" classname="org.apache.kafka.common.record.DefaultRecordBatchTest" time="0.0"/>
   <testcase name="testIncrementSequence" classname="org.apache.kafka.common.record.DefaultRecordBatchTest" time="0.0"/>
   <system-out><![CDATA[]]></system-out>

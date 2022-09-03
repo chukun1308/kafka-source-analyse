@@ -20,25 +20,25 @@
 <tr>
 <td>
 <div class="infoBox" id="tests">
-<div class="counter">6112</div>
+<div class="counter">6104</div>
 <p>tests</p>
 </div>
 </td>
 <td>
 <div class="infoBox" id="failures">
-<div class="counter">0</div>
+<div class="counter">15</div>
 <p>failures</p>
 </div>
 </td>
 <td>
 <div class="infoBox" id="ignored">
-<div class="counter">63</div>
+<div class="counter">67</div>
 <p>ignored</p>
 </div>
 </td>
 <td>
 <div class="infoBox" id="duration">
-<div class="counter">9m22.88s</div>
+<div class="counter">9m24.74s</div>
 <p>duration</p>
 </div>
 </td>
@@ -47,8 +47,8 @@
 </div>
 </td>
 <td>
-<div class="infoBox skipped" id="successRate">
-<div class="percent">100%</div>
+<div class="infoBox failures" id="successRate">
+<div class="percent">99%</div>
 <p>successful</p>
 </div>
 </td>
@@ -58,16 +58,84 @@
 <div id="tabs">
 <ul class="tabLinks">
 <li>
-<a href="#tab0">Ignored tests</a>
+<a href="#tab0">Failed tests</a>
 </li>
 <li>
-<a href="#tab1">Packages</a>
+<a href="#tab1">Ignored tests</a>
 </li>
 <li>
-<a href="#tab2">Classes</a>
+<a href="#tab2">Packages</a>
+</li>
+<li>
+<a href="#tab3">Classes</a>
 </li>
 </ul>
 <div id="tab0" class="tab">
+<h2>Failed tests</h2>
+<ul class="linkList">
+<li>
+<a href="classes/org.apache.kafka.clients.ClientUtilsTest.html">ClientUtilsTest</a>.
+<a href="classes/org.apache.kafka.clients.ClientUtilsTest.html#testResolveDnsLookupAllIps">testResolveDnsLookupAllIps</a>
+</li>
+<li>
+<a href="classes/org.apache.kafka.clients.ClientUtilsTest.html">ClientUtilsTest</a>.
+<a href="classes/org.apache.kafka.clients.ClientUtilsTest.html#testResolveDnsLookupResolveCanonicalBootstrapServers">testResolveDnsLookupResolveCanonicalBootstrapServers</a>
+</li>
+<li>
+<a href="classes/org.apache.kafka.clients.ClusterConnectionStatesTest.html">ClusterConnectionStatesTest</a>.
+<a href="classes/org.apache.kafka.clients.ClusterConnectionStatesTest.html#testHostResolveChange">testHostResolveChange</a>
+</li>
+<li>
+<a href="classes/org.apache.kafka.clients.ClusterConnectionStatesTest.html">ClusterConnectionStatesTest</a>.
+<a href="classes/org.apache.kafka.clients.ClusterConnectionStatesTest.html#testMultipleIPsWithDefault">testMultipleIPsWithDefault</a>
+</li>
+<li>
+<a href="classes/org.apache.kafka.clients.ClusterConnectionStatesTest.html">ClusterConnectionStatesTest</a>.
+<a href="classes/org.apache.kafka.clients.ClusterConnectionStatesTest.html#testMultipleIPsWithUseAll">testMultipleIPsWithUseAll</a>
+</li>
+<li>
+<a href="classes/org.apache.kafka.common.network.SslTransportTls12Tls13Test.html">SslTransportTls12Tls13Test</a>.
+<a href="classes/org.apache.kafka.common.network.SslTransportTls12Tls13Test.html#testCiphersSuiteForTls12">testCiphersSuiteForTls12</a>
+</li>
+<li>
+<a href="classes/org.apache.kafka.common.security.authenticator.SaslAuthenticatorFailureDelayTest.html">SaslAuthenticatorFailureDelayTest</a>.
+<a href="classes/org.apache.kafka.common.security.authenticator.SaslAuthenticatorFailureDelayTest.html#testClientConnectionClose[failedAuthenticationDelayMs=200]">testClientConnectionClose[failedAuthenticationDelayMs=200]</a>
+</li>
+<li>
+<a href="classes/org.apache.kafka.common.security.authenticator.SaslAuthenticatorFailureDelayTest.html">SaslAuthenticatorFailureDelayTest</a>.
+<a href="classes/org.apache.kafka.common.security.authenticator.SaslAuthenticatorFailureDelayTest.html#testInvalidPasswordSaslPlain[failedAuthenticationDelayMs=0]">testInvalidPasswordSaslPlain[failedAuthenticationDelayMs=0]</a>
+</li>
+<li>
+<a href="classes/org.apache.kafka.common.security.authenticator.SaslAuthenticatorFailureDelayTest.html">SaslAuthenticatorFailureDelayTest</a>.
+<a href="classes/org.apache.kafka.common.security.authenticator.SaslAuthenticatorFailureDelayTest.html#testInvalidPasswordSaslPlain[failedAuthenticationDelayMs=200]">testInvalidPasswordSaslPlain[failedAuthenticationDelayMs=200]</a>
+</li>
+<li>
+<a href="classes/org.apache.kafka.common.security.authenticator.SaslAuthenticatorTest.html">SaslAuthenticatorTest</a>.
+<a href="classes/org.apache.kafka.common.security.authenticator.SaslAuthenticatorTest.html#testAuthenticateCallbackHandlerMechanisms">testAuthenticateCallbackHandlerMechanisms</a>
+</li>
+<li>
+<a href="classes/org.apache.kafka.common.security.authenticator.SaslAuthenticatorTest.html">SaslAuthenticatorTest</a>.
+<a href="classes/org.apache.kafka.common.security.authenticator.SaslAuthenticatorTest.html#testCannotReauthenticateWithDifferentMechanism">testCannotReauthenticateWithDifferentMechanism</a>
+</li>
+<li>
+<a href="classes/org.apache.kafka.common.security.authenticator.SaslAuthenticatorTest.html">SaslAuthenticatorTest</a>.
+<a href="classes/org.apache.kafka.common.security.authenticator.SaslAuthenticatorTest.html#testMechanismPluggability">testMechanismPluggability</a>
+</li>
+<li>
+<a href="classes/org.apache.kafka.common.security.authenticator.SaslAuthenticatorTest.html">SaslAuthenticatorTest</a>.
+<a href="classes/org.apache.kafka.common.security.authenticator.SaslAuthenticatorTest.html#testMultipleServerMechanisms">testMultipleServerMechanisms</a>
+</li>
+<li>
+<a href="classes/org.apache.kafka.common.utils.LoggingSignalHandlerTest.html">LoggingSignalHandlerTest</a>.
+<a href="classes/org.apache.kafka.common.utils.LoggingSignalHandlerTest.html#testRegister">testRegister</a>
+</li>
+<li>
+<a href="classes/org.apache.kafka.common.utils.UtilsTest.html">UtilsTest</a>.
+<a href="classes/org.apache.kafka.common.utils.UtilsTest.html#testFileAsStringNamedPipe">testFileAsStringNamedPipe</a>
+</li>
+</ul>
+</div>
+<div id="tab1" class="tab">
 <h2>Ignored tests</h2>
 <ul class="linkList">
 <li>
@@ -322,9 +390,25 @@
 <a href="classes/org.apache.kafka.common.record.MemoryRecordsTest.html">MemoryRecordsTest</a>.
 <a href="classes/org.apache.kafka.common.record.MemoryRecordsTest.html#testNextBatchSize[9 magic=1, firstOffset=0, compressionType=ZSTD]">testNextBatchSize[9 magic=1, firstOffset=0, compressionType=ZSTD]</a>
 </li>
+<li>
+<a href="classes/org.apache.kafka.common.utils.ShellTest.html">ShellTest</a>.
+<a href="classes/org.apache.kafka.common.utils.ShellTest.html#testAttemptToRunNonExistentProgram">testAttemptToRunNonExistentProgram</a>
+</li>
+<li>
+<a href="classes/org.apache.kafka.common.utils.ShellTest.html">ShellTest</a>.
+<a href="classes/org.apache.kafka.common.utils.ShellTest.html#testEchoHello">testEchoHello</a>
+</li>
+<li>
+<a href="classes/org.apache.kafka.common.utils.ShellTest.html">ShellTest</a>.
+<a href="classes/org.apache.kafka.common.utils.ShellTest.html#testHeadDevZero">testHeadDevZero</a>
+</li>
+<li>
+<a href="classes/org.apache.kafka.common.utils.ShellTest.html">ShellTest</a>.
+<a href="classes/org.apache.kafka.common.utils.ShellTest.html#testRunProgramWithErrorReturn">testRunProgramWithErrorReturn</a>
+</li>
 </ul>
 </div>
-<div id="tab1" class="tab">
+<div id="tab2" class="tab">
 <h2>Packages</h2>
 <table>
 <thead>
@@ -339,14 +423,14 @@
 </thead>
 <tbody>
 <tr>
-<td class="success">
+<td class="failures">
 <a href="packages/org.apache.kafka.clients.html">org.apache.kafka.clients</a>
 </td>
 <td>106</td>
+<td>5</td>
 <td>0</td>
-<td>0</td>
-<td>2.691s</td>
-<td class="success">100%</td>
+<td>56.396s</td>
+<td class="failures">95%</td>
 </tr>
 <tr>
 <td class="success">
@@ -355,7 +439,7 @@
 <td>145</td>
 <td>0</td>
 <td>0</td>
-<td>10.463s</td>
+<td>8.643s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
@@ -365,7 +449,7 @@
 <td>3</td>
 <td>0</td>
 <td>0</td>
-<td>0.005s</td>
+<td>0.006s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
@@ -375,7 +459,7 @@
 <td>179</td>
 <td>0</td>
 <td>0</td>
-<td>1m14.67s</td>
+<td>34.162s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
@@ -385,7 +469,7 @@
 <td>520</td>
 <td>0</td>
 <td>0</td>
-<td>55.862s</td>
+<td>21.453s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
@@ -395,7 +479,7 @@
 <td>117</td>
 <td>0</td>
 <td>0</td>
-<td>14.945s</td>
+<td>16.411s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
@@ -405,7 +489,7 @@
 <td>240</td>
 <td>0</td>
 <td>0</td>
-<td>30.470s</td>
+<td>15.038s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
@@ -415,7 +499,7 @@
 <td>15</td>
 <td>0</td>
 <td>0</td>
-<td>0.031s</td>
+<td>0.020s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
@@ -425,7 +509,7 @@
 <td>44</td>
 <td>0</td>
 <td>0</td>
-<td>0.004s</td>
+<td>0.014s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
@@ -435,7 +519,7 @@
 <td>3</td>
 <td>0</td>
 <td>0</td>
-<td>0.002s</td>
+<td>0.001s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
@@ -445,7 +529,7 @@
 <td>81</td>
 <td>0</td>
 <td>0</td>
-<td>0.092s</td>
+<td>0.035s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
@@ -455,7 +539,7 @@
 <td>14</td>
 <td>0</td>
 <td>0</td>
-<td>0.255s</td>
+<td>0.064s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
@@ -465,17 +549,7 @@
 <td>21</td>
 <td>0</td>
 <td>0</td>
-<td>0.047s</td>
-<td class="success">100%</td>
-</tr>
-<tr>
-<td class="success">
-<a href="packages/org.apache.kafka.common.header.internals.html">org.apache.kafka.common.header.internals</a>
-</td>
-<td>8</td>
-<td>0</td>
-<td>0</td>
-<td>0.033s</td>
+<td>0.074s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
@@ -485,7 +559,7 @@
 <td>11</td>
 <td>0</td>
 <td>0</td>
-<td>0.008s</td>
+<td>0s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
@@ -495,7 +569,7 @@
 <td>13</td>
 <td>0</td>
 <td>0</td>
-<td>3.975s</td>
+<td>0.312s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
@@ -505,7 +579,7 @@
 <td>60</td>
 <td>0</td>
 <td>0</td>
-<td>0.380s</td>
+<td>0.276s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
@@ -515,7 +589,7 @@
 <td>57</td>
 <td>0</td>
 <td>0</td>
-<td>2.790s</td>
+<td>1.338s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
@@ -525,7 +599,7 @@
 <td>3</td>
 <td>0</td>
 <td>0</td>
-<td>0.004s</td>
+<td>0.002s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
@@ -535,18 +609,18 @@
 <td>10</td>
 <td>0</td>
 <td>0</td>
-<td>0.025s</td>
+<td>0.024s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
-<td class="skipped">
+<td class="failures">
 <a href="packages/org.apache.kafka.common.network.html">org.apache.kafka.common.network</a>
 </td>
 <td>191</td>
-<td>0</td>
+<td>1</td>
 <td>3</td>
-<td>4m19.58s</td>
-<td class="skipped">100%</td>
+<td>3m39.74s</td>
+<td class="failures">99%</td>
 </tr>
 <tr>
 <td class="success">
@@ -555,7 +629,7 @@
 <td>17</td>
 <td>0</td>
 <td>0</td>
-<td>0.013s</td>
+<td>0.010s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
@@ -565,7 +639,7 @@
 <td>29</td>
 <td>0</td>
 <td>0</td>
-<td>0.023s</td>
+<td>0.028s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
@@ -575,7 +649,7 @@
 <td>3634</td>
 <td>0</td>
 <td>60</td>
-<td>12.478s</td>
+<td>4.608s</td>
 <td class="skipped">100%</td>
 </tr>
 <tr>
@@ -585,7 +659,7 @@
 <td>1</td>
 <td>0</td>
 <td>0</td>
-<td>0.044s</td>
+<td>0.008s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
@@ -595,7 +669,7 @@
 <td>165</td>
 <td>0</td>
 <td>0</td>
-<td>0.571s</td>
+<td>0.333s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
@@ -605,7 +679,7 @@
 <td>13</td>
 <td>0</td>
 <td>0</td>
-<td>0.008s</td>
+<td>0.002s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
@@ -615,7 +689,7 @@
 <td>19</td>
 <td>0</td>
 <td>0</td>
-<td>0.097s</td>
+<td>0.089s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
@@ -625,18 +699,18 @@
 <td>9</td>
 <td>0</td>
 <td>0</td>
-<td>0.212s</td>
+<td>0.136s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
-<td class="success">
+<td class="failures">
 <a href="packages/org.apache.kafka.common.security.authenticator.html">org.apache.kafka.common.security.authenticator</a>
 </td>
 <td>83</td>
+<td>7</td>
 <td>0</td>
-<td>0</td>
-<td>1m8.44s</td>
-<td class="success">100%</td>
+<td>2m49.44s</td>
+<td class="failures">91%</td>
 </tr>
 <tr>
 <td class="success">
@@ -645,7 +719,7 @@
 <td>5</td>
 <td>0</td>
 <td>0</td>
-<td>0.015s</td>
+<td>0.004s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
@@ -655,7 +729,7 @@
 <td>15</td>
 <td>0</td>
 <td>0</td>
-<td>0.186s</td>
+<td>0.031s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
@@ -665,7 +739,7 @@
 <td>21</td>
 <td>0</td>
 <td>0</td>
-<td>0.092s</td>
+<td>0.196s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
@@ -675,7 +749,7 @@
 <td>7</td>
 <td>0</td>
 <td>0</td>
-<td>0.129s</td>
+<td>0.324s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
@@ -685,7 +759,7 @@
 <td>21</td>
 <td>0</td>
 <td>0</td>
-<td>1.838s</td>
+<td>1.028s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
@@ -695,7 +769,7 @@
 <td>4</td>
 <td>0</td>
 <td>0</td>
-<td>0.011s</td>
+<td>0.003s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
@@ -705,7 +779,7 @@
 <td>19</td>
 <td>0</td>
 <td>0</td>
-<td>1.026s</td>
+<td>1.800s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
@@ -715,7 +789,7 @@
 <td>36</td>
 <td>0</td>
 <td>0</td>
-<td>18.847s</td>
+<td>9.144s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
@@ -725,23 +799,23 @@
 <td>12</td>
 <td>0</td>
 <td>0</td>
-<td>0.142s</td>
+<td>0.024s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
-<td class="success">
+<td class="failures">
 <a href="packages/org.apache.kafka.common.utils.html">org.apache.kafka.common.utils</a>
 </td>
 <td>161</td>
-<td>0</td>
-<td>0</td>
-<td>2.369s</td>
-<td class="success">100%</td>
+<td>2</td>
+<td>4</td>
+<td>3.520s</td>
+<td class="failures">98%</td>
 </tr>
 </tbody>
 </table>
 </div>
-<div id="tab2" class="tab">
+<div id="tab3" class="tab">
 <h2>Classes</h2>
 <table>
 <thead>
@@ -762,28 +836,28 @@
 <td>1</td>
 <td>0</td>
 <td>0</td>
-<td>0.005s</td>
+<td>0.201s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
-<td class="success">
+<td class="failures">
 <a href="classes/org.apache.kafka.clients.ClientUtilsTest.html">org.apache.kafka.clients.ClientUtilsTest</a>
 </td>
 <td>10</td>
+<td>2</td>
 <td>0</td>
-<td>0</td>
-<td>0.516s</td>
-<td class="success">100%</td>
+<td>52.985s</td>
+<td class="failures">80%</td>
 </tr>
 <tr>
-<td class="success">
+<td class="failures">
 <a href="classes/org.apache.kafka.clients.ClusterConnectionStatesTest.html">org.apache.kafka.clients.ClusterConnectionStatesTest</a>
 </td>
 <td>16</td>
+<td>3</td>
 <td>0</td>
-<td>0</td>
-<td>0.008s</td>
-<td class="success">100%</td>
+<td>0.676s</td>
+<td class="failures">81%</td>
 </tr>
 <tr>
 <td class="success">
@@ -792,7 +866,7 @@
 <td>1</td>
 <td>0</td>
 <td>0</td>
-<td>0.018s</td>
+<td>0.100s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
@@ -802,7 +876,7 @@
 <td>6</td>
 <td>0</td>
 <td>0</td>
-<td>0.050s</td>
+<td>0.012s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
@@ -812,7 +886,7 @@
 <td>6</td>
 <td>0</td>
 <td>0</td>
-<td>0.003s</td>
+<td>0.026s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
@@ -822,7 +896,7 @@
 <td>1</td>
 <td>0</td>
 <td>0</td>
-<td>0.003s</td>
+<td>0.001s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
@@ -832,7 +906,7 @@
 <td>22</td>
 <td>0</td>
 <td>0</td>
-<td>1.973s</td>
+<td>0.039s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
@@ -842,7 +916,7 @@
 <td>33</td>
 <td>0</td>
 <td>0</td>
-<td>0.110s</td>
+<td>2.350s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
@@ -852,7 +926,7 @@
 <td>10</td>
 <td>0</td>
 <td>0</td>
-<td>0.005s</td>
+<td>0.006s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
@@ -862,7 +936,7 @@
 <td>6</td>
 <td>0</td>
 <td>0</td>
-<td>0.024s</td>
+<td>0.008s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
@@ -872,7 +946,7 @@
 <td>5</td>
 <td>0</td>
 <td>0</td>
-<td>0.181s</td>
+<td>0.262s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
@@ -882,7 +956,7 @@
 <td>3</td>
 <td>0</td>
 <td>0</td>
-<td>0.014s</td>
+<td>0.051s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
@@ -892,7 +966,7 @@
 <td>122</td>
 <td>0</td>
 <td>0</td>
-<td>10.086s</td>
+<td>8.137s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
@@ -912,7 +986,7 @@
 <td>1</td>
 <td>0</td>
 <td>0</td>
-<td>0.004s</td>
+<td>0.014s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
@@ -922,7 +996,7 @@
 <td>5</td>
 <td>0</td>
 <td>0</td>
-<td>0.153s</td>
+<td>0.170s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
@@ -932,7 +1006,7 @@
 <td>3</td>
 <td>0</td>
 <td>0</td>
-<td>0.005s</td>
+<td>0.006s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
@@ -942,7 +1016,7 @@
 <td>5</td>
 <td>0</td>
 <td>0</td>
-<td>0.021s</td>
+<td>0.007s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
@@ -952,7 +1026,7 @@
 <td>5</td>
 <td>0</td>
 <td>0</td>
-<td>0.006s</td>
+<td>0.008s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
@@ -962,7 +1036,7 @@
 <td>2</td>
 <td>0</td>
 <td>0</td>
-<td>0.001s</td>
+<td>0.005s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
@@ -972,7 +1046,7 @@
 <td>1</td>
 <td>0</td>
 <td>0</td>
-<td>0.008s</td>
+<td>0.004s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
@@ -982,7 +1056,7 @@
 <td>23</td>
 <td>0</td>
 <td>0</td>
-<td>21.862s</td>
+<td>16.669s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
@@ -992,7 +1066,7 @@
 <td>81</td>
 <td>0</td>
 <td>0</td>
-<td>5.610s</td>
+<td>5.412s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
@@ -1002,7 +1076,7 @@
 <td>5</td>
 <td>0</td>
 <td>0</td>
-<td>0.126s</td>
+<td>0.018s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
@@ -1012,7 +1086,7 @@
 <td>4</td>
 <td>0</td>
 <td>0</td>
-<td>0.009s</td>
+<td>0.010s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
@@ -1032,7 +1106,7 @@
 <td>13</td>
 <td>0</td>
 <td>0</td>
-<td>0.006s</td>
+<td>0.005s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
@@ -1042,7 +1116,7 @@
 <td>27</td>
 <td>0</td>
 <td>0</td>
-<td>47.020s</td>
+<td>12.020s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
@@ -1052,7 +1126,7 @@
 <td>39</td>
 <td>0</td>
 <td>0</td>
-<td>3.040s</td>
+<td>3.431s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
@@ -1062,7 +1136,7 @@
 <td>4</td>
 <td>0</td>
 <td>0</td>
-<td>0.002s</td>
+<td>0.001s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
@@ -1072,7 +1146,7 @@
 <td>238</td>
 <td>0</td>
 <td>0</td>
-<td>11.777s</td>
+<td>13.871s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
@@ -1082,7 +1156,7 @@
 <td>2</td>
 <td>0</td>
 <td>0</td>
-<td>0.004s</td>
+<td>0.003s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
@@ -1092,7 +1166,7 @@
 <td>5</td>
 <td>0</td>
 <td>0</td>
-<td>0.016s</td>
+<td>0.991s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
@@ -1102,7 +1176,7 @@
 <td>19</td>
 <td>0</td>
 <td>0</td>
-<td>0.231s</td>
+<td>0.610s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
@@ -1112,7 +1186,7 @@
 <td>11</td>
 <td>0</td>
 <td>0</td>
-<td>0.019s</td>
+<td>0.006s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
@@ -1122,7 +1196,7 @@
 <td>128</td>
 <td>0</td>
 <td>0</td>
-<td>40.639s</td>
+<td>2.231s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
@@ -1132,7 +1206,7 @@
 <td>7</td>
 <td>0</td>
 <td>0</td>
-<td>0.006s</td>
+<td>0.001s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
@@ -1142,7 +1216,7 @@
 <td>5</td>
 <td>0</td>
 <td>0</td>
-<td>0.001s</td>
+<td>0.079s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
@@ -1152,7 +1226,7 @@
 <td>8</td>
 <td>0</td>
 <td>0</td>
-<td>0.088s</td>
+<td>0.177s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
@@ -1162,7 +1236,7 @@
 <td>18</td>
 <td>0</td>
 <td>0</td>
-<td>0.016s</td>
+<td>0.005s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
@@ -1172,7 +1246,7 @@
 <td>36</td>
 <td>0</td>
 <td>0</td>
-<td>0.023s</td>
+<td>0.047s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
@@ -1182,7 +1256,7 @@
 <td>45</td>
 <td>0</td>
 <td>0</td>
-<td>13.954s</td>
+<td>16.194s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
@@ -1192,7 +1266,7 @@
 <td>56</td>
 <td>0</td>
 <td>0</td>
-<td>0.086s</td>
+<td>0.053s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
@@ -1202,7 +1276,7 @@
 <td>2</td>
 <td>0</td>
 <td>0</td>
-<td>0.336s</td>
+<td>0.004s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
@@ -1212,7 +1286,7 @@
 <td>2</td>
 <td>0</td>
 <td>0</td>
-<td>0.011s</td>
+<td>0.001s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
@@ -1222,7 +1296,7 @@
 <td>3</td>
 <td>0</td>
 <td>0</td>
-<td>0.007s</td>
+<td>0s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
@@ -1232,7 +1306,7 @@
 <td>3</td>
 <td>0</td>
 <td>0</td>
-<td>0.279s</td>
+<td>0.156s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
@@ -1242,7 +1316,7 @@
 <td>3</td>
 <td>0</td>
 <td>0</td>
-<td>0.006s</td>
+<td>0.002s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
@@ -1252,7 +1326,7 @@
 <td>3</td>
 <td>0</td>
 <td>0</td>
-<td>0.266s</td>
+<td>0.001s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
@@ -1262,7 +1336,7 @@
 <td>13</td>
 <td>0</td>
 <td>0</td>
-<td>6.883s</td>
+<td>3.592s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
@@ -1272,7 +1346,7 @@
 <td>1</td>
 <td>0</td>
 <td>0</td>
-<td>0.009s</td>
+<td>0.001s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
@@ -1282,7 +1356,7 @@
 <td>2</td>
 <td>0</td>
 <td>0</td>
-<td>1.589s</td>
+<td>0.400s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
@@ -1292,7 +1366,7 @@
 <td>10</td>
 <td>0</td>
 <td>0</td>
-<td>0.745s</td>
+<td>1.079s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
@@ -1302,7 +1376,7 @@
 <td>3</td>
 <td>0</td>
 <td>0</td>
-<td>0.005s</td>
+<td>0.003s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
@@ -1312,7 +1386,7 @@
 <td>8</td>
 <td>0</td>
 <td>0</td>
-<td>4.630s</td>
+<td>2.021s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
@@ -1322,7 +1396,7 @@
 <td>25</td>
 <td>0</td>
 <td>0</td>
-<td>6.587s</td>
+<td>2.788s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
@@ -1332,7 +1406,7 @@
 <td>60</td>
 <td>0</td>
 <td>0</td>
-<td>1.033s</td>
+<td>0.895s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
@@ -1342,7 +1416,7 @@
 <td>2</td>
 <td>0</td>
 <td>0</td>
-<td>0.022s</td>
+<td>0.005s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
@@ -1352,7 +1426,7 @@
 <td>116</td>
 <td>0</td>
 <td>0</td>
-<td>8.967s</td>
+<td>4.254s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
@@ -1362,7 +1436,7 @@
 <td>2</td>
 <td>0</td>
 <td>0</td>
-<td>0.006s</td>
+<td>0.002s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
@@ -1392,7 +1466,7 @@
 <td>2</td>
 <td>0</td>
 <td>0</td>
-<td>0.007s</td>
+<td>0.002s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
@@ -1402,7 +1476,7 @@
 <td>4</td>
 <td>0</td>
 <td>0</td>
-<td>0.003s</td>
+<td>0.001s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
@@ -1412,7 +1486,7 @@
 <td>8</td>
 <td>0</td>
 <td>0</td>
-<td>0.001s</td>
+<td>0.007s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
@@ -1432,7 +1506,7 @@
 <td>4</td>
 <td>0</td>
 <td>0</td>
-<td>0.001s</td>
+<td>0s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
@@ -1442,7 +1516,7 @@
 <td>24</td>
 <td>0</td>
 <td>0</td>
-<td>0.002s</td>
+<td>0.004s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
@@ -1452,7 +1526,7 @@
 <td>4</td>
 <td>0</td>
 <td>0</td>
-<td>0s</td>
+<td>0.003s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
@@ -1462,7 +1536,7 @@
 <td>3</td>
 <td>0</td>
 <td>0</td>
-<td>0.002s</td>
+<td>0.001s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
@@ -1472,7 +1546,7 @@
 <td>20</td>
 <td>0</td>
 <td>0</td>
-<td>0.048s</td>
+<td>0.013s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
@@ -1482,7 +1556,7 @@
 <td>39</td>
 <td>0</td>
 <td>0</td>
-<td>0.018s</td>
+<td>0.008s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
@@ -1502,7 +1576,7 @@
 <td>8</td>
 <td>0</td>
 <td>0</td>
-<td>0.016s</td>
+<td>0.003s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
@@ -1512,7 +1586,7 @@
 <td>11</td>
 <td>0</td>
 <td>0</td>
-<td>0.008s</td>
+<td>0.009s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
@@ -1522,7 +1596,7 @@
 <td>8</td>
 <td>0</td>
 <td>0</td>
-<td>0.253s</td>
+<td>0.063s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
@@ -1532,7 +1606,7 @@
 <td>6</td>
 <td>0</td>
 <td>0</td>
-<td>0.002s</td>
+<td>0.001s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
@@ -1542,7 +1616,7 @@
 <td>11</td>
 <td>0</td>
 <td>0</td>
-<td>0.034s</td>
+<td>0.011s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
@@ -1552,7 +1626,7 @@
 <td>4</td>
 <td>0</td>
 <td>0</td>
-<td>0.002s</td>
+<td>0.004s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
@@ -1562,17 +1636,7 @@
 <td>6</td>
 <td>0</td>
 <td>0</td>
-<td>0.011s</td>
-<td class="success">100%</td>
-</tr>
-<tr>
-<td class="success">
-<a href="classes/org.apache.kafka.common.header.internals.RecordHeadersTest.html">org.apache.kafka.common.header.internals.RecordHeadersTest</a>
-</td>
-<td>8</td>
-<td>0</td>
-<td>0</td>
-<td>0.033s</td>
+<td>0.059s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
@@ -1582,7 +1646,7 @@
 <td>6</td>
 <td>0</td>
 <td>0</td>
-<td>0.006s</td>
+<td>0s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
@@ -1592,7 +1656,7 @@
 <td>5</td>
 <td>0</td>
 <td>0</td>
-<td>0.002s</td>
+<td>0s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
@@ -1602,7 +1666,7 @@
 <td>13</td>
 <td>0</td>
 <td>0</td>
-<td>3.975s</td>
+<td>0.312s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
@@ -1612,7 +1676,7 @@
 <td>4</td>
 <td>0</td>
 <td>0</td>
-<td>0.029s</td>
+<td>0.075s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
@@ -1622,7 +1686,7 @@
 <td>34</td>
 <td>0</td>
 <td>0</td>
-<td>0.310s</td>
+<td>0.154s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
@@ -1642,7 +1706,7 @@
 <td>19</td>
 <td>0</td>
 <td>0</td>
-<td>0.034s</td>
+<td>0.040s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
@@ -1652,7 +1716,7 @@
 <td>5</td>
 <td>0</td>
 <td>0</td>
-<td>0.189s</td>
+<td>0.003s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
@@ -1662,7 +1726,7 @@
 <td>7</td>
 <td>0</td>
 <td>0</td>
-<td>0.013s</td>
+<td>0.037s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
@@ -1672,7 +1736,7 @@
 <td>5</td>
 <td>0</td>
 <td>0</td>
-<td>0.003s</td>
+<td>0.001s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
@@ -1682,7 +1746,7 @@
 <td>26</td>
 <td>0</td>
 <td>0</td>
-<td>2.536s</td>
+<td>1.234s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
@@ -1692,7 +1756,7 @@
 <td>12</td>
 <td>0</td>
 <td>0</td>
-<td>0.048s</td>
+<td>0.061s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
@@ -1702,7 +1766,7 @@
 <td>2</td>
 <td>0</td>
 <td>0</td>
-<td>0.001s</td>
+<td>0.002s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
@@ -1712,7 +1776,7 @@
 <td>3</td>
 <td>0</td>
 <td>0</td>
-<td>0.004s</td>
+<td>0.002s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
@@ -1732,7 +1796,7 @@
 <td>4</td>
 <td>0</td>
 <td>0</td>
-<td>0.006s</td>
+<td>0.001s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
@@ -1742,7 +1806,7 @@
 <td>1</td>
 <td>0</td>
 <td>0</td>
-<td>0.005s</td>
+<td>0.009s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
@@ -1752,7 +1816,7 @@
 <td>3</td>
 <td>0</td>
 <td>0</td>
-<td>0.114s</td>
+<td>0.420s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
@@ -1762,7 +1826,7 @@
 <td>2</td>
 <td>0</td>
 <td>0</td>
-<td>0.262s</td>
+<td>0.072s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
@@ -1772,7 +1836,7 @@
 <td>1</td>
 <td>0</td>
 <td>0</td>
-<td>0.015s</td>
+<td>0.020s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
@@ -1782,7 +1846,7 @@
 <td>5</td>
 <td>0</td>
 <td>0</td>
-<td>2.583s</td>
+<td>1.280s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
@@ -1792,7 +1856,7 @@
 <td>33</td>
 <td>0</td>
 <td>0</td>
-<td>7.072s</td>
+<td>14.678s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
@@ -1802,7 +1866,7 @@
 <td>38</td>
 <td>0</td>
 <td>0</td>
-<td>23.471s</td>
+<td>24.447s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
@@ -1812,18 +1876,18 @@
 <td>104</td>
 <td>0</td>
 <td>0</td>
-<td>3m38.85s</td>
+<td>2m48.26s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
-<td class="skipped">
+<td class="failures">
 <a href="classes/org.apache.kafka.common.network.SslTransportTls12Tls13Test.html">org.apache.kafka.common.network.SslTransportTls12Tls13Test</a>
 </td>
 <td>4</td>
-<td>0</td>
+<td>1</td>
 <td>3</td>
-<td>5.443s</td>
-<td class="skipped">100%</td>
+<td>9.102s</td>
+<td class="failures">0%</td>
 </tr>
 <tr>
 <td class="success">
@@ -1832,7 +1896,7 @@
 <td>1</td>
 <td>0</td>
 <td>0</td>
-<td>1.769s</td>
+<td>1.466s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
@@ -1842,7 +1906,7 @@
 <td>4</td>
 <td>0</td>
 <td>0</td>
-<td>0.006s</td>
+<td>0.001s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
@@ -1852,7 +1916,7 @@
 <td>7</td>
 <td>0</td>
 <td>0</td>
-<td>0.002s</td>
+<td>0s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
@@ -1862,7 +1926,7 @@
 <td>4</td>
 <td>0</td>
 <td>0</td>
-<td>0.003s</td>
+<td>0.009s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
@@ -1872,7 +1936,7 @@
 <td>1</td>
 <td>0</td>
 <td>0</td>
-<td>0.001s</td>
+<td>0s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
@@ -1882,7 +1946,7 @@
 <td>1</td>
 <td>0</td>
 <td>0</td>
-<td>0.001s</td>
+<td>0s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
@@ -1892,7 +1956,7 @@
 <td>18</td>
 <td>0</td>
 <td>0</td>
-<td>0.013s</td>
+<td>0.003s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
@@ -1902,7 +1966,7 @@
 <td>4</td>
 <td>0</td>
 <td>0</td>
-<td>0.005s</td>
+<td>0.010s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
@@ -1912,7 +1976,7 @@
 <td>1</td>
 <td>0</td>
 <td>0</td>
-<td>0.004s</td>
+<td>0.002s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
@@ -1922,7 +1986,7 @@
 <td>6</td>
 <td>0</td>
 <td>0</td>
-<td>0.001s</td>
+<td>0.013s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
@@ -1932,7 +1996,7 @@
 <td>11</td>
 <td>0</td>
 <td>0</td>
-<td>0.006s</td>
+<td>0.007s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
@@ -1942,7 +2006,7 @@
 <td>1</td>
 <td>0</td>
 <td>0</td>
-<td>0s</td>
+<td>0.001s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
@@ -1952,7 +2016,7 @@
 <td>4</td>
 <td>0</td>
 <td>0</td>
-<td>0.001s</td>
+<td>0.017s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
@@ -1962,7 +2026,7 @@
 <td>1</td>
 <td>0</td>
 <td>0</td>
-<td>0.002s</td>
+<td>0s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
@@ -1972,7 +2036,7 @@
 <td>2</td>
 <td>0</td>
 <td>0</td>
-<td>0.173s</td>
+<td>0.053s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
@@ -1982,7 +2046,7 @@
 <td>2</td>
 <td>0</td>
 <td>0</td>
-<td>0s</td>
+<td>0.001s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
@@ -1992,7 +2056,7 @@
 <td>2</td>
 <td>0</td>
 <td>0</td>
-<td>0.005s</td>
+<td>0.004s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
@@ -2002,7 +2066,7 @@
 <td>20</td>
 <td>0</td>
 <td>0</td>
-<td>0.010s</td>
+<td>0.172s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
@@ -2012,7 +2076,7 @@
 <td>19</td>
 <td>0</td>
 <td>0</td>
-<td>0.010s</td>
+<td>0.005s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
@@ -2022,7 +2086,7 @@
 <td>6</td>
 <td>0</td>
 <td>0</td>
-<td>0.002s</td>
+<td>0.003s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
@@ -2032,7 +2096,7 @@
 <td>105</td>
 <td>0</td>
 <td>0</td>
-<td>0.295s</td>
+<td>0.359s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
@@ -2042,7 +2106,7 @@
 <td>21</td>
 <td>0</td>
 <td>0</td>
-<td>2.259s</td>
+<td>0.297s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
@@ -2052,7 +2116,7 @@
 <td>1152</td>
 <td>0</td>
 <td>0</td>
-<td>0.777s</td>
+<td>0.160s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
@@ -2062,7 +2126,7 @@
 <td>1</td>
 <td>0</td>
 <td>0</td>
-<td>0.105s</td>
+<td>0.016s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
@@ -2072,7 +2136,7 @@
 <td>12</td>
 <td>0</td>
 <td>0</td>
-<td>0.071s</td>
+<td>0.094s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
@@ -2082,7 +2146,7 @@
 <td>1440</td>
 <td>0</td>
 <td>0</td>
-<td>3.972s</td>
+<td>1.009s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
@@ -2092,7 +2156,7 @@
 <td>290</td>
 <td>0</td>
 <td>24</td>
-<td>2.209s</td>
+<td>1.676s</td>
 <td class="skipped">100%</td>
 </tr>
 <tr>
@@ -2102,7 +2166,7 @@
 <td>540</td>
 <td>0</td>
 <td>36</td>
-<td>2.574s</td>
+<td>0.731s</td>
 <td class="skipped">100%</td>
 </tr>
 <tr>
@@ -2112,7 +2176,7 @@
 <td>1</td>
 <td>0</td>
 <td>0</td>
-<td>0.007s</td>
+<td>0.002s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
@@ -2122,7 +2186,7 @@
 <td>4</td>
 <td>0</td>
 <td>0</td>
-<td>0s</td>
+<td>0.001s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
@@ -2132,7 +2196,7 @@
 <td>1</td>
 <td>0</td>
 <td>0</td>
-<td>0.044s</td>
+<td>0.008s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
@@ -2142,7 +2206,7 @@
 <td>1</td>
 <td>0</td>
 <td>0</td>
-<td>0.007s</td>
+<td>0.003s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
@@ -2152,7 +2216,7 @@
 <td>2</td>
 <td>0</td>
 <td>0</td>
-<td>0.002s</td>
+<td>0.001s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
@@ -2162,7 +2226,7 @@
 <td>2</td>
 <td>0</td>
 <td>0</td>
-<td>0.007s</td>
+<td>0.004s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
@@ -2172,7 +2236,7 @@
 <td>1</td>
 <td>0</td>
 <td>0</td>
-<td>0.001s</td>
+<td>0.002s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
@@ -2182,7 +2246,7 @@
 <td>5</td>
 <td>0</td>
 <td>0</td>
-<td>0.004s</td>
+<td>0.003s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
@@ -2192,7 +2256,7 @@
 <td>2</td>
 <td>0</td>
 <td>0</td>
-<td>0.033s</td>
+<td>0.001s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
@@ -2202,7 +2266,7 @@
 <td>4</td>
 <td>0</td>
 <td>0</td>
-<td>0.027s</td>
+<td>0.006s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
@@ -2212,7 +2276,7 @@
 <td>5</td>
 <td>0</td>
 <td>0</td>
-<td>0.014s</td>
+<td>0.002s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
@@ -2222,7 +2286,7 @@
 <td>4</td>
 <td>0</td>
 <td>0</td>
-<td>0.003s</td>
+<td>0.005s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
@@ -2242,7 +2306,7 @@
 <td>7</td>
 <td>0</td>
 <td>0</td>
-<td>0.019s</td>
+<td>0.003s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
@@ -2252,7 +2316,7 @@
 <td>5</td>
 <td>0</td>
 <td>0</td>
-<td>0.010s</td>
+<td>0.006s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
@@ -2262,7 +2326,7 @@
 <td>1</td>
 <td>0</td>
 <td>0</td>
-<td>0.003s</td>
+<td>0s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
@@ -2272,7 +2336,7 @@
 <td>1</td>
 <td>0</td>
 <td>0</td>
-<td>0.038s</td>
+<td>0s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
@@ -2282,7 +2346,7 @@
 <td>3</td>
 <td>0</td>
 <td>0</td>
-<td>0s</td>
+<td>0.001s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
@@ -2302,7 +2366,7 @@
 <td>5</td>
 <td>0</td>
 <td>0</td>
-<td>0.006s</td>
+<td>0.003s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
@@ -2312,7 +2376,7 @@
 <td>4</td>
 <td>0</td>
 <td>0</td>
-<td>0.021s</td>
+<td>0.008s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
@@ -2322,7 +2386,7 @@
 <td>4</td>
 <td>0</td>
 <td>0</td>
-<td>0.010s</td>
+<td>0.008s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
@@ -2342,7 +2406,7 @@
 <td>5</td>
 <td>0</td>
 <td>0</td>
-<td>0.003s</td>
+<td>0.001s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
@@ -2352,7 +2416,7 @@
 <td>4</td>
 <td>0</td>
 <td>0</td>
-<td>0.007s</td>
+<td>0.003s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
@@ -2362,7 +2426,7 @@
 <td>3</td>
 <td>0</td>
 <td>0</td>
-<td>0.001s</td>
+<td>0s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
@@ -2372,7 +2436,7 @@
 <td>3</td>
 <td>0</td>
 <td>0</td>
-<td>0.004s</td>
+<td>0.005s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
@@ -2382,7 +2446,7 @@
 <td>2</td>
 <td>0</td>
 <td>0</td>
-<td>0.005s</td>
+<td>0.008s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
@@ -2402,7 +2466,7 @@
 <td>5</td>
 <td>0</td>
 <td>0</td>
-<td>0.003s</td>
+<td>0.002s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
@@ -2412,7 +2476,7 @@
 <td>2</td>
 <td>0</td>
 <td>0</td>
-<td>0.002s</td>
+<td>0.004s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
@@ -2422,7 +2486,7 @@
 <td>13</td>
 <td>0</td>
 <td>0</td>
-<td>0.024s</td>
+<td>0.005s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
@@ -2432,7 +2496,7 @@
 <td>3</td>
 <td>0</td>
 <td>0</td>
-<td>0.009s</td>
+<td>0.005s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
@@ -2442,7 +2506,7 @@
 <td>2</td>
 <td>0</td>
 <td>0</td>
-<td>0.002s</td>
+<td>0.008s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
@@ -2462,7 +2526,7 @@
 <td>28</td>
 <td>0</td>
 <td>0</td>
-<td>0.239s</td>
+<td>0.193s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
@@ -2472,7 +2536,7 @@
 <td>6</td>
 <td>0</td>
 <td>0</td>
-<td>0.007s</td>
+<td>0.005s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
@@ -2482,7 +2546,7 @@
 <td>4</td>
 <td>0</td>
 <td>0</td>
-<td>0.022s</td>
+<td>0.006s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
@@ -2492,7 +2556,7 @@
 <td>1</td>
 <td>0</td>
 <td>0</td>
-<td>0.002s</td>
+<td>0s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
@@ -2502,7 +2566,7 @@
 <td>5</td>
 <td>0</td>
 <td>0</td>
-<td>0.015s</td>
+<td>0.012s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
@@ -2512,7 +2576,7 @@
 <td>2</td>
 <td>0</td>
 <td>0</td>
-<td>0.003s</td>
+<td>0.006s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
@@ -2522,7 +2586,7 @@
 <td>4</td>
 <td>0</td>
 <td>0</td>
-<td>0.006s</td>
+<td>0.005s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
@@ -2532,7 +2596,7 @@
 <td>2</td>
 <td>0</td>
 <td>0</td>
-<td>0.006s</td>
+<td>0.003s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
@@ -2552,7 +2616,7 @@
 <td>9</td>
 <td>0</td>
 <td>0</td>
-<td>0.007s</td>
+<td>0.001s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
@@ -2572,7 +2636,7 @@
 <td>17</td>
 <td>0</td>
 <td>0</td>
-<td>0.097s</td>
+<td>0.088s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
@@ -2582,7 +2646,7 @@
 <td>2</td>
 <td>0</td>
 <td>0</td>
-<td>0s</td>
+<td>0.001s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
@@ -2592,7 +2656,7 @@
 <td>8</td>
 <td>0</td>
 <td>0</td>
-<td>0.210s</td>
+<td>0.135s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
@@ -2602,7 +2666,7 @@
 <td>1</td>
 <td>0</td>
 <td>0</td>
-<td>0.002s</td>
+<td>0.001s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
@@ -2612,7 +2676,7 @@
 <td>4</td>
 <td>0</td>
 <td>0</td>
-<td>0.533s</td>
+<td>0.691s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
@@ -2622,28 +2686,28 @@
 <td>2</td>
 <td>0</td>
 <td>0</td>
-<td>0.018s</td>
+<td>0.061s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
-<td class="success">
+<td class="failures">
 <a href="classes/org.apache.kafka.common.security.authenticator.SaslAuthenticatorFailureDelayTest.html">org.apache.kafka.common.security.authenticator.SaslAuthenticatorFailureDelayTest</a>
 </td>
 <td>4</td>
+<td>3</td>
 <td>0</td>
-<td>0</td>
-<td>6.380s</td>
-<td class="success">100%</td>
+<td>21.828s</td>
+<td class="failures">25%</td>
 </tr>
 <tr>
-<td class="success">
+<td class="failures">
 <a href="classes/org.apache.kafka.common.security.authenticator.SaslAuthenticatorTest.html">org.apache.kafka.common.security.authenticator.SaslAuthenticatorTest</a>
 </td>
 <td>69</td>
+<td>4</td>
 <td>0</td>
-<td>0</td>
-<td>1m0.10s</td>
-<td class="success">100%</td>
+<td>2m26.70s</td>
+<td class="failures">94%</td>
 </tr>
 <tr>
 <td class="success">
@@ -2652,7 +2716,7 @@
 <td>4</td>
 <td>0</td>
 <td>0</td>
-<td>1.411s</td>
+<td>0.158s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
@@ -2662,7 +2726,7 @@
 <td>4</td>
 <td>0</td>
 <td>0</td>
-<td>0.010s</td>
+<td>0.002s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
@@ -2672,7 +2736,7 @@
 <td>1</td>
 <td>0</td>
 <td>0</td>
-<td>0.005s</td>
+<td>0.002s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
@@ -2682,7 +2746,7 @@
 <td>4</td>
 <td>0</td>
 <td>0</td>
-<td>0.005s</td>
+<td>0.002s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
@@ -2692,7 +2756,7 @@
 <td>5</td>
 <td>0</td>
 <td>0</td>
-<td>0.158s</td>
+<td>0.024s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
@@ -2702,7 +2766,7 @@
 <td>2</td>
 <td>0</td>
 <td>0</td>
-<td>0.017s</td>
+<td>0.003s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
@@ -2712,7 +2776,7 @@
 <td>2</td>
 <td>0</td>
 <td>0</td>
-<td>0.004s</td>
+<td>0.001s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
@@ -2722,7 +2786,7 @@
 <td>2</td>
 <td>0</td>
 <td>0</td>
-<td>0.002s</td>
+<td>0.001s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
@@ -2732,7 +2796,7 @@
 <td>10</td>
 <td>0</td>
 <td>0</td>
-<td>0.011s</td>
+<td>0.003s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
@@ -2742,7 +2806,7 @@
 <td>3</td>
 <td>0</td>
 <td>0</td>
-<td>0.015s</td>
+<td>0.006s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
@@ -2752,7 +2816,7 @@
 <td>8</td>
 <td>0</td>
 <td>0</td>
-<td>0.066s</td>
+<td>0.187s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
@@ -2762,7 +2826,7 @@
 <td>1</td>
 <td>0</td>
 <td>0</td>
-<td>0.001s</td>
+<td>0.010s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
@@ -2772,7 +2836,7 @@
 <td>6</td>
 <td>0</td>
 <td>0</td>
-<td>0.128s</td>
+<td>0.314s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
@@ -2792,7 +2856,7 @@
 <td>4</td>
 <td>0</td>
 <td>0</td>
-<td>0.989s</td>
+<td>0.298s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
@@ -2802,7 +2866,7 @@
 <td>5</td>
 <td>0</td>
 <td>0</td>
-<td>0.436s</td>
+<td>0.003s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
@@ -2812,7 +2876,7 @@
 <td>5</td>
 <td>0</td>
 <td>0</td>
-<td>0.015s</td>
+<td>0.298s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
@@ -2822,7 +2886,7 @@
 <td>5</td>
 <td>0</td>
 <td>0</td>
-<td>0.396s</td>
+<td>0.427s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
@@ -2832,7 +2896,7 @@
 <td>4</td>
 <td>0</td>
 <td>0</td>
-<td>0.011s</td>
+<td>0.003s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
@@ -2842,7 +2906,7 @@
 <td>6</td>
 <td>0</td>
 <td>0</td>
-<td>0.718s</td>
+<td>1.231s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
@@ -2852,7 +2916,7 @@
 <td>2</td>
 <td>0</td>
 <td>0</td>
-<td>0.088s</td>
+<td>0.042s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
@@ -2862,7 +2926,7 @@
 <td>8</td>
 <td>0</td>
 <td>0</td>
-<td>0.027s</td>
+<td>0.463s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
@@ -2872,7 +2936,7 @@
 <td>3</td>
 <td>0</td>
 <td>0</td>
-<td>0.193s</td>
+<td>0.064s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
@@ -2882,7 +2946,7 @@
 <td>10</td>
 <td>0</td>
 <td>0</td>
-<td>6.937s</td>
+<td>1.195s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
@@ -2892,7 +2956,7 @@
 <td>21</td>
 <td>0</td>
 <td>0</td>
-<td>11.885s</td>
+<td>7.944s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
@@ -2902,7 +2966,7 @@
 <td>5</td>
 <td>0</td>
 <td>0</td>
-<td>0.025s</td>
+<td>0.005s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
@@ -2912,7 +2976,7 @@
 <td>12</td>
 <td>0</td>
 <td>0</td>
-<td>0.142s</td>
+<td>0.024s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
@@ -2922,7 +2986,7 @@
 <td>2</td>
 <td>0</td>
 <td>0</td>
-<td>0.001s</td>
+<td>0s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
@@ -2932,7 +2996,7 @@
 <td>2</td>
 <td>0</td>
 <td>0</td>
-<td>0.002s</td>
+<td>0.001s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
@@ -2942,7 +3006,7 @@
 <td>6</td>
 <td>0</td>
 <td>0</td>
-<td>0s</td>
+<td>0.001s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
@@ -2952,7 +3016,7 @@
 <td>1</td>
 <td>0</td>
 <td>0</td>
-<td>0.012s</td>
+<td>0.006s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
@@ -2962,7 +3026,7 @@
 <td>11</td>
 <td>0</td>
 <td>0</td>
-<td>0.005s</td>
+<td>0.004s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
@@ -2972,7 +3036,7 @@
 <td>3</td>
 <td>0</td>
 <td>0</td>
-<td>0.005s</td>
+<td>0.003s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
@@ -2992,7 +3056,7 @@
 <td>3</td>
 <td>0</td>
 <td>0</td>
-<td>0.004s</td>
+<td>0.002s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
@@ -3002,7 +3066,7 @@
 <td>2</td>
 <td>0</td>
 <td>0</td>
-<td>0.001s</td>
+<td>0s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
@@ -3012,7 +3076,7 @@
 <td>7</td>
 <td>0</td>
 <td>0</td>
-<td>0.013s</td>
+<td>0.001s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
@@ -3022,7 +3086,7 @@
 <td>2</td>
 <td>0</td>
 <td>0</td>
-<td>0s</td>
+<td>0.001s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
@@ -3042,7 +3106,7 @@
 <td>4</td>
 <td>0</td>
 <td>0</td>
-<td>0.008s</td>
+<td>0.004s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
@@ -3052,7 +3116,7 @@
 <td>1</td>
 <td>0</td>
 <td>0</td>
-<td>0.005s</td>
+<td>0.002s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
@@ -3062,7 +3126,7 @@
 <td>3</td>
 <td>0</td>
 <td>0</td>
-<td>0.003s</td>
+<td>0.006s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
@@ -3082,7 +3146,7 @@
 <td>20</td>
 <td>0</td>
 <td>0</td>
-<td>0.043s</td>
+<td>0.028s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
@@ -3092,7 +3156,7 @@
 <td>6</td>
 <td>0</td>
 <td>0</td>
-<td>0.018s</td>
+<td>0.011s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
@@ -3102,18 +3166,18 @@
 <td>3</td>
 <td>0</td>
 <td>0</td>
-<td>0.002s</td>
+<td>0.003s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
-<td class="success">
+<td class="failures">
 <a href="classes/org.apache.kafka.common.utils.LoggingSignalHandlerTest.html">org.apache.kafka.common.utils.LoggingSignalHandlerTest</a>
 </td>
 <td>1</td>
+<td>1</td>
 <td>0</td>
-<td>0</td>
-<td>0.007s</td>
-<td class="success">100%</td>
+<td>0.320s</td>
+<td class="failures">0%</td>
 </tr>
 <tr>
 <td class="success">
@@ -3132,7 +3196,7 @@
 <td>4</td>
 <td>0</td>
 <td>0</td>
-<td>0.010s</td>
+<td>0.006s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
@@ -3142,7 +3206,7 @@
 <td>2</td>
 <td>0</td>
 <td>0</td>
-<td>1.738s</td>
+<td>0.542s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
@@ -3152,18 +3216,18 @@
 <td>3</td>
 <td>0</td>
 <td>0</td>
-<td>0.006s</td>
+<td>0.077s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
-<td class="success">
+<td class="skipped">
 <a href="classes/org.apache.kafka.common.utils.ShellTest.html">org.apache.kafka.common.utils.ShellTest</a>
 </td>
 <td>4</td>
 <td>0</td>
-<td>0</td>
-<td>0.075s</td>
-<td class="success">100%</td>
+<td>4</td>
+<td>0.133s</td>
+<td class="skipped">-</td>
 </tr>
 <tr>
 <td class="success">
@@ -3172,7 +3236,7 @@
 <td>2</td>
 <td>0</td>
 <td>0</td>
-<td>0.112s</td>
+<td>0.115s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
@@ -3182,7 +3246,7 @@
 <td>4</td>
 <td>0</td>
 <td>0</td>
-<td>0.006s</td>
+<td>0.002s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
@@ -3196,14 +3260,14 @@
 <td class="success">100%</td>
 </tr>
 <tr>
-<td class="success">
+<td class="failures">
 <a href="classes/org.apache.kafka.common.utils.UtilsTest.html">org.apache.kafka.common.utils.UtilsTest</a>
 </td>
 <td>44</td>
+<td>1</td>
 <td>0</td>
-<td>0</td>
-<td>0.284s</td>
-<td class="success">100%</td>
+<td>2.243s</td>
+<td class="failures">97%</td>
 </tr>
 </tbody>
 </table>
@@ -3216,7 +3280,7 @@
 <input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
 </label>
 </div>Generated by 
-<a href="http://www.gradle.org">Gradle 6.7</a> at 2020-10-29 10:36:13</p>
+<a href="http://www.gradle.org">Gradle 6.7</a> at 2022-9-3 18:41:17</p>
 </div>
 </div>
 </body>

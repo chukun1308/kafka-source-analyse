@@ -138,7 +138,7 @@ object ConfigCommand extends Config {
       // Replication quota configs may be updated using ZK at any time. Other dynamic broker configs
       // may be updated using ZooKeeper only if the corresponding broker is not running. Dynamic broker
       // configs at cluster-default level may be configured using ZK only if there are no brokers running.
-      val dynamicBrokerConfigs = configsToBeAdded.asScala.keySet.filterNot(BrokerConfigsUpdatableUsingZooKeeperWhileBrokerRunning.contains)
+      val dynamicBrokerConfigs = configsToBeAdded.asScala.keySet.diff(BrokerConfigsUpdatableUsingZooKeeperWhileBrokerRunning)
       if (dynamicBrokerConfigs.nonEmpty) {
         val perBrokerConfig = entityName != ConfigEntityName.Default
         val errorMessage = s"--bootstrap-server option must be specified to update broker configs $dynamicBrokerConfigs."

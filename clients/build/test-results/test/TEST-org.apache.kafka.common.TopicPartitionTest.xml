@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.apache.kafka.common.TopicPartitionTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2020-10-29T02:32:19" hostname="chukun-mac" time="0.007">
+<testsuite name="org.apache.kafka.common.TopicPartitionTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2022-09-03T10:37:57" hostname="LAPTOP-FH01OFOM" time="0.002">
   <properties/>
-  <testcase name="testSerializationRoundtrip" classname="org.apache.kafka.common.TopicPartitionTest" time="0.005"/>
-  <testcase name="testTopiPartitionSerializationCompatibility" classname="org.apache.kafka.common.TopicPartitionTest" time="0.002"/>
+  <testcase name="testSerializationRoundtrip" classname="org.apache.kafka.common.TopicPartitionTest" time="0.002"/>
+  <testcase name="testTopiPartitionSerializationCompatibility" classname="org.apache.kafka.common.TopicPartitionTest" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

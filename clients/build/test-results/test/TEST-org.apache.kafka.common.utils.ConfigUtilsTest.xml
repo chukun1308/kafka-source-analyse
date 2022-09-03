@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.apache.kafka.common.utils.ConfigUtilsTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2020-10-29T02:34:18" hostname="chukun-mac" time="0.016">
+<testsuite name="org.apache.kafka.common.utils.ConfigUtilsTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2022-09-03T10:38:34" hostname="LAPTOP-FH01OFOM" time="0.002">
   <properties/>
-  <testcase name="testNullMapEntriesWithoutAliasesDoNotThrowNPE" classname="org.apache.kafka.common.utils.ConfigUtilsTest" time="0.001"/>
-  <testcase name="testDuplicateSynonyms" classname="org.apache.kafka.common.utils.ConfigUtilsTest" time="0.003"/>
-  <testcase name="testAllowDeprecatedNulls" classname="org.apache.kafka.common.utils.ConfigUtilsTest" time="0.001"/>
-  <testcase name="testMultipleDeprecations" classname="org.apache.kafka.common.utils.ConfigUtilsTest" time="0.002"/>
+  <testcase name="testNullMapEntriesWithoutAliasesDoNotThrowNPE" classname="org.apache.kafka.common.utils.ConfigUtilsTest" time="0.0"/>
+  <testcase name="testDuplicateSynonyms" classname="org.apache.kafka.common.utils.ConfigUtilsTest" time="0.0"/>
+  <testcase name="testAllowDeprecatedNulls" classname="org.apache.kafka.common.utils.ConfigUtilsTest" time="0.0"/>
+  <testcase name="testMultipleDeprecations" classname="org.apache.kafka.common.utils.ConfigUtilsTest" time="0.0"/>
   <testcase name="testAllowsNewKey" classname="org.apache.kafka.common.utils.ConfigUtilsTest" time="0.0"/>
-  <testcase name="testAllowNullOverride" classname="org.apache.kafka.common.utils.ConfigUtilsTest" time="0.003"/>
-  <testcase name="testTranslateDeprecated" classname="org.apache.kafka.common.utils.ConfigUtilsTest" time="0.003"/>
-  <system-out><![CDATA[[2020-10-29 10:34:18,548] ERROR foo.bar was configured, as well as the deprecated alias(es) foo.bar.deprecated.  Using the value of foo.bar (org.apache.kafka.common.utils.ConfigUtils:98)
-[2020-10-29 10:34:18,550] ERROR foo.bar was configured, as well as the deprecated alias(es) foo.bar.deprecated.  Using the value of foo.bar (org.apache.kafka.common.utils.ConfigUtils:98)
-[2020-10-29 10:34:18,551] ERROR The configuration keys foo.bar.deprecated, foo.bar.even.more.deprecated are deprecated and may be removed in the future.  Additionally, this configuration is ambigous because these configuration keys are all aliases for foo.bar.  Please update your configuration to have only foo.bar set. (org.apache.kafka.common.utils.ConfigUtils:102)
-[2020-10-29 10:34:18,554] ERROR foo.bar was configured, as well as the deprecated alias(es) foo.bar.deprecated.  Using the value of foo.bar (org.apache.kafka.common.utils.ConfigUtils:98)
-[2020-10-29 10:34:18,557] ERROR chicken was configured, as well as the deprecated alias(es) rooster, hen.  Using the value of chicken (org.apache.kafka.common.utils.ConfigUtils:98)
-[2020-10-29 10:34:18,558] ERROR foo.bar was configured, as well as the deprecated alias(es) foo.bar.deprecated.  Using the value of foo.bar (org.apache.kafka.common.utils.ConfigUtils:98)
+  <testcase name="testAllowNullOverride" classname="org.apache.kafka.common.utils.ConfigUtilsTest" time="0.0"/>
+  <testcase name="testTranslateDeprecated" classname="org.apache.kafka.common.utils.ConfigUtilsTest" time="0.001"/>
+  <system-out><![CDATA[[2022-09-03 18:38:34,082] ERROR foo.bar was configured, as well as the deprecated alias(es) foo.bar.deprecated.  Using the value of foo.bar (org.apache.kafka.common.utils.ConfigUtils:98)
+[2022-09-03 18:38:34,083] ERROR foo.bar was configured, as well as the deprecated alias(es) foo.bar.deprecated.  Using the value of foo.bar (org.apache.kafka.common.utils.ConfigUtils:98)
+[2022-09-03 18:38:34,083] ERROR The configuration keys foo.bar.deprecated, foo.bar.even.more.deprecated are deprecated and may be removed in the future.  Additionally, this configuration is ambigous because these configuration keys are all aliases for foo.bar.  Please update your configuration to have only foo.bar set. (org.apache.kafka.common.utils.ConfigUtils:102)
+[2022-09-03 18:38:34,083] ERROR foo.bar was configured, as well as the deprecated alias(es) foo.bar.deprecated.  Using the value of foo.bar (org.apache.kafka.common.utils.ConfigUtils:98)
+[2022-09-03 18:38:34,084] ERROR chicken was configured, as well as the deprecated alias(es) rooster, hen.  Using the value of chicken (org.apache.kafka.common.utils.ConfigUtils:98)
+[2022-09-03 18:38:34,084] ERROR foo.bar was configured, as well as the deprecated alias(es) foo.bar.deprecated.  Using the value of foo.bar (org.apache.kafka.common.utils.ConfigUtils:98)
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

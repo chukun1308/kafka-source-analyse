@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.apache.kafka.common.security.auth.DefaultKafkaPrincipalBuilderTest" tests="8" skipped="0" failures="0" errors="0" timestamp="2020-10-29T02:32:51" hostname="chukun-mac" time="0.21">
+<testsuite name="org.apache.kafka.common.security.auth.DefaultKafkaPrincipalBuilderTest" tests="8" skipped="0" failures="0" errors="0" timestamp="2022-09-03T10:38:13" hostname="LAPTOP-FH01OFOM" time="0.135">
   <properties/>
-  <testcase name="testUseOldPrincipalBuilderForPlaintextIfProvided" classname="org.apache.kafka.common.security.auth.DefaultKafkaPrincipalBuilderTest" time="0.114"/>
-  <testcase name="testPrincipalBuilderScram" classname="org.apache.kafka.common.security.auth.DefaultKafkaPrincipalBuilderTest" time="0.021"/>
-  <testcase name="testPrincipalWithSslPrincipalMapper" classname="org.apache.kafka.common.security.auth.DefaultKafkaPrincipalBuilderTest" time="0.05"/>
-  <testcase name="testPrincipalIfSSLPeerIsNotAuthenticated" classname="org.apache.kafka.common.security.auth.DefaultKafkaPrincipalBuilderTest" time="0.002"/>
-  <testcase name="testPrincipalBuilderGssapi" classname="org.apache.kafka.common.security.auth.DefaultKafkaPrincipalBuilderTest" time="0.017"/>
-  <testcase name="testUseSessionPeerPrincipalForSsl" classname="org.apache.kafka.common.security.auth.DefaultKafkaPrincipalBuilderTest" time="0.002"/>
-  <testcase name="testUseOldPrincipalBuilderForSslIfProvided" classname="org.apache.kafka.common.security.auth.DefaultKafkaPrincipalBuilderTest" time="0.003"/>
+  <testcase name="testUseOldPrincipalBuilderForPlaintextIfProvided" classname="org.apache.kafka.common.security.auth.DefaultKafkaPrincipalBuilderTest" time="0.042"/>
+  <testcase name="testPrincipalBuilderScram" classname="org.apache.kafka.common.security.auth.DefaultKafkaPrincipalBuilderTest" time="0.017"/>
+  <testcase name="testPrincipalWithSslPrincipalMapper" classname="org.apache.kafka.common.security.auth.DefaultKafkaPrincipalBuilderTest" time="0.03"/>
+  <testcase name="testPrincipalIfSSLPeerIsNotAuthenticated" classname="org.apache.kafka.common.security.auth.DefaultKafkaPrincipalBuilderTest" time="0.001"/>
+  <testcase name="testPrincipalBuilderGssapi" classname="org.apache.kafka.common.security.auth.DefaultKafkaPrincipalBuilderTest" time="0.042"/>
+  <testcase name="testUseSessionPeerPrincipalForSsl" classname="org.apache.kafka.common.security.auth.DefaultKafkaPrincipalBuilderTest" time="0.001"/>
+  <testcase name="testUseOldPrincipalBuilderForSslIfProvided" classname="org.apache.kafka.common.security.auth.DefaultKafkaPrincipalBuilderTest" time="0.001"/>
   <testcase name="testReturnAnonymousPrincipalForPlaintext" classname="org.apache.kafka.common.security.auth.DefaultKafkaPrincipalBuilderTest" time="0.001"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>

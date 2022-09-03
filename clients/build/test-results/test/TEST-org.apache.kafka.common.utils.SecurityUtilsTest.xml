@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.apache.kafka.common.utils.SecurityUtilsTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-10-29T02:32:19" hostname="chukun-mac" time="0.006">
+<testsuite name="org.apache.kafka.common.utils.SecurityUtilsTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2022-09-03T10:38:13" hostname="LAPTOP-FH01OFOM" time="0.077">
   <properties/>
-  <testcase name="testParseKafkaPrincipalWithNonUserPrincipalType" classname="org.apache.kafka.common.utils.SecurityUtilsTest" time="0.006"/>
+  <testcase name="testParseKafkaPrincipalWithNonUserPrincipalType" classname="org.apache.kafka.common.utils.SecurityUtilsTest" time="0.076"/>
   <testcase name="testPrincipalNameCanContainSeparator" classname="org.apache.kafka.common.utils.SecurityUtilsTest" time="0.0"/>
-  <testcase name="testAddCustomSecurityProvider" classname="org.apache.kafka.common.utils.SecurityUtilsTest" time="0.0"/>
+  <testcase name="testAddCustomSecurityProvider" classname="org.apache.kafka.common.utils.SecurityUtilsTest" time="0.001"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

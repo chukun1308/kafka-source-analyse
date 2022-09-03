@@ -139,7 +139,7 @@ trait Authorizer extends Configurable {
   /**
    * gets the map of resource paths to acls for all resources.
    */
-  def getAcls(): Map[Resource, Set[Acl]]
+  def getAcls: Map[Resource, Set[Acl]]
 
   /**
    * Closes this instance.

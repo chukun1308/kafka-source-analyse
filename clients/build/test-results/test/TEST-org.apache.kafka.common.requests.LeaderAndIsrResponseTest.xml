@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.apache.kafka.common.requests.LeaderAndIsrResponseTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2020-10-29T02:32:19" hostname="chukun-mac" time="0.01">
+<testsuite name="org.apache.kafka.common.requests.LeaderAndIsrResponseTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2022-09-03T10:40:17" hostname="LAPTOP-FH01OFOM" time="0.008">
   <properties/>
-  <testcase name="testToString" classname="org.apache.kafka.common.requests.LeaderAndIsrResponseTest" time="0.001"/>
+  <testcase name="testToString" classname="org.apache.kafka.common.requests.LeaderAndIsrResponseTest" time="0.002"/>
   <testcase name="testErrorCountsWithTopLevelError" classname="org.apache.kafka.common.requests.LeaderAndIsrResponseTest" time="0.0"/>
-  <testcase name="testErrorCountsNoTopLevelError" classname="org.apache.kafka.common.requests.LeaderAndIsrResponseTest" time="0.001"/>
-  <testcase name="testErrorCountsFromGetErrorResponse" classname="org.apache.kafka.common.requests.LeaderAndIsrResponseTest" time="0.008"/>
+  <testcase name="testErrorCountsNoTopLevelError" classname="org.apache.kafka.common.requests.LeaderAndIsrResponseTest" time="0.003"/>
+  <testcase name="testErrorCountsFromGetErrorResponse" classname="org.apache.kafka.common.requests.LeaderAndIsrResponseTest" time="0.003"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

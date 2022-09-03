@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.apache.kafka.clients.producer.UniformStickyPartitionerTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-10-29T02:31:18" hostname="chukun-mac" time="0.27">
+<testsuite name="org.apache.kafka.clients.producer.UniformStickyPartitionerTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2022-09-03T10:38:18" hostname="LAPTOP-FH01OFOM" time="0.001">
   <properties/>
-  <testcase name="testRoundRobinWithNullKeyBytes" classname="org.apache.kafka.clients.producer.UniformStickyPartitionerTest" time="0.256"/>
-  <testcase name="testRoundRobinWithKeyBytes" classname="org.apache.kafka.clients.producer.UniformStickyPartitionerTest" time="0.005"/>
-  <testcase name="testRoundRobinWithUnavailablePartitions" classname="org.apache.kafka.clients.producer.UniformStickyPartitionerTest" time="0.005"/>
+  <testcase name="testRoundRobinWithNullKeyBytes" classname="org.apache.kafka.clients.producer.UniformStickyPartitionerTest" time="0.0"/>
+  <testcase name="testRoundRobinWithKeyBytes" classname="org.apache.kafka.clients.producer.UniformStickyPartitionerTest" time="0.001"/>
+  <testcase name="testRoundRobinWithUnavailablePartitions" classname="org.apache.kafka.clients.producer.UniformStickyPartitionerTest" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

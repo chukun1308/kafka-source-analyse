@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.apache.kafka.common.security.plain.internals.PlainSaslServerTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2020-10-29T02:32:31" hostname="chukun-mac" time="0.013">
+<testsuite name="org.apache.kafka.common.security.plain.internals.PlainSaslServerTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2022-09-03T10:40:17" hostname="LAPTOP-FH01OFOM" time="0.003">
   <properties/>
-  <testcase name="noAuthorizationIdSpecified" classname="org.apache.kafka.common.security.plain.internals.PlainSaslServerTest" time="0.009"/>
+  <testcase name="noAuthorizationIdSpecified" classname="org.apache.kafka.common.security.plain.internals.PlainSaslServerTest" time="0.0"/>
   <testcase name="authorizatonIdEqualsAuthenticationId" classname="org.apache.kafka.common.security.plain.internals.PlainSaslServerTest" time="0.0"/>
   <testcase name="authorizatonIdNotEqualsAuthenticationId" classname="org.apache.kafka.common.security.plain.internals.PlainSaslServerTest" time="0.0"/>
-  <testcase name="emptyTokens" classname="org.apache.kafka.common.security.plain.internals.PlainSaslServerTest" time="0.002"/>
+  <testcase name="emptyTokens" classname="org.apache.kafka.common.security.plain.internals.PlainSaslServerTest" time="0.003"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

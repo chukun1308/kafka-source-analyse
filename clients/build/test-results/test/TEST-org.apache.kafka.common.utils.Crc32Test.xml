@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.apache.kafka.common.utils.Crc32Test" tests="2" skipped="0" failures="0" errors="0" timestamp="2020-10-29T02:31:47" hostname="chukun-mac" time="0.0">
+<testsuite name="org.apache.kafka.common.utils.Crc32Test" tests="2" skipped="0" failures="0" errors="0" timestamp="2022-09-03T10:38:01" hostname="LAPTOP-FH01OFOM" time="0.0">
   <properties/>
   <testcase name="testValue" classname="org.apache.kafka.common.utils.Crc32Test" time="0.0"/>
   <testcase name="testUpdate" classname="org.apache.kafka.common.utils.Crc32Test" time="0.0"/>

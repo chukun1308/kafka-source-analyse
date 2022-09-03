@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.apache.kafka.common.record.DefaultRecordTest" tests="19" skipped="0" failures="0" errors="0" timestamp="2020-10-29T02:31:56" hostname="chukun-mac" time="0.011">
+<testsuite name="org.apache.kafka.common.record.DefaultRecordTest" tests="19" skipped="0" failures="0" errors="0" timestamp="2022-09-03T10:38:11" hostname="LAPTOP-FH01OFOM" time="0.005">
   <properties/>
   <testcase name="testInvalidHeaderKey" classname="org.apache.kafka.common.record.DefaultRecordTest" time="0.001"/>
   <testcase name="testBasicSerde" classname="org.apache.kafka.common.record.DefaultRecordTest" time="0.0"/>
@@ -7,17 +7,17 @@
   <testcase name="testInvalidHeaderValue" classname="org.apache.kafka.common.record.DefaultRecordTest" time="0.0"/>
   <testcase name="testInvalidVarlong" classname="org.apache.kafka.common.record.DefaultRecordTest" time="0.0"/>
   <testcase name="testNullHeaderKey" classname="org.apache.kafka.common.record.DefaultRecordTest" time="0.0"/>
-  <testcase name="testInvalidNumHeadersPartial" classname="org.apache.kafka.common.record.DefaultRecordTest" time="0.002"/>
+  <testcase name="testInvalidNumHeadersPartial" classname="org.apache.kafka.common.record.DefaultRecordTest" time="0.001"/>
   <testcase name="testInvalidKeySizePartial" classname="org.apache.kafka.common.record.DefaultRecordTest" time="0.0"/>
-  <testcase name="testBasicSerdeInvalidHeaderCountTooHigh" classname="org.apache.kafka.common.record.DefaultRecordTest" time="0.0"/>
-  <testcase name="testInvalidHeaderKeyPartial" classname="org.apache.kafka.common.record.DefaultRecordTest" time="0.001"/>
-  <testcase name="testInvalidHeaderValuePartial" classname="org.apache.kafka.common.record.DefaultRecordTest" time="0.001"/>
+  <testcase name="testBasicSerdeInvalidHeaderCountTooHigh" classname="org.apache.kafka.common.record.DefaultRecordTest" time="0.001"/>
+  <testcase name="testInvalidHeaderKeyPartial" classname="org.apache.kafka.common.record.DefaultRecordTest" time="0.0"/>
+  <testcase name="testInvalidHeaderValuePartial" classname="org.apache.kafka.common.record.DefaultRecordTest" time="0.0"/>
   <testcase name="testInvalidValueSizePartial" classname="org.apache.kafka.common.record.DefaultRecordTest" time="0.0"/>
-  <testcase name="testUnderflowReadingVarlong" classname="org.apache.kafka.common.record.DefaultRecordTest" time="0.001"/>
-  <testcase name="testUnderflowReadingTimestamp" classname="org.apache.kafka.common.record.DefaultRecordTest" time="0.001"/>
+  <testcase name="testUnderflowReadingVarlong" classname="org.apache.kafka.common.record.DefaultRecordTest" time="0.0"/>
+  <testcase name="testUnderflowReadingTimestamp" classname="org.apache.kafka.common.record.DefaultRecordTest" time="0.0"/>
   <testcase name="testInvalidValueSize" classname="org.apache.kafka.common.record.DefaultRecordTest" time="0.0"/>
   <testcase name="testInvalidNumHeaders" classname="org.apache.kafka.common.record.DefaultRecordTest" time="0.001"/>
-  <testcase name="testInvalidKeySize" classname="org.apache.kafka.common.record.DefaultRecordTest" time="0.001"/>
+  <testcase name="testInvalidKeySize" classname="org.apache.kafka.common.record.DefaultRecordTest" time="0.0"/>
   <testcase name="testSerdeNoSequence" classname="org.apache.kafka.common.record.DefaultRecordTest" time="0.0"/>
   <testcase name="testNullHeaderKeyPartial" classname="org.apache.kafka.common.record.DefaultRecordTest" time="0.0"/>
   <system-out><![CDATA[]]></system-out>

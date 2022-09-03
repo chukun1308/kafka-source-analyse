@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.apache.kafka.common.security.kerberos.KerberosNameTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2020-10-29T02:32:51" hostname="chukun-mac" time="0.01">
+<testsuite name="org.apache.kafka.common.security.kerberos.KerberosNameTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2022-09-03T10:38:23" hostname="LAPTOP-FH01OFOM" time="0.003">
   <properties/>
-  <testcase name="testToLowerCase" classname="org.apache.kafka.common.security.kerberos.KerberosNameTest" time="0.009"/>
-  <testcase name="testParse" classname="org.apache.kafka.common.security.kerberos.KerberosNameTest" time="0.001"/>
+  <testcase name="testToLowerCase" classname="org.apache.kafka.common.security.kerberos.KerberosNameTest" time="0.002"/>
+  <testcase name="testParse" classname="org.apache.kafka.common.security.kerberos.KerberosNameTest" time="0.0"/>
   <testcase name="testToUpperCase" classname="org.apache.kafka.common.security.kerberos.KerberosNameTest" time="0.0"/>
   <testcase name="testInvalidRules" classname="org.apache.kafka.common.security.kerberos.KerberosNameTest" time="0.0"/>
   <system-out><![CDATA[]]></system-out>

@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.apache.kafka.common.feature.FeaturesTest" tests="11" skipped="0" failures="0" errors="0" timestamp="2020-10-29T02:34:18" hostname="chukun-mac" time="0.035">
+<testsuite name="org.apache.kafka.common.feature.FeaturesTest" tests="11" skipped="0" failures="0" errors="0" timestamp="2022-09-03T10:38:43" hostname="LAPTOP-FH01OFOM" time="0.011">
   <properties/>
-  <testcase name="testEmptyFeatures" classname="org.apache.kafka.common.feature.FeaturesTest" time="0.017"/>
+  <testcase name="testEmptyFeatures" classname="org.apache.kafka.common.feature.FeaturesTest" time="0.005"/>
   <testcase name="testToStringFinalizedFeatures" classname="org.apache.kafka.common.feature.FeaturesTest" time="0.003"/>
-  <testcase name="testToStringSupportedFeatures" classname="org.apache.kafka.common.feature.FeaturesTest" time="0.001"/>
-  <testcase name="testFinalizedFeaturesFromMapFailureWithInvalidMissingMaxVersionLevel" classname="org.apache.kafka.common.feature.FeaturesTest" time="0.002"/>
-  <testcase name="testSuppportedFeaturesFromMapFailureWithInvalidMissingMaxVersion" classname="org.apache.kafka.common.feature.FeaturesTest" time="0.005"/>
-  <testcase name="testFromFeaturesMapToFeaturesMap" classname="org.apache.kafka.common.feature.FeaturesTest" time="0.001"/>
-  <testcase name="testNullFeatures" classname="org.apache.kafka.common.feature.FeaturesTest" time="0.003"/>
+  <testcase name="testToStringSupportedFeatures" classname="org.apache.kafka.common.feature.FeaturesTest" time="0.0"/>
+  <testcase name="testFinalizedFeaturesFromMapFailureWithInvalidMissingMaxVersionLevel" classname="org.apache.kafka.common.feature.FeaturesTest" time="0.001"/>
+  <testcase name="testSuppportedFeaturesFromMapFailureWithInvalidMissingMaxVersion" classname="org.apache.kafka.common.feature.FeaturesTest" time="0.0"/>
+  <testcase name="testFromFeaturesMapToFeaturesMap" classname="org.apache.kafka.common.feature.FeaturesTest" time="0.0"/>
+  <testcase name="testNullFeatures" classname="org.apache.kafka.common.feature.FeaturesTest" time="0.001"/>
   <testcase name="testGetAllFeaturesAPI" classname="org.apache.kafka.common.feature.FeaturesTest" time="0.0"/>
-  <testcase name="testEquals" classname="org.apache.kafka.common.feature.FeaturesTest" time="0.0"/>
-  <testcase name="testGetAPI" classname="org.apache.kafka.common.feature.FeaturesTest" time="0.001"/>
-  <testcase name="testFromToFinalizedFeaturesMap" classname="org.apache.kafka.common.feature.FeaturesTest" time="0.001"/>
+  <testcase name="testEquals" classname="org.apache.kafka.common.feature.FeaturesTest" time="0.001"/>
+  <testcase name="testGetAPI" classname="org.apache.kafka.common.feature.FeaturesTest" time="0.0"/>
+  <testcase name="testFromToFinalizedFeaturesMap" classname="org.apache.kafka.common.feature.FeaturesTest" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

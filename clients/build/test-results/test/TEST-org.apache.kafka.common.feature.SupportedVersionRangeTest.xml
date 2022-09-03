@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.apache.kafka.common.feature.SupportedVersionRangeTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2020-10-29T02:31:48" hostname="chukun-mac" time="0.012">
+<testsuite name="org.apache.kafka.common.feature.SupportedVersionRangeTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2022-09-03T10:40:51" hostname="LAPTOP-FH01OFOM" time="0.06">
   <properties/>
-  <testcase name="testFailDueToInvalidParams" classname="org.apache.kafka.common.feature.SupportedVersionRangeTest" time="0.003"/>
-  <testcase name="testToString" classname="org.apache.kafka.common.feature.SupportedVersionRangeTest" time="0.005"/>
-  <testcase name="testFromMapFailure" classname="org.apache.kafka.common.feature.SupportedVersionRangeTest" time="0.003"/>
+  <testcase name="testFailDueToInvalidParams" classname="org.apache.kafka.common.feature.SupportedVersionRangeTest" time="0.057"/>
+  <testcase name="testToString" classname="org.apache.kafka.common.feature.SupportedVersionRangeTest" time="0.001"/>
+  <testcase name="testFromMapFailure" classname="org.apache.kafka.common.feature.SupportedVersionRangeTest" time="0.001"/>
   <testcase name="testFromToMap" classname="org.apache.kafka.common.feature.SupportedVersionRangeTest" time="0.0"/>
   <testcase name="testEquals" classname="org.apache.kafka.common.feature.SupportedVersionRangeTest" time="0.0"/>
   <testcase name="testMinMax" classname="org.apache.kafka.common.feature.SupportedVersionRangeTest" time="0.0"/>

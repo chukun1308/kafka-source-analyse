@@ -21,14 +21,16 @@ org/apache/kafka/message/MessageClassGenerator.java
  org.apache.kafka.message.MessageClassGenerator
 org/apache/kafka/message/ClauseGenerator.java
  org.apache.kafka.message.ClauseGenerator
-org/apache/kafka/message/MessageSpecType.java
- org.apache.kafka.message.MessageSpecType
-org/apache/kafka/message/HeaderGenerator.java
- org.apache.kafka.message.HeaderGenerator
 org/apache/kafka/message/ApiMessageTypeGenerator.java
  org.apache.kafka.message.ApiMessageTypeGenerator
  org.apache.kafka.message.ApiMessageTypeGenerator$1
  org.apache.kafka.message.ApiMessageTypeGenerator$ApiData
+org/apache/kafka/message/HeaderGenerator.java
+ org.apache.kafka.message.HeaderGenerator
+org/apache/kafka/message/MessageSpecType.java
+ org.apache.kafka.message.MessageSpecType
+org/apache/kafka/message/TypeClassGenerator.java
+ org.apache.kafka.message.TypeClassGenerator
 org/apache/kafka/message/MessageSpec.java
  org.apache.kafka.message.MessageSpec
  org.apache.kafka.message.MessageSpec$1
@@ -36,8 +38,6 @@ org/apache/kafka/message/StructRegistry.java
  org.apache.kafka.message.StructRegistry
  org.apache.kafka.message.StructRegistry$1
  org.apache.kafka.message.StructRegistry$StructInfo
-org/apache/kafka/message/TypeClassGenerator.java
- org.apache.kafka.message.TypeClassGenerator
 org/apache/kafka/message/EntityType.java
  org.apache.kafka.message.EntityType
 org/apache/kafka/message/MessageGenerator.java

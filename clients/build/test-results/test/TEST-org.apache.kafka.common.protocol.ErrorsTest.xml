@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.apache.kafka.common.protocol.ErrorsTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2020-10-29T02:36:12" hostname="chukun-mac" time="0.002">
+<testsuite name="org.apache.kafka.common.protocol.ErrorsTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2022-09-03T10:38:11" hostname="LAPTOP-FH01OFOM" time="0.001">
   <properties/>
-  <testcase name="testExceptionName" classname="org.apache.kafka.common.protocol.ErrorsTest" time="0.001"/>
+  <testcase name="testExceptionName" classname="org.apache.kafka.common.protocol.ErrorsTest" time="0.0"/>
   <testcase name="testForExceptionDefault" classname="org.apache.kafka.common.protocol.ErrorsTest" time="0.0"/>
   <testcase name="testUniqueExceptions" classname="org.apache.kafka.common.protocol.ErrorsTest" time="0.0"/>
   <testcase name="testForExceptionInheritance" classname="org.apache.kafka.common.protocol.ErrorsTest" time="0.0"/>
   <testcase name="testNoneException" classname="org.apache.kafka.common.protocol.ErrorsTest" time="0.0"/>
-  <testcase name="testUniqueErrorCodes" classname="org.apache.kafka.common.protocol.ErrorsTest" time="0.001"/>
+  <testcase name="testUniqueErrorCodes" classname="org.apache.kafka.common.protocol.ErrorsTest" time="0.0"/>
   <testcase name="testExceptionsAreNotGeneric" classname="org.apache.kafka.common.protocol.ErrorsTest" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.apache.kafka.common.requests.AddPartitionsToTxnResponseTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2020-10-29T02:32:19" hostname="chukun-mac" time="0.002">
+<testsuite name="org.apache.kafka.common.requests.AddPartitionsToTxnResponseTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2022-09-03T10:38:23" hostname="LAPTOP-FH01OFOM" time="0.001">
   <properties/>
-  <testcase name="testConstructorWithErrorResponse" classname="org.apache.kafka.common.requests.AddPartitionsToTxnResponseTest" time="0.002"/>
+  <testcase name="testConstructorWithErrorResponse" classname="org.apache.kafka.common.requests.AddPartitionsToTxnResponseTest" time="0.001"/>
   <testcase name="testConstructorWithStruct" classname="org.apache.kafka.common.requests.AddPartitionsToTxnResponseTest" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>

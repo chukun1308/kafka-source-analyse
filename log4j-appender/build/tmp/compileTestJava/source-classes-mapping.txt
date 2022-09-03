@@ -1,4 +1,0 @@
-org/apache/kafka/log4jappender/MockKafkaLog4jAppender.java
- org.apache.kafka.log4jappender.MockKafkaLog4jAppender
-org/apache/kafka/log4jappender/KafkaLog4jAppenderTest.java
- org.apache.kafka.log4jappender.KafkaLog4jAppenderTest

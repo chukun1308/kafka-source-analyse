@@ -645,7 +645,7 @@ public class Fetcher<K, V> implements Closeable {
                         } else {
                             // this case shouldn't usually happen because we only send one fetch at a time per partition,
                             // but it might conceivably happen in some rare cases (such as partition leader changes).
-                            // we have to copy to a new list because the old one may be immutable
+                            // we have to copy to a new   because the old one may be immutable
                             List<ConsumerRecord<K, V>> newRecords = new ArrayList<>(records.size() + currentRecords.size());
                             newRecords.addAll(currentRecords);
                             newRecords.addAll(records);

@@ -1,8 +1,0 @@
-org/apache/kafka/streams/tests/StreamsUpgradeTest.java
- org.apache.kafka.streams.tests.StreamsUpgradeTest
- org.apache.kafka.streams.tests.StreamsUpgradeTest$1
- org.apache.kafka.streams.tests.StreamsUpgradeTest$2
- org.apache.kafka.streams.tests.StreamsUpgradeTest$2$1
-org/apache/kafka/streams/tests/StreamsUpgradeToCooperativeRebalanceTest.java
- org.apache.kafka.streams.tests.StreamsUpgradeToCooperativeRebalanceTest
- org.apache.kafka.streams.tests.StreamsUpgradeToCooperativeRebalanceTest$1

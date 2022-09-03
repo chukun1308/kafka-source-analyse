@@ -1,45 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.apache.kafka.common.security.ssl.SslFactoryTest" tests="21" skipped="0" failures="0" errors="0" timestamp="2020-10-29T02:32:19" hostname="chukun-mac" time="11.892">
+<testsuite name="org.apache.kafka.common.security.ssl.SslFactoryTest" tests="21" skipped="0" failures="0" errors="0" timestamp="2022-09-03T10:38:23" hostname="LAPTOP-FH01OFOM" time="7.944">
   <properties/>
-  <testcase name="testKeyStoreTrustStoreValidation[tlsProtocol=TLSv1.2]" classname="org.apache.kafka.common.security.ssl.SslFactoryTest" time="2.604"/>
-  <testcase name="testReconfiguration[tlsProtocol=TLSv1.2]" classname="org.apache.kafka.common.security.ssl.SslFactoryTest" time="0.637"/>
-  <testcase name="testReconfigurationWithoutTruststore[tlsProtocol=TLSv1.2]" classname="org.apache.kafka.common.security.ssl.SslFactoryTest" time="0.799"/>
-  <testcase name="testSslFactoryWithoutPasswordConfiguration[tlsProtocol=TLSv1.2]" classname="org.apache.kafka.common.security.ssl.SslFactoryTest" time="0.276"/>
-  <testcase name="testReconfigurationWithoutKeystore[tlsProtocol=TLSv1.2]" classname="org.apache.kafka.common.security.ssl.SslFactoryTest" time="0.666"/>
-  <testcase name="testKeystoreVerifiableUsingTruststore[tlsProtocol=TLSv1.2]" classname="org.apache.kafka.common.security.ssl.SslFactoryTest" time="1.042"/>
-  <testcase name="staleSslEngineFactoryShouldBeClosed[tlsProtocol=TLSv1.2]" classname="org.apache.kafka.common.security.ssl.SslFactoryTest" time="0.668"/>
-  <testcase name="testServerSpecifiedSslEngineFactoryUsed[tlsProtocol=TLSv1.2]" classname="org.apache.kafka.common.security.ssl.SslFactoryTest" time="0.551"/>
-  <testcase name="testPemReconfiguration[tlsProtocol=TLSv1.2]" classname="org.apache.kafka.common.security.ssl.SslFactoryTest" time="0.935"/>
-  <testcase name="testUntrustedKeyStoreValidationFails[tlsProtocol=TLSv1.2]" classname="org.apache.kafka.common.security.ssl.SslFactoryTest" time="0.345"/>
-  <testcase name="testSslFactoryWithIncorrectProviderClassConfiguration[tlsProtocol=TLSv1.2]" classname="org.apache.kafka.common.security.ssl.SslFactoryTest" time="0.015"/>
-  <testcase name="testCertificateEntriesValidation[tlsProtocol=TLSv1.2]" classname="org.apache.kafka.common.security.ssl.SslFactoryTest" time="0.776"/>
-  <testcase name="testInvalidSslEngineFactory[tlsProtocol=TLSv1.2]" classname="org.apache.kafka.common.security.ssl.SslFactoryTest" time="0.002"/>
-  <testcase name="testSslFactoryWithCustomKeyManagerConfiguration[tlsProtocol=TLSv1.2]" classname="org.apache.kafka.common.security.ssl.SslFactoryTest" time="0.379"/>
-  <testcase name="testClientMode[tlsProtocol=TLSv1.2]" classname="org.apache.kafka.common.security.ssl.SslFactoryTest" time="0.003"/>
-  <testcase name="testSslFactoryConfiguration[tlsProtocol=TLSv1.2]" classname="org.apache.kafka.common.security.ssl.SslFactoryTest" time="0.269"/>
-  <testcase name="testClientSpecifiedSslEngineFactoryUsed[tlsProtocol=TLSv1.2]" classname="org.apache.kafka.common.security.ssl.SslFactoryTest" time="0.003"/>
-  <testcase name="testEngineFactoryClosed[tlsProtocol=TLSv1.2]" classname="org.apache.kafka.common.security.ssl.SslFactoryTest" time="0.002"/>
-  <testcase name="testPemKeystoreVerifiableUsingTruststore[tlsProtocol=TLSv1.2]" classname="org.apache.kafka.common.security.ssl.SslFactoryTest" time="0.989"/>
-  <testcase name="testPemCertificateEntriesValidation[tlsProtocol=TLSv1.2]" classname="org.apache.kafka.common.security.ssl.SslFactoryTest" time="0.923"/>
-  <testcase name="testSslFactoryWithoutProviderClassConfiguration[tlsProtocol=TLSv1.2]" classname="org.apache.kafka.common.security.ssl.SslFactoryTest" time="0.001"/>
-  <system-out><![CDATA[[2020-10-29 10:32:21,950] ERROR Reclaimed buffer of size 95446630 and identity 764737691 that was not properly release()ed. This is a bug. (org.apache.kafka.common.memory.GarbageCollectedMemoryPool:106)
-[2020-10-29 10:32:21,950] ERROR Reclaimed buffer of size 10 and identity 1564199829 that was not properly release()ed. This is a bug. (org.apache.kafka.common.memory.GarbageCollectedMemoryPool:106)
-[2020-10-29 10:32:21,951] ERROR Reclaimed buffer of size 95446630 and identity 1552539841 that was not properly release()ed. This is a bug. (org.apache.kafka.common.memory.GarbageCollectedMemoryPool:106)
-[2020-10-29 10:32:21,951] ERROR Reclaimed buffer of size 10 and identity 1985817918 that was not properly release()ed. This is a bug. (org.apache.kafka.common.memory.GarbageCollectedMemoryPool:106)
-[2020-10-29 10:32:21,954] ERROR Reclaimed buffer of size 10 and identity 1523532126 that was not properly release()ed. This is a bug. (org.apache.kafka.common.memory.GarbageCollectedMemoryPool:106)
-[2020-10-29 10:32:21,952] ERROR Reclaimed buffer of size 95446630 and identity 2093077239 that was not properly release()ed. This is a bug. (org.apache.kafka.common.memory.GarbageCollectedMemoryPool:106)
-[2020-10-29 10:32:21,955] ERROR Reclaimed buffer of size 95446630 and identity 264712385 that was not properly release()ed. This is a bug. (org.apache.kafka.common.memory.GarbageCollectedMemoryPool:106)
-[2020-10-29 10:32:21,955] ERROR Reclaimed buffer of size 95446630 and identity 154532707 that was not properly release()ed. This is a bug. (org.apache.kafka.common.memory.GarbageCollectedMemoryPool:106)
-[2020-10-29 10:32:21,955] ERROR Reclaimed buffer of size 95446630 and identity 2061224905 that was not properly release()ed. This is a bug. (org.apache.kafka.common.memory.GarbageCollectedMemoryPool:106)
-[2020-10-29 10:32:21,955] ERROR Reclaimed buffer of size 95446630 and identity 467894814 that was not properly release()ed. This is a bug. (org.apache.kafka.common.memory.GarbageCollectedMemoryPool:106)
-[2020-10-29 10:32:21,955] ERROR Reclaimed buffer of size 95446630 and identity 1774695355 that was not properly release()ed. This is a bug. (org.apache.kafka.common.memory.GarbageCollectedMemoryPool:106)
-[2020-10-29 10:32:23,066] ERROR Modification time of key store could not be obtained: /var/folders/y3/mvtqxgns6j93y74hb90_t2p9rflg_z/T/serverKS4515314352738123302.jks (org.apache.kafka.common.security.ssl.DefaultSslEngineFactory:385)
-java.nio.file.NoSuchFileException: /var/folders/y3/mvtqxgns6j93y74hb90_t2p9rflg_z/T/serverKS4515314352738123302.jks
-	at sun.nio.fs.UnixException.translateToIOException(UnixException.java:86)
-	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:102)
-	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:107)
-	at sun.nio.fs.UnixFileAttributeViews$Basic.readAttributes(UnixFileAttributeViews.java:55)
-	at sun.nio.fs.UnixFileSystemProvider.readAttributes(UnixFileSystemProvider.java:144)
+  <testcase name="testKeyStoreTrustStoreValidation[tlsProtocol=TLSv1.2]" classname="org.apache.kafka.common.security.ssl.SslFactoryTest" time="0.68"/>
+  <testcase name="testReconfiguration[tlsProtocol=TLSv1.2]" classname="org.apache.kafka.common.security.ssl.SslFactoryTest" time="0.593"/>
+  <testcase name="testReconfigurationWithoutTruststore[tlsProtocol=TLSv1.2]" classname="org.apache.kafka.common.security.ssl.SslFactoryTest" time="0.3"/>
+  <testcase name="testSslFactoryWithoutPasswordConfiguration[tlsProtocol=TLSv1.2]" classname="org.apache.kafka.common.security.ssl.SslFactoryTest" time="0.247"/>
+  <testcase name="testReconfigurationWithoutKeystore[tlsProtocol=TLSv1.2]" classname="org.apache.kafka.common.security.ssl.SslFactoryTest" time="0.898"/>
+  <testcase name="testKeystoreVerifiableUsingTruststore[tlsProtocol=TLSv1.2]" classname="org.apache.kafka.common.security.ssl.SslFactoryTest" time="0.391"/>
+  <testcase name="staleSslEngineFactoryShouldBeClosed[tlsProtocol=TLSv1.2]" classname="org.apache.kafka.common.security.ssl.SslFactoryTest" time="0.306"/>
+  <testcase name="testServerSpecifiedSslEngineFactoryUsed[tlsProtocol=TLSv1.2]" classname="org.apache.kafka.common.security.ssl.SslFactoryTest" time="0.458"/>
+  <testcase name="testPemReconfiguration[tlsProtocol=TLSv1.2]" classname="org.apache.kafka.common.security.ssl.SslFactoryTest" time="0.896"/>
+  <testcase name="testUntrustedKeyStoreValidationFails[tlsProtocol=TLSv1.2]" classname="org.apache.kafka.common.security.ssl.SslFactoryTest" time="0.506"/>
+  <testcase name="testSslFactoryWithIncorrectProviderClassConfiguration[tlsProtocol=TLSv1.2]" classname="org.apache.kafka.common.security.ssl.SslFactoryTest" time="0.002"/>
+  <testcase name="testCertificateEntriesValidation[tlsProtocol=TLSv1.2]" classname="org.apache.kafka.common.security.ssl.SslFactoryTest" time="0.707"/>
+  <testcase name="testInvalidSslEngineFactory[tlsProtocol=TLSv1.2]" classname="org.apache.kafka.common.security.ssl.SslFactoryTest" time="0.001"/>
+  <testcase name="testSslFactoryWithCustomKeyManagerConfiguration[tlsProtocol=TLSv1.2]" classname="org.apache.kafka.common.security.ssl.SslFactoryTest" time="0.089"/>
+  <testcase name="testClientMode[tlsProtocol=TLSv1.2]" classname="org.apache.kafka.common.security.ssl.SslFactoryTest" time="0.002"/>
+  <testcase name="testSslFactoryConfiguration[tlsProtocol=TLSv1.2]" classname="org.apache.kafka.common.security.ssl.SslFactoryTest" time="0.305"/>
+  <testcase name="testClientSpecifiedSslEngineFactoryUsed[tlsProtocol=TLSv1.2]" classname="org.apache.kafka.common.security.ssl.SslFactoryTest" time="0.002"/>
+  <testcase name="testEngineFactoryClosed[tlsProtocol=TLSv1.2]" classname="org.apache.kafka.common.security.ssl.SslFactoryTest" time="0.001"/>
+  <testcase name="testPemKeystoreVerifiableUsingTruststore[tlsProtocol=TLSv1.2]" classname="org.apache.kafka.common.security.ssl.SslFactoryTest" time="0.561"/>
+  <testcase name="testPemCertificateEntriesValidation[tlsProtocol=TLSv1.2]" classname="org.apache.kafka.common.security.ssl.SslFactoryTest" time="0.999"/>
+  <testcase name="testSslFactoryWithoutProviderClassConfiguration[tlsProtocol=TLSv1.2]" classname="org.apache.kafka.common.security.ssl.SslFactoryTest" time="0.0"/>
+  <system-out><![CDATA[[2022-09-03 18:38:24,634] ERROR Modification time of key store could not be obtained: C:\Users\49247\AppData\Local\Temp\serverKS4622388529206679633.jks (org.apache.kafka.common.security.ssl.DefaultSslEngineFactory:385)
+java.nio.file.NoSuchFileException: C:\Users\49247\AppData\Local\Temp\serverKS4622388529206679633.jks
+	at sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:79)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:97)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:102)
+	at sun.nio.fs.WindowsFileAttributeViews$Basic.readAttributes(WindowsFileAttributeViews.java:53)
+	at sun.nio.fs.WindowsFileAttributeViews$Basic.readAttributes(WindowsFileAttributeViews.java:38)
+	at sun.nio.fs.WindowsFileSystemProvider.readAttributes(WindowsFileSystemProvider.java:193)
 	at java.nio.file.Files.readAttributes(Files.java:1737)
 	at java.nio.file.Files.getLastModifiedTime(Files.java:2266)
 	at org.apache.kafka.common.security.ssl.DefaultSslEngineFactory$FileBasedStore.lastModifiedMs(DefaultSslEngineFactory.java:383)
@@ -81,7 +71,7 @@ java.nio.file.NoSuchFileException: /var/folders/y3/mvtqxgns6j93y74hb90_t2p9rflg_
 	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:38)
 	at org.gradle.api.internal.tasks.testing.junit.AbstractJUnitTestClassProcessor.processTestClass(AbstractJUnitTestClassProcessor.java:62)
 	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.processTestClass(SuiteTestClassProcessor.java:51)
-	at sun.reflect.GeneratedMethodAccessor35.invoke(Unknown Source)
+	at sun.reflect.GeneratedMethodAccessor28.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
@@ -90,7 +80,7 @@ java.nio.file.NoSuchFileException: /var/folders/y3/mvtqxgns6j93y74hb90_t2p9rflg_
 	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:94)
 	at com.sun.proxy.$Proxy2.processTestClass(Unknown Source)
 	at org.gradle.api.internal.tasks.testing.worker.TestWorker.processTestClass(TestWorker.java:119)
-	at sun.reflect.GeneratedMethodAccessor34.invoke(Unknown Source)
+	at sun.reflect.GeneratedMethodAccessor27.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
@@ -104,11 +94,11 @@ java.nio.file.NoSuchFileException: /var/folders/y3/mvtqxgns6j93y74hb90_t2p9rflg_
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:56)
 	at java.lang.Thread.run(Thread.java:748)
-[2020-10-29 10:32:28,361] ERROR Unrecognized security provider creator class (org.apache.kafka.common.config.SecurityConfig:94)
+[2022-09-03 18:38:28,638] ERROR Unrecognized security provider creator class (org.apache.kafka.common.config.SecurityConfig:94)
 java.lang.ClassNotFoundException: com.fake.ProviderClass1
-	at java.net.URLClassLoader.findClass(URLClassLoader.java:382)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
 	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
-	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:349)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:338)
 	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
 	at java.lang.Class.forName0(Native Method)
 	at java.lang.Class.forName(Class.java:264)
@@ -151,7 +141,7 @@ java.lang.ClassNotFoundException: com.fake.ProviderClass1
 	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:38)
 	at org.gradle.api.internal.tasks.testing.junit.AbstractJUnitTestClassProcessor.processTestClass(AbstractJUnitTestClassProcessor.java:62)
 	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.processTestClass(SuiteTestClassProcessor.java:51)
-	at sun.reflect.GeneratedMethodAccessor35.invoke(Unknown Source)
+	at sun.reflect.GeneratedMethodAccessor28.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
@@ -160,7 +150,7 @@ java.lang.ClassNotFoundException: com.fake.ProviderClass1
 	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:94)
 	at com.sun.proxy.$Proxy2.processTestClass(Unknown Source)
 	at org.gradle.api.internal.tasks.testing.worker.TestWorker.processTestClass(TestWorker.java:119)
-	at sun.reflect.GeneratedMethodAccessor34.invoke(Unknown Source)
+	at sun.reflect.GeneratedMethodAccessor27.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)

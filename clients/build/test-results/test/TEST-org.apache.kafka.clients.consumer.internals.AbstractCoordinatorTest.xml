@@ -1,54 +1,54 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.apache.kafka.clients.consumer.internals.AbstractCoordinatorTest" tests="39" skipped="0" failures="0" errors="0" timestamp="2020-10-29T02:31:27" hostname="chukun-mac" time="3.046">
+<testsuite name="org.apache.kafka.clients.consumer.internals.AbstractCoordinatorTest" tests="39" skipped="0" failures="0" errors="0" timestamp="2022-09-03T10:37:49" hostname="LAPTOP-FH01OFOM" time="3.442">
   <properties/>
-  <testcase name="testPollHeartbeatAwakesHeartbeatThread" classname="org.apache.kafka.clients.consumer.internals.AbstractCoordinatorTest" time="0.197"/>
-  <testcase name="testHeartbeatInstanceFencedResponseWithOldGeneration" classname="org.apache.kafka.clients.consumer.internals.AbstractCoordinatorTest" time="0.212"/>
-  <testcase name="testJoinGroupRequestWithFencedInstanceIdException" classname="org.apache.kafka.clients.consumer.internals.AbstractCoordinatorTest" time="0.002"/>
-  <testcase name="testWakeupAfterSyncGroupReceivedExternalCompletion" classname="org.apache.kafka.clients.consumer.internals.AbstractCoordinatorTest" time="0.215"/>
-  <testcase name="testJoinGroupProtocolTypeAndName" classname="org.apache.kafka.clients.consumer.internals.AbstractCoordinatorTest" time="0.011"/>
-  <testcase name="testCoordinatorDiscoveryBackoff" classname="org.apache.kafka.clients.consumer.internals.AbstractCoordinatorTest" time="0.003"/>
-  <testcase name="testJoinGroupRequestTimeout" classname="org.apache.kafka.clients.consumer.internals.AbstractCoordinatorTest" time="0.002"/>
-  <testcase name="testJoinGroupUnknownMemberResponseWithOldGeneration" classname="org.apache.kafka.clients.consumer.internals.AbstractCoordinatorTest" time="0.117"/>
-  <testcase name="testSyncGroupUnknownMemberResponseWithOldGeneration" classname="org.apache.kafka.clients.consumer.internals.AbstractCoordinatorTest" time="0.004"/>
-  <testcase name="testLookupCoordinator" classname="org.apache.kafka.clients.consumer.internals.AbstractCoordinatorTest" time="0.001"/>
+  <testcase name="testPollHeartbeatAwakesHeartbeatThread" classname="org.apache.kafka.clients.consumer.internals.AbstractCoordinatorTest" time="0.87"/>
+  <testcase name="testHeartbeatInstanceFencedResponseWithOldGeneration" classname="org.apache.kafka.clients.consumer.internals.AbstractCoordinatorTest" time="0.271"/>
+  <testcase name="testJoinGroupRequestWithFencedInstanceIdException" classname="org.apache.kafka.clients.consumer.internals.AbstractCoordinatorTest" time="0.012"/>
+  <testcase name="testWakeupAfterSyncGroupReceivedExternalCompletion" classname="org.apache.kafka.clients.consumer.internals.AbstractCoordinatorTest" time="0.109"/>
+  <testcase name="testJoinGroupProtocolTypeAndName" classname="org.apache.kafka.clients.consumer.internals.AbstractCoordinatorTest" time="0.013"/>
+  <testcase name="testCoordinatorDiscoveryBackoff" classname="org.apache.kafka.clients.consumer.internals.AbstractCoordinatorTest" time="0.002"/>
+  <testcase name="testJoinGroupRequestTimeout" classname="org.apache.kafka.clients.consumer.internals.AbstractCoordinatorTest" time="0.001"/>
+  <testcase name="testJoinGroupUnknownMemberResponseWithOldGeneration" classname="org.apache.kafka.clients.consumer.internals.AbstractCoordinatorTest" time="0.11"/>
+  <testcase name="testSyncGroupUnknownMemberResponseWithOldGeneration" classname="org.apache.kafka.clients.consumer.internals.AbstractCoordinatorTest" time="0.111"/>
+  <testcase name="testLookupCoordinator" classname="org.apache.kafka.clients.consumer.internals.AbstractCoordinatorTest" time="0.003"/>
   <testcase name="testSyncGroupRequestWithFencedInstanceIdException" classname="org.apache.kafka.clients.consumer.internals.AbstractCoordinatorTest" time="0.003"/>
-  <testcase name="testWakeupAfterJoinGroupSentExternalCompletion" classname="org.apache.kafka.clients.consumer.internals.AbstractCoordinatorTest" time="0.105"/>
-  <testcase name="testJoinGroupRequestWithMemberIdRequired" classname="org.apache.kafka.clients.consumer.internals.AbstractCoordinatorTest" time="0.004"/>
-  <testcase name="testHeartbeatRequestWithFencedInstanceIdException" classname="org.apache.kafka.clients.consumer.internals.AbstractCoordinatorTest" time="0.023"/>
-  <testcase name="testWakeupAfterJoinGroupSent" classname="org.apache.kafka.clients.consumer.internals.AbstractCoordinatorTest" time="0.104"/>
-  <testcase name="testHandleLeaveGroupResponseWithException" classname="org.apache.kafka.clients.consumer.internals.AbstractCoordinatorTest" time="0.007"/>
-  <testcase name="testWakeupAfterJoinGroupReceivedExternalCompletion" classname="org.apache.kafka.clients.consumer.internals.AbstractCoordinatorTest" time="0.205"/>
-  <testcase name="testWakeupInOnJoinComplete" classname="org.apache.kafka.clients.consumer.internals.AbstractCoordinatorTest" time="0.208"/>
-  <testcase name="testNoGenerationWillNotTriggerProtocolNameCheck" classname="org.apache.kafka.clients.consumer.internals.AbstractCoordinatorTest" time="0.003"/>
-  <testcase name="testGroupMaxSizeExceptionIsFatal" classname="org.apache.kafka.clients.consumer.internals.AbstractCoordinatorTest" time="0.001"/>
-  <testcase name="testWakeupAfterSyncGroupSentExternalCompletion" classname="org.apache.kafka.clients.consumer.internals.AbstractCoordinatorTest" time="0.208"/>
-  <testcase name="testWakeupAfterSyncGroupReceived" classname="org.apache.kafka.clients.consumer.internals.AbstractCoordinatorTest" time="0.105"/>
-  <testcase name="testMetrics" classname="org.apache.kafka.clients.consumer.internals.AbstractCoordinatorTest" time="0.002"/>
+  <testcase name="testWakeupAfterJoinGroupSentExternalCompletion" classname="org.apache.kafka.clients.consumer.internals.AbstractCoordinatorTest" time="0.116"/>
+  <testcase name="testJoinGroupRequestWithMemberIdRequired" classname="org.apache.kafka.clients.consumer.internals.AbstractCoordinatorTest" time="0.003"/>
+  <testcase name="testHeartbeatRequestWithFencedInstanceIdException" classname="org.apache.kafka.clients.consumer.internals.AbstractCoordinatorTest" time="0.032"/>
+  <testcase name="testWakeupAfterJoinGroupSent" classname="org.apache.kafka.clients.consumer.internals.AbstractCoordinatorTest" time="0.118"/>
+  <testcase name="testHandleLeaveGroupResponseWithException" classname="org.apache.kafka.clients.consumer.internals.AbstractCoordinatorTest" time="0.005"/>
+  <testcase name="testWakeupAfterJoinGroupReceivedExternalCompletion" classname="org.apache.kafka.clients.consumer.internals.AbstractCoordinatorTest" time="0.104"/>
+  <testcase name="testWakeupInOnJoinComplete" classname="org.apache.kafka.clients.consumer.internals.AbstractCoordinatorTest" time="0.121"/>
+  <testcase name="testNoGenerationWillNotTriggerProtocolNameCheck" classname="org.apache.kafka.clients.consumer.internals.AbstractCoordinatorTest" time="0.006"/>
+  <testcase name="testGroupMaxSizeExceptionIsFatal" classname="org.apache.kafka.clients.consumer.internals.AbstractCoordinatorTest" time="0.002"/>
+  <testcase name="testWakeupAfterSyncGroupSentExternalCompletion" classname="org.apache.kafka.clients.consumer.internals.AbstractCoordinatorTest" time="0.111"/>
+  <testcase name="testWakeupAfterSyncGroupReceived" classname="org.apache.kafka.clients.consumer.internals.AbstractCoordinatorTest" time="0.119"/>
+  <testcase name="testMetrics" classname="org.apache.kafka.clients.consumer.internals.AbstractCoordinatorTest" time="0.003"/>
   <testcase name="testJoinGroupRequestWithGroupInstanceIdNotFound" classname="org.apache.kafka.clients.consumer.internals.AbstractCoordinatorTest" time="0.001"/>
-  <testcase name="testHandleNormalLeaveGroupResponse" classname="org.apache.kafka.clients.consumer.internals.AbstractCoordinatorTest" time="0.002"/>
-  <testcase name="testLeaveGroupSentWithGroupInstanceIdUnSet" classname="org.apache.kafka.clients.consumer.internals.AbstractCoordinatorTest" time="0.004"/>
-  <testcase name="testHandleMultipleMembersLeaveGroupResponse" classname="org.apache.kafka.clients.consumer.internals.AbstractCoordinatorTest" time="0.005"/>
-  <testcase name="testHeartbeatIllegalGenerationResponseWithOldGeneration" classname="org.apache.kafka.clients.consumer.internals.AbstractCoordinatorTest" time="0.315"/>
-  <testcase name="testSyncGroupIllegalGenerationResponseWithOldGeneration" classname="org.apache.kafka.clients.consumer.internals.AbstractCoordinatorTest" time="0.106"/>
-  <testcase name="testUncaughtExceptionInHeartbeatThread" classname="org.apache.kafka.clients.consumer.internals.AbstractCoordinatorTest" time="0.023"/>
-  <testcase name="testHandleLeaveGroupResponseWithEmptyMemberResponse" classname="org.apache.kafka.clients.consumer.internals.AbstractCoordinatorTest" time="0.002"/>
+  <testcase name="testHandleNormalLeaveGroupResponse" classname="org.apache.kafka.clients.consumer.internals.AbstractCoordinatorTest" time="0.01"/>
+  <testcase name="testLeaveGroupSentWithGroupInstanceIdUnSet" classname="org.apache.kafka.clients.consumer.internals.AbstractCoordinatorTest" time="0.01"/>
+  <testcase name="testHandleMultipleMembersLeaveGroupResponse" classname="org.apache.kafka.clients.consumer.internals.AbstractCoordinatorTest" time="0.001"/>
+  <testcase name="testHeartbeatIllegalGenerationResponseWithOldGeneration" classname="org.apache.kafka.clients.consumer.internals.AbstractCoordinatorTest" time="0.236"/>
+  <testcase name="testSyncGroupIllegalGenerationResponseWithOldGeneration" classname="org.apache.kafka.clients.consumer.internals.AbstractCoordinatorTest" time="0.129"/>
+  <testcase name="testUncaughtExceptionInHeartbeatThread" classname="org.apache.kafka.clients.consumer.internals.AbstractCoordinatorTest" time="0.114"/>
+  <testcase name="testHandleLeaveGroupResponseWithEmptyMemberResponse" classname="org.apache.kafka.clients.consumer.internals.AbstractCoordinatorTest" time="0.003"/>
   <testcase name="testJoinGroupRequestTimeoutLowerBoundedByDefaultRequestTimeout" classname="org.apache.kafka.clients.consumer.internals.AbstractCoordinatorTest" time="0.001"/>
-  <testcase name="testTimeoutAndRetryJoinGroupIfNeeded" classname="org.apache.kafka.clients.consumer.internals.AbstractCoordinatorTest" time="0.004"/>
-  <testcase name="testHeartbeatSentWhenCompletingRebalance" classname="org.apache.kafka.clients.consumer.internals.AbstractCoordinatorTest" time="0.108"/>
+  <testcase name="testTimeoutAndRetryJoinGroupIfNeeded" classname="org.apache.kafka.clients.consumer.internals.AbstractCoordinatorTest" time="0.109"/>
+  <testcase name="testHeartbeatSentWhenCompletingRebalance" classname="org.apache.kafka.clients.consumer.internals.AbstractCoordinatorTest" time="0.112"/>
   <testcase name="testAuthenticationErrorInEnsureCoordinatorReady" classname="org.apache.kafka.clients.consumer.internals.AbstractCoordinatorTest" time="0.001"/>
   <testcase name="testJoinGroupRequestMaxTimeout" classname="org.apache.kafka.clients.consumer.internals.AbstractCoordinatorTest" time="0.001"/>
-  <testcase name="testWakeupAfterJoinGroupReceived" classname="org.apache.kafka.clients.consumer.internals.AbstractCoordinatorTest" time="0.204"/>
-  <testcase name="testHeartbeatRebalanceInProgressResponseDuringRebalancing" classname="org.apache.kafka.clients.consumer.internals.AbstractCoordinatorTest" time="0.107"/>
-  <testcase name="testHeartbeatUnknownMemberResponseWithOldGeneration" classname="org.apache.kafka.clients.consumer.internals.AbstractCoordinatorTest" time="0.414"/>
-  <system-out><![CDATA[[2020-10-29 10:31:28,181] ERROR JoinGroup failed: The group instance id Optional.empty has been fenced by another instance. Sent generation was Generation{generationId=-1, memberId='', protocol='null'} (org.apache.kafka.clients.consumer.internals.AbstractCoordinator:623)
-[2020-10-29 10:31:28,403] ERROR JoinGroup failed: Inconsistent Protocol Type, received wrong but expected dummy (org.apache.kafka.clients.consumer.internals.AbstractCoordinator:566)
-[2020-10-29 10:31:28,406] ERROR SyncGroup failed due to inconsistent Protocol Type, received wrong-type but expected dummy (org.apache.kafka.clients.consumer.internals.AbstractCoordinator:730)
-[2020-10-29 10:31:28,408] ERROR SyncGroup failed due to inconsistent Protocol Name, received wrong-name but expected dummy-subprotocol (org.apache.kafka.clients.consumer.internals.AbstractCoordinator:745)
-[2020-10-29 10:31:28,538] ERROR SyncGroup failed: The group instance id Optional.empty has been fenced by another instance. Sent generation was Generation{generationId=-1, memberId='memberId', protocol='dummy-subprotocol'} (org.apache.kafka.clients.consumer.internals.AbstractCoordinator:781)
-[2020-10-29 10:31:28,661] ERROR Caught fenced group.instance.id Optional.empty error in heartbeat thread (org.apache.kafka.clients.consumer.internals.AbstractCoordinator:1387)
-[2020-10-29 10:31:28,780] ERROR LeaveGroup request with Generation{generationId=1, memberId='memberId', protocol='dummy-subprotocol'} failed with error: The coordinator is not aware of this member. (org.apache.kafka.clients.consumer.internals.AbstractCoordinator:1054)
-[2020-10-29 10:31:29,200] ERROR JoinGroup failed due to fatal error: The consumer group has reached its max size. (org.apache.kafka.clients.consumer.internals.AbstractCoordinator:632)
-[2020-10-29 10:31:29,965] ERROR Heartbeat thread failed due to unexpected error (org.apache.kafka.clients.consumer.internals.AbstractCoordinator:1411)
+  <testcase name="testWakeupAfterJoinGroupReceived" classname="org.apache.kafka.clients.consumer.internals.AbstractCoordinatorTest" time="0.109"/>
+  <testcase name="testHeartbeatRebalanceInProgressResponseDuringRebalancing" classname="org.apache.kafka.clients.consumer.internals.AbstractCoordinatorTest" time="0.114"/>
+  <testcase name="testHeartbeatUnknownMemberResponseWithOldGeneration" classname="org.apache.kafka.clients.consumer.internals.AbstractCoordinatorTest" time="0.235"/>
+  <system-out><![CDATA[[2022-09-03 18:37:50,175] ERROR JoinGroup failed: The group instance id Optional.empty has been fenced by another instance. Sent generation was Generation{generationId=-1, memberId='', protocol='null'} (org.apache.kafka.clients.consumer.internals.AbstractCoordinator:623)
+[2022-09-03 18:37:50,299] ERROR JoinGroup failed: Inconsistent Protocol Type, received wrong but expected dummy (org.apache.kafka.clients.consumer.internals.AbstractCoordinator:566)
+[2022-09-03 18:37:50,302] ERROR SyncGroup failed due to inconsistent Protocol Type, received wrong-type but expected dummy (org.apache.kafka.clients.consumer.internals.AbstractCoordinator:730)
+[2022-09-03 18:37:50,304] ERROR SyncGroup failed due to inconsistent Protocol Name, received wrong-name but expected dummy-subprotocol (org.apache.kafka.clients.consumer.internals.AbstractCoordinator:745)
+[2022-09-03 18:37:50,534] ERROR SyncGroup failed: The group instance id Optional.empty has been fenced by another instance. Sent generation was Generation{generationId=-1, memberId='memberId', protocol='dummy-subprotocol'} (org.apache.kafka.clients.consumer.internals.AbstractCoordinator:781)
+[2022-09-03 18:37:50,659] ERROR Caught fenced group.instance.id Optional.empty error in heartbeat thread (org.apache.kafka.clients.consumer.internals.AbstractCoordinator:1387)
+[2022-09-03 18:37:50,812] ERROR LeaveGroup request with Generation{generationId=1, memberId='memberId', protocol='dummy-subprotocol'} failed with error: The coordinator is not aware of this member. (org.apache.kafka.clients.consumer.internals.AbstractCoordinator:1054)
+[2022-09-03 18:37:51,047] ERROR JoinGroup failed due to fatal error: The consumer group has reached its max size. (org.apache.kafka.clients.consumer.internals.AbstractCoordinator:632)
+[2022-09-03 18:37:51,723] ERROR Heartbeat thread failed due to unexpected error (org.apache.kafka.clients.consumer.internals.AbstractCoordinator:1411)
 java.lang.RuntimeException
 	at org.apache.kafka.clients.consumer.internals.AbstractCoordinatorTest.testUncaughtExceptionInHeartbeatThread(AbstractCoordinatorTest.java:927)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)

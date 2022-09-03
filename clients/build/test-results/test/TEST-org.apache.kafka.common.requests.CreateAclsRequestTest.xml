@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.apache.kafka.common.requests.CreateAclsRequestTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2020-10-29T02:34:18" hostname="chukun-mac" time="0.028">
+<testsuite name="org.apache.kafka.common.requests.CreateAclsRequestTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2022-09-03T10:38:33" hostname="LAPTOP-FH01OFOM" time="0.006">
   <properties/>
-  <testcase name="shouldThrowOnV0IfNotLiteral" classname="org.apache.kafka.common.requests.CreateAclsRequestTest" time="0.013"/>
-  <testcase name="shouldRoundTripV0" classname="org.apache.kafka.common.requests.CreateAclsRequestTest" time="0.006"/>
-  <testcase name="shouldRoundTripV1" classname="org.apache.kafka.common.requests.CreateAclsRequestTest" time="0.002"/>
-  <testcase name="shouldThrowOnIfUnknown" classname="org.apache.kafka.common.requests.CreateAclsRequestTest" time="0.006"/>
+  <testcase name="shouldThrowOnV0IfNotLiteral" classname="org.apache.kafka.common.requests.CreateAclsRequestTest" time="0.005"/>
+  <testcase name="shouldRoundTripV0" classname="org.apache.kafka.common.requests.CreateAclsRequestTest" time="0.001"/>
+  <testcase name="shouldRoundTripV1" classname="org.apache.kafka.common.requests.CreateAclsRequestTest" time="0.0"/>
+  <testcase name="shouldThrowOnIfUnknown" classname="org.apache.kafka.common.requests.CreateAclsRequestTest" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

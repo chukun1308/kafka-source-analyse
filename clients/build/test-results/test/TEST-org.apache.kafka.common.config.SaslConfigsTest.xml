@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.apache.kafka.common.config.SaslConfigsTest" tests="11" skipped="0" failures="0" errors="0" timestamp="2020-10-29T02:32:19" hostname="chukun-mac" time="0.01">
+<testsuite name="org.apache.kafka.common.config.SaslConfigsTest" tests="11" skipped="0" failures="0" errors="0" timestamp="2022-09-03T10:37:53" hostname="LAPTOP-FH01OFOM" time="0.011">
   <properties/>
-  <testcase name="testSaslLoginRefreshWindowJitterMinValueIsReallyMinimum" classname="org.apache.kafka.common.config.SaslConfigsTest" time="0.0"/>
+  <testcase name="testSaslLoginRefreshWindowJitterMinValueIsReallyMinimum" classname="org.apache.kafka.common.config.SaslConfigsTest" time="0.009"/>
   <testcase name="testSaslLoginRefreshMinPeriodSecondsMinValueIsReallyMinimum" classname="org.apache.kafka.common.config.SaslConfigsTest" time="0.0"/>
   <testcase name="testSaslLoginRefreshBufferSecondsMinValueIsReallyMinimum" classname="org.apache.kafka.common.config.SaslConfigsTest" time="0.0"/>
   <testcase name="testSaslLoginRefreshWindowFactorMinValueIsReallyMinimum" classname="org.apache.kafka.common.config.SaslConfigsTest" time="0.0"/>
   <testcase name="testSaslLoginRefreshMaxValuesAreValid" classname="org.apache.kafka.common.config.SaslConfigsTest" time="0.0"/>
-  <testcase name="testSaslLoginRefreshWindowJitterMaxValueIsReallyMaximum" classname="org.apache.kafka.common.config.SaslConfigsTest" time="0.001"/>
+  <testcase name="testSaslLoginRefreshWindowJitterMaxValueIsReallyMaximum" classname="org.apache.kafka.common.config.SaslConfigsTest" time="0.0"/>
   <testcase name="testSaslLoginRefreshMinPeriodSecondsMaxValueIsReallyMaximum" classname="org.apache.kafka.common.config.SaslConfigsTest" time="0.0"/>
-  <testcase name="testSaslLoginRefreshBufferSecondsMaxValueIsReallyMaximum" classname="org.apache.kafka.common.config.SaslConfigsTest" time="0.006"/>
+  <testcase name="testSaslLoginRefreshBufferSecondsMaxValueIsReallyMaximum" classname="org.apache.kafka.common.config.SaslConfigsTest" time="0.0"/>
   <testcase name="testSaslLoginRefreshWindowFactorMaxValueIsReallyMaximum" classname="org.apache.kafka.common.config.SaslConfigsTest" time="0.0"/>
-  <testcase name="testSaslLoginRefreshDefaults" classname="org.apache.kafka.common.config.SaslConfigsTest" time="0.001"/>
+  <testcase name="testSaslLoginRefreshDefaults" classname="org.apache.kafka.common.config.SaslConfigsTest" time="0.0"/>
   <testcase name="testSaslLoginRefreshMinValuesAreValid" classname="org.apache.kafka.common.config.SaslConfigsTest" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>

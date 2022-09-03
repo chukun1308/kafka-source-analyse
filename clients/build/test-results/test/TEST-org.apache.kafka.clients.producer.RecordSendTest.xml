@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.apache.kafka.clients.producer.RecordSendTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-10-29T02:31:18" hostname="chukun-mac" time="0.281">
+<testsuite name="org.apache.kafka.clients.producer.RecordSendTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2022-09-03T10:37:53" hostname="LAPTOP-FH01OFOM" time="0.156">
   <properties/>
-  <testcase name="testTimeout" classname="org.apache.kafka.clients.producer.RecordSendTest" time="0.167"/>
-  <testcase name="testError" classname="org.apache.kafka.clients.producer.RecordSendTest" time="0.056"/>
-  <testcase name="testBlocking" classname="org.apache.kafka.clients.producer.RecordSendTest" time="0.056"/>
+  <testcase name="testTimeout" classname="org.apache.kafka.clients.producer.RecordSendTest" time="0.011"/>
+  <testcase name="testError" classname="org.apache.kafka.clients.producer.RecordSendTest" time="0.077"/>
+  <testcase name="testBlocking" classname="org.apache.kafka.clients.producer.RecordSendTest" time="0.068"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

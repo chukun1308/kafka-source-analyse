@@ -41,7 +41,7 @@
 </td>
 <td>
 <div class="infoBox" id="duration">
-<div class="counter">1.973s</div>
+<div class="counter">0.039s</div>
 <p>duration</p>
 </div>
 </td>
@@ -79,42 +79,42 @@
 </thead>
 <tr>
 <td class="success">testClusterCopy</td>
-<td class="success">1.547s</td>
+<td class="success">0.009s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">testClusterListenerGetsNotifiedOfUpdate</td>
-<td class="success">0.312s</td>
-<td class="success">passed</td>
-</tr>
-<tr>
-<td class="success">testFailedUpdate</td>
 <td class="success">0.001s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
+<td class="success">testFailedUpdate</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
 <td class="success">testIgnoreLeaderEpochInOlderMetadataResponse</td>
-<td class="success">0.003s</td>
-<td class="success">passed</td>
-</tr>
-<tr>
-<td class="success">testInvalidTopicError</td>
-<td class="success">0.003s</td>
-<td class="success">passed</td>
-</tr>
-<tr>
-<td class="success">testLeaderMetadataInconsistentWithBrokerMetadata</td>
 <td class="success">0.002s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
+<td class="success">testInvalidTopicError</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testLeaderMetadataInconsistentWithBrokerMetadata</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
 <td class="success">testMetadataMerge</td>
-<td class="success">0.006s</td>
+<td class="success">0.004s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">testMetadataTopicErrors</td>
-<td class="success">0.016s</td>
+<td class="success">0.003s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
@@ -124,32 +124,32 @@
 </tr>
 <tr>
 <td class="success">testNoEpoch</td>
-<td class="success">0.002s</td>
+<td class="success">0s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">testNodeIfOffline</td>
-<td class="success">0.007s</td>
+<td class="success">0.001s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">testOutOfBandEpochUpdate</td>
-<td class="success">0.014s</td>
+<td class="success">0.002s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">testPartialMetadataUpdate</td>
-<td class="success">0.010s</td>
+<td class="success">0.003s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">testRejectOldMetadata</td>
-<td class="success">0.004s</td>
+<td class="success">0.002s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">testRequestUpdate</td>
-<td class="success">0.003s</td>
+<td class="success">0.001s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
@@ -164,27 +164,27 @@
 </tr>
 <tr>
 <td class="success">testTimeToNextUpdate</td>
-<td class="success">0.002s</td>
+<td class="success">0.001s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">testTimeToNextUpdateRetryBackoff</td>
-<td class="success">0.008s</td>
-<td class="success">passed</td>
-</tr>
-<tr>
-<td class="success">testTopicAuthorizationError</td>
 <td class="success">0.003s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
+<td class="success">testTopicAuthorizationError</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
 <td class="success">testUpdateLastEpoch</td>
-<td class="success">0.005s</td>
+<td class="success">0.002s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">testUpdateMetadataAllowedImmediatelyAfterBootstrap</td>
-<td class="success">0.023s</td>
+<td class="success">0s</td>
 <td class="success">passed</td>
 </tr>
 </table>
@@ -192,24 +192,24 @@
 <div id="tab1" class="tab">
 <h2>Standard output</h2>
 <span class="code">
-<pre>[2020-10-29 10:31:27,067] ERROR Metadata response reported invalid topics [topic3] (org.apache.kafka.clients.Metadata:294)
-[2020-10-29 10:31:27,100] ERROR Topic authorization failed for topics [topic4] (org.apache.kafka.clients.Metadata:301)
-[2020-10-29 10:31:27,108] ERROR Metadata response reported invalid topics [invalidTopic] (org.apache.kafka.clients.Metadata:294)
-[2020-10-29 10:31:27,109] ERROR Topic authorization failed for topics [sensitiveTopic2, sensitiveTopic1] (org.apache.kafka.clients.Metadata:301)
-[2020-10-29 10:31:27,113] ERROR Metadata response reported invalid topics [invalidTopic] (org.apache.kafka.clients.Metadata:294)
-[2020-10-29 10:31:27,114] ERROR Topic authorization failed for topics [sensitiveTopic2, sensitiveTopic1] (org.apache.kafka.clients.Metadata:301)
-[2020-10-29 10:31:27,116] ERROR Metadata response reported invalid topics [invalidTopic] (org.apache.kafka.clients.Metadata:294)
-[2020-10-29 10:31:27,116] ERROR Topic authorization failed for topics [sensitiveTopic2, sensitiveTopic1] (org.apache.kafka.clients.Metadata:301)
-[2020-10-29 10:31:27,118] ERROR Metadata response reported invalid topics [invalidTopic] (org.apache.kafka.clients.Metadata:294)
-[2020-10-29 10:31:27,119] ERROR Topic authorization failed for topics [sensitiveTopic2, sensitiveTopic1] (org.apache.kafka.clients.Metadata:301)
-[2020-10-29 10:31:27,131] ERROR Metadata response reported invalid topics [topic dfsa] (org.apache.kafka.clients.Metadata:294)
-[2020-10-29 10:31:27,132] ERROR Metadata response reported invalid topics [topic dfsa] (org.apache.kafka.clients.Metadata:294)
-[2020-10-29 10:31:27,183] ERROR Topic authorization failed for topics [foo] (org.apache.kafka.clients.Metadata:301)
-[2020-10-29 10:31:27,185] ERROR Topic authorization failed for topics [foo] (org.apache.kafka.clients.Metadata:301)
-[2020-10-29 10:31:27,501] ERROR Metadata response reported invalid topics [oldInvalidTopic, keepInvalidTopic] (org.apache.kafka.clients.Metadata:294)
-[2020-10-29 10:31:27,501] ERROR Topic authorization failed for topics [oldUnauthorizedTopic, keepUnauthorizedTopic] (org.apache.kafka.clients.Metadata:301)
-[2020-10-29 10:31:27,503] ERROR Metadata response reported invalid topics [newInvalidTopic, keepInvalidTopic] (org.apache.kafka.clients.Metadata:294)
-[2020-10-29 10:31:27,504] ERROR Topic authorization failed for topics [newUnauthorizedTopic, keepUnauthorizedTopic] (org.apache.kafka.clients.Metadata:301)
+<pre>[2022-09-03 18:40:13,488] ERROR Metadata response reported invalid topics [topic3] (org.apache.kafka.clients.Metadata:294)
+[2022-09-03 18:40:13,488] ERROR Topic authorization failed for topics [topic4] (org.apache.kafka.clients.Metadata:301)
+[2022-09-03 18:40:13,490] ERROR Metadata response reported invalid topics [invalidTopic] (org.apache.kafka.clients.Metadata:294)
+[2022-09-03 18:40:13,490] ERROR Topic authorization failed for topics [sensitiveTopic2, sensitiveTopic1] (org.apache.kafka.clients.Metadata:301)
+[2022-09-03 18:40:13,491] ERROR Metadata response reported invalid topics [invalidTopic] (org.apache.kafka.clients.Metadata:294)
+[2022-09-03 18:40:13,491] ERROR Topic authorization failed for topics [sensitiveTopic2, sensitiveTopic1] (org.apache.kafka.clients.Metadata:301)
+[2022-09-03 18:40:13,492] ERROR Metadata response reported invalid topics [invalidTopic] (org.apache.kafka.clients.Metadata:294)
+[2022-09-03 18:40:13,492] ERROR Topic authorization failed for topics [sensitiveTopic2, sensitiveTopic1] (org.apache.kafka.clients.Metadata:301)
+[2022-09-03 18:40:13,492] ERROR Metadata response reported invalid topics [invalidTopic] (org.apache.kafka.clients.Metadata:294)
+[2022-09-03 18:40:13,492] ERROR Topic authorization failed for topics [sensitiveTopic2, sensitiveTopic1] (org.apache.kafka.clients.Metadata:301)
+[2022-09-03 18:40:13,496] ERROR Metadata response reported invalid topics [topic dfsa] (org.apache.kafka.clients.Metadata:294)
+[2022-09-03 18:40:13,496] ERROR Metadata response reported invalid topics [topic dfsa] (org.apache.kafka.clients.Metadata:294)
+[2022-09-03 18:40:13,502] ERROR Topic authorization failed for topics [foo] (org.apache.kafka.clients.Metadata:301)
+[2022-09-03 18:40:13,502] ERROR Topic authorization failed for topics [foo] (org.apache.kafka.clients.Metadata:301)
+[2022-09-03 18:40:13,505] ERROR Metadata response reported invalid topics [oldInvalidTopic, keepInvalidTopic] (org.apache.kafka.clients.Metadata:294)
+[2022-09-03 18:40:13,506] ERROR Topic authorization failed for topics [oldUnauthorizedTopic, keepUnauthorizedTopic] (org.apache.kafka.clients.Metadata:301)
+[2022-09-03 18:40:13,507] ERROR Metadata response reported invalid topics [newInvalidTopic, keepInvalidTopic] (org.apache.kafka.clients.Metadata:294)
+[2022-09-03 18:40:13,508] ERROR Topic authorization failed for topics [newUnauthorizedTopic, keepUnauthorizedTopic] (org.apache.kafka.clients.Metadata:301)
 </pre>
 </span>
 </div>
@@ -221,7 +221,7 @@
 <input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
 </label>
 </div>Generated by 
-<a href="http://www.gradle.org">Gradle 6.7</a> at 2020-10-29 10:36:13</p>
+<a href="http://www.gradle.org">Gradle 6.7</a> at 2022-9-3 18:41:17</p>
 </div>
 </div>
 </body>

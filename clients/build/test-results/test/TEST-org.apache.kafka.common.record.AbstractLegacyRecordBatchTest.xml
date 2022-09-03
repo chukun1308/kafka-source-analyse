@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.apache.kafka.common.record.AbstractLegacyRecordBatchTest" tests="11" skipped="0" failures="0" errors="0" timestamp="2020-10-29T02:32:51" hostname="chukun-mac" time="0.006">
+<testsuite name="org.apache.kafka.common.record.AbstractLegacyRecordBatchTest" tests="11" skipped="0" failures="0" errors="0" timestamp="2022-09-03T10:38:11" hostname="LAPTOP-FH01OFOM" time="0.007">
   <properties/>
   <testcase name="testSetCreateTimeNotAllowedV0" classname="org.apache.kafka.common.record.AbstractLegacyRecordBatchTest" time="0.001"/>
-  <testcase name="testSetNoTimestampTypeNotAllowed" classname="org.apache.kafka.common.record.AbstractLegacyRecordBatchTest" time="0.001"/>
-  <testcase name="testInvalidWrapperOffsetV1" classname="org.apache.kafka.common.record.AbstractLegacyRecordBatchTest" time="0.001"/>
-  <testcase name="testSetLogAppendTimeV1" classname="org.apache.kafka.common.record.AbstractLegacyRecordBatchTest" time="0.0"/>
-  <testcase name="testSetPartitionLeaderEpochNotAllowedV0" classname="org.apache.kafka.common.record.AbstractLegacyRecordBatchTest" time="0.001"/>
+  <testcase name="testSetNoTimestampTypeNotAllowed" classname="org.apache.kafka.common.record.AbstractLegacyRecordBatchTest" time="0.0"/>
+  <testcase name="testInvalidWrapperOffsetV1" classname="org.apache.kafka.common.record.AbstractLegacyRecordBatchTest" time="0.003"/>
+  <testcase name="testSetLogAppendTimeV1" classname="org.apache.kafka.common.record.AbstractLegacyRecordBatchTest" time="0.001"/>
+  <testcase name="testSetPartitionLeaderEpochNotAllowedV0" classname="org.apache.kafka.common.record.AbstractLegacyRecordBatchTest" time="0.0"/>
   <testcase name="testSetPartitionLeaderEpochNotAllowedV1" classname="org.apache.kafka.common.record.AbstractLegacyRecordBatchTest" time="0.0"/>
-  <testcase name="testSetCreateTimeV1" classname="org.apache.kafka.common.record.AbstractLegacyRecordBatchTest" time="0.001"/>
-  <testcase name="testSetLastOffsetCompressed" classname="org.apache.kafka.common.record.AbstractLegacyRecordBatchTest" time="0.0"/>
-  <testcase name="testZStdCompressionTypeWithV0OrV1" classname="org.apache.kafka.common.record.AbstractLegacyRecordBatchTest" time="0.001"/>
+  <testcase name="testSetCreateTimeV1" classname="org.apache.kafka.common.record.AbstractLegacyRecordBatchTest" time="0.0"/>
+  <testcase name="testSetLastOffsetCompressed" classname="org.apache.kafka.common.record.AbstractLegacyRecordBatchTest" time="0.001"/>
+  <testcase name="testZStdCompressionTypeWithV0OrV1" classname="org.apache.kafka.common.record.AbstractLegacyRecordBatchTest" time="0.0"/>
   <testcase name="testSetLogAppendTimeNotAllowedV0" classname="org.apache.kafka.common.record.AbstractLegacyRecordBatchTest" time="0.0"/>
-  <testcase name="testIterateCompressedRecordWithWrapperOffsetZero" classname="org.apache.kafka.common.record.AbstractLegacyRecordBatchTest" time="0.0"/>
+  <testcase name="testIterateCompressedRecordWithWrapperOffsetZero" classname="org.apache.kafka.common.record.AbstractLegacyRecordBatchTest" time="0.001"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

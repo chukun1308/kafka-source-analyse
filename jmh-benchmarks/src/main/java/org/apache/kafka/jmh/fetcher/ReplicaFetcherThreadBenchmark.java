@@ -47,7 +47,6 @@ import org.apache.kafka.common.message.LeaderAndIsrRequestData;
 import org.apache.kafka.common.metrics.Metrics;
 import org.apache.kafka.common.protocol.Errors;
 import org.apache.kafka.common.record.BaseRecords;
-import org.apache.kafka.common.record.Records;
 import org.apache.kafka.common.record.RecordsSend;
 import org.apache.kafka.common.requests.EpochEndOffset;
 import org.apache.kafka.common.requests.FetchRequest;
@@ -312,7 +311,7 @@ public class ReplicaFetcherThreadBenchmark {
         }
 
         @Override
-        public Map<TopicPartition, FetchResponse.PartitionData<Records>> fetchFromLeader(FetchRequest.Builder fetchRequest) {
+        public Map<TopicPartition, FetchResponse.PartitionData> fetchFromLeader(FetchRequest.Builder fetchRequest) {
             return new scala.collection.mutable.HashMap<>();
         }
     }

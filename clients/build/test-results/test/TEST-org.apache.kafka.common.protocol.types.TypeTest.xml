@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.apache.kafka.common.protocol.types.TypeTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2020-10-29T02:34:18" hostname="chukun-mac" time="0.003">
+<testsuite name="org.apache.kafka.common.protocol.types.TypeTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2022-09-03T10:40:16" hostname="LAPTOP-FH01OFOM" time="0.014">
   <properties/>
-  <testcase name="testCompactRecordsSerde" classname="org.apache.kafka.common.protocol.types.TypeTest" time="0.001"/>
+  <testcase name="testCompactRecordsSerde" classname="org.apache.kafka.common.protocol.types.TypeTest" time="0.012"/>
   <testcase name="testNullCompactRecordsSerde" classname="org.apache.kafka.common.protocol.types.TypeTest" time="0.0"/>
   <testcase name="testRecordsSerde" classname="org.apache.kafka.common.protocol.types.TypeTest" time="0.0"/>
   <testcase name="testEmptyCompactRecordsSerde" classname="org.apache.kafka.common.protocol.types.TypeTest" time="0.0"/>
   <testcase name="testNullRecordsSerde" classname="org.apache.kafka.common.protocol.types.TypeTest" time="0.0"/>
-  <testcase name="testEmptyRecordsSerde" classname="org.apache.kafka.common.protocol.types.TypeTest" time="0.0"/>
+  <testcase name="testEmptyRecordsSerde" classname="org.apache.kafka.common.protocol.types.TypeTest" time="0.001"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
